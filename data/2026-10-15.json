@@ -388,5 +388,31 @@
   "source": "글로벌이코노믹",
   "published": "2026-10-15T02:54+09:00",
   "first_seen": "2026-10-15T07:01+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기술",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "title": "미국 전력망 멈춰 세운 인공지능, 효성중공업 고체 변압기 시험대에 올리다",
+  "original": "",
+  "url": "https://www.g-enews.com/article/Global-Biz/2026/10/202610150708069553fbbec65dfb_1",
+  "source": "글로벌이코노믹",
+  "published": "2026-10-15T07:08+09:00",
+  "first_seen": "2026-10-15T07:37+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "title": "Apple과 Schneider의 새로운 스마트 온도 조절 장치로 전기 요금 절감에 도움이 될 수 있다",
+  "original": "Apple and Schneider’s new smart thermostat could help cut your electric bill",
+  "url": "https://electrek.co/2026/10/14/apple-and-schneiders-new-smart-thermostat-could-help-cut-your-electric-bill/",
+  "source": "Electrek",
+  "published": "2026-10-15T07:06+09:00",
+  "first_seen": "2026-10-15T07:37+09:00"
  }
 ]
