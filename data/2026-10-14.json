@@ -612,7 +612,7 @@
   "original": "GAC: Copper semis imports fell 6.5%, rare earth imports fell 2.4%, and aluminum semis exports rose 17.8% in the first three quarters",
   "url": "https://news.metal.com/en/newscontent/104157221-gac-copper-semis-imports-fell-65-rare-earth-imports-fell-24-and-aluminum-semis-exports-rose-178-in-the-first-three-quarters",
   "source": "SMM",
-  "published": "2026-10-14T15:05+09:00",
+  "published": "2026-10-14T19:28+09:00",
   "first_seen": "2026-10-14T15:12+09:00"
  },
  {
@@ -1654,5 +1654,57 @@
   "source": "SMM",
   "published": "2026-10-14T17:40+09:00",
   "first_seen": "2026-10-14T18:55+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기술",
+  "impact": "0",
+  "key": false,
+  "region": "EU",
+  "title": "메르세데스-벤츠, 독일에서 양방향 충전 개시",
+  "original": "Mercedes-Benz launches bidirectional charging in Germany",
+  "url": "https://www.pv-magazine.com/2026/10/14/mercedes-benz-launches-bidirectional-charging-in-germany/",
+  "source": "pv magazine",
+  "published": "2026-10-14T19:32+09:00",
+  "first_seen": "2026-10-14T19:33+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "EU",
+  "title": "미쉐린, 유럽 차량용 EV Charge 출시",
+  "original": "Michelin launches EV Charge for European fleets",
+  "url": "https://www.electrive.com/2026/10/14/michelin-launches-ev-charge-for-european-fleets/",
+  "source": "electrive",
+  "published": "2026-10-14T19:31+09:00",
+  "first_seen": "2026-10-14T19:33+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "산업",
+  "impact": "0",
+  "key": false,
+  "region": "EU",
+  "title": "삼성물산, 호주에서 800MWh 배터리 승인 추진",
+  "original": "Samsung C&T seeks approval for 800 MWh battery in Australia",
+  "url": "https://www.ess-news.com/2026/10/14/samsung-ct-seeks-approval-for-800-mwh-battery-in-australia/",
+  "source": "ESS News",
+  "published": "2026-10-14T19:30+09:00",
+  "first_seen": "2026-10-14T19:33+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "title": "[SMM 글로벌 구리 음극 플래시] 시장 소식통에 따르면 아우루비스(Aurubis)",
+  "original": "[SMM Global Copper Cathode Flash] According to market sources, Aurubis",
+  "url": "https://news.metal.com/en/newscontent/104157556-aurubis-2027-copper-cathode-long-term-contract-premium-offer-hits-record-high",
+  "source": "SMM",
+  "published": "2026-10-14T19:10+09:00",
+  "first_seen": "2026-10-14T19:33+09:00"
  }
 ]
