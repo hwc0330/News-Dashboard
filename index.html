@@ -96,6 +96,8 @@
 </div>
 <script>
 const $ = s => document.querySelector(s);
+// '지금 수집' 중계 서버 주소 (dashboard/worker.js 를 Cloudflare Workers 에 올린 주소). 비어 있으면 GitHub 페이지로 연결(주인만 실행 가능)
+const COLLECT_URL = "";
 const IMP = {"+": ["up", "▲", "호재"], "-": ["down", "▼", "악재"], "0": ["flat", "－", "중립"]};
 let meta, items = [], activeTag = null, activeFlag = null, current = null;
 
@@ -118,16 +120,27 @@ async function init() {
   $("#q").oninput = render;
   $("#refresh").onclick = manualRefresh;
   $("#collect").addEventListener("click", watchCollect);
+  if (COLLECT_URL) $("#collect").title = "매체를 지금 다시 훑습니다 (2~4분 소요)";
   if (meta.dates.length) await load(meta.dates[0]); else $("#list").innerHTML = '<p class="empty">아직 데이터가 없습니다.</p>';
   setInterval(refresh, 5 * 60e3);   // 5분마다 새 데이터 확인
 }
 
 // 지금 수집: GitHub에서 수집을 실행한 뒤 8분 동안 20초마다 새 데이터를 확인해 반영
 let watchTimer = null;
-function watchCollect() {
+async function watchCollect(ev) {
+  if (COLLECT_URL) {                      // 중계 서버가 있으면 누구나 바로 수집 시작
+    ev.preventDefault();
+    try {
+      const r = await (await fetch(COLLECT_URL, {method: "POST"})).json();
+      $("#status").textContent = r.started ? "수집을 시작했습니다. 2~4분 뒤 자동 반영됩니다"
+        : r.reason === "running" ? "이미 수집 중입니다. 끝나면 자동 반영됩니다"
+        : "방금 수집했습니다. 잠시 뒤 자동 반영됩니다";
+    } catch (e) { $("#status").textContent = "수집 요청에 실패했습니다"; return; }
+  } else {
+    $("#status").textContent = "GitHub에서 'Run workflow'를 누르면 2~4분 뒤 자동 반영됩니다";
+  }
   const startUpdated = meta.updated, until = Date.now() + 8 * 60e3;
   clearInterval(watchTimer);
-  $("#status").textContent = "GitHub에서 'Run workflow'를 누르면 2~4분 뒤 자동 반영됩니다";
   watchTimer = setInterval(async () => {
     if (Date.now() > until) { clearInterval(watchTimer); $("#status").textContent = ""; return; }
     try {
@@ -155,7 +168,7 @@ async function manualRefresh() {
 }
 
 function fillDates() {
-  $("#updated").textContent = "업데이트 " + when(meta.updated) + " · 30분마다 갱신";
+  $("#updated").textContent = "업데이트 " + when(meta.updated) + " · 10분마다 자동 수집";
   const keep = $("#date").value;
   $("#date").innerHTML = meta.dates.map(d => `<option value="${d}">${d}</option>`).join("");
   if (keep && meta.dates.includes(keep)) $("#date").value = keep;
