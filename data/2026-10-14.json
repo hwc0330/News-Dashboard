@@ -2135,5 +2135,44 @@
   "source": "Politico Europe",
   "published": "2026-10-14T21:27+09:00",
   "first_seen": "2026-10-14T22:45+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "title": "Ford, 30,000달러 상당의 Fathom EV 픽업 사전 주문 개시",
+  "original": "Ford opens preorder invites for the $30,000 Fathom EV pickup",
+  "url": "https://electrek.co/2026/10/14/ford-opens-preorder-invites-30000-fathom-ev-pickup/",
+  "source": "Electrek",
+  "published": "2026-10-14T23:14+09:00",
+  "first_seen": "2026-10-14T23:15+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "EU",
+  "title": "파리 모터쇼에서 Lancia Gamma의 세계 초연",
+  "original": "World premiere for the Lancia Gamma at the Paris Motor Show",
+  "url": "https://www.electrive.com/2026/10/14/world-premiere-for-the-lancia-gamma-at-the-paris-motor-show/",
+  "source": "electrive",
+  "published": "2026-10-14T22:57+09:00",
+  "first_seen": "2026-10-14T23:15+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "EU",
+  "title": "TomTom, EV 서비스에 새로운 EV 통합 가속화",
+  "original": "TomTom accelerates integration of new EVs into its EV services",
+  "url": "https://www.electrive.com/2026/10/14/tomtom-accelerates-integration-of-new-evs-into-its-ev-services/",
+  "source": "electrive",
+  "published": "2026-10-14T22:50+09:00",
+  "first_seen": "2026-10-14T23:15+09:00"
  }
 ]
