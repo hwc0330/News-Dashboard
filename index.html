@@ -9,12 +9,14 @@
   :root {
     --bg: #f6f7f9; --card: #fff; --text: #1d2330; --muted: #6b7280; --line: #e5e7eb;
     --accent: #1a56c4; --chip: #eef2f8; --chip-on: #1a56c4; --chip-on-text: #fff;
+    --up: #d1242f; --down: #1f6feb; --flat: #8b929c; --new: #e8590c; --key: #b7791f; --key-bg: #fff8e6;
     color-scheme: light;
   }
   @media (prefers-color-scheme: dark) {
     :root {
       --bg: #12151b; --card: #1b2029; --text: #e6e9ef; --muted: #9aa3b2; --line: #2a313d;
       --accent: #7aa7ff; --chip: #252c38; --chip-on: #7aa7ff; --chip-on-text: #0d1117;
+      --up: #ff6b6b; --down: #6ea8ff; --flat: #7d8590; --new: #ff922b; --key: #f0b429; --key-bg: #2a2416;
       color-scheme: dark;
     }
   }
@@ -22,14 +24,16 @@
   body { margin: 0; background: var(--bg); color: var(--text);
          font: 15px/1.55 "Pretendard", "Malgun Gothic", "Apple SD Gothic Neo", system-ui, sans-serif; }
   .wrap { max-width: 980px; margin: 0 auto; padding: 20px 16px 60px; }
-  header { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 14px; margin-bottom: 14px; }
+  header { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 14px; margin-bottom: 6px; }
   h1 { font-size: 20px; margin: 0; }
   .updated { color: var(--muted); font-size: 13px; }
+  .legend { color: var(--muted); font-size: 12.5px; margin-bottom: 12px; display: flex; flex-wrap: wrap; gap: 4px 14px; }
   .controls { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 10px; }
   select, input[type=search] { font: inherit; padding: 7px 10px; border: 1px solid var(--line);
          border-radius: 8px; background: var(--card); color: var(--text); }
   input[type=search] { flex: 1; min-width: 180px; }
-  .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 18px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 8px; }
+  .chips.last { margin-bottom: 18px; }
   .chip { border: 0; border-radius: 999px; padding: 5px 12px; font: inherit; font-size: 13px;
           background: var(--chip); color: var(--text); cursor: pointer; }
   .chip[aria-pressed=true] { background: var(--chip-on); color: var(--chip-on-text); }
@@ -45,9 +49,16 @@
   details.grp[open] > summary::before { content: "▾ "; }
   details.grp > summary .n { color: var(--muted); font-weight: 400; margin-left: 4px; }
   ul { list-style: none; margin: 0; padding: 0 14px 6px; }
-  li { padding: 8px 0; border-top: 1px solid var(--line); }
+  li { padding: 8px 0; border-top: 1px solid var(--line); display: grid; grid-template-columns: 1.4em 1fr; column-gap: 6px; }
+  li.key { background: var(--key-bg); margin: 0 -14px; padding: 8px 14px; }
+  .imp { font-weight: 700; text-align: center; line-height: 1.55; }
+  .imp.up { color: var(--up); } .imp.down { color: var(--down); } .imp.flat { color: var(--flat); }
   li a { color: var(--text); text-decoration: none; }
   li a:hover { color: var(--accent); text-decoration: underline; }
+  .badge { display: inline-block; font-size: 11px; font-weight: 700; border-radius: 4px; padding: 0 5px;
+           margin-right: 5px; vertical-align: 1px; }
+  .badge.new { background: var(--new); color: #fff; }
+  .badge.key { border: 1px solid var(--key); color: var(--key); }
   .meta { color: var(--muted); font-size: 12.5px; margin-top: 2px; }
   .orig { color: var(--muted); font-size: 12.5px; }
   .empty { color: var(--muted); padding: 30px 0; text-align: center; }
@@ -59,49 +70,90 @@
     <h1>배터리/전기차 헤드라인</h1>
     <span class="updated" id="updated"></span>
   </header>
+  <div class="legend">
+    <span>국내 셀 3사 관점: <b class="imp up">▲</b> 호재 · <b class="imp down">▼</b> 악재 · <b class="imp flat">－</b> 중립 (키워드 자동 추정)</span>
+    <span><span class="badge key">★ 미·유럽 정책</span>보조금·대중국 견제</span>
+    <span><span class="badge new">NEW</span>지난 방문 이후 새 기사</span>
+  </div>
   <div class="controls">
     <select id="date" aria-label="날짜"></select>
     <input type="search" id="q" placeholder="제목·매체 검색" aria-label="검색">
   </div>
   <div class="chips" id="chips"></div>
+  <div class="chips last" id="chips2"></div>
   <main id="list"><p class="empty">불러오는 중…</p></main>
 </div>
 <script>
 const $ = s => document.querySelector(s);
-let meta, items = [], activeTag = null;
+const IMP = {"+": ["up", "▲", "호재"], "-": ["down", "▼", "악재"], "0": ["flat", "－", "중립"]};
+let meta, items = [], activeTag = null, activeFlag = null, current = null;
 
-const esc = s => String(s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
-const hhmm = iso => { const d = new Date(iso); return isNaN(d) ? "" :
+// NEW 기준: 이 기기에서 지난번 페이지를 연 시각 (처음이면 최근 3시간)
+let lastVisit = null;
+try { lastVisit = localStorage.getItem("lastVisit"); localStorage.setItem("lastVisit", new Date().toISOString()); } catch (e) {}
+const newSince = lastVisit ? new Date(lastVisit) : new Date(Date.now() - 3 * 3600e3);
+const isNew = it => it.first_seen && new Date(it.first_seen) > newSince;
+
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const when = iso => { const d = new Date(iso); return isNaN(d) ? "" :
   d.toLocaleString("ko-KR", {timeZone: "Asia/Seoul", month: "numeric", day: "numeric", hour: "2-digit", minute: "2-digit", hour12: false}); };
 
+async function fetchMeta() { return (await fetch("data/index.json", {cache: "no-store"})).json(); }
+
 async function init() {
-  meta = await (await fetch("data/index.json", {cache: "no-store"})).json();
-  $("#updated").textContent = "업데이트 " + hhmm(meta.updated);
-  $("#date").innerHTML = meta.dates.map(d => `<option value="${d}">${d}</option>`).join("");
+  meta = await fetchMeta();
+  fillDates();
   $("#date").onchange = () => load($("#date").value);
   $("#q").oninput = render;
-  if (meta.dates.length) load(meta.dates[0]); else $("#list").innerHTML = '<p class="empty">아직 데이터가 없습니다.</p>';
+  if (meta.dates.length) await load(meta.dates[0]); else $("#list").innerHTML = '<p class="empty">아직 데이터가 없습니다.</p>';
+  setInterval(refresh, 5 * 60e3);   // 5분마다 새 데이터 확인
+}
+
+function fillDates() {
+  $("#updated").textContent = "업데이트 " + when(meta.updated) + " · 30분마다 갱신";
+  const keep = $("#date").value;
+  $("#date").innerHTML = meta.dates.map(d => `<option value="${d}">${d}</option>`).join("");
+  if (keep && meta.dates.includes(keep)) $("#date").value = keep;
+}
+
+async function refresh() {
+  try {
+    const m = await fetchMeta();
+    if (m.updated === meta.updated) return;
+    const wasLatest = current === meta.dates[0];
+    meta = m; fillDates();
+    if (wasLatest) { $("#date").value = meta.dates[0]; await load(meta.dates[0]); } else render();
+  } catch (e) {}
 }
 
 async function load(date) {
+  current = date;
   items = await (await fetch(`data/${date}.json`, {cache: "no-store"})).json();
-  items.sort((a, b) => b.published.localeCompare(a.published));
   render();
+}
+
+function chipRow(el, entries, active, onPick) {
+  el.innerHTML = entries.map(([val, label, n]) =>
+    `<button class="chip" data-v="${esc(val)}" aria-pressed="${(active ?? "") === val}">${label}<span class="n">${n}</span></button>`).join("");
+  el.querySelectorAll(".chip").forEach(b => b.onclick = () => onPick(b.dataset.v || null));
 }
 
 function render() {
   const q = $("#q").value.trim().toLowerCase();
-  const hit = it => !q || (it.title + " " + it.original + " " + it.source).toLowerCase().includes(q);
-  const base = items.filter(hit);
+  const base = items.filter(it => !q || (it.title + " " + it.original + " " + it.source).toLowerCase().includes(q));
 
+  const flagged = base.filter(it => !activeFlag || (activeFlag === "key" ? it.key : activeFlag === "new" ? isNew(it) : it.impact === activeFlag));
   const counts = {};
-  base.forEach(it => counts[it.tag] = (counts[it.tag] || 0) + 1);
-  const tags = meta.tags.filter(t => counts[t]);
-  $("#chips").innerHTML = [`<button class="chip" data-tag="" aria-pressed="${!activeTag}">전체<span class="n">${base.length}</span></button>`]
-    .concat(tags.map(t => `<button class="chip" data-tag="${esc(t)}" aria-pressed="${activeTag === t}">${esc(t)}<span class="n">${counts[t]}</span></button>`)).join("");
-  $("#chips").querySelectorAll(".chip").forEach(b => b.onclick = () => { activeTag = b.dataset.tag || null; render(); });
+  flagged.forEach(it => counts[it.tag] = (counts[it.tag] || 0) + 1);
+  chipRow($("#chips"), [["", "전체", flagged.length]].concat(meta.tags.filter(t => counts[t]).map(t => [t, esc(t), counts[t]])),
+          activeTag, v => { activeTag = v; render(); });
+  const n = f => base.filter(f).length;
+  chipRow($("#chips2"), [["", "모든 표시", base.length], ["key", "★ 미·유럽 정책", n(it => it.key)], ["new", "NEW", n(isNew)],
+          ["+", "▲ 호재", n(it => it.impact === "+")], ["-", "▼ 악재", n(it => it.impact === "-")], ["0", "－ 중립", n(it => (it.impact || "0") === "0")]],
+          activeFlag, v => { activeFlag = v; render(); });
 
-  const shown = base.filter(it => !activeTag || it.tag === activeTag);
+  const shown = flagged.filter(it => !activeTag || it.tag === activeTag)
+    .sort((a, b) => (b.key ? 1 : 0) - (a.key ? 1 : 0) || b.published.localeCompare(a.published));
   if (!shown.length) { $("#list").innerHTML = '<p class="empty">해당하는 기사가 없습니다.</p>'; return; }
 
   $("#list").innerHTML = meta.sections.map(sec => {
@@ -111,9 +163,15 @@ function render() {
       const g = inSec.filter(it => it.tag === tag);
       if (!g.length) return "";
       return `<details class="grp" ${sec === "기타" ? "" : "open"}><summary>(${esc(tag)})<span class="n">${g.length}</span></summary><ul>` +
-        g.map(it => `<li><a href="${esc(it.url)}" target="_blank" rel="noopener">${esc(it.title)}</a>` +
-          (it.original ? `<div class="orig">${esc(it.original)}</div>` : "") +
-          `<div class="meta">${esc(it.source)} · ${hhmm(it.published)}</div></li>`).join("") + "</ul></details>";
+        g.map(it => {
+          const [cls, sym, word] = IMP[it.impact] || IMP["0"];
+          return `<li class="${it.key ? "key" : ""}"><span class="imp ${cls}" title="${word}">${sym}</span><div>` +
+            (isNew(it) ? '<span class="badge new">NEW</span>' : "") +
+            (it.key ? '<span class="badge key">★ 정책</span>' : "") +
+            `<a href="${esc(it.url)}" target="_blank" rel="noopener">${esc(it.title)}</a>` +
+            (it.original ? `<div class="orig">${esc(it.original)}</div>` : "") +
+            `<div class="meta">${esc(it.source)}${it.region ? " (" + esc(it.region) + ")" : ""} · ${when(it.published)}</div></div></li>`;
+        }).join("") + "</ul></details>";
     }).join("");
     return `<section class="sec"><h2>■ ${esc(sec)}<span class="n">${inSec.length}건</span></h2>${groups}</section>`;
   }).join("");
