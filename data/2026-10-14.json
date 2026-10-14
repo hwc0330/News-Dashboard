@@ -1888,5 +1888,83 @@
   "source": "글로벌이코노믹",
   "published": "2026-10-14T20:07+09:00",
   "first_seen": "2026-10-14T20:47+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "EU",
+  "title": "파나소닉, 주거용 R454C 공랭식 히트펌프 공개",
+  "original": "Panasonic unveils R454C air-to-water heat pumps for residential use",
+  "url": "https://www.pv-magazine.com/2026/10/14/panasonic-unveils-r454c-air-to-water-heat-pumps-for-residential-use/",
+  "source": "pv magazine",
+  "published": "2026-10-14T21:13+09:00",
+  "first_seen": "2026-10-14T21:16+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "title": "중국의 거대 태양광 기업들은 지난해 과잉 생산으로 인해 4만 명을 추가로 해고했다",
+  "original": "Gigantes do setor solar da China cortaram mais 40 mil empregos no ano passado, em meio à sobrecapacidade",
+  "url": "https://www.reuters.com/pt/negocio/ZOY2U5VPORLPDHJI36Y7KZUL7Q-2026-10-14/",
+  "source": "Reuters",
+  "published": "2026-10-14T21:05+09:00",
+  "first_seen": "2026-10-14T21:16+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "EU",
+  "title": "Unico, 330kW 양방향 인버터 출시",
+  "original": "Unico launches 330 kW bidirectional inverter",
+  "url": "https://www.pv-magazine.com/2026/10/14/unico-launches-330-kw-bidirectional-inverter/",
+  "source": "pv magazine",
+  "published": "2026-10-14T20:56+09:00",
+  "first_seen": "2026-10-14T21:16+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "EU",
+  "title": "Trafigura, EnergyX로부터 리튬에 대한 접근 확보",
+  "original": "Trafigura secures access to lithium from EnergyX",
+  "url": "https://www.electrive.com/2026/10/14/trafigura-secures-access-to-lithium-from-energyx/",
+  "source": "electrive",
+  "published": "2026-10-14T20:47+09:00",
+  "first_seen": "2026-10-14T21:16+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "title": "하이브리드 자동차 거래 이후 EU는 다른 부문에서 중국 무역의 균형을 재조정해야 한다고 Dombrovskis는 말했다",
+  "original": "After hybrid car deal, EU needs to rebalance China trade in other sectors, Dombrovskis says",
+  "url": "https://www.reuters.com/site-search/?query=After%20hybrid%20car%20deal%2C%20EU%20needs%20to%20rebalance%20China%20trade%20in%20other%20sectors%2C%20Dombrovskis%20says",
+  "source": "Reuters",
+  "published": "2026-10-14T20:30+09:00",
+  "first_seen": "2026-10-14T21:16+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "title": "트럼프 관세 위협으로 미국 구리산 건설됐지만 효과는 사라지고 있다",
+  "original": "Trump tariff threat built a US copper mountain, but the effects are fading",
+  "url": "https://www.reuters.com/site-search/?query=Trump%20tariff%20threat%20built%20a%20US%20copper%20mountain%2C%20but%20the%20effects%20are%20fading",
+  "source": "Reuters",
+  "published": "2026-10-14T20:19+09:00",
+  "first_seen": "2026-10-14T21:16+09:00"
  }
 ]
