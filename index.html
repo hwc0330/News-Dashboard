@@ -27,6 +27,11 @@
   header { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 14px; margin-bottom: 6px; }
   h1 { font-size: 20px; margin: 0; }
   .updated { color: var(--muted); font-size: 13px; }
+  .refresh { margin-left: auto; font: inherit; font-size: 13px; padding: 5px 12px; border: 1px solid var(--line);
+             border-radius: 8px; background: var(--card); color: var(--text); cursor: pointer; }
+  .refresh:hover { border-color: var(--accent); color: var(--accent); }
+  .refresh:disabled { opacity: .6; cursor: default; }
+  .status { color: var(--muted); font-size: 12.5px; }
   .legend { color: var(--muted); font-size: 12.5px; margin-bottom: 12px; display: flex; flex-wrap: wrap; gap: 4px 14px; }
   .controls { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 10px; }
   select, input[type=search] { font: inherit; padding: 7px 10px; border: 1px solid var(--line);
@@ -69,6 +74,8 @@
   <header>
     <h1>배터리/전기차 헤드라인</h1>
     <span class="updated" id="updated"></span>
+    <span class="status" id="status" role="status"></span>
+    <button class="refresh" id="refresh" type="button">↻ 새로고침</button>
   </header>
   <div class="legend">
     <span>국내 셀 3사 관점: <b class="imp up">▲</b> 호재 · <b class="imp down">▼</b> 악재 · <b class="imp flat">－</b> 중립 (키워드 자동 추정)</span>
@@ -105,8 +112,26 @@ async function init() {
   fillDates();
   $("#date").onchange = () => load($("#date").value);
   $("#q").oninput = render;
+  $("#refresh").onclick = manualRefresh;
   if (meta.dates.length) await load(meta.dates[0]); else $("#list").innerHTML = '<p class="empty">아직 데이터가 없습니다.</p>';
   setInterval(refresh, 5 * 60e3);   // 5분마다 새 데이터 확인
+}
+
+// 새로고침 버튼: 지금 화면의 날짜 데이터를 다시 받아 새로 들어온 기사 수를 알려줌
+async function manualRefresh() {
+  const btn = $("#refresh"), before = new Set(items.map(it => it.url));
+  btn.disabled = true; $("#status").textContent = "확인 중…";
+  try {
+    meta = await fetchMeta(); fillDates();          // 선택해 둔 날짜는 그대로 유지
+    await load($("#date").value);
+    const added = items.filter(it => !before.has(it.url)).length;
+    $("#status").textContent = added ? `새 기사 ${added}건` : "최신 상태입니다";
+  } catch (e) {
+    $("#status").textContent = "불러오지 못했습니다";
+  } finally {
+    btn.disabled = false;
+    setTimeout(() => { $("#status").textContent = ""; }, 6000);
+  }
 }
 
 function fillDates() {
