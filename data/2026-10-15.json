@@ -24,5 +24,70 @@
   "source": "Reuters",
   "published": "2026-10-15T00:06+09:00",
   "first_seen": "2026-10-15T00:34+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "시장",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "title": "BMW 전기차 판매 다시 늘고 있다. 유럽은 무거운 짐을지고 있다",
+  "original": "BMW’s EV Sales Are Growing Again. Europe Is Doing The Heavy Lifting",
+  "url": "https://insideevs.com/news/811936/bmw-q3-ev-sales-report/",
+  "source": "InsideEVs",
+  "published": "2026-10-15T01:06+09:00",
+  "first_seen": "2026-10-15T01:13+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "title": "BlackRock의 Ganfeng 리튬 H주 매수 포지션이 10월 9일 7.70%에서 8.87%로 증가했다고 HKEX가 밝혔다",
+  "original": "BlackRock's Long Position In H-Shares Of Ganfeng Lithium Increases To 8.87% On Oct 09 From 7.70%, HKEX Shows",
+  "url": "https://www.reuters.com/site-search/?query=BlackRock%27s%20Long%20Position%20In%20H-Shares%20Of%20Ganfeng%20Lithium%20Increases%20To%208.87%25%20On%20Oct%2009%20From%207.70%25%2C%20HKEX%20Shows",
+  "source": "Reuters",
+  "published": "2026-10-15T01:03+09:00",
+  "first_seen": "2026-10-15T01:13+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "EU",
+  "title": "Aito는 2027년 가을에 유럽 확장을 계획하고 있다",
+  "original": "Aito plans European expansion for autumn 2027",
+  "url": "https://www.electrive.com/2026/10/14/aito-plans-european-expansion-for-autumn-2027/",
+  "source": "electrive",
+  "published": "2026-10-15T00:40+09:00",
+  "first_seen": "2026-10-15T01:13+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "title": "Rivian의 로봇 스타트업, 베테랑 EV 임원 Doug Field 채용",
+  "original": "Rivian's Robot Startup Hires Veteran EV Exec Doug Field",
+  "url": "https://insideevs.com/news/811835/rivian-mind-robotics-manufacturing/",
+  "source": "InsideEVs",
+  "published": "2026-10-15T00:36+09:00",
+  "first_seen": "2026-10-15T01:13+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "title": "배심원단은 Tyreek Hill의 배터리 케이스에 대해 엇갈린 평결을 내렸다",
+  "original": "Jury returns mixed verdict in Tyreek Hill's battery case",
+  "url": "https://www.reuters.com/sports/jury-returns-mixed-verdict-tyreek-hills-battery-case--flm-2026-10-14/",
+  "source": "Reuters",
+  "published": "2026-10-15T00:34+09:00",
+  "first_seen": "2026-10-15T01:13+09:00"
  }
 ]

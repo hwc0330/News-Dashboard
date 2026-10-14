@@ -2317,5 +2317,44 @@
   "source": "Reuters",
   "published": "2026-10-14T23:59+09:00",
   "first_seen": "2026-10-15T00:34+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "title": "새로운 청정 발전이 둔화되는 동안 화석 생성 파이프라인은 반등: EDF",
+  "original": "Fossil generation pipeline rebounds while new clean generation slows: EDF",
+  "url": "https://www.utilitydive.com/news/fossil-generation-pipeline-rebounds-while-new-clean-generation-slows-edf/832978/",
+  "source": "Utility Dive",
+  "published": "2026-10-14T23:55+09:00",
+  "first_seen": "2026-10-15T01:13+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "title": "시카고로 오는 배터리 구동 열차: 첫눈",
+  "original": "Battery-powered trains coming to Chicago: a first look",
+  "url": "https://www.utilitydive.com/news/stadler-metra-chicago-battery-electric-train/832993/",
+  "source": "Utility Dive",
+  "published": "2026-10-14T23:17+09:00",
+  "first_seen": "2026-10-15T01:13+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "title": "PJM은 주정부 합의 접근 방식에 따라 SoftBank의 오하이오 AI 프로젝트를 연구할 계획이다",
+  "original": "PJM plans to study SoftBank’s Ohio AI project under state agreement approach",
+  "url": "https://www.utilitydive.com/news/pjm-softbank-ohio-ai-flagship-state-agreement-approach/832962/",
+  "source": "Utility Dive",
+  "published": "2026-10-14T23:13+09:00",
+  "first_seen": "2026-10-15T01:13+09:00"
  }
 ]
