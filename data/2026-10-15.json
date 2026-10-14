@@ -479,5 +479,44 @@
   "source": "글로벌이코노믹",
   "published": "2026-10-15T08:13+09:00",
   "first_seen": "2026-10-15T08:35+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "자원",
+  "impact": "+",
+  "key": false,
+  "region": "",
+  "title": "삼성SDI, 중국산 배제된 일본 ESS 시장 판도 변화 선봉…'가격·보안' 투트랙 공략",
+  "original": "",
+  "url": "https://www.theguru.co.kr/news/article.html?no=108267",
+  "source": "더구루",
+  "published": "2026-10-15T08:51+09:00",
+  "first_seen": "2026-10-15T08:59+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "title": "파리 모터쇼 톱라인: 유럽 자동차 제조업체는 과거에 집착하고 중국은 미래를 선도한다",
+  "original": "Paris Motor Show Topline: European Automakers Cling To The Past, Chinese Lead To The Future",
+  "url": "https://cleantechnica.com/2026/10/14/paris-motor-show-topline-european-automakers-cling-to-the-past-chinese-lead-to-the-future/",
+  "source": "CleanTechnica",
+  "published": "2026-10-15T08:49+09:00",
+  "first_seen": "2026-10-15T08:59+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "title": "오해의 소지가 있는 플러그인 하이브리드 배기가스 배출로 인해 소비자를 속일 위험이 있다고 T&E가 경고함",
+  "original": "Misleading Plug-in Hybrid Emissions Figures Risk Cheating Consumers, T&E Warns",
+  "url": "https://cleantechnica.com/2026/10/14/misleading-plug-in-hybrid-emissions-figures-risk-cheating-consumers-te-warns/",
+  "source": "CleanTechnica",
+  "published": "2026-10-15T08:31+09:00",
+  "first_seen": "2026-10-15T08:59+09:00"
  }
 ]
