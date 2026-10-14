@@ -266,7 +266,7 @@
   "key": false,
   "region": "US",
   "title": "미국의 전기 자동차 판매가 활기를 띠고 있다",
-  "original": "Electric vehicle sales in the U.S. are showing signs of life",
+  "original": "Electric vehicle sales in the US are showing signs of life",
   "url": "https://techcrunch.com/2026/10/14/electric-vehicle-sales-in-the-u-s-are-showing-signs-of-life/",
   "source": "TechCrunch",
   "published": "2026-10-15T05:12+09:00",
@@ -297,5 +297,31 @@
   "source": "Electrek",
   "published": "2026-10-15T04:53+09:00",
   "first_seen": "2026-10-15T05:15+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "title": "Revolution Wind가 뉴잉글랜드에 힘을 실어주고 있고 트럼프가 다시 공격하고 있다",
+  "original": "Revolution Wind is powering New England, and Trump is attacking it again",
+  "url": "https://electrek.co/2026/10/14/revolution-wind-is-powering-new-england-and-trump-is-attacking-it-again/",
+  "source": "Electrek",
+  "published": "2026-10-15T05:38+09:00",
+  "first_seen": "2026-10-15T05:52+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "title": "DeLorean은 Tesla보다 먼저 하늘을 나는 자동차를 가질 수 있다 [비디오]",
+  "original": "DeLorean may have a flying car in the air before Tesla does [video]",
+  "url": "https://electrek.co/2026/10/14/delorean-may-have-a-flying-car-in-the-air-before-tesla-does-video/",
+  "source": "Electrek",
+  "published": "2026-10-15T05:29+09:00",
+  "first_seen": "2026-10-15T05:52+09:00"
  }
 ]
