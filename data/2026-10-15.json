@@ -258,5 +258,44 @@
   "source": "Electrek",
   "published": "2026-10-15T03:00+09:00",
   "first_seen": "2026-10-15T04:02+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "시장",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "title": "미국의 전기 자동차 판매가 활기를 띠고 있다",
+  "original": "Electric vehicle sales in the U.S. are showing signs of life",
+  "url": "https://techcrunch.com/2026/10/14/electric-vehicle-sales-in-the-u-s-are-showing-signs-of-life/",
+  "source": "TechCrunch",
+  "published": "2026-10-15T05:12+09:00",
+  "first_seen": "2026-10-15T05:15+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "title": "BMW의 새로운 플래그십 i7은 훌륭한 운전사 차량을 만듭니다. [이미지]",
+  "original": "BMW’s new flagship i7 makes a great chauffeur vehicle [Images]",
+  "url": "https://electrek.co/2026/10/14/bmws-new-flagship-i7-chauffeur-vehicle/",
+  "source": "Electrek",
+  "published": "2026-10-15T04:57+09:00",
+  "first_seen": "2026-10-15T05:15+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "title": "Prinoth는 Scania의 약간의 도움으로 겨울을 대비하고 있다",
+  "original": "Prinoth is getting charged up for winter with a little help from Scania",
+  "url": "https://electrek.co/2026/10/14/prinoth-is-getting-charged-up-for-winter-with-a-little-help-from-scania/",
+  "source": "Electrek",
+  "published": "2026-10-15T04:53+09:00",
+  "first_seen": "2026-10-15T05:15+09:00"
  }
 ]
