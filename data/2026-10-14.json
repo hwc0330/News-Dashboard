@@ -2325,7 +2325,7 @@
   "key": false,
   "region": "US",
   "title": "새로운 청정 발전이 둔화되는 동안 화석 생성 파이프라인은 반등: EDF",
-  "original": "Fossil generation pipeline rebounds while new clean generation slows: EDF",
+  "original": "Fossil fuel generation pipeline rebounds while new clean generation slows: EDF",
   "url": "https://www.utilitydive.com/news/fossil-generation-pipeline-rebounds-while-new-clean-generation-slows-edf/832978/",
   "source": "Utility Dive",
   "published": "2026-10-14T23:55+09:00",
@@ -2356,5 +2356,31 @@
   "source": "Utility Dive",
   "published": "2026-10-14T23:13+09:00",
   "first_seen": "2026-10-15T01:13+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "title": "주거용 VPP를 확장하면 전기 요금 인상을 절반으로 줄일 수 있다: Brattle",
+  "original": "Scaling residential VPPs could cut electric bill increases by half: Brattle",
+  "url": "https://www.utilitydive.com/news/scaling-vpps-could-cut-electric-bill-increases-by-half-brattle/832956/",
+  "source": "Utility Dive",
+  "published": "2026-10-14T22:27+09:00",
+  "first_seen": "2026-10-15T02:32+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "title": "그리드 배터리를 걱정하는 캘리포니아 주민들에게 전할 말",
+  "original": "What to say to Californians worried about grid batteries",
+  "url": "https://www.canarymedia.com/articles/batteries/how-to-counter-californians-grid-battery-fears-with-safety-facts",
+  "source": "Canary Media",
+  "published": "2026-10-14T07:06+09:00",
+  "first_seen": "2026-10-15T02:32+09:00"
  }
 ]
