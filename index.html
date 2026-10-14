@@ -27,7 +27,9 @@
   header { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 14px; margin-bottom: 6px; }
   h1 { font-size: 20px; margin: 0; }
   .updated { color: var(--muted); font-size: 13px; }
-  .refresh { margin-left: auto; font: inherit; font-size: 13px; padding: 5px 12px; border: 1px solid var(--line);
+  #collect { margin-left: auto; }
+  a.refresh { text-decoration: none; display: inline-block; }
+  .refresh { font: inherit; font-size: 13px; padding: 5px 12px; border: 1px solid var(--line);
              border-radius: 8px; background: var(--card); color: var(--text); cursor: pointer; }
   .refresh:hover { border-color: var(--accent); color: var(--accent); }
   .refresh:disabled { opacity: .6; cursor: default; }
@@ -75,7 +77,9 @@
     <h1>배터리/전기차 헤드라인</h1>
     <span class="updated" id="updated"></span>
     <span class="status" id="status" role="status"></span>
-    <button class="refresh" id="refresh" type="button">↻ 새로고침</button>
+    <a class="refresh" id="collect" href="https://github.com/hwc0330/News-Dashboard/actions/workflows/update.yml"
+       target="_blank" rel="noopener" title="GitHub에서 'Run workflow'를 누르면 바로 수집합니다 (저장소 주인만 가능)">⚡ 지금 수집</a>
+    <button class="refresh" id="refresh" type="button" title="이미 수집된 최신 데이터를 다시 불러옵니다">↻ 새로고침</button>
   </header>
   <div class="legend">
     <span><b class="imp up">▲</b> 호재 · <b class="imp down">▼</b> 악재 · <b class="imp flat">－</b> 중립 (키워드 자동 추정)</span>
@@ -113,8 +117,24 @@ async function init() {
   $("#date").onchange = () => load($("#date").value);
   $("#q").oninput = render;
   $("#refresh").onclick = manualRefresh;
+  $("#collect").addEventListener("click", watchCollect);
   if (meta.dates.length) await load(meta.dates[0]); else $("#list").innerHTML = '<p class="empty">아직 데이터가 없습니다.</p>';
   setInterval(refresh, 5 * 60e3);   // 5분마다 새 데이터 확인
+}
+
+// 지금 수집: GitHub에서 수집을 실행한 뒤 8분 동안 20초마다 새 데이터를 확인해 반영
+let watchTimer = null;
+function watchCollect() {
+  const startUpdated = meta.updated, until = Date.now() + 8 * 60e3;
+  clearInterval(watchTimer);
+  $("#status").textContent = "GitHub에서 'Run workflow'를 누르면 2~4분 뒤 자동 반영됩니다";
+  watchTimer = setInterval(async () => {
+    if (Date.now() > until) { clearInterval(watchTimer); $("#status").textContent = ""; return; }
+    try {
+      const m = await fetchMeta();
+      if (m.updated !== startUpdated) { clearInterval(watchTimer); await manualRefresh(); }
+    } catch (e) {}
+  }, 20e3);
 }
 
 // 새로고침 버튼: 지금 화면의 날짜 데이터를 다시 받아 새로 들어온 기사 수를 알려줌
