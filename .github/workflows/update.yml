@@ -1,0 +1,52 @@
+name: Update headlines
+
+# 30분마다 hwc0330/news-clipping(비공개) 코드로 기사를 수집해 data/ 를 갱신한다.
+# 공개 저장소라 Actions 사용 시간이 무료다. 코드는 읽기 전용 배포 키(NEWS_CLIPPING_KEY)로 가져온다.
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: headlines
+  cancel-in-progress: false
+
+env:
+  PYTHONIOENCODING: utf-8
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Checkout news-clipping (private)
+        uses: actions/checkout@v4
+        with:
+          repository: hwc0330/news-clipping
+          ssh-key: ${{ secrets.NEWS_CLIPPING_KEY }}
+          path: app
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: app/requirements.txt
+
+      - run: pip install -r app/requirements.txt
+
+      - run: python app/dashboard.py --out .
+
+      - name: Publish
+        run: |
+          git config user.name "news-clipping bot"
+          git config user.email "actions@github.com"
+          git add -A data index.html
+          git diff --cached --quiet && exit 0
+          git commit -m "headlines $(TZ=Asia/Seoul date '+%F %H:%M')"
+          git pull --rebase -q
+          git push
