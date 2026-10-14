@@ -2070,5 +2070,70 @@
   "source": "신화통신",
   "published": "2026-10-14T01:00+09:00",
   "first_seen": "2026-10-14T22:05+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "산업",
+  "impact": "0",
+  "key": false,
+  "region": "EU",
+  "title": "튀니지, 10MW/20MWh BESS를 갖춘 50MW 태양광 발전소 입찰 시작",
+  "original": "Tunisia launches tender for 50 MW solar PV plant with 10 MW/20 MWh BESS",
+  "url": "https://www.pv-magazine.com/2026/10/14/tunisia-launches-tender-for-50-mw-solar-pv-plant-with-10-mw-20-mwh-bess/",
+  "source": "pv magazine",
+  "published": "2026-10-14T22:42+09:00",
+  "first_seen": "2026-10-14T22:45+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "산업",
+  "impact": "0",
+  "key": false,
+  "region": "EU",
+  "title": "GBT, 전고체 배터리 셀 양산 시작",
+  "original": "GBT begins series production of solid-state battery cells",
+  "url": "https://www.electrive.com/2026/10/14/gbt-begins-series-production-of-solid-state-battery-cells/",
+  "source": "electrive",
+  "published": "2026-10-14T22:30+09:00",
+  "first_seen": "2026-10-14T22:45+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "산업",
+  "impact": "0",
+  "key": false,
+  "region": "EU",
+  "title": "Royal Vopak, Vattenfall, 네덜란드 배터리 프로젝트에 대해 400MWh의 통행료 계약에 합의",
+  "original": "Royal Vopak, Vattenfall agree on 400 MWh tolling deal for Dutch battery project",
+  "url": "https://www.ess-news.com/2026/10/14/royal-vopak-vattenfall-agree-on-400-mwh-tolling-deal-for-dutch-battery-project/",
+  "source": "ESS News",
+  "published": "2026-10-14T22:30+09:00",
+  "first_seen": "2026-10-14T22:45+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "자원",
+  "impact": "0",
+  "key": false,
+  "region": "EU",
+  "title": "유럽의 두 번째 에너지 위기는 태양광 시간을 크게 건너뛰었다",
+  "original": "Europe’s second energy crisis largely skipped the solar hours",
+  "url": "https://www.pv-magazine.com/2026/10/14/europes-second-energy-crisis-largely-skipped-the-solar-hours/",
+  "source": "pv magazine",
+  "published": "2026-10-14T22:13+09:00",
+  "first_seen": "2026-10-14T22:45+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "정책",
+  "impact": "0",
+  "key": true,
+  "region": "EU",
+  "title": "EU-중국 무역 진전을 환영했지만 신뢰 문제는 여전히 남아 있음",
+  "original": "EU-China trade progress welcomed, yet trust issues linger",
+  "url": "https://www.politico.eu/article/eu-china-trade-progress-welcomed-yet-trust-issues-linger/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+  "source": "Politico Europe",
+  "published": "2026-10-14T21:27+09:00",
+  "first_seen": "2026-10-14T22:45+09:00"
  }
 ]
