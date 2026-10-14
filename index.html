@@ -79,7 +79,6 @@
     <span class="status" id="status" role="status"></span>
     <a class="refresh" id="collect" href="https://github.com/hwc0330/News-Dashboard/actions/workflows/update.yml"
        target="_blank" rel="noopener" title="GitHub에서 'Run workflow'를 누르면 바로 수집합니다 (저장소 주인만 가능)">⚡ 지금 수집</a>
-    <button class="refresh" id="refresh" type="button" title="이미 수집된 최신 데이터를 다시 불러옵니다">↻ 새로고침</button>
   </header>
   <div class="legend">
     <span><b class="imp up">▲</b> 호재 · <b class="imp down">▼</b> 악재 · <b class="imp flat">－</b> 중립 (키워드 자동 추정)</span>
@@ -97,7 +96,7 @@
 <script>
 const $ = s => document.querySelector(s);
 // '지금 수집' 중계 서버 주소 (dashboard/worker.js 를 Cloudflare Workers 에 올린 주소). 비어 있으면 GitHub 페이지로 연결(주인만 실행 가능)
-const COLLECT_URL = "";
+const COLLECT_URL = "https://news-collect.hyewonchoi03.workers.dev";
 const IMP = {"+": ["up", "▲", "호재"], "-": ["down", "▼", "악재"], "0": ["flat", "－", "중립"]};
 let meta, items = [], activeTag = null, activeFlag = null, current = null;
 
@@ -111,14 +110,31 @@ const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt
 const when = iso => { const d = new Date(iso); return isNaN(d) ? "" :
   d.toLocaleString("ko-KR", {timeZone: "Asia/Seoul", month: "numeric", day: "numeric", hour: "2-digit", minute: "2-digit", hour12: false}); };
 
-async function fetchMeta() { return (await fetch("data/index.json", {cache: "no-store"})).json(); }
+// 내보낸 단일 HTML(export_dashboard.py)이면 window.EMBED 에 사이트 주소와 내보낸 시점 데이터가 들어 있음.
+// 인터넷이 되면 사이트에서 최신 데이터를 받고, 안 되면 들어 있는 데이터로 보여 준다
+const EMBED = window.EMBED || null;
+const BASE = EMBED ? EMBED.base + "/" : "";
+let offline = false;
+async function getData(name, fallback) {
+  try {
+    const r = await fetch(`${BASE}data/${name}`, {cache: "no-store"});
+    if (!r.ok) throw new Error(r.status);
+    offline = false;
+    return await r.json();
+  } catch (e) {
+    if (EMBED && fallback !== undefined) { offline = true; return fallback; }
+    throw e;
+  }
+}
+async function fetchMeta() { return getData("index.json", EMBED && EMBED.meta); }
 
 async function init() {
   meta = await fetchMeta();
   fillDates();
+  // 중계 서버가 없으면 GitHub 링크는 주인만 쓸 수 있으니 내보낸 파일에서는 숨김
+  if (EMBED && !COLLECT_URL) $("#collect").style.display = "none";
   $("#date").onchange = () => load($("#date").value);
   $("#q").oninput = render;
-  $("#refresh").onclick = manualRefresh;
   $("#collect").addEventListener("click", watchCollect);
   if (COLLECT_URL) $("#collect").title = "매체를 지금 다시 훑습니다 (2~4분 소요)";
   if (meta.dates.length) await load(meta.dates[0]); else $("#list").innerHTML = '<p class="empty">아직 데이터가 없습니다.</p>';
@@ -132,6 +148,7 @@ async function watchCollect(ev) {
     ev.preventDefault();
     try {
       const r = await (await fetch(COLLECT_URL, {method: "POST"})).json();
+      if (!r.started && r.reason !== "running" && r.reason !== "recent") throw new Error(r.status);
       $("#status").textContent = r.started ? "수집을 시작했습니다. 2~4분 뒤 자동 반영됩니다"
         : r.reason === "running" ? "이미 수집 중입니다. 끝나면 자동 반영됩니다"
         : "방금 수집했습니다. 잠시 뒤 자동 반영됩니다";
@@ -145,30 +162,28 @@ async function watchCollect(ev) {
     if (Date.now() > until) { clearInterval(watchTimer); $("#status").textContent = ""; return; }
     try {
       const m = await fetchMeta();
-      if (m.updated !== startUpdated) { clearInterval(watchTimer); await manualRefresh(); }
+      if (!offline && m.updated !== startUpdated) { clearInterval(watchTimer); await showCollected(); }
     } catch (e) {}
   }, 20e3);
 }
 
-// 새로고침 버튼: 지금 화면의 날짜 데이터를 다시 받아 새로 들어온 기사 수를 알려줌
-async function manualRefresh() {
-  const btn = $("#refresh"), before = new Set(items.map(it => it.url));
-  btn.disabled = true; $("#status").textContent = "확인 중…";
+// 수집이 끝나면 지금 화면의 날짜 데이터를 다시 받아 새로 들어온 기사 수를 알려줌
+async function showCollected() {
+  const before = new Set(items.map(it => it.url));
   try {
     meta = await fetchMeta(); fillDates();          // 선택해 둔 날짜는 그대로 유지
     await load($("#date").value);
     const added = items.filter(it => !before.has(it.url)).length;
-    $("#status").textContent = added ? `새 기사 ${added}건` : "최신 상태입니다";
+    $("#status").textContent = added ? `수집 완료: 새 기사 ${added}건` : "수집 완료: 새 기사 없음";
   } catch (e) {
     $("#status").textContent = "불러오지 못했습니다";
-  } finally {
-    btn.disabled = false;
-    setTimeout(() => { $("#status").textContent = ""; }, 6000);
   }
+  setTimeout(() => { $("#status").textContent = ""; }, 8000);
 }
 
 function fillDates() {
-  $("#updated").textContent = "업데이트 " + when(meta.updated) + " · 10분마다 자동 수집";
+  $("#updated").textContent = "업데이트 " + when(meta.updated) +
+    (offline ? " · 오프라인: 내보낸 시점 데이터" : " · 10분마다 자동 수집");
   const keep = $("#date").value;
   $("#date").innerHTML = meta.dates.map(d => `<option value="${d}">${d}</option>`).join("");
   if (keep && meta.dates.includes(keep)) $("#date").value = keep;
@@ -177,7 +192,7 @@ function fillDates() {
 async function refresh() {
   try {
     const m = await fetchMeta();
-    if (m.updated === meta.updated) return;
+    if (offline || m.updated === meta.updated) return;   // 오프라인이면 보던 데이터 유지
     const wasLatest = current === meta.dates[0];
     meta = m; fillDates();
     if (wasLatest) { $("#date").value = meta.dates[0]; await load(meta.dates[0]); } else render();
@@ -186,7 +201,7 @@ async function refresh() {
 
 async function load(date) {
   current = date;
-  items = await (await fetch(`data/${date}.json`, {cache: "no-store"})).json();
+  items = await getData(`${date}.json`, EMBED && (EMBED.days[date] || []));
   render();
 }
 

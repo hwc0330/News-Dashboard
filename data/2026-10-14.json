@@ -1368,5 +1368,18 @@
   "source": "Reuters",
   "published": "2026-10-14T15:44+09:00",
   "first_seen": "2026-10-14T17:00+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "title": "원자력 데이터 센터? 유타 석탄 지역에서는 판매가 어렵다",
+  "original": "Nuclear-powered data centers? It’s a tough sell in Utah coal country.",
+  "url": "https://www.canarymedia.com/articles/data-centers/utah-carbon-county-opposition-nuclear-gas-valar",
+  "source": "Canary Media",
+  "published": "2026-10-14T16:30+09:00",
+  "first_seen": "2026-10-14T17:08+09:00"
  }
 ]
