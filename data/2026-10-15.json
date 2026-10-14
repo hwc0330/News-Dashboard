@@ -206,5 +206,31 @@
   "source": "미 에너지부",
   "published": "2026-10-15T00:10+09:00",
   "first_seen": "2026-10-15T01:56+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "title": "BYD, 업데이트된 Seagull EV가 다음 주에 출시될 것이라고 밝혔다",
+  "original": "BYD reveals the updated Seagull EV will launch next week",
+  "url": "https://electrek.co/2026/10/14/byd-reveals-launch-date-updated-seagull-ev/",
+  "source": "Electrek",
+  "published": "2026-10-15T02:53+09:00",
+  "first_seen": "2026-10-15T03:10+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "title": "보험 업계는 고객을 버스 아래로 던지고 있다",
+  "original": "Insurance Industry Is Throwing Its Customers Under The Bus",
+  "url": "https://cleantechnica.com/2026/10/14/insurance-industry-is-throwing-its-customers-under-the-bus/",
+  "source": "CleanTechnica",
+  "published": "2026-10-15T02:34+09:00",
+  "first_seen": "2026-10-15T03:10+09:00"
  }
 ]

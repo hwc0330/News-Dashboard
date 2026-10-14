@@ -2325,7 +2325,7 @@
   "key": false,
   "region": "US",
   "title": "새로운 청정 발전이 둔화되는 동안 화석 생성 파이프라인은 반등: EDF",
-  "original": "Fossil fuel generation pipeline rebounds while new clean generation slows: EDF",
+  "original": "Fossil generation pipeline rebounds while new clean generation slows: EDF",
   "url": "https://www.utilitydive.com/news/fossil-generation-pipeline-rebounds-while-new-clean-generation-slows-edf/832978/",
   "source": "Utility Dive",
   "published": "2026-10-14T23:55+09:00",
@@ -2382,5 +2382,18 @@
   "source": "Canary Media",
   "published": "2026-10-14T07:06+09:00",
   "first_seen": "2026-10-15T02:32+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "title": "트럼프, 올스테드의 혁명 바람에 대한 싸움 재개",
+  "original": "Trump Reopens the Fight Over Orsted’s Revolution Wind",
+  "url": "https://heatmap.news/am/revolution-wind-revisited",
+  "source": "Heatmap",
+  "published": "2026-10-14T21:13+09:00",
+  "first_seen": "2026-10-15T03:10+09:00"
  }
 ]
