@@ -2395,5 +2395,31 @@
   "source": "Heatmap",
   "published": "2026-10-14T21:13+09:00",
   "first_seen": "2026-10-15T03:10+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "title": "2050년 전기차 세계 승용차 90% 전망…지역별 전환 속도는 '극과 극'",
+  "original": "",
+  "url": "https://www.g-enews.com/article/Global-Biz/2026/10/2026101421251126442bd56fbc3c_1",
+  "source": "글로벌이코노믹",
+  "published": "2026-10-14T21:25+09:00",
+  "first_seen": "2026-10-15T04:02+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "정책",
+  "impact": "+",
+  "key": true,
+  "region": "",
+  "title": "영국, EU의 중국산 자동차 관세 동참 요구 거부…독자 노선 천명",
+  "original": "",
+  "url": "https://www.g-enews.com/article/Global-Biz/2026/10/202610141947189162bd56fbc3c_1",
+  "source": "글로벌이코노믹",
+  "published": "2026-10-14T19:47+09:00",
+  "first_seen": "2026-10-15T04:02+09:00"
  }
 ]
