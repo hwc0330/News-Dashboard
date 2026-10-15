@@ -2084,5 +2084,61 @@
   "source": "SMM",
   "published": "2026-10-15T16:03+09:00",
   "first_seen": "2026-10-15T16:36+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "산업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "Solaria, 우루과이에서 500MW 데이터 센터와 350MW 태양광 용량 개발 계약 체결",
+  "original": "Solaria Signs Agreement To Develop 500 MW Data Center And 350 MW Solar Capacity In Uruguay",
+  "url": "https://www.reuters.com/site-search/?query=Solaria%20Signs%20Agreement%20To%20Develop%20500%20MW%20Data%20Center%20And%20350%20MW%20Solar%20Capacity%20In%20Uruguay",
+  "source": "Reuters",
+  "published": "2026-10-15T16:48+09:00",
+  "first_seen": "2026-10-15T16:51+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "EU",
+  "policy": "",
+  "title": "핀란드는 약한 그리드에서 새로운 풍력, 태양광을 위한 그리드 형성 지원을 요구한다",
+  "original": "Finland demands grid-forming support for new wind, solar in weak grids",
+  "url": "https://www.pv-magazine.com/2026/10/15/finland-demands-grid-forming-support-for-new-wind-solar-in-weak-grids/",
+  "source": "pv magazine",
+  "published": "2026-10-15T16:47+09:00",
+  "first_seen": "2026-10-15T16:51+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "산업",
+  "impact": "0",
+  "key": false,
+  "region": "EU",
+  "policy": "",
+  "title": "Cox는 엘살바도르에 1GWh의 저장 용량을 계획하고 있다",
+  "original": "Cox plans 1 GWh of storage in El Salvador",
+  "url": "https://www.ess-news.com/2026/10/15/cox-plans-1-gwh-of-storage-in-el-salvador/",
+  "source": "ESS News",
+  "published": "2026-10-15T16:45+09:00",
+  "first_seen": "2026-10-15T16:51+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "상무부: 중국은 EU와 협력하여 양측 간 이중용도 품목 무역 발전을 촉진할 것이다",
+  "original": "商务部：中方将与欧方一道促进双方两用物项贸易发展",
+  "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202610/t20261015_3259283.shtml",
+  "source": "경제일보",
+  "published": "2026-10-15T01:00+09:00",
+  "first_seen": "2026-10-15T16:51+09:00"
  }
 ]
