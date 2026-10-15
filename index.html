@@ -50,7 +50,14 @@
   #collect { background: var(--accent); border-color: var(--accent); color: #fff; }
   #collect:hover { text-decoration: none; opacity: .9; color: #fff; }
 
+  .pages { display: flex; flex-wrap: wrap; gap: 6px; margin: 16px 0 2px; }
+  .page { font: inherit; font-size: 15px; font-weight: 700; padding: 8px 20px; min-height: 42px; border-radius: 999px; cursor: pointer;
+          border: 1px solid var(--line); background: var(--card); color: var(--muted); }
+  .page:hover { color: var(--text); border-color: var(--field); }
+  .page[aria-current=page] { background: var(--chip-on); border-color: var(--chip-on); color: var(--chip-on-text); }
   .tabs { display: flex; gap: 4px; margin: 14px 0 18px; border-bottom: 1px solid var(--line); }
+  .tabs[hidden] { display: none; }
+  #pricesView { padding-top: 18px; }
   .tab { border: 0; background: none; font: inherit; font-size: 15px; font-weight: 600; color: var(--muted);
          padding: 10px 14px; border-bottom: 3px solid transparent; margin-bottom: -1px; cursor: pointer; min-height: 44px; }
   .tab[aria-selected=true] { color: var(--accent); border-bottom-color: var(--orange); }
@@ -348,13 +355,18 @@
     <a id="collect" href="https://github.com/hwc0330/News-Dashboard/actions/workflows/update.yml"
        target="_blank" rel="noopener" title="GitHub에서 'Run workflow'를 누르면 바로 수집합니다 (저장소 주인만 가능)"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"></path></svg>지금 수집</a>
   </header>
+  <nav class="pages" aria-label="페이지">
+    <button class="page" data-page="news">뉴스</button>
+    <button class="page" data-page="bills" hidden>법안</button>
+    <button class="page" data-page="prices" hidden>원재료 가격</button>
+  </nav>
   <section class="pick" id="pick" hidden aria-label="오늘의 뉴스픽"></section>
-  <nav class="tabs" role="tablist" aria-label="보기">
+  <nav class="tabs" id="tabs" role="tablist" aria-label="보기">
     <button class="tab" role="tab" data-tab="all">전체 기사<span class="n" id="allN"></span></button>
     <button class="tab" role="tab" data-tab="policy" title="정치인·법안·정부 조치 관련 기사 (미국·중국·유럽)">정책 브리핑<span class="n" id="policyN"></span></button>
     <button class="tab" role="tab" data-tab="prices" id="pricesTab" hidden title="배터리 소재·원재료 가격 (올린 엑셀로 그림)">원재료 가격<span class="n" id="pricesN"></span></button>
-    <button class="tab" role="tab" data-tab="congress" id="congressTab" hidden title="미 상·하원 의원들이 낸 배터리·전기차 관련 법안 (Congress.gov)">미 의회 법안<span class="n" id="congressN"></span></button>
     <button class="tab" role="tab" data-tab="assembly" id="assemblyTab" hidden title="국회 전기차·배터리·태양광·한국판 IRA 법안 (열린국회정보)">국내 법안<span class="n" id="assemblyN"></span></button>
+    <button class="tab" role="tab" data-tab="congress" id="congressTab" hidden title="미 상·하원 의원들이 낸 배터리·전기차 관련 법안 (Congress.gov)">미 의회 법안<span class="n" id="congressN"></span></button>
   </nav>
   <div class="controls" id="controls">
     <select id="date" aria-label="날짜"></select>
@@ -502,7 +514,7 @@ async function loadPick() {
 }
 function renderPick() {
   const el = $("#pick");
-  el.hidden = !picks.length;
+  el.hidden = !picks.length || pageOf(tab) !== "news";
   if (!picks.length) return;
   const p = picks[Math.min(pickIdx, picks.length - 1)];
   const short = q => (q.date.match(/(\d+)월 (\d+)일 (.)/) || []).slice(1).join(".").replace(/\.(.)$/, " $1") || q.posted.slice(5, 10);
@@ -615,14 +627,41 @@ const KEYWORDS = [
   ["법안", /\bbill\b|legislation|법안/i], ["ESS", /storage|\bESS\b|储能/i], ["광물", /mineral|copper|lithium|광물|구리|리튬|锂/i],
   ["전기차", /electric vehicle|\bEVs?\b|전기차|电动/i],
 ];
-let tab = ({"#policy": "policy", "#prices": "prices", "#congress": "congress", "#assembly": "assembly"})[location.hash] || "all", activeRegion = "미국";
+// 페이지(상단 바) → 그 안의 탭. 처음 열면 뉴스. 오늘의 뉴스픽은 뉴스 페이지에서만
+const PAGES = {news: ["all", "policy"], bills: ["assembly", "congress"], prices: ["prices"]};
+const pageOf = t => Object.keys(PAGES).find(k => PAGES[k].includes(t)) || "news";
+const dataOf = t => t === "assembly" ? asm : t === "congress" ? cong : t === "prices" ? prices : true;
+const hasData = t => !!dataOf(t), noData = t => dataOf(t) === null;     // undefined = 아직 불러오는 중
+const lastTab = {news: "all", bills: "assembly", prices: "prices"};
+const firstTab = page => [lastTab[page], ...PAGES[page]].find(hasData) || "all";
+let tab = ({"#policy": "policy", "#prices": "prices", "#congress": "congress", "#assembly": "assembly", "#bills": "assembly"})[location.hash] || "all", activeRegion = "미국";
 const expanded = new Set();
-document.querySelectorAll(".tab").forEach(b => b.onclick = () => {
-  tab = b.dataset.tab;
+function setTab(t) {
+  tab = t; lastTab[pageOf(t)] = t;
   // 절대 주소로 (loader.html 이 <base> 를 GitHub Pages 로 바꿔 두므로 상대 주소는 다른 사이트로 해석됨)
   try { history.replaceState(null, "", location.href.split("#")[0] + (tab === "all" ? "" : "#" + tab)); } catch (e) {}
   render(); window.scrollTo(0, 0);
-});
+}
+document.querySelectorAll(".tab").forEach(b => b.onclick = () => setTab(b.dataset.tab));
+document.querySelectorAll(".page").forEach(b => b.onclick = () => setTab(firstTab(b.dataset.page)));
+function updateNav() {                                   // 자료가 있는 페이지·탭만 보이게
+  const page = pageOf(tab);
+  document.querySelectorAll(".page").forEach(b => {
+    b.hidden = !PAGES[b.dataset.page].some(hasData);
+    b.setAttribute("aria-current", b.dataset.page === page ? "page" : "false");
+  });
+  document.querySelectorAll(".tab").forEach(b => {
+    b.hidden = pageOf(b.dataset.tab) !== page || !hasData(b.dataset.tab);
+    b.setAttribute("aria-selected", b.dataset.tab === tab);
+  });
+  $("#tabs").hidden = PAGES[page].length < 2;
+  $("#pick").hidden = page !== "news" || !picks.length;
+}
+function dataArrived(t) {                                // 자료를 받은 뒤: 보던 탭에 자료가 없으면 같은 페이지의 다른 탭으로
+  if (pageOf(tab) === pageOf(t) && noData(tab)) tab = PAGES[pageOf(tab)].some(hasData) ? firstTab(pageOf(tab)) : "all";
+  updateNav();
+  if (pageOf(tab) === pageOf(t)) render();
+}
 
 function item(it) {
   const [cls, sym, word] = IMP[it.impact] || IMP["0"];
@@ -649,7 +688,7 @@ function render() {
   const q = $("#q").value.trim().toLowerCase();
   const base = items.filter(matches(q));
   const policyOf = list => list.filter(matches(q)).filter(it => REGIONS.some(r => r.key === it.policy));
-  document.querySelectorAll(".tab").forEach(b => b.setAttribute("aria-selected", b.dataset.tab === tab));
+  updateNav();
   $("#allN").textContent = base.length; $("#policyN").textContent = policyOf(items).length;
   $("#allView").hidden = tab !== "all"; $("#policyView").hidden = tab !== "policy"; $("#pricesView").hidden = tab !== "prices";
   $("#congressView").hidden = tab !== "congress"; $("#assemblyView").hidden = tab !== "assembly";
@@ -751,9 +790,8 @@ const C_FILTERS = [["senate", "상원", b => b.chamber === "상원"], ["house", 
 
 async function loadCongress() {
   try { cong = await getData("congress.json", EMBED ? (EMBED.congress || null) : undefined); } catch (e) { cong = null; }
-  $("#congressTab").hidden = !cong;
   if (cong) $("#congressN").textContent = cong.bills.length;
-  if (tab === "congress") { if (!cong) tab = "all"; render(); }
+  dataArrived("congress");
 }
 
 function renderCongress() {
@@ -830,9 +868,8 @@ const numHi = s => s.replace(/(\d[\d,.]*\s*(?:%|퍼센트|분의\s*\d+|원|만�
 
 async function loadAssembly() {
   try { asm = await getData("assembly.json", EMBED ? (EMBED.assembly || null) : undefined); } catch (e) { asm = null; }
-  $("#assemblyTab").hidden = !asm;
   if (asm) $("#assemblyN").textContent = asm.bills.length;
-  if (tab === "assembly") { if (!asm) tab = "all"; render(); }
+  dataArrived("assembly");
 }
 
 function kMeetLabel(m) {                                // "제430회 국회(정기회) 제2차 소위회의" → "제2차 소위"
@@ -957,9 +994,9 @@ async function loadPrices() {
     c._t = c.d ? c.d.map(x => x * 864e5) : c.dates.map(dms);
     c.dates = c._t.map(t => new Date(t).toISOString().slice(0, 10));
   });
-  $("#pricesTab").hidden = !prices;
+
   if (prices) $("#pricesN").textContent = prices.charts.length;
-  if (tab === "prices") { if (!prices) tab = "all"; render(); }
+  dataArrived("prices");
 }
 function atOrBefore(ts, t) {                           // ts 에서 t 이하인 마지막 위치
   let lo = 0, hi = ts.length - 1, r = -1;
