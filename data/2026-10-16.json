@@ -348,5 +348,19 @@
   "source": "Canary Media",
   "published": "2026-10-16T05:25+09:00",
   "first_seen": "2026-10-16T05:53+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "Tesla에 가스 엔진을 장착한 회사가 3,700만 달러의 빚을 지고 파산했다",
+  "original": "Company that put gas engines in Teslas goes bankrupt owing $37 million",
+  "url": "https://electrek.co/2026/10/15/obrist-hyperhybrid-gas-engine-tesla-bankruptcy/",
+  "source": "Electrek",
+  "published": "2026-10-16T06:26+09:00",
+  "first_seen": "2026-10-16T06:29+09:00"
  }
 ]
