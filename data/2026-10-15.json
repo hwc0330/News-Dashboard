@@ -518,5 +518,83 @@
   "source": "CleanTechnica",
   "published": "2026-10-15T08:31+09:00",
   "first_seen": "2026-10-15T08:59+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "title": "Tesla의 하늘을 나는 자동차가 나쁜 언론의 완벽한 폭풍 속으로 날아갑니다",
+  "original": "Tesla’s Flying Car Flies Into Perfect Storm Of Bad Press",
+  "url": "https://cleantechnica.com/2026/10/14/tesla-ev-roadster-launch-elon-musk-ukraine-starlink-doge/",
+  "source": "CleanTechnica",
+  "published": "2026-10-15T09:31+09:00",
+  "first_seen": "2026-10-15T09:41+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "title": "10월의 놀라움은 화석 연료이다",
+  "original": "The October Surprise Is Fossil Fuels",
+  "url": "https://heatmap.news/daily/trump-october-surprise-energy-policy",
+  "source": "Heatmap",
+  "published": "2026-10-15T09:20+09:00",
+  "first_seen": "2026-10-15T09:41+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "title": "대한전선 美법인, 초고압 전력망 턴키 수주…본사 자재 1168억 계약",
+  "original": "",
+  "url": "https://www.g-enews.com/article/Industry/2026/10/202610150917386479139bf6e4b2_1",
+  "source": "글로벌이코노믹",
+  "published": "2026-10-15T09:17+09:00",
+  "first_seen": "2026-10-15T09:41+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "title": "기아 EV2, 유로 NCAP 충돌 테스트 '별 5개' 획득…강화된 안전 기준 통과",
+  "original": "",
+  "url": "https://www.theguru.co.kr/news/article.html?no=108291",
+  "source": "더구루",
+  "published": "2026-10-15T09:12+09:00",
+  "first_seen": "2026-10-15T09:41+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "title": "제이알에너지, 스텔란티스·벤츠 투자한 ACC와 배터리 생산 협력",
+  "original": "",
+  "url": "https://www.thelec.kr/news/articleView.html?idxno=63740",
+  "source": "디일렉",
+  "published": "2026-10-15T09:00+09:00",
+  "first_seen": "2026-10-15T09:41+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "title": "허가 법안의 예상치 못한 수혜자: 미니 해양 전력",
+  "original": "An Unexpected Beneficiary of the Permitting Bill: Mini Marine Power",
+  "url": "https://heatmap.news/climate-tech/permitting-bill-marine-power",
+  "source": "Heatmap",
+  "published": "2026-10-15T03:00+09:00",
+  "first_seen": "2026-10-15T09:41+09:00"
  }
 ]
