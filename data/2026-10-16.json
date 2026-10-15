@@ -250,5 +250,61 @@
   "source": "Reuters",
   "published": "2026-10-16T01:48+09:00",
   "first_seen": "2026-10-16T02:51+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "Slate는 $24,950의 전기 픽업 트럭을 시험 운전할 수 있는 첫 번째 쇼룸을 열었다",
+  "original": "Slate Opened Its First Showroom Where You Can Test Drive Its $24,950 Electric Pickup Truck",
+  "url": "https://insideevs.com/news/812128/first-slate-experience-center-chicago/",
+  "source": "InsideEVs",
+  "published": "2026-10-16T03:04+09:00",
+  "first_seen": "2026-10-16T03:30+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "포드의 Fathom EV 픽업이 곧 데뷔를 앞두고 다시 발견되었다",
+  "original": "Ford’s Fathom EV pickup spotted again ahead of its upcoming debut",
+  "url": "https://electrek.co/2026/10/15/fords-fathom-ev-pickup-spotted-again-ahead-of-debut/",
+  "source": "Electrek",
+  "published": "2026-10-16T03:00+09:00",
+  "first_seen": "2026-10-16T03:30+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "Velotric Nomad 2 전기자전거 + 무료 $550 추가 배터리, Bluetti 900Wh 발전기 충전기 번들, Hiboy 어린이용 전기 더트바이크 등",
+  "original": "Velotric Nomad 2 e-bike + FREE $550 extra battery, Bluetti 900Wh alternator charger bundle, Hiboy kids electric dirt bikes, more",
+  "url": "https://electrek.co/2026/10/15/velotric-nomad-2-e-bike-bluetti-900wh-alternator-charger-hiboy-kids-electric-dirt-bikes-more/",
+  "source": "Electrek",
+  "published": "2026-10-16T03:00+09:00",
+  "first_seen": "2026-10-16T03:30+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "Elon Musk의 Howard Stark 순간에 타 노스의 유령이 남아 있다",
+  "original": "Ghost Of Thanos Lingers Over Elon Musk’s Howard Stark Moment",
+  "url": "https://cleantechnica.com/2026/10/15/elon-musk-tesla-roadster-unveil-flying-cars-evtol-vtol/",
+  "source": "CleanTechnica",
+  "published": "2026-10-16T02:57+09:00",
+  "first_seen": "2026-10-16T03:30+09:00"
  }
 ]
