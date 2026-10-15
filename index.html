@@ -221,7 +221,9 @@ function chipRow(el, entries, active, onPick) {
 const REGIONS = ["미국", "유럽", "중국"];
 let tab = location.hash === "#policy" ? "policy" : "all", activeRegion = null;
 document.querySelectorAll(".tab").forEach(b => b.onclick = () => {
-  tab = b.dataset.tab; history.replaceState(null, "", tab === "policy" ? "#policy" : location.pathname + location.search);
+  tab = b.dataset.tab;
+  // 절대 주소로 (loader.html 이 <base> 를 GitHub Pages 로 바꿔 두므로 상대 주소는 다른 사이트로 해석됨)
+  try { history.replaceState(null, "", location.href.split("#")[0] + (tab === "policy" ? "#policy" : "")); } catch (e) {}
   render(); window.scrollTo(0, 0);
 });
 
