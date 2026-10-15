@@ -1720,5 +1720,47 @@
   "source": "인민망",
   "published": "2026-10-15T01:00+09:00",
   "first_seen": "2026-10-15T14:38+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "정책",
+  "impact": "0",
+  "key": false,
+  "region": "EU",
+  "policy": "유럽",
+  "title": "브라질 대통령 선거: 룰라와 보우소나루의 태양 에너지 제안",
+  "original": "Brazil’s presidential election: Lula and Bolsonaro’s proposals for solar energy",
+  "url": "https://www.pv-magazine.com/2026/10/15/brazils-presidential-election-lula-and-bolsonaros-proposals-for-solar-energy/",
+  "source": "pv magazine",
+  "published": "2026-10-15T14:47+09:00",
+  "first_seen": "2026-10-15T14:51+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "정책",
+  "impact": "0",
+  "key": false,
+  "region": "EU",
+  "policy": "",
+  "title": "멕시코, 개발 파이프라인에 6.86GW의 태양광 PV 프로젝트 보고",
+  "original": "Mexico reports 6.86 GW of solar PV projects in development pipeline",
+  "url": "https://www.pv-magazine.com/2026/10/15/mexico-reports-6-86-gw-of-solar-pv-projects-in-development-pipeline/",
+  "source": "pv magazine",
+  "published": "2026-10-15T14:39+09:00",
+  "first_seen": "2026-10-15T14:51+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "최근 Yingli Solar의 아연-알루미늄-마그네슘 강철 프레임 PV 모듈",
+  "original": "Recently, Yingli Solar’s zinc-aluminum-magnesium steel frame PV module",
+  "url": "https://news.metal.com/en/newscontent/104159462-smm-pv-flash-yinglis-new-steel-frame-modules-deployed-at-scale-in-northwest-gobi-power-station",
+  "source": "SMM",
+  "published": "2026-10-15T14:27+09:00",
+  "first_seen": "2026-10-15T14:51+09:00"
  }
 ]
