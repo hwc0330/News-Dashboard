@@ -3291,7 +3291,7 @@
  },
  {
   "section": "EV/ESS",
-  "tag": "기업",
+  "tag": "산업",
   "impact": "0",
   "key": false,
   "region": "",
@@ -3556,8 +3556,8 @@
   "first_seen": "2026-10-15T23:31+09:00"
  },
  {
-  "section": "기타",
-  "tag": "기타",
+  "section": "EV/ESS",
+  "tag": "기업",
   "impact": "0",
   "key": false,
   "region": "",
