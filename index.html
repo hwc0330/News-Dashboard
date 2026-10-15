@@ -14,6 +14,7 @@
     --line: #E6E6EA; --line2: #F0F0F3; --field: #DCDCE2; --accent: #1F3A68; --orange: #E8590C; --bar: #D4D4DA;
     --chip: #F0F0F3; --chip-on: #1F3A68; --chip-on-text: #FFFFFF;
     --up: #C92A2A; --down: #1C5FD4; --flat: #8E8E98;
+    --us: #3B5BDB; --cn: #D6336C; --eu: #0C8599;     /* 정책 브리핑 지역 색 */
     color-scheme: light;
   }
   @media (prefers-color-scheme: dark) {
@@ -22,6 +23,7 @@
       --line: #2A2A30; --line2: #222227; --field: #34343B; --accent: #9DB4E0; --orange: #FF8A3D; --bar: #3A3A42;
       --chip: #24242A; --chip-on: #9DB4E0; --chip-on-text: #121214;
       --up: #FF6B6B; --down: #6EA8FF; --flat: #7A7A85;
+      --us: #91A7FF; --cn: #F783AC; --eu: #3BC9DB;
       color-scheme: dark;
     }
   }
@@ -90,27 +92,35 @@
   .tiles { display: none; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; margin-bottom: 14px; }
   .tile { font: inherit; display: flex; flex-direction: column; align-items: flex-start; gap: 2px; padding: 10px 12px; min-height: 84px;
           border-radius: 12px; cursor: pointer; text-align: left; border: 1px solid var(--line); background: var(--card); color: var(--text); }
-  .tile[aria-selected=true] { border-color: var(--chip-on); background: var(--chip-on); color: var(--chip-on-text); }
+  .tile { border-left: 4px solid var(--rg); }
+  .tile .num { color: var(--rg); }
+  .tile[aria-selected=true] { border-color: var(--rg); background: var(--rg); color: #fff; }
+  .tile[aria-selected=true] .num { color: #fff; }
+  .rg-us { --rg: var(--us); } .rg-cn { --rg: var(--cn); } .rg-eu { --rg: var(--eu); }
   .tile b { font-size: 13px; font-weight: 600; }
   .tile .num { font-size: 26px; font-weight: 600; line-height: 1.1; }
   .tile small { font-size: 11px; opacity: .8; }
   .boards { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 18px; align-items: start; }
-  .board { background: var(--card); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; }
-  .band { padding: 18px 18px 14px; border-bottom: 1px solid var(--line2); }
+  .board { background: var(--card); border: 1px solid var(--line); border-top: 4px solid var(--rg); border-radius: 14px; overflow: hidden; }
+  .band { padding: 16px 18px 14px; border-bottom: 1px solid var(--line2);
+          background: color-mix(in srgb, var(--rg) 7%, var(--card)); }
   .band-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; }
-  .code { font-size: 11.5px; letter-spacing: 0.12em; color: var(--muted); }
+  .code { font-size: 11.5px; font-weight: 600; letter-spacing: 0.12em; color: var(--rg); }
+  .code::before { content: ""; display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: var(--rg);
+                  margin-right: 6px; vertical-align: 1px; }
   .band h2 { margin: 2px 0 0; font-size: 20px; font-weight: 700; letter-spacing: -0.01em; }
   .bars { display: flex; align-items: flex-end; gap: 4px; }
   .bars > div { display: flex; flex-direction: column; align-items: center; gap: 3px; }
-  .bars i { display: block; width: 10px; border-radius: 2px; background: var(--bar); }
-  .bars > div:last-child i { background: var(--accent); }
+  .bars i { display: block; width: 10px; border-radius: 2px; background: color-mix(in srgb, var(--rg) 28%, var(--card)); }
+  .bars > div:last-child i { background: var(--rg); }
   .bars span { font-size: 10px; color: var(--soft); }
   .count { display: flex; align-items: baseline; gap: 6px; margin-top: 12px; }
-  .count .num { font-size: 36px; font-weight: 600; line-height: 1; color: var(--accent); }
+  .count .num { font-size: 36px; font-weight: 600; line-height: 1; color: var(--rg); }
   .count .lbl { font-size: 13px; color: var(--muted); }
   .count .delta { margin-left: auto; font-size: 12.5px; color: var(--muted); }
-  .kws { display: flex; flex-wrap: wrap; gap: 4px 10px; margin-top: 12px; }
-  .kws span { font-size: 12.5px; color: var(--muted); }
+  .kws { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; }
+  .kws span { font-size: 12px; font-weight: 500; padding: 2px 9px; border-radius: 999px;
+              color: var(--rg); background: color-mix(in srgb, var(--rg) 12%, var(--card)); }
   .bbody { padding: 4px 18px 10px; }
   .lead { padding: 14px 0 12px; border-bottom: 1px solid var(--line2); }
   .lead-top { display: flex; align-items: center; gap: 6px; margin-bottom: 6px; }
@@ -126,14 +136,14 @@
   .none { padding: 22px 0 18px; display: flex; flex-direction: column; gap: 6px; border-bottom: 1px solid var(--line2); }
   .none b { font-size: 15px; font-weight: 600; }
   .none span { font-size: 13px; color: var(--muted); }
-  .divider { display: flex; align-items: center; gap: 10px; margin: 14px 0 2px; font-size: 11.5px; letter-spacing: 0.06em; color: var(--muted); }
+  .divider { display: flex; align-items: center; gap: 10px; margin: 14px 0 2px; font-size: 11.5px; letter-spacing: 0.06em; color: var(--rg); }
   .divider::after { content: ""; flex: 1; height: 1px; background: var(--line); }
   .earlier li { display: grid; grid-template-columns: 46px minmax(0, 1fr); gap: 8px; padding: 9px 0; }
   .earlier .time { color: var(--soft); padding-top: 2px; }
   .earlier a { font-size: 13.5px; line-height: 1.5; color: var(--dim); }
   .earlier .src { font-size: 12px; margin-top: 2px; }
   .more { font: inherit; border: 0; background: none; padding: 0; display: inline-flex; align-items: center; min-height: 44px;
-          font-size: 13px; font-weight: 600; color: var(--accent); cursor: pointer; }
+          font-size: 13px; font-weight: 600; color: var(--rg, var(--accent)); cursor: pointer; }
   .foot { margin: 22px 0 0; font-size: 12.5px; color: var(--muted); }
 
   /* 오늘의 뉴스픽 (텔레그램 매일 뉴스 업데이트) */
@@ -146,6 +156,10 @@
   .pick-days button { font: inherit; font-size: 12px; border: 1px solid var(--line); background: none; color: var(--muted);
                       border-radius: 999px; padding: 4px 10px; min-height: 30px; cursor: pointer; }
   .pick-days button[aria-pressed=true] { border-color: var(--chip-on); background: var(--chip-on); color: var(--chip-on-text); }
+  .pick-nav { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin-left: auto; }
+  .pick-days { flex-wrap: wrap; margin-left: 0; }
+  .pick-old { font-size: 12px; min-height: 30px; padding: 4px 8px; border-radius: 999px; color: var(--muted); }
+  .pick-old.on { border-color: var(--chip-on); background: var(--chip-on); color: var(--chip-on-text); }
   .pick ol { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(340px, 100%), 1fr)); column-gap: 28px; }
   .pick li { padding: 10px 0; border-top: 1px solid var(--line2); display: grid; grid-template-columns: 38px minmax(0, 1fr); gap: 6px; }
   .pick .ptag { font-size: 12px; font-weight: 700; color: var(--orange); padding-top: 2px; }
@@ -267,6 +281,7 @@ async function init() {
 
 // 오늘의 뉴스픽: 텔레그램 채널에 매일 올라가는 뉴스 업데이트의 헤드라인·링크 (dashboard.py 가 data/newspick.json 으로 저장)
 let picks = [], pickIdx = 0;
+const PICK_BTNS = 7;                              // 버튼으로 보여 줄 최근 게시물 수 (일주일)
 async function loadPick() {
   try { picks = await getData("newspick.json", EMBED && (EMBED.pick || [])); } catch (e) { picks = []; }
   renderPick();
@@ -276,14 +291,23 @@ function renderPick() {
   el.hidden = !picks.length;
   if (!picks.length) return;
   const p = picks[Math.min(pickIdx, picks.length - 1)];
-  const short = d => (d.match(/(\d+)월 (\d+)일/) || []).slice(1).join(".");
+  const short = q => (q.date.match(/(\d+)월 (\d+)일 (.)/) || []).slice(1).join(".").replace(/\.(.)$/, " $1") || q.posted.slice(5, 10);
+  // 최근 일주일은 버튼, 그 전은 날짜 선택창
+  const k = picks.indexOf(p), recent = picks.slice(0, PICK_BTNS), old = picks.slice(PICK_BTNS);
   el.innerHTML = `<div class="pick-head"><h2><b>오늘의</b> 뉴스픽</h2><span class="when mono">${esc(p.date)} · ${hhmm(p.posted)}</span>` +
-    `<div class="pick-days">${picks.map((q, k) => `<button data-k="${k}" aria-pressed="${q === p}">${esc(short(q.date) || q.date)}</button>`).join("")}</div></div>` +
+    `<div class="pick-nav"><div class="pick-days">${recent.map((q, j) => `<button data-k="${j}" aria-pressed="${j === k}">${esc(short(q))}</button>`).join("")}</div>` +
+    (old.length ? `<select class="pick-old${k >= PICK_BTNS ? " on" : ""}" aria-label="지난 뉴스픽 날짜"><option value="">지난 날짜</option>` +
+      old.map((q, j) => `<option value="${j + PICK_BTNS}"${j + PICK_BTNS === k ? " selected" : ""}>${esc(q.date || q.posted.slice(0, 10))}` +
+        // 같은 날짜로 올라온 게시물이 둘이면 올린 날을 덧붙여 구분
+        (picks.filter(o => o.date === q.date).length > 1 ? ` (${md(q.posted)} 게시)` : "") + `</option>`).join("") +
+      `</select>` : "") + `</div></div>` +
     `<ol>${p.items.map(it => `<li><span class="ptag">${esc(it.tag)}</span><div>` +
       (it.url ? `<a href="${esc(it.url)}" target="_blank" rel="noopener">${esc(it.title)}</a>` : esc(it.title)) +
       `<div class="psrc">${esc(it.source)}</div></div></li>`).join("")}</ol>` +
     `<a class="pick-link" href="${esc(p.url)}" target="_blank" rel="noopener">텔레그램 원문 보기 ↗</a>`;
   el.querySelectorAll(".pick-days button").forEach(b => b.onclick = () => { pickIdx = +b.dataset.k; renderPick(); });
+  const sel = el.querySelector(".pick-old");
+  if (sel) sel.onchange = () => { if (sel.value) { pickIdx = +sel.value; renderPick(); } };
 }
 
 // 지금 수집: GitHub에서 수집을 실행한 뒤 8분 동안 20초마다 새 데이터를 확인해 반영
