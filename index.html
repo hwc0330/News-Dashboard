@@ -596,9 +596,9 @@ function renderPolicy(q, policyOf) {
 }
 
 // ── 원재료 가격: 올린 엑셀(prices/*.xlsx)을 dashboard.py 가 data/prices.json 으로 바꿔 둔 것을 그래프로 ──
-let prices, xRange = "3y", xGroup = null;           // prices: undefined = 불러오는 중, null = 없음
-try { xRange = localStorage.getItem("xRange") || xRange; } catch (e) {}
-const RANGES = [["6m", "6개월", 183], ["1y", "1년", 366], ["3y", "3년", 1097], ["all", "전체", 1e6]];
+let prices, xRange = "all", xGroup = null;           // prices: undefined = 불러오는 중, null = 없음
+try { xRange = localStorage.getItem("xRange2") || xRange; } catch (e) {}
+const RANGES = [["all", "전체", 1e6], ["3y", "3년", 1097], ["1y", "1년", 366], ["6m", "6개월", 183]];
 const dms = d => Date.parse(d + "T00:00:00Z");
 const fmtV = v => v == null || !isFinite(v) ? "–" : Math.abs(v) >= 1000 ? Math.round(v).toLocaleString("ko-KR")
   : (+v.toFixed(Math.abs(v) >= 100 ? 0 : Math.abs(v) >= 10 ? 1 : Math.abs(v) >= 1 ? 2 : 3)).toLocaleString("ko-KR", {maximumFractionDigits: 3});
@@ -669,11 +669,10 @@ function renderPrices() {
   if (prices === undefined) return;
   const P = prices, days = RANGES.find(r => r[0] === xRange)[2];
   $("#xKicker").textContent = `${P.asof.replace(/-/g, ".")} 기준 · PRICE MONITOR`;
-  $("#xUpd").innerHTML = `<span>엑셀 업데이트 <b>${when(P.updated)}</b></span><span>데이터 기준일 <b>${P.asof.replace(/-/g, ".")}</b></span>` +
-    `<span>그래프 ${P.charts.length}개</span>`;
+  $("#xUpd").innerHTML = `<span>데이터 기준일 <b>${P.asof.replace(/-/g, ".")}</b></span><span>출처: ICC Battery, Wind</span>`;
   $("#xRange").innerHTML = RANGES.map(([k, l]) => `<button data-k="${k}" aria-pressed="${k === xRange}">${l}</button>`).join("");
   $("#xRange").querySelectorAll("button").forEach(b => b.onclick = () => {
-    xRange = b.dataset.k; try { localStorage.setItem("xRange", xRange); } catch (e) {} renderPrices();
+    xRange = b.dataset.k; try { localStorage.setItem("xRange2", xRange); } catch (e) {} renderPrices();
   });
   const groups = [...new Set(P.charts.map(c => c.group))];
   chipRow($("#xGroups"), [["", "전체", P.charts.length]].concat(groups.map(g => [g, esc(g), P.charts.filter(c => c.group === g).length])),
@@ -697,7 +696,7 @@ function renderPrices() {
     return `<article class="xcard" id="xc${k}"><div class="xcard-head"><h4>${esc(c.title)}</h4><span class="unit">${esc(c.unit)}${c.unit2 ? " · 아래 " + esc(c.unit2) : ""}</span></div>` +
       `<div class="xleg">${rows}<span class="sub">최신값 · 1개월 변동</span></div>` +
       `<div class="xplot" data-k="${k}" role="img" aria-label="${esc(c.title)} 가격 추이"></div>` +
-      `<div class="xfoot">${c.source ? "출처: " + esc(c.source) + " · " : ""}${c.dates[c.dates.length - 1].replace(/-/g, ".")} 기준</div></article>`;
+      `<div class="xfoot">${c.dates[c.dates.length - 1].replace(/-/g, ".")} 기준</div></article>`;
   };
   const sections = groups.filter(g => !xGroup || g === xGroup).map(g =>
     `<section class="xsec"><h3>${esc(g)}</h3><div class="xgrid">${shown.filter(([c]) => c.group === g).map(card).join("")}</div></section>`).join("");
