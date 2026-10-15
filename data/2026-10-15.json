@@ -2000,5 +2000,61 @@
   "source": "제일재경",
   "published": "2026-10-15T15:36+09:00",
   "first_seen": "2026-10-15T15:47+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "NMosen은 베이징 증권거래소 상장 첫날 122% 이상 상승했고, 신에너지 제품 라인 레이아웃도 가속화됐다",
+  "original": "N莫森北交所挂牌首日盘中涨超122% 新能源产品线布局提速",
+  "url": "http://www.eeo.com.cn/2026/1015/1065316.shtml",
+  "source": "경제관찰보",
+  "published": "2026-10-15T16:07+09:00",
+  "first_seen": "2026-10-15T16:09+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "산업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "9월 중국 전기차 배터리 설치량 87.2GWh 달성, 올해 최고 기록 경신",
+  "original": "China EV battery installations reach 87.2 GWh in September, setting fresh high for year",
+  "url": "https://cnevpost.com/2026/10/15/china-ev-battery-installations-sept-2026/",
+  "source": "CnEVPost",
+  "published": "2026-10-15T16:03+09:00",
+  "first_seen": "2026-10-15T16:09+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "EU",
+  "policy": "",
+  "title": "핀란드는 약한 그리드에서 새로운 풍력, 태양광을 위한 그리드 형성 지원을 요구한다",
+  "original": "Finland demands grid-forming support for new wind, solar in weak grids",
+  "url": "https://www.ess-news.com/2026/10/15/finland-demands-grid-forming-support-for-new-wind-solar-in-weak-grids/",
+  "source": "ESS News",
+  "published": "2026-10-15T16:00+09:00",
+  "first_seen": "2026-10-15T16:09+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "자원",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "개별 재고 진단: 화유코발트(Huayou Cobalt): 신에너지 및 리튬 배터리 분야의 선두주자이며 강력한 성능을 발휘한다. 하락이 멈추고 지지선 근처에서 안정될 수 있는지 주목하세요. 내몽골 1위 기계 : 군사적 개념, 평균적인 성능, 최근 플랫폼에 대한 작은 압력, 연선 근처의 강한 압력, 60일 이동 평균이 지지(Xiao Shijin)",
+  "original": "个股诊断：华友钴业：新能源、锂电龙头，业绩强劲，关注支撑位附近能否止跌企稳。内蒙一机：军工概念，业绩一般，小压力在近期平台，强压力在年线附近，60日均线有支撑（肖世金）",
+  "url": "https://www.yicai.com/video/103394942.html",
+  "source": "제일재경",
+  "published": "2026-10-15T15:49+09:00",
+  "first_seen": "2026-10-15T16:09+09:00"
  }
 ]
