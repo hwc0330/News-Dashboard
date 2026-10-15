@@ -279,6 +279,53 @@
   details.crs summary { cursor: pointer; font-size: 12.5px; font-weight: 600; color: var(--accent); min-height: 28px; display: flex; align-items: center; }
   details.crs p { margin: 4px 0 2px; font-size: 13px; line-height: 1.6; color: var(--dim); }
 
+  /* 국내 법안 */
+  .ksec { display: flex; align-items: baseline; gap: 8px; margin: 6px 0 10px; font-size: 15px; font-weight: 700; }
+  .ksec .n { font-size: 12.5px; font-weight: 500; color: var(--muted); }
+  .meets { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(340px, 100%), 1fr)); gap: 10px; margin-bottom: 8px; }
+  .meet { background: var(--card); border: 1px solid var(--line); border-left: 4px solid var(--accent); border-radius: 12px; padding: 12px 14px 8px; min-width: 0; }
+  .meet.fresh { border-left-color: var(--orange); }
+  .meet-h { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 8px; font-size: 13.5px; }
+  .meet-h .mono { color: var(--accent); font-weight: 600; }
+  .meet-n { font-size: 12.5px; color: var(--muted); }
+  .meet-pdf { margin-left: auto; font-size: 12px; font-weight: 600; color: var(--accent); }
+  .meet-c { font-size: 11.5px; color: var(--soft); margin: 2px 0 4px; }
+  .meet ul { list-style: none; margin: 0; padding: 0; }
+  .meet li { display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 8px; padding: 7px 0; border-top: 1px solid var(--line2); font-size: 13.5px; }
+  .meet li a { font-weight: 600; }
+  .meet-p { font-size: 12px; color: var(--muted); }
+  .acts { display: inline-flex; flex-wrap: wrap; gap: 4px; }
+  .acts i { font-style: normal; font-size: 11px; padding: 1px 7px; border-radius: 999px; background: var(--chip); color: var(--dim); }
+  .acts i.done { background: color-mix(in srgb, var(--orange) 15%, var(--card)); color: var(--orange); font-weight: 700; }
+  .meet li .acts { margin-left: auto; }
+  .kbill { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 14px 16px 10px; min-width: 0;
+           display: flex; flex-direction: column; gap: 7px; scroll-margin-top: 16px; }
+  .kbill.flash { outline: 2px solid var(--orange); outline-offset: 2px; }
+  .ttag.ira { background: color-mix(in srgb, var(--orange) 15%, var(--card)); color: var(--orange); font-weight: 700; }
+  .ksteps i { width: 20px; }
+  .kpoint { margin: 0; font-size: 13.5px; line-height: 1.6; color: var(--dim); }
+  .kpoint b, .diff b { color: var(--text); font-weight: 700; }
+  .tl { list-style: none; margin: 4px 0 6px; padding: 0 0 0 4px; border-left: 2px solid var(--line); }
+  .tl li { display: grid; grid-template-columns: 62px minmax(0, 1fr); gap: 6px; padding: 6px 0 6px 10px; font-size: 13px; position: relative; }
+  .tl li::before { content: ""; position: absolute; left: -6px; top: 12px; width: 8px; height: 8px; border-radius: 50%; background: var(--line); }
+  .tl li.subm::before { background: var(--accent); }
+  .tl li > div { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 8px; }
+  .tl li .mono { color: var(--muted); padding-top: 1px; }
+  .tl li a { font-size: 12px; font-weight: 600; }
+  .cmp summary .cnt { font-weight: 500; color: var(--muted); margin-left: 6px; }
+  .cmp-with { font-size: 12px; color: var(--muted); margin: 2px 0 6px; }
+  .diff { list-style: none; margin: 0 0 6px; padding: 0; display: flex; flex-direction: column; gap: 6px; }
+  .diff li { display: grid; grid-template-columns: 34px minmax(0, 1fr); gap: 8px; align-items: baseline; font-size: 13px; line-height: 1.6; }
+  .diff li > span { font-size: 11px; font-weight: 700; text-align: center; border-radius: 6px; padding: 1px 0; }
+  .diff li p { margin: 0; color: var(--dim); }
+  .diff .add > span { background: color-mix(in srgb, var(--eu) 15%, var(--card)); color: var(--eu); }
+  .diff .del > span { background: color-mix(in srgb, var(--up) 12%, var(--card)); color: var(--up); }
+  .diff .del p { text-decoration: line-through; color: var(--soft); }
+  .diff .chg > span { background: var(--chip); color: var(--accent); }
+  .diff ins { text-decoration: none; background: color-mix(in srgb, var(--eu) 16%, var(--card)); color: var(--text); border-radius: 3px; }
+  .diff del { color: var(--up); text-decoration: line-through; }
+  .pre { white-space: pre-line; }
+
   @media (max-width: 700px) {
     .wrap { padding: 18px 16px 40px; }
     h1 { font-size: 17px; }
@@ -307,6 +354,7 @@
     <button class="tab" role="tab" data-tab="policy" title="정치인·법안·정부 조치 관련 기사 (미국·중국·유럽)">정책 브리핑<span class="n" id="policyN"></span></button>
     <button class="tab" role="tab" data-tab="prices" id="pricesTab" hidden title="배터리 소재·원재료 가격 (올린 엑셀로 그림)">원재료 가격<span class="n" id="pricesN"></span></button>
     <button class="tab" role="tab" data-tab="congress" id="congressTab" hidden title="미 상·하원 의원들이 낸 배터리·전기차 관련 법안 (Congress.gov)">미 의회 법안<span class="n" id="congressN"></span></button>
+    <button class="tab" role="tab" data-tab="assembly" id="assemblyTab" hidden title="국회 전기차·배터리·태양광·한국판 IRA 법안 (열린국회정보)">국내 법안<span class="n" id="assemblyN"></span></button>
   </nav>
   <div class="controls" id="controls">
     <select id="date" aria-label="날짜"></select>
@@ -366,6 +414,25 @@
     <div class="bills" id="cList"><p class="empty">불러오는 중…</p></div>
     <p class="foot">제목·의회조사국(CRS) 요약에 배터리·전기차·핵심광물·충전·배출 규제 키워드가 있는 법안 · 국문은 자동 번역 · 제목을 누르면 Congress.gov 원문</p>
   </div>
+
+  <div id="assemblyView" hidden>
+    <div class="phead">
+      <div>
+        <div class="kicker mono" id="kKicker">K-POLICY WATCH</div>
+        <div class="headline" id="kHeadline">국내 전기차·배터리·태양광 법안</div>
+        <div class="xupd" id="kUpd"></div>
+      </div>
+      <input type="search" class="csearch" id="kQ" placeholder="법안·의원·위원회 검색" aria-label="국내 법안 검색">
+    </div>
+    <div class="funnel" id="kFunnel" role="group" aria-label="진행 단계"></div>
+    <div class="chips" id="kTopics"></div>
+    <div class="chips last" id="kFilters"></div>
+    <div class="ksec">소위 회의별 상정 기록<span class="n" id="kMeetN"></span></div>
+    <div class="meets" id="kMeetings"></div>
+    <div class="ksec">법안</div>
+    <div class="bills" id="kList"><p class="empty">불러오는 중…</p></div>
+    <p class="foot">법안 이름과 제안이유·주요내용에 전기차·배터리(이차전지)·태양광·생산세액공제(한국판 IRA)가 나오는 22대 국회 법률안 · '이전 대비 바뀐 내용'은 위원회 대안이면 흡수한 원안, 아니면 같은 법을 고치는 직전 유사 법안과 주요내용을 문장 단위로 비교 · 숫자는 굵게</p>
+  </div>
 </div>
 <script>
 const $ = s => document.querySelector(s);
@@ -418,9 +485,10 @@ async function init() {
   $("#date").onchange = () => load($("#date").value);
   $("#q").oninput = render;
   $("#cQ").oninput = render;
+  $("#kQ").oninput = render;
   $("#collect").addEventListener("click", watchCollect);
   if (COLLECT_URL) $("#collect").title = "매체를 지금 다시 훑습니다 (2~4분 소요)";
-  loadPick(); loadPrices(); loadCongress();
+  loadPick(); loadPrices(); loadCongress(); loadAssembly();
   if (meta.dates.length) await load(meta.dates[0]); else $("#list").innerHTML = '<p class="empty">아직 데이터가 없습니다.</p>';
   setInterval(refresh, 5 * 60e3);   // 5분마다 새 데이터 확인
 }
@@ -512,7 +580,7 @@ async function refresh() {
     const wasLatest = current === meta.dates[0];
     meta = m; fillDates();
     for (const k in days) delete days[k];
-    loadPick(); loadPrices(); loadCongress();
+    loadPick(); loadPrices(); loadCongress(); loadAssembly();
     if (wasLatest) $("#date").value = meta.dates[0];
     await load($("#date").value);
   } catch (e) {}
@@ -547,7 +615,7 @@ const KEYWORDS = [
   ["법안", /\bbill\b|legislation|법안/i], ["ESS", /storage|\bESS\b|储能/i], ["광물", /mineral|copper|lithium|광물|구리|리튬|锂/i],
   ["전기차", /electric vehicle|\bEVs?\b|전기차|电动/i],
 ];
-let tab = ({"#policy": "policy", "#prices": "prices", "#congress": "congress"})[location.hash] || "all", activeRegion = "미국";
+let tab = ({"#policy": "policy", "#prices": "prices", "#congress": "congress", "#assembly": "assembly"})[location.hash] || "all", activeRegion = "미국";
 const expanded = new Set();
 document.querySelectorAll(".tab").forEach(b => b.onclick = () => {
   tab = b.dataset.tab;
@@ -584,10 +652,11 @@ function render() {
   document.querySelectorAll(".tab").forEach(b => b.setAttribute("aria-selected", b.dataset.tab === tab));
   $("#allN").textContent = base.length; $("#policyN").textContent = policyOf(items).length;
   $("#allView").hidden = tab !== "all"; $("#policyView").hidden = tab !== "policy"; $("#pricesView").hidden = tab !== "prices";
-  $("#congressView").hidden = tab !== "congress";
-  $("#controls").hidden = tab === "prices" || tab === "congress";
+  $("#congressView").hidden = tab !== "congress"; $("#assemblyView").hidden = tab !== "assembly";
+  $("#controls").hidden = tab === "prices" || tab === "congress" || tab === "assembly";
   if (tab === "prices") return renderPrices();
   if (tab === "congress") return renderCongress();
+  if (tab === "assembly") return renderAssembly();
   if (tab === "policy") return renderPolicy(q, policyOf);
 
   const flagged = base.filter(byFlag);
@@ -747,6 +816,129 @@ function renderCongress() {
       (b.summary_ko ? `<details class="crs"><summary>의회조사국(CRS) 요약</summary><p>${esc(b.summary_ko)}</p></details>` : "") +
       `</article>`;
   }).join("");
+}
+
+// ── 국내 법안: assembly.py 가 열린국회정보 API 로 모아 둔 data/assembly.json (6시간마다 확인) ──
+let asm, kTopic = null, kFilter = null, kStage = null, kMeetAll = false;
+const K_PARTY = p => /민주/.test(p) ? "dem" : /국민의힘/.test(p) ? "rep" : "ind";
+const kNew = m => m.seen && new Date(m.seen) > newSince;
+const K_FILTERS = [["ira", "한국판 IRA", b => b.ira], ["pending", "계류 중", b => b.status === "계류"],
+  ["passed", "가결·공포", b => b.stage >= 5], ["merged", "대안 반영", b => b.status === "대안반영폐기"],
+  ["alt", "위원회 대안", b => b.alt], ["gov", "정부안", b => b.kind === "정부"],
+  ["new", "새 회의 기록", b => b.meetings.some(kNew)]];
+const numHi = s => s.replace(/(\d[\d,.]*\s*(?:%|퍼센트|분의\s*\d+|원|만원|억원|조원|년|개월|배|kWh|MW|GW)?)/g, "<b>$1</b>");
+
+async function loadAssembly() {
+  try { asm = await getData("assembly.json", EMBED ? (EMBED.assembly || null) : undefined); } catch (e) { asm = null; }
+  $("#assemblyTab").hidden = !asm;
+  if (asm) $("#assemblyN").textContent = asm.bills.length;
+  if (tab === "assembly") { if (!asm) tab = "all"; render(); }
+}
+
+function kMeetLabel(m) {                                // "제430회 국회(정기회) 제2차 소위회의" → "제2차 소위"
+  const t = m.name.replace(/^제\d+회\s*국회\s*\([^)]*\)\s*/, "");
+  return t.replace("소위회의", "소위").replace("전체회의", "전체회의");
+}
+
+function renderAssembly() {
+  if (!asm) { $("#kList").innerHTML = '<p class="empty">불러오는 중…</p>'; return; }
+  const all = asm.bills, st = asm.stages, q = $("#kQ").value.trim().toLowerCase();
+  $("#kKicker").textContent = `제${asm.age}대 국회 · K-POLICY WATCH`;
+  const ira = all.filter(b => b.ira).length, sub = all.filter(b => b.stage === 2).length, passed = all.filter(b => b.stage >= 5).length;
+  $("#kHeadline").innerHTML = `전기차·배터리·태양광 법안 ${all.length}건 <small>· 한국판 IRA ${ira} · 소위 심사 ${sub} · 가결 ${passed}</small>`;
+  $("#kUpd").innerHTML = `<span>출처 <b>열린국회정보</b></span><span>확인 <b>${esc(when(asm.updated))}</b></span>` +
+    (asm.pending ? `<span>${asm.pending}건은 다음 수집 때 이어서 정리</span>` : "");
+
+  const text = b => `${b.name} ${b.proposer} ${b.committee} ${b.subcommittee} ${b.summary} ${b.no}`.toLowerCase();
+  const byQ = all.filter(b => !q || text(b).includes(q));
+  const f = K_FILTERS.find(x => x[0] === kFilter);
+  const keep = (b, skip) => (skip === "topic" || !kTopic || b.topics.includes(kTopic)) && (skip === "filter" || !f || f[2](b))
+    && (skip === "stage" || kStage == null || b.stage === kStage);
+
+  const inStage = byQ.filter(b => keep(b, "stage"));
+  $("#kFunnel").innerHTML = st.map((s, k) => {
+    const n = inStage.filter(b => b.stage === k).length;
+    return `<button class="fstep${k >= 5 ? " law" : ""}" data-k="${k}" aria-pressed="${kStage === k}"><span class="num mono">${n}</span><span>${s}</span></button>`;
+  }).join('<i class="farrow" aria-hidden="true">›</i>');
+  $("#kFunnel").querySelectorAll(".fstep").forEach(b => b.onclick = () => { kStage = kStage === +b.dataset.k ? null : +b.dataset.k; render(); });
+
+  const forTopic = byQ.filter(b => keep(b, "topic"));
+  chipRow($("#kTopics"), [["", "전체 주제", forTopic.length]].concat(asm.topics.concat(["기타"]).map(t => [t, esc(t), forTopic.filter(b => b.topics.includes(t)).length]).filter(x => x[2])),
+          kTopic, v => { kTopic = v; render(); });
+  const forFilter = byQ.filter(b => keep(b, "filter"));
+  chipRow($("#kFilters"), [["", "모두", forFilter.length]].concat(K_FILTERS.map(([k, label, fn]) => [k, label, forFilter.filter(fn).length])),
+          kFilter, v => { kFilter = v; render(); });
+
+  const shown = byQ.filter(b => keep(b));
+  renderMeetings(shown);
+  if (!shown.length) { $("#kList").innerHTML = '<p class="empty">해당하는 법안이 없습니다.</p>'; return; }
+  const byNo = Object.fromEntries(all.map(b => [b.no, b]));
+  $("#kList").innerHTML = shown.map(b => billCard(b, byNo, st)).join("");
+}
+
+// 소위 회의별 상정 기록: 같은 날·같은 위원회·같은 회의에 올라간 법안을 묶어 최신 순
+function renderMeetings(bills) {
+  const groups = {};
+  bills.forEach(b => b.meetings.forEach(m => {
+    if (!/소위/.test(m.name)) return;
+    const key = `${m.date}|${b.committee}|${m.name}`;
+    (groups[key] = groups[key] || {date: m.date, committee: b.committee, sub: b.subcommittee, m, items: []}).items.push({b, m});
+  }));
+  const list = Object.values(groups).sort((a, b) => b.date.localeCompare(a.date));
+  const show = kMeetAll ? list : list.slice(0, 6);
+  $("#kMeetN").textContent = list.length ? `${list.length}회` : "";
+  $("#kMeetings").innerHTML = !list.length ? '<p class="empty">소위에 오른 법안이 없습니다.</p>' : show.map(g =>
+    `<article class="meet${g.items.some(x => kNew(x.m)) ? " fresh" : ""}"><div class="meet-h"><span class="mono">${ymd(g.date)}</span>` +
+    `<b>${esc(g.sub || g.committee)}</b><span class="meet-n">${esc(kMeetLabel(g.m))}</span>` +
+    (g.items.some(x => kNew(x.m)) ? '<span class="badge new">NEW</span>' : "") +
+    (g.m.pdf ? `<a class="meet-pdf" href="${esc(g.m.pdf)}" target="_blank" rel="noopener">회의록</a>` : "") + `</div>` +
+    `<div class="meet-c">${esc(g.committee)}</div><ul>` +
+    g.items.map(({b, m}) => `<li><a href="#k-${b.no}" data-no="${b.no}">${esc(b.name.replace(/ 일부개정법률안| 전부개정법률안/, "").replace(/법률안$/, ""))}</a>` +
+      `<span class="meet-p">${esc(b.alt ? "위원회 대안" : b.rep ? b.rep + " 의원" : b.proposer)}</span>` +
+      `<span class="acts">${m.acts.map(a => `<i class="${/의결|가결/.test(a) ? "done" : ""}">${esc(a)}</i>`).join("")}</span></li>`).join("") +
+    `</ul></article>`).join("") +
+    (list.length > 6 ? `<button class="more" id="kMeetMore">${kMeetAll ? "접기" : `지난 회의 ${list.length - 6}회 더 보기`}</button>` : "");
+  const more = $("#kMeetMore"); if (more) more.onclick = () => { kMeetAll = !kMeetAll; render(); };
+  $("#kMeetings").querySelectorAll("a[data-no]").forEach(a => a.onclick = ev => {
+    ev.preventDefault();
+    const el = document.getElementById("k-" + a.dataset.no);
+    if (el) { el.scrollIntoView({behavior: "smooth", block: "start"}); el.classList.add("flash"); setTimeout(() => el.classList.remove("flash"), 1600); }
+  });
+}
+
+function billCard(b, byNo, st) {
+  const pc = b.kind === "정부" ? "ind" : K_PARTY(b.party);
+  const who = b.alt ? esc(b.proposer || "위원장") : b.kind === "정부" ? "정부" :
+    `<b>${esc(b.rep || b.proposer)}</b>${b.party ? ` (${esc(b.party)})` : ""}${/등 \d+인/.test(b.proposer) ? " " + esc(b.proposer.match(/등 \d+인/)[0]) : ""}`;
+  const last = b.meetings.length ? b.meetings[b.meetings.length - 1] : null;
+  const status = b.status === "대안반영폐기" && b.merged_into && byNo[b.merged_into]
+    ? `대안 반영 → <a href="#k-${b.merged_into}">${esc(b.merged_into)}</a>` : esc(b.status === "계류" ? st[b.stage] : b.status);
+  const lines = b.summary.split(/\n+/).map(s => s.trim()).filter(Boolean);
+  const head = lines.slice(0, 3).join(" ");
+  const cmp = b.compare;
+  return `<article class="kbill" id="k-${b.no}">` +
+    `<div class="bill-top"><span class="ch">${esc(b.committee || "소관위 미정")}</span><span class="mono blabel">${esc(b.no)}</span>` +
+    (b.ira ? '<span class="ttag ira">한국판 IRA</span>' : "") + b.topics.filter(t => t !== "한국판 IRA·세제").map(t => `<span class="ttag">${esc(t)}</span>`).join("") +
+    `<span class="time mono">${ymd(b.date)} 발의</span></div>` +
+    `<a class="bill-t" href="${esc(b.url)}" target="_blank" rel="noopener">${esc(b.name)}</a>` +
+    `<div class="spon"><i class="pdot ${pc}"></i><span>${who}</span></div>` +
+    `<div class="steps ksteps${b.stage >= 5 ? " law" : ""}" role="img" aria-label="진행 단계 ${esc(st[b.stage])}">` +
+    st.map((x, k) => `<i class="${k <= b.stage ? "on" : ""}" title="${esc(x)}"></i>`).join("") + `<span>${status}</span></div>` +
+    (b.subcommittee ? `<div class="act"><b>${esc(b.subcommittee)}</b>${b.sub_present ? ` · ${ymd(b.sub_present)} 상정` : ""}${b.sub_proc ? ` · ${ymd(b.sub_proc)} ${esc(b.sub_result || "처리")}` : ""}</div>` : "") +
+    (head ? `<p class="kpoint">${numHi(esc(head.length > 260 ? head.slice(0, 260) + "…" : head))}</p>` : "") +
+    (b.meetings.length ? `<details class="crs"><summary>회의 기록 ${b.meetings.length}건${last ? ` · 최근 ${ymd(last.date)} ${esc(kMeetLabel(last))}` : ""}${b.meetings.some(kNew) ? ' <span class="badge new">NEW</span>' : ""}</summary><ol class="tl">` +
+      b.meetings.slice().reverse().map(m => `<li class="${/소위/.test(m.name) ? "subm" : ""}"><span class="mono">${ymd(m.date)}</span><div><b>${esc(kMeetLabel(m))}</b>` +
+        `${kNew(m) ? ' <span class="badge new">NEW</span>' : ""}<span class="acts">${m.acts.map(a => `<i class="${/의결|가결/.test(a) ? "done" : ""}">${esc(a)}</i>`).join("")}</span>` +
+        (m.pdf ? `<a href="${esc(m.pdf)}" target="_blank" rel="noopener">회의록 PDF</a>` : "") + `</div></li>`).join("") + `</ol></details>` : "") +
+    (cmp ? `<details class="crs cmp"><summary>이전 대비 바뀐 내용 · ${cmp.kind} ${esc(cmp.no)}` +
+      ` <span class="cnt">추가 ${cmp.items.filter(x => x.t === "add").length} · 수정 ${cmp.items.filter(x => x.t === "chg").length} · 삭제 ${cmp.items.filter(x => x.t === "del").length}</span></summary>` +
+      `<div class="cmp-with">비교 대상: ${esc(cmp.name)} (${esc(cmp.proposer)}, ${ymd(cmp.date)})${cmp.same ? ` · 같은 문장 ${cmp.same}개` : ""}</div><ul class="diff">` +
+      cmp.items.map(x => x.t === "add" ? `<li class="add"><span>추가</span><p>${numHi(esc(x.text))}</p></li>`
+        : x.t === "del" ? `<li class="del"><span>삭제</span><p>${esc(x.text)}</p></li>`
+        : `<li class="chg"><span>수정</span><p>${x.seg.map(([op, s]) => op === "+" ? `<ins>${numHi(esc(s))}</ins>` : op === "-" ? `<del>${esc(s)}</del>` : esc(s)).join("")}</p></li>`).join("") +
+      `</ul></details>` : "") +
+    `<details class="crs"><summary>제안이유 · 주요내용 전체</summary>${b.reason ? `<p><b>제안이유</b> ${esc(b.reason)}</p>` : ""}<p class="pre">${esc(b.summary)}</p></details>` +
+    `</article>`;
 }
 
 // ── 원재료 가격: 올린 엑셀(prices/*.xlsx)을 dashboard.py 가 data/prices.json 으로 바꿔 둔 것을 그래프로 ──
