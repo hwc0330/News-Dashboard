@@ -3291,7 +3291,7 @@
  },
  {
   "section": "EV/ESS",
-  "tag": "기업",
+  "tag": "산업",
   "impact": "0",
   "key": false,
   "region": "",
@@ -3556,8 +3556,8 @@
   "first_seen": "2026-10-15T23:31+09:00"
  },
  {
-  "section": "기타",
-  "tag": "기타",
+  "section": "EV/ESS",
+  "tag": "기업",
   "impact": "0",
   "key": false,
   "region": "",
@@ -3708,5 +3708,47 @@
   "source": "Politico Europe",
   "published": "2026-10-15T22:56+09:00",
   "first_seen": "2026-10-16T00:55+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "Best Buy는 캘리포니아 유통 현장에서 배터리 구동 차량을 시험한다",
+  "original": "Best Buy pilots battery-powered vehicles at California distribution sites",
+  "url": "https://www.utilitydive.com/news/best-buy-pilots-battery-powered-vehicles-at-california-distribution-sites/833125/",
+  "source": "Utility Dive",
+  "published": "2026-10-15T23:32+09:00",
+  "first_seen": "2026-10-16T01:31+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "시장",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "에너지 전환은 2035년까지 핵심 광물 위기에 직면할 것이다: 보고서",
+  "original": "Energy transition faces critical-minerals crunch by 2035: report",
+  "url": "https://www.mining.com/energy-transition-faces-critical-minerals-crunch-by-2035-report/",
+  "source": "MINING.COM",
+  "published": "2026-10-15T23:19+09:00",
+  "first_seen": "2026-10-16T01:31+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "AI 데이터 센터, 암호화폐 채굴자의 신뢰성 표준 채택이 가까워졌다",
+  "original": "Reliability standards for AI data centers, crypto miners move closer to adoption",
+  "url": "https://www.utilitydive.com/news/reliability-standards-ai-data-centers-crypto-miners-pass-final-nerc-ba/833094/",
+  "source": "Utility Dive",
+  "published": "2026-10-15T22:28+09:00",
+  "first_seen": "2026-10-16T01:31+09:00"
  }
 ]
