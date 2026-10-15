@@ -217,7 +217,7 @@
   "region": "US",
   "policy": "",
   "title": "볼보는 엔비디아에 더 큰 투자를 했다",
-  "original": "Volvo makes a bigger bet on Nvidia",
+  "original": "Volvo makes a bigger bet on Nvidia for hands-free automated driving",
   "url": "https://techcrunch.com/2026/10/15/volvo-makes-a-bigger-bet-on-nvidia/",
   "source": "TechCrunch",
   "published": "2026-10-16T02:34+09:00",
@@ -320,5 +320,19 @@
   "source": "Electrek",
   "published": "2026-10-16T03:42+09:00",
   "first_seen": "2026-10-16T04:12+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "Amazon은 Elon Musk의 Grok Bot을 폐쇄하여 자신의 경쟁 매장을 만들 수도 있다",
+  "original": "Amazon shuts out Elon Musk’s Grok Bot so he may just build his own rival store",
+  "url": "https://www.teslarati.com/elon-musk-grok-bot-amazon-shopping/",
+  "source": "Teslarati",
+  "published": "2026-10-16T04:35+09:00",
+  "first_seen": "2026-10-16T04:49+09:00"
  }
 ]
