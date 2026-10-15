@@ -604,19 +604,6 @@
  },
  {
   "section": "배터리 셀/소재/광물",
-  "tag": "기업",
-  "impact": "0",
-  "key": false,
-  "region": "",
-  "title": "GAC: 첫 3분기 동안 구리 반제품 수입은 6.5% 감소, 희토류 수입은 2.4% 감소, 알루미늄 반제품 수출은 17.8% 증가했다",
-  "original": "GAC: Copper semis imports fell 6.5%, rare earth imports fell 2.4%, and aluminum semis exports rose 17.8% in the first three quarters",
-  "url": "https://news.metal.com/en/newscontent/104157221-gac-copper-semis-imports-fell-65-rare-earth-imports-fell-24-and-aluminum-semis-exports-rose-178-in-the-first-three-quarters",
-  "source": "SMM",
-  "published": "2026-10-14T19:28+09:00",
-  "first_seen": "2026-10-14T15:12+09:00"
- },
- {
-  "section": "배터리 셀/소재/광물",
   "tag": "기술",
   "impact": "0",
   "key": false,
@@ -2325,7 +2312,7 @@
   "key": false,
   "region": "US",
   "title": "새로운 청정 발전이 둔화되는 동안 화석 생성 파이프라인은 반등: EDF",
-  "original": "Fossil fuel generation pipeline rebounds while new clean generation slows: EDF",
+  "original": "Fossil generation pipeline rebounds while new clean generation slows: EDF",
   "url": "https://www.utilitydive.com/news/fossil-generation-pipeline-rebounds-while-new-clean-generation-slows-edf/832978/",
   "source": "Utility Dive",
   "published": "2026-10-14T23:55+09:00",

@@ -1,5 +1,18 @@
 [
  {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "title": "GAC: 첫 3분기 동안 구리 반제품 수입은 6.5% 감소, 희토류 수입은 2.4% 감소, 알루미늄 반제품 수출은 17.8% 증가했다",
+  "original": "GAC: Copper semis imports fell 6.5%, rare earth imports fell 2.4%, and aluminum semis exports rose 17.8% in the first three quarters",
+  "url": "https://news.metal.com/en/newscontent/104157221-gac-copper-semis-imports-fell-65-rare-earth-imports-fell-24-and-aluminum-semis-exports-rose-178-in-the-first-three-quarters",
+  "source": "SMM",
+  "published": "2026-10-15T10:19+09:00",
+  "first_seen": "2026-10-14T15:12+09:00"
+ },
+ {
   "section": "EV/ESS",
   "tag": "자원",
   "impact": "0",
@@ -598,19 +611,6 @@
   "first_seen": "2026-10-15T09:41+09:00"
  },
  {
-  "section": "배터리 셀/소재/광물",
-  "tag": "기업",
-  "impact": "0",
-  "key": false,
-  "region": "",
-  "title": "GAC: 첫 3분기 동안 구리 반제품 수입은 6.5% 감소, 희토류 수입은 2.4% 감소, 알루미늄 반제품 수출은 17.8% 증가했다",
-  "original": "GAC: Copper semis imports fell 6.5%, rare earth imports fell 2.4%, and aluminum semis exports rose 17.8% in the first three quarters",
-  "url": "https://news.metal.com/en/newscontent/104157221-gac-copper-semis-imports-fell-65-rare-earth-imports-fell-24-and-aluminum-semis-exports-rose-178-in-the-first-three-quarters",
-  "source": "SMM",
-  "published": "2026-10-15T10:19+09:00",
-  "first_seen": "2026-10-14T15:12+09:00"
- },
- {
   "section": "기타",
   "tag": "기타",
   "impact": "0",
@@ -752,5 +752,31 @@
   "source": "글로벌이코노믹",
   "published": "2026-10-15T09:38+09:00",
   "first_seen": "2026-10-15T10:21+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "title": "Pantera Minerals는 Energyx가 Trafigura와 10년 리튬 구매 계약을 체결했다고 밝혔다",
+  "original": "Pantera Minerals Says Energyx Signs Binding 10-Year Lithium Offtake With Trafigura",
+  "url": "https://www.reuters.com/site-search/?query=Pantera%20Minerals%20Says%20Energyx%20Signs%20Binding%2010-Year%20Lithium%20Offtake%20With%20Trafigura",
+  "source": "Reuters",
+  "published": "2026-10-15T10:24+09:00",
+  "first_seen": "2026-10-15T10:28+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "title": "[SMM 니켈 모닝 미팅 요약] 미국 연준 윌리엄스, 비둘기파 신호 발표, 가장 많이 거래되는 SHFE 니켈 계약은 주간 세션에서 크게 변동",
+  "original": "[SMM Nickel Morning Meeting Summary] US Fed's Williams releases dovish signals, most-traded SHFE nickel contract swings wildly in daytime session",
+  "url": "https://news.metal.com/en/newscontent/104157796-smm-nickel-morning-meeting-summary-us-feds-williams-releases-dovish-signals-most-traded-shfe-nickel-contract-swings-wildly-in-daytime-session",
+  "source": "SMM",
+  "published": "2026-10-15T10:19+09:00",
+  "first_seen": "2026-10-15T10:28+09:00"
  }
 ]
