@@ -8,19 +8,19 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
-  /* 회색 단계 + 남색 포인트 하나 (호재·악재 표시만 빨강·파랑) */
+  /* 회색 바탕 + 남색(선택·숫자)·주황(오늘의 뉴스픽·NEW·최신) 포인트 */
   :root {
     --bg: #F7F7F8; --card: #FFFFFF; --text: #18181B; --muted: #6B6B76; --soft: #8E8E98; --dim: #3F3F46;
-    --line: #E6E6EA; --line2: #F0F0F3; --field: #DCDCE2; --accent: #1F3A68; --bar: #D4D4DA;
-    --chip: #F0F0F3; --chip-on: #18181B; --chip-on-text: #FFFFFF;
+    --line: #E6E6EA; --line2: #F0F0F3; --field: #DCDCE2; --accent: #1F3A68; --orange: #E8590C; --bar: #D4D4DA;
+    --chip: #F0F0F3; --chip-on: #1F3A68; --chip-on-text: #FFFFFF;
     --up: #C92A2A; --down: #1C5FD4; --flat: #8E8E98;
     color-scheme: light;
   }
   @media (prefers-color-scheme: dark) {
     :root {
       --bg: #121214; --card: #1A1A1E; --text: #ECECEF; --muted: #A0A0AB; --soft: #7A7A85; --dim: #D4D4D8;
-      --line: #2A2A30; --line2: #222227; --field: #34343B; --accent: #9DB4E0; --bar: #3A3A42;
-      --chip: #24242A; --chip-on: #ECECEF; --chip-on-text: #121214;
+      --line: #2A2A30; --line2: #222227; --field: #34343B; --accent: #9DB4E0; --orange: #FF8A3D; --bar: #3A3A42;
+      --chip: #24242A; --chip-on: #9DB4E0; --chip-on-text: #121214;
       --up: #FF6B6B; --down: #6EA8FF; --flat: #7A7A85;
       color-scheme: dark;
     }
@@ -38,12 +38,13 @@
   .updated, .status { font-size: 13px; color: var(--muted); }
   #collect { margin-left: auto; font-size: 13px; padding: 7px 14px; border: 1px solid var(--field); border-radius: 9px;
              background: var(--card); display: inline-flex; align-items: center; gap: 6px; min-height: 32px; }
-  #collect:hover { text-decoration: none; border-color: var(--accent); }
+  #collect { background: var(--accent); border-color: var(--accent); color: #fff; }
+  #collect:hover { text-decoration: none; opacity: .9; color: #fff; }
 
   .tabs { display: flex; gap: 4px; margin: 14px 0 18px; border-bottom: 1px solid var(--line); }
   .tab { border: 0; background: none; font: inherit; font-size: 15px; font-weight: 600; color: var(--muted);
          padding: 10px 14px; border-bottom: 3px solid transparent; margin-bottom: -1px; cursor: pointer; min-height: 44px; }
-  .tab[aria-selected=true] { color: var(--text); border-bottom-color: var(--text); }
+  .tab[aria-selected=true] { color: var(--accent); border-bottom-color: var(--orange); }
   .tab .n { font-weight: 400; font-size: 13px; margin-left: 4px; }
 
   .controls { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; }
@@ -61,12 +62,12 @@
   .imp.up { color: var(--up); } .imp.down { color: var(--down); } .imp.flat { color: var(--flat); }
   .badge { display: inline-block; font-size: 10.5px; font-weight: 700; border-radius: 4px; padding: 0 5px;
            margin-right: 5px; vertical-align: 1px; }
-  .badge.new { color: var(--accent); border: 1px solid currentColor; padding: 0 4px; line-height: 1.35; }
+  .badge.new { background: var(--orange); color: #fff; }
   .empty { color: var(--muted); padding: 30px 0; text-align: center; }
 
   /* 전체 기사 */
   section.sec { margin-bottom: 26px; }
-  section.sec > h2 { font-size: 17px; margin: 0 0 10px; padding-bottom: 6px; border-bottom: 2px solid var(--text); }
+  section.sec > h2 { font-size: 17px; margin: 0 0 10px; padding-bottom: 6px; color: var(--accent); border-bottom: 2px solid var(--accent); }
   section.sec > h2 .n { color: var(--muted); font-weight: 400; font-size: 14px; margin-left: 6px; }
   details.grp { background: var(--card); border: 1px solid var(--line); border-radius: 14px; margin-bottom: 10px; overflow: hidden; }
   details.grp > summary { cursor: pointer; padding: 11px 16px; font-weight: 600; list-style: none; }
@@ -105,7 +106,7 @@
   .bars > div:last-child i { background: var(--accent); }
   .bars span { font-size: 10px; color: var(--soft); }
   .count { display: flex; align-items: baseline; gap: 6px; margin-top: 12px; }
-  .count .num { font-size: 36px; font-weight: 600; line-height: 1; }
+  .count .num { font-size: 36px; font-weight: 600; line-height: 1; color: var(--accent); }
   .count .lbl { font-size: 13px; color: var(--muted); }
   .count .delta { margin-left: auto; font-size: 12.5px; color: var(--muted); }
   .kws { display: flex; flex-wrap: wrap; gap: 4px 10px; margin-top: 12px; }
@@ -114,7 +115,7 @@
   .lead { padding: 14px 0 12px; border-bottom: 1px solid var(--line2); }
   .lead-top { display: flex; align-items: center; gap: 6px; margin-bottom: 6px; }
   .lead-top .badge { margin: 0; }
-  .tag { font-size: 11.5px; font-weight: 600; color: var(--accent); }
+  .tag { font-size: 11.5px; font-weight: 700; color: var(--orange); }
   .time { font-size: 12px; color: var(--muted); }
   .lead a { font-size: 17px; font-weight: 600; line-height: 1.45; display: block; }
   .src { font-size: 12.5px; color: var(--muted); margin-top: 6px; }
@@ -135,10 +136,11 @@
           font-size: 13px; font-weight: 600; color: var(--accent); cursor: pointer; }
   .foot { margin: 22px 0 0; font-size: 12.5px; color: var(--muted); }
 
-  /* Mirae의 뉴스픽 (텔레그램 매일 뉴스 업데이트) */
-  .pick { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 18px 20px 8px; margin: 18px 0 6px; }
+  /* 오늘의 뉴스픽 (텔레그램 매일 뉴스 업데이트) */
+  .pick { background: var(--card); border: 1px solid var(--line); border-top: 4px solid var(--orange); border-radius: 14px; padding: 16px 20px 8px; margin: 18px 0 6px; }
   .pick-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 12px; margin-bottom: 8px; }
-  .pick-head h2 { margin: 0; font-size: 18px; font-weight: 700; letter-spacing: -0.01em; }
+  .pick-head h2 { margin: 0; font-size: 19px; font-weight: 700; letter-spacing: -0.01em; color: var(--accent); }
+  .pick-head h2 b { color: var(--orange); }
   .pick-head .when { font-size: 12.5px; color: var(--muted); }
   .pick-days { display: flex; gap: 4px; margin-left: auto; }
   .pick-days button { font: inherit; font-size: 12px; border: 1px solid var(--line); background: none; color: var(--muted);
@@ -146,10 +148,10 @@
   .pick-days button[aria-pressed=true] { border-color: var(--chip-on); background: var(--chip-on); color: var(--chip-on-text); }
   .pick ol { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(340px, 100%), 1fr)); column-gap: 28px; }
   .pick li { padding: 10px 0; border-top: 1px solid var(--line2); display: grid; grid-template-columns: 38px minmax(0, 1fr); gap: 6px; }
-  .pick .ptag { font-size: 12px; color: var(--muted); padding-top: 2px; }
+  .pick .ptag { font-size: 12px; font-weight: 700; color: var(--orange); padding-top: 2px; }
   .pick li a { font-size: 14.5px; font-weight: 500; line-height: 1.5; }
   .pick .psrc { font-size: 12px; color: var(--soft); margin-top: 2px; }
-  .pick-link { display: inline-flex; align-items: center; min-height: 40px; font-size: 12.5px; color: var(--accent); }
+  .pick-link { display: inline-flex; align-items: center; min-height: 40px; font-size: 12.5px; font-weight: 600; color: var(--orange); }
 
   @media (max-width: 700px) {
     .wrap { padding: 18px 16px 40px; }
@@ -173,7 +175,7 @@
     <a id="collect" href="https://github.com/hwc0330/News-Dashboard/actions/workflows/update.yml"
        target="_blank" rel="noopener" title="GitHub에서 'Run workflow'를 누르면 바로 수집합니다 (저장소 주인만 가능)"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"></path></svg>지금 수집</a>
   </header>
-  <section class="pick" id="pick" hidden aria-label="Mirae의 뉴스픽"></section>
+  <section class="pick" id="pick" hidden aria-label="오늘의 뉴스픽"></section>
   <nav class="tabs" role="tablist" aria-label="보기">
     <button class="tab" role="tab" data-tab="all">전체 기사<span class="n" id="allN"></span></button>
     <button class="tab" role="tab" data-tab="policy" title="정치인·법안·정부 조치 관련 기사 (미국·중국·유럽)">정책 브리핑<span class="n" id="policyN"></span></button>
@@ -263,7 +265,7 @@ async function init() {
   setInterval(refresh, 5 * 60e3);   // 5분마다 새 데이터 확인
 }
 
-// Mirae의 뉴스픽: 텔레그램 채널에 매일 올라가는 뉴스 업데이트의 헤드라인·링크 (dashboard.py 가 data/newspick.json 으로 저장)
+// 오늘의 뉴스픽: 텔레그램 채널에 매일 올라가는 뉴스 업데이트의 헤드라인·링크 (dashboard.py 가 data/newspick.json 으로 저장)
 let picks = [], pickIdx = 0;
 async function loadPick() {
   try { picks = await getData("newspick.json", EMBED && (EMBED.pick || [])); } catch (e) { picks = []; }
@@ -275,7 +277,7 @@ function renderPick() {
   if (!picks.length) return;
   const p = picks[Math.min(pickIdx, picks.length - 1)];
   const short = d => (d.match(/(\d+)월 (\d+)일/) || []).slice(1).join(".");
-  el.innerHTML = `<div class="pick-head"><h2>Mirae의 뉴스픽</h2><span class="when mono">${esc(p.date)} · ${hhmm(p.posted)}</span>` +
+  el.innerHTML = `<div class="pick-head"><h2><b>오늘의</b> 뉴스픽</h2><span class="when mono">${esc(p.date)} · ${hhmm(p.posted)}</span>` +
     `<div class="pick-days">${picks.map((q, k) => `<button data-k="${k}" aria-pressed="${q === p}">${esc(short(q.date) || q.date)}</button>`).join("")}</div></div>` +
     `<ol>${p.items.map(it => `<li><span class="ptag">${esc(it.tag)}</span><div>` +
       (it.url ? `<a href="${esc(it.url)}" target="_blank" rel="noopener">${esc(it.title)}</a>` : esc(it.title)) +
