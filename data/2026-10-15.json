@@ -3731,7 +3731,7 @@
   "region": "",
   "policy": "",
   "title": "에너지 전환은 2035년까지 핵심 광물 위기에 직면할 것이다: 보고서",
-  "original": "Energy transition faces critical-minerals crunch by 2035: report",
+  "original": "Energy transition faces critical minerals crunch by 2035: report",
   "url": "https://www.mining.com/energy-transition-faces-critical-minerals-crunch-by-2035-report/",
   "source": "MINING.COM",
   "published": "2026-10-15T23:19+09:00",
@@ -3778,5 +3778,33 @@
   "source": "Heatmap",
   "published": "2026-10-15T21:15+09:00",
   "first_seen": "2026-10-16T02:13+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "테슬라·재규어, 1억원대 전기차 승부…고급차 시장 공략",
+  "original": "",
+  "url": "https://www.g-enews.com/article/Global-Biz/2026/10/2026101522373770099a1f309431_1",
+  "source": "글로벌이코노믹",
+  "published": "2026-10-15T22:37+09:00",
+  "first_seen": "2026-10-16T04:12+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기술",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "창안차·CATL, 배터리 생산 75GWh로 확대…전고체 셀 공동 개발 추진",
+  "original": "",
+  "url": "https://www.g-enews.com/article/Global-Biz/2026/10/2026101521233378062bd56fbc3c_1",
+  "source": "글로벌이코노믹",
+  "published": "2026-10-15T21:23+09:00",
+  "first_seen": "2026-10-16T04:12+09:00"
  }
 ]

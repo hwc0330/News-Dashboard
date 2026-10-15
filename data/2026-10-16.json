@@ -306,5 +306,19 @@
   "source": "CleanTechnica",
   "published": "2026-10-16T02:57+09:00",
   "first_seen": "2026-10-16T03:30+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "Rivian은 NDA에 따라 지점 간 운전을 초대 전용 테스터로 제한한다",
+  "original": "Rivian limits point-to-point driving to invite-only testers under NDA",
+  "url": "https://electrek.co/2026/10/15/rivian-point-to-point-early-access-program-nda/",
+  "source": "Electrek",
+  "published": "2026-10-16T03:42+09:00",
+  "first_seen": "2026-10-16T04:12+09:00"
  }
 ]
