@@ -3750,5 +3750,33 @@
   "source": "Utility Dive",
   "published": "2026-10-15T22:28+09:00",
   "first_seen": "2026-10-16T01:31+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "정책",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "중국",
+  "title": "中 희토류 제재에 ASML 공급망 흔들…EU, 제재 맞교환 추진",
+  "original": "",
+  "url": "https://www.g-enews.com/article/Global-Biz/2026/10/2026101522264113819a1f309431_1",
+  "source": "글로벌이코노믹",
+  "published": "2026-10-15T22:26+09:00",
+  "first_seen": "2026-10-16T02:13+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "아람코, 본사에 후티 미사일 공격으로 '광범위한 피해' 입다",
+  "original": "Aramco Suffers ‘Extensive Damage’ in Houthi Missile Strike on HQ",
+  "url": "https://heatmap.news/am/houthis-aramco-attack",
+  "source": "Heatmap",
+  "published": "2026-10-15T21:15+09:00",
+  "first_seen": "2026-10-16T02:13+09:00"
  }
 ]
