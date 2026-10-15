@@ -8,19 +8,20 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
+  /* 회색 단계 + 남색 포인트 하나 (호재·악재 표시만 빨강·파랑) */
   :root {
-    --bg: #F3F4F7; --card: #FFFFFF; --text: #1B2130; --muted: #5F6776; --soft: #8A909C; --dim: #4A5160;
-    --line: #E1E4EA; --line2: #EDEFF3; --field: #D9DCE3; --accent: #27407A;
-    --chip: #E6E8EE; --chip-on: #1B2130; --chip-on-text: #FFFFFF;
-    --up: #C92A2A; --down: #1C5FD4; --flat: #6B7280; --new: #D9480F;
+    --bg: #F7F7F8; --card: #FFFFFF; --text: #18181B; --muted: #6B6B76; --soft: #8E8E98; --dim: #3F3F46;
+    --line: #E6E6EA; --line2: #F0F0F3; --field: #DCDCE2; --accent: #1F3A68; --bar: #D4D4DA;
+    --chip: #F0F0F3; --chip-on: #18181B; --chip-on-text: #FFFFFF;
+    --up: #C92A2A; --down: #1C5FD4; --flat: #8E8E98;
     color-scheme: light;
   }
   @media (prefers-color-scheme: dark) {
     :root {
-      --bg: #12151B; --card: #1B2029; --text: #E6E9EF; --muted: #9AA3B2; --soft: #7D8590; --dim: #B7BFCC;
-      --line: #2A313D; --line2: #232A35; --field: #343C4A; --accent: #8FB0FF;
-      --chip: #252C38; --chip-on: #E6E9EF; --chip-on-text: #12151B;
-      --up: #FF6B6B; --down: #6EA8FF; --flat: #8B929C; --new: #FF922B;
+      --bg: #121214; --card: #1A1A1E; --text: #ECECEF; --muted: #A0A0AB; --soft: #7A7A85; --dim: #D4D4D8;
+      --line: #2A2A30; --line2: #222227; --field: #34343B; --accent: #9DB4E0; --bar: #3A3A42;
+      --chip: #24242A; --chip-on: #ECECEF; --chip-on-text: #121214;
+      --up: #FF6B6B; --down: #6EA8FF; --flat: #7A7A85;
       color-scheme: dark;
     }
   }
@@ -60,7 +61,7 @@
   .imp.up { color: var(--up); } .imp.down { color: var(--down); } .imp.flat { color: var(--flat); }
   .badge { display: inline-block; font-size: 10.5px; font-weight: 700; border-radius: 4px; padding: 0 5px;
            margin-right: 5px; vertical-align: 1px; }
-  .badge.new { background: var(--new); color: #fff; }
+  .badge.new { color: var(--accent); border: 1px solid currentColor; padding: 0 4px; line-height: 1.35; }
   .empty { color: var(--muted); padding: 30px 0; text-align: center; }
 
   /* 전체 기사 */
@@ -85,40 +86,35 @@
   .headline { font-size: 26px; font-weight: 700; letter-spacing: -0.02em; line-height: 1.3; }
   .headline small { font-weight: 500; color: var(--muted); font-size: 20px; }
   .phead .chips { margin: 0; }
-  .rg-us { --band: #22396E; --ink: #FFFFFF; --tint: #E7ECF6; --deep: #22396E; }
-  .rg-cn { --band: #9E3127; --ink: #FFFFFF; --tint: #F8E9E6; --deep: #8A2A21; }
-  .rg-eu { --band: #E9B949; --ink: #2A2108; --tint: #FBF1D8; --deep: #6E4E00; }
-  @media (prefers-color-scheme: dark) {
-    .rg-us { --tint: #22324F; --deep: #B9C9EC; } .rg-cn { --tint: #3D2522; --deep: #F0B8AE; } .rg-eu { --tint: #3A3018; --deep: #F1D58C; }
-  }
   .tiles { display: none; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; margin-bottom: 14px; }
   .tile { font: inherit; display: flex; flex-direction: column; align-items: flex-start; gap: 2px; padding: 10px 12px; min-height: 84px;
-          border-radius: 14px; cursor: pointer; text-align: left; border: 1px solid var(--line); background: var(--card); color: var(--text); }
-  .tile[aria-selected=true] { border-color: var(--band); background: var(--band); color: var(--ink); }
+          border-radius: 12px; cursor: pointer; text-align: left; border: 1px solid var(--line); background: var(--card); color: var(--text); }
+  .tile[aria-selected=true] { border-color: var(--chip-on); background: var(--chip-on); color: var(--chip-on-text); }
   .tile b { font-size: 13px; font-weight: 600; }
   .tile .num { font-size: 26px; font-weight: 600; line-height: 1.1; }
   .tile small { font-size: 11px; opacity: .8; }
   .boards { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 18px; align-items: start; }
-  .board { background: var(--card); border: 1px solid var(--line); border-radius: 16px; overflow: hidden; }
-  .band { padding: 18px; background: var(--band); color: var(--ink); }
+  .board { background: var(--card); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; }
+  .band { padding: 18px 18px 14px; border-bottom: 1px solid var(--line2); }
   .band-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; }
-  .code { font-size: 12px; letter-spacing: 0.14em; opacity: .8; }
-  .band h2 { margin: 0; font-size: 24px; font-weight: 700; letter-spacing: -0.01em; }
+  .code { font-size: 11.5px; letter-spacing: 0.12em; color: var(--muted); }
+  .band h2 { margin: 2px 0 0; font-size: 20px; font-weight: 700; letter-spacing: -0.01em; }
   .bars { display: flex; align-items: flex-end; gap: 4px; }
   .bars > div { display: flex; flex-direction: column; align-items: center; gap: 3px; }
-  .bars i { display: block; width: 12px; border-radius: 3px; background: var(--ink); }
-  .bars span { font-size: 10px; opacity: .75; }
-  .count { display: flex; align-items: baseline; gap: 8px; margin-top: 14px; }
-  .count .num { font-size: 44px; font-weight: 600; line-height: 1; }
-  .count .lbl { font-size: 14px; font-weight: 500; }
-  .count .delta { margin-left: auto; font-size: 13px; opacity: .85; }
-  .kws { padding: 14px 18px 6px; display: flex; flex-wrap: wrap; gap: 6px; border-bottom: 1px solid var(--line2); }
-  .kws span { font-size: 12.5px; font-weight: 500; padding: 4px 10px; border-radius: 999px; margin-bottom: 8px; background: var(--tint); color: var(--deep); }
+  .bars i { display: block; width: 10px; border-radius: 2px; background: var(--bar); }
+  .bars > div:last-child i { background: var(--accent); }
+  .bars span { font-size: 10px; color: var(--soft); }
+  .count { display: flex; align-items: baseline; gap: 6px; margin-top: 12px; }
+  .count .num { font-size: 36px; font-weight: 600; line-height: 1; }
+  .count .lbl { font-size: 13px; color: var(--muted); }
+  .count .delta { margin-left: auto; font-size: 12.5px; color: var(--muted); }
+  .kws { display: flex; flex-wrap: wrap; gap: 4px 10px; margin-top: 12px; }
+  .kws span { font-size: 12.5px; color: var(--muted); }
   .bbody { padding: 4px 18px 10px; }
   .lead { padding: 14px 0 12px; border-bottom: 1px solid var(--line2); }
   .lead-top { display: flex; align-items: center; gap: 6px; margin-bottom: 6px; }
   .lead-top .badge { margin: 0; }
-  .tag { font-size: 11px; font-weight: 700; border-radius: 4px; padding: 1px 6px; background: var(--tint); color: var(--deep); }
+  .tag { font-size: 11.5px; font-weight: 600; color: var(--accent); }
   .time { font-size: 12px; color: var(--muted); }
   .lead a { font-size: 17px; font-weight: 600; line-height: 1.45; display: block; }
   .src { font-size: 12.5px; color: var(--muted); margin-top: 6px; }
@@ -138,6 +134,22 @@
   .more { font: inherit; border: 0; background: none; padding: 0; display: inline-flex; align-items: center; min-height: 44px;
           font-size: 13px; font-weight: 600; color: var(--accent); cursor: pointer; }
   .foot { margin: 22px 0 0; font-size: 12.5px; color: var(--muted); }
+
+  /* Mirae의 뉴스픽 (텔레그램 매일 뉴스 업데이트) */
+  .pick { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 18px 20px 8px; margin: 18px 0 6px; }
+  .pick-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 12px; margin-bottom: 8px; }
+  .pick-head h2 { margin: 0; font-size: 18px; font-weight: 700; letter-spacing: -0.01em; }
+  .pick-head .when { font-size: 12.5px; color: var(--muted); }
+  .pick-days { display: flex; gap: 4px; margin-left: auto; }
+  .pick-days button { font: inherit; font-size: 12px; border: 1px solid var(--line); background: none; color: var(--muted);
+                      border-radius: 999px; padding: 4px 10px; min-height: 30px; cursor: pointer; }
+  .pick-days button[aria-pressed=true] { border-color: var(--chip-on); background: var(--chip-on); color: var(--chip-on-text); }
+  .pick ol { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(340px, 100%), 1fr)); column-gap: 28px; }
+  .pick li { padding: 10px 0; border-top: 1px solid var(--line2); display: grid; grid-template-columns: 38px minmax(0, 1fr); gap: 6px; }
+  .pick .ptag { font-size: 12px; color: var(--muted); padding-top: 2px; }
+  .pick li a { font-size: 14.5px; font-weight: 500; line-height: 1.5; }
+  .pick .psrc { font-size: 12px; color: var(--soft); margin-top: 2px; }
+  .pick-link { display: inline-flex; align-items: center; min-height: 40px; font-size: 12.5px; color: var(--accent); }
 
   @media (max-width: 700px) {
     .wrap { padding: 18px 16px 40px; }
@@ -161,6 +173,7 @@
     <a id="collect" href="https://github.com/hwc0330/News-Dashboard/actions/workflows/update.yml"
        target="_blank" rel="noopener" title="GitHub에서 'Run workflow'를 누르면 바로 수집합니다 (저장소 주인만 가능)"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"></path></svg>지금 수집</a>
   </header>
+  <section class="pick" id="pick" hidden aria-label="Mirae의 뉴스픽"></section>
   <nav class="tabs" role="tablist" aria-label="보기">
     <button class="tab" role="tab" data-tab="all">전체 기사<span class="n" id="allN"></span></button>
     <button class="tab" role="tab" data-tab="policy" title="정치인·법안·정부 조치 관련 기사 (미국·중국·유럽)">정책 브리핑<span class="n" id="policyN"></span></button>
@@ -245,8 +258,30 @@ async function init() {
   $("#q").oninput = render;
   $("#collect").addEventListener("click", watchCollect);
   if (COLLECT_URL) $("#collect").title = "매체를 지금 다시 훑습니다 (2~4분 소요)";
+  loadPick();
   if (meta.dates.length) await load(meta.dates[0]); else $("#list").innerHTML = '<p class="empty">아직 데이터가 없습니다.</p>';
   setInterval(refresh, 5 * 60e3);   // 5분마다 새 데이터 확인
+}
+
+// Mirae의 뉴스픽: 텔레그램 채널에 매일 올라가는 뉴스 업데이트의 헤드라인·링크 (dashboard.py 가 data/newspick.json 으로 저장)
+let picks = [], pickIdx = 0;
+async function loadPick() {
+  try { picks = await getData("newspick.json", EMBED && (EMBED.pick || [])); } catch (e) { picks = []; }
+  renderPick();
+}
+function renderPick() {
+  const el = $("#pick");
+  el.hidden = !picks.length;
+  if (!picks.length) return;
+  const p = picks[Math.min(pickIdx, picks.length - 1)];
+  const short = d => (d.match(/(\d+)월 (\d+)일/) || []).slice(1).join(".");
+  el.innerHTML = `<div class="pick-head"><h2>Mirae의 뉴스픽</h2><span class="when mono">${esc(p.date)} · ${hhmm(p.posted)}</span>` +
+    `<div class="pick-days">${picks.map((q, k) => `<button data-k="${k}" aria-pressed="${q === p}">${esc(short(q.date) || q.date)}</button>`).join("")}</div></div>` +
+    `<ol>${p.items.map(it => `<li><span class="ptag">${esc(it.tag)}</span><div>` +
+      (it.url ? `<a href="${esc(it.url)}" target="_blank" rel="noopener">${esc(it.title)}</a>` : esc(it.title)) +
+      `<div class="psrc">${esc(it.source)}</div></div></li>`).join("")}</ol>` +
+    `<a class="pick-link" href="${esc(p.url)}" target="_blank" rel="noopener">텔레그램 원문 보기 ↗</a>`;
+  el.querySelectorAll(".pick-days button").forEach(b => b.onclick = () => { pickIdx = +b.dataset.k; renderPick(); });
 }
 
 // 지금 수집: GitHub에서 수집을 실행한 뒤 8분 동안 20초마다 새 데이터를 확인해 반영
@@ -305,6 +340,7 @@ async function refresh() {
     const wasLatest = current === meta.dates[0];
     meta = m; fillDates();
     for (const k in days) delete days[k];
+    loadPick();
     if (wasLatest) $("#date").value = meta.dates[0];
     await load($("#date").value);
   } catch (e) {}
@@ -436,8 +472,8 @@ function renderPolicy(q, policyOf) {
     return `<section class="board ${r.cls}${r.key === activeRegion ? " sel" : ""}">` +
       `<div class="band"><div class="band-top"><div><span class="code mono">${r.code}</span><h2>${r.key}</h2></div>` +
       `<div class="bars" role="img" aria-label="최근 3일 기사 수 ${counts.join(", ")}">${bars}</div></div>` +
-      `<div class="count"><span class="num mono">${b}</span><span class="lbl">건 ${dayWord}</span><span class="delta">${delta}</span></div></div>` +
-      (kws ? `<div class="kws">${kws}</div>` : "") +
+      `<div class="count"><span class="num mono">${b}</span><span class="lbl">건 ${dayWord}</span><span class="delta">${delta}</span></div>` +
+      (kws ? `<div class="kws">${kws}</div>` : "") + `</div>` +
       `<div class="bbody">` +
       (lead ? `<article class="lead"><div class="lead-top"><span class="tag">최신</span>${isNew(lead) ? '<span class="badge new">NEW</span>' : ""}` +
               `<span class="time mono">${hhmm(lead.published)}</span></div>${link(lead)}` +

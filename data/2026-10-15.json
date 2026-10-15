@@ -1230,5 +1230,33 @@
   "source": "CleanTechnica",
   "published": "2026-10-15T12:05+09:00",
   "first_seen": "2026-10-15T12:54+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "세계 최대 구리 광산 파업 모면에 구리 가격 하락…공급 불안은 지속",
+  "original": "",
+  "url": "https://www.theguru.co.kr/news/article.html?no=108273",
+  "source": "더구루",
+  "published": "2026-10-15T13:02+09:00",
+  "first_seen": "2026-10-15T13:10+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "자원",
+  "impact": "0",
+  "key": false,
+  "region": "EU",
+  "policy": "",
+  "title": "인도의 스토리지 수요 격차 가격 책정",
+  "original": "Pricing India’s storage demand gap",
+  "url": "https://www.pv-magazine.com/2026/10/15/pricing-indias-storage-demand-gap/",
+  "source": "pv magazine",
+  "published": "2026-10-15T13:00+09:00",
+  "first_seen": "2026-10-15T13:10+09:00"
  }
 ]
