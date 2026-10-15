@@ -1972,5 +1972,33 @@
   "source": "ESS News",
   "published": "2026-10-15T15:29+09:00",
   "first_seen": "2026-10-15T15:35+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "새로운 Tesla Roadster 공개: 실시간 스트리밍 시청 방법",
+  "original": "New Tesla Roadster Reveal: How To Watch The Livestream",
+  "url": "https://insideevs.com/news/812012/new-tesla-roadster-reveal-event-livestream/",
+  "source": "InsideEVs",
+  "published": "2026-10-15T15:45+09:00",
+  "first_seen": "2026-10-15T15:47+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "수입은 9월에 처음으로 2조 위안을 초과했으며 중간재가 중요한 지원이 되었다 | 수석 판독 데이터",
+  "original": "9月进口首破2万亿  中间品成重要支撑｜首席读数据",
+  "url": "https://www.yicai.com/video/103394903.html",
+  "source": "제일재경",
+  "published": "2026-10-15T15:36+09:00",
+  "first_seen": "2026-10-15T15:47+09:00"
  }
 ]
