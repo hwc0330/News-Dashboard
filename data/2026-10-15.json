@@ -3291,7 +3291,7 @@
  },
  {
   "section": "EV/ESS",
-  "tag": "산업",
+  "tag": "기업",
   "impact": "0",
   "key": false,
   "region": "",
@@ -3556,8 +3556,8 @@
   "first_seen": "2026-10-15T23:31+09:00"
  },
  {
-  "section": "EV/ESS",
-  "tag": "기업",
+  "section": "기타",
+  "tag": "기타",
   "impact": "0",
   "key": false,
   "region": "",
@@ -3862,5 +3862,19 @@
   "source": "글로벌이코노믹",
   "published": "2026-10-15T09:55+09:00",
   "first_seen": "2026-10-16T08:03+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기술",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "2026년 세계 에너지 저장 컨퍼런스는 산업 개척에 초점을 맞췄다.-Xinhuanet",
+  "original": "2026世界储能大会聚焦产业前沿-新华网",
+  "url": "https://www.news.cn/fortune/20261015/74e793088e2f4d959d05243fe2fa8a0f/c.html",
+  "source": "신화통신",
+  "published": "2026-10-15T01:00+09:00",
+  "first_seen": "2026-10-16T08:33+09:00"
  }
 ]
