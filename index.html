@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex">
-<title>배터리/전기차 헤드라인</title>
+<title>배터리/전기차 데이터</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
@@ -50,17 +50,20 @@
   #collect { background: var(--accent); border-color: var(--accent); color: #fff; }
   #collect:hover { text-decoration: none; opacity: .9; color: #fff; }
 
-  .pages { display: flex; flex-wrap: wrap; gap: 6px; margin: 16px 0 2px; }
-  .page { font: inherit; font-size: 15px; font-weight: 700; padding: 8px 20px; min-height: 42px; border-radius: 999px; cursor: pointer;
-          border: 1px solid var(--line); background: var(--card); color: var(--muted); }
-  .page:hover { color: var(--text); border-color: var(--field); }
-  .page[aria-current=page] { background: var(--chip-on); border-color: var(--chip-on); color: var(--chip-on-text); }
-  .tabs { display: flex; gap: 4px; margin: 14px 0 18px; border-bottom: 1px solid var(--line); }
+  /* 상단 메뉴: 글자 메뉴 + 고른 메뉴 굵게·아래 굵은 줄 (네이버페이 증권처럼) */
+  .pages { display: flex; gap: 34px; margin: 18px 0 0; border-bottom: 1px solid var(--line); overflow-x: auto; scrollbar-width: none; }
+  .page { font: inherit; font-size: 18px; font-weight: 500; color: var(--dim); background: none; border: 0; cursor: pointer; white-space: nowrap;
+          padding: 12px 1px 12px; border-bottom: 3px solid transparent; margin-bottom: -1px; min-height: 48px; }
+  .page:hover { color: var(--text); }
+  .page[aria-current=page] { color: var(--text); font-weight: 700; border-bottom-color: var(--text); }
+  /* 페이지 안의 작은 탭: 네모 칸 */
+  .tabs { display: flex; flex-wrap: wrap; gap: 6px; margin: 16px 0 18px; }
   .tabs[hidden] { display: none; }
   #pricesView { padding-top: 18px; }
-  .tab { border: 0; background: none; font: inherit; font-size: 15px; font-weight: 600; color: var(--muted);
-         padding: 10px 14px; border-bottom: 3px solid transparent; margin-bottom: -1px; cursor: pointer; min-height: 44px; }
-  .tab[aria-selected=true] { color: var(--accent); border-bottom-color: var(--orange); }
+  .tab { font: inherit; font-size: 14px; font-weight: 600; color: var(--muted); background: var(--card); cursor: pointer;
+         padding: 7px 14px; min-height: 38px; border: 1px solid var(--line); border-radius: 8px; }
+  .tab:hover { color: var(--text); }
+  .tab[aria-selected=true] { color: var(--accent); border-color: var(--accent); background: color-mix(in srgb, var(--accent) 8%, var(--card)); }
   .tab .n { font-weight: 400; font-size: 13px; margin-left: 4px; }
 
   .controls { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; }
@@ -349,7 +352,7 @@
 <body>
 <div class="wrap">
   <header>
-    <h1>배터리/전기차 헤드라인</h1>
+    <h1>배터리/전기차 데이터</h1>
     <span class="updated" id="updated"></span>
     <span class="status" id="status" role="status"></span>
     <a id="collect" href="https://github.com/hwc0330/News-Dashboard/actions/workflows/update.yml"
