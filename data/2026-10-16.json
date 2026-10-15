@@ -208,5 +208,47 @@
   "source": "electrive",
   "published": "2026-10-16T01:30+09:00",
   "first_seen": "2026-10-16T02:13+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "볼보는 엔비디아에 더 큰 투자를 했다",
+  "original": "Volvo makes a bigger bet on Nvidia",
+  "url": "https://techcrunch.com/2026/10/15/volvo-makes-a-bigger-bet-on-nvidia/",
+  "source": "TechCrunch",
+  "published": "2026-10-16T02:34+09:00",
+  "first_seen": "2026-10-16T02:51+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "중국, 수출 차량에 대한 VAT 면제 조정",
+  "original": "China Adjusts VAT Exemption For Exported Vehicles",
+  "url": "https://cleantechnica.com/2026/10/15/china-adjusts-vat-exemption-for-exported-vehicles/",
+  "source": "CleanTechnica",
+  "published": "2026-10-16T02:32+09:00",
+  "first_seen": "2026-10-16T02:51+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "Stellantis, 밴용 신형 디젤 하이브리드 엔진 테스트",
+  "original": "Stellantis testing new diesel-hybrid engine for vans",
+  "url": "https://www.reuters.com/site-search/?query=Stellantis%20testing%20new%20diesel-hybrid%20engine%20for%20vans",
+  "source": "Reuters",
+  "published": "2026-10-16T01:48+09:00",
+  "first_seen": "2026-10-16T02:51+09:00"
  }
 ]
