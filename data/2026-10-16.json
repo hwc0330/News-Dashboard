@@ -26,5 +26,47 @@
   "source": "electrive",
   "published": "2026-10-16T00:00+09:00",
   "first_seen": "2026-10-16T00:13+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "EU",
+  "policy": "",
+  "title": "Q-Park, 소프트웨어 제공업체 Greenflux와 협력 확대",
+  "original": "Q-Park expands collaboration with software provider Greenflux",
+  "url": "https://www.electrive.com/2026/10/15/q-park-expands-collaboration-with-software-provider-greenflux/",
+  "source": "electrive",
+  "published": "2026-10-16T00:30+09:00",
+  "first_seen": "2026-10-16T00:55+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "농업의 질소 미래는 하나가 아닌 여러 기술로 구축될 것이다",
+  "original": "Farming’s Nitrogen Future Will Be Built From Several Technologies, Not One",
+  "url": "https://cleantechnica.com/2026/10/15/farming-nitrogen-technology-stack/",
+  "source": "CleanTechnica",
+  "published": "2026-10-16T00:25+09:00",
+  "first_seen": "2026-10-16T00:55+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "BYD to Assemble Vehicles in Malaysia",
+  "original": "",
+  "url": "https://cleantechnica.com/2026/10/15/byd-to-assemble-vehicles-in-malaysia/",
+  "source": "CleanTechnica",
+  "published": "2026-10-16T00:22+09:00",
+  "first_seen": "2026-10-16T00:55+09:00"
  }
 ]

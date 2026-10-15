@@ -3291,7 +3291,7 @@
  },
  {
   "section": "EV/ESS",
-  "tag": "산업",
+  "tag": "기업",
   "impact": "0",
   "key": false,
   "region": "",
@@ -3556,8 +3556,8 @@
   "first_seen": "2026-10-15T23:31+09:00"
  },
  {
-  "section": "EV/ESS",
-  "tag": "기업",
+  "section": "기타",
+  "tag": "기타",
   "impact": "0",
   "key": false,
   "region": "",
@@ -3666,5 +3666,47 @@
   "source": "글로벌이코노믹",
   "published": "2026-10-15T22:55+09:00",
   "first_seen": "2026-10-16T00:13+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "AEP, 최대 1.6GW 규모의 Mainspring 선형 발전기 구매 계약 체결",
+  "original": "AEP in deal to buy up to 1.6 GW of Mainspring linear generators",
+  "url": "https://www.utilitydive.com/news/aep-mainspring-linear-generators-bloom-fuel-cell-google-wyoming/833104/",
+  "source": "Utility Dive",
+  "published": "2026-10-15T23:47+09:00",
+  "first_seen": "2026-10-16T00:55+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "중국, 화웨이 지원 Maextro EV에서 브레이크 페달 브래킷 파손 보고 조사",
+  "original": "China investigates reported brake pedal bracket fracture in Huawei-backed Maextro EV",
+  "url": "https://www.reuters.com/site-search/?query=China%20investigates%20reported%20brake%20pedal%20bracket%20fracture%20in%20Huawei-backed%20Maextro%20EV",
+  "source": "Reuters",
+  "published": "2026-10-15T23:44+09:00",
+  "first_seen": "2026-10-16T00:55+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "정책",
+  "impact": "0",
+  "key": false,
+  "region": "EU",
+  "policy": "유럽",
+  "title": "폰 데어 라이엔(Von der Leyen)은 다음으로 중국의 화학물질과 기계류에 대한 억제를 주시하고 있다",
+  "original": "Von der Leyen eyes curbs on Chinese chemicals, machinery next",
+  "url": "https://www.politico.eu/article/von-der-leyen-eyes-curbs-on-chinese-chemicals-machinery-next/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+  "source": "Politico Europe",
+  "published": "2026-10-15T22:56+09:00",
+  "first_seen": "2026-10-16T00:55+09:00"
  }
 ]
