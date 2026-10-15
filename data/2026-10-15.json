@@ -2056,5 +2056,33 @@
   "source": "제일재경",
   "published": "2026-10-15T15:49+09:00",
   "first_seen": "2026-10-15T16:09+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "시장",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "2026년 9월 중국 EV 배터리 제조사 시장점유율 상위: CATL 40.92%, BYD 21.09%",
+  "original": "Top EV battery makers' market share in China in September 2026: CATL 40.92%, BYD 21.09%",
+  "url": "https://cnevpost.com/2026/10/15/top-ev-battery-makers-share-china-sept-2026/",
+  "source": "CnEVPost",
+  "published": "2026-10-15T16:27+09:00",
+  "first_seen": "2026-10-15T16:36+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "자원",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "이번 주(2026.10.12~10.15) 전해질 가격 안정세 유지 [SMM 리튬배터리 전해질 시장 주간리뷰]",
+  "original": "Electrolyte prices remained stable this week (2026.10.12-10.15) [SMM lithium battery electrolyte market weekly review]",
+  "url": "https://news.metal.com/en/newscontent/104159706-electrolyte-prices-remained-stable-this-week-20261012-1015-smm-lithium-battery-electrolyte-market-weekly-review",
+  "source": "SMM",
+  "published": "2026-10-15T16:03+09:00",
+  "first_seen": "2026-10-15T16:36+09:00"
  }
 ]

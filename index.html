@@ -18,6 +18,7 @@
     /* 원재료 가격 그래프 계열 색: 미래에셋 오렌지 · 블루 · 검정 · 빨강 순 (5번째부터는 보조색) */
     --s1: #F58220; --s2: #0B5CAD; --s3: #1F1F23; --s4: #D7263D; --s5: #8E8E98; --s6: #7FA7D9; --s7: #F7B47A; --s8: #5A5A63;
     --grid: #ECECEF; --axis: #C9C9D0;
+    --rep: #D7263D; --dem: #1F5BD8; --ind: #8E8E98;   /* 미 의회: 공화 · 민주 · 무소속 */
     color-scheme: light;
   }
   @media (prefers-color-scheme: dark) {
@@ -29,6 +30,7 @@
       --us: #91A7FF; --cn: #F783AC; --eu: #3BC9DB;
       --s1: #FF9A3D; --s2: #5B9BE8; --s3: #E4E4E7; --s4: #FF5C6C; --s5: #8E8E98; --s6: #9DBCE6; --s7: #F7B47A; --s8: #A0A0AB;
       --grid: #26262B; --axis: #3A3A42;
+      --rep: #FF6B78; --dem: #6EA0FF; --ind: #A0A0AB;
       color-scheme: dark;
     }
   }
@@ -229,6 +231,54 @@
   .xtable th:nth-child(-n+2), .xtable td:nth-child(-n+2) { text-align: left; }
   .xtable td:first-child { color: var(--muted); }
 
+  /* 미 의회 법안 */
+  .csearch { font: inherit; font-size: 14px; padding: 8px 12px; min-height: 38px; border: 1px solid var(--field); border-radius: 10px;
+             background: var(--card); color: var(--text); width: min(260px, 100%); }
+  .funnel { display: flex; align-items: stretch; gap: 4px; margin: 0 0 16px; overflow-x: auto; }
+  .fstep { font: inherit; flex: 1 1 0; min-width: 76px; display: flex; flex-direction: column; gap: 2px; align-items: flex-start; cursor: pointer;
+           padding: 12px 14px; border-radius: 12px; border: 1px solid var(--line); background: var(--card); color: var(--muted); font-size: 12.5px; }
+  .fstep .num { font-size: 24px; font-weight: 600; color: var(--accent); line-height: 1.1; }
+  .fstep.law .num { color: var(--orange); }
+  .fstep[aria-pressed=true] { border-color: var(--chip-on); background: var(--chip-on); color: var(--chip-on-text); }
+  .fstep[aria-pressed=true] .num { color: var(--chip-on-text); }
+  .farrow { align-self: center; color: var(--soft); font-style: normal; font-size: 18px; }
+  .clabel { font-size: 12px; letter-spacing: 0.06em; color: var(--muted); margin: 4px 0 8px; }
+  .members { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(200px, 100%), 1fr)); gap: 6px; margin-bottom: 18px; }
+  .mem { font: inherit; display: grid; grid-template-columns: auto minmax(0, 1fr) auto; grid-template-rows: auto auto; column-gap: 8px; align-items: center;
+         text-align: left; cursor: pointer; padding: 8px 12px; min-height: 44px; border-radius: 10px; border: 1px solid var(--line); background: var(--card); color: var(--text); }
+  .mem .pdot { grid-row: 1 / 3; }
+  .mem-n { font-size: 13.5px; font-weight: 600; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .mem-s { grid-column: 2; font-size: 11.5px; color: var(--muted); }
+  .mem b { grid-column: 3; grid-row: 1 / 3; font-size: 17px; font-weight: 600; }
+  .mem[aria-pressed=true] { border-color: var(--chip-on); box-shadow: inset 0 0 0 1px var(--chip-on); }
+  .pdot { display: inline-block; width: 9px; height: 9px; border-radius: 50%; flex: none; }
+  .pdot.rep { background: var(--rep); } .pdot.dem { background: var(--dem); } .pdot.ind { background: var(--ind); }
+  .bills { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(460px, 100%), 1fr)); gap: 12px; }
+  .bill { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 14px 16px 12px; min-width: 0; display: flex; flex-direction: column; gap: 7px; }
+  .bill-top { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; font-size: 12px; }
+  .bill-top .ch { font-weight: 700; color: var(--accent); }
+  .blabel { color: var(--muted); }
+  .ttag { padding: 1px 8px; border-radius: 999px; background: var(--chip); color: var(--dim); font-size: 11.5px; }
+  .ttag.cn { background: color-mix(in srgb, var(--cn) 14%, var(--card)); color: var(--cn); font-weight: 600; }
+  .bill-top .time { margin-left: auto; }
+  .bill-t { font-size: 15.5px; font-weight: 600; line-height: 1.5; }
+  .bill-en { font-size: 12px; color: var(--soft); line-height: 1.45; overflow-wrap: anywhere; }
+  .bill-en b { color: var(--orange); font-weight: 600; }
+  .steps { display: flex; align-items: center; gap: 3px; }
+  .steps i { width: 26px; height: 5px; border-radius: 3px; background: var(--line); }
+  .steps i.on { background: var(--accent); }
+  .steps.law i.on { background: var(--orange); }
+  .steps span { margin-left: 6px; font-size: 12px; font-weight: 600; color: var(--accent); }
+  .steps.law span { color: var(--orange); }
+  .spon { display: flex; align-items: baseline; gap: 7px; font-size: 13px; color: var(--dim); line-height: 1.5; }
+  .spon .pdot { transform: translateY(-1px); }
+  .spon b { color: var(--text); font-weight: 600; }
+  .bi { font-size: 11px; font-weight: 700; padding: 1px 7px; border-radius: 999px; color: var(--eu); background: color-mix(in srgb, var(--eu) 13%, var(--card)); }
+  .act { font-size: 12.5px; color: var(--muted); border-top: 1px solid var(--line2); padding-top: 7px; }
+  .act .mono { color: var(--soft); margin-right: 4px; }
+  details.crs summary { cursor: pointer; font-size: 12.5px; font-weight: 600; color: var(--accent); min-height: 28px; display: flex; align-items: center; }
+  details.crs p { margin: 4px 0 2px; font-size: 13px; line-height: 1.6; color: var(--dim); }
+
   @media (max-width: 700px) {
     .wrap { padding: 18px 16px 40px; }
     h1 { font-size: 17px; }
@@ -256,6 +306,7 @@
     <button class="tab" role="tab" data-tab="all">전체 기사<span class="n" id="allN"></span></button>
     <button class="tab" role="tab" data-tab="policy" title="정치인·법안·정부 조치 관련 기사 (미국·중국·유럽)">정책 브리핑<span class="n" id="policyN"></span></button>
     <button class="tab" role="tab" data-tab="prices" id="pricesTab" hidden title="배터리 소재·원재료 가격 (올린 엑셀로 그림)">원재료 가격<span class="n" id="pricesN"></span></button>
+    <button class="tab" role="tab" data-tab="congress" id="congressTab" hidden title="미 상·하원 의원들이 낸 배터리·전기차 관련 법안 (Congress.gov)">미 의회 법안<span class="n" id="congressN"></span></button>
   </nav>
   <div class="controls" id="controls">
     <select id="date" aria-label="날짜"></select>
@@ -296,6 +347,24 @@
     </div>
     <div class="chips last" id="xGroups"></div>
     <div id="xBody"><p class="empty">불러오는 중…</p></div>
+  </div>
+
+  <div id="congressView" hidden>
+    <div class="phead">
+      <div>
+        <div class="kicker mono" id="cKicker">US CONGRESS</div>
+        <div class="headline" id="cHeadline">미 의회 배터리·전기차 법안</div>
+        <div class="xupd" id="cUpd"></div>
+      </div>
+      <input type="search" class="csearch" id="cQ" placeholder="법안·의원 검색" aria-label="법안 검색">
+    </div>
+    <div class="funnel" id="cFunnel" role="group" aria-label="진행 단계"></div>
+    <div class="clabel">대표 발의가 많은 의원</div>
+    <div class="members" id="cMembers"></div>
+    <div class="chips" id="cTopics"></div>
+    <div class="chips last" id="cFilters"></div>
+    <div class="bills" id="cList"><p class="empty">불러오는 중…</p></div>
+    <p class="foot">제목·의회조사국(CRS) 요약에 배터리·전기차·핵심광물·충전·배출 규제 키워드가 있는 법안 · 국문은 자동 번역 · 제목을 누르면 Congress.gov 원문</p>
   </div>
 </div>
 <script>
@@ -348,9 +417,10 @@ async function init() {
   if (EMBED && !COLLECT_URL) $("#collect").style.display = "none";
   $("#date").onchange = () => load($("#date").value);
   $("#q").oninput = render;
+  $("#cQ").oninput = render;
   $("#collect").addEventListener("click", watchCollect);
   if (COLLECT_URL) $("#collect").title = "매체를 지금 다시 훑습니다 (2~4분 소요)";
-  loadPick(); loadPrices();
+  loadPick(); loadPrices(); loadCongress();
   if (meta.dates.length) await load(meta.dates[0]); else $("#list").innerHTML = '<p class="empty">아직 데이터가 없습니다.</p>';
   setInterval(refresh, 5 * 60e3);   // 5분마다 새 데이터 확인
 }
@@ -442,7 +512,7 @@ async function refresh() {
     const wasLatest = current === meta.dates[0];
     meta = m; fillDates();
     for (const k in days) delete days[k];
-    loadPick(); loadPrices();
+    loadPick(); loadPrices(); loadCongress();
     if (wasLatest) $("#date").value = meta.dates[0];
     await load($("#date").value);
   } catch (e) {}
@@ -477,7 +547,7 @@ const KEYWORDS = [
   ["법안", /\bbill\b|legislation|법안/i], ["ESS", /storage|\bESS\b|储能/i], ["광물", /mineral|copper|lithium|광물|구리|리튬|锂/i],
   ["전기차", /electric vehicle|\bEVs?\b|전기차|电动/i],
 ];
-let tab = ({"#policy": "policy", "#prices": "prices"})[location.hash] || "all", activeRegion = "미국";
+let tab = ({"#policy": "policy", "#prices": "prices", "#congress": "congress"})[location.hash] || "all", activeRegion = "미국";
 const expanded = new Set();
 document.querySelectorAll(".tab").forEach(b => b.onclick = () => {
   tab = b.dataset.tab;
@@ -514,8 +584,10 @@ function render() {
   document.querySelectorAll(".tab").forEach(b => b.setAttribute("aria-selected", b.dataset.tab === tab));
   $("#allN").textContent = base.length; $("#policyN").textContent = policyOf(items).length;
   $("#allView").hidden = tab !== "all"; $("#policyView").hidden = tab !== "policy"; $("#pricesView").hidden = tab !== "prices";
-  $("#controls").hidden = tab === "prices";
+  $("#congressView").hidden = tab !== "congress";
+  $("#controls").hidden = tab === "prices" || tab === "congress";
   if (tab === "prices") return renderPrices();
+  if (tab === "congress") return renderCongress();
   if (tab === "policy") return renderPolicy(q, policyOf);
 
   const flagged = base.filter(byFlag);
@@ -593,6 +665,88 @@ function renderPolicy(q, policyOf) {
   $("#boards").querySelectorAll(".more").forEach(b => b.onclick = () => {
     expanded.has(b.dataset.r) ? expanded.delete(b.dataset.r) : expanded.add(b.dataset.r); render();
   });
+}
+
+// ── 미 의회 법안: congress.py 가 Congress.gov API 로 모아 둔 data/congress.json (6시간마다 확인) ──
+let cong, cTopic = null, cFilter = null, cMember = null, cStage = null;
+const PARTY = {R: ["rep", "공화"], D: ["dem", "민주"], I: ["ind", "무소속"]};
+const ymd = d => d ? d.slice(2).replace(/-/g, ".") : "";
+const who = s => (`${s.first} ${s.last}`.trim()) || s.name;
+const role = b => b.sponsor.name.startsWith("Sen.") ? "상원의원" : "하원의원";
+const district = s => (s.name.match(/\[[A-Z]+-([A-Z]{2}(?:-[\w ]+)?)\]/) || [, s.state])[1];
+const partyN = (b, p) => (b.cosponsors[p] || 0) + (b.sponsor.party === p ? 1 : 0);
+const bipartisan = b => partyN(b, "R") > 0 && partyN(b, "D") > 0;
+const C_FILTERS = [["senate", "상원", b => b.chamber === "상원"], ["house", "하원", b => b.chamber === "하원"],
+  ["R", "공화 발의", b => b.sponsor.party === "R"], ["D", "민주 발의", b => b.sponsor.party === "D"],
+  ["bi", "초당적", bipartisan], ["china", "중국 관련", b => b.china]];
+
+async function loadCongress() {
+  try { cong = await getData("congress.json", EMBED ? (EMBED.congress || null) : undefined); } catch (e) { cong = null; }
+  $("#congressTab").hidden = !cong;
+  if (cong) $("#congressN").textContent = cong.bills.length;
+  if (tab === "congress") { if (!cong) tab = "all"; render(); }
+}
+
+function renderCongress() {
+  if (!cong) { $("#cList").innerHTML = '<p class="empty">불러오는 중…</p>'; return; }
+  const all = cong.bills, st = cong.stages, q = $("#cQ").value.trim().toLowerCase();
+  const y0 = 1789 + 2 * (cong.congress - 1);
+  $("#cKicker").textContent = `US CONGRESS · ${cong.congress}대 의회 (${y0}–${String(y0 + 1).slice(2)})`;
+  const law = all.filter(b => b.stage === 4).length, moving = all.filter(b => b.stage >= 1 && b.stage < 4).length;
+  $("#cHeadline").innerHTML = `배터리·전기차 법안 ${all.length}건 <small>· 법률 ${law} · 심사 진행 ${moving}</small>`;
+  $("#cUpd").innerHTML = `<span>출처 <b>Congress.gov</b></span><span>확인 <b>${esc(when(cong.updated))}</b></span>`;
+
+  const text = b => `${b.official_ko} ${b.title} ${b.full || ""} ${b.label} ${b.sponsor.name} ${b.latest_ko} ${b.summary_ko}`.toLowerCase();
+  const byQ = all.filter(b => !q || text(b).includes(q));
+  const f = C_FILTERS.find(x => x[0] === cFilter);
+  const keep = (b, skip) => (skip === "topic" || !cTopic || b.topics.includes(cTopic)) && (skip === "filter" || !f || f[2](b))
+    && (skip === "member" || !cMember || b.sponsor.id === cMember) && (skip === "stage" || cStage == null || b.stage === cStage);
+
+  // 진행 단계: 발의 → 위원회 → 한 원 → 양원 → 법률 (누르면 그 단계만)
+  const inStage = byQ.filter(b => keep(b, "stage"));
+  $("#cFunnel").innerHTML = st.map((s, k) => {
+    const n = inStage.filter(b => b.stage === k).length;
+    return `<button class="fstep${k === 4 ? " law" : ""}" data-k="${k}" aria-pressed="${cStage === k}"><span class="num mono">${n}</span><span>${s}</span></button>`;
+  }).join('<i class="farrow" aria-hidden="true">›</i>');
+  $("#cFunnel").querySelectorAll(".fstep").forEach(b => b.onclick = () => { cStage = cStage === +b.dataset.k ? null : +b.dataset.k; render(); });
+
+  const forTopic = byQ.filter(b => keep(b, "topic"));
+  chipRow($("#cTopics"), [["", "전체 주제", forTopic.length]].concat(cong.topics.map(t => [t, esc(t), forTopic.filter(b => b.topics.includes(t)).length]).filter(x => x[2])),
+          cTopic, v => { cTopic = v; render(); });
+  const forFilter = byQ.filter(b => keep(b, "filter"));
+  chipRow($("#cFilters"), [["", "모두", forFilter.length]].concat(C_FILTERS.map(([k, label, fn]) => [k, label, forFilter.filter(fn).length])),
+          cFilter, v => { cFilter = v; render(); });
+
+  // 대표 발의를 많이 한 의원
+  const counts = {};
+  byQ.filter(b => keep(b, "member")).forEach(b => { const s = b.sponsor; (counts[s.id] = counts[s.id] || {s, b, n: 0}).n++; });
+  const top = Object.values(counts).sort((a, b) => b.n - a.n || a.s.last.localeCompare(b.s.last)).slice(0, 10);
+  $("#cMembers").innerHTML = top.map(({s, b, n}) => {
+    const [pc, pw] = PARTY[s.party] || ["ind", s.party];
+    return `<button class="mem" data-id="${esc(s.id)}" aria-pressed="${cMember === s.id}" title="${esc(s.name)}"><i class="pdot ${pc}"></i>` +
+      `<span class="mem-n">${esc(who(s))}</span><span class="mem-s">${role(b).slice(0, 2)} · ${pw} · ${esc(district(s))}</span><b class="mono">${n}</b></button>`;
+  }).join("");
+  $("#cMembers").querySelectorAll(".mem").forEach(b => b.onclick = () => { cMember = cMember === b.dataset.id ? null : b.dataset.id; render(); });
+
+  const shown = byQ.filter(b => keep(b)).sort((a, b) => b.latest_date.localeCompare(a.latest_date) || b.stage - a.stage);
+  if (!shown.length) { $("#cList").innerHTML = '<p class="empty">해당하는 법안이 없습니다.</p>'; return; }
+  $("#cList").innerHTML = shown.map(b => {
+    const s = b.sponsor, [pc, pw] = PARTY[s.party] || ["ind", s.party];
+    const cos = b.cosponsors.n ? `공동 발의 ${b.cosponsors.n}명 (${["R", "D", "I"].filter(p => b.cosponsors[p]).map(p => `${PARTY[p][1]} ${b.cosponsors[p]}`).join(" · ")})` : "공동 발의 없음";
+    const en = [b.title, b.full].filter(Boolean).join(" — ");
+    return `<article class="bill">` +
+      `<div class="bill-top"><span class="ch">${esc(b.chamber)}</span><span class="mono blabel">${esc(b.label)}</span>` +
+      b.topics.map(t => `<span class="ttag">${esc(t)}</span>`).join("") + (b.china ? '<span class="ttag cn">중국</span>' : "") +
+      `<span class="time mono">${ymd(b.latest_date)}</span></div>` +
+      `<a class="bill-t" href="${esc(b.url)}" target="_blank" rel="noopener">${esc(b.official_ko || b.title)}</a>` +
+      `<div class="bill-en">${esc(en)}${b.law ? ` · <b>${esc(b.law)}</b>` : ""}</div>` +
+      `<div class="steps${b.stage === 4 ? " law" : ""}" role="img" aria-label="진행 단계 ${esc(st[b.stage])}">${st.map((x, k) => `<i class="${k <= b.stage ? "on" : ""}" title="${esc(x)}"></i>`).join("")}<span>${esc(st[b.stage])}</span></div>` +
+      `<div class="spon"><i class="pdot ${pc}"></i><span><b>${role(b)} ${esc(who(s))}</b> (${pw} · ${esc(district(s))}) · ${cos}` +
+      (bipartisan(b) ? ' <span class="bi">초당적</span>' : "") + `</span></div>` +
+      `<div class="act"><span class="mono">${ymd(b.latest_date)}</span> ${esc(b.latest_ko || b.latest)}</div>` +
+      (b.summary_ko ? `<details class="crs"><summary>의회조사국(CRS) 요약</summary><p>${esc(b.summary_ko)}</p></details>` : "") +
+      `</article>`;
+  }).join("");
 }
 
 // ── 원재료 가격: 올린 엑셀(prices/*.xlsx)을 dashboard.py 가 data/prices.json 으로 바꿔 둔 것을 그래프로 ──

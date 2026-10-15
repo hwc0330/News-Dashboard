@@ -1,0 +1,3241 @@
+{
+"congress": 119,
+"checked": "2026-10-15T07:36+00:00",
+"updated": "2026-10-15T16:37+09:00",
+"topics": [
+"전기차 세액공제",
+"배터리·제조",
+"핵심광물",
+"충전 인프라",
+"배출·연비 규제",
+"전기차 일반"
+],
+"stages": [
+"발의",
+"위원회 통과",
+"한 원 통과",
+"양원 통과",
+"법률 제정"
+],
+"bills": [
+{
+"id": "119-hr10681",
+"type": "HR",
+"number": "10681",
+"label": "H.R. 10681",
+"chamber": "하원",
+"title": "National Critical Minerals Council Act",
+"full": "",
+"official": "To establish a National Critical Minerals Council within the Executive Office of the President to develop and coordinate the implementation of a national critical mineral and material strategy for the United States.",
+"official_ko": "미국을 위한 국가 중요 광물 및 물질 전략의 실행을 개발하고 조정하기 위해 대통령 행정부 내에 국가 중요 광물 위원회를 설립합니다.",
+"url": "https://www.congress.gov/bill/119th-congress/house-bill/10681",
+"introduced": "2026-10-01",
+"latest": "Referred to the House Committee on Natural Resources.",
+"latest_ko": "하원 천연자원위원회 회부",
+"latest_date": "2026-10-01",
+"stage": 0,
+"sponsor": {
+"name": "Rep. Lee, Susie [D-NV-3]",
+"first": "Susie",
+"last": "Lee",
+"party": "D",
+"state": "NV",
+"id": "L000590"
+},
+"cosponsors": {
+"n": 1,
+"R": 1
+},
+"policy_area": "Energy",
+"topics": [
+"핵심광물"
+],
+"china": false,
+"summary": "",
+"summary_ko": "",
+"updated": "2026-10-07T18:42:49Z"
+},
+{
+"id": "119-hr10673",
+"type": "HR",
+"number": "10673",
+"label": "H.R. 10673",
+"chamber": "하원",
+"title": "Battery Safety Placarding Act",
+"full": "",
+"official": "To require an external placard to be displayed on containers, vehicles, and rail cars transporting lithium-ion batteries.",
+"official_ko": "리튬 이온 배터리를 운반하는 컨테이너, 차량 및 철도 차량에 외부 플래카드를 표시하도록 요구합니다.",
+"url": "https://www.congress.gov/bill/119th-congress/house-bill/10673",
+"introduced": "2026-10-01",
+"latest": "Referred to the House Committee on Transportation and Infrastructure.",
+"latest_ko": "하원 교통·인프라위원회 회부",
+"latest_date": "2026-10-01",
+"stage": 0,
+"sponsor": {
+"name": "Rep. Hageman, Harriet M. [R-WY-At Large]",
+"first": "Harriet",
+"last": "Hageman",
+"party": "R",
+"state": "WY",
+"id": "H001096"
+},
+"cosponsors": {
+"n": 0
+},
+"policy_area": "Transportation and Public Works",
+"topics": [
+"배터리·제조"
+],
+"china": false,
+"summary": "",
+"summary_ko": "",
+"updated": "2026-10-14T14:52:13Z"
+},
+{
+"id": "119-s5587",
+"type": "S",
+"number": "5587",
+"label": "S. 5587",
+"chamber": "상원",
+"title": "A bill to establish a National Critical Minerals Council within the Executive Office of the President to develop and coordinate the implementation of a national critical mineral and material strategy for the United States, and for other purposes.",
+"full": "",
+"official": "A bill to establish a National Critical Minerals Council within the Executive Office of the President to develop and coordinate the implementation of a national critical mineral and material strategy for the United States.",
+"official_ko": "미국을 위한 국가 중요 광물 및 재료 전략의 구현을 개발하고 조정하기 위해 대통령 행정부 내에 국가 중요 광물 위원회를 설립하는 법안입니다.",
+"url": "https://www.congress.gov/bill/119th-congress/senate-bill/5587",
+"introduced": "2026-09-29",
+"latest": "Read twice and referred to the Committee on Energy and Natural Resources.",
+"latest_ko": "상원 에너지·천연자원위원회 회부",
+"latest_date": "2026-09-29",
+"stage": 0,
+"sponsor": {
+"name": "Sen. Hickenlooper, John W. [D-CO]",
+"first": "John",
+"last": "Hickenlooper",
+"party": "D",
+"state": "CO",
+"id": "H000273"
+},
+"cosponsors": {
+"n": 4,
+"R": 3,
+"D": 1
+},
+"policy_area": "",
+"topics": [
+"핵심광물"
+],
+"china": false,
+"summary": "",
+"summary_ko": "",
+"updated": "2026-09-30T12:32:38Z"
+},
+{
+"id": "119-s5551",
+"type": "S",
+"number": "5551",
+"label": "S. 5551",
+"chamber": "상원",
+"title": "Critical Mineral Executive Coordination Act of 2026",
+"full": "",
+"official": "A bill to promote United States and allied energy and mineral security.",
+"official_ko": "미국과 동맹국의 에너지 및 광물 안보를 촉진하기 위한 법안입니다.",
+"url": "https://www.congress.gov/bill/119th-congress/senate-bill/5551",
+"introduced": "2026-09-24",
+"latest": "Read twice and referred to the Committee on Foreign Relations.",
+"latest_ko": "상원 외교위원회 회부",
+"latest_date": "2026-09-24",
+"stage": 0,
+"sponsor": {
+"name": "Sen. Scott, Tim [R-SC]",
+"first": "Tim",
+"last": "Scott",
+"party": "R",
+"state": "SC",
+"id": "S001184"
+},
+"cosponsors": {
+"n": 5,
+"D": 4,
+"R": 1
+},
+"policy_area": "",
+"topics": [
+"핵심광물"
+],
+"china": false,
+"summary": "",
+"summary_ko": "",
+"updated": "2026-10-07T04:23:25Z"
+},
+{
+"id": "119-hr9617",
+"type": "HR",
+"number": "9617",
+"label": "H.R. 9617",
+"chamber": "하원",
+"title": "CHARM Act",
+"full": "Coordinating and Harnessing America’s Recovery of Minerals Act",
+"official": "To amend the Solid Waste Disposal Act to direct the Administrator of the Environmental Protection Agency to coordinate a National Critical Mineral Recovery Strategy.",
+"official_ko": "환경 보호국 청장이 국가 중요 광물 회수 전략을 조정하도록 지시하기 위해 고형 폐기물 처리법을 개정합니다.",
+"url": "https://www.congress.gov/bill/119th-congress/house-bill/9617",
+"introduced": "2026-07-09",
+"latest": "Received in the Senate and Read twice and referred to the Committee on Environment and Public Works.",
+"latest_ko": "하원 통과 → 상원 환경·공공사업위원회 회부",
+"latest_date": "2026-09-16",
+"stage": 2,
+"sponsor": {
+"name": "Rep. Palmer, Gary J. [R-AL-6]",
+"first": "Gary",
+"last": "Palmer",
+"party": "R",
+"state": "AL",
+"id": "P000609"
+},
+"cosponsors": {
+"n": 1,
+"D": 1
+},
+"policy_area": "Environmental Protection",
+"topics": [
+"핵심광물"
+],
+"china": false,
+"summary": "This bill requires the Environmental Protection Agency (EPA) to establish and carry out a national strategy for recovering critical minerals from discarded materials. Critical minerals are defined as any mineral, element, substance, or material designated as critical by the U.S. Geological Survey because it is essential to U.S. economic or national security, has a vulnerable supply chain, and serves an essential function in manufacturing a product. The EPA must report to Congress every two years on its actions, plans, and recommendations relating to the national strategy.",
+"summary_ko": "이 법안은 환경 보호국(EPA)이 버려진 물질에서 중요한 광물을 회수하기 위한 국가 전략을 수립하고 실행하도록 요구합니다. 중요 광물은 미국 경제 또는 국가 안보에 필수적이고, 취약한 공급망을 갖고, 제품 제조에 필수적인 기능을 수행하기 때문에 미국 지질 조사국(U.S. Geological Survey)에서 중요하다고 지정한 모든 광물, 요소, 물질 또는 재료로 정의됩니다. EPA는 국가 전략과 관련된 조치, 계획 및 권장 사항을 2년마다 의회에 보고해야 합니다.",
+"updated": "2026-10-03T19:06:17Z"
+},
+{
+"id": "119-hr9616",
+"type": "HR",
+"number": "9616",
+"label": "H.R. 9616",
+"chamber": "하원",
+"title": "EMRTAI Authorization Act of 2026",
+"full": "Environmental Monitoring and Remediation Technology Assessment Initiative Authorization Act of 2026",
+"official": "To establish a program for the recovery of critical materials from contaminated sites.",
+"official_ko": "오염된 현장에서 중요한 물질을 회수하기 위한 프로그램을 수립합니다.",
+"url": "https://www.congress.gov/bill/119th-congress/house-bill/9616",
+"introduced": "2026-07-09",
+"latest": "Received in the Senate and Read twice and referred to the Committee on Environment and Public Works.",
+"latest_ko": "하원 통과 → 상원 환경·공공사업위원회 회부",
+"latest_date": "2026-09-16",
+"stage": 2,
+"sponsor": {
+"name": "Rep. Pfluger, August [R-TX-11]",
+"first": "August",
+"last": "Pfluger",
+"party": "R",
+"state": "TX",
+"id": "P000048"
+},
+"cosponsors": {
+"n": 1,
+"D": 1
+},
+"policy_area": "Energy",
+"topics": [
+"핵심광물"
+],
+"china": false,
+"summary": "Environmental Monitoring and Remediation Technology Assessment Initiative Authorization Act of 2026 or the EMRTAI Authorization Act of 2026 This provides statutory authority for an initiative within the Environmental Protection Agency (EPA) that recovers critical materials from contaminated sites. A critical material means (1) any non-fuel mineral, element, substance, or material that the Department of Energy determines has a high risk of a supply chain disruption and serves an essential function in energy technologies; and (2) any critical mineral.",
+"summary_ko": "2026년 환경 모니터링 및 복원 기술 평가 이니셔티브 승인법 또는 2026년 EMRTAI 승인법 이는 오염된 현장에서 중요한 물질을 회수하는 환경 보호국(EPA) 내의 이니셔티브에 대한 법적 권한을 제공합니다. 핵심 물질이란 (1) 에너지부가 공급망 중단 위험이 높고 에너지 기술에서 필수적인 기능을 수행한다고 판단하는 비연료 광물, 요소, 물질 또는 물질을 의미합니다. (2) 중요한 광물.",
+"updated": "2026-09-24T21:03:42Z"
+},
+{
+"id": "119-hr9615",
+"type": "HR",
+"number": "9615",
+"label": "H.R. 9615",
+"chamber": "하원",
+"title": "BRACE Act",
+"full": "Battery Recycling for America’s Competitive Economy Act",
+"official": "To support the recycling and recovery of lithium-ion batteries.",
+"official_ko": "리튬이온 배터리의 재활용 및 회수를 지원합니다.",
+"url": "https://www.congress.gov/bill/119th-congress/house-bill/9615",
+"introduced": "2026-07-09",
+"latest": "Received in the Senate and Read twice and referred to the Committee on Environment and Public Works.",
+"latest_ko": "하원 통과 → 상원 환경·공공사업위원회 회부",
+"latest_date": "2026-09-16",
+"stage": 2,
+"sponsor": {
+"name": "Rep. Miller-Meeks, Mariannette [R-IA-1]",
+"first": "Mariannette",
+"last": "Miller-Meeks",
+"party": "R",
+"state": "IA",
+"id": "M001215"
+},
+"cosponsors": {
+"n": 3,
+"D": 2,
+"R": 1
+},
+"policy_area": "Environmental Protection",
+"topics": [
+"배터리·제조",
+"핵심광물"
+],
+"china": false,
+"summary": "This bill modifies the regulation of lithium-ion batteries under the Resource Conservation and Recovery Act in order to facilitate the recycling of lithium-ion batteries and the recovery of critical minerals. Specifically, the bill directs certain facilities that store lithium-ion batteries prior to recycling them to follow regulations for large quantity handlers of universal waste instead of following the more stringent hazardous waste regulations that currently apply, thereby allowing these facilities to store lithium-ion batteries without needing a special permit.",
+"summary_ko": "이 법안은 리튬이온 배터리의 재활용과 필수 광물의 회수를 촉진하기 위해 자원보존 및 회수에 관한 법률에 따른 리튬이온 배터리 규제를 개정합니다. 특히, 이 법안은 리튬 이온 배터리를 재활용하기 전에 보관하는 특정 시설에 현재 적용되는 보다 엄격한 유해 폐기물 규정을 따르는 대신 일반 폐기물의 대량 처리자에 대한 규정을 따르도록 지시하여 이러한 시설에서 특별 허가 없이 리튬 이온 배터리를 보관할 수 있도록 허용합니다.",
+"updated": "2026-10-01T14:41:17Z"
+},
+{
+"id": "119-hr10346",
+"type": "HR",
+"number": "10346",
+"label": "H.R. 10346",
+"chamber": "하원",
+"title": "Stop China’s Exploitation of Congolese Children and Adult Forced Labor through Cobalt Mining Act",
+"full": "",
+"official": "To ensure that goods made using or containing cobalt extracted or processed with the use of child or forced labor in the Democratic Republic of the Congo do not enter the United States market.",
+"official_ko": "콩고민주공화국에서 아동 노동 또는 강제 노동을 통해 추출 또는 가공된 코발트를 사용하거나 함유한 제품이 미국 시장에 유입되지 않도록 보장합니다.",
+"url": "https://www.congress.gov/bill/119th-congress/house-bill/10346",
+"introduced": "2026-09-10",
+"latest": "Ordered to be Reported in the Nature of a Substitute by the Yeas and Nays: 32 - 8.",
+"latest_ko": "위원회 가결 (찬성 32 · 반대 8)",
+"latest_date": "2026-09-16",
+"stage": 1,
+"sponsor": {
+"name": "Rep. Smith, Christopher H. [R-NJ-4]",
+"first": "Christopher",
+"last": "Smith",
+"party": "R",
+"state": "NJ",
+"id": "S000522"
+},
+"cosponsors": {
+"n": 0
+},
+"policy_area": "Foreign Trade and International Finance",
+"topics": [
+"핵심광물"
+],
+"china": true,
+"summary": "This bill requires the Forced Labor Enforcement Task Force to complete and submit to Congress the results of an investigation into the alleged use of forced labor in the cobalt mining industry of the Democratic Republic of the Congo (DRC). Specifically, the task force must (1) submit to Congress strategies for preventing the importation of cobalt mined using forced labor, and (2) provide semiannual briefings to Congress.",
+"summary_ko": "이 법안은 강제 노동 집행 태스크 포스가 콩고 민주 공화국(DRC)의 코발트 광산 산업에서 강제 노동을 실시한 혐의에 대한 조사 결과를 작성하여 의회에 제출하도록 요구합니다. 구체적으로 태스크포스는 (1) 강제 노동을 통해 채굴된 코발트의 수입을 방지하기 위한 전략을 의회에 제출하고 (2) 반기별로 의회에 보고해야 합니다.",
+"updated": "2026-09-28T15:28:32Z"
+},
+{
+"id": "119-hres179",
+"type": "HRES",
+"number": "179",
+"label": "H.Res. 179",
+"chamber": "하원",
+"title": "Expressing support for the strengthening of United States-Africa partnerships in critical minerals development.",
+"full": "",
+"official": "",
+"official_ko": "중요 광물 개발에 있어 미국-아프리카 파트너십 강화에 대한 지지를 표명합니다.",
+"url": "https://www.congress.gov/bill/119th-congress/house-resolution/179",
+"introduced": "2025-03-03",
+"latest": "ASSUMING FIRST SPONSORSHIP - Mr. Jackson (IL) asked unanimous consent that he may hereafter be considered as the first sponsor of H. Res. 179, a resolution originally introduced by Representative Cherfilus-McCormick for the purpose of adding cosponsors and requesting reprintings pursuant to clause 7 of rule XII. Agreed to without objection.",
+"latest_ko": "대표 발의자 변경",
+"latest_date": "2026-09-02",
+"stage": 0,
+"sponsor": {
+"name": "Rep. Cherfilus-McCormick, Sheila [D-FL-20]",
+"first": "Sheila",
+"last": "Cherfilus-McCormick",
+"party": "D",
+"state": "FL",
+"id": "C001127"
+},
+"cosponsors": {
+"n": 1,
+"D": 1
+},
+"policy_area": "International Affairs",
+"topics": [
+"핵심광물"
+],
+"china": false,
+"summary": "",
+"summary_ko": "",
+"updated": "2026-09-22T12:45:33Z"
+},
+{
+"id": "119-s5330",
+"type": "S",
+"number": "5330",
+"label": "S. 5330",
+"chamber": "상원",
+"title": "Critical Mineral and Extraction Tax Parity Act",
+"full": "",
+"official": "A bill to amend the Internal Revenue Code of 1986 to expand and improve the advanced manufacturing production tax credit.",
+"official_ko": "고급 제조 생산세 공제를 확대하고 개선하기 위해 1986년 내국세입법을 개정하는 법안.",
+"url": "https://www.congress.gov/bill/119th-congress/senate-bill/5330",
+"introduced": "2026-08-06",
+"latest": "Read twice and referred to the Committee on Finance.",
+"latest_ko": "상원 재무위원회 회부",
+"latest_date": "2026-08-06",
+"stage": 0,
+"sponsor": {
+"name": "Sen. Curtis, John R. [R-UT]",
+"first": "John",
+"last": "Curtis",
+"party": "R",
+"state": "UT",
+"id": "C001114"
+},
+"cosponsors": {
+"n": 1,
+"R": 1
+},
+"policy_area": "Taxation",
+"topics": [
+"핵심광물"
+],
+"china": false,
+"summary": "",
+"summary_ko": "",
+"updated": "2026-08-24T17:39:14Z"
+},
+{
+"id": "119-sjres207",
+"type": "SJRES",
+"number": "207",
+"label": "S.J.Res. 207",
+"chamber": "상원",
+"title": "A joint resolution providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Environmental Protection Agency relating to \"California State Motor Vehicle Pollution Control Standards; Notice of Decision Granting a Waiver of Clean Air Act Preemption for California's Advanced Clean Car Program and a Within the Scope Conformation for California's Zero Emission Vehicle Amendments for 2017 and Earlier Model Years\".",
+"full": "",
+"official": "",
+"official_ko": "의회 거부 결의(CRA): 환경보호청(EPA) 규칙 「캘리포니아 주 자동차 오염 통제 표준; 캘리포니아의 첨단 청정 자동차 프로그램에 대한 청정 공기법 우선권 포기 및 2017년 및 이전 모델 연도에 대한 캘리포니아의 무공해 차량 개정에 대한 범위 내 확인을 부여하는 결정 통지」 무효화",
+"url": "https://www.congress.gov/bill/119th-congress/senate-joint-resolution/207",
+"introduced": "2026-08-05",
+"latest": "Read twice and referred to the Committee on Environment and Public Works.",
+"latest_ko": "상원 환경·공공사업위원회 회부",
+"latest_date": "2026-08-05",
+"stage": 0,
+"sponsor": {
+"name": "Sen. Ricketts, Pete [R-NE]",
+"first": "Pete",
+"last": "Ricketts",
+"party": "R",
+"state": "NE",
+"id": "R000618"
+},
+"cosponsors": {
+"n": 10,
+"R": 10
+},
+"policy_area": "Environmental Protection",
+"topics": [
+"배출·연비 규제"
+],
+"china": false,
+"summary": "",
+"summary_ko": "",
+"updated": "2026-09-16T10:56:29Z"
+},
+{
+"id": "119-s4784",
+"type": "S",
+"number": "4784",
+"label": "S. 4784",
+"chamber": "상원",
+"title": "National Defense Authorization Act for Fiscal Year 2027",
+"full": "",
+"official": "An original bill to authorize appropriations for fiscal year 2027 for military activities of the Department of Defense, for military construction, and for defense activities of the Department of Energy, to prescribe military personnel strengths for such fiscal year.",
+"official_ko": "2027 회계연도에 국방부의 군사 활동, 군사 건설, 에너지부의 국방 활동에 대한 예산을 승인하고 해당 회계연도의 군인 역량을 규정하는 원래 법안입니다.",
+"url": "https://www.congress.gov/bill/119th-congress/senate-bill/4784",
+"introduced": "2026-06-15",
+"latest": "Motion to proceed to consideration of measure made in Senate. (CR S4276)",
+"latest_ko": "상원 심의 착수 동의",
+"latest_date": "2026-07-27",
+"stage": 1,
+"sponsor": {
+"name": "Sen. Wicker, Roger F. [R-MS]",
+"first": "Roger",
+"last": "Wicker",
+"party": "R",
+"state": "MS",
+"id": "W000437"
+},
+"cosponsors": {
+"n": 0
+},
+"policy_area": "Armed Forces and National Security",
+"topics": [
+"배터리·제조",
+"핵심광물"
+],
+"china": false,
+"summary": "This bill sets forth policies and authorities for FY2027 for Department of Defense (DOD) programs, activities, and military construction as well as the national security programs of the Department of Energy (DOE).",
+"summary_ko": "이 법안은 국방부(DOD) 프로그램, 활동, 군사 건설뿐만 아니라 에너지부(DOE)의 국가 안보 프로그램에 대한 FY2027 정책과 권한을 명시합니다.",
+"updated": "2026-10-14T21:37:42Z"
+},
+{
+"id": "119-hjres205",
+"type": "HJRES",
+"number": "205",
+"label": "H.J.Res. 205",
+"chamber": "하원",
+"title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Environmental Protection Agency relating to \"California State Motor Vehicle Pollution Control Standards; Notice of Decision Granting a Waiver of Clean Air Act Preemption for California's Advanced Clean Car Program and a Within the Scope Confirmation for California's Zero Emission Vehicle Amendments for 2017 and Earlier Model Years\".",
+"full": "",
+"official": "",
+"official_ko": "의회 거부 결의(CRA): 환경보호청(EPA) 규칙 「캘리포니아 주 자동차 오염 통제 표준; 캘리포니아의 고급 청정 자동차 프로그램에 대한 청정 공기법 우선권 포기 및 2017년 및 이전 모델 연도에 대한 캘리포니아의 무공해 차량 개정에 대한 범위 내 확인을 부여하는 결정 통지」 무효화",
+"url": "https://www.congress.gov/bill/119th-congress/house-joint-resolution/205",
+"introduced": "2026-07-23",
+"latest": "Referred to the House Committee on Energy and Commerce.",
+"latest_ko": "하원 에너지·상업위원회 회부",
+"latest_date": "2026-07-23",
+"stage": 0,
+"sponsor": {
+"name": "Rep. Joyce, John [R-PA-13]",
+"first": "John",
+"last": "Joyce",
+"party": "R",
+"state": "PA",
+"id": "J000302"
+},
+"cosponsors": {
+"n": 1,
+"R": 1
+},
+"policy_area": "Environmental Protection",
+"topics": [
+"배출·연비 규제"
+],
+"china": false,
+"summary": "",
+"summary_ko": "",
+"updated": "2026-09-11T08:05:46Z"
+},
+{
+"id": "119-hr9646",
+"type": "HR",
+"number": "9646",
+"label": "H.R. 9646",
+"chamber": "하원",
+"title": "Quantum-Enhanced Critical Minerals Mapping Act of 2026",
+"full": "",
+"official": "To require the Secretary of the Interior to carry out a quantum-enhanced critical minerals survey.",
+"official_ko": "내무부 장관에게 양자 강화 중요 광물 조사를 수행하도록 요구합니다.",
+"url": "https://www.congress.gov/bill/119th-congress/house-bill/9646",
+"introduced": "2026-07-13",
+"latest": "Subcommittee Hearings Held",
+"latest_ko": "청문회 개최",
+"latest_date": "2026-07-21",
+"stage": 0,
+"sponsor": {
+"name": "Rep. Hurd, Jeff [R-CO-3]",
+"first": "Jeff",
+"last": "Hurd",
+"party": "R",
+"state": "CO",
+"id": "H001100"
+},
+"cosponsors": {
+"n": 2,
+"D": 1,
+"R": 1
+},
+"policy_area": "Energy",
+"topics": [
+"핵심광물"
+],
+"china": false,
+"summary": "",
+"summary_ko": "",
+"updated": "2026-08-26T20:56:28Z"
+},
+{
+"id": "119-hr4090",
+"type": "HR",
+"number": "4090",
+"label": "H.R. 4090",
+"chamber": "하원",
+"title": "Critical Mineral Dominance Act",
+"full": "",
+"official": "To codify certain provisions of certain Executive Orders relating to domestic mining and hardrock mineral resources.",
+"official_ko": "국내 광업 및 경암 광물 자원과 관련된 특정 행정 명령의 특정 조항을 성문화합니다.",
+"url": "https://www.congress.gov/bill/119th-congress/house-bill/4090",
+"introduced": "2025-06-23",
+"latest": "Committee on Energy and Natural Resources Subcommittee on Public Lands, Forests, and Mining. Hearings held.",
+"latest_ko": "청문회 개최",
+"latest_date": "2026-07-15",
+"stage": 2,
+"sponsor": {
+"name": "Rep. Stauber, Pete [R-MN-8]",
+"first": "Pete",
+"last": "Stauber",
+"party": "R",
+"state": "MN",
+"id": "S001212"
+},
+"cosponsors": {
+"n": 2,
+"R": 2
+},
+"policy_area": "Energy",
+"topics": [
+"핵심광물"
+],
+"china": false,
+"summary": "This bill directs the Department of the Interior to address mineral supply chain vulnerabilities, including by accelerating and expanding mineral production on federal land (i.e., National Forest System land, public lands, and any land that may be leased for the exploration, development, or production of hardrock minerals). Interior must (1) identify priority mining projects on federal lands that can be immediately approved, and (2) take all necessary and appropriate steps to expedite those projects.",
+"summary_ko": "이 법안은 내무부가 연방 토지(예: 국유림 시스템 토지, 공공 토지 및 경암 광물의 탐사, 개발 또는 생산을 위해 임대할 수 있는 토지)에서 광물 생산을 가속화 및 확대하는 것을 포함하여 광물 공급망 취약성을 해결하도록 지시합니다. 내무부는 (1) 즉시 승인될 수 있는 연방 토지에 대한 우선순위 광산 프로젝트를 식별하고 (2) 해당 프로젝트를 신속하게 처리하기 위해 모든 필요하고 적절한 조치를 취해야 합니다.",
+"updated": "2026-09-08T18:09:59Z"
+},
+{
+"id": "119-s789",
+"type": "S",
+"number": "789",
+"label": "S. 789",
+"chamber": "상원",
+"title": "Critical Minerals Security Act of 2025",
+"full": "",
+"official": "A bill to require reports on critical mineral and rare earth element resources around the world and a strategy for the development of advanced mining, refining, separation, and processing technologies.",
+"official_ko": "전 세계의 주요 광물 및 희토류 원소 자원에 대한 보고서와 고급 채굴, 정제, 분리 및 처리 기술 개발 전략을 요구하는 법안입니다.",
+"url": "https://www.congress.gov/bill/119th-congress/senate-bill/789",
+"introduced": "2025-02-27",
+"latest": "Committee on Energy and Natural Resources. Ordered to be reported with an amendment in the nature of a substitute favorably.",
+"latest_ko": "위원회 가결",
+"latest_date": "2026-06-10",
+"stage": 1,
+"sponsor": {
+"name": "Sen. Cornyn, John [R-TX]",
+"first": "John",
+"last": "Cornyn",
+"party": "R",
+"state": "TX",
+"id": "C001056"
+},
+"cosponsors": {
+"n": 6,
+"D": 3,
+"R": 2,
+"I": 1
+},
+"policy_area": "Energy",
+"topics": [
+"핵심광물"
+],
+"china": true,
+"summary": "This bill establishes requirements for the Department of the Interior related to securing U.S. access to critical minerals and rare earth element (REE) resources. Critical minerals mean any mineral, element, substance, or material designated as critical by the U.S. Geological Survey. REEs mean cerium, dysprosium, erbium, europium, gadolinium, holmium, lanthanum, lutetium, neodymium, praseodymium, promethium, samarium, scandium, terbium, thulium, ytterbium, and yttrium.",
+"summary_ko": "이 법안은 중요한 광물 및 희토류 원소(REE) 자원에 대한 미국의 접근 확보와 관련된 내무부의 요구 사항을 설정합니다. 중요 광물이란 미국 지질 조사국(U.S. Geological Survey)에서 중요하다고 지정한 모든 광물, 원소, 물질 또는 재료를 의미합니다. REE는 세륨, 디스프로슘, 에르븀, 유로뮴, 가돌리늄, 홀뮴, 란타늄, 루테튬, 네오디뮴, 프라세오디뮴, 프로메튬, 사마륨, 스칸듐, 테르븀, 툴륨, 이테르븀, 이트륨을 의미합니다.",
+"updated": "2026-09-08T18:09:59Z"
+},
+{
+"id": "119-hr7037",
+"type": "HR",
+"number": "7037",
+"label": "H.R. 7037",
+"chamber": "하원",
+"title": "Developing Overseas Mineral Investments and New Allied Networks for Critical Energies Act",
+"full": "",
+"official": "To promote United States and allied energy and mineral security.",
+"official_ko": "미국과 동맹국의 에너지 및 광물 안보를 촉진합니다.",
+"url": "https://www.congress.gov/bill/119th-congress/house-bill/7037",
+"introduced": "2026-01-13",
+"latest": "Received in the Senate and Read twice and referred to the Committee on Foreign Relations.",
+"latest_ko": "하원 통과 → 상원 외교위원회 회부",
+"latest_date": "2026-06-09",
+"stage": 2,
+"sponsor": {
+"name": "Rep. Kim, Young [R-CA-40]",
+"first": "Young",
+"last": "Kim",
+"party": "R",
+"state": "CA",
+"id": "K000397"
+},
+"cosponsors": {
+"n": 30,
+"D": 10,
+"R": 20
+},
+"policy_area": "International Affairs",
+"topics": [
+"핵심광물"
+],
+"china": false,
+"summary": "This bill establishes a Bureau of Energy Security and Diplomacy in the Department of State and authorizes several programs to address access to energy and critical minerals. The bureau must formulate and implement policies related to international energy, energy technology, critical minerals, and related supply chains. An assistant secretary is authorized to lead the bureau. The bill authorizes the State Department to establish multi-year energy security compacts with partner countries.",
+"summary_ko": "이 법안은 국무부 내에 에너지 안보 및 외교국을 설립하고 에너지 및 중요 광물에 대한 접근을 다루기 위한 여러 프로그램을 승인합니다. 사무국은 국제 에너지, 에너지 기술, 중요 광물 및 관련 공급망과 관련된 정책을 수립하고 구현해야 합니다. 차관보가 국을 이끌 권한을 부여받습니다. 이 법안은 국무부가 파트너 국가들과 다년간의 에너지 안보 협약을 체결할 수 있는 권한을 부여합니다.",
+"updated": "2026-09-19T23:35:35Z"
+},
+{
+"id": "119-hr5929",
+"type": "HR",
+"number": "5929",
+"label": "H.R. 5929",
+"chamber": "하원",
+"title": "Critical Minerals Supply Chain Resiliency Act of 2026",
+"full": "",
+"official": "To adjust the treatment of certain actions under Presidential Determination 2022-11 for Federal permitting improvement.",
+"official_ko": "연방 허가 개선을 위해 대통령 결정 2022-11에 따라 특정 조치의 처리를 조정합니다.",
+"url": "https://www.congress.gov/bill/119th-congress/house-bill/5929",
+"introduced": "2025-11-07",
+"latest": "Placed on the Union Calendar, Calendar No. 602.",
+"latest_ko": "하원 본회의 일정 등록",
+"latest_date": "2026-06-09",
+"stage": 1,
+"sponsor": {
+"name": "Rep. Barr, Andy [R-KY-6]",
+"first": "Andy",
+"last": "Barr",
+"party": "R",
+"state": "KY",
+"id": "B001282"
+},
+"cosponsors": {
+"n": 2,
+"D": 1,
+"R": 1
+},
+"policy_area": "Environmental Protection",
+"topics": [
+"핵심광물"
+],
+"china": false,
+"summary": "",
+"summary_ko": "",
+"updated": "2026-09-19T23:19:21Z"
+},
+{
+"id": "119-hr8870",
+"type": "HR",
+"number": "8870",
+"label": "H.R. 8870",
+"chamber": "하원",
+"title": "BUILD America 250 Act",
+"full": "Building Unrivaled Infrastructure and Long-term Development for America’s 250th Act",
+"official": "To authorize funding for Federal-aid highways, bridge construction and rehabilitation, highway safety programs, transit programs, and rail programs.",
+"official_ko": "연방 지원 고속도로, 교량 건설 및 재활, 고속도로 안전 프로그램, 교통 프로그램 및 철도 프로그램에 대한 자금을 승인합니다.",
+"url": "https://www.congress.gov/bill/119th-congress/house-bill/8870",
+"introduced": "2026-05-19",
+"latest": "Ordered to be Reported (Amended) by the Yeas and Nays: 62 - 2.",
+"latest_ko": "위원회 가결 (찬성 62 · 반대 2)",
+"latest_date": "2026-05-22",
+"stage": 1,
+"sponsor": {
+"name": "Rep. Graves, Sam [R-MO-6]",
+"first": "Sam",
+"last": "Graves",
+"party": "R",
+"state": "MO",
+"id": "G000546"
+},
+"cosponsors": {
+"n": 5,
+"D": 2,
+"R": 3
+},
+"policy_area": "Transportation and Public Works",
+"topics": [
+"전기차 일반"
+],
+"china": false,
+"summary": "This bill authorizes federal surface transportation (highway, public transportation, and rail) programs and activities through FY2031. The bill also establishes or modifies Department of Transportation (DOT) programs and policies that are a part of the federal-aid highway, transit, highway safety, motor carrier, research, hazardous materials, and rail programs.",
+"summary_ko": "이 법안은 FY2031까지 연방 지상 교통(고속도로, 대중 교통, 철도) 프로그램 및 활동을 승인합니다. 이 법안은 또한 연방 지원 고속도로, 대중교통, 고속도로 안전, 자동차 운송업체, 연구, 위험 물질 및 철도 프로그램의 일부인 교통부(DOT) 프로그램 및 정책을 수립하거나 수정합니다.",
+"updated": "2026-09-30T18:35:20Z"
+},
+{
+"id": "119-hr8780",
+"type": "HR",
+"number": "8780",
+"label": "H.R. 8780",
+"chamber": "하원",
+"title": "Critical Mineral and Extraction Tax Parity Act",
+"full": "",
+"official": "To amend the Internal Revenue Code of 1986 to expand and improve the advanced manufacturing production tax credit.",
+"official_ko": "1986년 내국세입법을 개정하여 첨단 제조업 생산세 공제를 확대하고 개선합니다.",
+"url": "https://www.congress.gov/bill/119th-congress/house-bill/8780",
+"introduced": "2026-05-13",
+"latest": "Referred to the House Committee on Ways and Means.",
+"latest_ko": "하원 세입위원회 회부",
+"latest_date": "2026-05-13",
+"stage": 0,
+"sponsor": {
+"name": "Rep. Moore, Blake D. [R-UT-1]",
+"first": "Blake",
+"last": "Moore",
+"party": "R",
+"state": "UT",
+"id": "M001213"
+},
+"cosponsors": {
+"n": 18,
+"R": 18
+},
+"policy_area": "Taxation",
+"topics": [
+"핵심광물"
+],
+"china": false,
+"summary": "",
+"summary_ko": "",
+"updated": "2026-09-19T23:41:22Z"
+},
+{
+"id": "119-hr8778",
+"type": "HR",
+"number": "8778",
+"label": "H.R. 8778",
+"chamber": "하원",
+"title": "EV Charging Accessibility Act",
+"full": "",
+"official": "To require the Architectural and Transportation Barriers Compliance Board to finalize a proposed rule relating to accessibility of electric vehicle charging stations.",
+"official_ko": "건축 및 교통 장벽 준수 위원회가 전기 자동차 충전소의 접근성과 관련된 제안된 규칙을 확정하도록 요구합니다.",
+"url": "https://www.congress.gov/bill/119th-congress/house-bill/8778",
+"introduced": "2026-05-13",
+"latest": "Referred to the Committee on Transportation and Infrastructure, and in addition to the Committee on the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+"latest_ko": "하원 교통·인프라위원회 등 회부",
+"latest_date": "2026-05-13",
+"stage": 0,
+"sponsor": {
+"name": "Rep. Underwood, Lauren [D-IL-14]",
+"first": "Lauren",
+"last": "Underwood",
+"party": "D",
+"state": "IL",
+"id": "U000040"
+},
+"cosponsors": {
+"n": 2,
+"D": 2
+},
+"policy_area": "Transportation and Public Works",
+"topics": [
+"충전 인프라",
+"전기차 일반"
+],
+"china": false,
+"summary": "",
+"summary_ko": "",
+"updated": "2026-09-19T23:35:42Z"
+},
+{
+"id": "119-hr8706",
+"type": "HR",
+"number": "8706",
+"label": "H.R. 8706",
+"chamber": "하원",
+"title": "Better Energy Storage and Safety Act",
+"full": "",
+"official": "To amend the Energy Act of 2020 to modify certain programs and projects with respect to energy storage technology.",
+"official_ko": "에너지 저장 기술과 관련된 특정 프로그램 및 프로젝트를 수정하기 위해 2020년 에너지법을 개정합니다.",
+"url": "https://www.congress.gov/bill/119th-congress/house-bill/8706",
+"introduced": "2026-05-07",
+"latest": "Referred to the House Committee on Science, Space, and Technology.",
+"latest_ko": "하원 과학·우주·기술위원회 회부",
+"latest_date": "2026-05-07",
+"stage": 0,
+"sponsor": {
+"name": "Rep. Panetta, Jimmy [D-CA-19]",
+"first": "Jimmy",
+"last": "Panetta",
+"party": "D",
+"state": "CA",
+"id": "P000613"
+},
+"cosponsors": {
+"n": 1,
+"R": 1
+},
+"policy_area": "Energy",
+"topics": [
+"배터리·제조"
+],
+"china": false,
+"summary": "",
+"summary_ko": "",
+"updated": "2026-09-19T23:32:31Z"
+},
+{
+"id": "119-hr8307",
+"type": "HR",
+"number": "8307",
+"label": "H.R. 8307",
+"chamber": "하원",
+"title": "Responder and Recovery Safety in EV Fires Act",
+"full": "",
+"official": "To require the Secretary of Transportation to establish a working group to review and establish guidance and best practices for responding to electric vehicle fires.",
+"official_ko": "교통부 장관에게 전기 자동차 화재 대응을 위한 지침과 모범 사례를 검토하고 확립하기 위한 실무 그룹을 구성하도록 요구합니다.",
+"url": "https://www.congress.gov/bill/119th-congress/house-bill/8307",
+"introduced": "2026-04-15",
+"latest": "Referred to the House Committee on Science, Space, and Technology.",
+"latest_ko": "하원 과학·우주·기술위원회 회부",
+"latest_date": "2026-04-15",
+"stage": 0,
+"sponsor": {
+"name": "Rep. Obernolte, Jay [R-CA-23]",
+"first": "Jay",
+"last": "Obernolte",
+"party": "R",
+"state": "CA",
+"id": "O000019"
+},
+"cosponsors": {
+"n": 1,
+"D": 1
+},
+"policy_area": "Transportation and Public Works",
+"topics": [
+"전기차 일반"
+],
+"china": false,
+"summary": "",
+"summary_ko": "",
+"updated": "2026-09-19T23:12:08Z"
+},
+{
+"id": "119-hr8277",
+"type": "HR",
+"number": "8277",
+"label": "H.R. 8277",
+"chamber": "하원",
+"title": "To amend the Internal Revenue Code of 1986 to designate copper as an applicable critical mineral and to include ore extraction costs for purposes of the advanced manufacturing production credit.",
+"full": "",
+"official": "",
+"official_ko": "1986년 내국세입법을 개정하여 구리를 해당 중요 광물로 지정하고 첨단 제조 생산 공제 목적으로 광석 추출 비용을 포함합니다.",
+"url": "https://www.congress.gov/bill/119th-congress/house-bill/8277",
+"introduced": "2026-04-14",
+"latest": "Referred to the House Committee on Ways and Means.",
+"latest_ko": "하원 세입위원회 회부",
+"latest_date": "2026-04-14",
+"stage": 0,
+"sponsor": {
+"name": "Rep. Schweikert, David [R-AZ-1]",
+"first": "David",
+"last": "Schweikert",
+"party": "R",
+"state": "AZ",
+"id": "S001183"
+},
+"cosponsors": {
+"n": 1,
+"R": 1
+},
+"policy_area": "Taxation",
+"topics": [
+"배터리·제조",
+"핵심광물"
+],
+"china": false,
+"summary": "",
+"summary_ko": "",
+"updated": "2026-09-19T23:10:58Z"
+},
+{
+"id": "119-s4084",
+"type": "S",
+"number": "4084",
+"label": "S. 4084",
+"chamber": "상원",
+"title": "Responder and Recovery Safety in EV Fires Act",
+"full": "",
+"official": "A bill to require the Secretary of Transportation to establish a working group to review and establish guidance and best practices for responding to electric vehicle fires.",
+"official_ko": "교통부 장관에게 전기 자동차 화재 대응을 위한 지침과 모범 사례를 검토하고 확립하기 위한 실무 그룹을 구성하도록 요구하는 법안.",
+"url": "https://www.congress.gov/bill/119th-congress/senate-bill/4084",
+"introduced": "2026-03-12",
+"latest": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+"latest_ko": "상원 상무·과학·교통위원회 회부",
+"latest_date": "2026-03-12",
+"stage": 0,
+"sponsor": {
+"name": "Sen. Sheehy, Tim [R-MT]",
+"first": "Tim",
+"last": "Sheehy",
+"party": "R",
+"state": "MT",
+"id": "S001232"
+},
+"cosponsors": {
+"n": 1,
+"D": 1
+},
+"policy_area": "Transportation and Public Works",
+"topics": [
+"전기차 일반"
+],
+"china": false,
+"summary": "",
+"summary_ko": "",
+"updated": "2026-09-08T18:03:40Z"
+},
+{
+"id": "119-s4033",
+"type": "S",
+"number": "4033",
+"label": "S. 4033",
+"chamber": "상원",
+"title": "Critical Minerals Investment Tax Modernization Act of 2026",
+"full": "",
+"official": "A bill to amend the Internal Revenue Code of 1986 to adjust the percentage depletion rate for certain rare earths.",
+"official_ko": "특정 희토류의 고갈 비율을 조정하기 위해 1986년 내국세입법을 개정하는 법안입니다.",
+"url": "https://www.congress.gov/bill/119th-congress/senate-bill/4033",
+"introduced": "2026-03-10",
+"latest": "Read twice and referred to the Committee on Finance.",
+"latest_ko": "상원 재무위원회 회부",
+"latest_date": "2026-03-10",
+"stage": 0,
+"sponsor": {
+"name": "Sen. Husted, Jon [R-OH]",
+"first": "Jon",
+"last": "Husted",
+"party": "R",
+"state": "OH",
+"id": "H001104"
+},
+"cosponsors": {
+"n": 0
+},
+"policy_area": "Taxation",
+"topics": [
+"핵심광물"
+],
+"china": false,
+"summary": "",
+"summary_ko": "",
+"updated": "2026-03-24T01:07:16Z"
+},
+{
+"id": "119-hr755",
+"type": "HR",
+"number": "755",
+"label": "H.R. 755",
+"chamber": "하원",
+"title": "Critical Mineral Consistency Act of 2025",
+"full": "",
+"official": "To amend the Energy Act of 2020 to harmonize the lists of critical minerals and critical materials.",
+"official_ko": "중요 광물과 중요 물질 목록을 조화시키기 위해 2020년 에너지법을 개정합니다.",
+"url": "https://www.congress.gov/bill/119th-congress/house-bill/755",
+"introduced": "2025-01-28",
+"latest": "Received in the Senate. Read twice. Placed on Senate Legislative Calendar under General Orders. Calendar No. 348.",
+"latest_ko": "하원 통과 → 상원 본회의 일정 등록",
+"latest_date": "2026-03-04",
+"stage": 2,
+"sponsor": {
+"name": "Rep. Ciscomani, Juan [R-AZ-6]",
+"first": "Juan",
+"last": "Ciscomani",
+"party": "R",
+"state": "AZ",
+"id": "C001133"
+},
+"cosponsors": {
+"n": 13,
+"R": 7,
+"D": 6
+},
+"policy_area": "Energy",
+"topics": [
+"핵심광물"
+],
+"china": false,
+"summary": "This bill modifies the Energy Act of 2020 to expand the definition of critical minerals to include critical materials designated by the Department of Energy (DOE). Under current law, DOE's critical materials list contains certain materials that are essential for energy, including those on the critical minerals list of the U.S. Geological Survey (USGS). The USGS's list, which contains certain minerals that are essential to the nation's economic or national security, is not required to include the materials on DOE's list.",
+"summary_ko": "이 법안은 2020년 에너지법을 수정하여 에너지부(DOE)가 지정한 중요 물질을 포함하도록 중요 광물의 정의를 확대합니다. 현행법에 따라 DOE의 중요 물질 목록에는 미국 지질조사국(USGS)의 중요 광물 목록에 있는 물질을 포함하여 에너지에 필수적인 특정 물질이 포함되어 있습니다. 국가의 경제 또는 국가 안보에 필수적인 특정 광물을 포함하는 USGS의 목록에는 해당 물질을 DOE 목록에 포함할 필요가 없습니다.",
+"updated": "2026-06-11T23:26:38Z"
+},
+{
+"id": "119-s3879",
+"type": "S",
+"number": "3879",
+"label": "S. 3879",
+"chamber": "상원",
+"title": "Spent Petroleum Catalyst Recycling and Critical Minerals and Metals Recovery Exemption Act",
+"full": "",
+"official": "A bill to ensure domestic sources of the critical mineral vanadium necessary for the steel, infrastructure, energy, and defense needs of the United States.",
+"official_ko": "미국의 철강, 인프라, 에너지 및 국방 수요에 필요한 필수 광물 바나듐의 국내 공급원을 보장하는 법안입니다.",
+"url": "https://www.congress.gov/bill/119th-congress/senate-bill/3879",
+"introduced": "2026-02-12",
+"latest": "Read twice and referred to the Committee on Environment and Public Works.",
+"latest_ko": "상원 환경·공공사업위원회 회부",
+"latest_date": "2026-02-12",
+"stage": 0,
+"sponsor": {
+"name": "Sen. Husted, Jon [R-OH]",
+"first": "Jon",
+"last": "Husted",
+"party": "R",
+"state": "OH",
+"id": "H001104"
+},
+"cosponsors": {
+"n": 0
+},
+"policy_area": "Energy",
+"topics": [
+"핵심광물"
+],
+"china": false,
+"summary": "",
+"summary_ko": "",
+"updated": "2026-09-08T18:12:22Z"
+},
+{
+"id": "119-s2860",
+"type": "S",
+"number": "2860",
+"label": "S. 2860",
+"chamber": "상원",
+"title": "Revitalizing America’s Offshore Critical Minerals Dominance Act",
+"full": "",
+"official": "A bill to unleash United States offshore critical minerals and resources.",
+"official_ko": "미국의 해외 중요 광물과 자원을 활용하기 위한 법안입니다.",
+"url": "https://www.congress.gov/bill/119th-congress/senate-bill/2860",
+"introduced": "2025-09-18",
+"latest": "Committee on Energy and Natural Resources Subcommittee on Public Lands, Forests, and Mining. Hearings held.",
+"latest_ko": "청문회 개최",
+"latest_date": "2026-02-12",
+"stage": 0,
+"sponsor": {
+"name": "Sen. Sheehy, Tim [R-MT]",
+"first": "Tim",
+"last": "Sheehy",
+"party": "R",
+"state": "MT",
+"id": "S001232"
+},
+"cosponsors": {
+"n": 3,
+"R": 3
+},
+"policy_area": "Energy",
+"topics": [
+"핵심광물"
+],
+"china": false,
+"summary": "",
+"summary_ko": "",
+"updated": "2026-09-08T18:09:59Z"
+},
+{
+"id": "119-hr7563",
+"type": "HR",
+"number": "7563",
+"label": "H.R. 7563",
+"chamber": "하원",
+"title": "Rare Earth Magnet Market Revitalization Act",
+"full": "",
+"official": "To prohibit the importation of certain rare earth magnets from covered nations.",
+"official_ko": "해당 국가로부터 특정 희토류 자석의 수입을 금지합니다.",
+"url": "https://www.congress.gov/bill/119th-congress/house-bill/7563",
+"introduced": "2026-02-12",
+"latest": "Referred to the Committee on Foreign Affairs, and in addition to the Committees on Ways and Means, and Energy and Commerce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+"latest_ko": "하원 외교위원회 등 회부",
+"latest_date": "2026-02-12",
+"stage": 0,
+"sponsor": {
+"name": "Rep. Tokuda, Jill N. [D-HI-2]",
+"first": "Jill",
+"last": "Tokuda",
+"party": "D",
+"state": "HI",
+"id": "T000487"
+},
+"cosponsors": {
+"n": 1,
+"R": 1
+},
+"policy_area": "Foreign Trade and International Finance",
+"topics": [
+"핵심광물"
+],
+"china": false,
+"summary": "",
+"summary_ko": "",
+"updated": "2026-03-09T23:23:07Z"
+},
+{
+"id": "119-hr7523",
+"type": "HR",
+"number": "7523",
+"label": "H.R. 7523",
+"chamber": "하원",
+"title": "Spent Petroleum Catalyst Recycling and Critical Minerals and Metals Recovery Exemption Act",
+"full": "",
+"official": "To ensure domestic sources of the critical mineral vanadium necessary for the steel, infrastructure, energy, and defense needs of the United States.",
+"official_ko": "미국의 철강, 인프라, 에너지 및 국방 수요에 필요한 필수 광물 바나듐의 국내 공급원을 보장합니다.",
+"url": "https://www.congress.gov/bill/119th-congress/house-bill/7523",
+"introduced": "2026-02-12",
+"latest": "Referred to the House Committee on Energy and Commerce.",
+"latest_ko": "하원 에너지·상업위원회 회부",
+"latest_date": "2026-02-12",
+"stage": 0,
+"sponsor": {
+"name": "Rep. Balderson, Troy [R-OH-12]",
+"first": "Troy",
+"last": "Balderson",
+"party": "R",
+"state": "OH",
+"id": "B001306"
+},
+"cosponsors": {
+"n": 0
+},
+"policy_area": "Energy",
+"topics": [
+"핵심광물"
+],
+"china": false,
+"summary": "",
+"summary_ko": "",
+"updated": "2026-04-13T13:11:18Z"
+},
+{
+"id": "119-hr3617",
+"type": "HR",
+"number": "3617",
+"label": "H.R. 3617",
+"chamber": "하원",
+"title": "Securing America’s Critical Minerals Supply Act",
+"full": "",
+"official": "To amend the Department of Energy Organization Act to secure the supply of critical energy resources, including critical minerals and other materials.",
+"official_ko": "핵심 광물 및 기타 물질을 포함한 핵심 에너지 자원의 공급을 확보하기 위해 에너지부 조직법(Department of Energy Organization Act)을 개정합니다.",
+"url": "https://www.congress.gov/bill/119th-congress/house-bill/3617",
+"introduced": "2025-05-29",
+"latest": "Received in the Senate and Read twice and referred to the Committee on Energy and Natural Resources.",
+"latest_ko": "하원 통과 → 상원 에너지·천연자원위원회 회부",
+"latest_date": "2026-02-12",
+"stage": 2,
+"sponsor": {
+"name": "Rep. James, John [R-MI-10]",
+"first": "John",
+"last": "James",
+"party": "R",
+"state": "MI",
+"id": "J000307"
+},
+"cosponsors": {
+"n": 4,
+"R": 4
+},
+"policy_area": "Energy",
+"topics": [
+"핵심광물"
+],
+"china": false,
+"summary": "This bill requires the Department of Energy (DOE) to secure the supply of critical energy resources that are essential to the energy security of the United States. A critical energy resource means an energy resource (1) that is essential to the energy sector and energy systems of the United States, and (2) the supply chain of which is vulnerable to disruption. As part of its duties, DOE must conduct ongoing assessments of energy resource criticality, the U.S.",
+"summary_ko": "이 법안은 에너지부(DOE)가 미국의 에너지 안보에 필수적인 중요한 에너지 자원의 공급을 확보하도록 요구합니다. 핵심 에너지 자원이란 (1) 미국의 에너지 부문 및 에너지 시스템에 필수적이며 (2) 공급망이 중단되기 쉬운 에너지 자원을 의미합니다. 임무의 일환으로 DOE는 미국의 에너지 자원 중요성에 대한 지속적인 평가를 수행해야 합니다.",
+"updated": "2026-09-08T18:09:59Z"
+},
+{
+"id": "119-s714",
+"type": "S",
+"number": "714",
+"label": "S. 714",
+"chamber": "상원",
+"title": "Critical Mineral Consistency Act of 2025",
+"full": "",
+"official": "A bill to amend the Energy Act of 2020 to include critical materials in the definition of critical mineral.",
+"official_ko": "핵심 광물의 정의에 핵심 물질을 포함하도록 2020년 에너지법을 개정하는 법안입니다.",
+"url": "https://www.congress.gov/bill/119th-congress/senate-bill/714",
+"introduced": "2025-02-25",
+"latest": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 335.",
+"latest_ko": "상원 본회의 일정 등록",
+"latest_date": "2026-02-11",
+"stage": 1,
+"sponsor": {
+"name": "Sen. Lee, Mike [R-UT]",
+"first": "Mike",
+"last": "Lee",
+"party": "R",
+"state": "UT",
+"id": "L000577"
+},
+"cosponsors": {
+"n": 5,
+"D": 2,
+"R": 3
+},
+"policy_area": "Energy",
+"topics": [
+"핵심광물"
+],
+"china": false,
+"summary": "This bill modifies the Energy Act of 2020 to expand the definition of critical minerals used by the U.S. Geological Survey (USGS) to include critical materials designated by the Department of Energy (DOE). It also directs USGS to update its list within 45 days of DOE adding a mineral, element, substance, or material to its critical materials list. Thus, the bill requires the lists to be treated consistently and makes critical materials eligible for the same benefits (e.g., financing support or clean energy tax credits) provided to critical minerals.",
+"summary_ko": "이 법안은 2020년 에너지법을 수정하여 미국 지질조사국(USGS)에서 사용하는 중요 광물의 정의를 확장하여 에너지부(DOE)가 지정한 중요 물질을 포함시킵니다. 또한 DOE가 중요 물질 목록에 광물, 원소, 물질 또는 물질을 추가한 후 45일 이내에 목록을 업데이트하도록 USGS에 지시합니다. 따라서 이 법안은 목록을 일관되게 처리하도록 요구하고 중요 광물에 제공되는 것과 동일한 혜택(예: 재정 지원 또는 청정 에너지 세금 공제)을 받을 수 있도록 중요 재료를 규정합니다.",
+"updated": "2026-09-08T18:09:59Z"
+},
+{
+"id": "119-s3612",
+"type": "S",
+"number": "3612",
+"label": "S. 3612",
+"chamber": "상원",
+"title": "Critical Mineral Mining Education Act of 2026",
+"full": "",
+"official": "A bill to establish a new educational exchange program to strengthen domestic mining education.",
+"official_ko": "국내 광업교육 강화를 위한 새로운 교육교류 프로그램 신설 법안.",
+"url": "https://www.congress.gov/bill/119th-congress/senate-bill/3612",
+"introduced": "2026-01-12",
+"latest": "Read twice and referred to the Committee on Foreign Relations.",
+"latest_ko": "상원 외교위원회 회부",
+"latest_date": "2026-01-12",
+"stage": 0,
+"sponsor": {
+"name": "Sen. Rosen, Jacky [D-NV]",
+"first": "Jacky",
+"last": "Rosen",
+"party": "D",
+"state": "NV",
+"id": "R000608"
+},
+"cosponsors": {
+"n": 3,
+"R": 2,
+"D": 1
+},
+"policy_area": "International Affairs",
+"topics": [
+"핵심광물"
+],
+"china": false,
+"summary": "",
+"summary_ko": "",
+"updated": "2026-02-05T16:29:08Z"
+},
+{
+"id": "119-hr7021",
+"type": "HR",
+"number": "7021",
+"label": "H.R. 7021",
+"chamber": "하원",
+"title": "Critical Mineral Mining Education Act of 2026",
+"full": "",
+"official": "To establish a new educational exchange program to strengthen domestic mining education.",
+"official_ko": "국내 광업교육 강화를 위해 새로운 교육교류 프로그램을 마련한다.",
+"url": "https://www.congress.gov/bill/119th-congress/house-bill/7021",
+"introduced": "2026-01-12",
+"latest": "Referred to the House Committee on Foreign Affairs.",
+"latest_ko": "하원 외교위원회 회부",
+"latest_date": "2026-01-12",
+"stage": 0,
+"sponsor": {
+"name": "Rep. Olszewski, Johnny [D-MD-2]",
+"first": "Johnny",
+"last": "Olszewski",
+"party": "D",
+"state": "MD",
+"id": "O000176"
+},
+"cosponsors": {
+"n": 4,
+"R": 2,
+"D": 2
+},
+"policy_area": "International Affairs",
+"topics": [
+"핵심광물"
+],
+"china": false,
+"summary": "",
+"summary_ko": "",
+"updated": "2026-02-10T09:05:26Z"
+},
+{
+"id": "119-hr6948",
+"type": "HR",
+"number": "6948",
+"label": "H.R. 6948",
+"chamber": "하원",
+"title": "To amend title 49, United States Code, to require each new electric and hybrid vehicle to be equipped with technology that allows the timely extinguishment of an electric vehicle battery fire, and for other purposes.",
+"full": "",
+"official": "To amend title 49, United States Code, to require each new electric and hybrid vehicle to be equipped with technology that allows the timely extinguishment of an electric vehicle battery fire.",
+"official_ko": "미국 코드 타이틀 49를 개정하여 각각의 새로운 전기 및 하이브리드 차량에 전기 자동차 배터리 화재를 적시에 진압할 수 있는 기술을 장착하도록 요구합니다.",
+"url": "https://www.congress.gov/bill/119th-congress/house-bill/6948",
+"introduced": "2026-01-06",
+"latest": "Referred to the House Committee on Energy and Commerce.",
+"latest_ko": "하원 에너지·상업위원회 회부",
+"latest_date": "2026-01-06",
+"stage": 0,
+"sponsor": {
+"name": "Rep. Latimer, George [D-NY-16]",
+"first": "George",
+"last": "Latimer",
+"party": "D",
+"state": "NY",
+"id": "L000606"
+},
+"cosponsors": {
+"n": 1,
+"R": 1
+},
+"policy_area": "Energy",
+"topics": [
+"배터리·제조",
+"전기차 일반"
+],
+"china": false,
+"summary": "",
+"summary_ko": "",
+"updated": "2026-01-22T16:04:10Z"
+},
+{
+"id": "119-hr6826",
+"type": "HR",
+"number": "6826",
+"label": "H.R. 6826",
+"chamber": "하원",
+"title": "Critical Minerals Independence Act",
+"full": "",
+"official": "To amend the Internal Revenue Code of 1986 to expand the advanced manufacturing production credit to include black mass.",
+"official_ko": "1986년 내국세입법(Internal Revenue Code)을 개정하여 첨단 제조 생산 공제를 블랙 매스를 포함하도록 확대합니다.",
+"url": "https://www.congress.gov/bill/119th-congress/house-bill/6826",
+"introduced": "2025-12-17",
+"latest": "Referred to the House Committee on Ways and Means.",
+"latest_ko": "하원 세입위원회 회부",
+"latest_date": "2025-12-17",
+"stage": 0,
+"sponsor": {
+"name": "Rep. Vindman, Eugene Simon [D-VA-7]",
+"first": "Eugene",
+"last": "Vindman",
+"party": "D",
+"state": "VA",
+"id": "V000138"
+},
+"cosponsors": {
+"n": 2,
+"R": 2
+},
+"policy_area": "Taxation",
+"topics": [
+"핵심광물"
+],
+"china": false,
+"summary": "",
+"summary_ko": "",
+"updated": "2026-02-24T05:23:23Z"
+},
+{
+"id": "119-hr6659",
+"type": "HR",
+"number": "6659",
+"label": "H.R. 6659",
+"chamber": "하원",
+"title": "Critical Minerals Trade Security Act",
+"full": "",
+"official": "To establish within the Office of the United States Trade Representative a Chief Critical Minerals Negotiator.",
+"official_ko": "미국 무역대표부 내에 주요 광물 협상가를 임명합니다.",
+"url": "https://www.congress.gov/bill/119th-congress/house-bill/6659",
+"introduced": "2025-12-11",
+"latest": "Referred to the House Committee on Ways and Means.",
+"latest_ko": "하원 세입위원회 회부",
+"latest_date": "2025-12-11",
+"stage": 0,
+"sponsor": {
+"name": "Rep. Moore, Tim [R-NC-14]",
+"first": "Tim",
+"last": "Moore",
+"party": "R",
+"state": "NC",
+"id": "M001236"
+},
+"cosponsors": {
+"n": 5,
+"R": 5
+},
+"policy_area": "Foreign Trade and International Finance",
+"topics": [
+"핵심광물"
+],
+"china": false,
+"summary": "",
+"summary_ko": "",
+"updated": "2026-01-17T09:05:52Z"
+},
+{
+"id": "119-hr6129",
+"type": "HR",
+"number": "6129",
+"label": "H.R. 6129",
+"chamber": "하원",
+"title": "Bidirectional Electric Vehicle Charging Act of 2025",
+"full": "",
+"official": "To require the Secretary of Energy to develop a National Electric Vehicle Bidirectional Charging Roadmap.",
+"official_ko": "에너지부 장관에게 국가 전기 자동차 양방향 충전 로드맵을 개발하도록 요구합니다.",
+"url": "https://www.congress.gov/bill/119th-congress/house-bill/6129",
+"introduced": "2025-11-19",
+"latest": "Referred to the Subcommittee on Economic Development, Public Buildings, and Emergency Management.",
+"latest_ko": "경제개발·공공건물·재난관리 소위원회 회부",
+"latest_date": "2025-11-20",
+"stage": 0,
+"sponsor": {
+"name": "Rep. Brownley, Julia [D-CA-26]",
+"first": "Julia",
+"last": "Brownley",
+"party": "D",
+"state": "CA",
+"id": "B001285"
+},
+"cosponsors": {
+"n": 0
+},
+"policy_area": "Energy",
+"topics": [
+"충전 인프라",
+"전기차 일반"
+],
+"china": false,
+"summary": "",
+"summary_ko": "",
+"updated": "2026-01-07T09:05:45Z"
+},
+{
+"id": "119-s2550",
+"type": "S",
+"number": "2550",
+"label": "S. 2550",
+"chamber": "상원",
+"title": "Critical Minerals Partnership Act of 2025",
+"full": "",
+"official": "A bill to provide for international cooperation to secure critical mineral supply chains.",
+"official_ko": "중요한 광물 공급망을 확보하기 위해 국제 협력을 제공하는 법안입니다.",
+"url": "https://www.congress.gov/bill/119th-congress/senate-bill/2550",
+"introduced": "2025-07-30",
+"latest": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 239.",
+"latest_ko": "상원 본회의 일정 등록",
+"latest_date": "2025-10-30",
+"stage": 1,
+"sponsor": {
+"name": "Sen. Shaheen, Jeanne [D-NH]",
+"first": "Jeanne",
+"last": "Shaheen",
+"party": "D",
+"state": "NH",
+"id": "S001181"
+},
+"cosponsors": {
+"n": 1,
+"R": 1
+},
+"policy_area": "International Affairs",
+"topics": [
+"핵심광물"
+],
+"china": false,
+"summary": "",
+"summary_ko": "",
+"updated": "2026-02-05T19:35:18Z"
+},
+{
+"id": "119-hr5686",
+"type": "HR",
+"number": "5686",
+"label": "H.R. 5686",
+"chamber": "하원",
+"title": "Battery Fire Prevention Act",
+"full": "",
+"official": "To amend the Internal Revenue Code of 1986 to allow a credit against tax for expenses relating to the purchase of battery detectors.",
+"official_ko": "배터리 감지기 구입과 관련된 비용에 대해 세금 공제를 허용하도록 1986년 내국세입법을 개정합니다.",
+"url": "https://www.congress.gov/bill/119th-congress/house-bill/5686",
+"introduced": "2025-10-03",
+"latest": "Referred to the Committee on Ways and Means, and in addition to the Committees on Energy and Commerce, and Oversight and Government Reform, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+"latest_ko": "하원 세입위원회 등 회부",
+"latest_date": "2025-10-03",
+"stage": 0,
+"sponsor": {
+"name": "Rep. Norcross, Donald [D-NJ-1]",
+"first": "Donald",
+"last": "Norcross",
+"party": "D",
+"state": "NJ",
+"id": "N000188"
+},
+"cosponsors": {
+"n": 0
+},
+"policy_area": "Taxation",
+"topics": [
+"배터리·제조"
+],
+"china": false,
+"summary": "",
+"summary_ko": "",
+"updated": "2025-11-21T16:31:34Z"
+},
+{
+"id": "119-hr5410",
+"type": "HR",
+"number": "5410",
+"label": "H.R. 5410",
+"chamber": "하원",
+"title": "Critical Mineral Brine Extraction Research and Development Act",
+"full": "",
+"official": "To direct the Secretary of Energy to support research and development on extraction of critical minerals from brine to reduce the dependence of the United States on the importation of such minerals, illustrating that innovative technology for domestic extraction could be a more cost efficient and environmentally friendly alternative than traditional extraction methods.",
+"official_ko": "미국의 이러한 광물 수입 의존도를 줄이기 위해 소금물에서 중요한 광물을 추출하는 연구 개발을 에너지부 장관에게 지시하여 국내 추출을 위한 혁신적인 기술이 전통적인 추출 방법보다 더 비용 효율적이고 환경 친화적인 대안이 될 수 있음을 보여줍니다.",
+"url": "https://www.congress.gov/bill/119th-congress/house-bill/5410",
+"introduced": "2025-09-16",
+"latest": "Referred to the House Committee on Science, Space, and Technology.",
+"latest_ko": "하원 과학·우주·기술위원회 회부",
+"latest_date": "2025-09-16",
+"stage": 0,
+"sponsor": {
+"name": "Rep. Schweikert, David [R-AZ-1]",
+"first": "David",
+"last": "Schweikert",
+"party": "R",
+"state": "AZ",
+"id": "S001183"
+},
+"cosponsors": {
+"n": 0
+},
+"policy_area": "Energy",
+"topics": [
+"핵심광물"
+],
+"china": false,
+"summary": "",
+"summary_ko": "",
+"updated": "2025-09-29T13:05:33Z"
+},
+{
+"id": "119-hr4018",
+"type": "HR",
+"number": "4018",
+"label": "H.R. 4018",
+"chamber": "하원",
+"title": "To unleash America's offshore critical minerals and resources.",
+"full": "",
+"official": "",
+"official_ko": "미국의 해외 중요 광물과 자원을 활용합니다.",
+"url": "https://www.congress.gov/bill/119th-congress/house-bill/4018",
+"introduced": "2025-06-17",
+"latest": "Subcommittee Hearings Held",
+"latest_ko": "청문회 개최",
+"latest_date": "2025-09-03",
+"stage": 0,
+"sponsor": {
+"name": "Rep. Ezell, Mike [R-MS-4]",
+"first": "Mike",
+"last": "Ezell",
+"party": "R",
+"state": "MS",
+"id": "E000235"
+},
+"cosponsors": {
+"n": 13,
+"R": 13
+},
+"policy_area": "Energy",
+"topics": [
+"핵심광물"
+],
+"china": false,
+"summary": "",
+"summary_ko": "",
+"updated": "2025-09-09T18:22:28Z"
+},
+{
+"id": "119-s389",
+"type": "S",
+"number": "389",
+"label": "S. 389",
+"chamber": "상원",
+"title": "Setting Consumer Standards for Lithium-Ion Batteries Act",
+"full": "",
+"official": "A bill to establish consumer standards for lithium-ion batteries.",
+"official_ko": "리튬이온 배터리 소비자 기준 제정 법안.",
+"url": "https://www.congress.gov/bill/119th-congress/senate-bill/389",
+"introduced": "2025-02-04",
+"latest": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 133.",
+"latest_ko": "상원 본회의 일정 등록",
+"latest_date": "2025-07-29",
+"stage": 1,
+"sponsor": {
+"name": "Sen. Gillibrand, Kirsten E. [D-NY]",
+"first": "Kirsten",
+"last": "Gillibrand",
+"party": "D",
+"state": "NY",
+"id": "G000555"
+},
+"cosponsors": {
+"n": 5,
+"R": 3,
+"D": 2
+},
+"policy_area": "Commerce",
+"topics": [
+"배터리·제조",
+"핵심광물"
+],
+"china": false,
+"summary": "This bill requires the Consumer Product Safety Commission to issue a final consumer product safety rule for rechargeable lithium-ion batteries used in micromobility devices, such as electric bikes and electric scooters. Specifically, the rule must require manufacturers and distributors of such products to comply with the applicable safety standards jointly established by the American National Standards Institute, the Standards Council of Canada, and UL Solutions Inc.",
+"summary_ko": "이 법안은 소비자 제품 안전 위원회가 전기 자전거 및 전기 스쿠터와 같은 마이크로모빌리티 장치에 사용되는 충전식 리튬 이온 배터리에 대한 최종 소비자 제품 안전 규칙을 발행하도록 요구합니다. 특히, 이 규칙은 해당 제품의 제조업체 및 유통업체가 미국 표준 협회(American National Standards Institute), 캐나다 표준 위원회(Standards Council of Canada) 및 UL Solutions Inc.가 공동으로 제정한 해당 안전 표준을 준수하도록 요구해야 합니다.",
+"updated": "2026-09-08T18:03:40Z"
+},
+{
+"id": "119-hr4772",
+"type": "HR",
+"number": "4772",
+"label": "H.R. 4772",
+"chamber": "하원",
+"title": "Critical Minerals Investment Tax Modernization Act of 2025",
+"full": "",
+"official": "To amend the Internal Revenue Code of 1986 to adjust the percentage depletion rate for certain rare earths.",
+"official_ko": "특정 희토류의 고갈 비율을 조정하기 위해 1986년 내국세입법을 개정합니다.",
+"url": "https://www.congress.gov/bill/119th-congress/house-bill/4772",
+"introduced": "2025-07-25",
+"latest": "Referred to the House Committee on Ways and Means.",
+"latest_ko": "하원 세입위원회 회부",
+"latest_date": "2025-07-25",
+"stage": 0,
+"sponsor": {
+"name": "Rep. Smith, Adrian [R-NE-3]",
+"first": "Adrian",
+"last": "Smith",
+"party": "R",
+"state": "NE",
+"id": "S001172"
+},
+"cosponsors": {
+"n": 3,
+"D": 2,
+"R": 1
+},
+"policy_area": "Taxation",
+"topics": [
+"핵심광물"
+],
+"china": false,
+"summary": "",
+"summary_ko": "",
+"updated": "2026-03-24T01:04:45Z"
+},
+{
+"id": "119-hr4361",
+"type": "HR",
+"number": "4361",
+"label": "H.R. 4361",
+"chamber": "하원",
+"title": "STOP China Act",
+"full": "Safeguarding Transit Operations to Prohibit China Act",
+"official": "To address national security risks and prohibit the use of Federal funds for the procurement of certain vehicles and vehicle technologies produced or provided by entities based in certain countries.",
+"official_ko": "국가 안보 위험을 해결하고 특정 국가에 기반을 둔 기관이 생산하거나 제공하는 특정 차량 및 차량 기술 조달에 연방 자금을 사용하는 것을 금지합니다.",
+"url": "https://www.congress.gov/bill/119th-congress/house-bill/4361",
+"introduced": "2025-07-14",
+"latest": "Referred to the Subcommittee on Highways and Transit.",
+"latest_ko": "고속도로·대중교통 소위원회 회부",
+"latest_date": "2025-07-15",
+"stage": 0,
+"sponsor": {
+"name": "Rep. Crawford, Eric A. \"Rick\" [R-AR-1]",
+"first": "Eric",
+"last": "Crawford",
+"party": "R",
+"state": "AR",
+"id": "C001087"
+},
+"cosponsors": {
+"n": 3,
+"D": 1,
+"R": 2
+},
+"policy_area": "Transportation and Public Works",
+"topics": [
+"충전 인프라"
+],
+"china": true,
+"summary": "This bill prohibits federal transportation funds from being used to purchase rolling stock (e.g., rail cars or buses) or fueling or charging infrastructure from entities with ties to China, North Korea, Russia, or Iran (i.e., a covered nation). In general, this replaces a current prohibition on the use of Federal Transportation Administration (FTA) funds for rolling stock from manufacturers owned or controlled by corporations based in certain countries.",
+"summary_ko": "이 법안은 연방 교통 기금이 철도 차량(예: 철도 차량 또는 버스)을 구매하거나 중국, 북한, 러시아 또는 이란(예: 해당 국가)과 관련된 기관의 인프라에 연료를 공급하거나 충전하는 데 사용되는 것을 금지합니다. 일반적으로 이는 특정 국가에 기반을 둔 기업이 소유하거나 통제하는 제조업체의 철도 차량에 대한 연방 교통청(FTA) 자금의 사용에 대한 현재 금지를 대체합니다.",
+"updated": "2026-09-19T23:37:14Z"
+},
+{
+"id": "119-hr1",
+"type": "HR",
+"number": "1",
+"label": "H.R. 1",
+"chamber": "하원",
+"title": "One Big Beautiful Bill Act",
+"full": "",
+"official": "To provide for reconciliation pursuant to title II of H. Con. Res. 14.",
+"official_ko": "'하나의 크고 아름다운 법(OBBBA)': 감세·지출을 조정한 예산조정법. 전기차 세액공제(30D·25E·45W)를 2025년 9월 말로 앞당겨 끝내고, 첨단제조 생산 세액공제(45X) 등 청정에너지 세액공제에 우려 외국 기업(FEOC) 제한을 둠",
+"url": "https://www.congress.gov/bill/119th-congress/house-bill/1",
+"introduced": "2025-05-20",
+"latest": "Became Public Law No: 119-21.",
+"latest_ko": "법률로 제정 (Public Law 119-21)",
+"latest_date": "2025-07-04",
+"stage": 4,
+"sponsor": {
+"name": "Rep. Arrington, Jodey C. [R-TX-19]",
+"first": "Jodey",
+"last": "Arrington",
+"party": "R",
+"state": "TX",
+"id": "A000375"
+},
+"cosponsors": {
+"n": 0
+},
+"policy_area": "Economics and Public Finance",
+"topics": [
+"전기차 세액공제",
+"핵심광물",
+"배출·연비 규제",
+"전기차 일반"
+],
+"china": false,
+"summary": "This bill reduces taxes, reduces or increases spending for various federal programs, increases the statutory debt limit, and otherwise addresses agencies and programs throughout the federal government. It is known as a reconciliation bill and includes legislation submitted by several congressional committees pursuant to provisions in the FY2025 congressional budget resolution (H Con. Res. 14) that directed the committees to submit legislation to the House or Senate Budget Committee that will increase or decrease the deficit and increase the statutory debt limit by specified amounts.",
+"summary_ko": "이 법안은 세금을 줄이고, 다양한 연방 프로그램에 대한 지출을 줄이거나 늘리며, 법정 부채 한도를 늘리고, 기타 연방 정부 전체의 기관 및 프로그램에 대한 문제를 다루고 있습니다. 이는 화해 법안으로 알려져 있으며, 적자를 늘리거나 줄이고 법정 부채 한도를 특정 금액만큼 늘리는 법안을 하원 또는 상원 예산 위원회에 제출하도록 위원회에 지시한 FY2025 의회 예산 결의안(H Con. Res. 14)의 조항에 따라 여러 의회 위원회가 제출한 법안을 포함합니다.",
+"updated": "2026-09-19T23:26:15Z",
+"law": "Public Law 119-21"
+},
+{
+"id": "119-s1463",
+"type": "S",
+"number": "1463",
+"label": "S. 1463",
+"chamber": "상원",
+"title": "Finding ORE Act",
+"full": "Finding Opportunities for Resource Exploration Act",
+"official": "A bill to allow the Secretary of the Interior to enter into memoranda of understanding for the purpose of scientific and technical cooperation in the mapping of critical minerals and rare earth elements.",
+"official_ko": "중요한 광물과 희토류 원소의 지도 작성에 있어 과학 및 기술 협력을 목적으로 내무부 장관이 양해각서(MOU)를 체결할 수 있도록 허용하는 법안입니다.",
+"url": "https://www.congress.gov/bill/119th-congress/senate-bill/1463",
+"introduced": "2025-04-10",
+"latest": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 93.",
+"latest_ko": "상원 본회의 일정 등록",
+"latest_date": "2025-06-18",
+"stage": 1,
+"sponsor": {
+"name": "Sen. Coons, Christopher A. [D-DE]",
+"first": "Christopher",
+"last": "Coons",
+"party": "D",
+"state": "DE",
+"id": "C001088"
+},
+"cosponsors": {
+"n": 4,
+"R": 3,
+"D": 1
+},
+"policy_area": "Energy",
+"topics": [
+"핵심광물"
+],
+"china": false,
+"summary": "This bill allows the U.S. Geological Survey (USGS) to enter into a memorandum of understanding (MOU) to partner with a foreign country in mapping the country's reserves of critical minerals and rare earth elements. A critical mineral is any mineral, element, substance, or material designated as critical by USGS because it is essential to U.S. economic and national security, has a vulnerable supply chain, and serves an essential function in manufacturing a product. Rare earth elements have catalytic, magnetic, electrical, and luminescent properties vital for civilian and defense purposes.",
+"summary_ko": "이 법안은 미국 ​​지질조사국(USGS)이 외국과 협력하여 국가의 중요 광물 및 희토류 매장량을 매핑하는 양해각서(MOU)를 체결할 수 있도록 허용합니다. 필수 광물은 미국 경제 및 국가 안보에 필수적이고, 취약한 공급망을 갖고, 제품 제조에 필수적인 기능을 수행하기 때문에 USGS가 중요하다고 지정한 모든 광물, 요소, 물질 또는 재료입니다. 희토류 원소는 민간 및 국방 목적에 필수적인 촉매, 자기, 전기 및 발광 특성을 가지고 있습니다.",
+"updated": "2026-09-15T15:18:12Z"
+},
+{
+"id": "119-hr3972",
+"type": "HR",
+"number": "3972",
+"label": "H.R. 3972",
+"chamber": "하원",
+"title": "Highway Funding Flexibility Act of 2025",
+"full": "",
+"official": "To authorize funding for electric vehicle charging infrastructure programs to be used for other highway projects.",
+"official_ko": "다른 고속도로 프로젝트에 사용될 전기 자동차 충전 인프라 프로그램에 대한 자금을 승인합니다.",
+"url": "https://www.congress.gov/bill/119th-congress/house-bill/3972",
+"introduced": "2025-06-12",
+"latest": "Referred to the Subcommittee on Highways and Transit.",
+"latest_ko": "고속도로·대중교통 소위원회 회부",
+"latest_date": "2025-06-13",
+"stage": 0,
+"sponsor": {
+"name": "Rep. Johnson, Dusty [R-SD-At Large]",
+"first": "Dusty",
+"last": "Johnson",
+"party": "R",
+"state": "SD",
+"id": "J000301"
+},
+"cosponsors": {
+"n": 2,
+"R": 2
+},
+"policy_area": "Transportation and Public Works",
+"topics": [
+"충전 인프라",
+"전기차 일반"
+],
+"china": false,
+"summary": "This bill effectively eliminates the National Electric Vehicle Infrastructure (NEVI) Formula Program and the Charging and Fueling Infrastructure (CFI) Discretionary Grant Program. Specifically, this bill requires states to use unobligated funds under these Department of Transportation (DOT) programs only for certain non-electric vehicle related projects.",
+"summary_ko": "이 법안은 NEVI(국가 전기 자동차 인프라) 공식 프로그램과 CFI(충전 및 연료 공급 인프라) 재량 보조금 프로그램을 효과적으로 제거합니다. 특히, 이 법안은 주정부가 특정 비전기 자동차 관련 프로젝트에 대해서만 교통부(DOT) 프로그램에 따른 비의무 자금을 사용하도록 요구합니다.",
+"updated": "2026-06-16T13:18:25Z"
+},
+{
+"id": "119-hjres88",
+"type": "HJRES",
+"number": "88",
+"label": "H.J.Res. 88",
+"chamber": "하원",
+"title": "Providing congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Environmental Protection Agency relating to \"California State Motor Vehicle and Engine Pollution Control Standards; Advanced Clean Cars II; Waiver of Preemption; Notice of Decision\".",
+"full": "",
+"official": "",
+"official_ko": "의회 거부 결의(CRA): 환경보호청(EPA) 규칙 「캘리포니아 주 자동차 및 엔진 오염 통제 표준; 고급 청정 자동차 II; 우선권 포기; 결정 통지」 무효화",
+"url": "https://www.congress.gov/bill/119th-congress/house-joint-resolution/88",
+"introduced": "2025-04-02",
+"latest": "Became Public Law No: 119-16.",
+"latest_ko": "법률로 제정 (Public Law 119-16)",
+"latest_date": "2025-06-12",
+"stage": 4,
+"sponsor": {
+"name": "Rep. Joyce, John [R-PA-13]",
+"first": "John",
+"last": "Joyce",
+"party": "R",
+"state": "PA",
+"id": "J000302"
+},
+"cosponsors": {
+"n": 41,
+"R": 41
+},
+"policy_area": "Environmental Protection",
+"topics": [
+"배출·연비 규제"
+],
+"china": false,
+"summary": "This joint resolution revokes the waiver granted to the California Air Resources Board regarding its Advanced Clean Cars II (ACC II) regulations, which include new requirements for low-emission vehicles and zero-emission vehicles. (Under the Clean Air Act, California may seek waivers of the preemption prohibiting states from enacting certain emission standards.) Specifically, the joint resolution nullifies the Environmental Protection Agency notice titled California State Motor Vehicle and Engine Pollution Control Standards; Advanced Clean Cars II; Waiver of Preemption; Notice of Decision .",
+"summary_ko": "이 공동 결의안은 저공해 차량 및 무공해 차량에 대한 새로운 요구 사항을 포함하는 ACC II(Advanced Clean Cars II) 규정과 관련하여 캘리포니아 대기 자원 위원회에 부여된 면제를 취소합니다. (공기 청정법에 따라 캘리포니아는 주정부가 특정 배출 기준을 제정하는 것을 금지하는 선제권의 포기를 구할 수 있습니다.) 특히 공동 결의안은 캘리포니아 주 자동차 및 엔진 오염 통제 표준이라는 제목의 환경 보호국 통지를 무효화합니다. 고급 청정 자동차 II; 우선권 포기; 결정 통지 .",
+"updated": "2026-07-17T16:35:15Z",
+"law": "Public Law 119-16"
+},
+{
+"id": "119-hjres87",
+"type": "HJRES",
+"number": "87",
+"label": "H.J.Res. 87",
+"chamber": "하원",
+"title": "Providing congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Environmental Protection Agency relating to \"California State Motor Vehicle and Engine Pollution Control Standards; Heavy-Duty Vehicle and Engine Emission Warranty and Maintenance Provisions; Advanced Clean Trucks; Zero Emission Airport Shuttle; Zero-Emission Power Train Certification; Waiver of Preemption; Notice of Decision\".",
+"full": "",
+"official": "",
+"official_ko": "의회 거부 결의(CRA): 환경보호청(EPA) 규칙 「캘리포니아 주 자동차 및 엔진 오염 통제 표준; 대형 차량 및 엔진 배기가스 보증 및 유지 관리 조항; 고급 클린 트럭; 배출가스 제로 공항 셔틀; 무배출 동력전달장치 인증; 선점 포기; 결정 통지」 무효화",
+"url": "https://www.congress.gov/bill/119th-congress/house-joint-resolution/87",
+"introduced": "2025-04-02",
+"latest": "Became Public Law No: 119-15.",
+"latest_ko": "법률로 제정 (Public Law 119-15)",
+"latest_date": "2025-06-12",
+"stage": 4,
+"sponsor": {
+"name": "Rep. James, John [R-MI-10]",
+"first": "John",
+"last": "James",
+"party": "R",
+"state": "MI",
+"id": "J000307"
+},
+"cosponsors": {
+"n": 24,
+"R": 24
+},
+"policy_area": "Environmental Protection",
+"topics": [
+"배출·연비 규제"
+],
+"china": false,
+"summary": "This joint resolution revokes waivers granted to the California Air Resources Board regarding several of its regulations, including the Heavy-Duty Vehicle and Engine Emission Warranty Regulations and Maintenance Provisions.",
+"summary_ko": "이 공동 결의안은 대형 차량 및 엔진 배기가스 보증 규정 및 유지 관리 조항을 포함한 여러 규정과 관련하여 캘리포니아 대기 자원 위원회에 부여된 면제를 취소합니다.",
+"updated": "2026-08-11T17:13:45Z",
+"law": "Public Law 119-15"
+},
+{
+"id": "119-s1979",
+"type": "S",
+"number": "1979",
+"label": "S. 1979",
+"chamber": "상원",
+"title": "Rare Earth Magnet Security Act of 2025",
+"full": "",
+"official": "A bill to amend the Internal Revenue Code of 1986 to establish a credit for the domestic production of high-performance rare earth magnets.",
+"official_ko": "고성능 희토류 자석의 국내 생산에 대한 신용을 확립하기 위해 1986년 내국세입법을 개정하는 법안.",
+"url": "https://www.congress.gov/bill/119th-congress/senate-bill/1979",
+"introduced": "2025-06-05",
+"latest": "Read twice and referred to the Committee on Finance.",
+"latest_ko": "상원 재무위원회 회부",
+"latest_date": "2025-06-05",
+"stage": 0,
+"sponsor": {
+"name": "Sen. Cortez Masto, Catherine [D-NV]",
+"first": "Catherine",
+"last": "Cortez Masto",
+"party": "D",
+"state": "NV",
+"id": "C001113"
+},
+"cosponsors": {
+"n": 2,
+"R": 2
+},
+"policy_area": "Taxation",
+"topics": [
+"핵심광물"
+],
+"china": false,
+"summary": "",
+"summary_ko": "",
+"updated": "2026-01-10T07:14:34Z"
+},
+{
+"id": "119-hr3729",
+"type": "HR",
+"number": "3729",
+"label": "H.R. 3729",
+"chamber": "하원",
+"title": "Battery and Regenerative Braking Act",
+"full": "",
+"official": "To amend title 49, United States Code, to provide eligibility for projects to develop and implement regenerative braking and energy storage technologies under the consolidated rail infrastructure and safety improvements program.",
+"official_ko": "통합 철도 인프라 및 안전 개선 프로그램에 따라 회생 제동 및 에너지 저장 기술을 개발하고 구현하는 프로젝트에 적격성을 제공하기 위해 미국 코드 타이틀 49를 개정합니다.",
+"url": "https://www.congress.gov/bill/119th-congress/house-bill/3729",
+"introduced": "2025-06-04",
+"latest": "Referred to the Subcommittee on Railroads, Pipelines, and Hazardous Materials.",
+"latest_ko": "철도·파이프라인·위험물 소위원회 회부",
+"latest_date": "2025-06-05",
+"stage": 0,
+"sponsor": {
+"name": "Rep. Mullin, Kevin [D-CA-15]",
+"first": "Kevin",
+"last": "Mullin",
+"party": "D",
+"state": "CA",
+"id": "M001225"
+},
+"cosponsors": {
+"n": 0
+},
+"policy_area": "Transportation and Public Works",
+"topics": [
+"배터리·제조"
+],
+"china": false,
+"summary": "",
+"summary_ko": "",
+"updated": "2025-07-15T08:05:36Z"
+},
+{
+"id": "119-s1711",
+"type": "S",
+"number": "1711",
+"label": "S. 1711",
+"chamber": "상원",
+"title": "STOP China Act",
+"full": "Safeguarding Transit Operations to Prohibit China Act",
+"official": "A bill to address national security risks and prohibit the use of Federal funds for the procurement of certain vehicles and vehicle technologies produced or provided by entities based in certain countries.",
+"official_ko": "국가 안보 위험을 해결하고 특정 국가에 기반을 둔 기관이 생산하거나 제공하는 특정 차량 및 차량 기술 조달에 연방 자금을 사용하는 것을 금지하는 법안입니다.",
+"url": "https://www.congress.gov/bill/119th-congress/senate-bill/1711",
+"introduced": "2025-05-12",
+"latest": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.",
+"latest_ko": "상원 은행·주택·도시위원회 회부",
+"latest_date": "2025-05-12",
+"stage": 0,
+"sponsor": {
+"name": "Sen. Cornyn, John [R-TX]",
+"first": "John",
+"last": "Cornyn",
+"party": "R",
+"state": "TX",
+"id": "C001056"
+},
+"cosponsors": {
+"n": 10,
+"D": 4,
+"R": 6
+},
+"policy_area": "Transportation and Public Works",
+"topics": [
+"충전 인프라"
+],
+"china": true,
+"summary": "This bill prohibits federal transportation funds from being used to purchase rolling stock (e.g., rail cars or buses) or fueling or charging infrastructure from entities with ties to China, North Korea, Russia, or Iran (i.e., a covered nation). In general, this replaces a current prohibition on the use of Federal Transportation Administration (FTA) funds for rolling stock from manufacturers owned or controlled by corporations based in certain countries.",
+"summary_ko": "이 법안은 연방 교통 기금이 철도 차량(예: 철도 차량 또는 버스)을 구매하거나 중국, 북한, 러시아 또는 이란(예: 해당 국가)과 관련된 기관의 인프라에 연료를 공급하거나 충전하는 데 사용되는 것을 금지합니다. 일반적으로 이는 특정 국가에 기반을 둔 기업이 소유하거나 통제하는 제조업체의 철도 차량에 대한 연방 교통청(FTA) 자금의 사용에 대한 현재 금지를 대체합니다.",
+"updated": "2026-05-28T20:20:26Z"
+},
+{
+"id": "119-hr3200",
+"type": "HR",
+"number": "3200",
+"label": "H.R. 3200",
+"chamber": "하원",
+"title": "Critical Minerals and Manufacturing Support Act",
+"full": "",
+"official": "To amend the Internal Revenue Code of 1986 to modify the advanced manufacturing credit with respect to the production of battery components.",
+"official_ko": "배터리 부품 생산과 관련된 첨단 제조 공제를 수정하기 위해 1986년 내국세입법을 개정합니다.",
+"url": "https://www.congress.gov/bill/119th-congress/house-bill/3200",
+"introduced": "2025-05-05",
+"latest": "Referred to the House Committee on Ways and Means.",
+"latest_ko": "하원 세입위원회 회부",
+"latest_date": "2025-05-05",
+"stage": 0,
+"sponsor": {
+"name": "Rep. Ruiz, Raul [D-CA-25]",
+"first": "Raul",
+"last": "Ruiz",
+"party": "D",
+"state": "CA",
+"id": "R000599"
+},
+"cosponsors": {
+"n": 2,
+"R": 1,
+"D": 1
+},
+"policy_area": "Taxation",
+"topics": [
+"핵심광물"
+],
+"china": false,
+"summary": "",
+"summary_ko": "",
+"updated": "2026-06-11T05:06:22Z"
+},
+{
+"id": "119-hr3198",
+"type": "HR",
+"number": "3198",
+"label": "H.R. 3198",
+"chamber": "하원",
+"title": "Intergovernmental Critical Minerals Task Force Act",
+"full": "",
+"official": "To create intergovernmental coordination between State, local, Tribal, and territorial jurisdictions, and the Federal Government to combat United States reliance on the People's Republic of China and other covered countries for critical minerals and rare Earth metals.",
+"official_ko": "주요 광물과 희토류 금속에 대해 미국이 중화인민공화국과 기타 해당 국가에 의존하는 것을 방지하기 위해 주, 지방, 부족, 영토 관할권과 연방 정부 간의 정부 간 조정을 구축합니다.",
+"url": "https://www.congress.gov/bill/119th-congress/house-bill/3198",
+"introduced": "2025-05-05",
+"latest": "Referred to the House Committee on Natural Resources.",
+"latest_ko": "하원 천연자원위원회 회부",
+"latest_date": "2025-05-05",
+"stage": 0,
+"sponsor": {
+"name": "Rep. Obernolte, Jay [R-CA-23]",
+"first": "Jay",
+"last": "Obernolte",
+"party": "R",
+"state": "CA",
+"id": "O000019"
+},
+"cosponsors": {
+"n": 3,
+"D": 3
+},
+"policy_area": "Government Operations and Politics",
+"topics": [
+"핵심광물"
+],
+"china": false,
+"summary": "",
+"summary_ko": "",
+"updated": "2025-12-12T09:07:08Z"
+},
+{
+"id": "119-hr3097",
+"type": "HR",
+"number": "3097",
+"label": "H.R. 3097",
+"chamber": "하원",
+"title": "Green Federal Fleet Act",
+"full": "",
+"official": "To prohibit Federal agencies from purchasing or leasing new vehicles that are not zero-emission vehicles.",
+"official_ko": "연방 기관이 배출가스 제로 차량이 아닌 새 차량을 구매하거나 임대하는 것을 금지합니다.",
+"url": "https://www.congress.gov/bill/119th-congress/house-bill/3097",
+"introduced": "2025-04-30",
+"latest": "Referred to the House Committee on Oversight and Government Reform.",
+"latest_ko": "하원 감독·정부개혁위원회 회부",
+"latest_date": "2025-04-30",
+"stage": 0,
+"sponsor": {
+"name": "Rep. Brownley, Julia [D-CA-26]",
+"first": "Julia",
+"last": "Brownley",
+"party": "D",
+"state": "CA",
+"id": "B001285"
+},
+"cosponsors": {
+"n": 0
+},
+"policy_area": "Government Operations and Politics",
+"topics": [
+"배출·연비 규제"
+],
+"china": false,
+"summary": "This bill requires passenger vehicles that are purchased or leased from a nonfederal entity by a federal agency to be zero-emission vehicles. This requirement does not apply to tactical vehicles or in circumstances where a zero-emission vehicle is not technically feasible.",
+"summary_ko": "이 법안은 연방 기관이 비연방 기관으로부터 구매하거나 임대하는 승용차가 배출가스 제로 차량이 되도록 요구합니다. 이 요구 사항은 전술 차량이나 무공해 차량이 기술적으로 실현 가능하지 않은 상황에는 적용되지 않습니다.",
+"updated": "2025-07-03T19:46:58Z"
+},
+{
+"id": "119-hr973",
+"type": "HR",
+"number": "973",
+"label": "H.R. 973",
+"chamber": "하원",
+"title": "Setting Consumer Standards for Lithium-Ion Batteries Act",
+"full": "",
+"official": "To establish consumer standards for lithium-ion batteries.",
+"official_ko": "리튬이온 배터리에 대한 소비자 표준을 확립합니다.",
+"url": "https://www.congress.gov/bill/119th-congress/house-bill/973",
+"introduced": "2025-02-04",
+"latest": "Received in the Senate.",
+"latest_ko": "하원 통과 → 상원 접수",
+"latest_date": "2025-04-29",
+"stage": 2,
+"sponsor": {
+"name": "Rep. Torres, Ritchie [D-NY-15]",
+"first": "Ritchie",
+"last": "Torres",
+"party": "D",
+"state": "NY",
+"id": "T000486"
+},
+"cosponsors": {
+"n": 23,
+"R": 6,
+"D": 17
+},
+"policy_area": "Commerce",
+"topics": [
+"배터리·제조",
+"핵심광물"
+],
+"china": false,
+"summary": "This bill requires the Consumer Product Safety Commission to issue a final consumer product safety rule for rechargeable lithium-ion batteries used in micromobility devices, such as electric bikes and electric scooters. Specifically, the rule must require manufacturers and distributors of such products to comply with the applicable safety standards jointly established by the American National Standards Institute, the Standards Council of Canada, and UL Solutions Inc.",
+"summary_ko": "이 법안은 소비자 제품 안전 위원회가 전기 자전거 및 전기 스쿠터와 같은 마이크로모빌리티 장치에 사용되는 충전식 리튬 이온 배터리에 대한 최종 소비자 제품 안전 규칙을 발행하도록 요구합니다. 특히, 이 규칙은 해당 제품의 제조업체 및 유통업체가 미국 표준 협회(American National Standards Institute), 캐나다 표준 위원회(Standards Council of Canada) 및 UL Solutions Inc.가 공동으로 제정한 해당 안전 표준을 준수하도록 요구해야 합니다.",
+"updated": "2026-07-11T22:08:20Z"
+},
+{
+"id": "119-hr3059",
+"type": "HR",
+"number": "3059",
+"label": "H.R. 3059",
+"chamber": "하원",
+"title": "Streamlining Critical Mineral Permitting Act",
+"full": "",
+"official": "To amend the Solid Waste Disposal Act to provide the owner or operator of a critical energy resource facility an interim permit under subtitle C that is subject to final approval by the Administrator of the Environmental Protection Agency.",
+"official_ko": "중요 에너지 자원 시설의 소유자 또는 운영자에게 환경 보호국 관리자의 최종 승인을 받아야 하는 부제 C에 따른 임시 허가를 제공하도록 고형 폐기물 처리법을 개정합니다.",
+"url": "https://www.congress.gov/bill/119th-congress/house-bill/3059",
+"introduced": "2025-04-29",
+"latest": "Referred to the House Committee on Energy and Commerce.",
+"latest_ko": "하원 에너지·상업위원회 회부",
+"latest_date": "2025-04-29",
+"stage": 0,
+"sponsor": {
+"name": "Rep. Carter, Earl L. \"Buddy\" [R-GA-1]",
+"first": "Earl",
+"last": "Carter",
+"party": "R",
+"state": "GA",
+"id": "C001103"
+},
+"cosponsors": {
+"n": 9,
+"R": 9
+},
+"policy_area": "Energy",
+"topics": [
+"핵심광물"
+],
+"china": false,
+"summary": "",
+"summary_ko": "",
+"updated": "2026-09-19T23:22:59Z"
+},
+{
+"id": "119-hr2814",
+"type": "HR",
+"number": "2814",
+"label": "H.R. 2814",
+"chamber": "하원",
+"title": "Transportation Freedom Act",
+"full": "",
+"official": "To amend the Internal Revenue Code of 1986 to establish an enhanced deduction for wages paid to automobile manufacturing workers.",
+"official_ko": "1986년 내국세법(Internal Revenue Code)을 개정하여 자동차 제조 근로자에게 지급되는 임금에 대한 공제를 강화합니다.",
+"url": "https://www.congress.gov/bill/119th-congress/house-bill/2814",
+"introduced": "2025-04-10",
+"latest": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+"latest_ko": "하원 에너지·상업위원회 등 회부",
+"latest_date": "2025-04-10",
+"stage": 0,
+"sponsor": {
+"name": "Rep. Balderson, Troy [R-OH-12]",
+"first": "Troy",
+"last": "Balderson",
+"party": "R",
+"state": "OH",
+"id": "B001306"
+},
+"cosponsors": {
+"n": 16,
+"R": 15,
+"D": 1
+},
+"policy_area": "Environmental Protection",
+"topics": [
+"배출·연비 규제",
+"전기차 일반"
+],
+"china": false,
+"summary": "This bill reduces taxes on auto companies and repeals specified environmental regulations on cars and trucks. The bill establishes a new tax deduction equal to 200% of eligible wages paid or incurred by domestic producers of automobiles or automobile components, subject to limitations. It also allows an entity to reduce (and adjust) its financial statement income (for purposes of calculating liability for the alternative minimum tax) by the amount of eligible wages it elects to deduct.",
+"summary_ko": "이 법안은 자동차 회사에 대한 세금을 줄이고 자동차와 트럭에 대한 특정 환경 규제를 폐지합니다. 이 법안은 제한에 따라 국내 자동차 또는 자동차 부품 생산자가 지불하거나 발생한 적격 임금의 200%에 해당하는 새로운 세금 공제를 설정합니다. 또한 이는 기업이 공제하기로 선택한 적격 임금만큼 재무제표 소득(대체 최저세에 대한 책임을 계산하기 위한 목적)을 줄이거 나 조정할 수 있습니다.",
+"updated": "2026-02-24T23:51:15Z"
+},
+{
+"id": "119-sjres46",
+"type": "SJRES",
+"number": "46",
+"label": "S.J.Res. 46",
+"chamber": "상원",
+"title": "A joint resolution providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Environmental Protection Agency relating to \"California State Motor Vehicle and Engine Pollution Control Standards; Heavy-Duty Vehicle and Engine Emission Warranty and Maintenance Provisions; Advanced Clean Trucks; Zero Emission Airport Shuttle; Zero-Emission Power Train Certification; Waiver of Preemption; Notice of Decision\".",
+"full": "",
+"official": "",
+"official_ko": "의회 거부 결의(CRA): 환경보호청(EPA) 규칙 「캘리포니아 주 자동차 및 엔진 오염 통제 표준; 대형 차량 및 엔진 배기가스 보증 및 유지 관리 조항; 고급 클린 트럭; 배출가스 제로 공항 셔틀; 무배출 동력전달장치 인증; 선점 포기; 결정 통지」 무효화",
+"url": "https://www.congress.gov/bill/119th-congress/senate-joint-resolution/46",
+"introduced": "2025-04-04",
+"latest": "Read twice and referred to the Committee on Environment and Public Works.",
+"latest_ko": "상원 환경·공공사업위원회 회부",
+"latest_date": "2025-04-04",
+"stage": 0,
+"sponsor": {
+"name": "Sen. Fischer, Deb [R-NE]",
+"first": "Deb",
+"last": "Fischer",
+"party": "R",
+"state": "NE",
+"id": "F000463"
+},
+"cosponsors": {
+"n": 21,
+"R": 21
+},
+"policy_area": "Environmental Protection",
+"topics": [
+"배출·연비 규제"
+],
+"china": false,
+"summary": "This joint resolution nullifies the Environmental Protection Agency notice titled California State Motor Vehicle and Engine Pollution Control Standards; Heavy-Duty Vehicle and Engine Emission Warranty and Maintenance Provisions; Advanced Clean Trucks; Zero Emission Airport Shuttle; Zero-Emission Power Train Certification; Waiver of Preemption; Notice of Decision (88 Fed. Reg. 20688) and published on April 6, 2023.",
+"summary_ko": "이 공동 결의안은 캘리포니아 주 자동차 및 엔진 오염 통제 표준이라는 제목의 환경 보호국 통지를 무효화합니다. 대형 차량 및 엔진 배기가스 보증 및 유지 관리 조항; 고급 클린 트럭; 배출가스 제로 공항 셔틀; 무배출 동력전달장치 인증; 선점 포기; 결정 통지(88 Fed. Reg. 20688) 및 2023년 4월 6일에 게시됨.",
+"updated": "2026-09-08T18:12:22Z"
+},
+{
+"id": "119-sjres45",
+"type": "SJRES",
+"number": "45",
+"label": "S.J.Res. 45",
+"chamber": "상원",
+"title": "A joint resolution providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Environmental Protection Agency relating to \"California State Motor Vehicle and Engine Pollution Control Standards; Advanced Clean Cars II; Waiver of Preemption; Notice of Decision\".",
+"full": "",
+"official": "",
+"official_ko": "의회 거부 결의(CRA): 환경보호청(EPA) 규칙 「캘리포니아 주 자동차 및 엔진 오염 통제 표준; 고급 청정 자동차 II; 선점 포기; 결정 통지」 무효화",
+"url": "https://www.congress.gov/bill/119th-congress/senate-joint-resolution/45",
+"introduced": "2025-04-04",
+"latest": "Read twice and referred to the Committee on Environment and Public Works.",
+"latest_ko": "상원 환경·공공사업위원회 회부",
+"latest_date": "2025-04-04",
+"stage": 0,
+"sponsor": {
+"name": "Sen. Capito, Shelley Moore [R-WV]",
+"first": "Shelley",
+"last": "Capito",
+"party": "R",
+"state": "WV",
+"id": "C001047"
+},
+"cosponsors": {
+"n": 31,
+"R": 31
+},
+"policy_area": "Environmental Protection",
+"topics": [
+"배출·연비 규제"
+],
+"china": false,
+"summary": "This joint resolution nullifies the Environmental Protection Agency notice titled California State Motor Vehicle and Engine Pollution Control Standards; Advanced Clean Cars II; Waiver of Preemption; Notice of Decision (90 Fed. Reg. 642) and published on January 6, 2025. Among other elements, the notice grants the California Air Resources Board request for a waiver for its Advanced Clean Cars II (ACC II) regulations. (Under the Clean Air Act, California may seek waivers of the preemption prohibiting states from enacting certain emission standards.)",
+"summary_ko": "이 공동 결의안은 캘리포니아 주 자동차 및 엔진 오염 통제 표준이라는 제목의 환경 보호국 통지를 무효화합니다. 고급 청정 자동차 II; 선점 포기; 결정 통지(90 Fed. Reg. 642) 및 2025년 1월 6일에 게시되었습니다. 무엇보다도 이 통지는 California Air Resources Board의 ACC II(Advanced Clean Cars II) 규정에 대한 면제 요청을 승인합니다. (Clean Air Act에 따라 캘리포니아 주는 주정부가 특정 배출 기준을 제정하는 것을 금지하는 선점 면제를 구할 수 있습니다.)",
+"updated": "2026-09-08T18:12:22Z"
+},
+{
+"id": "119-s1229",
+"type": "S",
+"number": "1229",
+"label": "S. 1229",
+"chamber": "상원",
+"title": "End Taxpayer Subsidies for Electric Vehicles Act",
+"full": "",
+"official": "A bill to amend the Internal Revenue Code of 1986 to repeal the clean vehicle credit.",
+"official_ko": "청정 차량 공제를 폐지하기 위해 1986년 내국세입법을 개정하는 법안.",
+"url": "https://www.congress.gov/bill/119th-congress/senate-bill/1229",
+"introduced": "2025-04-01",
+"latest": "Read twice and referred to the Committee on Finance.",
+"latest_ko": "상원 재무위원회 회부",
+"latest_date": "2025-04-01",
+"stage": 0,
+"sponsor": {
+"name": "Sen. Paul, Rand [R-KY]",
+"first": "Rand",
+"last": "Paul",
+"party": "R",
+"state": "KY",
+"id": "P000603"
+},
+"cosponsors": {
+"n": 0
+},
+"policy_area": "Taxation",
+"topics": [
+"전기차 일반"
+],
+"china": false,
+"summary": "",
+"summary_ko": "",
+"updated": "2025-12-05T21:52:42Z"
+},
+{
+"id": "119-hr2566",
+"type": "HR",
+"number": "2566",
+"label": "H.R. 2566",
+"chamber": "하원",
+"title": "End Taxpayer Subsidies for Electric Vehicles Act",
+"full": "",
+"official": "To amend the Internal Revenue Code of 1986 to repeal the clean vehicle credit.",
+"official_ko": "청정 차량 공제를 폐지하기 위해 1986년 내국세입법을 개정합니다.",
+"url": "https://www.congress.gov/bill/119th-congress/house-bill/2566",
+"introduced": "2025-04-01",
+"latest": "Referred to the House Committee on Ways and Means.",
+"latest_ko": "하원 세입위원회 회부",
+"latest_date": "2025-04-01",
+"stage": 0,
+"sponsor": {
+"name": "Rep. McClintock, Tom [R-CA-5]",
+"first": "Tom",
+"last": "McClintock",
+"party": "R",
+"state": "CA",
+"id": "M001177"
+},
+"cosponsors": {
+"n": 2,
+"R": 2
+},
+"policy_area": "Taxation",
+"topics": [
+"전기차 일반"
+],
+"china": false,
+"summary": "",
+"summary_ko": "",
+"updated": "2025-12-05T21:51:09Z"
+},
+{
+"id": "119-hr2310",
+"type": "HR",
+"number": "2310",
+"label": "H.R. 2310",
+"chamber": "하원",
+"title": "COBALT Supply Chain Act",
+"full": "China’s Odious and Brutally Atrocious Labor Trafficking Supply Chain Act",
+"official": "To ensure that goods made using or containing cobalt refined in the People's Republic of China do not enter the United States market under the presumption that the cobalt is extracted or processed with the use of child and forced labor in the Democratic Republic of the Congo.",
+"official_ko": "콩고민주공화국에서 코발트가 아동 노동 및 강제 노동을 통해 추출되거나 가공된다는 가정 하에 중국에서 정제된 코발트를 사용하거나 함유한 제품이 미국 시장에 유입되지 않도록 보장합니다.",
+"url": "https://www.congress.gov/bill/119th-congress/house-bill/2310",
+"introduced": "2025-03-24",
+"latest": "Referred to the Committee on Ways and Means, and in addition to the Committees on Foreign Affairs, and Oversight and Government Reform, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+"latest_ko": "하원 세입위원회 등 회부",
+"latest_date": "2025-03-24",
+"stage": 0,
+"sponsor": {
+"name": "Rep. Smith, Christopher H. [R-NJ-4]",
+"first": "Christopher",
+"last": "Smith",
+"party": "R",
+"state": "NJ",
+"id": "S000522"
+},
+"cosponsors": {
+"n": 1,
+"R": 1
+},
+"policy_area": "Foreign Trade and International Finance",
+"topics": [
+"핵심광물"
+],
+"china": true,
+"summary": "This bill prohibits the importation of covered goods that contain cobalt refined in China under the presumption that the goods are made wholly or in part with forced labor or child labor. It also establishes certain reporting requirements, and requires presidential certification that federal vehicle purchases are free of parts made or mined with child labor or forced labor in the Democratic Republic of the Congo (DRC) or the Xinjiang Uyghur Autonomous Region (XUAR). Specifically, covered goods shall not be entitled to entry into the United States unless U.S.",
+"summary_ko": "이 법안은 제품의 전부 또는 일부가 강제 노동이나 아동 노동으로 만들어졌다는 가정 하에 중국에서 정제된 코발트가 포함된 해당 제품의 수입을 금지합니다. 또한 특정 보고 요건을 설정하고, 연방 차량 구매 시 콩고민주공화국(DRC) 또는 신장 위구르 자치구(XUAR)에서 아동 노동 또는 강제 노동으로 제작되거나 채굴된 부품이 없다는 대통령 인증을 요구합니다. 특히, 해당 상품은 미국이 아닌 이상 미국으로 반입할 자격이 없습니다.",
+"updated": "2026-08-04T13:59:15Z"
+},
+{
+"id": "119-hr2144",
+"type": "HR",
+"number": "2144",
+"label": "H.R. 2144",
+"chamber": "하원",
+"title": "No Fuel Credits for Batteries Act of 2025",
+"full": "",
+"official": "To clarify that eRINs are not authorized for purposes of satisfying the volume of renewable fuel that needs to be contained in transportation fuel for purposes of the Renewable Fuel Program.",
+"official_ko": "재생 연료 프로그램의 목적을 위해 운송 연료에 포함되어야 하는 재생 연료의 양을 충족시키기 위한 목적으로 eRIN이 승인되지 않았음을 명확히 합니다.",
+"url": "https://www.congress.gov/bill/119th-congress/house-bill/2144",
+"introduced": "2025-03-14",
+"latest": "Referred to the House Committee on Energy and Commerce.",
+"latest_ko": "하원 에너지·상업위원회 회부",
+"latest_date": "2025-03-14",
+"stage": 0,
+"sponsor": {
+"name": "Rep. Miller-Meeks, Mariannette [R-IA-1]",
+"first": "Mariannette",
+"last": "Miller-Meeks",
+"party": "R",
+"state": "IA",
+"id": "M001215"
+},
+"cosponsors": {
+"n": 1,
+"R": 1
+},
+"policy_area": "Energy",
+"topics": [
+"배터리·제조"
+],
+"china": false,
+"summary": "",
+"summary_ko": "",
+"updated": "2025-04-03T11:42:54Z"
+},
+{
+"id": "119-s1066",
+"type": "S",
+"number": "1066",
+"label": "S. 1066",
+"chamber": "상원",
+"title": "Highway Funding Flexibility Act of 2025",
+"full": "",
+"official": "A bill to authorize funding for electric vehicle charging infrastructure programs to be used for other highway projects.",
+"official_ko": "다른 고속도로 프로젝트에 사용될 전기 자동차 충전 인프라 프로그램에 대한 자금 지원을 승인하는 법안.",
+"url": "https://www.congress.gov/bill/119th-congress/senate-bill/1066",
+"introduced": "2025-03-13",
+"latest": "Read twice and referred to the Committee on Environment and Public Works.",
+"latest_ko": "상원 환경·공공사업위원회 회부",
+"latest_date": "2025-03-13",
+"stage": 0,
+"sponsor": {
+"name": "Sen. Lummis, Cynthia M. [R-WY]",
+"first": "Cynthia",
+"last": "Lummis",
+"party": "R",
+"state": "WY",
+"id": "L000571"
+},
+"cosponsors": {
+"n": 0
+},
+"policy_area": "Transportation and Public Works",
+"topics": [
+"충전 인프라",
+"전기차 일반"
+],
+"china": false,
+"summary": "This bill effectively eliminates the National Electric Vehicle Infrastructure (NEVI) Formula Program and the Charging and Fueling Infrastructure (CFI) Discretionary Grant Program. Specifically, this bill requires states to use unobligated funds under these Department of Transportation (DOT) programs only for certain non-electric vehicle related projects.",
+"summary_ko": "이 법안은 NEVI(국가 전기 자동차 인프라) 공식 프로그램과 CFI(충전 및 연료 공급 인프라) 재량 보조금 프로그램을 효과적으로 제거합니다. 특히, 이 법안은 주정부가 특정 비전기 자동차 관련 프로젝트에 대해서만 교통부(DOT) 프로그램에 따른 비의무 자금을 사용하도록 요구합니다.",
+"updated": "2026-09-08T18:12:22Z"
+},
+{
+"id": "119-hr1166",
+"type": "HR",
+"number": "1166",
+"label": "H.R. 1166",
+"chamber": "하원",
+"title": "Decoupling from Foreign Adversarial Battery Dependence Act",
+"full": "",
+"official": "To prohibit the Secretary of Homeland Security from procuring certain foreign-made batteries.",
+"official_ko": "국토안보부 장관이 특정 외국산 배터리를 조달하는 것을 금지합니다.",
+"url": "https://www.congress.gov/bill/119th-congress/house-bill/1166",
+"introduced": "2025-02-10",
+"latest": "Received in the Senate and Read twice and referred to the Committee on Homeland Security and Governmental Affairs.",
+"latest_ko": "하원 통과 → 상원 국토안보·정부운영위원회 회부",
+"latest_date": "2025-03-11",
+"stage": 2,
+"sponsor": {
+"name": "Rep. Gimenez, Carlos A. [R-FL-28]",
+"first": "Carlos",
+"last": "Gimenez",
+"party": "R",
+"state": "FL",
+"id": "G000593"
+},
+"cosponsors": {
+"n": 4,
+"R": 4
+},
+"policy_area": "Foreign Trade and International Finance",
+"topics": [
+"배터리·제조"
+],
+"china": true,
+"summary": "This bill prohibits the Department of Homeland Security (DHS) from using appropriated funds to procure a battery produced by certain entities, particularly six specific companies owned and operated in China. This prohibition begins on October 1, 2027. The bill allows DHS to waive the prohibition if DHS assesses in the affirmative that (1) the batteries to be procured do not pose a risk to U.S.",
+"summary_ko": "이 법안은 국토안보부(DHS)가 특정 기관, 특히 중국에서 소유하고 운영하는 6개 특정 기업이 생산한 배터리를 조달하기 위해 전용 자금을 사용하는 것을 금지합니다. 이 금지 사항은 2027년 10월 1일부터 시작됩니다. 이 법안은 DHS가 (1) 조달할 배터리가 미국에 위험을 초래하지 않는다고 긍정적으로 평가하는 경우 DHS가 금지 사항을 면제하도록 허용합니다.",
+"updated": "2026-07-10T16:53:23Z"
+},
+{
+"id": "119-hr1892",
+"type": "HR",
+"number": "1892",
+"label": "H.R. 1892",
+"chamber": "하원",
+"title": "Wireless Electric Vehicle Charging Grant Program Act of 2025",
+"full": "",
+"official": "To direct the Secretary of Transportation to establish a Wireless Electric Vehicle Charging Grant Program.",
+"official_ko": "교통부 장관에게 무선 전기 자동차 충전 보조금 프로그램을 수립하도록 지시합니다.",
+"url": "https://www.congress.gov/bill/119th-congress/house-bill/1892",
+"introduced": "2025-03-05",
+"latest": "Referred to the Subcommittee on Highways and Transit.",
+"latest_ko": "고속도로·대중교통 소위원회 회부",
+"latest_date": "2025-03-05",
+"stage": 0,
+"sponsor": {
+"name": "Rep. Stevens, Haley M. [D-MI-11]",
+"first": "Haley",
+"last": "Stevens",
+"party": "D",
+"state": "MI",
+"id": "S001215"
+},
+"cosponsors": {
+"n": 4,
+"D": 4
+},
+"policy_area": "Energy",
+"topics": [
+"충전 인프라",
+"전기차 일반"
+],
+"china": false,
+"summary": "",
+"summary_ko": "",
+"updated": "2026-02-25T09:06:37Z"
+},
+{
+"id": "119-s823",
+"type": "S",
+"number": "823",
+"label": "S. 823",
+"chamber": "상원",
+"title": "Intergovernmental Critical Minerals Task Force Act",
+"full": "",
+"official": "A bill to create intergovernmental coordination between State, local, Tribal, and territorial jurisdictions, and the Federal Government to combat United States reliance on the People's Republic of China and other covered countries for critical minerals and rare earth metals.",
+"official_ko": "중요한 광물과 희토류 금속에 대해 미국이 중화인민공화국과 기타 해당 국가에 의존하는 것을 막기 위해 주, 지방, 부족, 영토 관할권과 연방 정부 간의 정부 간 조정을 구축하는 법안입니다.",
+"url": "https://www.congress.gov/bill/119th-congress/senate-bill/823",
+"introduced": "2025-03-03",
+"latest": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs.",
+"latest_ko": "상원 국토안보·정부운영위원회 회부",
+"latest_date": "2025-03-03",
+"stage": 0,
+"sponsor": {
+"name": "Sen. Peters, Gary C. [D-MI]",
+"first": "Gary",
+"last": "Peters",
+"party": "D",
+"state": "MI",
+"id": "P000595"
+},
+"cosponsors": {
+"n": 3,
+"R": 3
+},
+"policy_area": "Government Operations and Politics",
+"topics": [
+"핵심광물"
+],
+"china": false,
+"summary": "",
+"summary_ko": "",
+"updated": "2026-05-20T11:03:28Z"
+},
+{
+"id": "119-hr1622",
+"type": "HR",
+"number": "1622",
+"label": "H.R. 1622",
+"chamber": "하원",
+"title": "Uranium for Energy Independence Act of 2025",
+"full": "",
+"official": "To provide for the inclusion of uranium on the list of critical minerals.",
+"official_ko": "중요 광물 목록에 우라늄을 포함시키는 것을 규정합니다.",
+"url": "https://www.congress.gov/bill/119th-congress/house-bill/1622",
+"introduced": "2025-02-26",
+"latest": "Referred to the House Committee on Natural Resources.",
+"latest_ko": "하원 천연자원위원회 회부",
+"latest_date": "2025-02-26",
+"stage": 0,
+"sponsor": {
+"name": "Rep. McGuire, John [R-VA-5]",
+"first": "John",
+"last": "McGuire",
+"party": "R",
+"state": "VA",
+"id": "M001239"
+},
+"cosponsors": {
+"n": 7,
+"R": 7
+},
+"policy_area": "Energy",
+"topics": [
+"핵심광물"
+],
+"china": false,
+"summary": "This bill includes uranium on the critical minerals list. In 2018, the U.S. Geological Survey (USGS) published a list of critical minerals, including uranium, in response to an executive order that called for a federal strategy to ensure secure and reliable supplies of critical minerals. The USGS updates the list every three years and includes certain minerals that are essential to economic or national security and have a supply chain vulnerable to disruption. In 2022, USGS removed uranium from the list.",
+"summary_ko": "이 법안에는 중요 광물 목록에 우라늄이 포함되어 있습니다. 2018년 미국 지질조사국(USGS)은 중요 광물의 안전하고 안정적인 공급을 보장하기 위한 연방 전략을 요구하는 행정 명령에 따라 우라늄을 포함한 중요 광물 목록을 발표했습니다. USGS는 3년마다 목록을 업데이트하며 경제 또는 국가 안보에 필수적이며 공급망이 중단되기 쉬운 특정 광물을 포함합니다. USGS는 2022년에 우라늄을 목록에서 삭제했습니다.",
+"updated": "2026-01-16T16:05:30Z"
+},
+{
+"id": "119-s711",
+"type": "S",
+"number": "711",
+"label": "S. 711",
+"chamber": "상원",
+"title": "Transportation Freedom Act",
+"full": "",
+"official": "A bill to amend the Internal Revenue Code of 1986 to establish an enhanced deduction for wages paid to automobile manufacturing workers.",
+"official_ko": "자동차 제조 근로자에게 지급되는 임금에 대한 공제를 강화하기 위해 1986년 내국세입법을 개정하는 법안.",
+"url": "https://www.congress.gov/bill/119th-congress/senate-bill/711",
+"introduced": "2025-02-25",
+"latest": "Read twice and referred to the Committee on Finance.",
+"latest_ko": "상원 재무위원회 회부",
+"latest_date": "2025-02-25",
+"stage": 0,
+"sponsor": {
+"name": "Sen. Moreno, Bernie [R-OH]",
+"first": "Bernie",
+"last": "Moreno",
+"party": "R",
+"state": "OH",
+"id": "M001242"
+},
+"cosponsors": {
+"n": 3,
+"R": 3
+},
+"policy_area": "Environmental Protection",
+"topics": [
+"배출·연비 규제",
+"전기차 일반"
+],
+"china": false,
+"summary": "This bill reduces taxes on auto companies and repeals specified environmental regulations on cars and trucks. The bill establishes a new tax deduction equal to 200% of eligible wages paid or incurred by domestic producers of automobiles or automobile components, subject to limitations. It also allows an entity to reduce (and adjust) its financial statement income (for purposes of calculating liability for the alternative minimum tax) by the amount of eligible wages it elects to deduct.",
+"summary_ko": "이 법안은 자동차 회사에 대한 세금을 줄이고 자동차와 트럭에 대한 특정 환경 규제를 폐지합니다. 이 법안은 제한에 따라 국내 자동차 또는 자동차 부품 생산자가 지불하거나 발생한 적격 임금의 200%에 해당하는 새로운 세금 공제를 설정합니다. 또한 이는 기업이 공제하기로 선택한 적격 임금만큼 재무제표 소득(대체 최저세에 대한 책임을 계산하기 위한 목적)을 줄이거 나 조정할 수 있습니다.",
+"updated": "2026-01-07T18:32:58Z"
+},
+{
+"id": "119-hr1513",
+"type": "HR",
+"number": "1513",
+"label": "H.R. 1513",
+"chamber": "하원",
+"title": "Unplug the Electric Vehicle Charging Stations Program Act",
+"full": "",
+"official": "To repeal programs relating to funding for electric vehicle charging infrastructure.",
+"official_ko": "전기 자동차 충전 인프라에 대한 자금 조달과 관련된 프로그램을 폐지합니다.",
+"url": "https://www.congress.gov/bill/119th-congress/house-bill/1513",
+"introduced": "2025-02-21",
+"latest": "Referred to the Subcommittee on Highways and Transit.",
+"latest_ko": "고속도로·대중교통 소위원회 회부",
+"latest_date": "2025-02-21",
+"stage": 0,
+"sponsor": {
+"name": "Rep. Wied, Tony [R-WI-8]",
+"first": "Tony",
+"last": "Wied",
+"party": "R",
+"state": "WI",
+"id": "W000829"
+},
+"cosponsors": {
+"n": 10,
+"R": 10
+},
+"policy_area": "Energy",
+"topics": [
+"충전 인프라",
+"전기차 일반"
+],
+"china": false,
+"summary": "This bill repeals grant programs that provide funding for electric vehicle charging infrastructure and alternative fueling infrastructure. Specifically, the bill repeals the Charging and Fueling Infrastructure Grant Program under which the Department of Transportation provides grants for acquiring and installing publicly accessible electric vehicle charging infrastructure, hydrogen fueling infrastructure, propane fueling infrastructure, or natural gas fueling infrastructure that is directly related to the charging or fueling of a vehicle.",
+"summary_ko": "이 법안은 전기 자동차 충전 인프라와 대체 연료 공급 인프라에 자금을 제공하는 보조금 프로그램을 폐지합니다. 특히, 이 법안은 차량 충전이나 연료 공급과 직접적으로 관련된 공개적으로 접근 가능한 전기 자동차 충전 인프라, 수소 연료 공급 인프라, 프로판 연료 공급 인프라 또는 천연가스 연료 공급 인프라를 획득하고 설치하기 위해 교통부가 보조금을 제공하는 충전 및 연료 공급 인프라 보조금 프로그램을 폐지합니다.",
+"updated": "2026-03-19T10:49:16Z"
+},
+{
+"id": "119-hr1496",
+"type": "HR",
+"number": "1496",
+"label": "H.R. 1496",
+"chamber": "하원",
+"title": "Rare Earth Magnet Security Act of 2025",
+"full": "",
+"official": "To amend the Internal Revenue Code of 1986 to establish a credit for the domestic production of high-performance rare earth magnets.",
+"official_ko": "고성능 희토류 자석의 국내 생산에 대한 신용을 확립하기 위해 1986년 내국세입법을 개정합니다.",
+"url": "https://www.congress.gov/bill/119th-congress/house-bill/1496",
+"introduced": "2025-02-21",
+"latest": "Referred to the House Committee on Ways and Means.",
+"latest_ko": "하원 세입위원회 회부",
+"latest_date": "2025-02-21",
+"stage": 0,
+"sponsor": {
+"name": "Rep. Reschenthaler, Guy [R-PA-14]",
+"first": "Guy",
+"last": "Reschenthaler",
+"party": "R",
+"state": "PA",
+"id": "R000610"
+},
+"cosponsors": {
+"n": 29,
+"D": 18,
+"R": 11
+},
+"policy_area": "Taxation",
+"topics": [
+"핵심광물"
+],
+"china": false,
+"summary": "",
+"summary_ko": "",
+"updated": "2026-09-19T23:19:21Z"
+},
+{
+"id": "119-s651",
+"type": "S",
+"number": "651",
+"label": "S. 651",
+"chamber": "상원",
+"title": "Unplug the Electric Vehicle Charging Stations Programs Act",
+"full": "",
+"official": "A bill to repeal programs relating to funding for electric vehicle charging infrastructure.",
+"official_ko": "전기 자동차 충전 인프라에 대한 자금 지원과 관련된 프로그램을 폐지하는 법안.",
+"url": "https://www.congress.gov/bill/119th-congress/senate-bill/651",
+"introduced": "2025-02-20",
+"latest": "Read twice and referred to the Committee on Environment and Public Works.",
+"latest_ko": "상원 환경·공공사업위원회 회부",
+"latest_date": "2025-02-20",
+"stage": 0,
+"sponsor": {
+"name": "Sen. Ernst, Joni [R-IA]",
+"first": "Joni",
+"last": "Ernst",
+"party": "R",
+"state": "IA",
+"id": "E000295"
+},
+"cosponsors": {
+"n": 2,
+"R": 2
+},
+"policy_area": "Energy",
+"topics": [
+"충전 인프라",
+"전기차 일반"
+],
+"china": false,
+"summary": "This bill repeals grant programs that provide funding for electric vehicle charging infrastructure and alternative fueling infrastructure. Specifically, the bill repeals the Charging and Fueling Infrastructure Grant Program under which the Department of Transportation provides grants for acquiring and installing publicly accessible electric vehicle charging infrastructure, hydrogen fueling infrastructure, propane fueling infrastructure, or natural gas fueling infrastructure that is directly related to the charging or fueling of a vehicle.",
+"summary_ko": "이 법안은 전기 자동차 충전 인프라와 대체 연료 공급 인프라에 자금을 제공하는 보조금 프로그램을 폐지합니다. 특히, 이 법안은 차량 충전이나 연료 공급과 직접적으로 관련된 공개적으로 접근 가능한 전기 자동차 충전 인프라, 수소 연료 공급 인프라, 프로판 연료 공급 인프라 또는 천연가스 연료 공급 인프라를 획득하고 설치하기 위해 교통부가 보조금을 제공하는 충전 및 연료 공급 인프라 보조금 프로그램을 폐지합니다.",
+"updated": "2026-09-08T18:12:22Z"
+},
+{
+"id": "119-hr1367",
+"type": "HR",
+"number": "1367",
+"label": "H.R. 1367",
+"chamber": "하원",
+"title": "ELITE Vehicles Act",
+"full": "Eliminate Lavish Incentives To Electric Vehicles Act",
+"official": "To amend the Internal Revenue Code of 1986 to repeal the credit for new clean vehicles.",
+"official_ko": "새로운 청정 차량에 대한 공제를 폐지하기 위해 1986년 내국세입법을 개정합니다.",
+"url": "https://www.congress.gov/bill/119th-congress/house-bill/1367",
+"introduced": "2025-02-14",
+"latest": "Referred to the House Committee on Ways and Means.",
+"latest_ko": "하원 세입위원회 회부",
+"latest_date": "2025-02-14",
+"stage": 0,
+"sponsor": {
+"name": "Rep. Arrington, Jodey C. [R-TX-19]",
+"first": "Jodey",
+"last": "Arrington",
+"party": "R",
+"state": "TX",
+"id": "A000375"
+},
+"cosponsors": {
+"n": 13,
+"R": 13
+},
+"policy_area": "Taxation",
+"topics": [
+"전기차 세액공제",
+"충전 인프라",
+"전기차 일반"
+],
+"china": false,
+"summary": "This bill eliminates federal tax credits for the purchase of certain clean vehicles (generally electric vehicles and plug-in hybrid vehicles) and electric vehicle recharging stations. Specifically, the bill repeals the federal tax credits for the purchase of a qualified used clean vehicle (tax credit of up to $4,000 for the purchase of a previously-owned clean vehicle before 2033), the purchase of a qualified new clean vehicle (tax credit of up to $7,500 for the purchase of a new clean vehicle before 2033), the purchase of a qualified commercial clean vehicle (business tax credit of up to $40,…",
+"summary_ko": "이 법안은 특정 청정 차량(일반적으로 전기 자동차 및 플러그인 하이브리드 차량) 및 전기 자동차 충전소 구매에 대한 연방 세금 공제를 제거합니다. 구체적으로, 이 법안은 적격 중고 청정 차량 구입(2033년 이전에 소유한 청정 차량 구입 시 최대 $4,000의 세금 공제), 적격 새 청정 차량 구입(2033년 이전 새 청정 차량 구입 시 최대 $7,500 세금 공제), 적격 상업용 청정 차량 구입(최대 $40의 사업세 공제,…",
+"updated": "2025-12-05T21:54:36Z"
+},
+{
+"id": "119-s541",
+"type": "S",
+"number": "541",
+"label": "S. 541",
+"chamber": "상원",
+"title": "ELITE Vehicles Act",
+"full": "Eliminate Lavish Incentives To Electric Vehicles Act",
+"official": "A bill to amend the Internal Revenue Code of 1986 to repeal the credit for new clean vehicles.",
+"official_ko": "새로운 청정 차량에 대한 공제를 폐지하기 위해 1986년 내국세입법을 개정하는 법안.",
+"url": "https://www.congress.gov/bill/119th-congress/senate-bill/541",
+"introduced": "2025-02-12",
+"latest": "Read twice and referred to the Committee on Finance.",
+"latest_ko": "상원 재무위원회 회부",
+"latest_date": "2025-02-12",
+"stage": 0,
+"sponsor": {
+"name": "Sen. Barrasso, John [R-WY]",
+"first": "John",
+"last": "Barrasso",
+"party": "R",
+"state": "WY",
+"id": "B001261"
+},
+"cosponsors": {
+"n": 14,
+"R": 14
+},
+"policy_area": "Taxation",
+"topics": [
+"전기차 세액공제",
+"충전 인프라",
+"전기차 일반"
+],
+"china": false,
+"summary": "This bill eliminates federal tax credits for the purchase of certain clean vehicles (generally electric vehicles and plug-in hybrid vehicles) and electric vehicle recharging stations. Specifically, the bill repeals the federal tax credits for the purchase of a qualified used clean vehicle (tax credit of up to $4,000 for the purchase of a previously-owned clean vehicle before 2033), the purchase of a qualified new clean vehicle (tax credit of up to $7,500 for the purchase of a new clean vehicle before 2033), the purchase of a qualified commercial clean vehicle (business tax credit of up to $40,…",
+"summary_ko": "이 법안은 특정 청정 차량(일반적으로 전기 자동차 및 플러그인 하이브리드 차량) 및 전기 자동차 충전소 구매에 대한 연방 세금 공제를 제거합니다. 구체적으로, 이 법안은 적격 중고 청정 차량 구입(2033년 이전에 소유한 청정 차량 구입 시 최대 $4,000의 세금 공제), 적격 새 청정 차량 구입(2033년 이전 새 청정 차량 구입 시 최대 $7,500 세금 공제), 적격 상업용 청정 차량 구입(최대 $40의 사업세 공제,…",
+"updated": "2025-12-05T21:54:45Z"
+},
+{
+"id": "119-s536",
+"type": "S",
+"number": "536",
+"label": "S. 536",
+"chamber": "상원",
+"title": "Fair SHARE Act of 2025",
+"full": "Fair Sharing of Highways and Roads for Electric Vehicles Act of 2025",
+"official": "A bill to amend the Internal Revenue Code of 1986 to establish a tax on the sale of electric vehicles and batteries.",
+"official_ko": "전기 자동차 및 배터리 판매에 대한 세금을 부과하기 위해 1986년 내국세입법을 개정하는 법안.",
+"url": "https://www.congress.gov/bill/119th-congress/senate-bill/536",
+"introduced": "2025-02-12",
+"latest": "Read twice and referred to the Committee on Finance.",
+"latest_ko": "상원 재무위원회 회부",
+"latest_date": "2025-02-12",
+"stage": 0,
+"sponsor": {
+"name": "Sen. Fischer, Deb [R-NE]",
+"first": "Deb",
+"last": "Fischer",
+"party": "R",
+"state": "NE",
+"id": "F000463"
+},
+"cosponsors": {
+"n": 2,
+"R": 2
+},
+"policy_area": "Taxation",
+"topics": [
+"배터리·제조",
+"전기차 일반"
+],
+"china": false,
+"summary": "This bill imposes a new excise tax in the amount of $1,000 on the sale of an electric vehicle and a new excise tax in the amount of $550 on the sale of a battery module weighing over 1,000 pounds for use in an electric vehicle. The bill also requires the Department of the Treasury to transfer amounts collected from the new excise taxes to the Highway Trust Fund.",
+"summary_ko": "이 법안은 전기 자동차 판매에 대해 1,000달러의 새로운 소비세를 부과하고, 전기 자동차에 사용되는 1,000파운드 이상의 배터리 모듈 판매에 대해 550달러의 새로운 소비세를 부과합니다. 이 법안은 또한 재무부가 새로운 소비세에서 징수한 금액을 고속도로 신탁 기금으로 이체하도록 요구합니다.",
+"updated": "2025-12-05T22:50:23Z"
+},
+{
+"id": "119-hr1264",
+"type": "HR",
+"number": "1264",
+"label": "H.R. 1264",
+"chamber": "하원",
+"title": "USA Batteries Act",
+"full": "",
+"official": "To amend the Internal Revenue Code of 1986 to eliminate lead oxide, antimony, and sulfuric acid as taxable chemicals under the Superfund excise taxes.",
+"official_ko": "1986년 내국세입법을 개정하여 Superfund 소비세에 따라 과세 대상 화학물질인 산화납, 안티몬 및 황산을 제거합니다.",
+"url": "https://www.congress.gov/bill/119th-congress/house-bill/1264",
+"introduced": "2025-02-12",
+"latest": "Referred to the House Committee on Ways and Means.",
+"latest_ko": "하원 세입위원회 회부",
+"latest_date": "2025-02-12",
+"stage": 0,
+"sponsor": {
+"name": "Rep. Meuser, Daniel [R-PA-9]",
+"first": "Daniel",
+"last": "Meuser",
+"party": "R",
+"state": "PA",
+"id": "M001204"
+},
+"cosponsors": {
+"n": 5,
+"R": 5
+},
+"policy_area": "Taxation",
+"topics": [
+"배터리·제조"
+],
+"china": false,
+"summary": "This bill eliminates the Superfund chemical excise tax imposed on lead oxide ($8.28 per ton), antimony ($8.90 per ton), and sulfuric acid ($0.52 per ton). Under current law, an excise tax is imposed through December 31, 2031, on taxable chemicals and taxable chemical substances that are (1) manufactured or produced in the United States, or (2) imported into the United States. The excise tax rate varies between $0.44 per ton to $9.74 per ton, depending on the chemical and certain other variables.",
+"summary_ko": "이 법안은 산화 납(톤당 $8.28), 안티몬(톤당 $8.90) 및 황산(톤당 $0.52)에 부과되는 Superfund 화학 소비세를 제거합니다. 현행법에 따라 소비세는 (1) 미국에서 제조 또는 생산되거나 (2) 미국으로 수입되는 과세 화학물질 및 과세 화학 물질에 대해 2031년 12월 31일까지 부과됩니다. 소비세율은 화학물질 및 기타 특정 변수에 따라 톤당 0.44달러에서 톤당 9.74달러 사이입니다.",
+"updated": "2026-06-09T15:02:58Z"
+},
+{
+"id": "119-hr1253",
+"type": "HR",
+"number": "1253",
+"label": "H.R. 1253",
+"chamber": "하원",
+"title": "Fair SHARE Act of 2025",
+"full": "Fair Sharing of Highways and Roads for Electric Vehicles Act of 2025",
+"official": "To amend the Internal Revenue Code of 1986 to establish a tax on the sale of electric vehicles and batteries.",
+"official_ko": "1986년 내국세입법을 개정하여 전기 자동차 및 배터리 판매에 대한 세금을 부과합니다.",
+"url": "https://www.congress.gov/bill/119th-congress/house-bill/1253",
+"introduced": "2025-02-12",
+"latest": "Referred to the House Committee on Ways and Means.",
+"latest_ko": "하원 세입위원회 회부",
+"latest_date": "2025-02-12",
+"stage": 0,
+"sponsor": {
+"name": "Rep. Johnson, Dusty [R-SD-At Large]",
+"first": "Dusty",
+"last": "Johnson",
+"party": "R",
+"state": "SD",
+"id": "J000301"
+},
+"cosponsors": {
+"n": 4,
+"R": 4
+},
+"policy_area": "Taxation",
+"topics": [
+"배터리·제조",
+"전기차 일반"
+],
+"china": false,
+"summary": "This bill imposes a new excise tax in the amount of $1,000 on the sale of an electric vehicle and a new excise tax in the amount of $550 on the sale of a battery module weighing over 1,000 pounds for use in an electric vehicle. The bill also requires the Department of the Treasury to transfer amounts collected from the new excise taxes to the Highway Trust Fund.",
+"summary_ko": "이 법안은 전기 자동차 판매에 대해 1,000달러의 새로운 소비세를 부과하고, 전기 자동차에 사용되는 1,000파운드 이상의 배터리 모듈 판매에 대해 550달러의 새로운 소비세를 부과합니다. 이 법안은 또한 재무부가 새로운 소비세에서 징수한 금액을 고속도로 신탁 기금으로 이체하도록 요구합니다.",
+"updated": "2025-12-05T22:50:19Z"
+},
+{
+"id": "119-s450",
+"type": "S",
+"number": "450",
+"label": "S. 450",
+"chamber": "상원",
+"title": "Decoupling from Foreign Adversarial Battery Dependence Act",
+"full": "",
+"official": "A bill to prohibit the Secretary of Homeland Security from procuring certain foreign-made batteries.",
+"official_ko": "국토안보부 장관이 특정 외국산 배터리를 조달하는 것을 금지하는 법안.",
+"url": "https://www.congress.gov/bill/119th-congress/senate-bill/450",
+"introduced": "2025-02-06",
+"latest": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs.",
+"latest_ko": "상원 국토안보·정부운영위원회 회부",
+"latest_date": "2025-02-06",
+"stage": 0,
+"sponsor": {
+"name": "Sen. Scott, Rick [R-FL]",
+"first": "Rick",
+"last": "Scott",
+"party": "R",
+"state": "FL",
+"id": "S001217"
+},
+"cosponsors": {
+"n": 1,
+"D": 1
+},
+"policy_area": "Foreign Trade and International Finance",
+"topics": [
+"배터리·제조"
+],
+"china": true,
+"summary": "This bill prohibits the Department of Homeland Security (DHS) from using appropriated funds to procure a battery produced by certain entities, particularly six specific companies owned and operated in China. This prohibition begins on October 1, 2027. The bill allows DHS to waive the prohibition if DHS assesses in the affirmative that (1) the batteries to be procured do not pose a risk to U.S.",
+"summary_ko": "이 법안은 국토안보부(DHS)가 특정 기관, 특히 중국에서 소유하고 운영하는 6개 특정 기업이 생산한 배터리를 조달하기 위해 전용 자금을 사용하는 것을 금지합니다. 이 금지 사항은 2027년 10월 1일부터 시작됩니다. 이 법안은 DHS가 (1) 조달할 배터리가 미국에 위험을 초래하지 않는다고 긍정적으로 평가하는 경우 DHS가 금지 사항을 면제하도록 허용합니다.",
+"updated": "2025-12-06T06:40:15Z"
+},
+{
+"id": "119-s448",
+"type": "S",
+"number": "448",
+"label": "S. 448",
+"chamber": "상원",
+"title": "CIRCUIT Act",
+"full": "Credit Incentives for Resilient Critical Utility Infrastructure and Transformers Act",
+"official": "A bill to amend the Internal Revenue Code of 1986 to expand the advanced manufacturing production credit to include distribution transformers.",
+"official_ko": "배전 변압기를 포함하도록 첨단 제조 생산 공제를 확대하기 위해 1986년 내국세입법을 개정하는 법안.",
+"url": "https://www.congress.gov/bill/119th-congress/senate-bill/448",
+"introduced": "2025-02-06",
+"latest": "Read twice and referred to the Committee on Finance.",
+"latest_ko": "상원 재무위원회 회부",
+"latest_date": "2025-02-06",
+"stage": 0,
+"sponsor": {
+"name": "Sen. Moran, Jerry [R-KS]",
+"first": "Jerry",
+"last": "Moran",
+"party": "R",
+"state": "KS",
+"id": "M000934"
+},
+"cosponsors": {
+"n": 1,
+"D": 1
+},
+"policy_area": "Taxation",
+"topics": [
+"배터리·제조",
+"핵심광물"
+],
+"china": false,
+"summary": "This bill expands the advanced manufacturing production tax credit to include up to 10% of the cost to produce transformers that have an input voltage of 34.5 kilovolts or less, have an output voltage of 600 volts or less, and are rated for operation at a frequency of 60 hertz (i.e., distribution transformers).",
+"summary_ko": "이 법안은 입력 전압이 34.5킬로볼트 이하, 출력 전압이 600볼트 이하, 주파수 60헤르츠(즉, 배전 변압기)에서 작동하도록 등급이 지정된 변압기 생산 비용의 최대 10%를 포함하도록 첨단 제조 생산세 공제를 확대합니다.",
+"updated": "2026-06-01T18:44:02Z"
+},
+{
+"id": "119-hr1052",
+"type": "HR",
+"number": "1052",
+"label": "H.R. 1052",
+"chamber": "하원",
+"title": "UNPLUG EVs Act",
+"full": "Undoing Nationwide Programs and Limiting Unnecessary Grants for Electric Vehicles Act",
+"official": "To rescind certain unobligated balances relating to charging and fueling grants and national electric vehicle grants.",
+"official_ko": "충전 및 연료 공급 보조금 및 국가 전기 자동차 보조금과 관련된 특정 비의무 잔액을 폐지합니다.",
+"url": "https://www.congress.gov/bill/119th-congress/house-bill/1052",
+"introduced": "2025-02-06",
+"latest": "Referred to the Subcommittee on Highways and Transit.",
+"latest_ko": "고속도로·대중교통 소위원회 회부",
+"latest_date": "2025-02-06",
+"stage": 0,
+"sponsor": {
+"name": "Rep. Burlison, Eric [R-MO-7]",
+"first": "Eric",
+"last": "Burlison",
+"party": "R",
+"state": "MO",
+"id": "B001316"
+},
+"cosponsors": {
+"n": 18,
+"R": 18
+},
+"policy_area": "Energy",
+"topics": [
+"전기차 일반"
+],
+"china": false,
+"summary": "",
+"summary_ko": "",
+"updated": "2025-03-27T08:06:23Z"
+},
+{
+"id": "119-s429",
+"type": "S",
+"number": "429",
+"label": "S. 429",
+"chamber": "상원",
+"title": "STRATEGIC Minerals Act",
+"full": "Securing Trade and Resources for Advanced Technology, Economic Growth, and International Commerce in Minerals Act",
+"official": "A bill to enhance the economic and national security of the United States by securing a reliable supply of critical minerals and rare earth elements through trade agreements and strategic partnerships.",
+"official_ko": "무역 협정과 전략적 파트너십을 통해 중요한 광물과 희토류 원소의 안정적인 공급을 확보함으로써 미국의 경제 및 국가 안보를 강화하기 위한 법안입니다.",
+"url": "https://www.congress.gov/bill/119th-congress/senate-bill/429",
+"introduced": "2025-02-05",
+"latest": "Read twice and referred to the Committee on Finance.",
+"latest_ko": "상원 재무위원회 회부",
+"latest_date": "2025-02-05",
+"stage": 0,
+"sponsor": {
+"name": "Sen. Young, Todd [R-IN]",
+"first": "Todd",
+"last": "Young",
+"party": "R",
+"state": "IN",
+"id": "Y000064"
+},
+"cosponsors": {
+"n": 3,
+"D": 2,
+"R": 1
+},
+"policy_area": "Foreign Trade and International Finance",
+"topics": [
+"핵심광물"
+],
+"china": true,
+"summary": "This bill authorizes actions to facilitate trade and increase U.S. access to critical minerals and rare earth elements (REEs). Under the bill, critical minerals are any mineral, element, substance, or material designated as critical by the U.S. Geological Survey (e.g., aluminum and cobalt). Additionally, the bill includes a group of 17 elements within the definition of REEs , including elements used in permanent magnets (e.g., dysprosium and neodymium). Specifically, the bill authorizes the President, acting through the Office of the U.S.",
+"summary_ko": "이 법안은 무역을 촉진하고 중요한 광물 및 희토류 원소(REE)에 대한 미국의 접근성을 높이기 위한 조치를 승인합니다. 법안에 따르면 중요 광물은 미국 지질조사국(U.S. Geological Survey)에서 중요하다고 지정한 모든 광물, 원소, 물질 또는 재료(예: 알루미늄 및 코발트)입니다. 또한 이 법안에는 영구 자석에 사용되는 요소(예: 디스프로슘 및 네오디뮴)를 포함하여 REE 정의에 포함된 17개 요소 그룹이 포함되어 있습니다. 구체적으로, 이 법안은 대통령이 미국 국무부를 통해 행동할 수 있는 권한을 부여합니다.",
+"updated": "2026-04-09T14:58:49Z"
+},
+{
+"id": "119-hr969",
+"type": "HR",
+"number": "969",
+"label": "H.R. 969",
+"chamber": "하원",
+"title": "Taliban Rare Earth Minerals Sanctions Act",
+"full": "",
+"official": "To impose sanctions on persons engaging in transactions in Afghanistan rare earth minerals.",
+"official_ko": "아프가니스탄 희토류 광물 거래에 참여하는 사람에게 제재를 가합니다.",
+"url": "https://www.congress.gov/bill/119th-congress/house-bill/969",
+"introduced": "2025-02-04",
+"latest": "Referred to the Committee on Foreign Affairs, and in addition to the Committee on the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+"latest_ko": "하원 외교위원회 등 회부",
+"latest_date": "2025-02-04",
+"stage": 0,
+"sponsor": {
+"name": "Rep. Steube, W. Gregory [R-FL-17]",
+"first": "W.",
+"last": "Steube",
+"party": "R",
+"state": "FL",
+"id": "S001214"
+},
+"cosponsors": {
+"n": 0
+},
+"policy_area": "International Affairs",
+"topics": [
+"핵심광물"
+],
+"china": false,
+"summary": "",
+"summary_ko": "",
+"updated": "2025-05-05T14:54:27Z"
+},
+{
+"id": "119-hr312",
+"type": "HR",
+"number": "312",
+"label": "H.R. 312",
+"chamber": "하원",
+"title": "Restoring Vehicle Market Freedom Act of 2025",
+"full": "",
+"official": "To amend the Internal Revenue Code of 1986 to repeal certain credits relating to alternative fuel vehicles.",
+"official_ko": "대체 연료 차량과 관련된 특정 공제를 폐지하기 위해 1986년 내국세입법을 개정합니다.",
+"url": "https://www.congress.gov/bill/119th-congress/house-bill/312",
+"introduced": "2025-01-09",
+"latest": "Referred to the House Committee on Ways and Means.",
+"latest_ko": "하원 세입위원회 회부",
+"latest_date": "2025-01-09",
+"stage": 0,
+"sponsor": {
+"name": "Rep. Perry, Scott [R-PA-10]",
+"first": "Scott",
+"last": "Perry",
+"party": "R",
+"state": "PA",
+"id": "P000605"
+},
+"cosponsors": {
+"n": 2,
+"R": 2
+},
+"policy_area": "Taxation",
+"topics": [
+"전기차 세액공제",
+"전기차 일반"
+],
+"china": false,
+"summary": "This bill repeals federal tax credits for the purchase of certain clean vehicles (generally electric vehicles, plug-in hybrid vehicles, and fuel cell vehicles) and certain vehicle refueling property. Specifically, the bill repeals the federal tax credits for the purchase of a qualified used clean vehicle (tax credit of up to $4,000 for the purchase of a previously-owned clean vehicle before 2033), the purchase of a qualified new clean vehicle (tax credit of up to $7,500 for the purchase of a new clean vehicle before 2033), the purchase of a qualified commercial clean vehicle (business tax cred…",
+"summary_ko": "이 법안은 특정 청정 차량(일반적으로 전기 자동차, 플러그인 하이브리드 차량, 연료 전지 차량) 및 특정 차량 급유 자산 구입에 대한 연방 세금 공제를 폐지합니다. 구체적으로, 이 법안은 적격 중고 청정 차량 구매(2033년 이전에 소유한 청정 차량 구매 시 최대 $4,000의 세금 공제), 적격 신규 청정 차량 구매(2033년 이전 신규 청정 차량 구매 시 최대 $7,500 세금 공제), 적격 상업용 청정 차량 구매(사업 세금 공제...)에 대한 연방 세금 공제를 폐지합니다.",
+"updated": "2025-03-25T13:59:23Z"
+}
+]
+}
