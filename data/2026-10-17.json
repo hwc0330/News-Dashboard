@@ -334,5 +334,61 @@
   "source": "신화통신",
   "published": "2026-10-17T01:00+09:00",
   "first_seen": "2026-10-17T04:12+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "포르쉐의 전기 마칸 터보는 자동차의 실존 위기다",
+  "original": "Porsche’s electric Macan Turbo is an automotive existential crisis",
+  "url": "https://techcrunch.com/2026/10/16/porsches-electric-macan-turbo-is-an-automotive-existential-crisis/",
+  "source": "TechCrunch",
+  "published": "2026-10-17T04:40+09:00",
+  "first_seen": "2026-10-17T04:48+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "문제: 구매자는 서구 EV를 구매하는 것보다 중국 EV를 기다리는 것을 선호한다",
+  "original": "Trouble: buyers would rather wait for Chinese EVs than buy Western ones",
+  "url": "https://electrek.co/2026/10/16/trouble-buyers-would-rather-wait-for-chinese-evs-than-buy-western-ones/",
+  "source": "Electrek",
+  "published": "2026-10-17T04:26+09:00",
+  "first_seen": "2026-10-17T04:48+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "거의 12,000명의 캘리포니아 주민이 주 리베이트 프로그램을 사용하여 EV를 구입했다",
+  "original": "Nearly 12,000 California residents bought EVs using state rebate program",
+  "url": "https://www.reuters.com/business/autos-transportation/nearly-12000-california-residents-bought-evs-using-state-rebate-program-2026-10-16/",
+  "source": "Reuters",
+  "published": "2026-10-17T04:15+09:00",
+  "first_seen": "2026-10-17T04:48+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "시장",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "에식스 트러스트(ESS)는 RBC의 매수 투자의견을 유지하고 목표주가를 298달러로 낮췄다",
+  "original": "埃塞克斯信托（ESS）获加皇维持买入评级 目标价下调至298美元",
+  "url": "http://www.eeo.com.cn/2026/1017/1067434.shtml",
+  "source": "경제관찰보",
+  "published": "2026-10-17T03:42+09:00",
+  "first_seen": "2026-10-17T04:48+09:00"
  }
 ]
