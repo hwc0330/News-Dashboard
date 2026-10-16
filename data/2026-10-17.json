@@ -203,7 +203,7 @@
   "region": "US",
   "policy": "",
   "title": "Tesla Roadster 공개 — 머스크의 마음에서 나온 광기",
-  "original": "Tesla Roadster Reveal — Madness From The Mind If Musk",
+  "original": "Tesla Roadster Reveal — Madness From The Mind Of Musk",
   "url": "https://cleantechnica.com/2026/10/16/tesla-roadster-reveal-madness-from-the-mind-if-musk/",
   "source": "CleanTechnica",
   "published": "2026-10-17T01:23+09:00",
@@ -278,5 +278,19 @@
   "source": "Reuters",
   "published": "2026-10-17T02:30+09:00",
   "first_seen": "2026-10-17T02:59+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "Lectric은 으스스한 판매, Worx 제설기, Jackery 1,024Wh V2 발전소 등을 통해 라이더에게 최대 762달러의 전자 자전거 비용 절감 혜택을 제공한다",
+  "original": "Lectric treats riders with up to $762 e-bike savings in spooky sale, Worx snow blower, Jackery 1,024Wh V2 power station, more",
+  "url": "https://electrek.co/2026/10/16/lectric-e-bike-spooky-sale-worx-snow-blower-jackery-1024wh-v2-power-station-more/",
+  "source": "Electrek",
+  "published": "2026-10-17T03:00+09:00",
+  "first_seen": "2026-10-17T03:36+09:00"
  }
 ]
