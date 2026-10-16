@@ -1,7 +1,7 @@
 {
 "congress": 119,
-"checked": "2026-10-16T02:29+00:00",
-"updated": "2026-10-16T11:29+09:00",
+"checked": "2026-10-16T08:45+00:00",
+"updated": "2026-10-16T17:45+09:00",
 "topics": [
 "전기차 세액공제",
 "배터리·제조",
@@ -18,6 +18,43 @@
 "법률 제정"
 ],
 "bills": [
+{
+"id": "119-hr10834",
+"type": "HR",
+"number": "10834",
+"label": "H.R. 10834",
+"chamber": "하원",
+"title": "To require the Administrator of the National Highway Traffic Safety Administration to initiate a process to reevaluate corporate average fuel economy standards, and for other purposes.",
+"full": "",
+"official": "To require the Administrator of the National Highway Traffic Safety Administration to initiate a process to reevaluate corporate average fuel economy standards.",
+"official_ko": "미국 도로교통안전국(National Highway Traffic Safety Administration)의 관리자에게 기업의 평균 연비 표준을 재평가하는 프로세스를 시작하도록 요구합니다.",
+"url": "https://www.congress.gov/bill/119th-congress/house-bill/10834",
+"introduced": "2026-10-15",
+"latest": "Referred to the House Committee on Energy and Commerce.",
+"latest_ko": "하원 에너지·상업위원회 회부",
+"latest_date": "2026-10-15",
+"stage": 0,
+"sponsor": {
+"name": "Rep. Titus, Dina [D-NV-1]",
+"first": "Dina",
+"last": "Titus",
+"party": "D",
+"state": "NV",
+"id": "T000468"
+},
+"cosponsors": {
+"n": 4,
+"D": 4
+},
+"policy_area": "",
+"topics": [
+"배출·연비 규제"
+],
+"china": false,
+"summary": "",
+"summary_ko": "",
+"updated": "2026-10-16T08:05:49Z"
+},
 {
 "id": "119-hr10681",
 "type": "HR",
@@ -97,7 +134,7 @@
 "number": "5587",
 "label": "S. 5587",
 "chamber": "상원",
-"title": "A bill to establish a National Critical Minerals Council within the Executive Office of the President to develop and coordinate the implementation of a national critical mineral and material strategy for the United States, and for other purposes.",
+"title": "National Critical Minerals Council Act",
 "full": "",
 "official": "A bill to establish a National Critical Minerals Council within the Executive Office of the President to develop and coordinate the implementation of a national critical mineral and material strategy for the United States.",
 "official_ko": "미국을 위한 국가 중요 광물 및 재료 전략의 구현을 개발하고 조정하기 위해 대통령 행정부 내에 국가 중요 광물 위원회를 설립하는 법안입니다.",
@@ -127,7 +164,7 @@
 "china": false,
 "summary": "",
 "summary_ko": "",
-"updated": "2026-09-30T12:32:38Z"
+"updated": "2026-10-16T02:53:16Z"
 },
 {
 "id": "119-s5551",
