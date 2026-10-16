@@ -654,7 +654,7 @@
   "original": "Dollar falls, gold and silver rise together, metals broadly decline, LME copper, LME zinc, and LME nickel lead losses, SHFE tin rebounds [Overnight market]",
   "url": "https://news.metal.com/en/newscontent/104160284-dollar-falls-gold-and-silver-rise-together-metals-broadly-decline-lme-copper-lme-zinc-and-lme-nickel-lead-losses-shfe-tin-rebounds-overnight-market",
   "source": "SMM",
-  "published": "2026-10-16T09:24+09:00",
+  "published": "2026-10-16T09:31+09:00",
   "first_seen": "2026-10-16T09:40+09:00"
  },
  {
@@ -726,5 +726,47 @@
   "source": "인민망",
   "published": "2026-10-16T01:00+09:00",
   "first_seen": "2026-10-16T09:40+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "Chery는 영국에 랜드로버 유사 모델을 선보이고 있다",
+  "original": "Chery Is Bringing Its Land Rover Lookalike To The UK",
+  "url": "https://insideevs.com/news/812130/chery-land-rover-lookalike-uk/",
+  "source": "InsideEVs",
+  "published": "2026-10-16T09:53+09:00",
+  "first_seen": "2026-10-16T09:54+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "내 가족과 친구들이 전기를 사용한다",
+  "original": "My Family & Friends Go Electric",
+  "url": "https://cleantechnica.com/2026/10/15/my-family-friends-go-electric/",
+  "source": "CleanTechnica",
+  "published": "2026-10-16T09:52+09:00",
+  "first_seen": "2026-10-16T09:54+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "산업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "연간 생산량 20,000톤! Tinci Materials 인도네시아 전해질 프로젝트, 연말까지 시험생산 개시 예정",
+  "original": "20,000 mt Annual Output! Tinci Materials Indonesia Electrolyte Project Expected to Begin Trial Production by Year-End",
+  "url": "https://news.metal.com/en/newscontent/104160294-20000-mt-annual-output-tinci-materials-indonesia-electrolyte-project-expected-to-begin-trial-production-by-year-end",
+  "source": "SMM",
+  "published": "2026-10-16T09:42+09:00",
+  "first_seen": "2026-10-16T09:54+09:00"
  }
 ]

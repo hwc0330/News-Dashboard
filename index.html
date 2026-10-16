@@ -336,6 +336,32 @@
   .diff del { color: var(--up); text-decoration: line-through; }
   .pre { white-space: pre-line; }
 
+  /* 공시 */
+  #dartView { padding-top: 18px; }
+  .dday { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 6px 18px 4px; margin-bottom: 12px; }
+  .dday.today { border-top: 4px solid var(--orange); }
+  .dday h3 { display: flex; align-items: baseline; gap: 6px; margin: 10px 0 4px; font-size: 15px; font-weight: 700; }
+  .dday h3 .mono { color: var(--accent); }
+  .dday h3 b { color: var(--orange); font-size: 13px; }
+  .dday h3 .n { margin-left: auto; font-size: 12.5px; font-weight: 500; color: var(--muted); }
+  .dday ul { list-style: none; margin: 0; padding: 0; }
+  .dday li { display: grid; grid-template-columns: 150px minmax(0, 1fr); gap: 10px; padding: 10px 0; border-top: 1px solid var(--line2); align-items: baseline; }
+  .dcorp { font-size: 13.5px; font-weight: 700; color: var(--accent); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .dmain { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 8px; min-width: 0; }
+  .dmain a { font-size: 14.5px; font-weight: 500; line-height: 1.5; }
+  .dcat { font-size: 11px; font-weight: 700; padding: 1px 8px; border-radius: 999px; background: var(--chip); color: var(--dim); white-space: nowrap; }
+  .dcat.c-실적 { background: color-mix(in srgb, var(--orange) 15%, var(--card)); color: var(--orange); }
+  .dcat.c-계약수주 { background: color-mix(in srgb, var(--eu) 15%, var(--card)); color: var(--eu); }
+  .dcat.c-투자시설 { background: color-mix(in srgb, var(--us) 14%, var(--card)); color: var(--us); }
+  .dcat.c-자금조달 { background: color-mix(in srgb, var(--cn) 13%, var(--card)); color: var(--cn); }
+  .dcat.c-리스크해명 { background: color-mix(in srgb, var(--up) 13%, var(--card)); color: var(--up); }
+  .dcat.c-지분변동, .dcat.c-공정위지주, .dcat.c-기타 { font-weight: 500; color: var(--muted); }
+  .dfiler { font-size: 12px; color: var(--soft); }
+
+  @media (max-width: 700px) {
+    .dday li { grid-template-columns: minmax(0, 1fr); gap: 2px; }
+    .dday { padding: 6px 14px 4px; }
+  }
   @media (max-width: 700px) {
     .wrap { padding: 18px 16px 40px; }
     h1 { font-size: 17px; }
@@ -360,6 +386,7 @@
   </header>
   <nav class="pages" aria-label="페이지">
     <button class="page" data-page="news">뉴스</button>
+    <button class="page" data-page="disclosure" hidden>공시</button>
     <button class="page" data-page="bills" hidden>법안</button>
     <button class="page" data-page="prices" hidden>원재료 가격</button>
   </nav>
@@ -370,6 +397,7 @@
     <button class="tab" role="tab" data-tab="prices" id="pricesTab" hidden title="배터리 소재·원재료 가격 (올린 엑셀로 그림)">원재료 가격<span class="n" id="pricesN"></span></button>
     <button class="tab" role="tab" data-tab="assembly" id="assemblyTab" hidden title="국회 전기차·배터리·태양광·한국판 IRA 법안 (열린국회정보)">국내 법안<span class="n" id="assemblyN"></span></button>
     <button class="tab" role="tab" data-tab="congress" id="congressTab" hidden title="미 상·하원 의원들이 낸 배터리·전기차 관련 법안 (Congress.gov)">미 의회 법안<span class="n" id="congressN"></span></button>
+    <button class="tab" role="tab" data-tab="dart" id="dartTab" hidden>공시<span class="n" id="dartN"></span></button>
   </nav>
   <div class="controls" id="controls">
     <select id="date" aria-label="날짜"></select>
@@ -428,6 +456,21 @@
     <div class="chips last" id="cFilters"></div>
     <div class="bills" id="cList"><p class="empty">불러오는 중…</p></div>
     <p class="foot">제목·의회조사국(CRS) 요약에 배터리·전기차·핵심광물·충전·배출 규제 키워드가 있는 법안 · 국문은 자동 번역 · 제목을 누르면 Congress.gov 원문</p>
+  </div>
+
+  <div id="dartView" hidden>
+    <div class="phead">
+      <div>
+        <div class="kicker mono" id="dKicker">DART</div>
+        <div class="headline" id="dHeadline">주요 배터리 기업 공시</div>
+        <div class="xupd" id="dUpd"></div>
+      </div>
+      <input type="search" class="csearch" id="dQ" placeholder="기업·공시명 검색" aria-label="공시 검색">
+    </div>
+    <div class="chips" id="dCorps"></div>
+    <div class="chips last" id="dCats"></div>
+    <div id="dList"><p class="empty">불러오는 중…</p></div>
+    <p class="foot">'주요 공시'는 임원·주요주주 지분 보고(소유상황·대량보유)와 공정위·지주회사 정기 보고를 뺀 공시 · 10분마다 확인 · 공시명을 누르면 DART 원문</p>
   </div>
 
   <div id="assemblyView" hidden>
@@ -501,9 +544,10 @@ async function init() {
   $("#q").oninput = render;
   $("#cQ").oninput = render;
   $("#kQ").oninput = render;
+  $("#dQ").oninput = render;
   $("#collect").addEventListener("click", watchCollect);
   if (COLLECT_URL) $("#collect").title = "매체를 지금 다시 훑습니다 (2~4분 소요)";
-  loadPick(); loadPrices(); loadCongress(); loadAssembly();
+  loadPick(); loadPrices(); loadCongress(); loadAssembly(); loadDart();
   if (meta.dates.length) await load(meta.dates[0]); else $("#list").innerHTML = '<p class="empty">아직 데이터가 없습니다.</p>';
   setInterval(refresh, 5 * 60e3);   // 5분마다 새 데이터 확인
 }
@@ -595,7 +639,7 @@ async function refresh() {
     const wasLatest = current === meta.dates[0];
     meta = m; fillDates();
     for (const k in days) delete days[k];
-    loadPick(); loadPrices(); loadCongress(); loadAssembly();
+    loadPick(); loadPrices(); loadCongress(); loadAssembly(); loadDart();
     if (wasLatest) $("#date").value = meta.dates[0];
     await load($("#date").value);
   } catch (e) {}
@@ -631,13 +675,13 @@ const KEYWORDS = [
   ["전기차", /electric vehicle|\bEVs?\b|전기차|电动/i],
 ];
 // 페이지(상단 바) → 그 안의 탭. 처음 열면 뉴스. 오늘의 뉴스픽은 뉴스 페이지에서만
-const PAGES = {news: ["all", "policy"], bills: ["assembly", "congress"], prices: ["prices"]};
+const PAGES = {news: ["all", "policy"], disclosure: ["dart"], bills: ["assembly", "congress"], prices: ["prices"]};
 const pageOf = t => Object.keys(PAGES).find(k => PAGES[k].includes(t)) || "news";
-const dataOf = t => t === "assembly" ? asm : t === "congress" ? cong : t === "prices" ? prices : true;
+const dataOf = t => t === "assembly" ? asm : t === "congress" ? cong : t === "prices" ? prices : t === "dart" ? dart : true;
 const hasData = t => !!dataOf(t), noData = t => dataOf(t) === null;     // undefined = 아직 불러오는 중
-const lastTab = {news: "all", bills: "assembly", prices: "prices"};
+const lastTab = {news: "all", disclosure: "dart", bills: "assembly", prices: "prices"};
 const firstTab = page => [lastTab[page], ...PAGES[page]].find(hasData) || "all";
-let tab = ({"#policy": "policy", "#prices": "prices", "#congress": "congress", "#assembly": "assembly", "#bills": "assembly"})[location.hash] || "all", activeRegion = "미국";
+let tab = ({"#policy": "policy", "#prices": "prices", "#congress": "congress", "#assembly": "assembly", "#bills": "assembly", "#dart": "dart"})[location.hash] || "all", activeRegion = "미국";
 const expanded = new Set();
 function setTab(t) {
   tab = t; lastTab[pageOf(t)] = t;
@@ -695,10 +739,12 @@ function render() {
   $("#allN").textContent = base.length; $("#policyN").textContent = policyOf(items).length;
   $("#allView").hidden = tab !== "all"; $("#policyView").hidden = tab !== "policy"; $("#pricesView").hidden = tab !== "prices";
   $("#congressView").hidden = tab !== "congress"; $("#assemblyView").hidden = tab !== "assembly";
-  $("#controls").hidden = tab === "prices" || tab === "congress" || tab === "assembly";
+  $("#dartView").hidden = tab !== "dart";
+  $("#controls").hidden = pageOf(tab) !== "news";
   if (tab === "prices") return renderPrices();
   if (tab === "congress") return renderCongress();
   if (tab === "assembly") return renderAssembly();
+  if (tab === "dart") return renderDart();
   if (tab === "policy") return renderPolicy(q, policyOf);
 
   const flagged = base.filter(byFlag);
@@ -979,6 +1025,56 @@ function billCard(b, byNo, st) {
       `</ul></details>` : "") +
     `<details class="crs"><summary>제안이유 · 주요내용 전체</summary>${b.reason ? `<p><b>제안이유</b> ${esc(b.reason)}</p>` : ""}<p class="pre">${esc(b.summary)}</p></details>` +
     `</article>`;
+}
+
+// ── 공시: dart.py 가 DART OpenAPI 로 모아 둔 주요 배터리 기업 공시 data/dart.json (10분마다) ──
+let dart, dCorp = null, dCat = "major", dAll = false;
+const D_WEEK = ["일", "월", "화", "수", "목", "금", "토"];
+const dNew = x => x.first_seen && new Date(x.first_seen) > newSince;
+
+async function loadDart() {
+  try { dart = await getData("dart.json", EMBED ? (EMBED.dart || null) : undefined); } catch (e) { dart = null; }
+  if (dart) $("#dartN").textContent = dart.items.length;
+  dataArrived("dart");
+}
+
+function renderDart() {
+  if (!dart) { $("#dList").innerHTML = '<p class="empty">불러오는 중…</p>'; return; }
+  const all = dart.items, q = $("#dQ").value.trim().toLowerCase();
+  const today = new Date().toLocaleDateString("sv-SE", {timeZone: "Asia/Seoul"});
+  const weekAgo = new Date(Date.now() - 6 * 864e5).toLocaleDateString("sv-SE", {timeZone: "Asia/Seoul"});
+  const minor = new Set(dart.minor || ["지분 변동"]), major = x => !minor.has(x.cat);
+  $("#dKicker").textContent = `DART · 주요 배터리 기업 ${dart.companies.length}곳`;
+  $("#dHeadline").innerHTML = `공시 ${all.filter(major).length}건 <small>· 오늘 ${all.filter(x => x.date === today && major(x)).length} · 최근 7일 ${all.filter(x => x.date >= weekAgo && major(x)).length}</small>`;
+  $("#dUpd").innerHTML = `<span>출처 <b>DART 전자공시</b></span><span>확인 <b>${esc(when(dart.updated))}</b></span><span>최근 ${dart.keep_days}일</span>`;
+
+  const byQ = all.filter(x => !q || `${x.corp} ${x.title} ${x.filer}`.toLowerCase().includes(q));
+  const catOk = x => dCat === "all" || (dCat === "major" ? major(x) : x.cat === dCat);
+  const forCorp = byQ.filter(catOk);
+  chipRow($("#dCorps"), [["", "전체 기업", forCorp.length]].concat(dart.companies.map(c => [c, esc(c), forCorp.filter(x => x.corp === c).length])),
+          dCorp, v => { dCorp = v; render(); });
+  const forCat = byQ.filter(x => !dCorp || x.corp === dCorp);
+  chipRow($("#dCats"), [["major", "주요 공시", forCat.filter(major).length], ["all", "전체", forCat.length]]
+          .concat(dart.categories.map(c => [c, esc(c), forCat.filter(x => x.cat === c).length]).filter(x => x[2])),
+          dCat, v => { dCat = v || "major"; render(); });
+
+  const shown = forCat.filter(catOk);
+  if (!shown.length) { $("#dList").innerHTML = '<p class="empty">해당하는 공시가 없습니다.</p>'; return; }
+  const cutoff = new Date(Date.now() - 30 * 864e5).toLocaleDateString("sv-SE", {timeZone: "Asia/Seoul"});
+  const list = dAll ? shown : shown.filter(x => x.date >= cutoff);
+  const days = {};
+  list.forEach(x => (days[x.date] = days[x.date] || []).push(x));
+  $("#dList").innerHTML = Object.keys(days).sort().reverse().map(d => {
+    const w = D_WEEK[new Date(d + "T12:00:00+09:00").getDay()];
+    return `<section class="dday${d === today ? " today" : ""}"><h3><span class="mono">${md(d)}</span> ${w}${d === today ? ' <b>오늘</b>' : ""}<span class="n">${days[d].length}건</span></h3><ul>` +
+      days[d].map(x => `<li><span class="dcorp">${esc(x.corp)}</span><div class="dmain">` +
+        (dNew(x) ? '<span class="badge new">NEW</span>' : "") +
+        `<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)}</a>` +
+        `<span class="dcat c-${esc(x.cat.replace(/[^가-힣A-Z]/g, ""))}">${esc(x.cat)}</span>` +
+        (x.filer && x.filer !== x.corp ? `<span class="dfiler">제출 ${esc(x.filer)}</span>` : "") + `</div></li>`).join("") +
+      `</ul></section>`;
+  }).join("") + (shown.length > list.length || dAll ? `<button class="more" id="dMore">${dAll ? "최근 30일만 보기" : `30일 이전 공시 ${shown.length - list.length}건 더 보기`}</button>` : "");
+  const more = $("#dMore"); if (more) more.onclick = () => { dAll = !dAll; render(); };
 }
 
 // ── 원재료 가격: 올린 엑셀(prices/*.xlsx)을 dashboard.py 가 data/prices.json 으로 바꿔 둔 것을 그래프로 ──
