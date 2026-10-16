@@ -1,19 +1,5 @@
 [
  {
-  "section": "배터리 셀/소재/광물",
-  "tag": "기업",
-  "impact": "0",
-  "key": false,
-  "region": "",
-  "policy": "",
-  "title": "GAC: 첫 3분기 동안 구리 반제품 수입은 6.5% 감소, 희토류 수입은 2.4% 감소, 알루미늄 반제품 수출은 17.8% 증가했다",
-  "original": "GAC: Copper semis imports fell 6.5%, rare earth imports fell 2.4%, and aluminum semis exports rose 17.8% in the first three quarters",
-  "url": "https://news.metal.com/en/newscontent/104157221-gac-copper-semis-imports-fell-65-rare-earth-imports-fell-24-and-aluminum-semis-exports-rose-178-in-the-first-three-quarters",
-  "source": "SMM",
-  "published": "2026-10-15T10:19+09:00",
-  "first_seen": "2026-10-14T15:12+09:00"
- },
- {
   "section": "EV/ESS",
   "tag": "자원",
   "impact": "0",
@@ -3557,8 +3543,8 @@
   "first_seen": "2026-10-15T23:31+09:00"
  },
  {
-  "section": "EV/ESS",
-  "tag": "기업",
+  "section": "기타",
+  "tag": "기타",
   "impact": "0",
   "key": false,
   "region": "",
