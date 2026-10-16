@@ -43,6 +43,7 @@ jobs:
         env:
           CONGRESS_API_KEY: ${{ secrets.CONGRESS_API_KEY }}   # 미 의회 법안 탭 (api.data.gov 키)
           ASSEMBLY_API_KEY: ${{ secrets.ASSEMBLY_API_KEY }}   # 국내 법안 탭 (열린국회정보 키)
+          DART_API_KEY: ${{ secrets.DART_API_KEY }}           # 공시 페이지 (DART 키)
 
       - name: Publish
         run: |
