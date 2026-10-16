@@ -4156,5 +4156,33 @@
   "source": "Heatmap",
   "published": "2026-10-16T21:11+09:00",
   "first_seen": "2026-10-16T23:57+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "Tesla, 슬로바키아에서 자율주행 기술 승인 획득",
+  "original": "Tesla receives approval for self-driving tech in Slovakia",
+  "url": "https://www.reuters.com/site-search/?query=Tesla%20receives%20approval%20for%20self-driving%20tech%20in%20Slovakia",
+  "source": "Reuters",
+  "published": "2026-10-16T23:28+09:00",
+  "first_seen": "2026-10-17T00:31+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "중국, 하이브리드 자동차 회담에서 EU의 압력으로 결과가 나왔다는 주장을 일축",
+  "original": "China dismisses claims of EU pressure yielding results in hybrid vehicle talks",
+  "url": "https://english.news.cn/20261016/0c94f8be04a0407ab59d30a1aca2b5b4/c.html",
+  "source": "신화통신",
+  "published": "2026-10-16T01:00+09:00",
+  "first_seen": "2026-10-17T00:31+09:00"
  }
 ]
