@@ -390,5 +390,47 @@
   "source": "경제관찰보",
   "published": "2026-10-17T03:42+09:00",
   "first_seen": "2026-10-17T04:48+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "올해 11월 주목해야 할 기후 경쟁",
+  "original": "Climate Races to Watch This November",
+  "url": "https://heatmap.news/politics/2026-midterm-races-to-watch",
+  "source": "Heatmap",
+  "published": "2026-10-17T04:57+09:00",
+  "first_seen": "2026-10-17T05:10+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "'적정 규모' 데이터 센터로 현지 지원을 구축하는 개발자",
+  "original": "The Developer that Builds Local Support with ‘Right-sized’ Data Centers",
+  "url": "https://heatmap.news/plus/the-fight/qa/harmol-samra-host-digital",
+  "source": "Heatmap",
+  "published": "2026-10-17T04:53+09:00",
+  "first_seen": "2026-10-17T05:10+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "팟캐스트: Tesla Roadster 에피소드",
+  "original": "Podcast: The Tesla Roadster episode",
+  "url": "https://electrek.co/2026/10/16/podcast-the-tesla-roadster-episode/",
+  "source": "Electrek",
+  "published": "2026-10-17T04:51+09:00",
+  "first_seen": "2026-10-17T05:10+09:00"
  }
 ]
