@@ -432,5 +432,47 @@
   "source": "Electrek",
   "published": "2026-10-17T04:51+09:00",
   "first_seen": "2026-10-17T05:10+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "이 몬트리올 공항에는 현재 120개의 EV 충전기가 있으며, 48개가 추가될 예정이다",
+  "original": "This Montréal airport now has 120 EV chargers, with 48 more on the way",
+  "url": "https://electrek.co/2026/10/16/montreal-airport-120-ev-chargers-with-48-more-coming/",
+  "source": "Electrek",
+  "published": "2026-10-17T05:42+09:00",
+  "first_seen": "2026-10-17T05:52+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "거대한 데이터 센터가 허용 개혁 테스트 사례를 제공한다",
+  "original": "A Giant Data Center Offers a Permitting Reform Test Case",
+  "url": "https://heatmap.news/plus/the-fight/spotlight/project-jupiter-permitting",
+  "source": "Heatmap",
+  "published": "2026-10-17T05:10+09:00",
+  "first_seen": "2026-10-17T05:52+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "미국",
+  "title": "트럼프 행정부는 여전히 해상풍력발전소에 장난을 치고 있다",
+  "original": "The Trump Administration Is Still Messing with Offshore Wind Farms",
+  "url": "https://heatmap.news/plus/the-fight/hotspots/the-trump-administration-is-still-messing-with-offshore-wind-farms",
+  "source": "Heatmap",
+  "published": "2026-10-17T05:09+09:00",
+  "first_seen": "2026-10-17T05:52+09:00"
  }
 ]
