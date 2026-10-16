@@ -2598,7 +2598,7 @@
   "region": "",
   "policy": "",
   "title": "테슬라, 수년간 지연된 차세대 로드스터 스포츠 EV 공개 예정",
-  "original": "Tesla set to unveil next generation Roadster sports EV after years of delay",
+  "original": "Tesla unveils next generation Roadster sports EV after years of delay",
   "url": "https://www.reuters.com/business/autos-transportation/tesla-set-unveil-next-generation-roadster-sports-ev-after-years-delay-2026-10-15/",
   "source": "Reuters",
   "published": "2026-10-15T19:04+09:00",
@@ -3877,5 +3877,19 @@
   "source": "신화통신",
   "published": "2026-10-15T01:00+09:00",
   "first_seen": "2026-10-16T08:33+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기술",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "충칭 퉁량(Tongliang)은 서부에 새로운 에너지 저장 고지 건설에 중점을 두고 있다",
+  "original": "重庆铜梁聚力打造西部新型储能高地",
+  "url": "http://city.ce.cn/fw/202610/t20261015_3259357.shtml",
+  "source": "경제일보",
+  "published": "2026-10-15T01:00+09:00",
+  "first_seen": "2026-10-16T10:55+09:00"
  }
 ]
