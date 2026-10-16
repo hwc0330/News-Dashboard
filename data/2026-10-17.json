@@ -586,5 +586,33 @@
   "source": "경제일보",
   "published": "2026-10-17T01:00+09:00",
   "first_seen": "2026-10-17T08:04+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기술",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "BMW 선양 공장, 6세대 고전압 배터리 양산…노이어 클라쎄 탑재",
+  "original": "",
+  "url": "https://www.g-enews.com/article/Global-Biz/2026/10/2026101708045232592bd56fbc3c_1",
+  "source": "글로벌이코노믹",
+  "published": "2026-10-17T08:04+09:00",
+  "first_seen": "2026-10-17T08:33+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "정책",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "미국",
+  "title": "Gillibrand, Schumer, Torres, 전자 자전거 사망자 가운데 연방 리튬 이온 배터리 규제 가속화 촉구",
+  "original": "Gillibrand, Schumer, Torres Urge Acceleration Of Federal Lithium-Ion Battery Regulation Amidst E-Bike Fatalities",
+  "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOaXVzdnA0OWdERkI3YVloM2lQMnMxWnl6T21jS0lMamptYU1SZjZLVDVxcFlUWThrMndzY1JYV2JmVHFPVEtjQzV6REdjb3ZYRUozeXZIelJncl83QTVOdVAxdEVNaWJIVmZJc0dSTnB6YTk2VUk1UmpybEl5TlFEak1NYkZXVkZLNzVTRHhFSm1IX01qQ0hlYmlTNVJfbFBVYnVQSmZiendKQm0zNXVzU0V0NW9aOEw5UmRjeHNxM0MzT08tR2d5eVFEeW1BcWxyWEJrd1BHTnFHd2FraE9lYTZ6MjExN1gxdEk2MjFCYkotVEhBRE5F?oc=5",
+  "source": "미 의회",
+  "published": "2026-10-17T03:59+09:00",
+  "first_seen": "2026-10-17T08:33+09:00"
  }
 ]
