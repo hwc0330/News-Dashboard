@@ -222,5 +222,47 @@
   "source": "Teslarati",
   "published": "2026-10-17T01:13+09:00",
   "first_seen": "2026-10-17T01:54+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "Tesla 운전자는 FSD에서 자고 있던 중 CHP 차량에 부딪혀 경찰관 2명이 다쳤다고 말했다",
+  "original": "Tesla driver says he was asleep on FSD when he hit CHP car, 2 officers hurt",
+  "url": "https://electrek.co/2026/10/16/tesla-fsd-crash-chp-patrol-car-driver-asleep-fairfield/",
+  "source": "Electrek",
+  "published": "2026-10-17T02:14+09:00",
+  "first_seen": "2026-10-17T02:25+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "Rheinmetall, Rock Tech 리튬 및 제련소에 투자 발표 - Bloomberg News",
+  "original": "Rheinmetall said to invest in Rock Tech Lithium and smelter - Bloomberg News",
+  "url": "https://www.reuters.com/site-search/?query=Rheinmetall%20said%20to%20invest%20in%20Rock%20Tech%20Lithium%20and%20smelter%20-%20Bloomberg%20News",
+  "source": "Reuters",
+  "published": "2026-10-17T02:09+09:00",
+  "first_seen": "2026-10-17T02:25+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "폭스바겐은 미국뿐만 아니라 ID.4를 포함해 '수천'대의 EV를 리콜한다",
+  "original": "Volkswagen is recalling ‘several thousand’ EVs, including the ID.4, and not just in the US",
+  "url": "https://electrek.co/2026/10/16/volkswagen-is-recalling-thousands-of-evs-including-the-id-4/",
+  "source": "Electrek",
+  "published": "2026-10-17T02:06+09:00",
+  "first_seen": "2026-10-17T02:25+09:00"
  }
 ]
