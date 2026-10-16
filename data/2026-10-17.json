@@ -194,5 +194,33 @@
   "source": "MINING.COM",
   "published": "2026-10-17T00:06+09:00",
   "first_seen": "2026-10-17T01:11+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "Tesla Roadster 공개 — 머스크의 마음에서 나온 광기",
+  "original": "Tesla Roadster Reveal — Madness From The Mind If Musk",
+  "url": "https://cleantechnica.com/2026/10/16/tesla-roadster-reveal-madness-from-the-mind-if-musk/",
+  "source": "CleanTechnica",
+  "published": "2026-10-17T01:23+09:00",
+  "first_seen": "2026-10-17T01:54+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "Tesla의 하늘을 나는 로드스터가 자동차보다 더 큰 것을 공개했다",
+  "original": "Tesla’s flying Roadster just revealed something bigger than the car",
+  "url": "https://www.teslarati.com/tesla-spacex-roadster-tech-merger/",
+  "source": "Teslarati",
+  "published": "2026-10-17T01:13+09:00",
+  "first_seen": "2026-10-17T01:54+09:00"
  }
 ]
