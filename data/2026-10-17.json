@@ -276,7 +276,7 @@
   "original": "Nearly 12,000 California residents bought EVs using state rebate program",
   "url": "https://www.reuters.com/site-search/?query=Nearly%2012%2C000%20California%20residents%20bought%20EVs%20using%20state%20rebate%20program",
   "source": "Reuters",
-  "published": "2026-10-17T02:30+09:00",
+  "published": "2026-10-17T04:05+09:00",
   "first_seen": "2026-10-17T02:59+09:00"
  },
  {
@@ -292,5 +292,47 @@
   "source": "Electrek",
   "published": "2026-10-17T03:00+09:00",
   "first_seen": "2026-10-17T03:36+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "미국 항소 법원, Tesla의 자율 주행 주장에 대한 집단 소송 차단",
+  "original": "US appeals court blocks class actions over Tesla's self-driving claims",
+  "url": "https://www.reuters.com/business/media-telecom/us-appeals-court-blocks-class-actions-over-teslas-self-driving-claims-2026-10-16/",
+  "source": "Reuters",
+  "published": "2026-10-17T04:06+09:00",
+  "first_seen": "2026-10-17T04:12+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "프랑스와 독일이 새로운 배기가스 배출 규정에 합의했다…",
+  "original": "France And Germany Agree On New Exhaust Emissions Rules, Sort Of…..",
+  "url": "https://cleantechnica.com/2026/10/16/france-and-germany-agree-on-new-exhaust-emissions-rules-sort-of/",
+  "source": "CleanTechnica",
+  "published": "2026-10-17T03:59+09:00",
+  "first_seen": "2026-10-17T04:12+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "신화통신 헤드라인: 중국 장난감, 선물 제조사, 중국과 미국의 상호 협력을 통해 새로운 성장에 주목 관세 인하",
+  "original": "Xinhua Headlines: Chinese toy, gift makers eye new growth from reciprocal China-U.S. tariff cuts",
+  "url": "https://english.news.cn/20261017/fa97615cda2f41888b8220b62862a11b/c.html",
+  "source": "신화통신",
+  "published": "2026-10-17T01:00+09:00",
+  "first_seen": "2026-10-17T04:12+09:00"
  }
 ]
