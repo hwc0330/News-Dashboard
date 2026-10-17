@@ -1230,5 +1230,47 @@
   "source": "CnEVPost",
   "published": "2026-10-17T20:41+09:00",
   "first_seen": "2026-10-17T21:00+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "다음주 경제캘린더(10월 19일~10월 25일)",
+  "original": "下周财经日历（10月19日-10月25日）",
+  "url": "https://www.yicai.com/news/103397743.html",
+  "source": "제일재경",
+  "published": "2026-10-17T21:25+09:00",
+  "first_seen": "2026-10-17T21:41+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "독점: 머스크는 아이작슨에게 \"AI와 로봇\"이 적자를 고쳐야 할 것이라고 말했다",
+  "original": "Exclusive: Musk tells Isaacson \"AI and robots\" will need to fix deficit",
+  "url": "https://www.axios.com/2026/10/17/elon-musk-doge-walter-isaacson-podcast",
+  "source": "Axios",
+  "published": "2026-10-17T21:23+09:00",
+  "first_seen": "2026-10-17T21:41+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "시장",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "국제 에세이丨 신에너지 자동차 판매를 통한 중국 에너지 전환의 세계 계몽",
+  "original": "国际随笔丨从新能源车销量看中国能源转型的世界启示",
+  "url": "http://intl.ce.cn/sjjj/qy/202610/t20261017_3261459.shtml",
+  "source": "경제일보",
+  "published": "2026-10-17T01:00+09:00",
+  "first_seen": "2026-10-17T21:41+09:00"
  }
 ]
