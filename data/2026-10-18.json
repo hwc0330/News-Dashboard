@@ -208,5 +208,33 @@
   "source": "더구루",
   "published": "2026-10-18T07:00+09:00",
   "first_seen": "2026-10-18T07:21+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기술",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "GM, 배터리 원가 낮출 전용 개발 센터 구축…AI·가상화 기술 총동원",
+  "original": "",
+  "url": "https://www.theguru.co.kr/news/article.html?no=108378",
+  "source": "더구루",
+  "published": "2026-10-18T07:40+09:00",
+  "first_seen": "2026-10-18T07:52+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "시장",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "신에너지 자동차 판매를 통해 중국의 에너지 전환에 대한 세계 계몽을 살펴본다",
+  "original": "从新能源车销量看中国能源转型的世界启示",
+  "url": "https://m.21jingji.com/article/20261018/herald/b28c57b34e8e636bc69e087b27205307.html",
+  "source": "21세기경제보도",
+  "published": "2026-10-18T01:00+09:00",
+  "first_seen": "2026-10-18T07:52+09:00"
  }
 ]
