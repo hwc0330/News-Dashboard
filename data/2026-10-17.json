@@ -1048,5 +1048,47 @@
   "source": "pv magazine",
   "published": "2026-10-17T17:00+09:00",
   "first_seen": "2026-10-17T17:04+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "10월 16일 중국자원신에너지의 주요 자본유출은 순액이었고 지난 5일간 실적은 시장보다 약세를 보였다",
+  "original": "10月16日华润新能源主力资金净流出 近5日弱于大盘表现偏弱",
+  "url": "http://www.eeo.com.cn/2026/1017/1068195.shtml",
+  "source": "경제관찰보",
+  "published": "2026-10-17T17:36+09:00",
+  "first_seen": "2026-10-17T17:38+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "정책",
+  "impact": "0",
+  "key": false,
+  "region": "EU",
+  "policy": "",
+  "title": "프랑스, 최대 25MW의 태양광+저장 프로젝트에 대한 그리드 연결 규칙 완화",
+  "original": "France to ease grid connection rules for solar-plus-storage projects up to 25 MW",
+  "url": "https://www.pv-magazine.com/2026/10/17/france-to-ease-grid-connection-rules-for-solar-plus-storage-projects-up-to-25-mw/",
+  "source": "pv magazine",
+  "published": "2026-10-17T17:30+09:00",
+  "first_seen": "2026-10-17T17:38+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "정책",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "미얀마 희토류에 관심 큰 美...미얀마 군부와 잇단 비밀 회담",
+  "original": "",
+  "url": "https://www.g-enews.com/article/Global-Biz/2026/10/202610171656515265bb91c46fcd_1",
+  "source": "글로벌이코노믹",
+  "published": "2026-10-17T16:56+09:00",
+  "first_seen": "2026-10-17T17:38+09:00"
  }
 ]
