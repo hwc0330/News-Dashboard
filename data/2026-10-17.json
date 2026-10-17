@@ -514,7 +514,7 @@
   "original": "Ricketts, Secretary Wright Tour Elk Creek Critical Minerals Project, Discuss Energy Independence at Roundtable",
   "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQVHpRNnN1VGQ2RHJRMlBQRW42MENhZlJWcG5zT3AxV0V2aEozcmE4QUtnaUxld21kQWpPWUtvbjE0czVwclBocDNKUzJVSWdaeTN3NzNBcU9UUElGRnJ5elJaOVRFU0hzN2JGM2pYeEJEdFBhUlVsNXpKVTlYdTctRFhOZWtmLXdfRjJjYUZKX0k4cXlmUDk4b2Q4MzF3YW5pcnNWNEFLREY4Mm4yTTc1NEVMc1NZM0FLM1JrNVZWYlRpUzROWFhRajZMNy1DUml5UVAzd0gtTGZ1Qk5VU0R0cW1iVjI1UDJGMEF2ek15M1R4VEk?oc=5",
   "source": "미 의회",
-  "published": "2026-10-17T07:00+09:00",
+  "published": "2026-10-17T08:42+09:00",
   "first_seen": "2026-10-17T07:30+09:00"
  },
  {
@@ -880,5 +880,33 @@
   "source": "신화통신",
   "published": "2026-10-17T01:00+09:00",
   "first_seen": "2026-10-17T12:38+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "중국에너지건설은 최근 두 회사와 계약을 체결하고 신에너지 분야 다분야 협력 계획을 논의했다",
+  "original": "中国能建近期与两家企业签约会谈 布局新能源多领域合作",
+  "url": "http://www.eeo.com.cn/2026/1017/1067812.shtml",
+  "source": "경제관찰보",
+  "published": "2026-10-17T13:07+09:00",
+  "first_seen": "2026-10-17T13:10+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "중국의 신에너지 수도는 얼마나 “유능”합나? 외국 언론인, 창저우 지능형 제조 방문-Xinhuanet",
+  "original": "中国新能源之都有多“能”？外国记者探访常州智造-新华网",
+  "url": "https://www.news.cn/fortune/20261017/c2f24f2ad0054eabbae7c21c73d23e9e/c.html",
+  "source": "신화통신",
+  "published": "2026-10-17T01:00+09:00",
+  "first_seen": "2026-10-17T13:10+09:00"
  }
 ]
