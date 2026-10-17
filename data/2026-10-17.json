@@ -1331,7 +1331,7 @@
  },
  {
   "section": "EV/ESS",
-  "tag": "기술",
+  "tag": "기업",
   "impact": "0",
   "key": false,
   "region": "",
@@ -1370,5 +1370,33 @@
   "source": "CleanTechnica",
   "published": "2026-10-17T23:51+09:00",
   "first_seen": "2026-10-18T00:08+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "정책",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "머스크와 갈등 빚던 올트먼도 신형 테슬라 로드스터 극찬",
+  "original": "",
+  "url": "https://www.g-enews.com/article/Global-Biz/2026/10/2026101722280764279a1f309431_1",
+  "source": "글로벌이코노믹",
+  "published": "2026-10-17T22:28+09:00",
+  "first_seen": "2026-10-18T02:06+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기술",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "테슬라, 신형 로드스터 공개 후 주가 2.13% 하락…장전 급등 반납",
+  "original": "",
+  "url": "https://www.g-enews.com/article/Global-Biz/2026/10/2026101720492927579a1f309431_1",
+  "source": "글로벌이코노믹",
+  "published": "2026-10-17T20:49+09:00",
+  "first_seen": "2026-10-18T02:06+09:00"
  }
 ]
