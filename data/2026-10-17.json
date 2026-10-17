@@ -796,5 +796,47 @@
   "source": "인민망",
   "published": "2026-10-17T01:00+09:00",
   "first_seen": "2026-10-17T10:21+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "안녕하세요 토론토! Waymo가 이동 중이다",
+  "original": "Hello Toronto! Waymo is En Route",
+  "url": "https://cleantechnica.com/2026/10/16/hello-toronto-waymo-is-en-route/",
+  "source": "CleanTechnica",
+  "published": "2026-10-17T10:43+09:00",
+  "first_seen": "2026-10-17T11:00+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "미국의 소규모 태양광 발전은 지난 10년 동안 4배 증가했다",
+  "original": "U.S. Small-Scale Solar Generation Has Quadrupled in the Last Decade",
+  "url": "https://cleantechnica.com/2026/10/16/u-s-small-scale-solar-generation-has-quadrupled-in-the-last-decade/",
+  "source": "CleanTechnica",
+  "published": "2026-10-17T10:32+09:00",
+  "first_seen": "2026-10-17T11:00+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "EU 장기 예산 위기: 10월 15~16일 EU 정상회담에서 주목해야 할 사항",
+  "original": "EU Long-Term Budget Crunch: What To Watch For At The EU Leaders’ Summit On 15-16 October",
+  "url": "https://cleantechnica.com/2026/10/16/eu-long-term-budget-crunch-what-to-watch-for-at-the-eu-leaders-summit-on-15-16-october/",
+  "source": "CleanTechnica",
+  "published": "2026-10-17T10:14+09:00",
+  "first_seen": "2026-10-17T11:00+09:00"
  }
 ]
