@@ -950,5 +950,33 @@
   "source": "제몐",
   "published": "2026-10-17T14:06+09:00",
   "first_seen": "2026-10-17T14:11+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "시장",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "중국남방그리드에너지저장소는 지난 5일 동안 주요 자금의 순유출을 경험했다. 순유출은 10월 16일에 명백히 나타났으며 현재 밸류에이션은 역사적으로 낮은 범위에 있다",
+  "original": "南网储能近5日主力资金净流出，10月16日净流出明显，当前估值处于历史低位区间",
+  "url": "http://www.eeo.com.cn/2026/1017/1068006.shtml",
+  "source": "경제관찰보",
+  "published": "2026-10-17T15:07+09:00",
+  "first_seen": "2026-10-17T15:13+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "산업",
+  "impact": "0",
+  "key": false,
+  "region": "EU",
+  "policy": "",
+  "title": "호주의 대규모 태양광 프로젝트, 연간 투자 결정 3.5GW 기록 달성",
+  "original": "Large-scale solar projects in Australia reach record 3.5 GW of annual investment decisions",
+  "url": "https://www.pv-magazine.com/2026/10/17/large-scale-solar-sets-annual-financial-investment-decision-record-at-3-5-gw/",
+  "source": "pv magazine",
+  "published": "2026-10-17T15:00+09:00",
+  "first_seen": "2026-10-17T15:13+09:00"
  }
 ]
