@@ -1331,7 +1331,7 @@
  },
  {
   "section": "EV/ESS",
-  "tag": "기술",
+  "tag": "기업",
   "impact": "0",
   "key": false,
   "region": "",
@@ -1435,7 +1435,7 @@
   "region": "",
   "policy": "",
   "title": "테슬라 '나는 로드스터'의 역설…대중차 시장은 중국 차지하나",
-  "original": "",
+  "original": "테슬라 '나는 로드스터'의 역설…대중차 시장은 중국이 차지하나",
   "url": "https://www.g-enews.com/article/Global-Biz/2026/10/2026101720035981529a1f309431_1",
   "source": "글로벌이코노믹",
   "published": "2026-10-17T20:03+09:00",
@@ -1482,5 +1482,19 @@
   "source": "글로벌이코노믹",
   "published": "2026-10-17T16:26+09:00",
   "first_seen": "2026-10-18T05:58+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "\"토요타 탈탄소 돕는다\"… 日 도호가스, 미쓰비시와 美 텍사스 태양광 첫 진출",
+  "original": "",
+  "url": "https://www.g-enews.com/article/Global-Biz/2026/10/2026101721490058810c8c1c064d_1",
+  "source": "글로벌이코노믹",
+  "published": "2026-10-17T21:49+09:00",
+  "first_seen": "2026-10-18T06:26+09:00"
  }
 ]
