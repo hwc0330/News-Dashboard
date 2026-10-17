@@ -978,5 +978,33 @@
   "source": "pv magazine",
   "published": "2026-10-17T15:00+09:00",
   "first_seen": "2026-10-17T15:13+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "정책",
+  "impact": "0",
+  "key": false,
+  "region": "EU",
+  "policy": "유럽",
+  "title": "네덜란드 규제 기관, 클라우드 제어 가정용 배터리에 대한 EU 사이버 격차 표시",
+  "original": "Dutch regulator flags EU cyber gap for cloud-controlled home batteries",
+  "url": "https://www.pv-magazine.com/2026/10/17/dutch-regulator-flags-eu-cyber-gap-for-cloud-controlled-home-batteries/",
+  "source": "pv magazine",
+  "published": "2026-10-17T16:00+09:00",
+  "first_seen": "2026-10-17T16:02+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "Xpeng, 중동 주문량이 3,000개를 초과함에 따라 GX 해외 배송 확대",
+  "original": "Xpeng expands GX shipments overseas as Middle East orders exceed 3,000",
+  "url": "https://cnevpost.com/2026/10/17/xpeng-expands-gx-shipments-overseas/",
+  "source": "CnEVPost",
+  "published": "2026-10-17T15:51+09:00",
+  "first_seen": "2026-10-17T16:02+09:00"
  }
 ]
