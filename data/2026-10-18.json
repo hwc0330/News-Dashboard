@@ -40,5 +40,19 @@
   "source": "더구루",
   "published": "2026-10-18T00:00+09:00",
   "first_seen": "2026-10-18T00:08+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "Grok Bot을 사용하여 스팸 전화 및 문자를 차단하는 방법",
+  "original": "How to use Grok Bot to block spam calls and texts",
+  "url": "https://www.teslarati.com/grok-bot-spam-call-text-scrubber-elon-musk/",
+  "source": "Teslarati",
+  "published": "2026-10-18T00:22+09:00",
+  "first_seen": "2026-10-18T00:40+09:00"
  }
 ]
