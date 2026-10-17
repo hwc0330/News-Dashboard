@@ -1090,5 +1090,61 @@
   "source": "글로벌이코노믹",
   "published": "2026-10-17T16:56+09:00",
   "first_seen": "2026-10-17T17:38+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "EU",
+  "policy": "",
+  "title": "Redwood는 Rivian 차량의 수명이 다한 배터리를 재활용한다",
+  "original": "Redwood to repurpose end-of-life batteries from Rivian vehicles",
+  "url": "https://www.electrive.com/2026/10/17/redwood-to-repurpose-end-of-life-batteries-from-rivian-vehicles/",
+  "source": "electrive",
+  "published": "2026-10-17T18:00+09:00",
+  "first_seen": "2026-10-17T18:06+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "산업",
+  "impact": "0",
+  "key": false,
+  "region": "EU",
+  "policy": "",
+  "title": "채용 그 이상: 여성을 태양광 발전에 계속 참여하게 만드는 요소",
+  "original": "Beyond recruitment: What really keeps women in solar",
+  "url": "https://www.pv-magazine.com/2026/10/17/beyond-recruitment-what-really-keeps-women-in-solar/",
+  "source": "pv magazine",
+  "published": "2026-10-17T18:00+09:00",
+  "first_seen": "2026-10-17T18:06+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기술",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "1조 달러 규모의 우주 태양광 트랙은 \"정확한 경계\"를 묘사하고 기술 수출 통제에 대한 새로운 규정을 자세히 설명한다",
+  "original": "太空光伏万亿赛道划定“精准边界”，详解技术出口管控新规",
+  "url": "https://m.21jingji.com/article/20261017/herald/db8177ee623b5247483b98aaf91176d2.html",
+  "source": "21세기경제보도",
+  "published": "2026-10-17T01:00+09:00",
+  "first_seen": "2026-10-17T18:06+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "시장",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "국제 에세이丨신에너지 자동차 판매를 통한 중국 에너지 전환의 세계 계몽-신화넷",
+  "original": "国际随笔丨从新能源车销量看中国能源转型的世界启示-新华网",
+  "url": "https://www.news.cn/world/20261017/1cf71333c589465bafe7b4bf8f84ac5b/c.html",
+  "source": "신화통신",
+  "published": "2026-10-17T01:00+09:00",
+  "first_seen": "2026-10-17T18:06+09:00"
  }
 ]
