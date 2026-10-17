@@ -1020,5 +1020,33 @@
   "source": "21세기경제보도",
   "published": "2026-10-17T01:00+09:00",
   "first_seen": "2026-10-17T16:37+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "EU",
+  "policy": "",
+  "title": "Wallbox는 몬트리올 공항에 120개의 EV 충전기를 설치했다",
+  "original": "Wallbox installs 120 EV chargers at Montréal airport",
+  "url": "https://www.electrive.com/2026/10/17/wallbox-installs-120-ev-chargers-at-montreal-airport/",
+  "source": "electrive",
+  "published": "2026-10-17T17:00+09:00",
+  "first_seen": "2026-10-17T17:04+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "EU",
+  "policy": "",
+  "title": "6년간의 테스트를 통해 코로나19 팬데믹 기간 동안 유지보수 감소가 PV 발전소 운영에 미치는 영향을 강조한다",
+  "original": "Six-year testing highlights impact of reduced maintenance on PV plant operation during COVID-19 pandemic",
+  "url": "https://www.pv-magazine.com/2026/10/17/six-year-testing-highlights-impact-of-reduced-maintenance-on-pv-plants-during-covid-19-pandemic/",
+  "source": "pv magazine",
+  "published": "2026-10-17T17:00+09:00",
+  "first_seen": "2026-10-17T17:04+09:00"
  }
 ]
