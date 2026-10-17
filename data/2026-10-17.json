@@ -850,7 +850,7 @@
   "original": "US Dollar Ends 4-Week Winning Streak, Metals Show Mixed Performance, LME Nickel Leads Gains, NY and SHFE Silver Fall Weekly, Crude Oil Climbs [Overnight Market]",
   "url": "https://news.metal.com/en/newscontent/104162943-us-dollar-ends-4-week-winning-streak-metals-show-mixed-performance-lme-nickel-leads-gains-ny-and-shfe-silver-fall-weekly-crude-oil-climbs-overnight-market",
   "source": "SMM",
-  "published": "2026-10-17T11:05+09:00",
+  "published": "2026-10-17T18:42+09:00",
   "first_seen": "2026-10-17T11:31+09:00"
  },
  {
@@ -1127,7 +1127,7 @@
   "region": "",
   "policy": "",
   "title": "1조 달러 규모의 우주 태양광 트랙은 \"정확한 경계\"를 묘사하고 기술 수출 통제에 대한 새로운 규정을 자세히 설명한다",
-  "original": "太空光伏万亿赛道划定“精准边界”，详解技术出口管控新规",
+  "original": "焦点 太空光伏万亿赛道划定“精准边界”，详解技术出口管控新规 宏观 1小时前",
   "url": "https://m.21jingji.com/article/20261017/herald/db8177ee623b5247483b98aaf91176d2.html",
   "source": "21세기경제보도",
   "published": "2026-10-17T01:00+09:00",
@@ -1160,5 +1160,47 @@
   "source": "pv magazine",
   "published": "2026-10-17T18:30+09:00",
   "first_seen": "2026-10-17T18:38+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "EU",
+  "policy": "",
+  "title": "GAC, FAW Toyota 지분 50% 인수",
+  "original": "GAC acquires 50 per cent of FAW Toyota",
+  "url": "https://www.electrive.com/2026/10/17/gac-acquires-50-per-cent-of-faw-toyota/",
+  "source": "electrive",
+  "published": "2026-10-17T19:00+09:00",
+  "first_seen": "2026-10-17T19:06+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "정책",
+  "impact": "0",
+  "key": true,
+  "region": "EU",
+  "policy": "미국",
+  "title": "큐셀, 가정용 태양광 패널 라인업을 위한 미국 국내 프레임 출시",
+  "original": "Qcells to introduce U.S. domestic frames for residential solar panel lineup",
+  "url": "https://www.pv-magazine.com/2026/10/17/qcells-to-introduce-u-s-domestic-frames-for-residential-solar-panel-lineup/",
+  "source": "pv magazine",
+  "published": "2026-10-17T18:50+09:00",
+  "first_seen": "2026-10-17T19:06+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "핵심 세단 리프레시가 계속되면서 BYD의 올 뉴 Han과 3세대 Qin Plus가 서류에 등장",
+  "original": "BYD's all-new Han and third-gen Qin Plus appear in filings as core sedan refresh continues",
+  "url": "https://cnevpost.com/2026/10/17/byd-all-new-han-third-gen-qin-plus-filings/",
+  "source": "CnEVPost",
+  "published": "2026-10-17T18:48+09:00",
+  "first_seen": "2026-10-17T19:06+09:00"
  }
 ]
