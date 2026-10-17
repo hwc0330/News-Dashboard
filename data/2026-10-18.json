@@ -166,5 +166,47 @@
   "source": "더구루",
   "published": "2026-10-18T06:00+09:00",
   "first_seen": "2026-10-18T06:26+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "정책",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "중국 전기차 생산비 2만 달러의 비결, 원자재부터 셀까지 수직통합",
+  "original": "",
+  "url": "https://www.g-enews.com/article/Global-Biz/2026/10/2026101807053325452bd56fbc3c_1",
+  "source": "글로벌이코노믹",
+  "published": "2026-10-18T07:05+09:00",
+  "first_seen": "2026-10-18T07:21+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "산업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "현대모비스, 튀르키예 배터리 공장에 현지 주지사 방문…전동화 협력 논의",
+  "original": "",
+  "url": "https://www.theguru.co.kr/news/article.html?no=108396",
+  "source": "더구루",
+  "published": "2026-10-18T07:00+09:00",
+  "first_seen": "2026-10-18T07:21+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "HD현대일렉트릭, 英 내셔널그리드에 초대형 변압기 3기 공급…데이터센터 전력망 확충",
+  "original": "",
+  "url": "https://www.theguru.co.kr/news/article.html?no=108397",
+  "source": "더구루",
+  "published": "2026-10-18T07:00+09:00",
+  "first_seen": "2026-10-18T07:21+09:00"
  }
 ]
