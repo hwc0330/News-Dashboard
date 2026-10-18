@@ -740,5 +740,33 @@
   "source": "InsideEVs",
   "published": "2026-10-18T23:00+09:00",
   "first_seen": "2026-10-18T23:12+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "Tiny Titan: EcoFlow의 새로운 가정용 배터리 시스템은 작게 시작된다",
+  "original": "Tiny Titan: new residential battery system from EcoFlow starts small",
+  "url": "https://electrek.co/2026/10/18/tiny-titan-new-residential-battery-system-from-ecoflow-starts-small/",
+  "source": "Electrek",
+  "published": "2026-10-18T23:42+09:00",
+  "first_seen": "2026-10-18T23:47+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "폭스바겐은 미국이 경제적 구원자가 될 수 있다고 생각한다. 파이프 드림을 쫓고 있는 걸까요?",
+  "original": "Volkswagen Thinks The US Could Be Its Economic Savior. Is It Chasing A Pipe Dream?",
+  "url": "https://cleantechnica.com/2026/10/18/volkswagen-thinks-the-us-could-be-its-economic-savior-is-it-chasing-a-pipe-dream/",
+  "source": "CleanTechnica",
+  "published": "2026-10-18T23:10+09:00",
+  "first_seen": "2026-10-18T23:47+09:00"
  }
 ]
