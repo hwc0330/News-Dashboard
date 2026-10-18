@@ -404,5 +404,33 @@
   "source": "신화통신",
   "published": "2026-10-18T01:00+09:00",
   "first_seen": "2026-10-18T13:13+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "Sungrow의 무접점 변압기, OCP Summit 800V DC 전원 공급 장치 랜딩 컴퓨팅 전력 시나리오에서 데뷔",
+  "original": "阳光电源固态变压器亮相OCP峰会 800V直流供电落地算力场景",
+  "url": "http://www.eeo.com.cn/2026/1018/1068849.shtml",
+  "source": "경제관찰보",
+  "published": "2026-10-18T13:35+09:00",
+  "first_seen": "2026-10-18T13:51+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "시장",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "테슬라는 다음주 실적을 발표할 예정이다",
+  "original": "下周，特斯拉将发布财报",
+  "url": "https://m.21jingji.com/article/20261018/herald/0e5e5b91f5dd0115ff47c2a20313c3ef.html",
+  "source": "21세기경제보도",
+  "published": "2026-10-18T01:00+09:00",
+  "first_seen": "2026-10-18T13:51+09:00"
  }
 ]
