@@ -572,5 +572,19 @@
   "source": "SMM",
   "published": "2026-10-18T19:04+09:00",
   "first_seen": "2026-10-18T19:12+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기술",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "연구원들은 처음으로 블랙홀 근처에서 태양 폭풍과 같은 폭발을 관찰한다",
+  "original": "Researchers for 1st time observe solar-storm-like eruptions near black hole",
+  "url": "https://english.news.cn/20261018/94e515593ef049e19ee73b2a21a3dc32/c.html",
+  "source": "신화통신",
+  "published": "2026-10-18T01:00+09:00",
+  "first_seen": "2026-10-18T19:47+09:00"
  }
 ]
