@@ -712,5 +712,33 @@
   "source": "Electrek",
   "published": "2026-10-18T22:38+09:00",
   "first_seen": "2026-10-18T22:49+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "Tesla는 새로운 사고 방지 자동화를 구현하지만 수백만 명의 Tesla 고객이 이에 액세스할 수 없다",
+  "original": "Tesla Implements New Accident-Avoidance Automation, But Millions of Tesla Customers Don’t Have Access To It",
+  "url": "https://cleantechnica.com/2026/10/18/tesla-implements-new-accident-avoidance-automation-but-millions-of-tesla-customers-dont-have-access-to-it/",
+  "source": "CleanTechnica",
+  "published": "2026-10-18T23:04+09:00",
+  "first_seen": "2026-10-18T23:12+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "연결되지 않는 플러그인 하이브리드 문제를 해결하려면? 더 작은 가스 탱크, 새로운 보고서 주장",
+  "original": "The Fix For Plug-In Hybrids That Don't Get Plugged In? Smaller Gas Tanks, New Report Argues",
+  "url": "https://insideevs.com/news/812076/phevs-with-smaller-tanks-proposed/",
+  "source": "InsideEVs",
+  "published": "2026-10-18T23:00+09:00",
+  "first_seen": "2026-10-18T23:12+09:00"
  }
 ]
