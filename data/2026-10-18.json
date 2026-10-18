@@ -673,7 +673,7 @@
  },
  {
   "section": "EV/ESS",
-  "tag": "자원",
+  "tag": "기업",
   "impact": "0",
   "key": false,
   "region": "",
@@ -782,5 +782,47 @@
   "source": "글로벌이코노믹",
   "published": "2026-10-18T19:40+09:00",
   "first_seen": "2026-10-19T03:38+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "운전자 잠들었다는 테슬라, 경찰차 충돌…경찰관 2명 중상",
+  "original": "",
+  "url": "https://www.g-enews.com/article/Global-Biz/2026/10/2026101821470799939a1f309431_1",
+  "source": "글로벌이코노믹",
+  "published": "2026-10-18T21:47+09:00",
+  "first_seen": "2026-10-19T04:06+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "美 전기차 충전 여건 지역별 최대 9배 격차…보급 속도도 둔화",
+  "original": "",
+  "url": "https://www.g-enews.com/article/Global-Biz/2026/10/2026101821331083829a1f309431_1",
+  "source": "글로벌이코노믹",
+  "published": "2026-10-18T21:33+09:00",
+  "first_seen": "2026-10-19T04:06+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "시장",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "中 시내버스 전기차 전환 사실상 완료…대형트럭도 29% 육박",
+  "original": "",
+  "url": "https://www.g-enews.com/article/Global-Biz/2026/10/202610182118414729a1f309431_1",
+  "source": "글로벌이코노믹",
+  "published": "2026-10-18T21:18+09:00",
+  "first_seen": "2026-10-19T04:06+09:00"
  }
 ]
