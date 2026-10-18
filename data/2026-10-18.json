@@ -628,5 +628,33 @@
   "source": "21세기경제보도",
   "published": "2026-10-18T01:00+09:00",
   "first_seen": "2026-10-18T21:06+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기술",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "SK온, LFP 배터리 제조원가 낮추는 공정 기술 개발",
+  "original": "",
+  "url": "https://www.thelec.kr/news/articleView.html?idxno=63873",
+  "source": "디일렉",
+  "published": "2026-10-18T21:40+09:00",
+  "first_seen": "2026-10-18T21:44+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "기자 노트丨'호기심'에서 '인식'으로 - 중국 신에너지 자동차가 유럽 소비자에게 다가온다",
+  "original": "记者手记丨从“好奇”到“认可”——中国新能源汽车走近欧洲消费者",
+  "url": "http://intl.ce.cn/sjjj/qy/202610/t20261018_3261843.shtml",
+  "source": "경제일보",
+  "published": "2026-10-18T01:00+09:00",
+  "first_seen": "2026-10-18T21:44+09:00"
  }
 ]
