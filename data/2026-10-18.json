@@ -376,5 +376,33 @@
   "source": "21세기경제보도",
   "published": "2026-10-18T01:00+09:00",
   "first_seen": "2026-10-18T11:36+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "다음 주의 주요 의제: 중국의 GDP, 금융 거리 포럼 및 APEC 재무 장관 회의, Nvidia GTC, Tesla Meta 및 CATL 재무 보고서",
+  "original": "下周重磅日程：中国GDP、金融街论坛与APEC财长会、英伟达GTC、特斯拉Meta与宁德时代财报",
+  "url": "https://wallstreetcn.com/articles/3783759",
+  "source": "화얼제젠원",
+  "published": "2026-10-18T12:44+09:00",
+  "first_seen": "2026-10-18T13:13+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기술",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "기자 노트丨'호기심'에서 '인식'으로 - 중국의 신에너지 자동차가 유럽 소비자에게 다가온다 - Xinhuanet",
+  "original": "记者手记丨从“好奇”到“认可”——中国新能源汽车走近欧洲消费者-新华网",
+  "url": "https://www.news.cn/world/20261018/6ffef821a6b3444b9bafd8a3781d881b/c.html",
+  "source": "신화통신",
+  "published": "2026-10-18T01:00+09:00",
+  "first_seen": "2026-10-18T13:13+09:00"
  }
 ]
