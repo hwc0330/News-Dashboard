@@ -1,5 +1,55 @@
 [
  {
+  "id": 11373,
+  "date": "10월 19일 월요일",
+  "posted": "2026-10-19T07:58+09:00",
+  "url": "https://t.me/cjdbj/11373",
+  "items": [
+   {
+    "section": "배터리 셀/소재/광물",
+    "tag": "기술",
+    "title": "SK온, LFP 양극 CNT 페이스트를 분말로 대체…원가 절감",
+    "source": "디일렉",
+    "url": "https://han.gl/lNQb3"
+   },
+   {
+    "section": "배터리 셀/소재/광물",
+    "tag": "기업",
+    "title": "GM, 미시간에 9억달러 배터리 셀 개발센터…연 4~5GWh",
+    "source": "더구루",
+    "url": "https://han.gl/NagVw"
+   },
+   {
+    "section": "배터리 셀/소재/광물",
+    "tag": "기업",
+    "title": "테슬라 로드스터, 알루미늄 케이스 4680에 양면 냉각",
+    "source": "화얼제젠원",
+    "url": "https://han.gl/YyeUe"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "정책",
+    "title": "EU 정상, 중국 겨냥 신규 무역제재 권한 요청…869개 품목 검토",
+    "source": "더구루",
+    "url": "https://han.gl/nMySG"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "정책",
+    "title": "독일·프랑스, 2035년 신차 CO₂ 90% 감축 제안…유럽산 요건 강화",
+    "source": "electrive",
+    "url": "https://han.gl/Um2bi"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "정책",
+    "title": "EU 산업가속화법, 유럽산 인정 범위 쟁점…한국산 포함 여부 주목",
+    "source": "더구루",
+    "url": "https://han.gl/obGGB"
+   }
+  ]
+ },
+ {
   "id": 11370,
   "date": "10월 15일 목요일",
   "posted": "2026-10-15T07:51+09:00",
@@ -3914,35 +3964,6 @@
     "title": "웨이모, 내슈빌서 로보택시 서비스 개시",
     "source": "디지털 투데이",
     "url": "https://han.gl/dw9Qb"
-   }
-  ]
- },
- {
-  "id": 10788,
-  "date": "4월 8일 수요일",
-  "posted": "2026-04-08T08:31+09:00",
-  "url": "https://t.me/cjdbj/10788",
-  "items": [
-   {
-    "section": "배터리 셀/소재/광물",
-    "tag": "정책",
-    "title": "아르헨티나, 포스코 리튬 투자에 대규모 인센티브 승인 임박",
-    "source": "KPI 뉴스",
-    "url": "https://han.gl/S9Rz3"
-   },
-   {
-    "section": "EV/ESS",
-    "tag": "기술",
-    "title": "테슬라, FSD v14.3 공개",
-    "source": "Electrek",
-    "url": "https://han.gl/dgFmx"
-   },
-   {
-    "section": "EV/ESS",
-    "tag": "정책",
-    "title": "미시간, 2026년 EV 충전 인프라 계획 승인",
-    "source": "elctrive",
-    "url": "https://han.gl/daMC5"
    }
   ]
  }
