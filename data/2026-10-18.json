@@ -474,5 +474,47 @@
   "source": "Reuters",
   "published": "2026-10-18T16:11+09:00",
   "first_seen": "2026-10-18T16:15+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "9월 중국 태양광 패널 수출 부진 연장",
+  "original": "China's solar panel exports extend slump in September",
+  "url": "https://www.reuters.com/business/energy/chinas-solar-panel-exports-extend-slump-september-2026-10-18/",
+  "source": "Reuters",
+  "published": "2026-10-18T16:35+09:00",
+  "first_seen": "2026-10-18T16:48+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "전기차가 주차되어 있는데 번호판은 가려져 있다? 광저우 교통경찰: 벌금!",
+  "original": "电动车停着，号牌遮挡着？广州交警：罚！",
+  "url": "https://m.21jingji.com/article/20261018/herald/5f9142e1fcf93b1f3a7d22a99120bdef.html",
+  "source": "21세기경제보도",
+  "published": "2026-10-18T01:00+09:00",
+  "first_seen": "2026-10-18T16:48+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기술",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "기자 노트丨'호기심'에서 '인식'으로 - 중국의 신에너지차가 유럽 소비자에게 다가온다",
+  "original": "记者手记丨从“好奇”到“认可”——中国新能源汽车走近欧洲消费者",
+  "url": "https://www.cs.com.cn/xwzx/01/2026/10/18/detail_2026101810045333.html",
+  "source": "중국증권보",
+  "published": "2026-10-18T01:00+09:00",
+  "first_seen": "2026-10-18T16:48+09:00"
  }
 ]
