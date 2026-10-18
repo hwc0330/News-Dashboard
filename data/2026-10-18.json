@@ -673,7 +673,7 @@
  },
  {
   "section": "EV/ESS",
-  "tag": "기업",
+  "tag": "자원",
   "impact": "0",
   "key": false,
   "region": "",
@@ -768,5 +768,19 @@
   "source": "CleanTechnica",
   "published": "2026-10-18T23:10+09:00",
   "first_seen": "2026-10-18T23:47+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기술",
+  "impact": "+",
+  "key": false,
+  "region": "",
+  "policy": "중국",
+  "title": "중국, 태양광 제조 기술 12종 수출 통제 제안…금지·제한 이원화",
+  "original": "",
+  "url": "https://www.g-enews.com/article/Global-Biz/2026/10/2026101819402817202bd56fbc3c_1",
+  "source": "글로벌이코노믹",
+  "published": "2026-10-18T19:40+09:00",
+  "first_seen": "2026-10-19T03:38+09:00"
  }
 ]
