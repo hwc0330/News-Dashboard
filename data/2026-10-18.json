@@ -1,5 +1,19 @@
 [
  {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "미국 달러가 4주 연속 상승세를 마감하고, 금속이 엇갈린 성과를 보이고, LME 니켈이 상승을 주도하고, NY 및 SHFE 은 주간 하락, 원유 상승 [밤새 시장]",
+  "original": "US Dollar Ends 4-Week Winning Streak, Metals Show Mixed Performance, LME Nickel Leads Gains, NY and SHFE Silver Fall Weekly, Crude Oil Climbs [Overnight Market]",
+  "url": "https://news.metal.com/en/newscontent/104162943-us-dollar-ends-4-week-winning-streak-metals-show-mixed-performance-lme-nickel-leads-gains-ny-and-shfe-silver-fall-weekly-crude-oil-climbs-overnight-market",
+  "source": "SMM",
+  "published": "2026-10-18T10:23+09:00",
+  "first_seen": "2026-10-17T11:31+09:00"
+ },
+ {
   "section": "EV/ESS",
   "tag": "시장",
   "impact": "0",
@@ -308,20 +322,6 @@
   "first_seen": "2026-10-18T09:49+09:00"
  },
  {
-  "section": "배터리 셀/소재/광물",
-  "tag": "기업",
-  "impact": "0",
-  "key": false,
-  "region": "",
-  "policy": "",
-  "title": "미국 달러가 4주 연속 상승세를 마감하고, 금속이 엇갈린 성과를 보이고, LME 니켈이 상승을 주도하고, NY 및 SHFE 은 주간 하락, 원유 상승 [밤새 시장]",
-  "original": "US Dollar Ends 4-Week Winning Streak, Metals Show Mixed Performance, LME Nickel Leads Gains, NY and SHFE Silver Fall Weekly, Crude Oil Climbs [Overnight Market]",
-  "url": "https://news.metal.com/en/newscontent/104162943-us-dollar-ends-4-week-winning-streak-metals-show-mixed-performance-lme-nickel-leads-gains-ny-and-shfe-silver-fall-weekly-crude-oil-climbs-overnight-market",
-  "source": "SMM",
-  "published": "2026-10-18T10:23+09:00",
-  "first_seen": "2026-10-17T11:31+09:00"
- },
- {
   "section": "EV/ESS",
   "tag": "시장",
   "impact": "0",
@@ -334,5 +334,33 @@
   "source": "인민망",
   "published": "2026-10-18T01:00+09:00",
   "first_seen": "2026-10-18T10:23+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "산업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "50만 일손 멎은 美 건설판… 팹·배터리 공장이 '통째 조립'으로 눈 돌린 내막",
+  "original": "",
+  "url": "https://www.g-enews.com/article/Global-Biz/2026/10/202610181044208132fbbec65dfb_1",
+  "source": "글로벌이코노믹",
+  "published": "2026-10-18T10:44+09:00",
+  "first_seen": "2026-10-18T11:00+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "다음 주 외부 시장에서 주목해야 할 사항 丨 유럽과 미국 PMI가 금리 인상을 자극 할 수 있음, Meta Tesla의 최신 재무 보고서 공개",
+  "original": "下周外盘看点丨欧美PMI或搅动加息格局，Meta特斯拉最新财报亮相",
+  "url": "https://www.yicai.com/news/103397818.html",
+  "source": "제일재경",
+  "published": "2026-10-18T10:26+09:00",
+  "first_seen": "2026-10-18T11:00+09:00"
  }
 ]
