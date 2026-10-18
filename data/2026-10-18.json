@@ -421,7 +421,7 @@
  },
  {
   "section": "EV/ESS",
-  "tag": "기업",
+  "tag": "시장",
   "impact": "0",
   "key": false,
   "region": "",
@@ -446,5 +446,19 @@
   "source": "CnEVPost",
   "published": "2026-10-18T14:47+09:00",
   "first_seen": "2026-10-18T14:56+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "중국",
+  "title": "중국, 태양광 제조 기술 수출 통제 제안",
+  "original": "China proposes export controls on solar-manufacturing technologies",
+  "url": "https://www.reuters.com/business/autos-transportation/china-proposes-export-controls-solar-manufacturing-technologies-2026-10-18/",
+  "source": "Reuters",
+  "published": "2026-10-18T15:22+09:00",
+  "first_seen": "2026-10-18T15:31+09:00"
  }
 ]
