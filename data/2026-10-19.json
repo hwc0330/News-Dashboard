@@ -12,5 +12,33 @@
   "source": "Electrek",
   "published": "2026-10-19T00:17+09:00",
   "first_seen": "2026-10-19T00:41+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "정책",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "TechCrunch Mobility: Rivian의 다음 행동",
+  "original": "TechCrunch Mobility: Rivian’s next act",
+  "url": "https://techcrunch.com/2026/10/18/techcrunch-mobility-rivians-next-act/",
+  "source": "TechCrunch",
+  "published": "2026-10-19T01:05+09:00",
+  "first_seen": "2026-10-19T01:08+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "전기화가 변화하는 에너지 안보의 의미",
+  "original": "Electrification Changes What Energy Security Means",
+  "url": "https://cleantechnica.com/2026/10/18/globalization-electrification-energy-security/",
+  "source": "CleanTechnica",
+  "published": "2026-10-19T00:59+09:00",
+  "first_seen": "2026-10-19T01:08+09:00"
  }
 ]
