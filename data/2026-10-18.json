@@ -388,7 +388,7 @@
   "original": "下周重磅日程：中国GDP、金融街论坛与APEC财长会、英伟达GTC、特斯拉Meta与宁德时代财报",
   "url": "https://wallstreetcn.com/articles/3783759",
   "source": "화얼제젠원",
-  "published": "2026-10-18T12:44+09:00",
+  "published": "2026-10-18T20:56+09:00",
   "first_seen": "2026-10-18T13:13+09:00"
  },
  {
@@ -586,5 +586,47 @@
   "source": "신화통신",
   "published": "2026-10-18T01:00+09:00",
   "first_seen": "2026-10-18T19:47+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "전기 자동차 충전기 또는 비행 자동차? Tesla와 플로리다주는 결정할 수 없다",
+  "original": "Electric Vehicle Chargers Or Flying Cars? Tesla And The State Of Florida Can’t Decide",
+  "url": "https://cleantechnica.com/2026/10/18/electric-vehicle-chargers-or-flying-cars-tesla-and-the-state-of-florida-cant-decide/",
+  "source": "CleanTechnica",
+  "published": "2026-10-18T20:42+09:00",
+  "first_seen": "2026-10-18T21:06+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "9월 전기차 수출물량 및 가격 2배 증가, 노동집약적 제품 수출 꾸준히 반등|월간 무역보고서",
+  "original": "9月电动汽车出口量价翻番 劳动密集型产品出口稳定回升｜贸易月报",
+  "url": "https://companies.caixin.com/2026-10-18/102494579.html",
+  "source": "차이신",
+  "published": "2026-10-18T01:00+09:00",
+  "first_seen": "2026-10-18T21:06+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기술",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "Shenghe Resources는 4개 희토류 제련 회사의 지분 51%를 양도하고 중국 희토류 그룹과 협력을 심화할 계획이다",
+  "original": "盛和资源拟转让4家稀土冶炼企业51%股权 携手中国稀土集团深化合作",
+  "url": "https://m.21jingji.com/article/20261018/herald/a2b58d9644fa4dae853f3058e629e5bf.html",
+  "source": "21세기경제보도",
+  "published": "2026-10-18T01:00+09:00",
+  "first_seen": "2026-10-18T21:06+09:00"
  }
 ]
