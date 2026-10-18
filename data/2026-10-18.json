@@ -530,5 +530,33 @@
   "source": "21세기경제보도",
   "published": "2026-10-18T01:00+09:00",
   "first_seen": "2026-10-18T17:11+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "Shenghe Resources: 회사의 희토류 제련 및 분리 사업 지분 일부를 China Rare Development로 이전할 계획",
+  "original": "盛和资源：拟将公司稀土冶炼分离业务的部分股权转让给中稀发展",
+  "url": "https://www.yicai.com/news/103397937.html",
+  "source": "제일재경",
+  "published": "2026-10-18T18:45+09:00",
+  "first_seen": "2026-10-18T18:49+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "중국",
+  "title": "스리랑카의 국가 전력망 운영업체는 1개월 이내에 전국적인 정전 조사를 완료하겠다고 약속했다",
+  "original": "Sri Lanka's national grid operator vows to complete probe into nationwide power outage within 1 month",
+  "url": "https://english.news.cn/20261018/4a476efd8739452a98a1376463038af3/c.html",
+  "source": "신화통신",
+  "published": "2026-10-18T01:00+09:00",
+  "first_seen": "2026-10-18T18:49+09:00"
  }
 ]
