@@ -656,5 +656,47 @@
   "source": "경제일보",
   "published": "2026-10-18T01:00+09:00",
   "first_seen": "2026-10-18T21:44+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "VW는 소유자가 거부하지 않는 한 이번 주에 일부 ID.4 배터리의 충전을 80%로 자동 제한한다",
+  "original": "VW Will Automatically Limit Some ID.4 Batteries To 80% Charge This Week Unless Owners Opt Out",
+  "url": "https://insideevs.com/news/812129/vw-id4-charge-limit-80/",
+  "source": "InsideEVs",
+  "published": "2026-10-18T22:00+09:00",
+  "first_seen": "2026-10-18T22:18+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "자원",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "내일은 BYD, 테슬라, 그리고 애플의 '작은 파트너'들이 온다",
+  "original": "明天，比亚迪、特斯拉、苹果的“小伙伴”来了",
+  "url": "https://m.21jingji.com/article/20261018/herald/9e3cf389477a35a18978eeb25435d5ef.html",
+  "source": "21세기경제보도",
+  "published": "2026-10-18T01:00+09:00",
+  "first_seen": "2026-10-18T22:18+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "Shenghe Resources: 4개의 희토류 제련 및 분리 회사 각각의 지분 51%를 RMB 16억5천750만~18억1천500만 달러에 중국 희토류 개발에 양도할 계획",
+  "original": "盛和资源：拟16.575亿至18.105亿元向中稀发展转让4家稀土冶炼分离企业各51%股权",
+  "url": "https://m.21jingji.com/article/20261018/herald/1ad85207629a329afe0ff480096b8aab.html",
+  "source": "21세기경제보도",
+  "published": "2026-10-18T01:00+09:00",
+  "first_seen": "2026-10-18T22:18+09:00"
  }
 ]
