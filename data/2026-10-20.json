@@ -558,5 +558,47 @@
   "source": "Electrek",
   "published": "2026-10-20T05:55+09:00",
   "first_seen": "2026-10-20T06:27+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "화웨이-CATL, 99초 자동 배터리 교환 생태계 동맹 구축",
+  "original": "",
+  "url": "https://www.g-enews.com/article/Global-Biz/2026/10/2026102006393934902bd56fbc3c_1",
+  "source": "글로벌이코노믹",
+  "published": "2026-10-20T06:39+09:00",
+  "first_seen": "2026-10-20T07:01+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "정책",
+  "impact": "+",
+  "key": true,
+  "region": "",
+  "policy": "중국",
+  "title": "중국, 영국에 전기차 규제 보복 경고…EU 관세 동참 딜레마",
+  "original": "",
+  "url": "https://www.g-enews.com/article/Global-Biz/2026/10/2026102006245255882bd56fbc3c_1",
+  "source": "글로벌이코노믹",
+  "published": "2026-10-20T06:24+09:00",
+  "first_seen": "2026-10-20T07:01+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "러시아의 '하이브리드 전쟁',  문턱 넘어 더 노골적으로… 유럽은 대응 강화, 미국은 혼선",
+  "original": "",
+  "url": "https://www.g-enews.com/article/Global-Biz/2026/10/20261020061637360720990b2dc5_1",
+  "source": "글로벌이코노믹",
+  "published": "2026-10-20T06:16+09:00",
+  "first_seen": "2026-10-20T07:01+09:00"
  }
 ]
