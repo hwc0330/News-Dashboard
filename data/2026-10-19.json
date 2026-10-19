@@ -3428,5 +3428,33 @@
   "source": "Utility Dive",
   "published": "2026-10-19T22:54+09:00",
   "first_seen": "2026-10-20T00:41+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "FERC, ISO-NE '자산 조건' 전송 검토 프로세스 승인",
+  "original": "FERC approves ISO-NE ‘asset condition’ transmission review process",
+  "url": "https://www.utilitydive.com/news/ferc-iso-ne-asset-condition-transmission-review/833328/",
+  "source": "Utility Dive",
+  "published": "2026-10-19T22:20+09:00",
+  "first_seen": "2026-10-20T01:17+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "미국의 AI 붐이 사라지고 있다",
+  "original": "America’s AI Boom Is Coming Apart",
+  "url": "https://heatmap.news/am/ai-boom-fraying",
+  "source": "Heatmap",
+  "published": "2026-10-19T21:12+09:00",
+  "first_seen": "2026-10-20T01:17+09:00"
  }
 ]
