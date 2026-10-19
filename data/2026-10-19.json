@@ -1,5 +1,19 @@
 [
  {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "미국 달러가 4주 연속 상승세를 마감하고, 금속이 엇갈린 성과를 보이고, LME 니켈이 상승을 주도하고, NY 및 SHFE 은 주간 하락, 원유 상승 [밤새 시장]",
+  "original": "US Dollar Ends 4-Week Winning Streak, Metals Show Mixed Performance, LME Nickel Leads Gains, NY and SHFE Silver Fall Weekly, Crude Oil Climbs [Overnight Market]",
+  "url": "https://news.metal.com/en/newscontent/104162943-us-dollar-ends-4-week-winning-streak-metals-show-mixed-performance-lme-nickel-leads-gains-ny-and-shfe-silver-fall-weekly-crude-oil-climbs-overnight-market",
+  "source": "SMM",
+  "published": "2026-10-19T09:21+09:00",
+  "first_seen": "2026-10-17T11:31+09:00"
+ },
+ {
   "section": "EV/ESS",
   "tag": "기업",
   "impact": "0",
@@ -336,20 +350,6 @@
   "first_seen": "2026-10-19T09:34+09:00"
  },
  {
-  "section": "배터리 셀/소재/광물",
-  "tag": "기업",
-  "impact": "0",
-  "key": false,
-  "region": "",
-  "policy": "",
-  "title": "미국 달러가 4주 연속 상승세를 마감하고, 금속이 엇갈린 성과를 보이고, LME 니켈이 상승을 주도하고, NY 및 SHFE 은 주간 하락, 원유 상승 [밤새 시장]",
-  "original": "US Dollar Ends 4-Week Winning Streak, Metals Show Mixed Performance, LME Nickel Leads Gains, NY and SHFE Silver Fall Weekly, Crude Oil Climbs [Overnight Market]",
-  "url": "https://news.metal.com/en/newscontent/104162943-us-dollar-ends-4-week-winning-streak-metals-show-mixed-performance-lme-nickel-leads-gains-ny-and-shfe-silver-fall-weekly-crude-oil-climbs-overnight-market",
-  "source": "SMM",
-  "published": "2026-10-19T09:21+09:00",
-  "first_seen": "2026-10-17T11:31+09:00"
- },
- {
   "section": "EV/ESS",
   "tag": "기업",
   "impact": "0",
@@ -404,5 +404,89 @@
   "source": "21세기경제보도",
   "published": "2026-10-19T01:00+09:00",
   "first_seen": "2026-10-19T09:34+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "EU",
+  "policy": "",
+  "title": "호주 Deakin University의 납산 배터리 저장 시스템 파일럿에 ArcActive 스위치 적용",
+  "original": "ArcActive switches on lead-acid battery storage system pilot at Deakin University in Australia",
+  "url": "https://www.energy-storage.news/arcactive-switches-on-lead-acid-battery-storage-system-pilot-at-deakin-university-in-australia/",
+  "source": "Energy-Storage.news",
+  "published": "2026-10-19T10:11+09:00",
+  "first_seen": "2026-10-19T10:17+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "Cobalt Blue Holdings, 구매 기간 시트로 Kwinana 발전",
+  "original": "Cobalt Blue Holdings Advances Kwinana With Offtake Term Sheet",
+  "url": "https://www.reuters.com/site-search/?query=Cobalt%20Blue%20Holdings%20Advances%20Kwinana%20With%20Offtake%20Term%20Sheet",
+  "source": "Reuters",
+  "published": "2026-10-19T10:03+09:00",
+  "first_seen": "2026-10-19T10:17+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "시장",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "9월 전원 배터리 설치 상위 15개: 상위 5개 잠김, 치열한 전투의 2위, 목록에 새로 추가된 1개",
+  "original": "September Power Battery Installations Top 15: Top 5 Locked In, Second Tier in Fierce Battle, One Newcomer on the List",
+  "url": "https://news.metal.com/en/newscontent/104162994-september-power-battery-installations-top-15-top-5-locked-in-second-tier-in-fierce-battle-one-newcomer-on-the-list",
+  "source": "SMM",
+  "published": "2026-10-19T09:38+09:00",
+  "first_seen": "2026-10-19T10:17+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기업",
+  "impact": "-",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "'배터리 열폭주 공포' 폭스바겐, 유럽서 대규모 리콜 수순…전동화 라인업 전반 '비상'",
+  "original": "",
+  "url": "https://www.theguru.co.kr/news/article.html?no=108404",
+  "source": "더구루",
+  "published": "2026-10-19T09:37+09:00",
+  "first_seen": "2026-10-19T10:17+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기술",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "중국",
+  "title": "T모닝포스트 | DeepSeek는 V4.1 Flash의 새 버전을 출시한다. 중국은 AI, 태양광발전, 바이오의학 등 3개 분야에서 40개 기술의 수출을 제한하거나 금지한다. 트럼프, 백악관이 우크라이나의 스타링크 사용을 제한했다는 사실 부인",
+  "original": "T早报｜DeepSeek发布V4.1 Flash新版本；中国限制或禁止出口AI，光伏，生物医药三领域40项技术；特朗普否认白宫限制乌克兰使用星链",
+  "url": "https://www.caixin.com/2026-10-19/102494598.html",
+  "source": "차이신",
+  "published": "2026-10-19T01:00+09:00",
+  "first_seen": "2026-10-19T10:17+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기술",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "중국",
+  "title": "T모닝포스트 | DeepSeek는 V4.1 Flash의 새 버전을 출시한다. 중국은 AI, 태양광발전, 바이오의학 등 3개 분야에서 40개 기술의 수출을 제한하거나 금지한다. 트럼프, 백악관이 우크라이나의 스타링크 사용을 제한했다는 사실 부인",
+  "original": "T早报｜DeepSeek发布V4.1 Flash新版本；中国限制或禁止出口AI，光伏，生物医药三领域40项技术；特朗普否认白宫限制乌克兰使用星链",
+  "url": "https://companies.caixin.com/2026-10-19/102494601.html",
+  "source": "차이신",
+  "published": "2026-10-19T01:00+09:00",
+  "first_seen": "2026-10-19T10:17+09:00"
  }
 ]
