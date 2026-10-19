@@ -3456,5 +3456,19 @@
   "source": "Heatmap",
   "published": "2026-10-19T21:12+09:00",
   "first_seen": "2026-10-20T01:17+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "라플라스 인텔리전스 (Laplace Intelligence) 는 로봇과 자율 주행 자동차가 실제 세계에 도달하기 전에 빨간색 팀을 구성한다",
+  "original": "Laplace Intelligence red-teams robots and self-driving cars before they hit the real world",
+  "url": "https://techcrunch.com/2026/10/19/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world/",
+  "source": "TechCrunch",
+  "published": "2026-10-19T21:30+09:00",
+  "first_seen": "2026-10-20T03:07+09:00"
  }
 ]

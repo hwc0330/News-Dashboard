@@ -1,7 +1,7 @@
 {
 "congress": 119,
-"checked": "2026-10-19T11:57+00:00",
-"updated": "2026-10-19T20:57+09:00",
+"checked": "2026-10-19T18:07+00:00",
+"updated": "2026-10-20T03:07+09:00",
 "topics": [
 "전기차 세액공제",
 "배터리·제조",
@@ -24,7 +24,7 @@
 "number": "10834",
 "label": "H.R. 10834",
 "chamber": "하원",
-"title": "To require the Administrator of the National Highway Traffic Safety Administration to initiate a process to reevaluate corporate average fuel economy standards, and for other purposes.",
+"title": "Gas Money Saved Act",
 "full": "",
 "official": "To require the Administrator of the National Highway Traffic Safety Administration to initiate a process to reevaluate corporate average fuel economy standards.",
 "official_ko": "미국 도로교통안전국(National Highway Traffic Safety Administration)의 관리자에게 기업의 평균 연비 표준을 재평가하는 프로세스를 시작하도록 요구합니다.",
@@ -53,7 +53,7 @@
 "china": false,
 "summary": "",
 "summary_ko": "",
-"updated": "2026-10-16T08:05:49Z"
+"updated": "2026-10-19T16:23:20Z"
 },
 {
 "id": "119-hr10681",
