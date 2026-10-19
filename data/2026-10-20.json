@@ -222,5 +222,47 @@
   "source": "Reuters",
   "published": "2026-10-20T00:17+09:00",
   "first_seen": "2026-10-20T01:58+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "Android Auto로 내 EV 로드트립을 계획할 수 있다. 작동 방식은 다음과 같다",
+  "original": "I Let Android Auto Plan My EV Roadtrip. Here’s How It Worked",
+  "url": "https://insideevs.com/news/812134/android-auto-google-maps-ev-route-planning-lexus/",
+  "source": "InsideEVs",
+  "published": "2026-10-20T02:17+09:00",
+  "first_seen": "2026-10-20T02:32+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "볼보, 글로벌 장비 수요 충족 위해 광산 사업부 출범",
+  "original": "Volvo to launch mining division to meet global equipment demand",
+  "url": "https://www.mining.com/volvo-to-launch-a-mining-division-to-meet-global-equipment-demand/",
+  "source": "MINING.COM",
+  "published": "2026-10-20T02:13+09:00",
+  "first_seen": "2026-10-20T02:32+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "EU",
+  "policy": "",
+  "title": "MyFirstEV 리베이트 덕분에 캘리포니아 주민 약 12,000명이 EV로 전환",
+  "original": "Nearly 12,000 Californians switch to EVs thanks to MyFirstEV rebate",
+  "url": "https://www.electrive.com/2026/10/19/nearly-12000-californians-switch-to-evs-thanks-to-myfirstev-rebate/",
+  "source": "electrive",
+  "published": "2026-10-20T02:00+09:00",
+  "first_seen": "2026-10-20T02:32+09:00"
  }
 ]
