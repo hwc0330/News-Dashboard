@@ -362,5 +362,47 @@
   "source": "Utility Dive",
   "published": "2026-10-20T00:10+09:00",
   "first_seen": "2026-10-20T03:07+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "J&F의 Âmbar Energia는 가스와 태양열로 운영되도록 아마조나스 공장을 개조했다",
+  "original": "Âmbar Energia, da J&F, reforma usina no Amazonas para operar com gás e solar",
+  "url": "https://www.reuters.com/pt/agricultura/RJUZFZTQHRL63AERHEEUNSNWJI-2026-10-19/",
+  "source": "Reuters",
+  "published": "2026-10-20T04:10+09:00",
+  "first_seen": "2026-10-20T04:31+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "EV의 주행 거리는 일반적으로 결정된다. 이건 아니야",
+  "original": "Your EV's Range Is Usually Set In Stone. Not This One",
+  "url": "https://insideevs.com/news/812479/nio-firefly-battery-pack-upgrade/",
+  "source": "InsideEVs",
+  "published": "2026-10-20T04:04+09:00",
+  "first_seen": "2026-10-20T04:31+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "Elon Musk는 Boring Co의 최대 동부 해안 프로젝트가 결코 일어나지 않은 이유를 밝힙니다",
+  "original": "Elon Musk reveals why Boring Co’s biggest East Coast project never happened",
+  "url": "https://www.teslarati.com/elon-musk-reveals-why-boring-cos-biggest-east-coast-project-never-happened/",
+  "source": "Teslarati",
+  "published": "2026-10-20T02:13+09:00",
+  "first_seen": "2026-10-20T04:31+09:00"
  }
 ]
