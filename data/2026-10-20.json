@@ -670,5 +670,47 @@
   "source": "CleanTechnica",
   "published": "2026-10-20T07:38+09:00",
   "first_seen": "2026-10-20T08:07+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "산업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "Westwin Elements, Traxys의 눈에 39억 달러, 22년 니켈 판매 확장",
+  "original": "Westwin Elements, Traxys eye $3.9 billion, 22 year nickel offtake extension",
+  "url": "https://www.mining.com/westwin-elements-traxys-eye-3-9-billion-22-year-nickel-offtake-extension/",
+  "source": "MINING.COM",
+  "published": "2026-10-20T08:38+09:00",
+  "first_seen": "2026-10-20T08:41+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "Ciyuan Factory는 에너지 저장 산업을 위한 새로운 부가가치 공간을 열었다",
+  "original": "词元工厂打开储能产业增值新空间",
+  "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202610/t20261020_3264652.shtml",
+  "source": "경제일보",
+  "published": "2026-10-20T01:00+09:00",
+  "first_seen": "2026-10-20T08:41+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "Ciyuan Factory는 에너지 저장 산업을 위한 새로운 부가가치 공간을 열었다",
+  "original": "词元工厂打开储能产业增值新空间",
+  "url": "http://www.ce.cn/cysc/newmain/yc/jsxw/202610/t20261020_3264678.shtml",
+  "source": "경제일보",
+  "published": "2026-10-20T01:00+09:00",
+  "first_seen": "2026-10-20T08:41+09:00"
  }
 ]

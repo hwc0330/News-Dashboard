@@ -1,5 +1,55 @@
 [
  {
+  "id": 11374,
+  "date": "10월 20일 화요일",
+  "posted": "2026-10-20T08:11+09:00",
+  "url": "https://t.me/cjdbj/11374",
+  "items": [
+   {
+    "section": "배터리 셀/소재/광물",
+    "tag": "기업",
+    "title": "천보, 독자 공법으로 중국보다 싼 전해질 소재",
+    "source": "한국경제",
+    "url": "https://han.gl/MV4jE"
+   },
+   {
+    "section": "배터리 셀/소재/광물",
+    "tag": "기업",
+    "title": "에코프로비엠 유증 청약률 103.25%…니켈 제련소에 7650억",
+    "source": "디일렉",
+    "url": "https://han.gl/SjWxq"
+   },
+   {
+    "section": "배터리 셀/소재/광물",
+    "tag": "기업",
+    "title": "화웨이 인왕, CATL 교환식 생태계 합류…99초 자동 교환",
+    "source": "글로벌이코노믹",
+    "url": "https://han.gl/vALlI"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "정책",
+    "title": "중국 \"영국, EU 따라 전기차 규제 말라\"…보복 경고",
+    "source": "CnEVPost",
+    "url": "https://han.gl/AmqB5"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "시장",
+    "title": "중국 ESS 업체 미국 철수 움직임…북미 점유율 56% 흔들",
+    "source": "한국경제",
+    "url": "https://han.gl/1e8Da"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "정책",
+    "title": "한국 정부, 옥외 ESS 건축 분류 지침…인허가 최대 3개월 단축",
+    "source": "ESS News",
+    "url": "https://han.gl/7iFMP"
+   }
+  ]
+ },
+ {
   "id": 11373,
   "date": "10월 19일 월요일",
   "posted": "2026-10-19T07:58+09:00",
@@ -3949,21 +3999,6 @@
     "title": "CATL, ESS용 소듐 배터리 첫 공개",
     "source": "Reuters",
     "url": "https://han.gl/mACRV"
-   }
-  ]
- },
- {
-  "id": 10793,
-  "date": "4월 9일 목요일",
-  "posted": "2026-04-09T09:16+09:00",
-  "url": "https://t.me/cjdbj/10793",
-  "items": [
-   {
-    "section": "EV/ESS",
-    "tag": "산업",
-    "title": "웨이모, 내슈빌서 로보택시 서비스 개시",
-    "source": "디지털 투데이",
-    "url": "https://han.gl/dw9Qb"
    }
   ]
  }
