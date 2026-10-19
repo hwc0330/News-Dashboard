@@ -516,5 +516,47 @@
   "source": "Electrek",
   "published": "2026-10-20T05:19+09:00",
   "first_seen": "2026-10-20T05:54+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "시장",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "세계 전기차 판매 꺾였는데…유럽만 70% 증가, 현대차·K배터리 기회",
+  "original": "",
+  "url": "https://www.g-enews.com/article/Global-Biz/2026/10/2026102006030697332bd56fbc3c_1",
+  "source": "글로벌이코노믹",
+  "published": "2026-10-20T06:03+09:00",
+  "first_seen": "2026-10-20T06:27+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "거대한 구멍이 뚫린 이 새로운 전기 오토바이는 당신의 라이딩 방식을 바꾸고 싶어한다",
+  "original": "This new electric motorcycle with a giant hole in it wants to change how you ride",
+  "url": "https://electrek.co/2026/10/19/this-new-electric-motorcycle-with-a-giant-hole-in-it-wants-to-change-how-you-ride/",
+  "source": "Electrek",
+  "published": "2026-10-20T06:00+09:00",
+  "first_seen": "2026-10-20T06:27+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "폭스바겐은 저가형 ID에 대한 주문을 시작했다. 크로스(약 $31,000부터 시작)",
+  "original": "Volkswagen opens orders for the lower-priced ID. Cross, starting at about $31,000",
+  "url": "https://electrek.co/2026/10/19/vw-opens-orders-lower-priced-id-cross-starting-31000/",
+  "source": "Electrek",
+  "published": "2026-10-20T05:55+09:00",
+  "first_seen": "2026-10-20T06:27+09:00"
  }
 ]
