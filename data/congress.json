@@ -1,7 +1,7 @@
 {
 "congress": 119,
-"checked": "2026-10-19T18:07+00:00",
-"updated": "2026-10-20T03:07+09:00",
+"checked": "2026-10-20T00:10+00:00",
+"updated": "2026-10-20T09:10+09:00",
 "topics": [
 "전기차 세액공제",
 "배터리·제조",
@@ -46,14 +46,14 @@
 "n": 4,
 "D": 4
 },
-"policy_area": "",
+"policy_area": "Transportation and Public Works",
 "topics": [
 "배출·연비 규제"
 ],
 "china": false,
 "summary": "",
 "summary_ko": "",
-"updated": "2026-10-19T16:23:20Z"
+"updated": "2026-10-19T18:30:43Z"
 },
 {
 "id": "119-hr10681",
@@ -647,10 +647,10 @@
 "topics": [
 "핵심광물"
 ],
-"china": true,
+"china": false,
 "summary": "This bill establishes requirements for the Department of the Interior related to securing U.S. access to critical minerals and rare earth element (REE) resources. Critical minerals mean any mineral, element, substance, or material designated as critical by the U.S. Geological Survey. REEs mean cerium, dysprosium, erbium, europium, gadolinium, holmium, lanthanum, lutetium, neodymium, praseodymium, promethium, samarium, scandium, terbium, thulium, ytterbium, and yttrium.",
 "summary_ko": "이 법안은 중요한 광물 및 희토류 원소(REE) 자원에 대한 미국의 접근 확보와 관련된 내무부의 요구 사항을 설정합니다. 중요 광물이란 미국 지질 조사국(U.S. Geological Survey)에서 중요하다고 지정한 모든 광물, 원소, 물질 또는 재료를 의미합니다. REE는 세륨, 디스프로슘, 에르븀, 유로뮴, 가돌리늄, 홀뮴, 란타늄, 루테튬, 네오디뮴, 프라세오디뮴, 프로메튬, 사마륨, 스칸듐, 테르븀, 툴륨, 이테르븀, 이트륨을 의미합니다.",
-"updated": "2026-09-08T18:09:59Z"
+"updated": "2026-10-19T20:35:21Z"
 },
 {
 "id": "119-hr7037",

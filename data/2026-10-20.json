@@ -712,5 +712,33 @@
   "source": "경제일보",
   "published": "2026-10-20T01:00+09:00",
   "first_seen": "2026-10-20T08:41+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "산업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "에너지 모닝 뉴스｜Hunan Yuneng은 6단계 인산철리튬 프로젝트 건설에 20억 위안 이하를 투자할 계획이다. 스마트 전력 교환에서 CATL 및 기타 업체와 협력하기를 희망한다",
+  "original": "能源早报｜湖南裕能拟不超20亿元投建六期磷酸铁锂项目；引望与宁德时代等开展智能换电合作",
+  "url": "https://www.jiemian.com/article/15208891.html",
+  "source": "제몐",
+  "published": "2026-10-20T09:00+09:00",
+  "first_seen": "2026-10-20T09:10+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "전원 배터리에는 디지털 ID가 있다",
+  "original": "动力电池有了数字身份证",
+  "url": "http://www.ce.cn/cysc/newmain/yc/jsxw/202610/t20261020_3264719.shtml",
+  "source": "경제일보",
+  "published": "2026-10-20T01:00+09:00",
+  "first_seen": "2026-10-20T09:10+09:00"
  }
 ]
