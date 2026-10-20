@@ -4562,5 +4562,47 @@
   "source": "글로벌이코노믹",
   "published": "2026-10-20T20:12+09:00",
   "first_seen": "2026-10-21T04:16+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "Juheng은 높은 전력 소비 시장을 점유하기 위해 EPC에서 자산 관리 및 비하인드 에너지 저장 분야로 전환한다",
+  "original": "聚恆從EPC跨足資產管理 表後儲能搶攻高用電市場",
+  "url": "https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?id=0000772075_B1ALKC5K883WNA4E0FTEF",
+  "source": "DIGITIMES",
+  "published": "2026-10-20T15:19+09:00",
+  "first_seen": "2026-10-21T05:27+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "Huawei Qiankun, CATL과 손잡고 자동으로 트램 교체, 전기 찾아 전기 교체",
+  "original": "華為乾崑攜手寧德時代 換電車找電、換電全自動完成",
+  "url": "https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?id=0000772035_EY01XM9I2ROR086EFW7TD",
+  "source": "DIGITIMES",
+  "published": "2026-10-20T12:54+09:00",
+  "first_seen": "2026-10-21T05:27+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "BYD 중국 파워배터리 시장 점유율 하락, 해외 차량 설치량 66.5% 급증",
+  "original": "比亞迪動力電池中國市佔下滑 海外裝車量反激增66.5%",
+  "url": "https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?id=0000772033_8C51UYVM2HD6II45CNHCO",
+  "source": "DIGITIMES",
+  "published": "2026-10-20T12:30+09:00",
+  "first_seen": "2026-10-21T05:27+09:00"
  }
 ]
