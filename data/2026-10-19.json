@@ -3512,5 +3512,19 @@
   "source": "SMM",
   "published": "2026-10-19T23:14+09:00",
   "first_seen": "2026-10-20T10:06+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "자원",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "Zangge Mining: 첫 3분기 탄산리튬 생산량은 10,000톤이다",
+  "original": "藏格矿业：前三季度碳酸锂产量1万吨",
+  "url": "http://www.icbattery.com/news/show-htm-itemid-65882.html",
+  "source": "신뤄리튬전지망",
+  "published": "2026-10-19T01:00+09:00",
+  "first_seen": "2026-10-20T11:54+09:00"
  }
 ]
