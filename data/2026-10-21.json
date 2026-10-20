@@ -334,5 +334,33 @@
   "source": "InsideEVs",
   "published": "2026-10-21T03:55+09:00",
   "first_seen": "2026-10-21T04:16+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "GM, 디트로이트 배터리 조립 공장 폐쇄, 그러나 당신이 생각할 수 있는 이유는 아니다",
+  "original": "GM to close Detroit battery assembly plant, but not for reasons you might think",
+  "url": "https://techcrunch.com/2026/10/20/gm-to-close-detroit-battery-assembly-plant-but-not-for-reasons-you-might-think/",
+  "source": "TechCrunch",
+  "published": "2026-10-21T04:32+09:00",
+  "first_seen": "2026-10-21T04:52+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "SpaceX 투자자, 결과보다 앞서 Tesla 합병에 대해 Musk 압박",
+  "original": "SpaceX investors, ahead of results, press Musk on Tesla merger",
+  "url": "https://www.reuters.com/site-search/?query=SpaceX%20investors%2C%20ahead%20of%20results%2C%20press%20Musk%20on%20Tesla%20merger",
+  "source": "Reuters",
+  "published": "2026-10-21T03:06+09:00",
+  "first_seen": "2026-10-21T04:52+09:00"
  }
 ]
