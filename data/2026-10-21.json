@@ -236,5 +236,47 @@
   "source": "Utility Dive",
   "published": "2026-10-21T00:32+09:00",
   "first_seen": "2026-10-21T02:15+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "SpaceX는 오늘 첫 수익을 보고한다. 예상되는 내용은 다음과 같다",
+  "original": "SpaceX reports its first earnings today: here’s what to expect",
+  "url": "https://www.teslarati.com/spacex-spcx-reports-first-earnings-what-to-expect/",
+  "source": "Teslarati",
+  "published": "2026-10-21T02:28+09:00",
+  "first_seen": "2026-10-21T02:50+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "정책",
+  "impact": "+",
+  "key": true,
+  "region": "EU",
+  "policy": "중국",
+  "title": "중국, 영국이 EU 관세대로 따를 경우 보복 위협",
+  "original": "China threatens retaliation if UK follows the EU on tariffs",
+  "url": "https://www.politico.eu/article/china-threatens-retaliation-if-u-k-follows-the-eu-on-tariffs/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+  "source": "Politico Europe",
+  "published": "2026-10-21T02:26+09:00",
+  "first_seen": "2026-10-21T02:50+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "스바루는 휘발유 자동차를 없애고 유럽에서만 EV를 판매할 예정이다",
+  "original": "Subaru is killing off gas cars and will only sell EVs in Europe",
+  "url": "https://electrek.co/2026/10/20/subaru-killing-off-gas-cars-europe-will-only-sell-evs/",
+  "source": "Electrek",
+  "published": "2026-10-21T02:24+09:00",
+  "first_seen": "2026-10-21T02:50+09:00"
  }
 ]
