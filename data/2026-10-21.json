@@ -180,5 +180,61 @@
   "source": "Electrek",
   "published": "2026-10-21T01:01+09:00",
   "first_seen": "2026-10-21T01:31+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "조지아전기협동조합, 50MW 가정용 배터리 배치 계획",
+  "original": "Georgia electric cooperative plans 50-MW home battery deployment",
+  "url": "https://www.utilitydive.com/news/georgia-electric-cooperative-plans-50-mw-home-battery-deployment/833492/",
+  "source": "Utility Dive",
+  "published": "2026-10-21T01:58+09:00",
+  "first_seen": "2026-10-21T02:15+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "산업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "Phoenix Tailings, 뉴욕에 3억 7,500만 달러 규모의 희토류 공장 건설",
+  "original": "Phoenix Tailings to build $375M rare earth plant in New York",
+  "url": "https://www.mining.com/phoenix-tailings-to-build-375m-rare-earth-plant-in-new-york/",
+  "source": "MINING.COM",
+  "published": "2026-10-21T01:56+09:00",
+  "first_seen": "2026-10-21T02:15+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "산업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "리튬 아프리카, 스프링복 리튬 프로젝트에 6천만 달러 제안 제안",
+  "original": "Lithium Africa weighs $60M offer for Springbok lithium project",
+  "url": "https://www.mining.com/lithium-africa-weighs-60m-offer-for-springbok-lithium-project/",
+  "source": "MINING.COM",
+  "published": "2026-10-21T01:37+09:00",
+  "first_seen": "2026-10-21T02:15+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "버지니아 주지사는 Dominion-NextEra 합병이 승인되면 6년 요금 동결을 추구한다",
+  "original": "Virginia governor seeks 6-year rate freeze if Dominion-NextEra merger is approved",
+  "url": "https://www.utilitydive.com/news/virginia-governor-seeks-6-year-rate-freeze-if-dominion-nextera-merger-is-ap/833478/",
+  "source": "Utility Dive",
+  "published": "2026-10-21T00:32+09:00",
+  "first_seen": "2026-10-21T02:15+09:00"
  }
 ]
