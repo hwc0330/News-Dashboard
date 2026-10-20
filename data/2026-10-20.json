@@ -2084,5 +2084,47 @@
   "source": "신화통신",
   "published": "2026-10-20T01:00+09:00",
   "first_seen": "2026-10-20T14:42+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "10월 19일 GF Power Grid Equipment ETF의 순 청약은 -600만 개로 전년 대비 9.83% 증가했다. 할증율과 할인율이 높아 하락 위험이 있다",
+  "original": "电网设备ETF广发10月19日净申购-600万份，近一年涨9.83%溢折率偏高存回落风险",
+  "url": "http://www.eeo.com.cn/2026/1020/1070556.shtml",
+  "source": "경제관찰보",
+  "published": "2026-10-20T14:50+09:00",
+  "first_seen": "2026-10-20T14:53+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "산업",
+  "impact": "0",
+  "key": false,
+  "region": "EU",
+  "policy": "",
+  "title": "Holosolis는 5GW 태양광 공장에 대한 EU 혁신 기금 지원을 확보했다",
+  "original": "Holosolis secures EU Innovation Fund support for 5 GW solar factory",
+  "url": "https://www.pv-magazine.com/2026/10/20/holosolis-secures-eu-innovation-fund-support-for-5-gw-solar-factory/",
+  "source": "pv magazine",
+  "published": "2026-10-20T14:45+09:00",
+  "first_seen": "2026-10-20T14:53+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "자원",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "10월 20일 폐전지 시장 거래 요약 [SMM Daily Review]",
+  "original": "Oct 20 Scrap Battery Market Trading Summary [SMM Daily Review]",
+  "url": "https://news.metal.com/en/newscontent/104168574-oct-20-scrap-battery-market-trading-summary-smm-daily-review",
+  "source": "SMM",
+  "published": "2026-10-20T14:41+09:00",
+  "first_seen": "2026-10-20T14:53+09:00"
  }
 ]
