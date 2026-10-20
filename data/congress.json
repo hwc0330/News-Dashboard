@@ -1,7 +1,7 @@
 {
 "congress": 119,
-"checked": "2026-10-20T13:09+00:00",
-"updated": "2026-10-20T22:09+09:00",
+"checked": "2026-10-20T19:16+00:00",
+"updated": "2026-10-21T04:16+09:00",
 "topics": [
 "전기차 세액공제",
 "배터리·제조",
@@ -157,14 +157,14 @@
 "R": 3,
 "D": 1
 },
-"policy_area": "",
+"policy_area": "Energy",
 "topics": [
 "핵심광물"
 ],
 "china": false,
 "summary": "",
 "summary_ko": "",
-"updated": "2026-10-16T02:53:16Z"
+"updated": "2026-10-20T15:38:34Z"
 },
 {
 "id": "119-s5551",

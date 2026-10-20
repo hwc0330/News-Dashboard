@@ -4520,5 +4520,47 @@
   "source": "글로벌이코노믹",
   "published": "2026-10-20T20:34+09:00",
   "first_seen": "2026-10-21T03:31+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기술",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "중국 체리, '꿈의 배터리' 전고체 2027년 양산 선언…K-배터리 비상",
+  "original": "",
+  "url": "https://www.g-enews.com/article/Global-Biz/2026/10/2026102021035540502bd56fbc3c_1",
+  "source": "글로벌이코노믹",
+  "published": "2026-10-20T21:03+09:00",
+  "first_seen": "2026-10-21T04:16+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "정책",
+  "impact": "0",
+  "key": true,
+  "region": "",
+  "policy": "미국",
+  "title": "美 휘발유값 급등에 전기차 수요 회복세…캘리포니아 보조금 효과",
+  "original": "",
+  "url": "https://www.g-enews.com/article/Global-Biz/2026/10/2026102020570018749a1f309431_1",
+  "source": "글로벌이코노믹",
+  "published": "2026-10-20T20:57+09:00",
+  "first_seen": "2026-10-21T04:16+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "정책",
+  "impact": "+",
+  "key": true,
+  "region": "",
+  "policy": "중국",
+  "title": "중국 완성차, 유럽 쿼터·관세 벽 앞에 현지 생산으로 전략 전환",
+  "original": "",
+  "url": "https://www.g-enews.com/article/Global-Biz/2026/10/2026102020121115142bd56fbc3c_1",
+  "source": "글로벌이코노믹",
+  "published": "2026-10-20T20:12+09:00",
+  "first_seen": "2026-10-21T04:16+09:00"
  }
 ]
