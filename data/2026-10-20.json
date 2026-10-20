@@ -4411,21 +4411,21 @@
  },
  {
   "section": "배터리 셀/소재/광물",
-  "tag": "시장",
+  "tag": "기업",
   "impact": "0",
   "key": false,
   "region": "",
   "policy": "",
   "title": "CATL의 최신 공연이 공개된다! 3분기 매출 1650억 위안 돌파",
-  "original": "宁德时代最新业绩出炉！第三季度营收超1650亿元",
+  "original": "焦点 宁德时代最新业绩出炉！第三季度营收超1650亿元 公司 6小时前",
   "url": "https://m.21jingji.com/article/20261020/herald/e3356f879a17617018d538904b0192bd.html",
   "source": "21세기경제보도",
   "published": "2026-10-20T01:00+09:00",
   "first_seen": "2026-10-21T00:14+09:00"
  },
  {
-  "section": "배터리 셀/소재/광물",
-  "tag": "시장",
+  "section": "기타",
+  "tag": "기타",
   "impact": "0",
   "key": false,
   "region": "",
@@ -4543,7 +4543,7 @@
   "region": "",
   "policy": "미국",
   "title": "美 휘발유값 급등에 전기차 수요 회복세…캘리포니아 보조금 효과",
-  "original": "",
+  "original": "美, 휘발유값 급등에 전기차 수요 회복세…캘리포니아 보조금 효과",
   "url": "https://www.g-enews.com/article/Global-Biz/2026/10/2026102020570018749a1f309431_1",
   "source": "글로벌이코노믹",
   "published": "2026-10-20T20:57+09:00",
@@ -4604,5 +4604,19 @@
   "source": "DIGITIMES",
   "published": "2026-10-20T12:30+09:00",
   "first_seen": "2026-10-21T05:27+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "월스트리트의 AI 패배는 끝났지만 부채에 대한 두려움은 여전히 남아있다",
+  "original": "Wall Street’s AI Rout Ends, But Debt Fears Remain",
+  "url": "https://heatmap.news/am/ai-rout-stocks",
+  "source": "Heatmap",
+  "published": "2026-10-20T21:26+09:00",
+  "first_seen": "2026-10-21T06:39+09:00"
  }
 ]
