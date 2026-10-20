@@ -1,5 +1,55 @@
 [
  {
+  "id": 11375,
+  "date": "10월 21일 수요일",
+  "posted": "2026-10-21T07:53+09:00",
+  "url": "https://t.me/cjdbj/11375",
+  "items": [
+   {
+    "section": "배터리 셀/소재/광물",
+    "tag": "기업",
+    "title": "CATL 3분기 순이익 14.5% 증가…2년 만에 가장 더뎠다",
+    "source": "로이터",
+    "url": "https://han.gl/eOj1n"
+   },
+   {
+    "section": "배터리 셀/소재/광물",
+    "tag": "기업",
+    "title": "GM, 브라운스타운 배터리 공장 폐쇄…SDI와 합작은 종료",
+    "source": "더구루",
+    "url": "https://han.gl/Qw594"
+   },
+   {
+    "section": "배터리 셀/소재/광물",
+    "tag": "산업",
+    "title": "중국 업체 모로코 60억달러 투자…EU 관세 우회 거점",
+    "source": "SMM",
+    "url": "https://han.gl/7bMkd"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "정책",
+    "title": "유럽의회 3개 정당군, 2035년 CO₂ 87.5% 감축안 합의",
+    "source": "electrive",
+    "url": "https://han.gl/1ZrnR"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "기술",
+    "title": "CATL, 대형 트럭용 이중 배터리 공개…방전심도 95%",
+    "source": "CnEVPost",
+    "url": "https://han.gl/Wt1PR"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "시장",
+    "title": "한국 9월 친환경차 점유율 59%…BEV 31% 증가",
+    "source": "SMM",
+    "url": "https://han.gl/QzVw4"
+   }
+  ]
+ },
+ {
   "id": 11374,
   "date": "10월 20일 화요일",
   "posted": "2026-10-20T08:11+09:00",
@@ -3977,28 +4027,6 @@
     "title": "프랑스, 전기화 지원 100억유로 확대…에너지 안보 중심 ‘전력 전환’ 가속",
     "source": "Energy Storage News",
     "url": "https://han.gl/NGAfO"
-   }
-  ]
- },
- {
-  "id": 10796,
-  "date": "4월 10일 금요일",
-  "posted": "2026-04-10T08:31+09:00",
-  "url": "https://t.me/cjdbj/10796",
-  "items": [
-   {
-    "section": "배터리 셀/소재/광물",
-    "tag": "정책",
-    "title": "에코프로 리튬, 퀘벡 정부서 600만캐나다달러 지원 확보",
-    "source": "더구루",
-    "url": "https://han.gl/9qSGV"
-   },
-   {
-    "section": "배터리 셀/소재/광물",
-    "tag": "기술",
-    "title": "CATL, ESS용 소듐 배터리 첫 공개",
-    "source": "Reuters",
-    "url": "https://han.gl/mACRV"
    }
   ]
  }
