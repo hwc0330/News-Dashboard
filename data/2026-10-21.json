@@ -4753,7 +4753,7 @@
   "region": "",
   "policy": "중국",
   "title": "배터리가 자연 발화하면 새 차 비용을 지불해야 한다! Li Auto, 자체 개발 배터리에 대한 보증 정책 발표",
-  "original": "视频 电池自燃赔新车！理想汽车发布自研电池质保政策 21视频",
+  "original": "电池自燃赔新车！理想汽车发布自研电池质保政策",
   "url": "https://m.21jingji.com/article/20261021/herald/b25539193b93a2814fbc2cb414558a99.html",
   "source": "21세기경제보도",
   "published": "2026-10-21T01:00+09:00",
@@ -5206,5 +5206,19 @@
   "source": "글로벌이코노믹",
   "published": "2026-10-21T19:51+09:00",
   "first_seen": "2026-10-22T06:40+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "신화통신 | 중국 전기차 충전·데이터 서비스 부문 전력 사용량 급증",
+  "original": "Xinhua News | Power use surges in China's EV charging, data service sectors",
+  "url": "https://english.news.cn/20261021/f775d73fc59d4c02834e56d98c01ef93/c.html",
+  "source": "신화통신",
+  "published": "2026-10-21T01:00+09:00",
+  "first_seen": "2026-10-22T08:55+09:00"
  }
 ]

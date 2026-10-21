@@ -1,5 +1,55 @@
 [
  {
+  "id": 11384,
+  "date": "10월 22일 목요일",
+  "posted": "2026-10-22T07:47+09:00",
+  "url": "https://t.me/cjdbj/11384",
+  "items": [
+   {
+    "section": "배터리 셀/소재/광물",
+    "tag": "기업",
+    "title": "엠오티·필에너지, 삼성SDI 美 ESS용 LFP 3호 라인 장비 수주",
+    "source": "디일렉",
+    "url": "https://han.gl/ytdur"
+   },
+   {
+    "section": "배터리 셀/소재/광물",
+    "tag": "기술",
+    "title": "CATL, 중장비 트럭용 이중 배터리 공개",
+    "source": "CnEVPost",
+    "url": "https://han.gl/6tGxk"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "시장",
+    "title": "재생에너지 설비용량 41GW, 석탄화력 첫 추월",
+    "source": "전기신문",
+    "url": "https://han.gl/zY61g"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "기업",
+    "title": "폭스바겐 EV 7만2668대 리콜…배터리 셀 규격 미달",
+    "source": "Electrek",
+    "url": "https://han.gl/hf9sp"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "시장",
+    "title": "테슬라 3분기 인도 48만대…”배터리 공급이 판매 제약“",
+    "source": "Electrek",
+    "url": "https://han.gl/lYL2p"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "정책",
+    "title": "中 발개위 전력 현물시장 규칙안…재생에너지·ESS 공동 입찰",
+    "source": "ESS News",
+    "url": "https://han.gl/g3Q3l"
+   }
+  ]
+ },
+ {
   "id": 11375,
   "date": "10월 21일 수요일",
   "posted": "2026-10-21T07:53+09:00",
@@ -4005,28 +4055,6 @@
     "title": "프랑스, 전기차 리스 3차 6월 조기 개시",
     "source": "더구루",
     "url": "https://han.gl/j8Xih"
-   }
-  ]
- },
- {
-  "id": 10807,
-  "date": "4월 14일 화요일",
-  "posted": "2026-04-14T08:30+09:00",
-  "url": "https://t.me/cjdbj/10807",
-  "items": [
-   {
-    "section": "배터리 셀/소재/광물",
-    "tag": "정책",
-    "title": "EU, 핵심광물 공동구매 플랫폼 출범",
-    "source": "더구루",
-    "url": "https://han.gl/cycnM"
-   },
-   {
-    "section": "EV/ESS",
-    "tag": "정책",
-    "title": "프랑스, 전기화 지원 100억유로 확대…에너지 안보 중심 ‘전력 전환’ 가속",
-    "source": "Energy Storage News",
-    "url": "https://han.gl/NGAfO"
    }
   ]
  }
