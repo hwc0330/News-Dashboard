@@ -3717,7 +3717,7 @@
   "region": "",
   "policy": "",
   "title": "SpaceX-Tesla 합병, 러시아의 Witkoff 및 캔자스 유권자",
-  "original": "SpaceX-Tesla merger, Witkoff in Russia and Kansas voters",
+  "original": "Putin agrees to peace talks, SpaceX-Tesla merger, Kansas voters (Updated)",
   "url": "https://www.reuters.com/podcasts/spacex-tesla-merger-witkoff-russia-kansas-voters-2026-10-21/",
   "source": "Reuters",
   "published": "2026-10-21T18:55+09:00",
@@ -5150,5 +5150,47 @@
   "source": "글로벌이코노믹",
   "published": "2026-10-21T21:40+09:00",
   "first_seen": "2026-10-22T04:16+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "에너지 저장 시스템으로 농촌 지역의 재해 예방 애플리케이션 확장, QPO Energy, 캠퍼스 백업 전원 공급 장치 출시",
+  "original": "儲能系統拓偏鄉防災應用 QPO Energy導入校園備援供電",
+  "url": "https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?id=0000772264_VNH1067O73Y6DL323Y0QR",
+  "source": "DIGITIMES",
+  "published": "2026-10-21T18:29+09:00",
+  "first_seen": "2026-10-22T05:27+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "Elon Musk는 SpaceX를 확인하고 Tesla는 가능한 합병 AI 칩을 평가하고 있으며 로봇이 통합의 핵심을 형성할 것이다",
+  "original": "Elon Musk證實SpaceX、Tesla評估合併可能 AI晶片與機器人成整合核心",
+  "url": "https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?id=0000772158_SDW0YOPA6029NZ78IR9S3",
+  "source": "DIGITIMES",
+  "published": "2026-10-21T11:26+09:00",
+  "first_seen": "2026-10-22T05:27+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "중국 전기차 시장 압박, CATL 3Q26 이익 성장세 둔화",
+  "original": "中國EV市況承壓 寧德時代3Q26獲利成長放緩",
+  "url": "https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?id=0000772150_HT62G4MS4MUYNU14M9CQP",
+  "source": "DIGITIMES",
+  "published": "2026-10-21T10:24+09:00",
+  "first_seen": "2026-10-22T05:27+09:00"
  }
 ]
