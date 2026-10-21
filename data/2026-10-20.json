@@ -4424,8 +4424,8 @@
   "first_seen": "2026-10-21T00:14+09:00"
  },
  {
-  "section": "기타",
-  "tag": "기타",
+  "section": "배터리 셀/소재/광물",
+  "tag": "시장",
   "impact": "0",
   "key": false,
   "region": "",
@@ -4618,5 +4618,19 @@
   "source": "Heatmap",
   "published": "2026-10-20T21:26+09:00",
   "first_seen": "2026-10-21T06:39+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "월가 \"테슬라·스페이스X 합병 구조상 결코 쉽지 않다\"",
+  "original": "",
+  "url": "https://www.g-enews.com/view.php?ud=202610200435177839e250e8e188_1",
+  "source": "글로벌이코노믹",
+  "published": "2026-10-20T04:35+09:00",
+  "first_seen": "2026-10-21T09:55+09:00"
  }
 ]
