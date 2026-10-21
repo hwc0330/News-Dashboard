@@ -446,5 +446,47 @@
   "source": "Reuters",
   "published": "2026-10-22T02:44+09:00",
   "first_seen": "2026-10-22T04:16+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "GM is betting compute and AI will help it compete with Chinese automakers",
+  "original": "",
+  "url": "https://techcrunch.com/2026/10/21/gm-is-betting-compute-and-ai-will-help-it-compete-with-chinese-automakers/",
+  "source": "TechCrunch",
+  "published": "2026-10-22T04:52+09:00",
+  "first_seen": "2026-10-22T04:53+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "GM Expands Autonomous Highway Driving To Best-Selling Vehicle Lineups",
+  "original": "",
+  "url": "https://www.reuters.com/site-search/?query=GM%20Expands%20Autonomous%20Highway%20Driving%20To%20Best-Selling%20Vehicle%20Lineups",
+  "source": "Reuters",
+  "published": "2026-10-22T04:33+09:00",
+  "first_seen": "2026-10-22T04:53+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "자율적인 런타임을 확보하기 위해 1,000만 달러의 시드 라운드를 통해 스텔스에서 등장한 Ultra Security",
+  "original": "Ultra Security Emerges From Stealth With $10 Million Seed Round To Secure Autonomous Runtimes",
+  "url": "https://www.reuters.com/site-search/?query=Ultra%20Security%20Emerges%20From%20Stealth%20With%20%2410%20Million%20Seed%20Round%20To%20Secure%20Autonomous%20Runtimes",
+  "source": "Reuters",
+  "published": "2026-10-22T04:31+09:00",
+  "first_seen": "2026-10-22T04:53+09:00"
  }
 ]
