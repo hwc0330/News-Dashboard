@@ -992,5 +992,61 @@
   "source": "SMM",
   "published": "2026-10-21T09:32+09:00",
   "first_seen": "2026-10-21T09:55+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "GM EV 배터리의 재활용 광물이 새로운 배터리에 전력을 공급하는 데 어떻게 도움이 되나?",
+  "original": "How Recycled Minerals from GM EV Batteries Are Helping Power New Ones",
+  "url": "https://cleantechnica.com/2026/10/20/how-recycled-minerals-from-gm-ev-batteries-are-helping-power-new-ones/",
+  "source": "CleanTechnica",
+  "published": "2026-10-21T10:02+09:00",
+  "first_seen": "2026-10-21T10:05+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "신에너지 ETF Southern은 10월 20일 순상환량이 150만개로 전년 대비 24.71% 감소했으며 규모는 30억 5,800만 위안에 달했다",
+  "original": "新能源ETF南方10月20日净赎回150万份，近一年跌24.71%规模30.58亿元",
+  "url": "http://www.eeo.com.cn/2026/1021/1071423.shtml",
+  "source": "경제관찰보",
+  "published": "2026-10-21T10:01+09:00",
+  "first_seen": "2026-10-21T10:05+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "Ningde Times의 3분기 보고서가 발표되었다. 순이익이 14.5% 증가하고 배터리 소비세의 영향이 점차 나타났다",
+  "original": "宁德时代三季报出炉：净利增14.5%，电池消费税影响逐步显现",
+  "url": "https://www.yicai.com/news/103401558.html",
+  "source": "제일재경",
+  "published": "2026-10-21T09:56+09:00",
+  "first_seen": "2026-10-21T10:05+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기술",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "People's Review: Tesla는 \"날 수 있다\"고 해서 우리가 뒤쳐진다고요?",
+  "original": "人民锐评：特斯拉“能飞”，我们就被甩开了？",
+  "url": "https://m.21jingji.com/article/20261021/herald/ce3aa6db24a40f55bdb190a6236382da.html",
+  "source": "21세기경제보도",
+  "published": "2026-10-21T01:00+09:00",
+  "first_seen": "2026-10-21T10:05+09:00"
  }
 ]
