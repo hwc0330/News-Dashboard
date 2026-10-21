@@ -472,11 +472,12 @@
       </div>
       <input type="search" class="csearch" id="dQ" placeholder="기업·공시명 검색" aria-label="공시 검색">
     </div>
+    <div class="chips" id="dChains"></div>
     <div class="chips" id="dSegs"></div>
     <div class="chips" id="dCorps" hidden></div>
     <div class="chips last" id="dCats"></div>
     <div id="dList"><p class="empty">불러오는 중…</p></div>
-    <p class="foot">셀·소재·부품·장비·리사이클링 2차전지 상장사 (dart.py 의 COMPANIES) · '주요 공시'는 임원·주요주주 지분 보고(소유상황·대량보유)와 공정위·지주회사 정기 보고를 뺀 공시 · 10분마다 확인 · 공시명을 누르면 DART 원문</p>
+    <p class="foot">관심 기업 + 삼성SDI·LG에너지솔루션 핵심 공급사 (dart.py 의 COMPANIES) · '주요 공시'는 임원·주요주주 지분 보고(소유상황·대량보유)와 공정위·지주회사 정기 보고를 뺀 공시 · 10분마다 확인 · 공시명을 누르면 DART 원문</p>
   </div>
 
   <div id="assemblyView" hidden>
@@ -1034,7 +1035,8 @@ function billCard(b, byNo, st) {
 }
 
 // ── 공시: dart.py 가 DART OpenAPI 로 모아 둔 주요 배터리 기업 공시 data/dart.json (10분마다) ──
-let dart, dSeg = null, dCorp = null, dCat = "major", dAll = false;
+let dart, dChain = null, dSeg = null, dCorp = null, dCat = "major", dAll = false;
+const D_CHAIN = {SDI: "삼성SDI", LGES: "LG엔솔"};
 const D_WEEK = ["일", "월", "화", "수", "목", "금", "토"];
 const dNew = x => x.first_seen && new Date(x.first_seen) > newSince;
 
@@ -1050,18 +1052,25 @@ function renderDart() {
   const today = new Date().toLocaleDateString("sv-SE", {timeZone: "Asia/Seoul"});
   const weekAgo = new Date(Date.now() - 6 * 864e5).toLocaleDateString("sv-SE", {timeZone: "Asia/Seoul"});
   const minor = new Set(dart.minor || ["지분 변동"]), major = x => !minor.has(x.cat);
-  const comps = dart.companies.map(c => typeof c === "string" ? {name: c, seg: ""} : c);   // 예전 형식(이름만)도
+  const comps = dart.companies.map(c => typeof c === "string" ? {name: c, seg: "", chain: []} : {chain: [], ...c});   // 예전 형식(이름만)도
+  const chainOf = Object.fromEntries(comps.map(c => [c.name, c.chain]));
   $("#dKicker").textContent = `DART · 2차전지 상장사 ${comps.length}곳`;
   $("#dHeadline").innerHTML = `공시 ${all.filter(major).length}건 <small>· 오늘 ${all.filter(x => x.date === today && major(x)).length} · 최근 7일 ${all.filter(x => x.date >= weekAgo && major(x)).length}</small>`;
   $("#dUpd").innerHTML = `<span>출처 <b>DART 전자공시</b></span><span>확인 <b>${esc(when(dart.updated))}</b></span><span>최근 ${dart.keep_days}일</span>`;
 
-  const byQ = all.filter(x => !q || `${x.corp} ${x.seg} ${x.title} ${x.filer}`.toLowerCase().includes(q));
+  const byQ0 = all.filter(x => !q || `${x.corp} ${x.seg} ${x.title} ${x.filer}`.toLowerCase().includes(q));
   const catOk = x => dCat === "all" || (dCat === "major" ? major(x) : x.cat === dCat);
+  // 공급망: 삼성SDI · LG에너지솔루션 (셀 회사 자신 포함)
+  const inChain = (x, ch) => (chainOf[x.corp] || []).includes(ch);
+  chipRow($("#dChains"), [["", "전체", byQ0.filter(catOk).length]].concat(Object.entries(D_CHAIN).map(([k, v]) =>
+          [k, `${v} 공급망`, byQ0.filter(catOk).filter(x => inChain(x, k)).length])),
+          dChain, v => { dChain = v; dSeg = null; dCorp = null; render(); });
+  const byQ = byQ0.filter(x => !dChain || inChain(x, dChain));
   const forCorp = byQ.filter(catOk);
   // 분야(셀·양극재·…·장비) → 고른 분야의 기업
-  chipRow($("#dSegs"), [["", "전체 분야", forCorp.length]].concat((dart.segments || []).map(g => [g, esc(g), forCorp.filter(x => x.seg === g).length])),
+  chipRow($("#dSegs"), [["", "전체 분야", forCorp.length]].concat((dart.segments || []).map(g => [g, esc(g), forCorp.filter(x => x.seg === g).length]).filter(x => x[2] || x[0] === dSeg)),
           dSeg, v => { dSeg = v; dCorp = null; render(); });
-  const inSeg = comps.filter(c => !dSeg || c.seg === dSeg);
+  const inSeg = comps.filter(c => (!dSeg || c.seg === dSeg) && (!dChain || c.chain.includes(dChain)));
   $("#dCorps").hidden = !dSeg;
   if (dSeg) chipRow($("#dCorps"), [["", `${esc(dSeg)} 전체`, forCorp.filter(x => x.seg === dSeg).length]]
           .concat(inSeg.map(c => [c.name, esc(c.name), forCorp.filter(x => x.corp === c.name).length])),
@@ -1080,7 +1089,7 @@ function renderDart() {
   $("#dList").innerHTML = Object.keys(days).sort().reverse().map(d => {
     const w = D_WEEK[new Date(d + "T12:00:00+09:00").getDay()];
     return `<section class="dday${d === today ? " today" : ""}"><h3><span class="mono">${md(d)}</span> ${w}${d === today ? ' <b>오늘</b>' : ""}<span class="n">${days[d].length}건</span></h3><ul>` +
-      days[d].map(x => `<li><span class="dcorp">${esc(x.corp)}${x.seg ? `<small>${esc(x.seg)}</small>` : ""}</span><div class="dmain">` +
+      days[d].map(x => `<li><span class="dcorp">${esc(x.corp)}<small>${esc([x.seg, ...(chainOf[x.corp] || []).map(k => D_CHAIN[k])].filter(Boolean).join(" · "))}</small></span><div class="dmain">` +
         (dNew(x) ? '<span class="badge new">NEW</span>' : "") +
         `<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)}</a>` +
         `<span class="dcat c-${esc(x.cat.replace(/[^가-힣A-Z]/g, ""))}">${esc(x.cat)}</span>` +

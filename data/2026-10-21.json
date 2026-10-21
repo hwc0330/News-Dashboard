@@ -1037,16 +1037,44 @@
  },
  {
   "section": "EV/ESS",
-  "tag": "기술",
+  "tag": "기업",
   "impact": "0",
   "key": false,
   "region": "",
   "policy": "",
   "title": "People's Review: Tesla는 \"날 수 있다\"고 해서 우리가 뒤쳐진다고요?",
-  "original": "人民锐评：特斯拉“能飞”，我们就被甩开了？",
+  "original": "焦点 人民锐评：特斯拉“能飞”，我们就被甩开了？ 宏观 10分钟前",
   "url": "https://m.21jingji.com/article/20261021/herald/ce3aa6db24a40f55bdb190a6236382da.html",
   "source": "21세기경제보도",
   "published": "2026-10-21T01:00+09:00",
   "first_seen": "2026-10-21T10:05+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "정책",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "중국",
+  "title": "[SMM 니켈 모닝 미팅 요약] 중국의 여러 경제지표가 개선되고 정책이 집중적으로 시행되면서 가장 많이 거래되는 SHFE 니켈 계약이 거래 초반에 크게 흔들리고 있다",
+  "original": "[SMM Nickel Morning Meeting Summary] China's multiple economic indicators improve and policies are intensively implemented, the most-traded SHFE nickel contract swings wildly in early trading",
+  "url": "https://news.metal.com/en/newscontent/104168976-smm-nickel-morning-meeting-summary-chinas-multiple-economic-indicators-improve-and-policies-are-intensively-implemented-the-most-traded-shfe-nickel-contract-swings-wildly-in-early-trading",
+  "source": "SMM",
+  "published": "2026-10-21T10:10+09:00",
+  "first_seen": "2026-10-21T10:15+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "美 유틸리티 기업, 중소도시 에너지시스템 현대화사업 5억 달러 투자",
+  "original": "",
+  "url": "https://www.theguru.co.kr/news/article.html?no=108557",
+  "source": "더구루",
+  "published": "2026-10-21T10:06+09:00",
+  "first_seen": "2026-10-21T10:15+09:00"
  }
 ]
