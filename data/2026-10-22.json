@@ -82,5 +82,33 @@
   "source": "Teslarati",
   "published": "2026-10-22T00:15+09:00",
   "first_seen": "2026-10-22T00:57+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "미국",
+  "title": "Whitehouse 상원 의원은 바람의 공격이 거래 허가를 위협한다고 말했다",
+  "original": "Sen. Whitehouse says wind attacks threaten permitting deal",
+  "url": "https://www.politico.com/news/2026/10/21/sen-whitehouse-says-wind-attacks-threaten-permitting-deal-01129055",
+  "source": "Politico",
+  "published": "2026-10-22T01:15+09:00",
+  "first_seen": "2026-10-22T01:33+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "EU",
+  "policy": "",
+  "title": "빌니우스, 대중교통 전기화를 위한 대규모 대출 확보",
+  "original": "Vilnius secures major loan for public transport electrification",
+  "url": "https://www.electrive.com/2026/10/21/vilnius-secures-major-loan-for-public-transport-electrification/",
+  "source": "electrive",
+  "published": "2026-10-22T01:00+09:00",
+  "first_seen": "2026-10-22T01:33+09:00"
  }
 ]
