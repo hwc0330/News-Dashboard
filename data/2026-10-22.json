@@ -26,5 +26,61 @@
   "source": "InsideEVs",
   "published": "2026-10-22T00:00+09:00",
   "first_seen": "2026-10-22T00:13+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "렉서스, 유럽과 미국에서 자사 최초의 3열 전기 SUV 가격 발표",
+  "original": "Lexus announces prices for its first 3-row electric SUV in Europe and the US",
+  "url": "https://electrek.co/2026/10/21/lexus-announces-prices-3-row-tz-electric-suv/",
+  "source": "Electrek",
+  "published": "2026-10-22T00:41+09:00",
+  "first_seen": "2026-10-22T00:57+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "정책",
+  "impact": "0",
+  "key": false,
+  "region": "EU",
+  "policy": "",
+  "title": "새로운 규정으로 인해 영국에서 도로 횡단형 EV 충전기 설치가 훨씬 쉬워졌다",
+  "original": "New rules make it much easier to install cross-pavement EV chargers in England",
+  "url": "https://www.electrive.com/2026/10/21/rule-changes-make-it-much-easier-to-install-cross-pavement-ev-chargers-in-england/",
+  "source": "electrive",
+  "published": "2026-10-22T00:30+09:00",
+  "first_seen": "2026-10-22T00:57+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "정책",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "미국",
+  "title": "태양광 PPA 가격은 주로 새로운 관세로 인해 3분기에 5% 상승: LevelTen",
+  "original": "Solar PPA prices jump 5% in Q3, mainly on new tariffs: LevelTen",
+  "url": "https://www.utilitydive.com/news/tariffs-solar-wind-ppa-prices-levelten/833598/",
+  "source": "Utility Dive",
+  "published": "2026-10-22T00:17+09:00",
+  "first_seen": "2026-10-22T00:57+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "SpaceX는 엄청난 야망을 가지고 Starship 15 출시 기간을 확인했다",
+  "original": "SpaceX confirms Starship 15 launch window with massive ambitions",
+  "url": "https://www.teslarati.com/spacex-confirms-starship-15-launch-window-massive-ambitions/",
+  "source": "Teslarati",
+  "published": "2026-10-22T00:15+09:00",
+  "first_seen": "2026-10-22T00:57+09:00"
  }
 ]
