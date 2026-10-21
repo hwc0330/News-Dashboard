@@ -1,0 +1,30 @@
+[
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "EU",
+  "policy": "",
+  "title": "BYD, 말레이시아 CKD 조립 위해 BMW와 동일한 파트너 채택",
+  "original": "BYD adopts same partner as BMW for CKD assembly in Malaysia",
+  "url": "https://www.electrive.com/2026/10/21/byd-adopts-same-partner-as-bmw-for-ckd-assembly-in-malaysia/",
+  "source": "electrive",
+  "published": "2026-10-22T00:00+09:00",
+  "first_seen": "2026-10-22T00:13+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "Google 지도, CarPlay에 Gemini AI 도입",
+  "original": "Google Maps Is Getting Gemini AI In CarPlay",
+  "url": "https://insideevs.com/news/812707/google-gemini-maps-carplay/",
+  "source": "InsideEVs",
+  "published": "2026-10-22T00:00+09:00",
+  "first_seen": "2026-10-22T00:13+09:00"
+ }
+]
