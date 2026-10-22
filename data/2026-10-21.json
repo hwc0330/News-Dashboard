@@ -5234,5 +5234,33 @@
   "source": "SMM",
   "published": "2026-10-21T22:35+09:00",
   "first_seen": "2026-10-22T09:37+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "자원",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "2026년 9월 중국의 수산화리튬 수출 통계",
+  "original": "2026年9月中国氢氧化锂出口统计",
+  "url": "http://www.icbattery.com/news/show-htm-itemid-65893.html",
+  "source": "신뤄리튬전지망",
+  "published": "2026-10-21T01:00+09:00",
+  "first_seen": "2026-10-22T11:30+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "자원",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "2026년 9월 중국의 수산화리튬 수입 통계",
+  "original": "2026年9月中国氢氧化锂进口统计",
+  "url": "http://www.icbattery.com/news/show-htm-itemid-65892.html",
+  "source": "신뤄리튬전지망",
+  "published": "2026-10-21T01:00+09:00",
+  "first_seen": "2026-10-22T11:30+09:00"
  }
 ]
