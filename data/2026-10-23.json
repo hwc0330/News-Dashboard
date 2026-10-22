@@ -469,7 +469,7 @@
   "region": "",
   "policy": "",
   "title": "SpaceX는 잠재적인 Tesla 합병에는 Musk의 승인이 필요하다고 말한다",
-  "original": "SpaceX says potential Tesla merger would need Musk's approval",
+  "original": "SpaceX says potential Tesla merger would need Elon Musk's approval",
   "url": "https://www.reuters.com/legal/transactional/spacex-says-tesla-merger-would-need-musks-approval-2026-10-22/",
   "source": "Reuters",
   "published": "2026-10-23T05:49+09:00",
@@ -502,5 +502,47 @@
   "source": "Reuters",
   "published": "2026-10-23T05:46+09:00",
   "first_seen": "2026-10-23T06:06+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "Tesla는 실적 발표에서 가장 중요한 주주 질문을 건너 뛰었다",
+  "original": "Tesla skipped the most important shareholder question on its earnings call",
+  "url": "https://electrek.co/2026/10/22/tesla-skipped-hw3-shareholder-question-earnings-call/",
+  "source": "Electrek",
+  "published": "2026-10-23T06:23+09:00",
+  "first_seen": "2026-10-23T06:39+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "BYD, 주행거리 623마일의 럭셔리 전기 SUV 출시 예정",
+  "original": "BYD is about to launch this luxury electric SUV with 623 miles of range",
+  "url": "https://electrek.co/2026/10/22/byd-launch-luxury-ev-suv-623-miles-range/",
+  "source": "Electrek",
+  "published": "2026-10-23T06:18+09:00",
+  "first_seen": "2026-10-23T06:39+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "Tesla는 내비게이션 문제를 해결하기 위해 자체 지도를 만들고 있다",
+  "original": "Tesla is building its own maps to fix Navigation issues",
+  "url": "https://www.teslarati.com/tesla-building-its-own-maps-fix-navigation-issues/",
+  "source": "Teslarati",
+  "published": "2026-10-23T06:14+09:00",
+  "first_seen": "2026-10-23T06:39+09:00"
  }
 ]
