@@ -544,5 +544,47 @@
   "source": "Teslarati",
   "published": "2026-10-23T06:14+09:00",
   "first_seen": "2026-10-23T06:39+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "Sonnen, 미국 매출 두 배로 독일에 파산 신청",
+  "original": "sonnen files for insolvency in Germany as US sales double",
+  "url": "https://electrek.co/2026/10/22/sonnen-files-for-insolvency-in-germany-as-us-sales-double/",
+  "source": "Electrek",
+  "published": "2026-10-23T07:07+09:00",
+  "first_seen": "2026-10-23T07:12+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "시장",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "BYD, 덴자 N8 사전 판매 시작... 팡청바오 타이9·샤크 출시 일정도 공개",
+  "original": "",
+  "url": "https://www.g-enews.com/article/Global-Biz/2026/10/2026102306325096412bd56fbc3c_1",
+  "source": "글로벌이코노믹",
+  "published": "2026-10-23T06:32+09:00",
+  "first_seen": "2026-10-23T07:12+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "Spacex - 9월 30일에 종료된 3~9개월 동안 Tesla에서 각각 1억 5100만 달러와 4억 8000만 달러의 메가팩 제품을 구매했다",
+  "original": "Spacex - During Three & Nine Months Ended September 30, Purchased $151 Million And $480 Million, Respectively, Of Megapack Products From Tesla",
+  "url": "https://www.reuters.com/site-search/?query=Spacex%20-%20During%20Three%20%26%20Nine%20Months%20Ended%20September%2030%2C%20Purchased%20%24151%20Million%20And%20%24480%20Million%2C%20Respectively%2C%20Of%20Megapack%20Products%20From%20Tesla",
+  "source": "Reuters",
+  "published": "2026-10-23T05:41+09:00",
+  "first_seen": "2026-10-23T07:12+09:00"
  }
 ]
