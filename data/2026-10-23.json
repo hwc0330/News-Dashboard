@@ -376,5 +376,61 @@
   "source": "Roll Call",
   "published": "2026-10-23T00:00+09:00",
   "first_seen": "2026-10-23T04:55+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "시장",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "유럽 9월 순수 전기차 등록 59.9% 급증…중국 4개사 점유율 14.6%로 상승",
+  "original": "",
+  "url": "https://www.g-enews.com/article/Global-Biz/2026/10/2026102305125296092bd56fbc3c_1",
+  "source": "글로벌이코노믹",
+  "published": "2026-10-23T05:12+09:00",
+  "first_seen": "2026-10-23T05:29+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "Tesla는 수년간 지도를 폐기한 후 이제 FSD를 위한 자체 지도가 필요하다고 말한다",
+  "original": "Tesla now says it needs its own maps for FSD after years of dismissing maps",
+  "url": "https://electrek.co/2026/10/22/tesla-building-own-maps-fsd-after-mocking-maps/",
+  "source": "Electrek",
+  "published": "2026-10-23T05:03+09:00",
+  "first_seen": "2026-10-23T05:29+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "예산 소진돼 2027년 일본 전기차 보조금 60~20% 삭감",
+  "original": "預算將耗盡 2027日本EV補助打6~8折",
+  "url": "https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?id=0000772301_6D541BMFLHN27Z2R0M1TD",
+  "source": "DIGITIMES",
+  "published": "2026-10-23T03:23+09:00",
+  "first_seen": "2026-10-23T05:29+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "Hanxiang의 9MW/54MWh 파워 아일랜드가 가동되어 대만 산업용 에너지 저장 마이크로그리드 중 규모가 가장 큽니다",
+  "original": "漢翔9MW/54MWh電力島啟用 規模居全台工業儲能微電網之冠",
+  "url": "https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?id=0000772410_2AS38WSM21O4S4LW402GF",
+  "source": "DIGITIMES",
+  "published": "2026-10-23T03:22+09:00",
+  "first_seen": "2026-10-23T05:29+09:00"
  }
 ]
