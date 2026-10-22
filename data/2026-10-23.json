@@ -334,5 +334,33 @@
   "source": "Electrek",
   "published": "2026-10-23T03:00+09:00",
   "first_seen": "2026-10-23T03:30+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "Ferrari Luce EV는 미국에서 예상보다 $ 80,000 적은 $ 560,800부터 시작한다",
+  "original": "Ferrari Luce EV starts at $560,800 in the US, $80K less than expected",
+  "url": "https://electrek.co/2026/10/22/ferrari-luce-ev-us-price-560800/",
+  "source": "Electrek",
+  "published": "2026-10-23T04:02+09:00",
+  "first_seen": "2026-10-23T04:17+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "어떤 종류의 가상 발전소를 선택하시겠습나?",
+  "original": "What kind of virtual power plant would you choose?",
+  "url": "https://www.canarymedia.com/articles/virtual-power-plants/what-virtual-power-plant-would-you-choose",
+  "source": "Canary Media",
+  "published": "2026-10-23T01:30+09:00",
+  "first_seen": "2026-10-23T04:17+09:00"
  }
 ]
