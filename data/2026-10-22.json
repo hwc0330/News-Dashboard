@@ -5038,5 +5038,33 @@
   "source": "Heatmap",
   "published": "2026-10-22T23:00+09:00",
   "first_seen": "2026-10-23T01:32+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "【주하이코스MX, 주주지분감소 결과 공개】주하이코스M",
+  "original": "【Zhuhai CosMX Discloses Shareholder Stake Reduction Result】Zhuhai CosM",
+  "url": "https://news.metal.com/en/newscontent/104174014-smm-flashzhuhai-cosmx-discloses-major-shareholder-stake-reduction-result",
+  "source": "SMM",
+  "published": "2026-10-22T21:58+09:00",
+  "first_seen": "2026-10-23T02:11+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "산업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "테슬라, 옵티머스 초기 생산 착수…로보택시 수익화 속도",
+  "original": "",
+  "url": "https://www.g-enews.com/article/Global-Biz/2026/10/202610222044096189a1f309431_1",
+  "source": "글로벌이코노믹",
+  "published": "2026-10-22T20:44+09:00",
+  "first_seen": "2026-10-23T02:11+09:00"
  }
 ]

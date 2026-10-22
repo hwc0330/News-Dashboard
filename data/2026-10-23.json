@@ -180,5 +180,47 @@
   "source": "Electrek",
   "published": "2026-10-23T00:56+09:00",
   "first_seen": "2026-10-23T01:32+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "JPM은 Tesla와의 제휴가 SpaceX의 S&P 500 진출 티켓이 될 수 있다고 말했다",
+  "original": "Tesla tie-up could be SpaceX's ticket to the S&P 500, JPM says",
+  "url": "https://www.reuters.com/site-search/?query=Tesla%20tie-up%20could%20be%20SpaceX%27s%20ticket%20to%20the%20S%26P%20500%2C%20JPM%20says",
+  "source": "Reuters",
+  "published": "2026-10-23T02:01+09:00",
+  "first_seen": "2026-10-23T02:11+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "EV, 재생 에너지, 배터리 에너지 저장 및 전력망 규모",
+  "original": "As EV, renewable energy, battery energy storage, and power grid scale",
+  "url": "https://news.metal.com/en/newscontent/104174064-global-energy-transition-metals-demand-rises-copper-faces-supply-challenges-lithium-sees-short-term-relief",
+  "source": "SMM",
+  "published": "2026-10-23T01:53+09:00",
+  "first_seen": "2026-10-23T02:11+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "Xiaomi는 10월 22일 HKEX 신고서에 HKD 1억 520만 달러로 410만 개의 Type B 주식을 매입했다",
+  "original": "Xiaomi Bought Back 4.1 Million Type B Shares For HKD 105.2 Million On 22 Oct, HKEX Filing",
+  "url": "https://www.reuters.com/site-search/?query=Xiaomi%20Bought%20Back%204.1%20Million%20Type%20B%20Shares%20For%20HKD%20105.2%20Million%20On%2022%20Oct%2C%20HKEX%20Filing",
+  "source": "Reuters",
+  "published": "2026-10-23T01:34+09:00",
+  "first_seen": "2026-10-23T02:11+09:00"
  }
 ]
