@@ -2829,13 +2829,13 @@
  },
  {
   "section": "EV/ESS",
-  "tag": "시장",
+  "tag": "기업",
   "impact": "0",
   "key": false,
   "region": "",
   "policy": "",
   "title": "Besi는 AI 수요가 주문을 주도하기 때문에 ASML은 하이브리드 본딩 경쟁자가 아니라고 말한다",
-  "original": "Besi says ASML is not hybrid bonding rival as AI demand drives orders",
+  "original": "Besi beats order forecasts, says ASML not a hybrid bonding rival",
   "url": "https://www.reuters.com/business/besis-quarterly-orders-beat-expectations-ai-data-centre-demand-stays-strong-2026-10-22/",
   "source": "Reuters",
   "published": "2026-10-22T14:12+09:00",
@@ -5010,5 +5010,33 @@
   "source": "신화통신",
   "published": "2026-10-22T01:00+09:00",
   "first_seen": "2026-10-23T00:55+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "Google, PJM 가상 발전소를 1GW 이상으로 확장",
+  "original": "Google supersizes PJM virtual power plant to more than 1 GW",
+  "url": "https://www.utilitydive.com/news/google-voltus-vpp-virtual-power-pjm/833717/",
+  "source": "Utility Dive",
+  "published": "2026-10-22T23:42+09:00",
+  "first_seen": "2026-10-23T01:32+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "캘리포니아의 차기 보험 국장이 되기 위한 놀랍도록 흥미진진한 경쟁",
+  "original": "The Surprisingly Exciting Race to be California’s Next Insurance Commissioner",
+  "url": "https://heatmap.news/politics/california-insurance-commissioner-race",
+  "source": "Heatmap",
+  "published": "2026-10-22T23:00+09:00",
+  "first_seen": "2026-10-23T01:32+09:00"
  }
 ]
