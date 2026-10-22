@@ -2107,7 +2107,7 @@
   "region": "",
   "policy": "",
   "title": "美 월가, 테슬라·스페이스X 합병 기정사실화…테슬라 주주 프리미엄 최대 35% 전망",
-  "original": "",
+  "original": "美월가, 테슬라·스페이스X 합병 기정사실화…테슬라 주주 프리미엄 최대 35% 전망",
   "url": "https://www.theguru.co.kr/news/article.html?no=108611",
   "source": "더구루",
   "published": "2026-10-22T13:27+09:00",
@@ -2224,5 +2224,47 @@
   "source": "신화통신",
   "published": "2026-10-22T01:00+09:00",
   "first_seen": "2026-10-22T13:32+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기술",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "'LG·GM 나트륨배터리 개발 동맹 구축' 美피크에너지 투자 공동 참여",
+  "original": "",
+  "url": "https://www.theguru.co.kr/news/article.html?no=108607",
+  "source": "더구루",
+  "published": "2026-10-22T13:45+09:00",
+  "first_seen": "2026-10-22T14:13+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "포스코퓨처엠, 팔란티어 AI 플랫폼 도입",
+  "original": "",
+  "url": "https://www.thelec.kr/news/articleView.html?idxno=64108",
+  "source": "디일렉",
+  "published": "2026-10-22T13:43+09:00",
+  "first_seen": "2026-10-22T14:13+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "LG전자, 한국수자원공사와 시화조력발전소 AI 전환 협력",
+  "original": "",
+  "url": "https://www.thelec.kr/news/articleView.html?idxno=64092",
+  "source": "디일렉",
+  "published": "2026-10-22T11:00+09:00",
+  "first_seen": "2026-10-22T14:13+09:00"
  }
 ]
