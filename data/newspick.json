@@ -1,5 +1,55 @@
 [
  {
+  "id": 11397,
+  "date": "10월 23일 금요일",
+  "posted": "2026-10-23T07:50+09:00",
+  "url": "https://t.me/cjdbj/11397",
+  "items": [
+   {
+    "section": "배터리 셀/소재/광물",
+    "tag": "기업",
+    "title": "GM 4세대 EV 플랫폼에 LMR 각형…얼티엄셀즈 2028년 양산",
+    "source": "더구루",
+    "url": "https://han.gl/KYe5e"
+   },
+   {
+    "section": "배터리 셀/소재/광물",
+    "tag": "기업",
+    "title": "피크에너지 1.08억달러 조달…LG테크놀로지벤처스 참여",
+    "source": "더구루",
+    "url": "https://han.gl/facVl"
+   },
+   {
+    "section": "배터리 셀/소재/광물",
+    "tag": "정책",
+    "title": "EU 혁신기금 12개 선정…LG엔솔 폴란드 LFP 9GWh 포함",
+    "source": "ESS News",
+    "url": "https://han.gl/O3T6g"
+   },
+   {
+    "section": "배터리 셀/소재/광물",
+    "tag": "기업",
+    "title": "포스코퓨처엠, 팔란티어 AI 도입…소재 개발기간 절반 목표",
+    "source": "블로터",
+    "url": "https://han.gl/c5WAI"
+   },
+   {
+    "section": "배터리 셀/소재/광물",
+    "tag": "기업",
+    "title": "CATL, BAIC와 교환식 확대…사흘 만에 세 번째 제휴",
+    "source": "CnEVPost",
+    "url": "https://han.gl/hNQqF"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "시장",
+    "title": "유럽 9월 BEV 등록 59.9% 급증…中 4개사 점유율 14.6%",
+    "source": "글로벌이코노믹",
+    "url": "https://han.gl/9dxFF"
+   }
+  ]
+ },
+ {
   "id": 11384,
   "date": "10월 22일 목요일",
   "posted": "2026-10-22T07:47+09:00",
@@ -4026,35 +4076,6 @@
     "title": "칠레, 대형 BESS 프로젝트 잇달아 승인·착공",
     "source": "Reuters",
     "url": "https://han.gl/YG14N"
-   }
-  ]
- },
- {
-  "id": 10810,
-  "date": "4월 15일 수요일",
-  "posted": "2026-04-15T08:42+09:00",
-  "url": "https://t.me/cjdbj/10810",
-  "items": [
-   {
-    "section": "배터리 셀/소재/광물",
-    "tag": "정책",
-    "title": "배터리 3사, 美 PFE 규정 완화 요구",
-    "source": "글로벌이코노믹",
-    "url": "https://han.gl/g91uU"
-   },
-   {
-    "section": "EV/ESS",
-    "tag": "산업",
-    "title": "유럽, 3월 BESS 3.4GWh 배치. 사상 최대치",
-    "source": "Energy-Storage News",
-    "url": "https://han.gl/H16YN"
-   },
-   {
-    "section": "EV/ESS",
-    "tag": "정책",
-    "title": "프랑스, 전기차 리스 3차 6월 조기 개시",
-    "source": "더구루",
-    "url": "https://han.gl/j8Xih"
    }
   ]
  }

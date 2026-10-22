@@ -684,5 +684,61 @@
   "source": "글로벌이코노믹",
   "published": "2026-10-23T01:49+09:00",
   "first_seen": "2026-10-23T07:51+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기술",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "\"LFP 잡을 LMR 배터리 올인\"… GM, 4세대 전기차 플랫폼 전격 공개",
+  "original": "",
+  "url": "https://www.g-enews.com/article/Global-Biz/2026/10/2026102308383171960c8c1c064d_1",
+  "source": "글로벌이코노믹",
+  "published": "2026-10-23T08:38+09:00",
+  "first_seen": "2026-10-23T08:57+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "시장",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "\"美 ESS 中 퇴출설, 삼성SDI 반사이익 볼까\"… 목표가 상향 속 검증은 '실적 발표'로",
+  "original": "",
+  "url": "https://www.g-enews.com/article/Global-Biz/2026/10/2026102308270978900c8c1c064d_1",
+  "source": "글로벌이코노믹",
+  "published": "2026-10-23T08:27+09:00",
+  "first_seen": "2026-10-23T08:57+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "미국",
+  "title": "Maloy 의장, 개혁 법안 허용을 지지하는 성명 발표",
+  "original": "Chair Maloy Releases Statement in Support of Permitting Reform Legislation",
+  "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBZQ09Uaml5cVZQTUsyRnNQeHFvVUZSR1VqX0t5NTg3NzdxUXIySjVnaUdhbFdqZjNockNiYWxtY092cU9INkttVzVIaXdtUFRYakVZRVhoYmwwOTNqMUFUdTVoSThJNnRKZkdXVi1NQTRLNTlFSG1NYXZsRk0?oc=5",
+  "source": "미 의회",
+  "published": "2026-10-23T05:22+09:00",
+  "first_seen": "2026-10-23T08:57+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "리튬배터리 산업, '글로벌 진출'의 새로운 길을 모색하다",
+  "original": "锂电池产业探寻“出海”新路径",
+  "url": "http://www.ce.cn/cysc/newmain/yc/jsxw/202610/t20261023_3268661.shtml",
+  "source": "경제일보",
+  "published": "2026-10-23T01:00+09:00",
+  "first_seen": "2026-10-23T08:57+09:00"
  }
 ]
