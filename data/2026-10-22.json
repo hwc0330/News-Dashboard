@@ -5033,7 +5033,7 @@
   "region": "US",
   "policy": "",
   "title": "캘리포니아의 차기 보험 국장이 되기 위한 놀랍도록 흥미진진한 경쟁",
-  "original": "The Surprisingly Exciting Race to be California’s Next Insurance Commissioner",
+  "original": "The Surprisingly Exciting Race to Be California’s Next Insurance Commissioner",
   "url": "https://heatmap.news/politics/california-insurance-commissioner-race",
   "source": "Heatmap",
   "published": "2026-10-22T23:00+09:00",
@@ -5066,5 +5066,33 @@
   "source": "글로벌이코노믹",
   "published": "2026-10-22T20:44+09:00",
   "first_seen": "2026-10-23T02:11+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기술",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "BYD·젠타리, 말레이시아 초고속 플래시 충전 인프라 도입 추진",
+  "original": "",
+  "url": "https://www.g-enews.com/article/Global-Biz/2026/10/2026102222053235692bd56fbc3c_1",
+  "source": "글로벌이코노믹",
+  "published": "2026-10-22T22:05+09:00",
+  "first_seen": "2026-10-23T03:30+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기술",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "WSJ “테슬라·스페이스X 합병, 주주들엔 독 될 수도”",
+  "original": "",
+  "url": "https://www.g-enews.com/article/Global-Biz/2026/10/2026102221253165939a1f309431_1",
+  "source": "글로벌이코노믹",
+  "published": "2026-10-22T21:25+09:00",
+  "first_seen": "2026-10-23T03:30+09:00"
  }
 ]

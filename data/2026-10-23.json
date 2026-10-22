@@ -292,5 +292,47 @@
   "source": "Utility Dive",
   "published": "2026-10-23T00:26+09:00",
   "first_seen": "2026-10-23T02:51+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "기아는 캐나다에서 중국의 값싼 EV를 이길 수 있는 방법이 있다고 믿다",
+  "original": "Kia believes it has a way to beat China’s cheap EVs in Canada",
+  "url": "https://electrek.co/2026/10/22/kia-beat-chinas-cheap-evs-canada/",
+  "source": "Electrek",
+  "published": "2026-10-23T03:25+09:00",
+  "first_seen": "2026-10-23T03:30+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "Net Power는 데이터 센터 수요에 대한 깨끗한 꿈을 포기했다",
+  "original": "Net Power Surrendered Its Clean Dreams to Data Center Demand",
+  "url": "https://heatmap.news/energy/net-power-data-center-boom",
+  "source": "Heatmap",
+  "published": "2026-10-23T03:21+09:00",
+  "first_seen": "2026-10-23T03:30+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "Heybike의 100마일 하이브리드 전기자전거 + 45파운드 Venus 전기자전거를 $999부터 새로운 최저가로 독점 $500 절감, EcoFlow 등",
+  "original": "Exclusive $500 savings hit Heybike’s 100-mile Hybrid e-bike + 45-pound Venus e-bike at new lows from $999, EcoFlow, more",
+  "url": "https://electrek.co/2026/10/22/heybike-hybrid-e-bike-venus-e-bike-ecoflow-delta-3-max-more/",
+  "source": "Electrek",
+  "published": "2026-10-23T03:00+09:00",
+  "first_seen": "2026-10-23T03:30+09:00"
  }
 ]
