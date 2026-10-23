@@ -3862,5 +3862,33 @@
   "source": "Roll Call",
   "published": "2026-10-23T00:00+09:00",
   "first_seen": "2026-10-23T23:58+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "NextEra Energy는 연방 에너지 '허브' 프로젝트를 지원하기 위해 57억 달러를 확보했다",
+  "original": "NextEra Energy secures $5.7B to support federal energy ‘hub’ projects",
+  "url": "https://www.utilitydive.com/news/nextera-energy-secures-57b-to-support-federal-energy-hub-projects/833810/",
+  "source": "Utility Dive",
+  "published": "2026-10-23T21:00+09:00",
+  "first_seen": "2026-10-24T00:36+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "자원",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "'여전히 성장하고 있는' 재무 보고서, CATL이 하루 만에 1400억 달러의 손실을 본 이유는 무엇일까?",
+  "original": "一份“还在增长”的财报，为什么让宁德时代一天蒸发1400亿",
+  "url": "https://m.21jingji.com/article/20261023/herald/4cb8ffd51305bc166370ffc0ac056462.html",
+  "source": "21세기경제보도",
+  "published": "2026-10-23T01:00+09:00",
+  "first_seen": "2026-10-24T00:36+09:00"
  }
 ]

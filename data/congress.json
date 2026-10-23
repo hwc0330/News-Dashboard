@@ -1,7 +1,7 @@
 {
 "congress": 119,
-"checked": "2026-10-23T09:25+00:00",
-"updated": "2026-10-23T18:25+09:00",
+"checked": "2026-10-23T15:37+00:00",
+"updated": "2026-10-24T00:37+09:00",
 "topics": [
 "전기차 세액공제",
 "배터리·제조",
@@ -1112,7 +1112,7 @@
 "official_ko": "미국의 해외 중요 광물과 자원을 활용하기 위한 법안입니다.",
 "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2860",
 "introduced": "2025-09-18",
-"latest": "Committee on Energy and Natural Resources Subcommittee on Public Lands, Forests, and Mining. Hearings held.",
+"latest": "Committee on Energy and Natural Resources Subcommittee on Public Lands, Forests, and Mining. Hearings held. With printed Hearing: S.Hrg. 119-305.",
 "latest_ko": "청문회 개최",
 "latest_date": "2026-02-12",
 "stage": 0,
@@ -1135,7 +1135,7 @@
 "china": false,
 "summary": "",
 "summary_ko": "",
-"updated": "2026-09-08T18:09:59Z"
+"updated": "2026-10-23T11:03:20Z"
 },
 {
 "id": "119-hr7563",
