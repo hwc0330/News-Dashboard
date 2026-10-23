@@ -364,8 +364,8 @@
   "first_seen": "2026-10-23T04:17+09:00"
  },
  {
-  "section": "EV/ESS",
-  "tag": "기업",
+  "section": "기타",
+  "tag": "기타",
   "impact": "0",
   "key": false,
   "region": "US",
@@ -3062,7 +3062,7 @@
   "original": "Humanoid Robot Surges, China Northern Rare Earth and Others Report Positive First Three Quarters Results, Rare Earth Permanent Magnet Concept Sector Rises [SMM News]",
   "url": "https://news.metal.com/en/newscontent/104176667-humanoid-robot-surges-china-northern-rare-earth-and-others-report-positive-first-three-quarters-results-rare-earth-permanent-magnet-concept-sector-rises-smm-news",
   "source": "SMM",
-  "published": "2026-10-23T18:50+09:00",
+  "published": "2026-10-23T21:17+09:00",
   "first_seen": "2026-10-23T19:05+09:00"
  },
  {
@@ -3087,7 +3087,7 @@
   "region": "EU",
   "policy": "유럽",
   "title": "EU 자동 패키지: CO2 규정 완화를 위한 위원회 투표",
-  "original": "EU Auto Package: Committee vote to relax CO₂ rules",
+  "original": "EU Auto Package: Committee votes to relax CO₂ rules",
   "url": "https://www.electrive.com/2026/10/23/eu-auto-package-committee-vote-to-relax-co%e2%82%82-rules/",
   "source": "electrive",
   "published": "2026-10-23T18:30+09:00",
@@ -3498,5 +3498,33 @@
   "source": "SMM",
   "published": "2026-10-23T19:42+09:00",
   "first_seen": "2026-10-23T20:55+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "중국 바이두, 런던 거리에서 로봇택시 테스트",
+  "original": "China's Baidu tests robotaxi on London streets",
+  "url": "https://www.reuters.com/business/finance/chinas-baidu-tests-robotaxi-london-streets-2026-10-23/",
+  "source": "Reuters",
+  "published": "2026-10-23T21:05+09:00",
+  "first_seen": "2026-10-23T21:32+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "루시드를 위한 공간이 있나요?",
+  "original": "Is There Room for Lucid?",
+  "url": "https://heatmap.news/electric-vehicles/is-there-room-for-lucid",
+  "source": "Heatmap",
+  "published": "2026-10-23T19:00+09:00",
+  "first_seen": "2026-10-23T21:32+09:00"
  }
 ]
