@@ -390,5 +390,33 @@
   "source": "미 의회",
   "published": "2026-10-24T00:33+09:00",
   "first_seen": "2026-10-24T03:46+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "팟캐스트: Tesla 수익 토론, 새로운 BYD Seagull, Mustang Mach-E 업데이트 등",
+  "original": "Podcast: Tesla earnings discussion, new BYD Seagull, Mustang Mach-E update, and more",
+  "url": "https://electrek.co/2026/10/23/podcast-tesla-earnings-discussion-new-byd-seagull-mustang-mach-e-update-and-more/",
+  "source": "Electrek",
+  "published": "2026-10-24T04:47+09:00",
+  "first_seen": "2026-10-24T04:58+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "미국",
+  "title": "트럼프, 풍력 터빈 부품 수입이 국가 안보 문제를 야기하지만 관세를 부과하지는 않는다고 말함",
+  "original": "Trump says wind turbine part imports cause national security issue, but doesn't impose tariffs",
+  "url": "https://thehill.com/policy/energy-environment/6169061-trump-wind-turbine-parts-national-security/",
+  "source": "The Hill",
+  "published": "2026-10-24T04:22+09:00",
+  "first_seen": "2026-10-24T04:58+09:00"
  }
 ]
