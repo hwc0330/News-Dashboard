@@ -3302,5 +3302,61 @@
   "source": "CnEVPost",
   "published": "2026-10-23T19:07+09:00",
   "first_seen": "2026-10-23T19:38+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "EU",
+  "policy": "",
+  "title": "캐나다, 2029년까지 승용차 CO2 기준 동결",
+  "original": "Canada freezes CO2 standards for passenger cars until 2029",
+  "url": "https://www.electrive.com/2026/10/23/canada-freezes-co2-standards-for-passenger-cars-until-2029/",
+  "source": "electrive",
+  "published": "2026-10-23T20:00+09:00",
+  "first_seen": "2026-10-23T20:13+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "Tharisa는 공식적으로 Etan으로부터 재생 가능한 전력 공급을 받았다",
+  "original": "Tharisa has officially received renewable electricity supply from Etan",
+  "url": "https://news.metal.com/en/newscontent/104176759-smm-precious-metals-express",
+  "source": "SMM",
+  "published": "2026-10-23T19:36+09:00",
+  "first_seen": "2026-10-23T20:13+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "Bolt, Stellantis는 2028년부터 파리 전역에서 자율주행 실험을 계획하고 있다",
+  "original": "Bolt, Stellantis plan autonomous driving experiment in Greater Paris from 2028",
+  "url": "https://www.reuters.com/site-search/?query=Bolt%2C%20Stellantis%20plan%20autonomous%20driving%20experiment%20in%20Greater%20Paris%20from%202028",
+  "source": "Reuters",
+  "published": "2026-10-23T19:30+09:00",
+  "first_seen": "2026-10-23T20:13+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "\"새로움\"과 \"녹색\"을 향한 녹색 암모니아 알코올은 수소 에너지의 포괄적인 활용 시나리오를 확장한다",
+  "original": "向“新”逐“绿” 绿色氨醇拓宽氢能综合利用场景",
+  "url": "http://finance.people.com.cn/n1/2026/1023/c1004-40820535.html",
+  "source": "인민망",
+  "published": "2026-10-23T01:00+09:00",
+  "first_seen": "2026-10-23T20:13+09:00"
  }
 ]
