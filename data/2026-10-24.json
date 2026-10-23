@@ -250,5 +250,47 @@
   "source": "Canary Media",
   "published": "2026-10-24T01:37+09:00",
   "first_seen": "2026-10-24T02:31+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "구글이 핀란드에서 나무 25만 그루를 쓰러뜨린다면 소리가 날까?",
+  "original": "If Google Fells 250,000 Trees In Finland, Does It Make A Sound?",
+  "url": "https://cleantechnica.com/2026/10/23/if-google-fells-250000-trees-in-finland-does-it-make-a-sound/",
+  "source": "CleanTechnica",
+  "published": "2026-10-24T02:50+09:00",
+  "first_seen": "2026-10-24T03:06+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "BYD의 롤스로이스 같은 플래그십 EV가 해외로 향하고 있다",
+  "original": "BYD’s Rolls-Royce-like flagship EV is heading overseas",
+  "url": "https://electrek.co/2026/10/23/byd-taking-rolls-royce-like-flagship-ev-overseas/",
+  "source": "Electrek",
+  "published": "2026-10-24T02:41+09:00",
+  "first_seen": "2026-10-24T03:06+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "여기서 그리드 유연성은 실제로 무엇을 할 수 있습나?",
+  "original": "What Can Grid Flexibility Actually Do Here?",
+  "url": "https://cleantechnica.com/2026/10/23/what-can-grid-flexibility-do-here/",
+  "source": "CleanTechnica",
+  "published": "2026-10-24T02:28+09:00",
+  "first_seen": "2026-10-24T03:06+09:00"
  }
 ]
