@@ -138,5 +138,47 @@
   "source": "더구루",
   "published": "2026-10-24T00:00+09:00",
   "first_seen": "2026-10-24T01:17+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "Rivian은 일일 클립 400,000개를 3D 시뮬레이션으로 전환하기 위해 스타트업을 인수했다",
+  "original": "Rivian buys startup to turn 400,000 daily clips into 3D sims",
+  "url": "https://electrek.co/2026/10/23/rivian-third-dimension-acquisition-self-driving-simulation/",
+  "source": "Electrek",
+  "published": "2026-10-24T01:56+09:00",
+  "first_seen": "2026-10-24T01:57+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "플로리다 농민들이 재생 농업으로 전환하고 있다",
+  "original": "Florida Farmers Are Making The Move To Regenerative Agriculture",
+  "url": "https://cleantechnica.com/2026/10/23/florida-farmers-are-making-the-move-to-regenerative-agriculture/",
+  "source": "CleanTechnica",
+  "published": "2026-10-24T01:34+09:00",
+  "first_seen": "2026-10-24T01:57+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "AT&T, T-Mobile은 자율 네트워크가 수년 동안 남아 있기 때문에 AI 가드 레일을 강화한다",
+  "original": "AT&T, T-Mobile tighten AI guardrails as autonomous networks remain years away",
+  "url": "https://www.reuters.com/site-search/?query=AT%26T%2C%20T-Mobile%20tighten%20AI%20guardrails%20as%20autonomous%20networks%20remain%20years%20away",
+  "source": "Reuters",
+  "published": "2026-10-24T01:17+09:00",
+  "first_seen": "2026-10-24T01:57+09:00"
  }
 ]

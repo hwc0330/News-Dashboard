@@ -1785,7 +1785,7 @@
   "region": "US",
   "policy": "",
   "title": "Uber 라이벌 inDrive, Pony.ai 및 Nvidia와 함께 중앙 아시아에서 2027년 Robotaxi 테스트 예정",
-  "original": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony.ai and Nvidia",
+  "original": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony AI and Nvidia",
   "url": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/",
   "source": "TechCrunch",
   "published": "2026-10-23T13:00+09:00",
@@ -3890,5 +3890,47 @@
   "source": "21세기경제보도",
   "published": "2026-10-23T01:00+09:00",
   "first_seen": "2026-10-24T00:36+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "미국",
+  "title": "인민 환경 정의 간부회, 상원이 개혁 법안을 승인하는 것에 반대",
+  "original": "People’s Environmental Justice Caucus opposes Senate permitting reform bill",
+  "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQZi1Dc2ZPM09LcXNCbXFad2ZSaGp6Sld2NVJMdE1GZy0ydjhZR09KXzZRekxGb0o3NXc5Y0lqRm1TZkhMSGN2WDMyM3Z2bGRhYTNmUU4tckl4RjR1SEpTZ1FQa2p5YXEwdkZ4dmgybzhhenM4NDEza3hRMFdRWVdjT3BGUGtRamNqZEJZVXRPT2JENW0yZ2E1cm9CRjJEVFNuSXhtbzlNQ3hGZ1ZEUDczd1B5ck9nSkdyWnhxOTI1ek8tdHJyOUE?oc=5",
+  "source": "미 의회",
+  "published": "2026-10-23T23:59+09:00",
+  "first_seen": "2026-10-24T01:57+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "PG&E는 꼬리 위험을 관리하기 위해 산불 정책 개혁이 필요하다고 CEO는 말한다",
+  "original": "PG&E needs wildfire policy reform to manage tail risk, CEO says",
+  "url": "https://www.utilitydive.com/news/pge-needs-wildfire-policy-reform-to-manage-tail-risk-ceo-says/833845/",
+  "source": "Utility Dive",
+  "published": "2026-10-23T23:43+09:00",
+  "first_seen": "2026-10-24T01:57+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "미국",
+  "title": "트럼프, 풍력터빈 수입에 대한 무역협상 관세 회피",
+  "original": "Trump eschews tariffs for trade talks on wind turbine imports",
+  "url": "https://www.utilitydive.com/news/trump-eschews-tariffs-for-trade-talks-on-wind-turbine-imports/833862/",
+  "source": "Utility Dive",
+  "published": "2026-10-23T21:11+09:00",
+  "first_seen": "2026-10-24T01:57+09:00"
  }
 ]
