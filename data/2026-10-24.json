@@ -838,5 +838,33 @@
   "source": "21세기경제보도",
   "published": "2026-10-24T01:00+09:00",
   "first_seen": "2026-10-24T14:38+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "자원",
+  "impact": "0",
+  "key": false,
+  "region": "EU",
+  "policy": "",
+  "title": "미국 주택용 태양광 가격은 제3자 소유권 증가로 인해 3.2% 상승",
+  "original": "U.S. residential solar prices rise 3.2% as third-party ownership gains ground",
+  "url": "https://www.pv-magazine.com/2026/10/24/residential-solar-prices-rise-3-2-as-third-party-ownership-gains-ground/",
+  "source": "pv magazine",
+  "published": "2026-10-24T15:00+09:00",
+  "first_seen": "2026-10-24T15:09+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "Turing Award 수상자 Shifa Keith와의 대화: 수백억 마일의 시뮬레이션 마일로는 Robotaxi의 안전성을 증명할 수 없다",
+  "original": "对话图灵奖得主希发基思：百亿英里仿真里程证明不了Robotaxi安全",
+  "url": "https://www.yicai.com/news/103407795.html",
+  "source": "제일재경",
+  "published": "2026-10-24T14:52+09:00",
+  "first_seen": "2026-10-24T15:09+09:00"
  }
 ]
