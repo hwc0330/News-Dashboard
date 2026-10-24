@@ -1328,5 +1328,33 @@
   "source": "신화통신",
   "published": "2026-10-24T01:00+09:00",
   "first_seen": "2026-10-24T22:49+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "MSRP 40% 할인된 중국 EV, 서구 자동차 시장 진출을 위한 백도어 발견",
+  "original": "Chinese EVs found back door into Western car markets – at 40% off MSRP",
+  "url": "https://electrek.co/2026/10/24/chinese-evs-found-back-door-into-western-car-markets-at-40-off-msrp/",
+  "source": "Electrek",
+  "published": "2026-10-24T23:04+09:00",
+  "first_seen": "2026-10-24T23:14+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "Rivian, 자율성 야망 강화를 위해 합성 데이터 스타트업 인수",
+  "original": "Rivian Buys Synthetic Data Startup To Boost Its Autonomy Ambitions",
+  "url": "https://insideevs.com/news/813110/rivian-third-dimension-aquisition-autonomous-driving/",
+  "source": "InsideEVs",
+  "published": "2026-10-24T23:00+09:00",
+  "first_seen": "2026-10-24T23:14+09:00"
  }
 ]
