@@ -1286,5 +1286,47 @@
   "source": "pv magazine",
   "published": "2026-10-24T21:43+09:00",
   "first_seen": "2026-10-24T22:16+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "로지텍, 2030년 기후 목표를 향해 공급망 탈탄소화를 가속화하기 위해 '체인 리액션' 출시",
+  "original": "Logitech Launches ‘Chain Reaction’ to Accelerate Supply Chain Decarbonization towards 2030 Climate Goals",
+  "url": "https://cleantechnica.com/2026/10/23/logitech-launches-chain-reaction-to-accelerate-supply-chain-decarbonization-towards-2030-climate-goals/",
+  "source": "CleanTechnica",
+  "published": "2026-10-24T12:55+09:00",
+  "first_seen": "2026-10-24T22:49+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "Waymo — 이제 해리 리드 국제공항에 도착한다",
+  "original": "Waymo — Now Arriving At Harry Reid International Airport",
+  "url": "https://cleantechnica.com/2026/10/23/waymo-now-arriving-at-harry-reid-international-airport/",
+  "source": "CleanTechnica",
+  "published": "2026-10-24T12:50+09:00",
+  "first_seen": "2026-10-24T22:49+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "중국이 건설한 태양광 프로젝트는 베트남의 녹색 에너지 전환을 지원한다",
+  "original": "Chinese-built solar project supports Vietnam's green energy transition",
+  "url": "https://english.news.cn/20261024/dcc2da1b3ee346658ab4b4d54d9f751b/c.html",
+  "source": "신화통신",
+  "published": "2026-10-24T01:00+09:00",
+  "first_seen": "2026-10-24T22:49+09:00"
  }
 ]
