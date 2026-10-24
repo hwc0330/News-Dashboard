@@ -1244,5 +1244,47 @@
   "source": "인민망",
   "published": "2026-10-24T01:00+09:00",
   "first_seen": "2026-10-24T21:36+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "NHTSA, Mercedes/China에 이어 로봇택시용 청록색 조명 제안",
+  "original": "NHTSA proposes cyan lights for robotaxis, following Mercedes/China",
+  "url": "https://electrek.co/2026/10/24/nhtsa-proposes-cyan-lights-for-robotaxis-following-mercedes-china/",
+  "source": "Electrek",
+  "published": "2026-10-24T22:00+09:00",
+  "first_seen": "2026-10-24T22:16+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "Xpeng으로 만든 VW의 첫 번째 자동차는 인기가 없다. 이것이 중요한 이유는 다음과 같다",
+  "original": "VW's First Car Made With Xpeng Isn't Popular. Here's Why It Matters",
+  "url": "https://insideevs.com/news/813123/vw-xpeng-flop-unyx-08/",
+  "source": "InsideEVs",
+  "published": "2026-10-24T22:00+09:00",
+  "first_seen": "2026-10-24T22:16+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "산업",
+  "impact": "0",
+  "key": false,
+  "region": "EU",
+  "policy": "",
+  "title": "2026년 인도 재생에너지 엑스포: 세 가지 주요 시사점",
+  "original": "Renewable Energy India Expo 2026: Three key takeaways",
+  "url": "https://www.pv-magazine.com/2026/10/24/renewable-energy-india-expo-2026-three-key-takeaways/",
+  "source": "pv magazine",
+  "published": "2026-10-24T21:43+09:00",
+  "first_seen": "2026-10-24T22:16+09:00"
  }
 ]
