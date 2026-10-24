@@ -542,7 +542,7 @@
   "original": "Wyden on Trump Pausing Some Canada Tariffs Ahead of Election: Americans Are Rejecting Trump’s Desperate, Politicized Stunts, Demand End to Arbitrary Tariff Moves",
   "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxNR1UyMzRYLTRPcTdjZGlFMGtNQktvVHZQYzQyVGk0ZWRjbVFaMkNmM2YxRUdiZHh1N29aTTc5NEtabTg4YjlVaGdDdFFXVWxaRDB5RkljTm1yTXI1amppYk1JU1ZQbDBnVjRyUndIeHNPLW9saEdHOERxdUJvSlJVZXRqMWNHRm5PYVFTLVFRa3ZoenMxWDJ5UkdZd0tGYXQ5Mko5MVJqdFF0Q3lKZWZnSHVUc05DeF9vY1hPTW41OGVVa1BKS3NhR1VsWDU3OTEwTVdBWGktRzZkWkJRNEVaOGJSTFFZdldKWDROSkY0ekN4U3QtRDgwakRMMWFvSlpzTXJaZ2FSSk1RRnRVVkFRRFlhaXpJZG5SRi1VQVMwZWxzLWN5Ml80ajNWaDVUclFMNVhv?oc=5",
   "source": "미 의회",
-  "published": "2026-10-24T08:37+09:00",
+  "published": "2026-10-24T08:36+09:00",
   "first_seen": "2026-10-24T08:58+09:00"
  },
  {
@@ -796,5 +796,47 @@
   "source": "제일재경",
   "published": "2026-10-24T12:30+09:00",
   "first_seen": "2026-10-24T12:54+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "Tesla는 스러스터 활성화 전에 로드스터 운전자가 화면에 무엇을 보게 될지 보여줍니다",
+  "original": "Tesla shows what Roadster drivers will see on screen before thruster activation",
+  "url": "https://www.teslarati.com/tesla-roadster-center-display-ui-ux/",
+  "source": "Teslarati",
+  "published": "2026-10-24T14:05+09:00",
+  "first_seen": "2026-10-24T14:38+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기술",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "사회보장기금은 17개 신규 A주 회사에 편입되었으며, 전년 대비 14개 순이익이 증가했다. Ganfeng Lithium Industry의 순이익은 19,540% 증가했다",
+  "original": "社保基金新进17家A股公司：14家净利润同比增长 赣锋锂业净利润增幅达19540%",
+  "url": "https://m.21jingji.com/article/20261024/herald/5a09a540907ae424e6879cb42a8b422e.html",
+  "source": "21세기경제보도",
+  "published": "2026-10-24T01:00+09:00",
+  "first_seen": "2026-10-24T14:38+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "시장",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "이 회사는 2년 만에 7배 성장했다. 태양광 산업에 남아있는 \"황금 껍질\"이 있습나?",
+  "original": "这家公司2年涨7倍，光伏产业还有哪些“金贝”待捡？",
+  "url": "https://m.21jingji.com/article/20261024/herald/1a52b4b76985293f87649886fc2bbd5c.html",
+  "source": "21세기경제보도",
+  "published": "2026-10-24T01:00+09:00",
+  "first_seen": "2026-10-24T14:38+09:00"
  }
 ]
