@@ -96,5 +96,33 @@
   "source": "글로벌이코노믹",
   "published": "2026-10-25T06:09+09:00",
   "first_seen": "2026-10-25T06:28+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "정책",
+  "impact": "+",
+  "key": false,
+  "region": "",
+  "policy": "미국",
+  "title": "[단독] 美 규제에 백기' 中 롱바이, 충주 양극재 공장 임대…韓사업 재편",
+  "original": "",
+  "url": "https://www.theguru.co.kr/news/article.html?no=108738",
+  "source": "더구루",
+  "published": "2026-10-25T07:00+09:00",
+  "first_seen": "2026-10-25T07:27+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "캐나다와 EU는 차량 배기가스 배출을 감소시키고 있다",
+  "original": "Canada And EU Are Slip Sliding Away On Vehicle Emissions",
+  "url": "https://cleantechnica.com/2026/10/24/canada-and-eu-are-slip-sliding-away-on-vehicle-emissions/",
+  "source": "CleanTechnica",
+  "published": "2026-10-25T07:00+09:00",
+  "first_seen": "2026-10-25T07:27+09:00"
  }
 ]
