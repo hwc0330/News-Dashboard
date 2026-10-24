@@ -684,5 +684,47 @@
   "source": "미 의회",
   "published": "2026-10-24T07:32+09:00",
   "first_seen": "2026-10-24T10:29+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "자원",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "배터리 ETF 인베스코는 10월 22일 100만개 순상환을 기록했다. 지난 1년간 26.56% 하락해 여전히 저위험군에 속한다",
+  "original": "电池ETF景顺10月22日净赎回100万份 近一年跌26.56%仍处低风险区",
+  "url": "http://www.eeo.com.cn/2026/1024/1074259.shtml",
+  "source": "경제관찰보",
+  "published": "2026-10-24T11:38+09:00",
+  "first_seen": "2026-10-24T11:44+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "PHEV 디젤 하이브리드가 실행 가능한 옵션입나? 체리 스톡맨을 소개한다",
+  "original": "Is A PHEV Diesel Hybrid A Viable Option? Introducing the Chery Stockman",
+  "url": "https://cleantechnica.com/2026/10/23/is-a-phev-diesel-hybrid-a-viable-option-introducing-the-chery-stockman/",
+  "source": "CleanTechnica",
+  "published": "2026-10-24T11:18+09:00",
+  "first_seen": "2026-10-24T11:44+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "자원",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "일주일간 출혈량 37억 위안 돌파! CATL은 메이저 업체들에 의해 대폭 축소되었고, GigaDevice는 추세를 거스르며 자금을 유치했다",
+  "original": "单周失血超37亿元！宁德时代遭主力大幅减持，兆易创新逆势吸金",
+  "url": "https://m.21jingji.com/article/20261024/herald/5d0ac9b2923e7556822646082380a4ee.html",
+  "source": "21세기경제보도",
+  "published": "2026-10-24T01:00+09:00",
+  "first_seen": "2026-10-24T11:44+09:00"
  }
 ]
