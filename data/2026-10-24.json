@@ -1370,5 +1370,47 @@
   "source": "CleanTechnica",
   "published": "2026-10-24T23:21+09:00",
   "first_seen": "2026-10-24T23:49+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "시장",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "볼보차 주가 24% 폭락…전기차 EX60 생산 차질에 위기 심화",
+  "original": "",
+  "url": "https://www.g-enews.com/article/Global-Biz/2026/10/2026102421374781729a1f309431_1",
+  "source": "글로벌이코노믹",
+  "published": "2026-10-24T21:37+09:00",
+  "first_seen": "2026-10-25T03:25+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "시장",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "머스크, AI 데이터센터에 최대 5000억달러 베팅…테슬라·스페이스X 합병 승부수",
+  "original": "",
+  "url": "https://www.g-enews.com/article/Global-Biz/2026/10/2026102421074920749a1f309431_1",
+  "source": "글로벌이코노믹",
+  "published": "2026-10-24T21:07+09:00",
+  "first_seen": "2026-10-25T03:25+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "미국",
+  "title": "美 의회 지형 흔들리자 입법 묶인 백악관의 시선이 관세 카드로 향한다",
+  "original": "",
+  "url": "https://www.g-enews.com/article/Global-Biz/2026/10/202610241740014261fbbec65dfb_1",
+  "source": "글로벌이코노믹",
+  "published": "2026-10-24T17:40+09:00",
+  "first_seen": "2026-10-25T03:25+09:00"
  }
 ]
