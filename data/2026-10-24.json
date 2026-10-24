@@ -1160,5 +1160,19 @@
   "source": "제일재경",
   "published": "2026-10-24T19:59+09:00",
   "first_seen": "2026-10-24T20:27+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "CATL, Qilin 배터리가 560km 범위의 Nio Firefly에 전력을 공급한다고 확인",
+  "original": "CATL confirms Qilin Battery powers Nio Firefly with 560 km range",
+  "url": "https://cnevpost.com/2026/10/24/catl-qilin-battery-nio-firefly-60-kwh/",
+  "source": "CnEVPost",
+  "published": "2026-10-24T20:46+09:00",
+  "first_seen": "2026-10-24T20:58+09:00"
  }
 ]
