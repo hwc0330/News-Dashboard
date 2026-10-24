@@ -754,5 +754,47 @@
   "source": "CleanTechnica",
   "published": "2026-10-24T11:44+09:00",
   "first_seen": "2026-10-24T12:14+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "CATL의 5,800만 주가 리프팅 기간에 들어갔다. UBS는 25억 달러의 유동 손실을, Xiaomo는 거의 18억 달러의 유동 손실을 기록했다",
+  "original": "宁德时代5800万股股权进入解禁期：UBS浮亏25亿 小摩浮亏近18亿",
+  "url": "https://wallstreetcn.com/articles/3784385",
+  "source": "화얼제젠원",
+  "published": "2026-10-24T12:51+09:00",
+  "first_seen": "2026-10-24T12:54+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "자원",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "배터리 ETF Jianxin의 점유율은 6억 9,600만 주에 달해 지난 1년 동안 27.61% 감소했다. 현재 할인율은 -0.05%로 안전마진이 높다",
+  "original": "电池ETF建信份额达6.96亿份近一年跌27.61% 当前溢折率-0.05%安全边际较高",
+  "url": "http://www.eeo.com.cn/2026/1024/1074309.shtml",
+  "source": "경제관찰보",
+  "published": "2026-10-24T12:35+09:00",
+  "first_seen": "2026-10-24T12:54+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "산업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "승용차협회지부 Cui Dongshu: 9월 우리나라의 총 전력 및 기타 배터리 생산량은 237GWh로 전년 대비 57% 증가했다",
+  "original": "乘联分会崔东树：9月我国动力和其它电池合计产量为237GWh，同比增长57%",
+  "url": "https://www.yicai.com/news/103407677.html",
+  "source": "제일재경",
+  "published": "2026-10-24T12:30+09:00",
+  "first_seen": "2026-10-24T12:54+09:00"
  }
 ]
