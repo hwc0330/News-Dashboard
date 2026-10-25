@@ -239,7 +239,7 @@
  },
  {
   "section": "EV/ESS",
-  "tag": "자원",
+  "tag": "기업",
   "impact": "0",
   "key": false,
   "region": "",
@@ -617,7 +617,7 @@
  },
  {
   "section": "배터리 셀/소재/광물",
-  "tag": "시장",
+  "tag": "기업",
   "impact": "0",
   "key": false,
   "region": "",
