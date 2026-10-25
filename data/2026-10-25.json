@@ -239,13 +239,13 @@
  },
  {
   "section": "EV/ESS",
-  "tag": "자원",
+  "tag": "기업",
   "impact": "0",
   "key": false,
   "region": "",
   "policy": "",
   "title": "2000억 위안 인출, 안후이 최고 부자, 에너지 저장으로 전환",
-  "original": "回撤2000亿，安徽首富换道储能",
+  "original": "覃毅 回撤2000亿，安徽首富换道储能",
   "url": "https://m.21jingji.com/article/20261025/herald/ea1446288ddc4bb186e97277aaa90fdb.html",
   "source": "21세기경제보도",
   "published": "2026-10-25T01:00+09:00",
@@ -278,5 +278,19 @@
   "source": "제일재경",
   "published": "2026-10-25T10:56+09:00",
   "first_seen": "2026-10-25T11:27+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "시장",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "Weekend Key Express丨중개회사는 물리적 AI, 전고체 배터리, 혁신 의약품에 초점을 맞춰 \"시장이 회복되고 단기적인 혼란을 피할 수 있다\"고 말했다",
+  "original": "周末重点速递丨券商称“市场可以修复，规避短期扰动”，关注物理AI、固态电池、创新药",
+  "url": "https://m.21jingji.com/article/20261025/herald/2e67950f8b2f76a6243d6044c03a88fe.html",
+  "source": "21세기경제보도",
+  "published": "2026-10-25T01:00+09:00",
+  "first_seen": "2026-10-25T12:03+09:00"
  }
 ]
