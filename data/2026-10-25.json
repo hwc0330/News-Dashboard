@@ -656,5 +656,47 @@
   "source": "글로벌이코노믹",
   "published": "2026-10-25T22:59+09:00",
   "first_seen": "2026-10-25T23:15+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "Tesla는 단 2주 만에 Cybercab 약속을 이행한다",
+  "original": "Tesla makes good on its Cybercab promise in just two weeks",
+  "url": "https://www.teslarati.com/tesla-cybercab-rear-view-camera/",
+  "source": "Teslarati",
+  "published": "2026-10-25T23:34+09:00",
+  "first_seen": "2026-10-26T00:23+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "시장",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "\"전동화 판매 1만대 이끈 초격차 인프라\"...BMW코리아, 압도적 충전 네트워크로 전동화 시대 선도",
+  "original": "",
+  "url": "https://www.g-enews.com/article/Industry/2026/10/20261025232559525231a5c2dd38_1",
+  "source": "글로벌이코노믹",
+  "published": "2026-10-25T23:25+09:00",
+  "first_seen": "2026-10-26T00:23+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "전자 장비 하이라이트: Amazon에서 가장 높은 평가를 받은 잔디깎이는 ELECTRIC이다(2026)",
+  "original": "E-quipment highlight: the highest-rated mowers on Amazon are ELECTRIC (2026)",
+  "url": "https://electrek.co/2026/10/25/e-quipment-highlight-the-highest-rated-mowers-on-amazon-are-electric-2026/",
+  "source": "Electrek",
+  "published": "2026-10-25T17:01+09:00",
+  "first_seen": "2026-10-26T00:23+09:00"
  }
 ]
