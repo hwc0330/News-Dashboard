@@ -474,5 +474,61 @@
   "source": "글로벌이코노믹",
   "published": "2026-10-25T15:40+09:00",
   "first_seen": "2026-10-25T17:01+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "Huasheng Lithium Battery: 3분기 순이익은 3억 1300만 위안으로 전년 대비 800.58% 증가했다",
+  "original": "华盛锂电：第三季度净利润3.13亿元 同比增长800.58%",
+  "url": "https://www.yicai.com/news/103408187.html",
+  "source": "제일재경",
+  "published": "2026-10-25T17:29+09:00",
+  "first_seen": "2026-10-25T17:38+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "태양광 발전에 투자하고 하루 3,000달러를 벌 수 있나요?",
+  "original": "Invest in solar and earn $3,000 a day?",
+  "url": "https://cleantechnica.com/2026/10/25/invest-in-solar-and-earn-3000-a-day/",
+  "source": "CleanTechnica",
+  "published": "2026-10-25T17:20+09:00",
+  "first_seen": "2026-10-25T17:38+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "Tianqi Lithium: 3분기 순이익은 13억 6천만 위안으로 전년 대비 1323.97% 증가했다",
+  "original": "天齐锂业：第三季度净利润13.60亿元，同比增1323.97%",
+  "url": "https://www.yicai.com/news/103408168.html",
+  "source": "제일재경",
+  "published": "2026-10-25T17:02+09:00",
+  "first_seen": "2026-10-25T17:38+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "장쑤성 연운항: 중국국가원자력공사 텐완(Tianwan) 200만 킬로와트 갯벌 태양광 발전 실증 프로젝트 가속화 - Xinhuanet",
+  "original": "江苏连云港：中核田湾200万千瓦滩涂光伏示范项目加快推进-新华网",
+  "url": "https://www.news.cn/photo/20261025/8139124daac04cd1a8aa96f6f989b339/c.html",
+  "source": "신화통신",
+  "published": "2026-10-25T01:00+09:00",
+  "first_seen": "2026-10-25T17:38+09:00"
  }
 ]
