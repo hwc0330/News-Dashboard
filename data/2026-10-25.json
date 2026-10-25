@@ -239,7 +239,7 @@
  },
  {
   "section": "EV/ESS",
-  "tag": "기업",
+  "tag": "자원",
   "impact": "0",
   "key": false,
   "region": "",
@@ -544,5 +544,19 @@
   "source": "경제일보",
   "published": "2026-10-25T01:00+09:00",
   "first_seen": "2026-10-25T18:09+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "정책",
+  "impact": "0",
+  "key": true,
+  "region": "",
+  "policy": "",
+  "title": "다카이치, 독일 정상회담서 EU 전기차 우대 '日 제외' 철회 요구 방침",
+  "original": "",
+  "url": "https://www.g-enews.com/article/Global-Biz/2026/10/202610251809551706139bf6e4b2_1",
+  "source": "글로벌이코노믹",
+  "published": "2026-10-25T18:09+09:00",
+  "first_seen": "2026-10-25T18:45+09:00"
  }
 ]
