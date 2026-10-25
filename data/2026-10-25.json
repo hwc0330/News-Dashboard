@@ -497,7 +497,7 @@
   "region": "US",
   "policy": "",
   "title": "태양광 발전에 투자하고 하루 3,000달러를 벌 수 있나요?",
-  "original": "Invest in Solar and Earn $3,000 a Day?",
+  "original": "Invest in solar and earn $3,000 a day?",
   "url": "https://cleantechnica.com/2026/10/25/invest-in-solar-and-earn-3000-a-day/",
   "source": "CleanTechnica",
   "published": "2026-10-25T17:20+09:00",
@@ -698,5 +698,19 @@
   "source": "Electrek",
   "published": "2026-10-25T17:01+09:00",
   "first_seen": "2026-10-26T00:23+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "자원",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "보기보다 작은 중국 아르헨티나 광산 면적",
+  "original": "China’s Argentina mining footprint smaller than it looks",
+  "url": "https://www.mining.com/chinas-argentina-mining-footprint-smaller-than-it-looks/",
+  "source": "MINING.COM",
+  "published": "2026-10-25T21:00+09:00",
+  "first_seen": "2026-10-26T02:35+09:00"
  }
 ]

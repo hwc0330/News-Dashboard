@@ -26,5 +26,47 @@
   "source": "TechCrunch",
   "published": "2026-10-26T01:05+09:00",
   "first_seen": "2026-10-26T01:29+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "배터리 전기, 태양열 냉동 냉동 장치가 첫 번째 고객에게 도달",
+  "original": "Battery electric, solar-powered reefer units reach their first customers",
+  "url": "https://electrek.co/2026/10/25/battery-electric-solar-powered-reefer-units-reach-their-first-customers/",
+  "source": "Electrek",
+  "published": "2026-10-26T02:28+09:00",
+  "first_seen": "2026-10-26T02:35+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "미국",
+  "title": "트럼프의 DOE 예산 요청은 약한 베팅과 유용한 에너지 연구를 함께 삭감한다",
+  "original": "Trump’s DOE Budget Request Cuts Weak Bets And Useful Energy Research Together",
+  "url": "https://cleantechnica.com/2026/10/25/trump-doe-budget-cuts-energy-research/",
+  "source": "CleanTechnica",
+  "published": "2026-10-26T02:17+09:00",
+  "first_seen": "2026-10-26T02:35+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "Elon Musk 영화를 죽인 사람은 누구입나? 아니, 그 억만장자가 아니라 또 다른 억만장자임에 틀림없어",
+  "original": "Who Killed The Elon Musk Movie? Nope, Not That Billionaire, Must Be Another One",
+  "url": "https://cleantechnica.com/2026/10/25/elon-musk-the-movie-blackout-billionaires/",
+  "source": "CleanTechnica",
+  "published": "2026-10-26T02:07+09:00",
+  "first_seen": "2026-10-26T02:35+09:00"
  }
 ]
