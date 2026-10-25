@@ -239,7 +239,7 @@
  },
  {
   "section": "EV/ESS",
-  "tag": "자원",
+  "tag": "기업",
   "impact": "0",
   "key": false,
   "region": "",
@@ -530,5 +530,19 @@
   "source": "신화통신",
   "published": "2026-10-25T01:00+09:00",
   "first_seen": "2026-10-25T17:38+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "텐진: '15차 5개년 계획' 기간 동안 새로운 전력망 건설을 가속화한다",
+  "original": "天津：“十五五”期间加快推进新型电网建设",
+  "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202610/t20261025_3270521.shtml",
+  "source": "경제일보",
+  "published": "2026-10-25T01:00+09:00",
+  "first_seen": "2026-10-25T18:09+09:00"
  }
 ]
