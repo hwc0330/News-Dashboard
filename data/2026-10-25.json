@@ -239,7 +239,7 @@
  },
  {
   "section": "EV/ESS",
-  "tag": "자원",
+  "tag": "기업",
   "impact": "0",
   "key": false,
   "region": "",
@@ -572,5 +572,33 @@
   "source": "electrive",
   "published": "2026-10-25T20:00+09:00",
   "first_seen": "2026-10-25T20:23+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "Tianqi Lithium은 3분기 영업 수익이 다음과 같다고 발표했다",
+  "original": "Tianqi Lithium announced that its third-quarter operating revenue was",
+  "url": "https://news.metal.com/en/newscontent/104176926-tianqi-lithium-q3-net-profit-+1324-yoy--42-qoq",
+  "source": "SMM",
+  "published": "2026-10-25T20:51+09:00",
+  "first_seen": "2026-10-25T20:56+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "시장",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "주간 신차 재고 | BYD Seagull, 5인승으로 업그레이드, Jetta 최초의 순수 전기 세단 출시",
+  "original": "一周新车盘点｜比亚迪海鸥换代增至五座 捷达首款纯电轿车上市",
+  "url": "https://www.jiemian.com/article/15235899.html",
+  "source": "제몐",
+  "published": "2026-10-25T15:00+09:00",
+  "first_seen": "2026-10-25T20:56+09:00"
  }
 ]
