@@ -306,5 +306,33 @@
   "source": "글로벌이코노믹",
   "published": "2026-10-25T14:03+09:00",
   "first_seen": "2026-10-25T14:26+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "첫 3분기 동안 심천 리튬 배터리는 200개 이상의 국가와 지역으로 수출되었으며 수출액은 800억 위안을 초과했다",
+  "original": "前三季度深圳锂电池出口至200多个国家和地区，出口货值超800亿元",
+  "url": "https://www.yicai.com/news/103408135.html",
+  "source": "제일재경",
+  "published": "2026-10-25T14:52+09:00",
+  "first_seen": "2026-10-25T15:00+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "경찰은 전기 소파를 타고 길을 가던 남성 2명을 연행했다",
+  "original": "Police pull over two men riding an electric couch down the street",
+  "url": "https://electrek.co/2026/10/24/police-pull-over-two-men-riding-an-electric-couch-down-the-street/",
+  "source": "Electrek",
+  "published": "2026-10-25T14:47+09:00",
+  "first_seen": "2026-10-25T15:00+09:00"
  }
 ]
