@@ -1,5 +1,48 @@
 [
  {
+  "id": 11400,
+  "date": "10월 26일 월요일",
+  "posted": "2026-10-26T07:58+09:00",
+  "url": "https://t.me/cjdbj/11400",
+  "items": [
+   {
+    "section": "배터리 셀/소재/광물",
+    "tag": "기업",
+    "title": "中 롱바이, 美 규제에 충주 양극재 공장 임대…LG엔솔 공급사",
+    "source": "더구루",
+    "url": "https://han.gl/nmVNs"
+   },
+   {
+    "section": "배터리 셀/소재/광물",
+    "tag": "시장",
+    "title": "중국 배터리, 보호무역 피해 현지화…누적 투자 900억달러",
+    "source": "더구루, FT",
+    "url": "https://han.gl/Zy8F3"
+   },
+   {
+    "section": "배터리 셀/소재/광물",
+    "tag": "정책",
+    "title": "美 알루미늄박 50% 추가관세…ESS 전환으로 韓 공급 기회",
+    "source": "더구루",
+    "url": "https://han.gl/XAoSY"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "정책",
+    "title": "EU 의회 산업·교통위, 승용차 CO2 규제 완화안 가결",
+    "source": "electrive",
+    "url": "https://han.gl/Fcm6o"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "시장",
+    "title": "중국산 중고 전기차 EU 판매 280%↑…관세·쿼터 우회",
+    "source": "Electrek",
+    "url": "https://han.gl/BVgvJ"
+   }
+  ]
+ },
+ {
   "id": 11397,
   "date": "10월 23일 금요일",
   "posted": "2026-10-23T07:50+09:00",
@@ -4033,49 +4076,6 @@
     "title": "독일, 3월 ESS 신설 월간 최대치 기록",
     "source": "ESS News",
     "url": "https://han.gl/nv6Yz"
-   }
-  ]
- },
- {
-  "id": 10811,
-  "date": "4월 16일 목요일",
-  "posted": "2026-04-16T09:45+09:00",
-  "url": "https://t.me/cjdbj/10811",
-  "items": [
-   {
-    "section": "배터리 셀/소재/광물",
-    "tag": "기술",
-    "title": "LG엔솔, 니켈 95% 초고함량 배터리 개발 완료",
-    "source": "뉴스핌",
-    "url": "https://han.gl/MuGGz"
-   },
-   {
-    "section": "배터리 셀/소재/광물",
-    "tag": "기업",
-    "title": "삼성SDI, 로봇·UAM·나트륨 배터리로 미래 시장 공략",
-    "source": "뉴스핌",
-    "url": "https://han.gl/jl8h4"
-   },
-   {
-    "section": "배터리 셀/소재/광물",
-    "tag": "기업",
-    "title": "현대차-LG엔솔 조지아 배터리 공장, 이달 가동 준비 완료",
-    "source": "연합뉴스",
-    "url": "https://han.gl/TiB8r"
-   },
-   {
-    "section": "배터리 셀/소재/광물",
-    "tag": "정책",
-    "title": "미·EU, 핵심 광물 공급망 공동 전선 구축",
-    "source": "글로벌이코노믹",
-    "url": "https://han.gl/Rf4zs"
-   },
-   {
-    "section": "EV/ESS",
-    "tag": "산업",
-    "title": "칠레, 대형 BESS 프로젝트 잇달아 승인·착공",
-    "source": "Reuters",
-    "url": "https://han.gl/YG14N"
    }
   ]
  }
