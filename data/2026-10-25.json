@@ -497,7 +497,7 @@
   "region": "US",
   "policy": "",
   "title": "태양광 발전에 투자하고 하루 3,000달러를 벌 수 있나요?",
-  "original": "Invest in solar and earn $3,000 a day?",
+  "original": "Invest in Solar and Earn $3,000 a Day?",
   "url": "https://cleantechnica.com/2026/10/25/invest-in-solar-and-earn-3000-a-day/",
   "source": "CleanTechnica",
   "published": "2026-10-25T17:20+09:00",
@@ -628,5 +628,33 @@
   "source": "21세기경제보도",
   "published": "2026-10-25T01:00+09:00",
   "first_seen": "2026-10-25T22:50+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "중국 자동차 거대 기업 체리(Chery)가 미국 시장을 공략하고 싶어한다. 디트로이트가 도움이 될 수 있다고 생각한다",
+  "original": "Chinese Auto Giant Chery Wants To Crack The U.S. Market. It Thinks Detroit Could Help",
+  "url": "https://insideevs.com/news/813122/chery-us-try-soon-launch/",
+  "source": "InsideEVs",
+  "published": "2026-10-25T23:00+09:00",
+  "first_seen": "2026-10-25T23:15+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "시장",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "GM, 전 차종 하이브리드 투입…고공행진 유가 대응",
+  "original": "",
+  "url": "https://www.g-enews.com/article/Global-Biz/2026/10/2026102522591778792bd56fbc3c_1",
+  "source": "글로벌이코노믹",
+  "published": "2026-10-25T22:59+09:00",
+  "first_seen": "2026-10-25T23:15+09:00"
  }
 ]
