@@ -626,7 +626,7 @@
   "original": "James Comey charged again by the DOJ",
   "url": "https://www.axios.com/2026/10/26/james-comey-national-defense-information-charges",
   "source": "Axios",
-  "published": "2026-10-27T07:30+09:00",
+  "published": "2026-10-27T08:05+09:00",
   "first_seen": "2026-10-27T07:11+09:00"
  },
  {
@@ -670,5 +670,47 @@
   "source": "InsideEVs",
   "published": "2026-10-27T07:26+09:00",
   "first_seen": "2026-10-27T07:56+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "자원",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "리튬 채굴업체들의 3분기 실적이 달성됐고, 수요도 늘어나 성장 여지가 생겼다",
+  "original": "锂矿企业三季报业绩兑现 需求多点开花打开增量空间",
+  "url": "https://www.yicai.com/news/103410390.html",
+  "source": "제일재경",
+  "published": "2026-10-27T08:19+09:00",
+  "first_seen": "2026-10-27T08:27+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "산업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "\"전기차 넘어 AI 전력망으로\"… 2035년 2차전지 시장 3,172억 달러 급성장",
+  "original": "",
+  "url": "https://www.g-enews.com/article/Global-Biz/2026/10/2026102708072266510c8c1c064d_1",
+  "source": "글로벌이코노믹",
+  "published": "2026-10-27T08:07+09:00",
+  "first_seen": "2026-10-27T08:27+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "Anthropic의 IPO는 성공이다! 광통신 칩 주가가 폭등했고, Tesla가 3개월래 최고치를 기록했으며, 금값은 4,000달러를 놓고 싸웠다",
+  "original": "Anthropic IPO成强心剂！芯片股光通信爆发，特斯拉创三个月新高，黄金激战4000美元",
+  "url": "https://www.yicai.com/news/103410347.html",
+  "source": "제일재경",
+  "published": "2026-10-27T08:02+09:00",
+  "first_seen": "2026-10-27T08:27+09:00"
  }
 ]
