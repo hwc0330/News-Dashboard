@@ -1,0 +1,72 @@
+[
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "EU",
+  "policy": "",
+  "title": "Plugit, 핀란드에서 최초의 공개 MCS 충전 세션 보고",
+  "original": "Plugit reports first public MCS charging session in Finland",
+  "url": "https://www.electrive.com/2026/10/26/plugit-reports-first-public-mcs-charging-session-in-finland/",
+  "source": "electrive",
+  "published": "2026-10-27T00:30+09:00",
+  "first_seen": "2026-10-27T00:35+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "EU",
+  "policy": "유럽",
+  "title": "체코 정부, 2027년까지 저장 용량 경매 제안",
+  "original": "Czech ministry proposes storage capacity auctions to 2027",
+  "url": "https://www.ess-news.com/2026/10/26/czech-ministry-proposes-storage-capacity-auctions-to-2027/",
+  "source": "ESS News",
+  "published": "2026-10-27T00:20+09:00",
+  "first_seen": "2026-10-27T00:35+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "Codelco, BHP, 칠레 북부에서 4천만 달러 규모의 구리 채굴 개시",
+  "original": "Codelco, BHP launch $40M copper hunt in northern Chile",
+  "url": "https://www.mining.com/codelco-bhp-launch-40m-copper-hunt-in-northern-chile/",
+  "source": "MINING.COM",
+  "published": "2026-10-27T00:19+09:00",
+  "first_seen": "2026-10-27T00:35+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "Tesla는 SpaceX 합병에 대한 찬사로 휴스턴의 Robotaxi 지오펜스를 확장한다",
+  "original": "Tesla expands Robotaxi geofence in Houston with an ode to SpaceX merger",
+  "url": "https://www.teslarati.com/tesla-expands-robotaxi-geofence-houston-spacex/",
+  "source": "Teslarati",
+  "published": "2026-10-27T00:02+09:00",
+  "first_seen": "2026-10-27T00:35+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "EU",
+  "policy": "",
+  "title": "Ford는 2027 Mustang Mach-E에 장거리 배터리와 트레일 버전을 추가한다",
+  "original": "Ford adds longer-range battery and Trail version to 2027 Mustang Mach-E",
+  "url": "https://www.electrive.com/2026/10/26/ford-adds-longer-range-battery-and-trail-version-to-2027-mustang-mach-e/",
+  "source": "electrive",
+  "published": "2026-10-27T00:00+09:00",
+  "first_seen": "2026-10-27T00:35+09:00"
+ }
+]
