@@ -161,7 +161,7 @@
   "region": "US",
   "policy": "",
   "title": "독일서 사이버트럭 운전자 정지, '몬스터트럭' 도로 통행 금지",
-  "original": "Cybertruck driver stopped in Germany, “Monster truck” not allowed on roads",
+  "original": "Cybertruck driver stopped in Germany, ‘Monster truck’ not allowed on roads",
   "url": "https://electrek.co/2026/10/26/cybertruck-driver-stopped-in-germany-monster-truck-not-allowed-on-roads/",
   "source": "Electrek",
   "published": "2026-10-27T02:13+09:00",
@@ -320,5 +320,19 @@
   "source": "CleanTechnica",
   "published": "2026-10-27T03:07+09:00",
   "first_seen": "2026-10-27T03:59+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "Tesla와 Turo는 사람들을 FSD에 매료시키는 새로운 방법을 가지고 있다",
+  "original": "Tesla And Turo Have A New Way To Get People Hooked On FSD",
+  "url": "https://insideevs.com/news/813307/tesla-turo-fsd-tie-up/",
+  "source": "InsideEVs",
+  "published": "2026-10-27T04:24+09:00",
+  "first_seen": "2026-10-27T04:42+09:00"
  }
 ]
