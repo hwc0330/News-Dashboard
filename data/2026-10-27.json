@@ -626,7 +626,7 @@
   "original": "James Comey charged again by the DOJ",
   "url": "https://www.axios.com/2026/10/26/james-comey-national-defense-information-charges",
   "source": "Axios",
-  "published": "2026-10-27T07:00+09:00",
+  "published": "2026-10-27T07:30+09:00",
   "first_seen": "2026-10-27T07:11+09:00"
  },
  {
@@ -642,5 +642,33 @@
   "source": "글로벌이코노믹",
   "published": "2026-10-27T03:27+09:00",
   "first_seen": "2026-10-27T07:11+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "LS일렉트릭, 북미 최대 신재생 전시회 'RE+ 2026' 참가…차세대 BESS·배전 솔루션 공개",
+  "original": "",
+  "url": "https://www.theguru.co.kr/news/article.html?no=108774",
+  "source": "더구루",
+  "published": "2026-10-27T07:55+09:00",
+  "first_seen": "2026-10-27T07:56+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "현대 아이오닉 6는 중고차로 좋은가요? 30개월 후 주인의 생각",
+  "original": "Is The Hyundai Ioniq 6 A Good Used Buy? An Owner's Thoughts After 30 Months",
+  "url": "https://insideevs.com/news/813304/hyundai-ioniq-6-used-buy/",
+  "source": "InsideEVs",
+  "published": "2026-10-27T07:26+09:00",
+  "first_seen": "2026-10-27T07:56+09:00"
  }
 ]
