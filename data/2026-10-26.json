@@ -1132,5 +1132,33 @@
   "source": "SMM",
   "published": "2026-10-26T12:34+09:00",
   "first_seen": "2026-10-26T13:21+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "Tesla Cybercabs가 오스틴의 F1 주말을 장악한다",
+  "original": "Tesla Cybercabs take over Austin’s F1 weekend",
+  "url": "https://www.teslarati.com/tesla-cybercabs-take-over-austins-f1-weekend/",
+  "source": "Teslarati",
+  "published": "2026-10-26T14:04+09:00",
+  "first_seen": "2026-10-26T14:09+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기술",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "미국",
+  "title": "삼성SDI, 美 인디애나 공장 '단독 운영' 후속 협의…내달 현지 당국과 세부 조율",
+  "original": "",
+  "url": "https://www.theguru.co.kr/news/article.html?no=108751",
+  "source": "더구루",
+  "published": "2026-10-26T13:36+09:00",
+  "first_seen": "2026-10-26T14:09+09:00"
  }
 ]
