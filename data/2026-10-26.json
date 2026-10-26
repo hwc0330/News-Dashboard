@@ -1076,5 +1076,61 @@
   "source": "CnEVPost",
   "published": "2026-10-26T12:12+09:00",
   "first_seen": "2026-10-26T12:44+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "【SMM 희토류 플래시】 10월 23일 중국 희토류 그룹이",
+  "original": "【SMM Rare Earth Flash】 On October 23, China Rare Earth Group held its",
+  "url": "https://news.metal.com/en/newscontent/104178441-china-rare-earth-group-exceeds-q3-2026-targets-aims-for-continued-growth-and-reform",
+  "source": "SMM",
+  "published": "2026-10-26T12:45+09:00",
+  "first_seen": "2026-10-26T13:21+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "미국",
+  "title": "뉴저지 대표 Rob Menendez가 Socket Full을 출시했다",
+  "original": "New Jersey Representative Rob Menendez has introduced the Socket Full",
+  "url": "https://news.metal.com/en/newscontent/104178426-smm-pv-flash-us-lawmaker-introduces-first-federal-plug-in-solar-bill-with-600-million-rebate-program",
+  "source": "SMM",
+  "published": "2026-10-26T12:45+09:00",
+  "first_seen": "2026-10-26T13:21+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "영국 재무부는 154억 파운드의 자본을 추가할 계획을 확인했다",
+  "original": "The UK Treasury has confirmed plans to add £15.4 billion of capital to",
+  "url": "https://news.metal.com/en/newscontent/104178408-smm-pv-flash-uk-treasury-confirms-%C2%A3154-billion-top-up-for-national-wealth-fund",
+  "source": "SMM",
+  "published": "2026-10-26T12:44+09:00",
+  "first_seen": "2026-10-26T13:21+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "자원",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "[SMM Nickel Midday Review] 10월 26일 니켈 가격은 5차 전체회의와 미국 연준의 이중 창구를 앞두고 관망심리가 강해 하락세를 보였다",
+  "original": "[SMM Nickel Midday Review] Nickel prices drifted lower on Oct 26, with strong wait-and-see sentiment ahead of the dual windows of the Fifth Plenum and the US Fed",
+  "url": "https://news.metal.com/en/newscontent/104178471-smm-nickel-midday-review-nickel-prices-drifted-lower-on-oct-26-with-strong-wait-and-see-sentiment-ahead-of-the-dual-windows-of-the-fifth-plenum-and-the-us-fed",
+  "source": "SMM",
+  "published": "2026-10-26T12:34+09:00",
+  "first_seen": "2026-10-26T13:21+09:00"
  }
 ]
