@@ -810,5 +810,19 @@
   "source": "SMM",
   "published": "2026-10-25T20:59+09:00",
   "first_seen": "2026-10-26T09:52+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "정책",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "의무 할당 및 저장이 완화된 후 처음으로 에너지 저장이 주도권을 잡았다",
+  "original": "强制配储松绑后 储能第一次自己挑大梁",
+  "url": "http://www.eeo.com.cn/2026/1025/1075484.shtml",
+  "source": "경제관찰보",
+  "published": "2026-10-25T16:22+09:00",
+  "first_seen": "2026-10-26T22:56+09:00"
  }
 ]
