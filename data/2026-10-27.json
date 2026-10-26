@@ -614,5 +614,33 @@
   "source": "Heatmap",
   "published": "2026-10-27T05:05+09:00",
   "first_seen": "2026-10-27T06:33+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "법무부(DOJ)가 제임스 코미(James Comey)를 다시 기소했다",
+  "original": "James Comey charged again by the DOJ",
+  "url": "https://www.axios.com/2026/10/26/james-comey-national-defense-information-charges",
+  "source": "Axios",
+  "published": "2026-10-27T07:00+09:00",
+  "first_seen": "2026-10-27T07:11+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "자원",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "한화오션, 캐나다 희토류 광산 데이터 검토... 2027년 본계약 추진 정황",
+  "original": "",
+  "url": "https://www.g-enews.com/article/Global-Biz/2026/10/20261027032709911320990b2dc5_1",
+  "source": "글로벌이코노믹",
+  "published": "2026-10-27T03:27+09:00",
+  "first_seen": "2026-10-27T07:11+09:00"
  }
 ]
