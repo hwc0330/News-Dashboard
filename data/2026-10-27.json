@@ -516,5 +516,47 @@
   "source": "DIGITIMES 區域",
   "published": "2026-10-27T03:07+09:00",
   "first_seen": "2026-10-27T05:16+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "자원",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "기아 EV6 가격 동결에 북미 전기차 시장 들썩",
+  "original": "",
+  "url": "https://www.g-enews.com/article/Global-Biz/2026/10/2026102705445937742bd56fbc3c_1",
+  "source": "글로벌이코노믹",
+  "published": "2026-10-27T05:44+09:00",
+  "first_seen": "2026-10-27T05:57+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "정책",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "미국",
+  "title": "EV 세금 공제는 다시 돌아올 수 있다. 여기에 방해가 되는 것이 있다",
+  "original": "The EV Tax Credit Could Come Back. Here's What Stands In The Way",
+  "url": "https://insideevs.com/news/813308/ev-tax-credit-could-return-but-hurdles-remain/",
+  "source": "InsideEVs",
+  "published": "2026-10-27T05:32+09:00",
+  "first_seen": "2026-10-27T05:57+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "캐나다 니켈, 스위스 철강, 대서양 횡단 파트너십 계획",
+  "original": "Canada Nickel, Swiss Steel plan transatlantic partnership",
+  "url": "https://www.mining.com/canada-nickel-swiss-steel-plan-transatlantic-partnership/",
+  "source": "MINING.COM",
+  "published": "2026-10-27T01:38+09:00",
+  "first_seen": "2026-10-27T05:57+09:00"
  }
 ]
