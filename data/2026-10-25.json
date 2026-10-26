@@ -239,7 +239,7 @@
  },
  {
   "section": "EV/ESS",
-  "tag": "기업",
+  "tag": "자원",
   "impact": "0",
   "key": false,
   "region": "",
@@ -617,7 +617,7 @@
  },
  {
   "section": "배터리 셀/소재/광물",
-  "tag": "기업",
+  "tag": "시장",
   "impact": "0",
   "key": false,
   "region": "",
@@ -782,5 +782,33 @@
   "source": "글로벌이코노믹",
   "published": "2026-10-25T22:25+09:00",
   "first_seen": "2026-10-26T08:01+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "독일 폭스바겐그룹이 10월 25일 Ge에 새 공장을 짓는다",
+  "original": "On October 25, Germany’s Volkswagen Group will build a new plant in Ge",
+  "url": "https://news.metal.com/en/newscontent/104176932-trump-to-officially-announce-volkswagens-us-plant-build-to-rally-support-for-midterms",
+  "source": "SMM",
+  "published": "2026-10-25T21:03+09:00",
+  "first_seen": "2026-10-26T09:52+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "10월 22일, Lopal Tech는 자사의 2차 계층이 Su를 제어한다고 발표했다",
+  "original": "On October 22, Lopal Tech announced that its second-tier controlled su",
+  "url": "https://news.metal.com/en/newscontent/104176930-lopal-tech-to-sell-76-pt-lbm-stake-to-address-us-bill-curbs",
+  "source": "SMM",
+  "published": "2026-10-25T20:59+09:00",
+  "first_seen": "2026-10-26T09:52+09:00"
  }
 ]
