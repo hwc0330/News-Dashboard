@@ -3596,5 +3596,47 @@
   "source": "글로벌이코노믹",
   "published": "2026-10-27T20:10+09:00",
   "first_seen": "2026-10-28T04:06+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "Tianjin Beichen District의 첫 번째 산업 및 상업 에너지 저장 프로젝트가 공식적으로 가동되었다",
+  "original": "天津北辰区首个工商业储能项目正式投运",
+  "url": "http://www.icbattery.com/news/show-htm-itemid-65924.html",
+  "source": "신뤄리튬전지망",
+  "published": "2026-10-27T01:00+09:00",
+  "first_seen": "2026-10-28T04:47+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "리튬-나트륨 듀얼 트랙! 난창의 새로운 에너지 저장을 위한 새로운 지렛대 구축",
+  "original": "锂钠双赛道!锻造南昌新型储能新支点",
+  "url": "http://www.icbattery.com/news/show-htm-itemid-65923.html",
+  "source": "신뤄리튬전지망",
+  "published": "2026-10-27T01:00+09:00",
+  "first_seen": "2026-10-28T04:47+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "시장",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "빠진 것은 MMDS가 아니라 MDA - 전해질 첨가제 MMDS 부족 시장 분석",
+  "original": "缺的不是MMDS，是MDA——电解液添加剂MMDS缺货的市场分析",
+  "url": "http://www.icbattery.com/news/show-htm-itemid-65922.html",
+  "source": "신뤄리튬전지망",
+  "published": "2026-10-27T01:00+09:00",
+  "first_seen": "2026-10-28T04:47+09:00"
  }
 ]
