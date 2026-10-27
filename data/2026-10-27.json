@@ -3638,5 +3638,33 @@
   "source": "신뤄리튬전지망",
   "published": "2026-10-27T01:00+09:00",
   "first_seen": "2026-10-28T04:47+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "일본의 H3 로켓이 우주 임무를 지원하기 위해 화성 탐사선 MMX GS Yuasa 리튬 배터리를 성공적으로 발사했다",
+  "original": "日本H3火箭成功發射火星探測器MMX GS Yuasa鋰電池助攻太空任務",
+  "url": "https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?id=0000772442_WP250MIY3N8DF93K7TON4",
+  "source": "DIGITIMES",
+  "published": "2026-10-27T23:00+09:00",
+  "first_seen": "2026-10-28T05:23+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "산업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "테슬라 사이버캡, 생산속도가 운행 확대 추월…로보택시 보급 병목",
+  "original": "",
+  "url": "https://www.g-enews.com/article/Global-Biz/2026/10/2026102720383086999a1f309431_1",
+  "source": "글로벌이코노믹",
+  "published": "2026-10-27T20:38+09:00",
+  "first_seen": "2026-10-28T05:23+09:00"
  }
 ]
