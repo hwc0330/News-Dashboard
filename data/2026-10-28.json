@@ -614,5 +614,61 @@
   "source": "Electrek",
   "published": "2026-10-28T06:08+09:00",
   "first_seen": "2026-10-28T06:44+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "이상한 종교적 입장: GM은 자율주행차에 카메라만 사용하지 않을 것",
+  "original": "'A Weird Religious Stance:' GM Won't Be Going Camera-Only For Self-Driving Cars",
+  "url": "https://insideevs.com/news/813467/gm-autonomous-lidar-tesla-criticism/",
+  "source": "InsideEVs",
+  "published": "2026-10-28T07:08+09:00",
+  "first_seen": "2026-10-28T07:21+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기업",
+  "impact": "-",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "CATL, 독일 Intilion과 5년에 걸쳐 3GWh의 나트륨 이온 저장 장치 구축 계약 체결",
+  "original": "CATL signs deal with Germany's Intilion to deploy 3 GWh of sodium-ion storage over 5 years",
+  "url": "https://cnevpost.com/2026/10/28/catl-intilion-3-gwh-sodium-ion-storage/",
+  "source": "CnEVPost",
+  "published": "2026-10-28T07:01+09:00",
+  "first_seen": "2026-10-28T07:21+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "정책",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "환경 벌금 받은 SK온…헝가리 지원 배제도 보도",
+  "original": "",
+  "url": "https://www.g-enews.com/article/Global-Biz/2026/10/2026102806584819042bd56fbc3c_1",
+  "source": "글로벌이코노믹",
+  "published": "2026-10-28T06:58+09:00",
+  "first_seen": "2026-10-28T07:21+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "GM은 이제 하이브리드를 수용하고 있다",
+  "original": "GM is embracing hybrids now",
+  "url": "https://techcrunch.com/2026/10/27/gm-is-embracing-hybrids-now/",
+  "source": "TechCrunch",
+  "published": "2026-10-28T06:47+09:00",
+  "first_seen": "2026-10-28T07:21+09:00"
  }
 ]
