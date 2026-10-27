@@ -1,5 +1,62 @@
 [
  {
+  "id": 11403,
+  "date": "10월 27일 화요일",
+  "posted": "2026-10-27T08:52+09:00",
+  "url": "https://t.me/cjdbj/11403",
+  "items": [
+   {
+    "section": "배터리 셀/소재/광물",
+    "tag": "기업",
+    "title": "현대차 아틀라스 배터리, 삼성SDI·LG엔솔이 공급",
+    "source": "전자신문",
+    "url": "https://han.gl/4Phpe"
+   },
+   {
+    "section": "배터리 셀/소재/광물",
+    "tag": "기업",
+    "title": "에코프로비엠, 유럽 내 중국 셀 업체에 양극재 조단위 협의",
+    "source": "한국경제",
+    "url": "https://han.gl/Kayc9"
+   },
+   {
+    "section": "배터리 셀/소재/광물",
+    "tag": "기업",
+    "title": "삼성SDI 북미 ESS 수주 3연타…내년 생산능력 30GWh",
+    "source": "이투데이",
+    "url": "https://han.gl/1W9kr"
+   },
+   {
+    "section": "배터리 셀/소재/광물",
+    "tag": "기업",
+    "title": "삼성SDI, 인디애나 공장 단독 운영 후속 협의",
+    "source": "더구루",
+    "url": "https://han.gl/0TgUJ"
+   },
+   {
+    "section": "배터리 셀/소재/광물",
+    "tag": "정책",
+    "title": "LG엔솔 캐나다 넥스트스타, 온타리오 보조금 3000억원 수령",
+    "source": "더구루",
+    "url": "https://han.gl/nFslP"
+   },
+   {
+    "section": "배터리 셀/소재/광물",
+    "tag": "기업",
+    "title": "고션, 3조3000억 미시간 소재공장 백지화",
+    "source": "더구루",
+    "url": "https://han.gl/xu0U8"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "기업",
+    "title": "니오 자체 원통형 셀 연말 소량 생산…CATL 각형 구매 확대",
+    "source": "CnEVPost",
+    "url": "https://han.gl/qRi1r"
+   }
+  ]
+ },
+ {
   "id": 11401,
   "date": "10월 26일 월요일",
   "posted": "2026-10-26T08:35+09:00",
@@ -4047,42 +4104,6 @@
     "title": "현대차 아이오닉 3 공개, 유럽 전용 소형 EV",
     "source": "electrek",
     "url": "https://han.gl/LDEYO"
-   }
-  ]
- },
- {
-  "id": 10825,
-  "date": "4월 20일 월요일",
-  "posted": "2026-04-20T08:38+09:00",
-  "url": "https://t.me/cjdbj/10825",
-  "items": [
-   {
-    "section": "배터리 셀/소재/광물",
-    "tag": "정책",
-    "title": "인니, 니켈 가격 산정 공식 개정…국제가 급등",
-    "source": "더구루",
-    "url": "https://han.gl/4Nlcz"
-   },
-   {
-    "section": "배터리 셀/소재/광물",
-    "tag": "산업",
-    "title": "구리값 10주 최고…中 제련 가동 회복",
-    "source": "mining.com",
-    "url": "https://han.gl/5NlHe"
-   },
-   {
-    "section": "EV/ESS",
-    "tag": "정책",
-    "title": "캐나다, 中 전기차 관세 100%→6.1% 인하",
-    "source": "글로벌이코노믹",
-    "url": "https://han.gl/8dqQO"
-   },
-   {
-    "section": "EV/ESS",
-    "tag": "기업",
-    "title": "테슬라 로보택시, 댈러스·휴스턴 진출",
-    "source": "electrek",
-    "url": "https://han.gl/QNQF6"
    }
   ]
  }
