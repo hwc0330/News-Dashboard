@@ -2966,5 +2966,19 @@
   "source": "신뤄리튬전지망",
   "published": "2026-10-26T01:00+09:00",
   "first_seen": "2026-10-27T09:00+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "폭스바겐, 중국 동부에서 레벨 3 자율주행 도로 테스트 시작",
+  "original": "Volkswagen begins Level 3 autonomous driving road tests in east China",
+  "url": "https://english.news.cn/20261026/c3c9de2ae86c4a21aa8dca450db908a9/c.html",
+  "source": "신화통신",
+  "published": "2026-10-26T01:00+09:00",
+  "first_seen": "2026-10-27T11:57+09:00"
  }
 ]
