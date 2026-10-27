@@ -334,5 +334,33 @@
   "source": "electrive",
   "published": "2026-10-28T02:30+09:00",
   "first_seen": "2026-10-28T03:15+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "GM은 하이브리드를 원하지 않았다. 이제 가장 큰 SUV에 탑재된다: 보고서",
+  "original": "GM Didn't Want Hybrids. Now It's Putting Them In Its Biggest SUVs: Report",
+  "url": "https://insideevs.com/news/813459/gm-hybrid-suvs-chevy-buick-gmc/",
+  "source": "InsideEVs",
+  "published": "2026-10-28T03:52+09:00",
+  "first_seen": "2026-10-28T04:06+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "세계 최대 전기 페리가 부에노스아이레스에서 운항 개시",
+  "original": "World’s Largest Electric Ferry Enters Service In Buenos Aires",
+  "url": "https://cleantechnica.com/2026/10/27/worlds-largest-electric-ferry-enters-service-in-buenos-aires/",
+  "source": "CleanTechnica",
+  "published": "2026-10-28T03:16+09:00",
+  "first_seen": "2026-10-28T04:06+09:00"
  }
 ]
