@@ -558,5 +558,61 @@
   "source": "글로벌이코노믹",
   "published": "2026-10-28T02:12+09:00",
   "first_seen": "2026-10-28T06:07+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "미국",
+  "title": "4 민주당 상원 의원은 트럼프가 개혁 법안 승인에 대한 신뢰를 얻기 위해 취소된 녹색 자금을 복원해야 한다고 말했다",
+  "original": "4 Dem senators say Trump should restore canceled green funds to earn trust for permitting reform bill",
+  "url": "https://thehill.com/policy/energy-environment/6176346-trump-green-grants-permitting-reform/",
+  "source": "The Hill",
+  "published": "2026-10-28T06:40+09:00",
+  "first_seen": "2026-10-28T06:44+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "BYD의 10,000달러짜리 EV는 거의 90mph의 속도로 타이어를 터뜨립니다. — 무슨 일이 일어나는지 지켜보세요",
+  "original": "BYD’s $10,000 EV blows a tire at nearly 90 mph — Watch what happens",
+  "url": "https://electrek.co/2026/10/27/byds-10k-ev-blows-tire-nearly-90-mph-watch-what-happens/",
+  "source": "Electrek",
+  "published": "2026-10-28T06:30+09:00",
+  "first_seen": "2026-10-28T06:44+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "미국",
+  "title": "트럼프 관세 직격탄… 혼다 \"1월 캐나다산 폭탄 관세는 업계 재앙\"",
+  "original": "",
+  "url": "https://www.g-enews.com/article/Global-Biz/2026/10/2026102806224980702bd56fbc3c_1",
+  "source": "글로벌이코노믹",
+  "published": "2026-10-28T06:22+09:00",
+  "first_seen": "2026-10-28T06:44+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "Walmart+ 상징으로 발견된 Rivian 전기 밴, 차량 계약 암시",
+  "original": "Rivian electric van spotted in Walmart+ livery, hinting at a fleet deal",
+  "url": "https://electrek.co/2026/10/27/rivian-electric-van-walmart-plus-livery-spotted/",
+  "source": "Electrek",
+  "published": "2026-10-28T06:08+09:00",
+  "first_seen": "2026-10-28T06:44+09:00"
  }
 ]
