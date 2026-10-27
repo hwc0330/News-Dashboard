@@ -1,5 +1,41 @@
 [
  {
+  "id": 11406,
+  "date": "10월 28일 수요일",
+  "posted": "2026-10-28T08:01+09:00",
+  "url": "https://t.me/cjdbj/11406",
+  "items": [
+   {
+    "section": "배터리 셀/소재/광물",
+    "tag": "기업",
+    "title": "LG엔솔, 에너직스와 유럽·북미 ESS 2GWh 협력",
+    "source": "디일렉",
+    "url": "https://han.gl/nlyID"
+   },
+   {
+    "section": "배터리 셀/소재/광물",
+    "tag": "기업",
+    "title": "중국 롱바이, 충주 양극재 공장 임대로 미국 규제 우회",
+    "source": "디일렉",
+    "url": "https://han.gl/x7yaS"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "정책",
+    "title": "미 민주당, 전기차 세액공제 7500달러 부활 추진",
+    "source": "글로벌이코노믹",
+    "url": "https://han.gl/Dc4Vk"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "정책",
+    "title": "민주당 상원의원 4명, BAAJA 지지 조건으로 지원금 복원 요구",
+    "source": "The Hill",
+    "url": "https://han.gl/xYXzD"
+   }
+  ]
+ },
+ {
   "id": 11403,
   "date": "10월 27일 화요일",
   "posted": "2026-10-27T08:52+09:00",
@@ -4068,42 +4104,6 @@
     "title": "테슬라, 로보택시 전용 슈퍼차저 구축",
     "source": "Teslarati",
     "url": "https://han.gl/4LxVa"
-   }
-  ]
- },
- {
-  "id": 10826,
-  "date": "4월 21일 화요일",
-  "posted": "2026-04-21T08:43+09:00",
-  "url": "https://t.me/cjdbj/10826",
-  "items": [
-   {
-    "section": "배터리 셀/소재/광물",
-    "tag": "정책",
-    "title": "칠레, 광산 인허가 간소화로 100억 달러 투자 유치",
-    "source": "mining .com",
-    "url": "https://han.gl/N1r9D"
-   },
-   {
-    "section": "배터리 셀/소재/광물",
-    "tag": "기술",
-    "title": "Sunwoda, 15C 초급속충전 LFP 배터리 공개",
-    "source": "electrive",
-    "url": "https://han.gl/aSkGP"
-   },
-   {
-    "section": "EV/ESS",
-    "tag": "정책",
-    "title": "프랑스, 2035년 고속충전소 3만기 구축",
-    "source": "electrive",
-    "url": "https://han.gl/DTsnr"
-   },
-   {
-    "section": "EV/ESS",
-    "tag": "기업",
-    "title": "현대차 아이오닉 3 공개, 유럽 전용 소형 EV",
-    "source": "electrek",
-    "url": "https://han.gl/LDEYO"
    }
   ]
  }
