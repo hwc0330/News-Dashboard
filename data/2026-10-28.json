@@ -539,7 +539,7 @@
   "region": "US",
   "policy": "",
   "title": "Tesla의 Cybercab은 구조용 배터리의 큰 수리 가능성 문제를 해결한다",
-  "original": "Tesla's Cybercab Fixes A Big Repairability Problem With Its Structural Batteries",
+  "original": "The Tesla Model Y's Structural Battery Was Nearly Impossible To Repair. The Cybercab Fixes That",
   "url": "https://insideevs.com/news/813446/tesla-cybercab-battery-pack-modules-model-y-structural/",
   "source": "InsideEVs",
   "published": "2026-10-28T05:30+09:00",
@@ -623,7 +623,7 @@
   "region": "US",
   "policy": "",
   "title": "이상한 종교적 입장: GM은 자율주행차에 카메라만 사용하지 않을 것",
-  "original": "'A Weird Religious Stance:' GM Won't Be Going Camera-Only For Self-Driving Cars",
+  "original": "'A Weird Religious Stance:' GM Exec Says Ditching Radar For Self-Driving 'Ignores Physics'",
   "url": "https://insideevs.com/news/813467/gm-autonomous-lidar-tesla-criticism/",
   "source": "InsideEVs",
   "published": "2026-10-28T07:08+09:00",
@@ -670,5 +670,33 @@
   "source": "TechCrunch",
   "published": "2026-10-28T06:47+09:00",
   "first_seen": "2026-10-28T07:21+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "정책",
+  "impact": "+",
+  "key": false,
+  "region": "US",
+  "policy": "중국",
+  "title": "저렴한 중국 전기차가 유럽 관세를 피해 몰래 빠져나가는 방법",
+  "original": "How Cheap Chinese EVs Are Sneaking Around Europe's Tariffs",
+  "url": "https://insideevs.com/news/813426/chinese-evs-western-markets-used/",
+  "source": "InsideEVs",
+  "published": "2026-10-28T07:51+09:00",
+  "first_seen": "2026-10-28T08:04+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "재생에너지가 전체 발전 용량의 40%에 도달하고 1년 안에 가스를 능가 – EIA",
+  "original": "Renewables to reach 40% of total generating capacity, beat gas within a year – EIA",
+  "url": "https://electrek.co/2026/10/27/renewables-to-reach-40-of-total-generating-capacity-beat-gas-within-a-year-eia/",
+  "source": "Electrek",
+  "published": "2026-10-28T07:24+09:00",
+  "first_seen": "2026-10-28T08:04+09:00"
  }
 ]
