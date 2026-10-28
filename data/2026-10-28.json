@@ -2101,7 +2101,7 @@
  },
  {
   "section": "EV/ESS",
-  "tag": "기업",
+  "tag": "시장",
   "impact": "0",
   "key": false,
   "region": "",
@@ -3134,5 +3134,19 @@
   "source": "Electrek",
   "published": "2026-10-28T23:28+09:00",
   "first_seen": "2026-10-28T23:53+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "FERC는 실적이 좋지 않은 수요 측 리소스에 대해 더 엄격한 MISO 처벌을 승인한다",
+  "original": "FERC approves tougher MISO penalties for non-performing demand-side resources",
+  "url": "https://www.utilitydive.com/news/ferc-miso-penalties-demand-side-resource-lmr/873006/",
+  "source": "Utility Dive",
+  "published": "2026-10-28T22:42+09:00",
+  "first_seen": "2026-10-29T00:46+09:00"
  }
 ]
