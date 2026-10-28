@@ -418,5 +418,33 @@
   "source": "DIGITIMES",
   "published": "2026-10-29T03:11+09:00",
   "first_seen": "2026-10-29T05:48+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "중고 EV가 갑자기 인기를 끌었다. $25,000 미만의 최고 SUV는 다음과 같다",
+  "original": "Used EVs are suddenly hot sellers — Here are the top SUVs for under $25,000",
+  "url": "https://electrek.co/2026/10/28/used-evs-suddenly-hot-sellers-top-suvs-for-under-25000/",
+  "source": "Electrek",
+  "published": "2026-10-29T06:11+09:00",
+  "first_seen": "2026-10-29T06:25+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "서양에서는 전해조를 발명했다. 중국이 산업을 건설하고 있다",
+  "original": "The West Invented the Electrolyzer. China Is Building the Industry.",
+  "url": "https://heatmap.news/energy/china-electrolyzer-industry",
+  "source": "Heatmap",
+  "published": "2026-10-29T05:48+09:00",
+  "first_seen": "2026-10-29T06:25+09:00"
  }
 ]
