@@ -2101,7 +2101,7 @@
  },
  {
   "section": "EV/ESS",
-  "tag": "시장",
+  "tag": "기업",
   "impact": "0",
   "key": false,
   "region": "",
@@ -3106,5 +3106,33 @@
   "source": "신화통신",
   "published": "2026-10-28T01:00+09:00",
   "first_seen": "2026-10-28T22:58+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "EU",
+  "policy": "",
+  "title": "런던 구급차 서비스, 충전 파트너 확보",
+  "original": "London Ambulance Service secures charging partners",
+  "url": "https://www.electrive.com/2026/10/28/london-ambulance-service-secures-charging-partners/",
+  "source": "electrive",
+  "published": "2026-10-28T23:30+09:00",
+  "first_seen": "2026-10-28T23:53+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "시장",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "Tesla는 VinFast와 36%의 시장 점유율을 차지하기 위해 베트남 진출을 확인했다",
+  "original": "Tesla confirms Vietnam entry to take on VinFast and its 36% market share",
+  "url": "https://electrek.co/2026/10/28/tesla-vietnam-entry-vinfast/",
+  "source": "Electrek",
+  "published": "2026-10-28T23:28+09:00",
+  "first_seen": "2026-10-28T23:53+09:00"
  }
 ]
