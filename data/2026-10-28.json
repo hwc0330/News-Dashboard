@@ -1062,5 +1062,61 @@
   "source": "신뤄리튬전지망",
   "published": "2026-10-28T01:00+09:00",
   "first_seen": "2026-10-28T12:05+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "자원",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "10월 28일 배터리급 황산니켈 가격이 톤당 250위안 하락",
+  "original": "Battery-Grade Nickel Sulphate Price Drops by 250 Yuan/mt on October 28",
+  "url": "https://news.metal.com/en/newscontent/104183228-battery-grade-nickel-sulphate-price-drops-by-250-yuanmt-on-october-28",
+  "source": "SMM",
+  "published": "2026-10-28T12:44+09:00",
+  "first_seen": "2026-10-28T12:50+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "자원",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "[SMM 황산니켈 Daily Review] 10월 28일 전방 구매심리가 부진하며 황산니켈 가격이 하락했다",
+  "original": "[SMM Nickel Sulphate Daily Review] On October 28, downstream purchasing sentiment was sluggish, and nickel sulphate prices declined.",
+  "url": "https://news.metal.com/en/newscontent/104183226-smm-nickel-sulphate-daily-review-on-october-28-downstream-purchasing-sentiment-was-sluggish-and-nickel-sulphate-prices-declined",
+  "source": "SMM",
+  "published": "2026-10-28T12:42+09:00",
+  "first_seen": "2026-10-28T12:50+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "【SMM 뉴스 속보】 First Solar, 사우스캐롤라이나 시설의 1단계 개장을 10월 28일로 예정",
+  "original": "【SMM News Flash】 First Solar schedules South Carolina facility’s first-phase inauguration for October 28",
+  "url": "https://news.metal.com/en/newscontent/104182979-smm-news-flash-first-solar-schedules-south-carolina-facilitys-first-phase-inauguration-for-october-28",
+  "source": "SMM",
+  "published": "2026-10-28T12:23+09:00",
+  "first_seen": "2026-10-28T12:50+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "【SMM 뉴스 속보】 방글라데시 전력망 장애로 다카와 치타공 전력 공급 중단",
+  "original": "【SMM News Flash】 Bangladesh grid failure disrupts power in Dhaka and Chittagong",
+  "url": "https://news.metal.com/en/newscontent/104182963-smm-news-flash-bangladesh-grid-failure-disrupts-power-in-dhaka-and-chittagong",
+  "source": "SMM",
+  "published": "2026-10-28T12:23+09:00",
+  "first_seen": "2026-10-28T12:50+09:00"
  }
 ]
