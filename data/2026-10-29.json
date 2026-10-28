@@ -502,5 +502,61 @@
   "source": "InsideEVs",
   "published": "2026-10-29T06:45+09:00",
   "first_seen": "2026-10-29T07:11+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "Jetson, 설치가 포함된 고정 가격의 히트펌프 온수기 출시",
+  "original": "Jetson Launches Fixed Price Heat Pump Water Heater with Installation Included",
+  "url": "https://cleantechnica.com/2026/10/28/jetson-launches-fixed-price-heat-pump-water-heater-with-installation-included/",
+  "source": "CleanTechnica",
+  "published": "2026-10-29T07:40+09:00",
+  "first_seen": "2026-10-29T07:57+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "네덜란드 스타트업 엘리시안(Elysian)은 전기 비행이 생각보다 더 가까울 수 있다고 말한다",
+  "original": "Dutch startup Elysian says electric flight may be closer than you think",
+  "url": "https://electrek.co/2026/10/28/dutch-startup-elysian-says-electric-flight-may-be-closer-than-you-think/",
+  "source": "Electrek",
+  "published": "2026-10-29T07:34+09:00",
+  "first_seen": "2026-10-29T07:57+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기술",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "CATL이 꺼내 든 전고체 배터리 카드, 2027년 소량 생산의 진실",
+  "original": "",
+  "url": "https://www.g-enews.com/article/Global-Biz/2026/10/2026102907172283932bd56fbc3c_1",
+  "source": "글로벌이코노믹",
+  "published": "2026-10-29T07:17+09:00",
+  "first_seen": "2026-10-29T07:57+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기술",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "샤오펑, 휴머노이드 로봇 배터리 선행 생산 돌입",
+  "original": "",
+  "url": "https://www.g-enews.com/article/Global-Biz/2026/10/2026102907014444192bd56fbc3c_1",
+  "source": "글로벌이코노믹",
+  "published": "2026-10-29T07:01+09:00",
+  "first_seen": "2026-10-29T07:57+09:00"
  }
 ]

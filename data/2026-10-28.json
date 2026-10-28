@@ -2101,7 +2101,7 @@
  },
  {
   "section": "EV/ESS",
-  "tag": "시장",
+  "tag": "기업",
   "impact": "0",
   "key": false,
   "region": "",
@@ -3246,5 +3246,19 @@
   "source": "DIGITIMES",
   "published": "2026-10-28T19:33+09:00",
   "first_seen": "2026-10-29T05:48+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기술",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "\"배터리 공장 밑에 리튬 밭 있다\"… 中, 화산 점토형 리튬 매장 가능성 확인",
+  "original": "",
+  "url": "https://www.g-enews.com/article/Global-Biz/2026/10/2026102814592322350c8c1c064d_1",
+  "source": "글로벌이코노믹",
+  "published": "2026-10-28T14:59+09:00",
+  "first_seen": "2026-10-29T07:57+09:00"
  }
 ]
