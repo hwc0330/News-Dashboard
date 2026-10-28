@@ -264,5 +264,33 @@
   "source": "Utility Dive",
   "published": "2026-10-29T01:46+09:00",
   "first_seen": "2026-10-29T03:15+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "정책",
+  "impact": "+",
+  "key": true,
+  "region": "US",
+  "policy": "미국",
+  "title": "민주당은 기회가 없는 새로운 15,000달러 EV 세금 공제 법안을 도입한다. 이것이 문제이다",
+  "original": "Dems introduce new $15,000 EV tax credit bill that has no chance — and that’s a problem",
+  "url": "https://electrek.co/2026/10/28/15000-ev-tax-credit-bill-landsman-no-chance/",
+  "source": "Electrek",
+  "published": "2026-10-29T04:38+09:00",
+  "first_seen": "2026-10-29T05:02+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "DOE는 원자력 성능 향상을 위해 Constellation에 50억 달러 대출을 발표했다",
+  "original": "The DOE announces $5B loan to Constellation for nuclear uprates",
+  "url": "https://www.canarymedia.com/articles/nuclear/doe-5b-loan-constellation-energy",
+  "source": "Canary Media",
+  "published": "2026-10-29T04:00+09:00",
+  "first_seen": "2026-10-29T05:02+09:00"
  }
 ]
