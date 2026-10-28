@@ -1,5 +1,55 @@
 [
  {
+  "id": 11412,
+  "date": "10월 29일 목요일",
+  "posted": "2026-10-29T07:52+09:00",
+  "url": "https://t.me/cjdbj/11412",
+  "items": [
+   {
+    "section": "배터리 셀/소재/광물",
+    "tag": "기업",
+    "title": "LG화학, LG엔솔 지분 PRS로 2.5조 조달",
+    "source": "디일렉",
+    "url": "https://han.gl/taQmL"
+   },
+   {
+    "section": "배터리 셀/소재/광물",
+    "tag": "기술",
+    "title": "솔리드파워, 황화물 고체전해질 연속생산 라인 시운전",
+    "source": "더구루",
+    "url": "https://han.gl/yiJo5"
+   },
+   {
+    "section": "배터리 셀/소재/광물",
+    "tag": "기술",
+    "title": "CATL, 20Ah 전고체 시험생산…2027년 소규모 양산",
+    "source": "Electrek",
+    "url": "https://han.gl/kpdWV"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "정책",
+    "title": "영국, 유로7 도입 확정…배터리 수명 하한 법제화",
+    "source": "electrive",
+    "url": "https://han.gl/jTqYO"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "정책",
+    "title": "트럼프, 로봇·산업기계 수입 안보위협 판단…관세는 180일 유보",
+    "source": "연합뉴스",
+    "url": "https://han.gl/K4TRl"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "시장",
+    "title": "BNEF, 미국 ESS 전망 30% 상향…2036년 434GW",
+    "source": "Utility Dive",
+    "url": "https://han.gl/T8jM9"
+   }
+  ]
+ },
+ {
   "id": 11406,
   "date": "10월 28일 수요일",
   "posted": "2026-10-28T08:01+09:00",
@@ -4061,49 +4111,6 @@
     "title": "잠비아 최대 태양광·ESS 하이브리드 착공",
     "source": "ESS News",
     "url": "https://han.gl/P4FtG"
-   }
-  ]
- },
- {
-  "id": 10828,
-  "date": "4월 22일 수요일",
-  "posted": "2026-04-22T08:33+09:00",
-  "url": "https://t.me/cjdbj/10828",
-  "items": [
-   {
-    "section": "배터리 셀/소재/광물",
-    "tag": "기술",
-    "title": "CATL, Tehc Day서 신제품 대거 공개",
-    "source": "Cnevpost",
-    "url": "https://han.gl/e60Hm"
-   },
-   {
-    "section": "배터리 셀/소재/광물",
-    "tag": "기술",
-    "title": "닛산, 전고체 배터리 양산 가시화",
-    "source": "글로벌 이코노믹",
-    "url": "https://han.gl/Yw8wA"
-   },
-   {
-    "section": "배터리 셀/소재/광물",
-    "tag": "기업",
-    "title": "SK온, 도쿄에 지사 설립 추진",
-    "source": "연합뉴스",
-    "url": "https://han.gl/xMQtf"
-   },
-   {
-    "section": "EV/ESS",
-    "tag": "산업",
-    "title": "국내 전기차 누적 판매 100만대 돌파",
-    "source": "조선일보",
-    "url": "https://han.gl/xj4Bg"
-   },
-   {
-    "section": "EV/ESS",
-    "tag": "산업",
-    "title": "테슬라, 로보택시 전용 슈퍼차저 구축",
-    "source": "Teslarati",
-    "url": "https://han.gl/4LxVa"
    }
   ]
  }
