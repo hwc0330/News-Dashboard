@@ -500,7 +500,7 @@
   "original": "Barr Announces $1M Federal Grant to University of Kentucky to Build Critical Minerals Workforce",
   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNWG40c29qTWZYaWoxVl9NUkhMQXVGc1ktMXNkQ0dSTV9scnBvaG5YckdCRWZuT2xWS3JNQ1laUTJnbDNLcGdSdDJmczNHaF9XYk1NSnpiTnJrWlAtYzBCWEJkcE9DQnIwbWRJemhZSEJMR2J5SmhxM3pCT1NCVEZ6THRMZw?oc=5",
   "source": "미 의회",
-  "published": "2026-10-28T05:53+09:00",
+  "published": "2026-10-28T09:09+09:00",
   "first_seen": "2026-10-28T06:07+09:00"
  },
  {
@@ -992,5 +992,75 @@
   "source": "중국증권보",
   "published": "2026-10-28T01:00+09:00",
   "first_seen": "2026-10-28T11:17+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "더욱 성장하는 Waymo",
+  "original": "Waymo Growing Further",
+  "url": "https://cleantechnica.com/2026/10/27/waymo-growing-more-in-5-places/",
+  "source": "CleanTechnica",
+  "published": "2026-10-28T11:39+09:00",
+  "first_seen": "2026-10-28T12:05+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "정책",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "'화재·식수 우려' SK이노 E&S 美 대형 ESS 사업 제동…현지 정치권, 주지사에 중단 촉구 서한",
+  "original": "",
+  "url": "https://www.theguru.co.kr/news/article.html?no=108864",
+  "source": "더구루",
+  "published": "2026-10-28T11:18+09:00",
+  "first_seen": "2026-10-28T12:05+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "Pilbara Minerals 2026Q3 분기별 보고서",
+  "original": "Pilbara Minerals 2026Q3季度报告",
+  "url": "http://www.icbattery.com/news/show-htm-itemid-65927.html",
+  "source": "신뤄리튬전지망",
+  "published": "2026-10-28T01:00+09:00",
+  "first_seen": "2026-10-28T12:05+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "산업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "2026년 1월부터 9월까지 중국에 설치된 총 전원 배터리 용량은 557.5Gwh이다",
+  "original": "26年1-9月国内动力电池装机总量为557.5Gwh",
+  "url": "http://www.icbattery.com/news/show-htm-itemid-65926.html",
+  "source": "신뤄리튬전지망",
+  "published": "2026-10-28T01:00+09:00",
+  "first_seen": "2026-10-28T12:05+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "Putian에서 Jiangxi까지의 최초의 스포듀민 해상 철도 운송 채널이 공식적으로 개통되었다",
+  "original": "莆田至江西首个锂辉石海铁联运通道正式开通",
+  "url": "http://www.icbattery.com/news/show-htm-itemid-65925.html",
+  "source": "신뤄리튬전지망",
+  "published": "2026-10-28T01:00+09:00",
+  "first_seen": "2026-10-28T12:05+09:00"
  }
 ]
