@@ -446,5 +446,61 @@
   "source": "Heatmap",
   "published": "2026-10-29T05:48+09:00",
   "first_seen": "2026-10-29T06:25+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "이 새로운 생체 영감 멤브레인은 리튬 추출을 훨씬 더 깨끗하게 만들 수 있다",
+  "original": "This New Bio-Inspired Membrane Could Make Lithium Extraction Much Cleaner",
+  "url": "https://insideevs.com/news/813622/new-bio-lithium-extraction-tech/",
+  "source": "InsideEVs",
+  "published": "2026-10-29T07:07+09:00",
+  "first_seen": "2026-10-29T07:11+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "녹색 망간 실험은 아연 추출과 함께 높은 회수율을 제공한다",
+  "original": "Green Manganese trials deliver high recovery rates alongside zinc extraction",
+  "url": "https://www.mining.com/green-manganese-trials-deliver-high-recovery-rates-alongside-zinc-extraction/",
+  "source": "MINING.COM",
+  "published": "2026-10-29T07:06+09:00",
+  "first_seen": "2026-10-29T07:11+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "GWM은 유럽의 추진으로 불가리아 기지에서 2027년 1분기 생산을 목표로 하고 있다",
+  "original": "GWM targets Q1 2027 production at Bulgaria base in European push",
+  "url": "https://cnevpost.com/2026/10/29/gwm-plans-bulgaria-production-base/",
+  "source": "CnEVPost",
+  "published": "2026-10-29T06:54+09:00",
+  "first_seen": "2026-10-29T07:11+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "'부담스럽지 않음': 슬레이트 트럭은 Tesla보다 살기가 더 쉽다고 James May는 말한다",
+  "original": "‘Unburdensome’: The Slate Truck Is Easier Than A Tesla To Live With, James May Says",
+  "url": "https://insideevs.com/news/813632/slate-truck-affordable-ev-review-james-may/",
+  "source": "InsideEVs",
+  "published": "2026-10-29T06:45+09:00",
+  "first_seen": "2026-10-29T07:11+09:00"
  }
 ]
