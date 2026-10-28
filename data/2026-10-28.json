@@ -740,5 +740,33 @@
   "source": "electrive",
   "published": "2026-10-28T08:01+09:00",
   "first_seen": "2026-10-28T08:38+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "석탄발전과 신에너지를 '통합'하자",
+  "original": "让煤电与新能源“融”起来",
+  "url": "http://www.ce.cn/cysc/newmain/yc/jsxw/202610/t20261028_3273766.shtml",
+  "source": "경제일보",
+  "published": "2026-10-28T01:00+09:00",
+  "first_seen": "2026-10-28T09:11+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "산업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "중국의 풍력 및 태양광 발전 용량은 20억 kW를 넘어섰다",
+  "original": "China's wind and solar power capacity tops 2 billion kW",
+  "url": "https://english.news.cn/20261028/75109104b5784dca9790106af4669dae/c.html",
+  "source": "신화통신",
+  "published": "2026-10-28T01:00+09:00",
+  "first_seen": "2026-10-28T09:11+09:00"
  }
 ]
