@@ -211,20 +211,6 @@
  },
  {
   "section": "EV/ESS",
-  "tag": "자원",
-  "impact": "0",
-  "key": false,
-  "region": "",
-  "policy": "",
-  "title": "DRC: KPM, 아프리카 최대의 재생 가능한 광산 전력 시스템 출시",
-  "original": "DRC: KPM Launches Africa's Largest Renewable Mine Power System",
-  "url": "https://news.metal.com/en/newscontent/104179193-drc-kpm-launches-africas-largest-renewable-mine-power-system",
-  "source": "SMM",
-  "published": "2026-10-30T11:00+09:00",
-  "first_seen": "2026-10-27T23:09+09:00"
- },
- {
-  "section": "EV/ESS",
   "tag": "기업",
   "impact": "0",
   "key": false,
@@ -357,10 +343,38 @@
   "region": "",
   "policy": "",
   "title": "Rio Tinto, 아르헨티나 리튬 프로젝트에 14억 달러 투자",
-  "original": "Rio Tinto pumps $1.4B into lithium projects in Argentina",
+  "original": "Rio Tinto pumps $1.4 billion into lithium projects in Argentina",
   "url": "https://www.mining.com/rio-tinto-pumps-1-4b-into-lithium-projects-in-argentina/",
   "source": "MINING.COM",
   "published": "2026-10-30T00:10+09:00",
   "first_seen": "2026-10-30T02:44+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "자원",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "DRC: KPM, 아프리카 최대의 재생 가능한 광산 전력 시스템 출시",
+  "original": "DRC: KPM Launches Africa's Largest Renewable Mine Power System",
+  "url": "https://news.metal.com/en/newscontent/104179193-drc-kpm-launches-africas-largest-renewable-mine-power-system",
+  "source": "SMM",
+  "published": "2026-10-30T11:00+09:00",
+  "first_seen": "2026-10-27T23:09+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "GE Vernova는 가스 터빈 주문이 둔화됨에 따라 고전압 제조업체를 인수하기 위해 90억 달러 계약을 체결했다",
+  "original": "GE Vernova in $9B deal to buy high-voltage manufacturer as gas turbine orders slow",
+  "url": "https://www.utilitydive.com/news/ge-vernova-in-9b-deal-to-buy-high-voltage-manufacturer-as-gas-turbine-orde/873223/",
+  "source": "Utility Dive",
+  "published": "2026-10-30T02:40+09:00",
+  "first_seen": "2026-10-30T03:26+09:00"
  }
 ]
