@@ -2273,9 +2273,9 @@
   "impact": "0",
   "key": false,
   "region": "US",
-  "policy": "미국",
+  "policy": "",
   "title": "허용 개혁 법안의 최선의 방법은 어떻게 작동합나?",
-  "original": "The Part of the Permitting Bill That Climate Advocates Adore",
+  "original": "Why Permitting Reform Is a Historic Victory Over Utilities",
   "url": "https://heatmap.news/podcast/shift-key-158-david-pomerantz-2678162537",
   "source": "Heatmap",
   "published": "2026-10-29T18:00+09:00",
@@ -3330,5 +3330,33 @@
   "source": "Utility Dive",
   "published": "2026-10-29T21:00+09:00",
   "first_seen": "2026-10-30T01:53+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "Ford Escape는 UEV 플랫폼을 기반으로 한 EV로 돌아올 수 있다 [업데이트]",
+  "original": "The Ford Escape may return as an EV based on the UEV platform [Update]",
+  "url": "https://electrek.co/2026/10/29/ford-escape-ev-uev-platform-update/",
+  "source": "Electrek",
+  "published": "2026-10-29T23:13+09:00",
+  "first_seen": "2026-10-30T02:44+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "중국과 연계된 태양광 개발업체, 텍사스 그리드 연결로 인해 매력 상실",
+  "original": "Chinese-linked solar developer loses appeal over Texas grid interconnection",
+  "url": "https://www.utilitydive.com/news/chinese-linked-solar-developer-loses-appeal-to-connect-to-texas-grid/873178/",
+  "source": "Utility Dive",
+  "published": "2026-10-29T22:21+09:00",
+  "first_seen": "2026-10-30T02:44+09:00"
  }
 ]
