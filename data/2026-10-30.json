@@ -12,5 +12,61 @@
   "source": "SMM",
   "published": "2026-10-30T11:00+09:00",
   "first_seen": "2026-10-27T23:09+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "EU",
+  "policy": "",
+  "title": "Scatec의 이집트 알루미늄을 위한 6억 5천만 달러 규모의 태양광+저장 프로젝트는 EBRD, EIB 및 AfD 자금 조달 약속을 받았다",
+  "original": "Scatec’s US$650 million solar-plus-storage project for Egypt Aluminium gets EBRD, EIB and AfD financing commitment",
+  "url": "https://www.energy-storage.news/scatecs-us650-million-solar-plus-storage-project-for-egypt-aluminium-gets-ebrd-eib-and-afd-financing-commitment/",
+  "source": "Energy-Storage.news",
+  "published": "2026-10-30T00:46+09:00",
+  "first_seen": "2026-10-30T00:58+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "이 15,000달러짜리 저속 EV는 현재 판매 중이며 거리 주행이 가능한다",
+  "original": "This $15,000 low-speed EV is now on sale, and it’s street-legal",
+  "url": "https://electrek.co/2026/10/29/15000-low-speed-ev-now-on-sale-street-legal/",
+  "source": "Electrek",
+  "published": "2026-10-30T00:34+09:00",
+  "first_seen": "2026-10-30T00:58+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "EU",
+  "policy": "",
+  "title": "Volta Via, 도로 건설 현장의 전기화 검토",
+  "original": "Volta Via examines electrification of road construction sites",
+  "url": "https://www.electrive.com/2026/10/29/volta-via-examines-electrification-of-road-construction-sites/",
+  "source": "electrive",
+  "published": "2026-10-30T00:30+09:00",
+  "first_seen": "2026-10-30T00:58+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "정책",
+  "impact": "0",
+  "key": false,
+  "region": "EU",
+  "policy": "유럽",
+  "title": "포르투갈, 전기차 구매 보조금 80% 고려",
+  "original": "Portugal considers 80 per cent EV purchase subsidies",
+  "url": "https://www.electrive.com/2026/10/29/portugal-considers-80-per-cent-ev-purchase-subsidies/",
+  "source": "electrive",
+  "published": "2026-10-30T00:00+09:00",
+  "first_seen": "2026-10-30T00:58+09:00"
  }
 ]
