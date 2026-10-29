@@ -602,20 +602,6 @@
   "first_seen": "2026-10-30T05:16+09:00"
  },
  {
-  "section": "EV/ESS",
-  "tag": "자원",
-  "impact": "0",
-  "key": false,
-  "region": "",
-  "policy": "",
-  "title": "DRC: KPM, 아프리카 최대의 재생 가능한 광산 전력 시스템 출시",
-  "original": "DRC: KPM Launches Africa's Largest Renewable Mine Power System",
-  "url": "https://news.metal.com/en/newscontent/104179193-drc-kpm-launches-africas-largest-renewable-mine-power-system",
-  "source": "SMM",
-  "published": "2026-10-30T11:00+09:00",
-  "first_seen": "2026-10-27T23:09+09:00"
- },
- {
   "section": "기타",
   "tag": "기타",
   "impact": "0",
@@ -656,5 +642,75 @@
   "source": "Heatmap",
   "published": "2026-10-30T05:12+09:00",
   "first_seen": "2026-10-30T06:05+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "자원",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "DRC: KPM, 아프리카 최대의 재생 가능한 광산 전력 시스템 출시",
+  "original": "DRC: KPM Launches Africa's Largest Renewable Mine Power System",
+  "url": "https://news.metal.com/en/newscontent/104179193-drc-kpm-launches-africas-largest-renewable-mine-power-system",
+  "source": "SMM",
+  "published": "2026-10-30T11:00+09:00",
+  "first_seen": "2026-10-27T23:09+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "Ford는 모든 사람을 위해 양방향 EV 충전을 더 저렴하게 만드는 데 도움이 되는 유틸리티를 원한다",
+  "original": "Ford Wants Utilities To Help Make Bidirectional EV Charging Cheaper For Everyone",
+  "url": "https://cleantechnica.com/2026/10/29/ford-fathom-bidirectional-ev-charging-utilites/",
+  "source": "CleanTechnica",
+  "published": "2026-10-30T06:32+09:00",
+  "first_seen": "2026-10-30T06:49+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "BYD가 새로운 미니밴을 테스트하는 모습이 포착되었다. [동영상]",
+  "original": "BYD spotted testing a new minivan [Video]",
+  "url": "https://electrek.co/2026/10/29/byd-spotted-testing-new-minivan-video/",
+  "source": "Electrek",
+  "published": "2026-10-30T06:27+09:00",
+  "first_seen": "2026-10-30T06:49+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "Ford CEO는 자사의 새로운 EV 기술이 BYD보다 30% 더 효율적이라고 말한다",
+  "original": "Ford CEO Says Its New EV Tech Is 30% More Efficient Than BYD's",
+  "url": "https://insideevs.com/news/813781/ford-byd-motors-30-fathom/",
+  "source": "InsideEVs",
+  "published": "2026-10-30T06:11+09:00",
+  "first_seen": "2026-10-30T06:49+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "미국",
+  "title": "지지자들은 상원이 하원에 메시지를 보내기 위해 투표 수를 늘리기를 원한다",
+  "original": "Permitting backers want Senate to rack up vote count to send message to the House",
+  "url": "https://www.politico.com/news/2026/10/29/senate-aims-for-70-votes-to-pass-permitting-reform-bill-01140803",
+  "source": "Politico",
+  "published": "2026-10-30T06:05+09:00",
+  "first_seen": "2026-10-30T06:49+09:00"
  }
 ]
