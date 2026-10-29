@@ -1,5 +1,48 @@
 [
  {
+  "id": 11422,
+  "date": "10월 30일 금요일",
+  "posted": "2026-10-30T07:35+09:00",
+  "url": "https://t.me/cjdbj/11422",
+  "items": [
+   {
+    "section": "배터리 셀/소재/광물",
+    "tag": "기업",
+    "title": "삼성SDI 3분기 영업익 4078억…ESS 수주 60GWh",
+    "source": "디일렉",
+    "url": "https://han.gl/bBqw1"
+   },
+   {
+    "section": "배터리 셀/소재/광물",
+    "tag": "정책",
+    "title": "배터리협회장 ”적자 기업에 세액공제 직접 환급 필요“",
+    "source": "디일렉",
+    "url": "https://han.gl/UEbtp"
+   },
+   {
+    "section": "배터리 셀/소재/광물",
+    "tag": "기업",
+    "title": "LG엔솔 vs EVE에너지, 특허 분쟁 중국 본토로 확전",
+    "source": "",
+    "url": "https://han.gl/qTrJV"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "정책",
+    "title": "EU 기후위원 ”독일·프랑스 車규제 후퇴 안 돼…중국 불공정 경쟁 막아야“",
+    "source": "더구루",
+    "url": "https://han.gl/B3Cey"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "정책",
+    "title": "美 민주당 의원, 전기차 세액공제 1만5000달러 법안 발의",
+    "source": "Electrek",
+    "url": "https://han.gl/BnkAN"
+   }
+  ]
+ },
+ {
   "id": 11412,
   "date": "10월 29일 목요일",
   "posted": "2026-10-29T07:52+09:00",
@@ -4075,42 +4118,6 @@
     "title": "사우디, 2차 ESS 입찰 6개 사업 착수",
     "source": "ESS News",
     "url": "https://han.gl/oXgcz"
-   }
-  ]
- },
- {
-  "id": 10829,
-  "date": "4월 23일 목요일",
-  "posted": "2026-04-23T09:11+09:00",
-  "url": "https://t.me/cjdbj/10829",
-  "items": [
-   {
-    "section": "배터리 셀/소재/광물",
-    "tag": "기업",
-    "title": "SK온, 서산공장 ESS 라인 전환",
-    "source": "뉴시스",
-    "url": "https://han.gl/7tGch"
-   },
-   {
-    "section": "배터리 셀/소재/광물",
-    "tag": "정책",
-    "title": "한국·베트남, 핵심광물 공급망 센터 협력",
-    "source": "머니투데이",
-    "url": "https://han.gl/tM0W4"
-   },
-   {
-    "section": "EV/ESS",
-    "tag": "기업",
-    "title": "테슬라, 자율주행·로보택시 사업 확장",
-    "source": "The Guardian",
-    "url": "https://han.gl/5v2rf"
-   },
-   {
-    "section": "EV/ESS",
-    "tag": "산업",
-    "title": "잠비아 최대 태양광·ESS 하이브리드 착공",
-    "source": "ESS News",
-    "url": "https://han.gl/P4FtG"
    }
   ]
  }
