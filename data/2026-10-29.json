@@ -2273,9 +2273,9 @@
   "impact": "0",
   "key": false,
   "region": "US",
-  "policy": "",
+  "policy": "미국",
   "title": "허용 개혁 법안의 최선의 방법은 어떻게 작동합나?",
-  "original": "Why Permitting Reform Is a Historic Victory Over Utilities",
+  "original": "The Part of the Permitting Bill That Climate Advocates Adore",
   "url": "https://heatmap.news/podcast/shift-key-158-david-pomerantz-2678162537",
   "source": "Heatmap",
   "published": "2026-10-29T18:00+09:00",
@@ -3316,5 +3316,19 @@
   "source": "Utility Dive",
   "published": "2026-10-29T22:00+09:00",
   "first_seen": "2026-10-30T00:58+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "2025년 이후 데이터 센터의 전기 장비 구매가 80% 증가: Hubbell",
+  "original": "Data center purchases of electrical equipment up 80% since 2025: Hubbell",
+  "url": "https://www.utilitydive.com/news/data-center-purchases-of-electrical-equipment-up-80-since-2025-hubbell/873134/",
+  "source": "Utility Dive",
+  "published": "2026-10-29T21:00+09:00",
+  "first_seen": "2026-10-30T01:53+09:00"
  }
 ]
