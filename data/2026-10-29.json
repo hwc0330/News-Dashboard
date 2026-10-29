@@ -1384,5 +1384,61 @@
   "source": "21세기경제보도",
   "published": "2026-10-29T01:00+09:00",
   "first_seen": "2026-10-29T13:07+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "중국",
+  "title": "미리보기 | 에너지청, 10월 30일 분기별 기자간담회 개최",
+  "original": "预告 | 国家能源局将于10月30日召开季度例行新闻发布会",
+  "url": "https://www.yicai.com/news/103414844.html",
+  "source": "제일재경",
+  "published": "2026-10-29T13:53+09:00",
+  "first_seen": "2026-10-29T13:55+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "산업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "태양광발전: 설비용량 증가세 지속 긍정적 | 마이크로 연구 보고서",
+  "original": "光伏：装机增速连续转正｜微研报",
+  "url": "https://www.yicai.com/video/103414828.html",
+  "source": "제일재경",
+  "published": "2026-10-29T13:47+09:00",
+  "first_seen": "2026-10-29T13:55+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "SK이노베이션, 2026년 3분기 실적발표 컨퍼런스콜 전문",
+  "original": "",
+  "url": "https://www.thelec.kr/news/articleView.html?idxno=64515",
+  "source": "디일렉",
+  "published": "2026-10-29T13:39+09:00",
+  "first_seen": "2026-10-29T13:55+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "정책",
+  "impact": "+",
+  "key": false,
+  "region": "",
+  "policy": "유럽",
+  "title": "EU 기후위원 \"독일·프랑스 車규제 후퇴 안 돼…중국 불공정 경쟁 막아야\"",
+  "original": "",
+  "url": "https://www.theguru.co.kr/news/article.html?no=108965",
+  "source": "더구루",
+  "published": "2026-10-29T13:32+09:00",
+  "first_seen": "2026-10-29T13:55+09:00"
  }
 ]
