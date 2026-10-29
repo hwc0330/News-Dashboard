@@ -203,7 +203,7 @@
   "region": "US",
   "policy": "",
   "title": "AEP는 발전, 전송 지출에 대한 투자 계획을 30% 증가하여 1,000억 달러로 늘립니다",
-  "original": "AEP increases investment plan 30% on generation, transmission spending",
+  "original": "AEP increases investment plan 30% to $100B on gen, transmission spending",
   "url": "https://www.utilitydive.com/news/aep-transmission-data-center-earnings/873189/",
   "source": "Utility Dive",
   "published": "2026-10-30T00:05+09:00",
@@ -700,20 +700,6 @@
   "first_seen": "2026-10-30T06:49+09:00"
  },
  {
-  "section": "EV/ESS",
-  "tag": "자원",
-  "impact": "0",
-  "key": false,
-  "region": "",
-  "policy": "",
-  "title": "DRC: KPM, 아프리카 최대의 재생 가능한 광산 전력 시스템 출시",
-  "original": "DRC: KPM Launches Africa's Largest Renewable Mine Power System",
-  "url": "https://news.metal.com/en/newscontent/104179193-drc-kpm-launches-africas-largest-renewable-mine-power-system",
-  "source": "SMM",
-  "published": "2026-10-30T11:00+09:00",
-  "first_seen": "2026-10-27T23:09+09:00"
- },
- {
   "section": "배터리 셀/소재/광물",
   "tag": "정책",
   "impact": "0",
@@ -754,5 +740,33 @@
   "source": "글로벌이코노믹",
   "published": "2026-10-30T03:26+09:00",
   "first_seen": "2026-10-30T07:27+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "자원",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "DRC: KPM, 아프리카 최대의 재생 가능한 광산 전력 시스템 출시",
+  "original": "DRC: KPM Launches Africa's Largest Renewable Mine Power System",
+  "url": "https://news.metal.com/en/newscontent/104179193-drc-kpm-launches-africas-largest-renewable-mine-power-system",
+  "source": "SMM",
+  "published": "2026-10-30T11:00+09:00",
+  "first_seen": "2026-10-27T23:09+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "美 홀랜드 배관 파열로 중상 입은 협력사 직원, LG엔솔 현지법인 상대 손배소",
+  "original": "",
+  "url": "https://www.g-enews.com/article/Global-Biz/2026/10/202610300727036285fbbec65dfb_1",
+  "source": "글로벌이코노믹",
+  "published": "2026-10-30T07:27+09:00",
+  "first_seen": "2026-10-30T08:11+09:00"
  }
 ]

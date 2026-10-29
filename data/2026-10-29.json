@@ -1946,14 +1946,14 @@
   "first_seen": "2026-10-29T16:36+09:00"
  },
  {
-  "section": "배터리 셀/소재/광물",
-  "tag": "기업",
+  "section": "기타",
+  "tag": "기타",
   "impact": "0",
   "key": false,
   "region": "",
   "policy": "",
   "title": "설계부터 배터리까지 중국산…한국GM의 PHEV 승부수",
-  "original": "",
+  "original": "전기모터로 126km 주행…한국GM의 PHEV 승부수",
   "url": "https://www.thelec.kr/news/articleView.html?idxno=64538",
   "source": "디일렉",
   "published": "2026-10-29T15:53+09:00",
@@ -3311,7 +3311,7 @@
   "region": "US",
   "policy": "",
   "title": "FirstEnergy 데이터 센터 파이프라인은 3분기에 5% 증가하여 26GW에 달했다",
-  "original": "FirstEnergy data center pipeline increases to 26 GW in Q3",
+  "original": "FirstEnergy data center pipeline increases 5% to 26 GW in Q3",
   "url": "https://www.utilitydive.com/news/firstenergy-data-center-pipeline-maidsville/873149/",
   "source": "Utility Dive",
   "published": "2026-10-29T22:00+09:00",
@@ -3428,5 +3428,19 @@
   "source": "글로벌이코노믹",
   "published": "2026-10-29T19:59+09:00",
   "first_seen": "2026-10-30T06:49+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "자원",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "리오틴토가 남미 염호에 약 2조 원을 던진 날, 차세대 리튬 전쟁의 막이 올랐다",
+  "original": "",
+  "url": "https://www.g-enews.com/article/Global-Biz/2026/10/202610290808042702fda4f5ab74_1",
+  "source": "글로벌이코노믹",
+  "published": "2026-10-29T08:08+09:00",
+  "first_seen": "2026-10-30T08:11+09:00"
  }
 ]
