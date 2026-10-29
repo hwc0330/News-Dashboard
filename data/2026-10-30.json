@@ -645,20 +645,6 @@
  },
  {
   "section": "EV/ESS",
-  "tag": "자원",
-  "impact": "0",
-  "key": false,
-  "region": "",
-  "policy": "",
-  "title": "DRC: KPM, 아프리카 최대의 재생 가능한 광산 전력 시스템 출시",
-  "original": "DRC: KPM Launches Africa's Largest Renewable Mine Power System",
-  "url": "https://news.metal.com/en/newscontent/104179193-drc-kpm-launches-africas-largest-renewable-mine-power-system",
-  "source": "SMM",
-  "published": "2026-10-30T11:00+09:00",
-  "first_seen": "2026-10-27T23:09+09:00"
- },
- {
-  "section": "EV/ESS",
   "tag": "기업",
   "impact": "0",
   "key": false,
@@ -712,5 +698,61 @@
   "source": "Politico",
   "published": "2026-10-30T06:05+09:00",
   "first_seen": "2026-10-30T06:49+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "자원",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "DRC: KPM, 아프리카 최대의 재생 가능한 광산 전력 시스템 출시",
+  "original": "DRC: KPM Launches Africa's Largest Renewable Mine Power System",
+  "url": "https://news.metal.com/en/newscontent/104179193-drc-kpm-launches-africas-largest-renewable-mine-power-system",
+  "source": "SMM",
+  "published": "2026-10-30T11:00+09:00",
+  "first_seen": "2026-10-27T23:09+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "정책",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "미국·유럽, 60년 중국의 핵심 광물 독점 깬다",
+  "original": "",
+  "url": "https://www.g-enews.com/article/Global-Biz/2026/10/2026103007171037052bd56fbc3c_1",
+  "source": "글로벌이코노믹",
+  "published": "2026-10-30T07:17+09:00",
+  "first_seen": "2026-10-30T07:27+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "정책",
+  "impact": "+",
+  "key": true,
+  "region": "",
+  "policy": "",
+  "title": "미국의 중국산 배터리 봉쇄에 K-배터리, 사상 최대 전력망 시장 공략 속도 낸다",
+  "original": "",
+  "url": "https://www.g-enews.com/article/Global-Biz/2026/10/2026103006511022682bd56fbc3c_1",
+  "source": "글로벌이코노믹",
+  "published": "2026-10-30T06:51+09:00",
+  "first_seen": "2026-10-30T07:27+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "미 국방정보국, \"우주는 이미 교전지\"…미중 경쟁 속 궤도 위협 급증",
+  "original": "",
+  "url": "https://www.g-enews.com/article/Global-Biz/2026/10/20261030032612788420990b2dc5_1",
+  "source": "글로벌이코노믹",
+  "published": "2026-10-30T03:26+09:00",
+  "first_seen": "2026-10-30T07:27+09:00"
  }
 ]
