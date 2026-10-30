@@ -1373,7 +1373,7 @@
  },
  {
   "section": "EV/ESS",
-  "tag": "기술",
+  "tag": "기업",
   "impact": "0",
   "key": false,
   "region": "",
@@ -3277,7 +3277,7 @@
  },
  {
   "section": "배터리 셀/소재/광물",
-  "tag": "시장",
+  "tag": "기업",
   "impact": "0",
   "key": false,
   "region": "",
@@ -3311,7 +3311,7 @@
   "region": "US",
   "policy": "",
   "title": "FirstEnergy 데이터 센터 파이프라인은 3분기에 5% 증가하여 26GW에 달했다",
-  "original": "FirstEnergy data center pipeline increases 5% to 26 GW in Q3",
+  "original": "FirstEnergy data center pipeline increases to 26 GW in Q3",
   "url": "https://www.utilitydive.com/news/firstenergy-data-center-pipeline-maidsville/873149/",
   "source": "Utility Dive",
   "published": "2026-10-29T22:00+09:00",
@@ -3456,5 +3456,19 @@
   "source": "신뤄리튬전지망",
   "published": "2026-10-29T01:00+09:00",
   "first_seen": "2026-10-30T08:55+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "SHFE, 구리 음극선 및 알루미늄 선물의 보세 인도 중단",
+  "original": "SHFE Suspends Bonded Delivery of Copper Cathode and Aluminum Futures",
+  "url": "https://news.metal.com/en/newscontent/104186520-shfe-suspends-bonded-delivery-of-copper-cathode-and-aluminum-futures",
+  "source": "SMM",
+  "published": "2026-10-29T18:24+09:00",
+  "first_seen": "2026-10-30T13:17+09:00"
  }
 ]
