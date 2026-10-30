@@ -4100,5 +4100,33 @@
   "source": "InsideEVs",
   "published": "2026-10-30T16:47+09:00",
   "first_seen": "2026-10-31T02:23+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "미국",
+  "title": "파트 D⁠—운송 및 전력용 에너지 저장—머리말",
+  "original": "Part D⁠—Energy Storage for Transportation and Electric Power — Front Matter",
+  "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNNWg3Z044MFRudk1NRFlnSG1GY2pxaUZ6U1NUbTJ0SURobk1VSDY5WFdpb0lELTVrOC1zb3FzcEtnX2tNTEstSU9mTmxHanZwOHpxVmFlc3dDclBTdXh0eTlPT1d4Q1hLTTAtNDhUMVFVYjFmYmJYQjJDckp1ZHY3VjhuOWN2elJFbEJR?oc=5",
+  "source": "미 의회",
+  "published": "2026-10-30T22:47+09:00",
+  "first_seen": "2026-10-31T03:10+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "미국",
+  "title": "2장 - 청정 에너지 기술을 위한 공급망 - 서문",
+  "original": "SUBCHAPTER II—SUPPLY CHAINS FOR CLEAN ENERGY TECHNOLOGIES - Front Matter",
+  "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNOHNjNUJoRGVKUElnQlJjbTNFRnZOTVVvNEcyZ1JEQjdoamR2OUJnQnpfckwzbjVnWUpuQnZnWFVUQ0xBTlNXTzRWMm1peEl3QTFiMGJGRFdRTTFPU3VtYjZUZmRzTVZvdlRrb2RzYVRUNjQ2WmhTc2FtMG9fSUFsSkRuMHc?oc=5",
+  "source": "미 의회",
+  "published": "2026-10-30T22:47+09:00",
+  "first_seen": "2026-10-31T03:10+09:00"
  }
 ]
