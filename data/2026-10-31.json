@@ -530,5 +530,47 @@
   "source": "경제관찰보",
   "published": "2026-10-31T06:05+09:00",
   "first_seen": "2026-10-31T06:58+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "시장",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "골드만삭스 \"CATL, 2030년까지 ESS 단위 매출 총 이익 1.6배 증가\"",
+  "original": "",
+  "url": "https://www.theguru.co.kr/news/article.html?no=108888",
+  "source": "더구루",
+  "published": "2026-10-31T08:05+09:00",
+  "first_seen": "2026-10-31T08:15+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기술",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "중국",
+  "title": "[영상] 中 정부 \"2030년 전고체 대규모 적용\"…CATL은 왜 회의적?",
+  "original": "",
+  "url": "https://www.theguru.co.kr/news/article.html?no=109009",
+  "source": "더구루",
+  "published": "2026-10-31T08:00+09:00",
+  "first_seen": "2026-10-31T08:15+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "Leapmotor, 태국에서 A10 출시, 올해 업데이트된 C10 출시",
+  "original": "Leapmotor launches A10 in Thailand, with updated C10 to follow this year",
+  "url": "https://cnevpost.com/2026/10/31/leapmotor-launches-a10-thailand/",
+  "source": "CnEVPost",
+  "published": "2026-10-31T07:59+09:00",
+  "first_seen": "2026-10-31T08:15+09:00"
  }
 ]
