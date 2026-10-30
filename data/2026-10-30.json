@@ -4072,5 +4072,33 @@
   "source": "Heatmap",
   "published": "2026-10-30T21:39+09:00",
   "first_seen": "2026-10-31T01:33+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "EU",
+  "policy": "",
+  "title": "EU-캐나다 정상회담 후 폰데어라이엔 대통령의 성명",
+  "original": "Statement by President von der Leyen following the EU-Canada summit",
+  "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2312",
+  "source": "EU 집행위",
+  "published": "2026-10-30T23:01+09:00",
+  "first_seen": "2026-10-31T02:23+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "Rivian의 Amazon Van은 더 많은 경로를 커버하기 위해 더 많은 범위와 AWD를 제공한다",
+  "original": "Rivian's Amazon Van Got More Range And AWD To Cover More Routes",
+  "url": "https://insideevs.com/news/813820/rivian-electric-van-amazon-edv-battery-motor-upgrade/",
+  "source": "InsideEVs",
+  "published": "2026-10-30T16:47+09:00",
+  "first_seen": "2026-10-31T02:23+09:00"
  }
 ]
