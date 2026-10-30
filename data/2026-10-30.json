@@ -2317,7 +2317,7 @@
   "region": "US",
   "policy": "",
   "title": "Waymo, Toyota와 협력하여 일본과 영국에 로봇택시 공급",
-  "original": "Waymo taps Toyota to supply robotaxis for Japan and the U.K.",
+  "original": "Waymo taps Toyota to supply robotaxis for Japan and the UK",
   "url": "https://techcrunch.com/2026/10/30/waymos-next-robotaxi-will-be-a-toyota-bz4x-destined-for-japan-and-the-uk/",
   "source": "TechCrunch",
   "published": "2026-10-30T16:01+09:00",
@@ -4058,5 +4058,19 @@
   "source": "차이신",
   "published": "2026-10-30T01:00+09:00",
   "first_seen": "2026-10-31T00:48+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "'15년 온실가스 감축 취소'",
+  "original": "‘Undo 15 Years’ Worth of Greenhouse Gas Reductions’",
+  "url": "https://heatmap.news/am/data-center-emissions-2678167004",
+  "source": "Heatmap",
+  "published": "2026-10-30T21:39+09:00",
+  "first_seen": "2026-10-31T01:33+09:00"
  }
 ]
