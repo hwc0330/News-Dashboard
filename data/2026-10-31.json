@@ -488,5 +488,47 @@
   "source": "Canary Media",
   "published": "2026-10-31T05:00+09:00",
   "first_seen": "2026-10-31T06:19+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "EU",
+  "policy": "",
+  "title": "EU-캐나다 정상회담에서 우리가 배운 8가지",
+  "original": "8 things we learned at the EU-Canada summit",
+  "url": "https://www.politico.eu/article/8-things-we-learned-eu-canada-summit/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+  "source": "Politico Europe",
+  "published": "2026-10-31T06:43+09:00",
+  "first_seen": "2026-10-31T06:58+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기술",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "중국 선워다, 전고체 배터리 검증 완료하고 샘플 시험 본격 돌입",
+  "original": "",
+  "url": "https://www.g-enews.com/article/Global-Biz/2026/10/2026103106421135222bd56fbc3c_1",
+  "source": "글로벌이코노믹",
+  "published": "2026-10-31T06:42+09:00",
+  "first_seen": "2026-10-31T06:58+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "시장",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "BYD(BYDDY) 해외 매출 3분기 2배 가까이 늘었고, 3분기 이익은 환세 부담으로 하락",
+  "original": "比亚迪（BYDDY）前三季度海外销量近乎翻倍 Q3盈利受汇兑税负拖累",
+  "url": "http://www.eeo.com.cn/2026/1031/1080214.shtml",
+  "source": "경제관찰보",
+  "published": "2026-10-31T06:05+09:00",
+  "first_seen": "2026-10-31T06:58+09:00"
  }
 ]
