@@ -334,5 +334,33 @@
   "source": "Heatmap",
   "published": "2026-10-31T02:10+09:00",
   "first_seen": "2026-10-31T03:10+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "메타 데이터 센터 연방 파이프라인 검토가 내년 초로 예정됨",
+  "original": "Meta Data Center Federal Pipeline Review Due Early Next Year",
+  "url": "https://heatmap.news/plus/the-fight/hotspots/meta-data-center-review",
+  "source": "Heatmap",
+  "published": "2026-10-31T03:12+09:00",
+  "first_seen": "2026-10-31T04:10+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "이번 선거는 정말 데이터 센터에 관한 것인가요?",
+  "original": "Is the Election Really About Data Centers?",
+  "url": "https://heatmap.news/kevin-gunderson-qa",
+  "source": "Heatmap",
+  "published": "2026-10-31T03:12+09:00",
+  "first_seen": "2026-10-31T04:10+09:00"
  }
 ]
