@@ -68,5 +68,19 @@
   "source": "SMM",
   "published": "2026-11-01T00:01+09:00",
   "first_seen": "2026-11-01T00:55+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "앤트워프의 전기 크레인은 오늘날의 화물보다 더 많은 것을 처리할 수 있다",
+  "original": "Antwerp’s Electric Cranes Can Handle More Than Today’s Cargo",
+  "url": "https://cleantechnica.com/2026/10/31/antwerp-electric-mobile-harbour-cranes/",
+  "source": "CleanTechnica",
+  "published": "2026-11-01T02:02+09:00",
+  "first_seen": "2026-11-01T02:12+09:00"
  }
 ]
