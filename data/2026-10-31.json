@@ -978,5 +978,47 @@
   "source": "Politico Europe",
   "published": "2026-10-31T01:15+09:00",
   "first_seen": "2026-10-31T19:21+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "새로운 인구 조사 데이터는 미국의 전기 자동차 전환에서 주택 소유자와 임차인의 격차를 보여줍니다",
+  "original": "New Census data reveal a homeowner-renter divide in America's electric-car transition",
+  "url": "https://www.axios.com/2026/10/31/ev-driveway-divide-renters-homeowners",
+  "source": "Axios",
+  "published": "2026-10-31T20:00+09:00",
+  "first_seen": "2026-10-31T20:04+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "EU",
+  "policy": "",
+  "title": "SPIRIT-E 프로젝트는 e-트럭이 이동식 전력 은행 역할을 할 수 있다는 결론을 내렸다",
+  "original": "SPIRIT-E project concludes that e-trucks can serve as mobile power banks",
+  "url": "https://www.electrive.com/2026/10/31/spirit-e-project-concludes-that-e-trucks-can-serve-as-mobile-power-banks/",
+  "source": "electrive",
+  "published": "2026-10-31T20:00+09:00",
+  "first_seen": "2026-10-31T20:04+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "정책",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "[SMM 분석] 칠레의 리튬 정책 변화 분석",
+  "original": "[SMM Analysis] Chile’s Lithium Policy Shift Analyzed",
+  "url": "https://news.metal.com/en/newscontent/104189811-smm-analysis-chiles-lithium-policy-shift-analyzed",
+  "source": "SMM",
+  "published": "2026-10-31T19:50+09:00",
+  "first_seen": "2026-10-31T20:04+09:00"
  }
 ]
