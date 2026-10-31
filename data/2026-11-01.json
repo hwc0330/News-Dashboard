@@ -40,5 +40,33 @@
   "source": "SMM",
   "published": "2026-11-01T00:05+09:00",
   "first_seen": "2026-11-01T00:17+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "산업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "10월 중국 구리 음극 생산량 감소, 원자재 공급 타이트",
+  "original": "China's Copper Cathode Output Drops in October, Raw Material Supply Tightens",
+  "url": "https://news.metal.com/en/newscontent/104189853-chinas-copper-cathode-output-drops-in-october-raw-material-supply-tightens",
+  "source": "SMM",
+  "published": "2026-11-01T00:43+09:00",
+  "first_seen": "2026-11-01T00:55+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "[DeepSeek, 슈퍼에이전트 공개]",
+  "original": "[DeepSeek unveils Super-agent]",
+  "url": "https://news.metal.com/en/newscontent/104189820-deepseek-unveils-super-agent",
+  "source": "SMM",
+  "published": "2026-11-01T00:01+09:00",
+  "first_seen": "2026-11-01T00:55+09:00"
  }
 ]
