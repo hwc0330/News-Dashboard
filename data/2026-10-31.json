@@ -838,5 +838,47 @@
   "source": "CleanTechnica",
   "published": "2026-10-31T12:30+09:00",
   "first_seen": "2026-10-31T13:18+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "라이빈, 2026년 범알루미늄 부품 제조 컨퍼런스 개최, 10개 프로젝트 서명",
+  "original": "Laibin Hosts 2026 Pan-Aluminum Components Manufacturing Conference, Signs 10 Projects",
+  "url": "https://news.metal.com/en/newscontent/104189765-laibin-hosts-2026-pan-aluminum-components-manufacturing-conference-signs-10-projects",
+  "source": "SMM",
+  "published": "2026-10-31T14:00+09:00",
+  "first_seen": "2026-10-31T14:05+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "산업",
+  "impact": "0",
+  "key": false,
+  "region": "EU",
+  "policy": "",
+  "title": "전환점에서의 인도 PV",
+  "original": "Indian PV at a turning point",
+  "url": "https://www.pv-magazine.com/2026/10/31/indian-pv-at-a-turning-point/",
+  "source": "pv magazine",
+  "published": "2026-10-31T14:00+09:00",
+  "first_seen": "2026-10-31T14:05+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "트럼프에게 스페이스X 주식을 선물할 스페이스X 회장",
+  "original": "SpaceX President to gift Trump Accounts her SpaceX stock",
+  "url": "https://www.teslarati.com/spacexs-gwynne-shotwell-stocks-trump-accounts/",
+  "source": "Teslarati",
+  "published": "2026-10-31T13:28+09:00",
+  "first_seen": "2026-10-31T14:05+09:00"
  }
 ]
