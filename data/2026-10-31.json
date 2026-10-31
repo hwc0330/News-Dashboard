@@ -908,5 +908,33 @@
   "source": "인민망",
   "published": "2026-10-31T01:00+09:00",
   "first_seen": "2026-10-31T18:03+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "[우리를. 철강, 아칸소 주 오세올라에 19억 달러 규모의 DRI 공장 착공]",
+  "original": "[U.S. Steel breaks ground on $1.9 billion DRI plant in Osceola, Arkansas]",
+  "url": "https://news.metal.com/en/newscontent/104189804-us-steel-breaks-ground-on-19-billion-dri-plant-in-osceola-arkansas",
+  "source": "SMM",
+  "published": "2026-10-31T18:05+09:00",
+  "first_seen": "2026-10-31T18:45+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "산업",
+  "impact": "0",
+  "key": false,
+  "region": "EU",
+  "policy": "",
+  "title": "GAC, 태국에서 배터리 생산 시작",
+  "original": "GAC launches battery production in Thailand",
+  "url": "https://www.electrive.com/2026/10/31/gac-launches-battery-production-in-thailand/",
+  "source": "electrive",
+  "published": "2026-10-31T18:00+09:00",
+  "first_seen": "2026-10-31T18:45+09:00"
  }
 ]
