@@ -1048,5 +1048,61 @@
   "source": "SMM",
   "published": "2026-10-31T18:39+09:00",
   "first_seen": "2026-10-31T20:41+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "실리콘밸리는 안전한 클래스 8 트럭을 만들 수 있을까? 초기 EV 반화재는 경험 격차를 드러냅니다",
+  "original": "Can Silicon Valley Build A Safe Class 8 Truck? Early EV Semi Fires Expose The Experience Gap",
+  "url": "https://cleantechnica.com/2026/10/31/can-silicon-valley-build-a-safe-class-8-truck-early-ev-semi-fires-expose-the-experience-gap/",
+  "source": "CleanTechnica",
+  "published": "2026-10-31T21:55+09:00",
+  "first_seen": "2026-10-31T22:23+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "자원",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "[SMM 분석] 리튬전지 2026년 3분기 이익 다이버전스",
+  "original": "[SMM Analysis] Lithium Battery Q3 2026 Profit Divergence",
+  "url": "https://news.metal.com/en/newscontent/104189818-smm-analysis-lithium-battery-q3-2026-profit-divergence",
+  "source": "SMM",
+  "published": "2026-10-31T21:41+09:00",
+  "first_seen": "2026-10-31T22:23+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "해외 사업이 BYD의 실적 회복을 주도하고, 3분기 매출과 순이익이 성장세로 돌아섰다",
+  "original": "海外业务带动比亚迪业绩回暖 三季度营收和净利润均恢复增长",
+  "url": "https://www.caixin.com/2026-10-31/102499581.html",
+  "source": "차이신",
+  "published": "2026-10-31T01:00+09:00",
+  "first_seen": "2026-10-31T22:23+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "해외 사업이 BYD의 실적 회복을 주도하고, 3분기 매출과 순이익이 성장세로 돌아섰다",
+  "original": "海外业务带动比亚迪业绩回暖 三季度营收和净利润均恢复增长",
+  "url": "https://companies.caixin.com/2026-10-31/102499584.html",
+  "source": "차이신",
+  "published": "2026-10-31T01:00+09:00",
+  "first_seen": "2026-10-31T22:23+09:00"
  }
 ]
