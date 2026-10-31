@@ -628,5 +628,61 @@
   "source": "제몐",
   "published": "2026-10-31T09:11+09:00",
   "first_seen": "2026-10-31T09:52+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "HomePower 1000 Plus v2: 휴대용 전원 사용 가능",
+  "original": "HomePower 1000 Plus v2: Portable Power Put To Use",
+  "url": "https://cleantechnica.com/2026/10/30/homepower-1000-plus-v2-portable-power-put-to-use/",
+  "source": "CleanTechnica",
+  "published": "2026-10-31T10:27+09:00",
+  "first_seen": "2026-10-31T10:52+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "호주 EV 발전 10주년을 기념하는 전기자동차 협의회",
+  "original": "Electric Vehicle Council Celebrating 10 Years of EV Progress in Australia",
+  "url": "https://cleantechnica.com/2026/10/30/electric-vehicle-council-celebrating-10-years-of-ev-progress-in-australia/",
+  "source": "CleanTechnica",
+  "published": "2026-10-31T10:22+09:00",
+  "first_seen": "2026-10-31T10:52+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "중국 희토류, 대규모 자산 구조조정! 다음주 월요일부터 거래가 중단된다",
+  "original": "中国稀土，重大资产重组！下周一停牌",
+  "url": "https://m.21jingji.com/article/20261031/herald/34f1bb65674e00b240d564ee62ddf2d0.html",
+  "source": "21세기경제보도",
+  "published": "2026-10-31T01:00+09:00",
+  "first_seen": "2026-10-31T10:52+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "올 겨울 에너지와 전기 공급이 보장된다",
+  "original": "今冬能源电力供应有保障",
+  "url": "http://finance.people.com.cn/n1/2026/1031/c1004-40825001.html",
+  "source": "인민망",
+  "published": "2026-10-31T01:00+09:00",
+  "first_seen": "2026-10-31T10:52+09:00"
  }
 ]
