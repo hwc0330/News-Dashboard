@@ -1020,5 +1020,33 @@
   "source": "SMM",
   "published": "2026-10-31T19:50+09:00",
   "first_seen": "2026-10-31T20:04+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "시장",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "비즈니스 헤드라인 NO.149 | 유럽에 또 다른 BYD 구축",
+  "original": "商业头条NO.149 | 在欧洲，再造一个比亚迪",
+  "url": "https://www.jiemian.com/article/15277742.html",
+  "source": "제몐",
+  "published": "2026-10-31T20:03+09:00",
+  "first_seen": "2026-10-31T20:41+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "다운스트림 재입고 의지가 약함. 석유 코크스는 구조적으로 다양함 [SMM 분석]",
+  "original": "Downstream restocking willingness weak; petroleum coke structurally divergent [SMM analysis]",
+  "url": "https://news.metal.com/en/newscontent/104189810-downstream-restocking-willingness-weak-petroleum-coke-structurally-divergent-smm-analysis",
+  "source": "SMM",
+  "published": "2026-10-31T18:39+09:00",
+  "first_seen": "2026-10-31T20:41+09:00"
  }
 ]
