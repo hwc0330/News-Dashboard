@@ -936,5 +936,47 @@
   "source": "electrive",
   "published": "2026-10-31T18:00+09:00",
   "first_seen": "2026-10-31T18:45+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "EU",
+  "policy": "",
+  "title": "LiveWire, 비즈니스 연속성 위험에 대한 계속 우려 경고 발령",
+  "original": "LiveWire issues going-concern warning over business continuity risks",
+  "url": "https://www.electrive.com/2026/10/31/livewire-issues-going-concern-warning-over-business-continuity-risks/",
+  "source": "electrive",
+  "published": "2026-10-31T19:00+09:00",
+  "first_seen": "2026-10-31T19:21+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "EU",
+  "policy": "",
+  "title": "2026년 EU-캐나다 정상회담: 지도자들은 양국 관계의 역사적인 순간을 기념한다",
+  "original": "EU-Canada Summit 2026: Leaders mark a historic moment in bilateral relations",
+  "url": "https://ec.europa.eu/commission/presscorner/detail/en/ac_26_2318",
+  "source": "EU 집행위",
+  "published": "2026-10-31T18:45+09:00",
+  "first_seen": "2026-10-31T19:21+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "EU",
+  "policy": "",
+  "title": "EU와 캐나다가 주요 광물 및 LNG에 관한 합의에 도달했다",
+  "original": "EU and Canada reach agreement on critical minerals and LNG",
+  "url": "https://www.politico.eu/article/eu-and-canada-reach-agreement-on-critical-minerals-and-lng/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+  "source": "Politico Europe",
+  "published": "2026-10-31T01:15+09:00",
+  "first_seen": "2026-10-31T19:21+09:00"
  }
 ]
