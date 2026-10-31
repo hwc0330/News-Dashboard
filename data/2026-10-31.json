@@ -768,5 +768,33 @@
   "source": "신화통신",
   "published": "2026-10-31T01:00+09:00",
   "first_seen": "2026-10-31T11:43+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "Toyota와 Waymo, 모두를 위한 보다 안전한 거리와 이동의 자유를 위한 자율주행 협력 발전",
+  "original": "Toyota & Waymo Advance Autonomous Driving Collaboration for Safer Streets and Freedom of Movement for All",
+  "url": "https://cleantechnica.com/2026/10/30/toyota-waymo-advance-autonomous-driving-collaboration-for-safer-streets-and-freedom-of-movement-for-all/",
+  "source": "CleanTechnica",
+  "published": "2026-10-31T12:08+09:00",
+  "first_seen": "2026-10-31T12:28+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "금과 은이 급락했고 거의 모든 금속이 하락했다. LME 주석과 니켈이 하락세를 주도한 반면, LME 구리와 아연은 SHFE 아연, 주석, 니켈과 함께 가장 큰 손실을 기록했다[장외시장]",
+  "original": "Gold and silver plunged, with nearly all metals falling. LME tin and nickel led the decline, while LME copper and zinc, along with SHFE zinc, tin, and nickel, posted the largest losses [Overnight Market].",
+  "url": "https://news.metal.com/en/newscontent/104189737-gold-and-silver-plunged-with-nearly-all-metals-falling-lme-tin-and-nickel-led-the-decline-while-lme-copper-and-zinc-along-with-shfe-zinc-tin-and-nickel-posted-the-largest-losses-overnight-market",
+  "source": "SMM",
+  "published": "2026-10-31T11:59+09:00",
+  "first_seen": "2026-10-31T12:28+09:00"
  }
 ]
