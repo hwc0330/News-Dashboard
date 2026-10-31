@@ -586,5 +586,47 @@
   "source": "글로벌이코노믹",
   "published": "2026-10-31T08:27+09:00",
   "first_seen": "2026-10-31T08:54+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "금, 은 급락; 금속은 거의 모두 떨어집니다. LME 주석, 니켈연 하락. LME 구리, 아연, SHFE 아연, 주석, 니켈 등 하락세 [밤시장]",
+  "original": "Gold, silver plunge; metals nearly all fall; LME tin, nickel lead declines; LME copper, zinc, SHFE zinc, tin, nickel among top losers [Overnight market]",
+  "url": "https://news.metal.com/en/newscontent/104189737-gold-silver-plunge-metals-nearly-all-fall-lme-tin-nickel-lead-declines-lme-copper-zinc-shfe-zinc-tin-nickel-among-top-losers-overnight-market",
+  "source": "SMM",
+  "published": "2026-10-31T09:44+09:00",
+  "first_seen": "2026-10-31T09:52+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "시장",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "자동차모닝포스트│많은 자동차 회사들이 3분기 재무보고서를 발표했다. 테슬라가 '5년 무이자' 자동차 할부금융 상품을 새롭게 출시했다",
+  "original": "汽车早报｜多家车企发布三季度财报 特斯拉推出全新“5年0息”分期购车金融方案",
+  "url": "https://www.jiemian.com/article/15266808.html",
+  "source": "제몐",
+  "published": "2026-10-31T09:33+09:00",
+  "first_seen": "2026-10-31T09:52+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "자원",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "에너지 모닝 뉴스 | CNOOC의 3분기 순이익은 333억 위안이었다. CATL의 Jianxiawo 리튬 광산 프로젝트의 환경 영향 평가가 승인되었다",
+  "original": "能源早报 | 中国海油第三季度净赚333亿元；宁德时代枧下窝锂矿项目环评获批",
+  "url": "https://www.jiemian.com/article/15274895.html",
+  "source": "제몐",
+  "published": "2026-10-31T09:11+09:00",
+  "first_seen": "2026-10-31T09:52+09:00"
  }
 ]
