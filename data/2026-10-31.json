@@ -796,5 +796,47 @@
   "source": "SMM",
   "published": "2026-10-31T11:59+09:00",
   "first_seen": "2026-10-31T12:28+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "베이징: 고온 막 연료전지, 고체산화물 연료전지, 수소 연소 엔진 등 첨단 트랙의 혁신 주체 육성",
+  "original": "北京：培育高温膜燃料电池、固体氧化物燃料电池、氢燃机等前沿赛道创新主体",
+  "url": "https://www.yicai.com/news/103419548.html",
+  "source": "제일재경",
+  "published": "2026-10-31T12:55+09:00",
+  "first_seen": "2026-10-31T13:18+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "베이징: 전체 연료전지 자동차 산업 체인 강화",
+  "original": "北京：做强燃料电池汽车全产业链",
+  "url": "https://www.yicai.com/news/103419546.html",
+  "source": "제일재경",
+  "published": "2026-10-31T12:55+09:00",
+  "first_seen": "2026-10-31T13:18+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "현대 아이오닉 3, 2027년 유럽 올해의 차 최종 후보로 선정",
+  "original": "Hyundai IONIQ 3 Named European Car of the Year 2027 Finalist",
+  "url": "https://cleantechnica.com/2026/10/30/hyundai-ioniq-3-named-european-car-of-the-year-2027-finalist/",
+  "source": "CleanTechnica",
+  "published": "2026-10-31T12:30+09:00",
+  "first_seen": "2026-10-31T13:18+09:00"
  }
 ]
