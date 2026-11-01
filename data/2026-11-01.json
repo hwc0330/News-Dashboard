@@ -444,7 +444,7 @@
   "original": "Roundup: October 2026 deliveries by major Chinese automakers",
   "url": "https://cnevpost.com/2026/11/01/roundup-oct-2026-deliveries-chinese-automakers/",
   "source": "CnEVPost",
-  "published": "2026-11-01T17:33+09:00",
+  "published": "2026-11-01T23:07+09:00",
   "first_seen": "2026-11-01T16:26+09:00"
  },
  {
@@ -614,5 +614,33 @@
   "source": "CnEVPost",
   "published": "2026-11-01T21:53+09:00",
   "first_seen": "2026-11-01T22:34+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "Chery 10월 판매는 NEV가 기록을 달성하고 수출이 다시 20만 대를 돌파하면서 5.3% 증가했다",
+  "original": "Chery October sales rise 5.3% as NEVs hit record and exports top 200,000 again",
+  "url": "https://cnevpost.com/2026/11/01/chery-oct-2026-sales/",
+  "source": "CnEVPost",
+  "published": "2026-11-01T23:05+09:00",
+  "first_seen": "2026-11-01T23:19+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "중국의 AI 풍선이 5조 달러 감소",
+  "original": "AI Balloon in China Deflates by Half a Trillion Dollars",
+  "url": "https://cleantechnica.com/2026/11/01/ai-balloon-in-china-deflates-by-half-a-trillion-dollars/",
+  "source": "CleanTechnica",
+  "published": "2026-11-01T23:01+09:00",
+  "first_seen": "2026-11-01T23:19+09:00"
  }
 ]
