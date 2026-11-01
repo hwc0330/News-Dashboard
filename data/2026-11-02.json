@@ -180,5 +180,33 @@
   "source": "DIGITIMES",
   "published": "2026-11-02T03:35+09:00",
   "first_seen": "2026-11-02T05:16+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "배터리는 두 가지 모델링 경로에서 비용 면에서 노르웨이의 수소 산적 운반선을 능가한다",
+  "original": "Batteries Beat Norway’s Hydrogen Bulk Carriers on Cost in Two Modeled Routes",
+  "url": "https://cleantechnica.com/2026/11/01/norway-hydrogen-bulk-carriers-battery-cost-test/",
+  "source": "CleanTechnica",
+  "published": "2026-11-02T05:52+09:00",
+  "first_seen": "2026-11-02T05:57+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "자원",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "기아 K5 부분변경, 17인치 화면과 하이브리드 장착",
+  "original": "",
+  "url": "https://www.g-enews.com/article/Global-Biz/2026/11/202611020512094272bd56fbc3c_1",
+  "source": "글로벌이코노믹",
+  "published": "2026-11-02T05:12+09:00",
+  "first_seen": "2026-11-02T05:57+09:00"
  }
 ]
