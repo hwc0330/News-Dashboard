@@ -530,5 +530,19 @@
   "source": "경제일보",
   "published": "2026-11-01T01:00+09:00",
   "first_seen": "2026-11-01T18:09+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "시장",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "BYD: 10월 신에너지차 판매량 490,200대 달성",
+  "original": "比亚迪：10月新能源汽车销量49.02万辆",
+  "url": "https://www.yicai.com/news/103420207.html",
+  "source": "제일재경",
+  "published": "2026-11-01T19:25+09:00",
+  "first_seen": "2026-11-01T19:37+09:00"
  }
 ]
