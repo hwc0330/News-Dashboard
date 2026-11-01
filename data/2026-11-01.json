@@ -544,5 +544,47 @@
   "source": "제일재경",
   "published": "2026-11-01T19:25+09:00",
   "first_seen": "2026-11-01T19:37+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "시장",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "BEV가 처음으로 30만 대를 돌파하면서 BYD 매출은 10월 전년 동기 대비 11% 증가해 역대 최고치를 기록했다",
+  "original": "BYD sales rise 11% to year-to-date high in October as BEVs top 300,000 for first time",
+  "url": "https://cnevpost.com/2026/11/01/byd-oct-2026-sales/",
+  "source": "CnEVPost",
+  "published": "2026-11-01T19:53+09:00",
+  "first_seen": "2026-11-01T20:14+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "VW의 EV 공장은 이제 자동차를 분해하고 있다. 돈이 들어있어요",
+  "original": "VW’s EV Factory Is Now Taking Cars Apart. There’s Money In It",
+  "url": "https://insideevs.com/news/813972/vw-zwickau-dismantling-ev-line/",
+  "source": "InsideEVs",
+  "published": "2026-11-01T18:39+09:00",
+  "first_seen": "2026-11-01T20:14+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "FREELANDER는 대규모 배송을 촉진하고 럭셔리 신에너지 고객 기반을 확대한다",
+  "original": "FREELANDER神行者推进规模化交付 拓展豪华新能源客群",
+  "url": "https://www.cs.com.cn/ssgs/01/2026/11/01/detail_2026110110048989.html",
+  "source": "중국증권보",
+  "published": "2026-11-01T01:00+09:00",
+  "first_seen": "2026-11-01T20:14+09:00"
  }
 ]
