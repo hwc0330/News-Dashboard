@@ -6,6 +6,20 @@
   "key": false,
   "region": "",
   "policy": "",
+  "title": "금과 은이 급락했고 거의 모든 금속이 하락했다. LME 주석과 니켈이 하락세를 주도한 반면, LME 구리와 아연은 SHFE 아연, 주석, 니켈과 함께 가장 큰 손실을 기록했다[장외시장]",
+  "original": "Gold and silver plunged, with nearly all metals falling. LME tin and nickel led the decline, while LME copper and zinc, along with SHFE zinc, tin, and nickel, posted the largest losses [Overnight Market].",
+  "url": "https://news.metal.com/en/newscontent/104189737-gold-and-silver-plunged-with-nearly-all-metals-falling-lme-tin-and-nickel-led-the-decline-while-lme-copper-and-zinc-along-with-shfe-zinc-tin-and-nickel-posted-the-largest-losses-overnight-market",
+  "source": "SMM",
+  "published": "2026-11-01T09:51+09:00",
+  "first_seen": "2026-10-31T12:28+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
   "title": "[CATL, 9MWh TENER+ 저장 시스템 공개, 호주에서 나트륨 배터리 저장 장치 출시]",
   "original": "[CATL unveils 9MWh TENER+ storage system, debuts sodium battery storage in Australia]",
   "url": "https://news.metal.com/en/newscontent/104189836-catl-unveils-9mwh-tener+-storage-system-debuts-sodium-battery-storage-in-australia",
@@ -196,20 +210,6 @@
   "first_seen": "2026-11-01T08:52+09:00"
  },
  {
-  "section": "배터리 셀/소재/광물",
-  "tag": "기업",
-  "impact": "0",
-  "key": false,
-  "region": "",
-  "policy": "",
-  "title": "금과 은이 급락했고 거의 모든 금속이 하락했다. LME 주석과 니켈이 하락세를 주도한 반면, LME 구리와 아연은 SHFE 아연, 주석, 니켈과 함께 가장 큰 손실을 기록했다[장외시장]",
-  "original": "Gold and silver plunged, with nearly all metals falling. LME tin and nickel led the decline, while LME copper and zinc, along with SHFE zinc, tin, and nickel, posted the largest losses [Overnight Market].",
-  "url": "https://news.metal.com/en/newscontent/104189737-gold-and-silver-plunged-with-nearly-all-metals-falling-lme-tin-and-nickel-led-the-decline-while-lme-copper-and-zinc-along-with-shfe-zinc-tin-and-nickel-posted-the-largest-losses-overnight-market",
-  "source": "SMM",
-  "published": "2026-11-01T09:51+09:00",
-  "first_seen": "2026-10-31T12:28+09:00"
- },
- {
   "section": "EV/ESS",
   "tag": "기업",
   "impact": "0",
@@ -236,5 +236,47 @@
   "source": "차이신",
   "published": "2026-11-01T01:00+09:00",
   "first_seen": "2026-11-01T09:53+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "Xiaomi Auto는 Sky Nomad 드라이브가 전년 대비 성장세를 회복함에 따라 10월에 50,000대 이상의 차량을 인도했다",
+  "original": "Xiaomi Auto delivers over 50,000 vehicles in October as Sky Nomad drives return to year-on-year growth",
+  "url": "https://cnevpost.com/2026/11/01/xiaomi-auto-delivers-over-50000-oct-2026/",
+  "source": "CnEVPost",
+  "published": "2026-11-01T10:45+09:00",
+  "first_seen": "2026-11-01T10:56+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기술",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "효성중공업, 지멘스와 디지털 전력망 기술 협력",
+  "original": "",
+  "url": "https://www.thelec.kr/news/articleView.html?idxno=64630",
+  "source": "디일렉",
+  "published": "2026-11-01T10:39+09:00",
+  "first_seen": "2026-11-01T10:56+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "BYD, 11월 5일 2세대 Seal 07 세단 출시",
+  "original": "BYD to launch second-gen Seal 07 sedan on November 5",
+  "url": "https://cnevpost.com/2026/11/01/byd-to-launch-2nd-gen-seal-07-nov-5/",
+  "source": "CnEVPost",
+  "published": "2026-11-01T10:16+09:00",
+  "first_seen": "2026-11-01T10:56+09:00"
  }
 ]
