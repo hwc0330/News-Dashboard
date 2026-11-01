@@ -376,5 +376,47 @@
   "source": "CnEVPost",
   "published": "2026-11-01T13:26+09:00",
   "first_seen": "2026-11-01T13:29+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기술",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "주간 신차 재고 | 자체 개발한 배터리와 칩을 탑재한 Ideal i6 출시, BYD Qin PLUS의 크기가 더욱 커졌다",
+  "original": "一周新车盘点｜理想i6首搭自研电芯与芯片 比亚迪秦PLUS尺寸进一步加大",
+  "url": "https://www.jiemian.com/article/15278279.html",
+  "source": "제몐",
+  "published": "2026-11-01T15:00+09:00",
+  "first_seen": "2026-11-01T15:14+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "Zeekr는 10월에 32,483대의 차량을 인도해 전년 동기 대비 51.63% 증가했지만 6개월 연속 기록을 마감했다",
+  "original": "Zeekr delivers 32,483 vehicles in October, up 51.63% year-on-year but ending 6-month record streak",
+  "url": "https://cnevpost.com/2026/11/01/zeekr-deliveries-oct-2026/",
+  "source": "CnEVPost",
+  "published": "2026-11-01T14:54+09:00",
+  "first_seen": "2026-11-01T15:14+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "화웨이 HIMA 10월 납품량이 절반으로 감소해 올해 누계 총액 감소",
+  "original": "Huawei HIMA October deliveries halve, pushing year-to-date total into decline",
+  "url": "https://cnevpost.com/2026/11/01/huawei-hima-oct-2026-deliveries/",
+  "source": "CnEVPost",
+  "published": "2026-11-01T14:34+09:00",
+  "first_seen": "2026-11-01T15:14+09:00"
  }
 ]
