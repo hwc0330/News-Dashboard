@@ -586,5 +586,33 @@
   "source": "중국증권보",
   "published": "2026-11-01T01:00+09:00",
   "first_seen": "2026-11-01T20:14+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "중국에서 2000달러짜리 전기트럭을 수입했다. 5년 후, 진실은 이렇다",
+  "original": "I imported a $2,000 electric truck from China. Five years later, here’s the truth",
+  "url": "https://electrek.co/2026/11/01/i-imported-a-2000-electric-truck-from-china-five-years-later-heres-the-truth/",
+  "source": "Electrek",
+  "published": "2026-11-01T22:29+09:00",
+  "first_seen": "2026-11-01T22:34+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "지리자동차, 수출 호조로 월별 판매 기록에 근접",
+  "original": "Geely nears monthly sales record as exports remain strong",
+  "url": "https://cnevpost.com/2026/11/01/geely-oct-2026-sales/",
+  "source": "CnEVPost",
+  "published": "2026-11-01T21:53+09:00",
+  "first_seen": "2026-11-01T22:34+09:00"
  }
 ]
