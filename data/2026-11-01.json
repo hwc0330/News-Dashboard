@@ -444,7 +444,7 @@
   "original": "Roundup: October 2026 deliveries by major Chinese automakers",
   "url": "https://cnevpost.com/2026/11/01/roundup-oct-2026-deliveries-chinese-automakers/",
   "source": "CnEVPost",
-  "published": "2026-11-01T16:14+09:00",
+  "published": "2026-11-01T17:33+09:00",
   "first_seen": "2026-11-01T16:26+09:00"
  },
  {
@@ -488,5 +488,47 @@
   "source": "21세기경제보도",
   "published": "2026-11-01T01:00+09:00",
   "first_seen": "2026-11-01T17:19+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "사이러스: 10월 신에너지차 판매량은 24,921대로 전년 동기 대비 51.57% 감소",
+  "original": "赛力斯：10月新能源汽车销量24921辆 同比下降51.57%",
+  "url": "https://www.yicai.com/news/103420174.html",
+  "source": "제일재경",
+  "published": "2026-11-01T17:31+09:00",
+  "first_seen": "2026-11-01T18:09+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "GWM 10월 판매량은 기록적인 NEV 및 해외 판매량에도 불구하고 15.87% 감소했다",
+  "original": "GWM October sales fall 15.87% despite record NEV and overseas volumes",
+  "url": "https://cnevpost.com/2026/11/01/gwm-oct-2026-sales/",
+  "source": "CnEVPost",
+  "published": "2026-11-01T17:27+09:00",
+  "first_seen": "2026-11-01T18:09+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "고원 신에너지 '전력 은행'은 전력 공급 문제를 해결하고 녹색 전력은 사람들의 생계 요구를 충족시킵니다",
+  "original": "高原新能源“充电宝”破解供电难题 绿色电力保障民生需求",
+  "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202611/t20261101_3279300.shtml",
+  "source": "경제일보",
+  "published": "2026-11-01T01:00+09:00",
+  "first_seen": "2026-11-01T18:09+09:00"
  }
 ]
