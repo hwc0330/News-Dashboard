@@ -26,5 +26,47 @@
   "source": "Electrek",
   "published": "2026-11-02T01:50+09:00",
   "first_seen": "2026-11-02T01:56+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "“트럼프가 만지는 모든 것은 죽는다” — 미국에 대한 경고",
+  "original": "“Everything Trump Touches Dies” — A Warning For America",
+  "url": "https://cleantechnica.com/2026/11/01/everything-trump-touches-dies-a-warning-for-america/",
+  "source": "CleanTechnica",
+  "published": "2026-11-02T02:17+09:00",
+  "first_seen": "2026-11-02T02:30+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "TechCrunch Mobility: 새롭고 더 큰 AV 붐이 도래했다",
+  "original": "TechCrunch Mobility: A new, bigger AV boom is here",
+  "url": "https://techcrunch.com/2026/11/01/techcrunch-mobility-a-new-bigger-av-boom-is-here/",
+  "source": "TechCrunch",
+  "published": "2026-11-02T02:04+09:00",
+  "first_seen": "2026-11-02T02:30+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "웨스트워드 호! 새로운 2026 Tesla Model Y 및 완전 자율 주행 V14를 통한 첫 번째 크로스 컨트리 여행",
+  "original": "Westward Ho! First Trip Cross Country with Our New 2026 Tesla Model Y & Full Self Driving V14",
+  "url": "https://cleantechnica.com/2026/11/01/westward-ho-first-trip-cross-country-with-our-new-2026-tesla-model-y-full-self-driving-v14/",
+  "source": "CleanTechnica",
+  "published": "2026-11-02T02:02+09:00",
+  "first_seen": "2026-11-02T02:30+09:00"
  }
 ]
