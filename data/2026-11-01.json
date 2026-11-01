@@ -418,5 +418,47 @@
   "source": "CnEVPost",
   "published": "2026-11-01T14:34+09:00",
   "first_seen": "2026-11-01T15:14+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "자원",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "【SMM 속보】인도네시아 HMA 니켈 가격, 11월 전반기 또 하락세",
+  "original": "【SMM Flash News】Indonesia's HMA Nickel Decreased Again in First Period of November",
+  "url": "https://news.metal.com/en/newscontent/104189860-smm-flash-newsindonesias-hma-nickel-decreased-again-in-first-period-of-november",
+  "source": "SMM",
+  "published": "2026-11-01T16:15+09:00",
+  "first_seen": "2026-11-01T16:26+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "정리: 중국 주요 자동차 제조사의 2026년 10월 납품",
+  "original": "Roundup: October 2026 deliveries by major Chinese automakers",
+  "url": "https://cnevpost.com/2026/11/01/roundup-oct-2026-deliveries-chinese-automakers/",
+  "source": "CnEVPost",
+  "published": "2026-11-01T16:14+09:00",
+  "first_seen": "2026-11-01T16:26+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "국내 운영 역량 강화 및 국내 신에너지 상용차 해외 레이아웃 가속화",
+  "original": "提升本地化经营能力 国产新能源商用车加快海外布局",
+  "url": "http://finance.people.com.cn/n1/2026/1101/c1004-40825376.html",
+  "source": "인민망",
+  "published": "2026-11-01T01:00+09:00",
+  "first_seen": "2026-11-01T16:26+09:00"
  }
 ]
