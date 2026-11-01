@@ -194,5 +194,47 @@
   "source": "더구루",
   "published": "2026-11-01T08:26+09:00",
   "first_seen": "2026-11-01T08:52+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "금과 은이 급락했고 거의 모든 금속이 하락했다. LME 주석과 니켈이 하락세를 주도한 반면, LME 구리와 아연은 SHFE 아연, 주석, 니켈과 함께 가장 큰 손실을 기록했다[장외시장]",
+  "original": "Gold and silver plunged, with nearly all metals falling. LME tin and nickel led the decline, while LME copper and zinc, along with SHFE zinc, tin, and nickel, posted the largest losses [Overnight Market].",
+  "url": "https://news.metal.com/en/newscontent/104189737-gold-and-silver-plunged-with-nearly-all-metals-falling-lme-tin-and-nickel-led-the-decline-while-lme-copper-and-zinc-along-with-shfe-zinc-tin-and-nickel-posted-the-largest-losses-overnight-market",
+  "source": "SMM",
+  "published": "2026-11-01T09:51+09:00",
+  "first_seen": "2026-10-31T12:28+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "일부 태양광 선두업체들은 3분기 손실을 줄였지만, 업계 수급 불균형은 여전히 지속되고 있다",
+  "original": "部分光伏龙头三季度减亏 但行业供需失衡仍延续",
+  "url": "https://www.caixin.com/2026-11-01/102499590.html",
+  "source": "차이신",
+  "published": "2026-11-01T01:00+09:00",
+  "first_seen": "2026-11-01T09:53+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "일부 태양광 선두업체들은 3분기 손실을 줄였지만, 업계 수급 불균형은 여전히 지속되고 있다",
+  "original": "部分光伏龙头三季度减亏 但行业供需失衡仍延续",
+  "url": "https://companies.caixin.com/2026-11-01/102499592.html",
+  "source": "차이신",
+  "published": "2026-11-01T01:00+09:00",
+  "first_seen": "2026-11-01T09:53+09:00"
  }
 ]
