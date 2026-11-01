@@ -138,5 +138,47 @@
   "source": "Electrek",
   "published": "2026-11-02T04:32+09:00",
   "first_seen": "2026-11-02T04:45+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "리비안은 26년 3분기 차량 납품, 높은 매출 달성, R2 물량 증가로 비용 개선 주도",
+  "original": "Rivian 3Q26交車、營收雙創高 R2放量帶動成本改善",
+  "url": "https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?id=0000773042_1F9LRJOK50G6M91M5HOLU",
+  "source": "DIGITIMES",
+  "published": "2026-11-02T03:58+09:00",
+  "first_seen": "2026-11-02T05:16+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "대만은 AI 데이터 센터 확장을 환영하며 고전압 전용선 설치 및 전원 공급이 과제가 됨",
+  "original": "台灣迎AI資料中心擴張潮 高壓專線設置和電力供應成挑戰",
+  "url": "https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?id=0000773102_YH12TDE1LUIOCQ3IOFFUY",
+  "source": "DIGITIMES",
+  "published": "2026-11-02T03:49+09:00",
+  "first_seen": "2026-11-02T05:16+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "혼하이는 유럽 전기차를 목표로 하고 있다. 관런 \"폴란드 EMP와 합작투자 조만간 합의할 것\"",
+  "original": "鴻海攻歐洲電動車 關潤：與波蘭EMP合資「很快達成協議」",
+  "url": "https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?id=0000773095_EXULL1X7LMU4YD4MYG7EX",
+  "source": "DIGITIMES",
+  "published": "2026-11-02T03:35+09:00",
+  "first_seen": "2026-11-02T05:16+09:00"
  }
 ]
