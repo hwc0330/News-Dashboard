@@ -236,5 +236,33 @@
   "source": "MINING.COM",
   "published": "2026-11-03T01:03+09:00",
   "first_seen": "2026-11-03T02:41+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "EU",
+  "policy": "",
+  "title": "BYD 플래시 충전기에서 기물 파손 행위 증가",
+  "original": "Vandalism escalates at BYD Flash Chargers",
+  "url": "https://www.electrive.com/2026/11/02/vandalism-escalates-at-byd-flash-chargers/",
+  "source": "electrive",
+  "published": "2026-11-03T03:30+09:00",
+  "first_seen": "2026-11-03T03:38+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "자원",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "미국",
+  "title": "누보 몽드 흑연은 퀘벡에서 주요 규제 이정표를 세웠다",
+  "original": "Nouveau Monde Graphite marks key regulatory milestone in Quebec",
+  "url": "https://www.mining.com/nouveau-monde-graphite-marks-key-regulatory-milestone-in-quebec/",
+  "source": "MINING.COM",
+  "published": "2026-11-03T01:30+09:00",
+  "first_seen": "2026-11-03T03:38+09:00"
  }
 ]
