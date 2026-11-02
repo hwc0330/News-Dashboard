@@ -2518,5 +2518,47 @@
   "source": "DIGITIMES",
   "published": "2026-11-02T13:10+09:00",
   "first_seen": "2026-11-03T05:27+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "기껏해야 기후변화에 승리할 수 있다. 아무리 나빠도? 탄소 중립",
+  "original": "At Best, a Climate Win. At Worst? Carbon Neutral.",
+  "url": "https://heatmap.news/am/baaja-rhodium-emissions",
+  "source": "Heatmap",
+  "published": "2026-11-02T22:16+09:00",
+  "first_seen": "2026-11-03T06:18+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "\"풍력·태양광 지어줘도 시큰둥\"… 구글 데이터센터, 미네소타 주민 반발에 '암초'",
+  "original": "",
+  "url": "https://www.g-enews.com/article/Global-Biz/2026/11/2026110217544633920c8c1c064d_1",
+  "source": "글로벌이코노믹",
+  "published": "2026-11-02T17:54+09:00",
+  "first_seen": "2026-11-03T06:18+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기술",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "솔리드 파워, 美 콜로라도 팹서 황화물계 전해질 라인 '모비우스' 가동",
+  "original": "",
+  "url": "https://www.g-enews.com/article/Global-Biz/2026/11/2026110217433164250c8c1c064d_1",
+  "source": "글로벌이코노믹",
+  "published": "2026-11-02T17:43+09:00",
+  "first_seen": "2026-11-03T06:18+09:00"
  }
 ]
