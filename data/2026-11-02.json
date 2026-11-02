@@ -250,5 +250,33 @@
   "source": "제일재경",
   "published": "2026-11-02T08:22+09:00",
   "first_seen": "2026-11-02T08:31+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "리튬은 자원 경로 의존성에서 벗어나야 한다",
+  "original": "锂业要摆脱资源路径依赖",
+  "url": "http://views.ce.cn/view/ent/202611/t20261102_3279668.shtml",
+  "source": "경제일보",
+  "published": "2026-11-02T01:00+09:00",
+  "first_seen": "2026-11-02T09:10+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "NEV 발전소는 계통 지침을 \"이해할\" 수 있다",
+  "original": "新能源电站可“听懂”电网指令",
+  "url": "http://www.ce.cn/cysc/newmain/yc/jsxw/202611/t20261102_3279801.shtml",
+  "source": "경제일보",
+  "published": "2026-11-02T01:00+09:00",
+  "first_seen": "2026-11-02T09:10+09:00"
  }
 ]
