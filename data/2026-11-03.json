@@ -544,5 +544,33 @@
   "source": "Politico",
   "published": "2026-11-03T06:20+09:00",
   "first_seen": "2026-11-03T07:01+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "BMW iX는 매진되었지만 그 자리를 대신하는 것이 더 마음에 들 수도 있다",
+  "original": "The BMW iX is sold out, but you might like what takes its place even more",
+  "url": "https://electrek.co/2026/11/02/bmw-ix-sold-out-replacement-better/",
+  "source": "Electrek",
+  "published": "2026-11-03T07:35+09:00",
+  "first_seen": "2026-11-03T07:47+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "Hardee's는 EV 고속 충전을 제공한다. Carl's Jr.의 위치도 따라갈 수 있다",
+  "original": "Hardee’s gets EV fast charging – with Carl’s Jr. locations to follow",
+  "url": "https://electrek.co/2026/11/02/hardees-gets-ev-fast-charging-with-carls-jr-locations-to-follow/",
+  "source": "Electrek",
+  "published": "2026-11-03T07:02+09:00",
+  "first_seen": "2026-11-03T07:47+09:00"
  }
 ]
