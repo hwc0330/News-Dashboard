@@ -82,5 +82,33 @@
   "source": "electrive",
   "published": "2026-11-03T00:00+09:00",
   "first_seen": "2026-11-03T00:41+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "EU",
+  "policy": "",
+  "title": "이온넥스트, 전기차 야간 충전요금 6.5p/kWh로 인하",
+  "original": "E.ON Next cuts overnight EV charging rate to 6.5p/kWh",
+  "url": "https://www.electrive.com/2026/11/02/e-on-next-cuts-overnight-ev-charging-rate-to-6-5p-kwh/",
+  "source": "electrive",
+  "published": "2026-11-03T01:30+09:00",
+  "first_seen": "2026-11-03T01:45+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "EU",
+  "policy": "",
+  "title": "애버딘의 '가장 큰' 초고속 EV 충전 허브가 가동된다",
+  "original": "Aberdeen’s ‘largest’ ultra-rapid EV charging hub enters operation",
+  "url": "https://www.electrive.com/2026/11/02/aberdeens-largest-ultra-rapid-ev-charging-hub-enters-operation/",
+  "source": "electrive",
+  "published": "2026-11-03T01:00+09:00",
+  "first_seen": "2026-11-03T01:45+09:00"
  }
 ]
