@@ -348,5 +348,61 @@
   "source": "Utility Dive",
   "published": "2026-11-03T01:01+09:00",
   "first_seen": "2026-11-03T04:38+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "미국으로 오는 전기 트럭 떼(배터리 교체 포함?)",
+  "original": "Swarm Of Electric Trucks Coming To US (Battery Swapping Included?)",
+  "url": "https://cleantechnica.com/2026/11/02/electric-trucks-us-canada-battery-swapping-trade-wars/",
+  "source": "CleanTechnica",
+  "published": "2026-11-03T04:52+09:00",
+  "first_seen": "2026-11-03T05:27+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "10월 오토바이 등록 건수는 14% 이상 감소한 반면, 전기 오토바이의 감소 폭은 상대적으로 느렸다",
+  "original": "10月機車掛牌月減逾14% 電動機車跌幅相對緩",
+  "url": "https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?id=0000773253_FUT325TO4CSO4B49EPLOJ",
+  "source": "DIGITIMES",
+  "published": "2026-11-03T03:49+09:00",
+  "first_seen": "2026-11-03T05:27+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "26년 3분기 '동생' 실적 엇갈려, 기아·현대차 매출 역전될 수도",
+  "original": "「同門兄弟」3Q26表現分歧 起亞與現代汽車銷售恐反轉",
+  "url": "https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?id=0000773285_XG41PR2Y9FCHL64CUMYGH",
+  "source": "DIGITIMES",
+  "published": "2026-11-03T03:29+09:00",
+  "first_seen": "2026-11-03T05:27+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "홍유, AI 파워 사업 기회 제시, 베트남 신공장 대량생산 곧 북미 거점 동시 추진",
+  "original": "宏于布局AI電力商機 越南新廠量產在即、北美據點同步推進",
+  "url": "https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?id=0000773271_10F1O5X88TA36X08J73FB",
+  "source": "DIGITIMES",
+  "published": "2026-11-03T03:06+09:00",
+  "first_seen": "2026-11-03T05:27+09:00"
  }
 ]

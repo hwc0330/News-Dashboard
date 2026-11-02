@@ -659,7 +659,7 @@
  },
  {
   "section": "EV/ESS",
-  "tag": "기업",
+  "tag": "시장",
   "impact": "0",
   "key": false,
   "region": "",
@@ -2504,5 +2504,19 @@
   "source": "글로벌이코노믹",
   "published": "2026-11-02T20:03+09:00",
   "first_seen": "2026-11-03T04:38+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "Waymo와 Toyota는 Robotaxi 영역을 확장하고 2027년 일본에서 테스트를 시작하며 영국 시장을 장악한다",
+  "original": "Waymo攜豐田擴大Robotaxi版圖 2027年日本啟動測試、英國市場接棒",
+  "url": "https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?id=0000773233_RMR3FV982BRB6J48OWYCJ",
+  "source": "DIGITIMES",
+  "published": "2026-11-02T13:10+09:00",
+  "first_seen": "2026-11-03T05:27+09:00"
  }
 ]
