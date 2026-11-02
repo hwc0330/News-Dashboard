@@ -659,7 +659,7 @@
  },
  {
   "section": "EV/ESS",
-  "tag": "시장",
+  "tag": "기업",
   "impact": "0",
   "key": false,
   "region": "",
@@ -2476,5 +2476,33 @@
   "source": "글로벌이코노믹",
   "published": "2026-11-02T17:20+09:00",
   "first_seen": "2026-11-03T03:38+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "GWM 말레이시아 공장 누적 조립 1만 대 돌파와 하이브리드 생산 확대",
+  "original": "",
+  "url": "https://www.g-enews.com/article/Global-Biz/2026/11/202611022038129362bd56fbc3c_1",
+  "source": "글로벌이코노믹",
+  "published": "2026-11-02T20:38+09:00",
+  "first_seen": "2026-11-03T04:38+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "정책",
+  "impact": "0",
+  "key": true,
+  "region": "",
+  "policy": "",
+  "title": "중국 완성차, EU 하이브리드 수출 쿼터 확보 총력",
+  "original": "",
+  "url": "https://www.g-enews.com/article/Global-Biz/2026/11/2026110220035460422bd56fbc3c_1",
+  "source": "글로벌이코노믹",
+  "published": "2026-11-02T20:03+09:00",
+  "first_seen": "2026-11-03T04:38+09:00"
  }
 ]
