@@ -2420,5 +2420,19 @@
   "source": "중국증권보",
   "published": "2026-11-02T01:00+09:00",
   "first_seen": "2026-11-02T23:44+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "전기트럭, 중국 대형트럭 판매의 50% 차지, 디젤 수요 감소",
+  "original": "Electric trucks hit 50% of China’s heavy truck sales, diesel demand falls",
+  "url": "https://electrek.co/2026/11/02/electric-trucks-50-percent-china-heavy-truck-sales-diesel-demand/",
+  "source": "Electrek",
+  "published": "2026-11-02T23:44+09:00",
+  "first_seen": "2026-11-03T00:41+09:00"
  }
 ]
