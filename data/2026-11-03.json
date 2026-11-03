@@ -3204,5 +3204,47 @@
   "source": "중국증권보",
   "published": "2026-11-03T01:00+09:00",
   "first_seen": "2026-11-03T23:55+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "기아, 새로운 3만 달러 규모의 전기 SUV가 딜러를 강타하면서 또 다른 기록적인 한 달을 기록했다",
+  "original": "Kia racks up another record month as its new $30K electric SUV hits dealers",
+  "url": "https://electrek.co/2026/11/03/kia-racks-up-another-record-month-new-30k-ev3-hits-dealers/",
+  "source": "Electrek",
+  "published": "2026-11-03T23:56+09:00",
+  "first_seen": "2026-11-04T00:46+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "트럼프, 휘발유 가격 기록으로 중간고사 돌입",
+  "original": "Trump Goes into the Midterms with a Gas Price Record",
+  "url": "https://heatmap.news/am/trump-midterms-gas",
+  "source": "Heatmap",
+  "published": "2026-11-03T21:48+09:00",
+  "first_seen": "2026-11-04T00:46+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "자원",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "콩고, 불법 채굴 단속으로 구리·코발트 압수",
+  "original": "Congo seizes copper, cobalt in illegal mining crackdown",
+  "url": "https://www.mining.com/congo-seizes-copper-cobalt-in-illegal-mining-crackdown/",
+  "source": "MINING.COM",
+  "published": "2026-11-03T21:03+09:00",
+  "first_seen": "2026-11-04T00:46+09:00"
  }
 ]
