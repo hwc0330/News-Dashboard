@@ -1,5 +1,62 @@
 [
  {
+  "id": 11440,
+  "date": "11월 3일 화요일",
+  "posted": "2026-11-03T08:16+09:00",
+  "url": "https://t.me/cjdbj/11440",
+  "items": [
+   {
+    "section": "배터리 셀/소재/광물",
+    "tag": "기업",
+    "title": "포스코퓨처엠, 3분기 배터리 소재 영업익 518억…전분기 20배",
+    "source": "디일렉",
+    "url": "https://han.gl/wUJZ3"
+   },
+   {
+    "section": "배터리 셀/소재/광물",
+    "tag": "기업",
+    "title": "엘앤에프플러스, 현대제철 산화철로 무전구체 LFP 개발",
+    "source": "전기신문",
+    "url": "https://han.gl/4S2wK"
+   },
+   {
+    "section": "배터리 셀/소재/광물",
+    "tag": "정책",
+    "title": "중국, 나트륨·전고체 배터리 소비세 2028년까지 면제",
+    "source": "더구루",
+    "url": "https://han.gl/vBKWn"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "정책",
+    "title": "한국판 IRA에 전기차 포함 쟁점화…정부 국회 논의 참여",
+    "source": "머니투데이",
+    "url": "https://han.gl/hmiCm"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "정책",
+    "title": "아르메니아, 태양광 연계 ESS 대출 이자 최대 10%p 지원",
+    "source": "ESS News",
+    "url": "https://han.gl/q6SHh"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "정책",
+    "title": "중국 완성차, EU 하이브리드 수출 쿼터 협의…첫해 35만대안",
+    "source": "글로벌이코노믹",
+    "url": "https://han.gl/UvkvV"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "정책",
+    "title": "미 PJM, 데이터센터 전력난에 6.8GW 특별 용량경매 재추진",
+    "source": "더구루",
+    "url": "https://han.gl/xDUeY"
+   }
+  ]
+ },
+ {
   "id": 11429,
   "date": "11월 2일 월요일",
   "posted": "2026-11-02T07:56+09:00",
@@ -4061,56 +4118,6 @@
     "title": "글로벌 전기차 7,400만 대 돌파",
     "source": "글로벌이코노믹",
     "url": "https://han.gl/nF3XD"
-   }
-  ]
- },
- {
-  "id": 10835,
-  "date": "4월 27일 월요일",
-  "posted": "2026-04-27T08:30+09:00",
-  "url": "https://t.me/cjdbj/10835",
-  "items": [
-   {
-    "section": "배터리 셀/소재/광물",
-    "tag": "산업",
-    "title": "중국 1Q 탄산리튬, N자형 변동세",
-    "source": "SMM",
-    "url": "https://han.gl/yeKwR"
-   },
-   {
-    "section": "배터리 셀/소재/광물",
-    "tag": "산업",
-    "title": "콩고·잠비아, 글로벌 구리 공급 핵심 부상",
-    "source": "글로벌이코노믹",
-    "url": "https://han.gl/XczzJ"
-   },
-   {
-    "section": "배터리 셀/소재/광물",
-    "tag": "기업",
-    "title": "LG엔솔, 미국 애리조나 공장 연내 가동",
-    "source": "더구루",
-    "url": "https://han.gl/EW87v"
-   },
-   {
-    "section": "배터리 셀/소재/광물",
-    "tag": "정책",
-    "title": "미국·EU, 핵심광물 공급망 협력 MOU 체결",
-    "source": "mining. com",
-    "url": "https://han.gl/risxH"
-   },
-   {
-    "section": "EV/ESS",
-    "tag": "산업",
-    "title": "스페인 1Q ESS 신규 2.12GW 진입",
-    "source": "ESS-News",
-    "url": "https://han.gl/lqFud"
-   },
-   {
-    "section": "EV/ESS",
-    "tag": "산업",
-    "title": "中 1Q ESS 배터리 수출 27.3GWh",
-    "source": "Energy Storage News",
-    "url": "https://han.gl/U4eaG"
    }
   ]
  }
