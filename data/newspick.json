@@ -1,5 +1,69 @@
 [
  {
+  "id": 11457,
+  "date": "11월 4일 수요일",
+  "posted": "2026-11-04T08:16+09:00",
+  "url": "https://t.me/cjdbj/11457",
+  "items": [
+   {
+    "section": "배터리 셀/소재/광물",
+    "tag": "기업",
+    "title": "LG에너지솔루션·엘앤에프, 1조350억원 LFP 양극재 공급계약",
+    "source": "디일렉",
+    "url": "https://han.gl/4Xoln"
+   },
+   {
+    "section": "배터리 셀/소재/광물",
+    "tag": "기업",
+    "title": "현대차그룹, 포스코퓨처엠 베트남 음극재에 1000억원 투자 검토",
+    "source": "디일렉",
+    "url": "https://han.gl/Sztrg"
+   },
+   {
+    "section": "배터리 셀/소재/광물",
+    "tag": "기업",
+    "title": "삼성SDI, 미국 ESS 수주 60GWh 돌파…인디애나 LFP 양산 개시",
+    "source": "ESS News",
+    "url": "https://han.gl/4cxfh"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "시장",
+    "title": "프랑스 10월 BEV 비중 41%…BYD 431% 급증하며 7위",
+    "source": "ChinaEVHome·CCFA",
+    "url": "https://han.gl/p6AHm"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "시장",
+    "title": "테슬라 유럽 10월 등록 급증…스페인 271%·스웨덴 248%",
+    "source": "Drive Tesla",
+    "url": "https://han.gl/dnhD4"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "정책",
+    "title": "정부, 전기차 생산세액공제 재검토…중국산 점유율 43.5%",
+    "source": "글로벌이코노믹",
+    "url": "https://han.gl/MQrZR"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "정책",
+    "title": "한국, 배터리 규제 18건 완화…BESS 컨테이너 CCTV 의무 면제",
+    "source": "ESS News",
+    "url": "https://han.gl/yMnXR"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "시장",
+    "title": "CPCA, 중국 10월 NEV 도매 180만대 추정…사상 최대",
+    "source": "CnEVPost",
+    "url": "https://han.gl/eMRuU"
+   }
+  ]
+ },
+ {
   "id": 11440,
   "date": "11월 3일 화요일",
   "posted": "2026-11-03T08:16+09:00",
@@ -4082,42 +4146,6 @@
     "title": "토요타, 3월 EV 판매 139% 급증…월간 역대 최대",
     "source": "디지털 투데이",
     "url": "https://han.gl/oXvtd"
-   }
-  ]
- },
- {
-  "id": 10837,
-  "date": "4월 28일 화요일",
-  "posted": "2026-04-28T08:32+09:00",
-  "url": "https://t.me/cjdbj/10837",
-  "items": [
-   {
-    "section": "배터리 셀/소재/광물",
-    "tag": "산업",
-    "title": "니켈 가격 2년래 최고치 경신",
-    "source": "mining. com",
-    "url": "https://han.gl/Ypkx2"
-   },
-   {
-    "section": "배터리 셀/소재/광물",
-    "tag": "산업",
-    "title": "CATL, 60GWh 나트륨이온 배터리 수주",
-    "source": "cnevpost",
-    "url": "https://han.gl/fC55O"
-   },
-   {
-    "section": "EV/ESS",
-    "tag": "기업",
-    "title": "CATL, 현대차 중국 전기차 全차종 배터리 공급 추진",
-    "source": "조선일보",
-    "url": "https://han.gl/fPLyg"
-   },
-   {
-    "section": "EV/ESS",
-    "tag": "산업",
-    "title": "글로벌 전기차 7,400만 대 돌파",
-    "source": "글로벌이코노믹",
-    "url": "https://han.gl/nF3XD"
    }
   ]
  }
