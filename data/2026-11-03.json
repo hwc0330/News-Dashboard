@@ -1079,7 +1079,7 @@
  },
  {
   "section": "배터리 셀/소재/광물",
-  "tag": "기술",
+  "tag": "기업",
   "impact": "0",
   "key": false,
   "region": "",
@@ -2927,7 +2927,7 @@
  },
  {
   "section": "EV/ESS",
-  "tag": "시장",
+  "tag": "기업",
   "impact": "0",
   "key": false,
   "region": "",
@@ -3246,5 +3246,47 @@
   "source": "MINING.COM",
   "published": "2026-11-03T21:03+09:00",
   "first_seen": "2026-11-04T00:46+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "시장",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "유럽, 전기차 급증에 전력망 확충 부담…스마트 충전으로 40% 절감",
+  "original": "",
+  "url": "https://www.g-enews.com/article/Global-Biz/2026/11/2026110323425350119a1f309431_1",
+  "source": "글로벌이코노믹",
+  "published": "2026-11-03T23:42+09:00",
+  "first_seen": "2026-11-04T04:26+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "시장",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "테슬라 中 생산 전기차 10월 10% 증가…한국이 수출 20% 흡수",
+  "original": "",
+  "url": "https://www.g-enews.com/article/Global-Biz/2026/11/2026110323250730529a1f309431_1",
+  "source": "글로벌이코노믹",
+  "published": "2026-11-03T23:25+09:00",
+  "first_seen": "2026-11-04T04:26+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기술",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "미국 투자사 칼라일 업은 리베라 에너지, 배터리저장 3억 달러 조달",
+  "original": "",
+  "url": "https://www.g-enews.com/article/Global-Biz/2026/11/2026110321324399912bd56fbc3c_1",
+  "source": "글로벌이코노믹",
+  "published": "2026-11-03T21:32+09:00",
+  "first_seen": "2026-11-04T04:26+09:00"
  }
 ]
