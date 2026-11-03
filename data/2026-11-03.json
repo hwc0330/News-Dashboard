@@ -430,7 +430,7 @@
   "original": "Whitehouse, NAM Convene Roundtable with RI Manufacturing, Labor, and Business Leaders to Support Permitting Reform",
   "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPcGdXd0s2QTM3NW5jVkVmcmZqUnI2bk5oQUtSSWJNS2hqN1A1ZzdhZHg0TXU4LVRla0dpWHh3TE54RFdBc1BmSU9fU216TG1sWEdvUWdHMHZrcU1VYTBVdndFVkJ4MFI0aXh3bXdyeXM5b04walNtaFAzOXNyNEZodGtyR2o1bldIQk8wZDBjREtEbHZ2NkJmdEQ1SlRVMFpXbkxZaUZkZXlMMHR4UDhfRjVVSTFVaUFmSzJoUFc0cEl1SDlPSUJteWh4Q0FGXzQ1ZWlhZDJObzl3RXFPNGsxU3U0cU94WXhjTGttOThYcG0?oc=5",
   "source": "미 의회",
-  "published": "2026-11-03T06:14+09:00",
+  "published": "2026-11-03T06:56+09:00",
   "first_seen": "2026-11-03T06:18+09:00"
  },
  {
@@ -1272,5 +1272,61 @@
   "source": "21세기경제보도",
   "published": "2026-11-03T01:00+09:00",
   "first_seen": "2026-11-03T11:57+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "EU",
+  "policy": "",
+  "title": "Fluence CEO Julian Nebreda와 CFO Ahmed Pasha가 즉시 퇴사",
+  "original": "Fluence CEO Julian Nebreda and CFO Ahmed Pasha leave with immediate effect",
+  "url": "https://www.energy-storage.news/fluence-ceo-julian-nebreda-and-cfo-ahmed-pasha-leave-with-immediate-effect/",
+  "source": "Energy-Storage.news",
+  "published": "2026-11-03T12:29+09:00",
+  "first_seen": "2026-11-03T12:50+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "Nio, 광저우 모터쇼에서 11월 말 출시 예정인 스페셜 에디션으로 ES8 라인업 확장",
+  "original": "Nio to expand ES8 lineup with special edition set for late-November launch at Guangzhou Auto Show",
+  "url": "https://cnevpost.com/2026/11/03/nio-es8-special-edition-set-for-nov-guangzhou-show/",
+  "source": "CnEVPost",
+  "published": "2026-11-03T12:16+09:00",
+  "first_seen": "2026-11-03T12:50+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "LG엔솔, 올해 매출 성장률 목표 최대 40%로 상향",
+  "original": "",
+  "url": "https://www.thelec.kr/news/articleView.html?idxno=64782",
+  "source": "디일렉",
+  "published": "2026-11-03T11:58+09:00",
+  "first_seen": "2026-11-03T12:50+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "자원",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "CATL의 A주는 급등하여 시장 가치가 1조 2천억에 육박했다",
+  "original": "宁德时代A股大涨，市值逼近1.2万亿",
+  "url": "https://m.21jingji.com/article/20261103/herald/0bd4be62bf0a47af0eca6e4985755b74.html",
+  "source": "21세기경제보도",
+  "published": "2026-11-03T01:00+09:00",
+  "first_seen": "2026-11-03T12:50+09:00"
  }
 ]
