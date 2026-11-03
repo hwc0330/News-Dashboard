@@ -124,5 +124,61 @@
   "source": "Utility Dive",
   "published": "2026-11-04T00:15+09:00",
   "first_seen": "2026-11-04T01:38+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "BYD의 3,000마력 EV가 시속 280마일의 속도로 충돌한다. 운전자가 무사히 탈출하는 모습을 지켜보세요",
+  "original": "BYD’s 3,000-hp EV crashes at about 280 mph — Watch the driver escape unharmed",
+  "url": "https://electrek.co/2026/11/03/byds-ev-crashes-at-280-mph-watch-driver-escape-unharmed/",
+  "source": "Electrek",
+  "published": "2026-11-04T02:25+09:00",
+  "first_seen": "2026-11-04T02:32+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "EU",
+  "policy": "",
+  "title": "인도: 하이데라바드, 전기 경찰차 15대 배치",
+  "original": "India: Hyderabad deploys 15 electric police cars",
+  "url": "https://www.electrive.com/2026/11/03/india-hyderabad-deploys-15-electric-police-cars/",
+  "source": "electrive",
+  "published": "2026-11-04T02:00+09:00",
+  "first_seen": "2026-11-04T02:32+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "미국",
+  "title": "상원 허가 법안은 유망하지만 수정이 필요함",
+  "original": "The Senate permitting bill holds promise but needs amendments",
+  "url": "https://www.utilitydive.com/news/senate-permitting-bill-holds-promise-needs-amendments/873419/",
+  "source": "Utility Dive",
+  "published": "2026-11-04T02:00+09:00",
+  "first_seen": "2026-11-04T02:32+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "Rivian 스핀아웃 또한 케냐에서 e-moto 프로젝트를 진행 중이었다",
+  "original": "Rivian spinout Also was working on an e-moto project in Kenya — until it walked away",
+  "url": "https://techcrunch.com/2026/11/03/rivian-spinout-also-owns-up-to-mistakes-in-delayed-e-bike-launch/",
+  "source": "TechCrunch",
+  "published": "2026-11-04T01:49+09:00",
+  "first_seen": "2026-11-04T02:32+09:00"
  }
 ]
