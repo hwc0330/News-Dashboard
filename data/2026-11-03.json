@@ -1079,7 +1079,7 @@
  },
  {
   "section": "배터리 셀/소재/광물",
-  "tag": "기업",
+  "tag": "기술",
   "impact": "0",
   "key": false,
   "region": "",
@@ -2927,7 +2927,7 @@
  },
  {
   "section": "EV/ESS",
-  "tag": "기업",
+  "tag": "시장",
   "impact": "0",
   "key": false,
   "region": "",
@@ -3302,5 +3302,19 @@
   "source": "DIGITIMES",
   "published": "2026-11-03T14:31+09:00",
   "first_seen": "2026-11-04T05:22+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "정책",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "\"삼성SDI 배터리 인력 모델 배운다\"… 말레이시아, 408개 산업 파트너와 연계",
+  "original": "",
+  "url": "https://www.g-enews.com/article/Global-Biz/2026/11/2026110322184050710c8c1c064d_1",
+  "source": "글로벌이코노믹",
+  "published": "2026-11-03T22:18+09:00",
+  "first_seen": "2026-11-04T06:17+09:00"
  }
 ]
