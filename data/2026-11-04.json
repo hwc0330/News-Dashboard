@@ -1218,8 +1218,8 @@
   "first_seen": "2026-11-04T12:20+09:00"
  },
  {
-  "section": "기타",
-  "tag": "기타",
+  "section": "EV/ESS",
+  "tag": "시장",
   "impact": "0",
   "key": false,
   "region": "",
@@ -3031,7 +3031,7 @@
   "region": "US",
   "policy": "",
   "title": "Tesla, SpaceX 및 Elon Musk에게 파란색 텍사스 스윕은 무엇을 의미합나?",
-  "original": "What does a blue Texas sweep mean for Tesla, SpaceX & Elon Musk?",
+  "original": "What does a blue Texas sweep mean for Elon Musk, Tesla & SpaceX?",
   "url": "https://electrek.co/2026/11/04/what-does-a-blue-texas-sweep-mean-for-tesla-spacex-elon-musk/",
   "source": "Electrek",
   "published": "2026-11-04T23:00+09:00",
@@ -3227,10 +3227,38 @@
   "region": "",
   "policy": "",
   "title": "도요타 영업이익 6분기 만에 반등… 하이브리드 수요와 엔화 약세가 이끈 실적 회복",
-  "original": "",
+  "original": "토요타 영업이익 6분기 만에 반등… 하이브리드 수요와 엔화 약세가 이끈 실적 회복",
   "url": "https://www.g-enews.com/article/Global-Biz/2026/11/2026110420392528282bd56fbc3c_1",
   "source": "글로벌이코노믹",
   "published": "2026-11-04T20:39+09:00",
   "first_seen": "2026-11-05T04:30+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "이제 민주당이 껍질을 벗길 차례이다",
+  "original": "It’s Democrats’ Turn to Do the Shellacking",
+  "url": "https://heatmap.news/am/democrats-win-midterms",
+  "source": "Heatmap",
+  "published": "2026-11-04T22:30+09:00",
+  "first_seen": "2026-11-05T06:20+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "미국",
+  "title": "미국 민주당 상·하원 동시 장악, 관세 고삐 죄던 트럼프 정책 급제동",
+  "original": "",
+  "url": "https://www.g-enews.com/view.php?ud=202611041904544386fbbec65dfb_1",
+  "source": "글로벌이코노믹",
+  "published": "2026-11-04T19:04+09:00",
+  "first_seen": "2026-11-05T06:20+09:00"
  }
 ]

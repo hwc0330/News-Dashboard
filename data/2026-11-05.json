@@ -460,5 +460,47 @@
   "source": "DIGITIMES",
   "published": "2026-11-05T03:04+09:00",
   "first_seen": "2026-11-05T05:25+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "중국은 EV 배터리에 대한 철권을 보유하고 있다. 이를 깨려는 미국의 계획은 다음과 같다",
+  "original": "China Has An Iron Grip On EV Batteries. Here's America’s Plan To Break It",
+  "url": "https://insideevs.com/news/814448/us-2030-ev-battery-strategy-supply-chain/",
+  "source": "InsideEVs",
+  "published": "2026-11-05T06:16+09:00",
+  "first_seen": "2026-11-05T06:20+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "자원",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "Ford Fathom EV 픽업 가격은 28,350달러에서 30,000달러까지 다양한다",
+  "original": "Ford Fathom EV pickup prices will range from $28,350 to the high $30Ks",
+  "url": "https://electrek.co/2026/11/04/ford-fathom-ev-pickup-prices-range-from-28350-to-high-30ks/",
+  "source": "Electrek",
+  "published": "2026-11-05T05:53+09:00",
+  "first_seen": "2026-11-05T06:20+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "시장",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "페라리 루체, 디자인 논란으로 2027년 완판",
+  "original": "Ferrari Luce sold out for 2027 after design controversy",
+  "url": "https://www.teslarati.com/ferrari-luce-sold-out-2027-after-design-controversy/",
+  "source": "Teslarati",
+  "published": "2026-11-05T05:41+09:00",
+  "first_seen": "2026-11-05T06:20+09:00"
  }
 ]
