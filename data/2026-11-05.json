@@ -306,5 +306,61 @@
   "source": "Utility Dive",
   "published": "2026-11-05T01:41+09:00",
   "first_seen": "2026-11-05T03:20+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "Home Depot 초기 블랙 프라이데이 세일 도착, Fanttik USB-C 가지치기 가위 $80, WORX 9-in-1 잎 송풍기 $91 등",
+  "original": "Home Depot early Black Friday sale arrives, Fanttik USB-C pruning shears $80, WORX 9-in-1 leaf blower $91, more",
+  "url": "https://electrek.co/2026/11/04/green-deals-nov-4/",
+  "source": "Electrek",
+  "published": "2026-11-05T04:00+09:00",
+  "first_seen": "2026-11-05T04:30+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "정책",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "민주당 중간 선거 이후 머스크의 Tesla와 SpaceX는 하락",
+  "original": "Musk’s Tesla and SpaceX decline after Democratic Midterm sweep",
+  "url": "https://www.teslarati.com/musk-tesla-tsla-spacex-spcx-decline-after-democratic-midterm-sweep/",
+  "source": "Teslarati",
+  "published": "2026-11-05T03:49+09:00",
+  "first_seen": "2026-11-05T04:30+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "Range Rover는 가장 저렴한 SUV 두 대를 버리고 새로운 보급형 EV를 선보이다",
+  "original": "Range Rover is axing its two cheapest SUVs, making way for a new entry-level EV",
+  "url": "https://electrek.co/2026/11/04/range-rover-drops-two-cheapest-suvs-new-entry-level-ev/",
+  "source": "Electrek",
+  "published": "2026-11-05T03:46+09:00",
+  "first_seen": "2026-11-05T04:30+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "인도 해군, 28조원대 삼각 전력망 구축 추진…인도양 해양 통제권 대폭 강화",
+  "original": "",
+  "url": "https://www.g-enews.com/article/Global-Biz/2026/11/20261105032242356920990b2dc5_1",
+  "source": "글로벌이코노믹",
+  "published": "2026-11-05T03:22+09:00",
+  "first_seen": "2026-11-05T04:30+09:00"
  }
 ]
