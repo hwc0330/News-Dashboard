@@ -1218,8 +1218,8 @@
   "first_seen": "2026-11-04T12:20+09:00"
  },
  {
-  "section": "EV/ESS",
-  "tag": "시장",
+  "section": "기타",
+  "tag": "기타",
   "impact": "0",
   "key": false,
   "region": "",
