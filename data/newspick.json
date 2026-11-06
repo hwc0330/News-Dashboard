@@ -1,5 +1,62 @@
 [
  {
+  "id": 11482,
+  "date": "11월 6일 금요일",
+  "posted": "2026-11-06T07:54+09:00",
+  "url": "https://t.me/cjdbj/11482",
+  "items": [
+   {
+    "section": "배터리 셀/소재/광물",
+    "tag": "기업",
+    "title": "LG엔솔, 7GWh 3차 ESS 중앙계약 입찰 불참…삼성SDI·SK온 2파전",
+    "source": "디일렉",
+    "url": "https://han.gl/OnCQj"
+   },
+   {
+    "section": "배터리 셀/소재/광물",
+    "tag": "기업",
+    "title": "피노, 1830억 증자…포항 LFP 양극재에 1200억원",
+    "source": "디일렉",
+    "url": "https://han.gl/veZ5E"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "시장",
+    "title": "영국 10월 BEV 비중 32%…ZEV 의무 33%에 미달",
+    "source": "electrive·SMMT",
+    "url": "https://han.gl/degA3"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "시장",
+    "title": "미 신규 태양광 16%가 ESS 병설…2017년 2%에서 급증",
+    "source": "Utility Dive·EIA",
+    "url": "https://han.gl/mf1m2"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "정책",
+    "title": "유럽의회 환경위도 내연기관 퇴출 완화안 가결",
+    "source": "electrive",
+    "url": "https://han.gl/mUi3k"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "정책",
+    "title": "민주당 의회 장악에 EV 보조금·자동차 관세 재논의",
+    "source": "Autoblog",
+    "url": "https://han.gl/pjllO"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "정책",
+    "title": "민주당, EV 세액공제 복원 법안 추진…하원 160명 서명",
+    "source": "InsideEVs",
+    "url": "https://han.gl/S0jwd"
+   }
+  ]
+ },
+ {
   "id": 11457,
   "date": "11월 4일 수요일",
   "posted": "2026-11-04T08:16+09:00",
@@ -4096,56 +4153,6 @@
     "title": "칠레, ESS 2030 목표 조기 달성",
     "source": "ESS-News",
     "url": "https://han.gl/Z8s3t"
-   }
-  ]
- },
- {
-  "id": 10848,
-  "date": "4월 29일 수요일",
-  "posted": "2026-04-29T07:52+09:00",
-  "url": "https://t.me/cjdbj/10848",
-  "items": [
-   {
-    "section": "배터리 셀/소재/광물",
-    "tag": "산업",
-    "title": "USGS, 애팔래치아서 230만 톤 리튬 잠재량 확인",
-    "source": "Bloomberg",
-    "url": "https://han.gl/pR558"
-   },
-   {
-    "section": "배터리 셀/소재/광물",
-    "tag": "정책",
-    "title": "칠레, 광업 투자 활성화 위한 대규모 세제·규제 개혁 추진",
-    "source": "mining. com",
-    "url": "https://han.gl/zE8gH"
-   },
-   {
-    "section": "배터리 셀/소재/광물",
-    "tag": "기술",
-    "title": "베이징 모터쇼, 中 배터리 업계 초고속 충전 경쟁 가열",
-    "source": "SCMP",
-    "url": "https://han.gl/8mkjI"
-   },
-   {
-    "section": "배터리 셀/소재/광물",
-    "tag": "기업",
-    "title": "CATL, 홍콩서 50억 달러 조달…올해 최대규모",
-    "source": "",
-    "url": "https://han.gl/Wzn2l"
-   },
-   {
-    "section": "EV/ESS",
-    "tag": "정책",
-    "title": "스페인 대정전 1년…ESS 589% 급증",
-    "source": "ESS-News",
-    "url": "https://han.gl/aHmtK"
-   },
-   {
-    "section": "EV/ESS",
-    "tag": "기업",
-    "title": "토요타, 3월 EV 판매 139% 급증…월간 역대 최대",
-    "source": "디지털 투데이",
-    "url": "https://han.gl/oXvtd"
    }
   ]
  }
