@@ -2616,5 +2616,19 @@
   "source": "SMM",
   "published": "2026-11-06T13:35+09:00",
   "first_seen": "2026-11-07T08:06+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "미국",
+  "title": "개혁 허용에 관한 Wyden 성명",
+  "original": "Wyden Statement on Permitting Reform",
+  "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNbmUzOHUzZm1mWnVFcmYtSzV2VTdIZXVnMjJVTDNHZ2l0MmhyRFRoQnF5UWdJTzM4SW5ubW5HaEU4OWVPQWZBaGQ4SVlkMWtnblF1VlN1alNZS3VSMkdSeXNKUHFKaTI3cUE4ZWxRanA1bDlYVXl5SmhzZndmd09UTzZxTHBhOTBCaXYyZm1R?oc=5",
+  "source": "미 의회",
+  "published": "2026-11-06T17:00+09:00",
+  "first_seen": "2026-11-08T04:41+09:00"
  }
 ]
