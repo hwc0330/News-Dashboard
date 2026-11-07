@@ -367,6 +367,31 @@
     .dday li { grid-template-columns: minmax(0, 1fr); gap: 2px; }
     .dday { padding: 6px 14px 4px; }
   }
+  /* EU IAA */
+  .etl { list-style: none; margin: 0 0 16px; padding: 0; display: flex; flex-wrap: wrap; gap: 6px; }
+  .etl li { display: flex; align-items: baseline; gap: 6px; padding: 7px 12px; border-radius: 10px; background: var(--card); border: 1px solid var(--line); font-size: 13px; }
+  .etl li .mono { color: var(--accent); font-weight: 600; }
+  .etl li small { color: var(--muted); font-size: 11.5px; }
+  .etl li.future { border-style: dashed; color: var(--muted); }
+  .etl li.future .mono { color: var(--orange); }
+  .eart { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 4px 16px 10px; margin-bottom: 10px; }
+  .eart-h { font: inherit; width: 100%; display: flex; flex-wrap: wrap; align-items: center; gap: 6px; background: none; border: 0; padding: 10px 0 6px;
+            cursor: pointer; color: var(--text); text-align: left; min-height: 44px; }
+  .eart-t { font-size: 15px; font-weight: 700; }
+  .eart-n { margin-left: auto; font-size: 12.5px; color: var(--accent); font-weight: 600; }
+  .eorig { margin: 0 0 6px; font-size: 13px; line-height: 1.6; color: var(--dim); }
+  .eorig b { color: var(--muted); font-size: 12px; margin-right: 4px; }
+  .eams { list-style: none; margin: 4px 0 0; padding: 0; }
+  .eams > li { padding: 10px 0; border-top: 1px solid var(--line2); }
+  .eam-h { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 8px; font-size: 13px; }
+  .eam-h .mono { color: var(--accent); font-weight: 600; }
+  .eam-m { font-size: 12px; color: var(--muted); }
+  .eam-d { margin-left: auto; color: var(--soft) !important; font-weight: 400 !important; }
+  .ediff { margin: 6px 0 4px; font-size: 13px; line-height: 1.65; color: var(--dim); white-space: pre-line; }
+  .ediff ins { text-decoration: none; background: color-mix(in srgb, var(--eu) 16%, var(--card)); color: var(--text); border-radius: 3px; }
+  .ediff del { color: var(--up); text-decoration: line-through; }
+  .eko { margin: 2px 0 0; font-size: 13px; line-height: 1.6; color: var(--text); }
+
   @media (max-width: 700px) {
     .wrap { padding: 18px 16px 40px; }
     h1 { font-size: 17px; }
@@ -402,6 +427,7 @@
     <button class="tab" role="tab" data-tab="prices" id="pricesTab" hidden title="배터리 소재·원재료 가격 (올린 엑셀로 그림)">원재료 가격<span class="n" id="pricesN"></span></button>
     <button class="tab" role="tab" data-tab="assembly" id="assemblyTab" hidden title="국회 전기차·배터리·태양광·한국판 IRA 법안 (열린국회정보)">국내 법안<span class="n" id="assemblyN"></span></button>
     <button class="tab" role="tab" data-tab="congress" id="congressTab" hidden title="미 상·하원 의원들이 낸 배터리·전기차 관련 법안 (Congress.gov)">미 의회 법안<span class="n" id="congressN"></span></button>
+    <button class="tab" role="tab" data-tab="euiaa" id="euTab" hidden title="EU 산업가속화법 수정안 중 전기차·배터리 관련 (유럽의회)">EU 산업가속화법<span class="n" id="euN"></span></button>
     <button class="tab" role="tab" data-tab="dart" id="dartTab" hidden>공시<span class="n" id="dartN"></span></button>
   </nav>
   <div class="controls" id="controls">
@@ -461,6 +487,23 @@
     <div class="chips last" id="cFilters"></div>
     <div class="bills" id="cList"><p class="empty">불러오는 중…</p></div>
     <p class="foot">제목·의회조사국(CRS) 요약에 배터리·전기차·핵심광물·충전·배출 규제 키워드가 있는 법안 · 국문은 자동 번역 · 제목을 누르면 Congress.gov 원문</p>
+  </div>
+
+  <div id="euView" hidden>
+    <div class="phead">
+      <div>
+        <div class="kicker mono">EU · 2026/0068(COD) · INDUSTRIAL ACCELERATOR ACT</div>
+        <div class="headline" id="eHeadline">EU 산업가속화법 수정안</div>
+        <div class="xupd" id="eUpd"></div>
+      </div>
+      <input type="search" class="csearch" id="eQ" placeholder="조항·의원·내용 검색" aria-label="수정안 검색">
+    </div>
+    <ul class="etl" id="eTimeline"></ul>
+    <div class="chips" id="eKinds"></div>
+    <div class="chips" id="eTopics"></div>
+    <div class="chips last" id="eGroups"></div>
+    <div id="eList"><p class="empty">불러오는 중…</p></div>
+    <p class="foot">유럽의회 위원회(INTA·ITRE·IMCO 공동)에 제출된 보고서 초안·수정안 중 원안·수정안·사유에 배터리·전기차·완성차·충전·핵심광물 단어가 있는 것만 · 파란 바탕 = 넣은 말, 빨간 줄 = 지운 말 (집행위 원안 대비) · 국문은 자동 번역</p>
   </div>
 
   <div id="dartView" hidden>
@@ -552,9 +595,10 @@ async function init() {
   $("#cQ").oninput = render;
   $("#kQ").oninput = render;
   $("#dQ").oninput = render;
+  $("#eQ").oninput = render;
   $("#collect").addEventListener("click", watchCollect);
   if (COLLECT_URL) $("#collect").title = "매체를 지금 다시 훑습니다 (2~4분 소요)";
-  loadPick(); loadPrices(); loadCongress(); loadAssembly(); loadDart();
+  loadPick(); loadPrices(); loadCongress(); loadAssembly(); loadDart(); loadEu();
   if (meta.dates.length) await load(meta.dates[0]); else $("#list").innerHTML = '<p class="empty">아직 데이터가 없습니다.</p>';
   setInterval(refresh, 5 * 60e3);   // 5분마다 새 데이터 확인
 }
@@ -646,7 +690,7 @@ async function refresh() {
     const wasLatest = current === meta.dates[0];
     meta = m; fillDates();
     for (const k in days) delete days[k];
-    loadPick(); loadPrices(); loadCongress(); loadAssembly(); loadDart();
+    loadPick(); loadPrices(); loadCongress(); loadAssembly(); loadDart(); loadEu();
     if (wasLatest) $("#date").value = meta.dates[0];
     await load($("#date").value);
   } catch (e) {}
@@ -682,13 +726,13 @@ const KEYWORDS = [
   ["전기차", /electric vehicle|\bEVs?\b|전기차|电动/i],
 ];
 // 페이지(상단 바) → 그 안의 탭. 처음 열면 뉴스. 오늘의 뉴스픽은 뉴스 페이지에서만
-const PAGES = {news: ["all", "policy"], disclosure: ["dart"], bills: ["assembly", "congress"], prices: ["prices"]};
+const PAGES = {news: ["all", "policy"], disclosure: ["dart"], bills: ["assembly", "congress", "euiaa"], prices: ["prices"]};
 const pageOf = t => Object.keys(PAGES).find(k => PAGES[k].includes(t)) || "news";
-const dataOf = t => t === "assembly" ? asm : t === "congress" ? cong : t === "prices" ? prices : t === "dart" ? dart : true;
+const dataOf = t => t === "assembly" ? asm : t === "congress" ? cong : t === "prices" ? prices : t === "dart" ? dart : t === "euiaa" ? eu : true;
 const hasData = t => !!dataOf(t), noData = t => dataOf(t) === null;     // undefined = 아직 불러오는 중
 const lastTab = {news: "all", disclosure: "dart", bills: "assembly", prices: "prices"};
 const firstTab = page => [lastTab[page], ...PAGES[page]].find(hasData) || "all";
-let tab = ({"#policy": "policy", "#prices": "prices", "#congress": "congress", "#assembly": "assembly", "#bills": "assembly", "#dart": "dart"})[location.hash] || "all", activeRegion = "미국";
+let tab = ({"#policy": "policy", "#prices": "prices", "#congress": "congress", "#assembly": "assembly", "#bills": "assembly", "#dart": "dart", "#euiaa": "euiaa"})[location.hash] || "all", activeRegion = "미국";
 const expanded = new Set();
 function setTab(t) {
   tab = t; lastTab[pageOf(t)] = t;
@@ -746,12 +790,13 @@ function render() {
   $("#allN").textContent = base.length; $("#policyN").textContent = policyOf(items).length;
   $("#allView").hidden = tab !== "all"; $("#policyView").hidden = tab !== "policy"; $("#pricesView").hidden = tab !== "prices";
   $("#congressView").hidden = tab !== "congress"; $("#assemblyView").hidden = tab !== "assembly";
-  $("#dartView").hidden = tab !== "dart";
+  $("#dartView").hidden = tab !== "dart"; $("#euView").hidden = tab !== "euiaa";
   $("#controls").hidden = pageOf(tab) !== "news";
   if (tab === "prices") return renderPrices();
   if (tab === "congress") return renderCongress();
   if (tab === "assembly") return renderAssembly();
   if (tab === "dart") return renderDart();
+  if (tab === "euiaa") return renderEu();
   if (tab === "policy") return renderPolicy(q, policyOf);
 
   const flagged = base.filter(byFlag);
@@ -1097,6 +1142,87 @@ function renderDart() {
       `</ul></section>`;
   }).join("") + (shown.length > list.length || dAll ? `<button class="more" id="dMore">${dAll ? "최근 30일만 보기" : `30일 이전 공시 ${shown.length - list.length}건 더 보기`}</button>` : "");
   const more = $("#dMore"); if (more) more.onclick = () => { dAll = !dAll; render(); };
+}
+
+// ── EU 산업가속화법(IAA): eu_iaa.py 가 유럽의회 공개 데이터로 모아 둔 전기차·배터리 수정안 data/eu_iaa.json ──
+let eu, eTopic = null, eGroup = null, eKind = null, eOpen = new Set();
+const E_KINDS = ["본문 조항", "부속서", "전문(Recital)"];
+const E_EVENT = {REFERRAL: "위원회 회부", COMMITTEE_TABLING_REPORT: "보고서 초안 제출", COMMITTEE_TABLING_AMENDMENT: "수정안 제출",
+  COMMITTEE_ADOPTING_OPINION: "의견 위원회(ENVI) 의견 채택", COMMITTEE_VOTE: "위원회 표결", COMMITTEE_ADOPTING_REPORT: "위원회 보고서 채택",
+  TABLING_PLENARY: "본회의 상정", PLENARY_VOTE: "본회의 표결", PLENARY_DEBATE: "본회의 토론", INTERINSTITUTIONAL_NEGOTIATIONS: "3자 협상"};
+const E_GROUPS = [["EPP", /PPE|EPP/], ["S&D", /S&D/], ["Renew", /Renew/], ["Greens/EFA", /Verts|Greens/], ["ECR", /ECR/],
+  ["PfE", /PfE|Patriots/], ["The Left", /Left|GUE/], ["ESN", /ESN/], ["무소속(NI)", /^NI$/]];
+const eGroupOf = a => (E_GROUPS.find(([, re]) => re.test(a.group || "")) || [""])[0];
+const eNew = a => a.seen && new Date(a.seen) > newSince;
+
+async function loadEu() {
+  try { eu = await getData("eu_iaa.json", EMBED ? (EMBED.eu_iaa || null) : undefined); } catch (e) { eu = null; }
+  if (eu) $("#euN").textContent = eu.ev_total;
+  dataArrived("euiaa");
+}
+
+function renderEu() {
+  if (!eu) { $("#eList").innerHTML = '<p class="empty">불러오는 중…</p>'; return; }
+  const q = $("#eQ").value.trim().toLowerCase();
+  const all = eu.articles.flatMap(x => x.amendments.map(a => ({x, a})));
+  $("#eHeadline").innerHTML = `전기차·배터리 수정안 ${eu.ev_total}건 <small>· 전체 수정안 ${eu.total.toLocaleString("en-US")}건 중 · 조항 ${eu.articles.length}개</small>`;
+  const next = (eu.forecasts || []).find(f => f.date >= new Date().toISOString().slice(0, 10));
+  $("#eUpd").innerHTML = `<span>출처 <b>유럽의회 공개 데이터</b></span><span>확인 <b>${esc(when(eu.checked || eu.updated))}</b></span>` +
+    (eu.pending ? `<span>${eu.pending}건은 다음 수집 때 이어서 정리</span>` : "") +
+    (next ? `<span>다음 <b>${ymd(next.date)} ${esc(next.ko || next.subject)}</b></span>` : "") +
+    `<a href="${esc(eu.oeil)}" target="_blank" rel="noopener">절차 원문</a>`;
+
+  // 진행
+  const evs = [], seenType = {};
+  eu.events.forEach(ev => {
+    const k = ev.date + ev.type;
+    if (seenType[k]) { seenType[k].n += ev.docs.length || 1; return; }
+    seenType[k] = {...ev, n: ev.docs.length || 1}; evs.push(seenType[k]);
+  });
+  (eu.forecasts || []).forEach(f => evs.push({date: f.date, type: "", label: f.ko || f.subject, future: true}));
+  $("#eTimeline").innerHTML = evs.sort((a, b) => a.date.localeCompare(b.date)).map(ev =>
+    `<li class="${ev.future ? "future" : ""}"><span class="mono">${ymd(ev.date)}</span><b>${esc(ev.label || E_EVENT[ev.type] || ev.type)}</b>` +
+    (ev.type === "COMMITTEE_TABLING_AMENDMENT" ? `<small>${ev.n}묶음</small>` : "") + (ev.future ? "<small>예정</small>" : "") + `</li>`).join("");
+
+  const text = ({x, a}) => `${x.article} ${x.original} ${x.original_ko} ${a.members.join(" ")} ${a.group} ${a.amended_ko} ${a.justification} ${a.diff.map(s => s[1]).join("")}`.toLowerCase();
+  const kindOf = x => x.kind || (x.article.startsWith("Article") ? "본문 조항" : x.article.startsWith("Annex") ? "부속서" : "전문(Recital)");
+  const keep = (it, skip) => (!q || text(it).includes(q)) && (skip === "topic" || !eTopic || it.x.topics.includes(eTopic)) &&
+    (skip === "group" || !eGroup || eGroupOf(it.a) === eGroup) && (skip === "kind" || !eKind || kindOf(it.x) === eKind);
+  const forK = all.filter(it => keep(it, "kind"));
+  chipRow($("#eKinds"), [["", "모든 조항", forK.length]].concat(E_KINDS.map(k => [k, esc(k), forK.filter(it => kindOf(it.x) === k).length]).filter(x => x[2])),
+          eKind, v => { eKind = v; render(); });
+  const forT = all.filter(it => keep(it, "topic"));
+  chipRow($("#eTopics"), [["", "전체 주제", forT.length]].concat(eu.topics.map(t => [t, esc(t), forT.filter(it => it.x.topics.includes(t)).length]).filter(x => x[2])),
+          eTopic, v => { eTopic = v; render(); });
+  const forG = all.filter(it => keep(it, "group"));
+  chipRow($("#eGroups"), [["", "모든 정치그룹", forG.length]].concat(E_GROUPS.map(([g]) => [g, g, forG.filter(it => eGroupOf(it.a) === g).length]).filter(x => x[2])),
+          eGroup, v => { eGroup = v; render(); });
+
+  const shown = all.filter(it => keep(it));
+  if (!shown.length) { $("#eList").innerHTML = '<p class="empty">해당하는 수정안이 없습니다.</p>'; return; }
+  const byArt = new Map();
+  shown.forEach(it => { if (!byArt.has(it.x)) byArt.set(it.x, []); byArt.get(it.x).push(it.a); });
+  $("#eList").innerHTML = [...byArt].map(([x, ams]) => {
+    const open = eOpen.has(x.article) || q || byArt.size <= 3;
+    const fresh = ams.filter(eNew).length;
+    return `<article class="eart"><button class="eart-h" data-a="${esc(x.article)}" aria-expanded="${!!open}">` +
+      `<span class="eart-t">${esc(x.article)}</span>${x.topics.map(t => `<span class="ttag">${esc(t)}</span>`).join("")}` +
+      (fresh ? `<span class="badge new">NEW ${fresh}</span>` : "") + `<span class="eart-n">수정안 ${ams.length}건 ${open ? "▲" : "▼"}</span></button>` +
+      (x.original_ko || x.original ? `<p class="eorig"><b>집행위 원안</b> ${esc(x.original_ko || x.original)}</p>` : "") +
+      (open ? `<ol class="eams">${ams.map(a => {
+        const who = a.group ? `${eGroupOf(a) || a.group}` : (a.members[0] || "");
+        return `<li><div class="eam-h"><span class="mono">AM ${a.num}</span><b>${esc(who)}</b>` +
+          `<span class="eam-m">${esc(a.members.join(", "))}${a.more ? ` 외 ${a.more}명` : ""}</span>` +
+          (eNew(a) ? '<span class="badge new">NEW</span>' : "") + `<span class="mono eam-d">${ymd(a.date)}</span></div>` +
+          (a.deleted ? `<p class="ediff"><del>${esc(a.diff.filter(s => s[0] !== "+").map(s => s[1]).join(""))}</del></p><p class="eko">→ 삭제 제안</p>`
+            : `<p class="ediff">${a.diff.map(([op, s]) => op === "+" ? `<ins>${esc(s)}</ins>` : op === "-" ? `<del>${esc(s)}</del>` : esc(s)).join("")}</p>` +
+              (a.amended_ko ? `<p class="eko">${esc(a.amended_ko)}</p>` : "")) +
+          (a.justification ? `<details class="crs"><summary>제안 사유</summary><p>${esc(a.justification)}</p></details>` : "") + `</li>`;
+      }).join("")}</ol>` : "") + `</article>`;
+  }).join("");
+  $("#eList").querySelectorAll(".eart-h").forEach(b => b.onclick = () => {
+    eOpen.has(b.dataset.a) ? eOpen.delete(b.dataset.a) : eOpen.add(b.dataset.a); render();
+  });
 }
 
 // ── 원재료 가격: 올린 엑셀(prices/*.xlsx)을 dashboard.py 가 data/prices.json 으로 바꿔 둔 것을 그래프로 ──
