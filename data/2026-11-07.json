@@ -1104,5 +1104,33 @@
   "source": "Heatmap",
   "published": "2026-11-07T05:43+09:00",
   "first_seen": "2026-11-08T00:47+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "월가 '에너지 전환 펀드', 천연가스·빅테크 전력망으로 가득 찼다",
+  "original": "",
+  "url": "https://www.g-enews.com/article/Global-Biz/2026/11/2026110722183320540c8c1c064d_1",
+  "source": "글로벌이코노믹",
+  "published": "2026-11-07T22:18+09:00",
+  "first_seen": "2026-11-08T08:07+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "COP31에 대해 알아야 할 사항",
+  "original": "What to Know About COP31",
+  "url": "https://heatmap.news/climate/what-to-know-about-cop31",
+  "source": "Heatmap",
+  "published": "2026-11-07T20:00+09:00",
+  "first_seen": "2026-11-08T08:07+09:00"
  }
 ]
