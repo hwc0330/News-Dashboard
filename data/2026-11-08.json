@@ -334,5 +334,61 @@
   "source": "글로벌이코노믹",
   "published": "2026-11-08T08:48+09:00",
   "first_seen": "2026-11-08T11:29+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "정책",
+  "impact": "-",
+  "key": true,
+  "region": "",
+  "policy": "미국",
+  "title": "美 의회 거머쥔 온건파, 한국 반도체·배터리 보조금 폐지 막나...리스크는 남아",
+  "original": "",
+  "url": "https://www.g-enews.com/article/Global-Biz/2026/11/202611081711075261fbbec65dfb_1",
+  "source": "글로벌이코노믹",
+  "published": "2026-11-08T17:11+09:00",
+  "first_seen": "2026-11-08T18:25+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "신형 SUV의 56%가 5~5.5미터 크기로 중국의 신차 크기가 더 커짐",
+  "original": "China's new cars get bigger as 56% of new SUVs measure 5 to 5.5 meters",
+  "url": "https://cnevpost.com/2026/11/08/china-new-cars-get-bigger/",
+  "source": "CnEVPost",
+  "published": "2026-11-08T14:01+09:00",
+  "first_seen": "2026-11-08T18:25+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "Tesla는 JB Straubel이 CTO로 물러난 이후 성공적인 신제품 출시를 하지 못했다",
+  "original": "Tesla Hasn’t Had A Successful New Product Launch Since JB Straubel Stepped Down As CTO",
+  "url": "https://cleantechnica.com/2026/11/07/tesla-hasnt-had-a-successful-new-product-launch-since-jb-straubel-stepped-down-as-cto/",
+  "source": "CleanTechnica",
+  "published": "2026-11-08T13:57+09:00",
+  "first_seen": "2026-11-08T18:25+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "시장",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "중국 6사 비중국 배터리 점유율 56%…한국 3사는 주춤",
+  "original": "",
+  "url": "https://www.g-enews.com/article/Global-Biz/2026/11/2026110810035952682bd56fbc3c_1",
+  "source": "글로벌이코노믹",
+  "published": "2026-11-08T10:03+09:00",
+  "first_seen": "2026-11-08T18:25+09:00"
  }
 ]
