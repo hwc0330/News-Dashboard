@@ -440,6 +440,26 @@
   .eiss-g b { color: inherit; }
   .eiss-more { font: inherit; background: none; border: 0; cursor: pointer; color: var(--accent); font-weight: 600; font-size: 13px; padding: 8px 0; min-height: 40px; }
   .erows { list-style: none; margin: 0 0 6px; padding: 0; }
+  .ehov { position: relative; cursor: help; outline: none; }
+  .ehint { font-size: 11px; font-weight: 600; color: var(--accent); background: var(--chip); border-radius: 6px; padding: 1px 6px; margin-left: 2px; vertical-align: 2px; }
+  .hpop { display: none; position: absolute; left: 0; top: calc(100% + 6px); z-index: 6; width: min(620px, 88vw); max-height: 460px; overflow-y: auto;
+          background: var(--card); border: 1px solid var(--line); border-radius: 12px; box-shadow: 0 10px 28px rgba(0,0,0,.16); padding: 10px 14px;
+          font-size: 13px; font-weight: 400; line-height: 1.55; color: var(--text); cursor: auto; }
+  .ehov:hover .hpop, .ehov:focus-within .hpop, .ehov.open .hpop { display: flex; flex-direction: column; gap: 10px; }
+  .hp-row { display: flex; flex-direction: column; gap: 3px; }
+  .hp-row + .hp-row { border-top: 1px solid var(--line2); padding-top: 8px; }
+  .hp-art { font-size: 11.5px; font-weight: 700; color: var(--muted); }
+  .hp-step { display: block; padding: 6px 10px; border-radius: 8px; background: var(--bg); }
+  .hp-step.dr { background: var(--chip); background: color-mix(in srgb, var(--accent) 8%, var(--card)); }
+  .hp-step small { display: block; font-size: 11px; font-weight: 700; color: var(--muted); margin-bottom: 2px; }
+  .hp-step.dr small { color: var(--accent); }
+  .hp-arrow { align-self: center; color: var(--soft); font-size: 13px; line-height: 1; }
+  .hp-diff { display: block; margin-top: 4px; font-size: 12px; color: var(--muted); }
+  .hp-diff ins { text-decoration: none; background: var(--chip); background: color-mix(in srgb, #2F9E44 18%, var(--card)); color: var(--text); border-radius: 3px; }
+  .hp-diff del { color: var(--up); }
+  .hp-bill { display: block; padding: 3px 0; }
+  .hp-bill i { font-style: normal; font-size: 11.5px; color: var(--accent); }
+  .hp-more { font-size: 11.5px; color: var(--soft); }
   .erow { padding: 8px 0; border-top: 1px solid var(--line2); }
   .erow-h { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 8px; font-size: 13.5px; line-height: 1.55; }
   .egist { flex: 1 1 320px; min-width: 0; color: var(--text); }
@@ -621,7 +641,7 @@
     <div class="chips last" id="kFilters"></div>
     <div class="ksec">소위 회의별 상정 기록<span class="n" id="kMeetN"></span></div>
     <div class="meets" id="kMeetings"></div>
-    <div class="ksec">법안 <span class="n">최근 움직인 순</span></div>
+    <div class="ksec">법안 <span class="n">최근 업데이트 순</span></div>
     <div class="bills" id="kList"><p class="empty">불러오는 중…</p></div>
     <p class="foot">법안 이름과 제안이유·주요내용에 전기차·배터리(이차전지)·태양광·생산세액공제(한국판 IRA)가 나오는 22대 국회 법률안 · '이전 대비 바뀐 내용'은 위원회 대안이면 흡수한 원안, 아니면 같은 법을 고치는 직전 유사 법안과 주요내용을 문장 단위로 비교 · 숫자는 굵게</p>
   </div>
@@ -1076,6 +1096,17 @@ function cRows(bills, byIssue, st, fallbackShort, keepOrder) {
   }).join("");
 }
 
+function usPop(i, bills, st) {
+  const cut = (t, n) => t.length > n ? t.slice(0, n) + "…" : t;
+  const top = bills.slice().sort((a, b) => b.stage - a.stage || b.latest_date.localeCompare(a.latest_date));
+  const seenG = new Set(), rows = [];
+  top.forEach(b => { if (!seenG.has(b.group) && rows.length < 4) { seenG.add(b.group); rows.push(b); } });
+  return `<span class="hpop"><span class="hp-row"><span class="hp-step"><small>현행</small>${eHi(i.now || "—")}</span><span class="hp-arrow">↓</span>` +
+    `<span class="hp-step dr"><small>계류 법안 변경</small>${rows.length ? rows.map(b =>
+      `<span class="hp-bill"><span class="edir ${C_DIRCLS[b.dir] || "mod"}">${esc(b.dir)}</span> <b>${esc(b.label)}</b> ${b.stage ? `<i>${esc(st[b.stage])}</i> ` : ""}${esc(cut(b.official_ko || b.title, 90))}</span>`).join("")
+      : esc(i.bills || "계류 법안 없음")}</span></span></span>`;
+}
+
 function renderCongressIssues(issues, shown, q, qre, st) {
   const byIssue = Object.fromEntries(issues.map(i => [i.id, i]));
   const issueText = i => `${i.title} ${i.now} ${i.bills} ${i.korea}`;
@@ -1088,7 +1119,7 @@ function renderCongressIssues(issues, shown, q, qre, st) {
     const fresh = bills.filter(cRecent).length;
     const cnt = Object.entries(i.counts || {});
     return `<article class="eiss${i.core ? " core" : ""}" id="ci-${esc(i.id)}">` +
-      `<div class="eiss-h"><span class="erank mono">${i.rank}</span><h4>${esc(i.title)}</h4><span class="ttag">${esc(i.topic)}</span>` +
+      `<div class="eiss-h"><span class="erank mono">${i.rank}</span><h4 class="ehov" tabindex="0" onclick="this.classList.toggle('open')">${esc(i.title)} <span class="ehint">현행 → 변경 ▾</span>${usPop(i, bills, st)}</h4><span class="ttag">${esc(i.topic)}</span>` +
       (i.core ? '<span class="ecore">★ 핵심</span>' : "") + (fresh ? `<span class="badge new">NEW ${fresh}</span>` : "") +
       `<span class="ecounts">${cnt.map(([d, n]) => `<span class="edir ${C_DIRCLS[d] || "mod"}">${esc(d)} ${n}</span>`).join("")}</span></div>` +
       `<dl class="eiss-g">` + (i.now ? `<dt>현행</dt><dd>${eHi(i.now)}</dd>` : "") +
@@ -1231,7 +1262,7 @@ function billCard(b, byNo, st) {
     `<div class="bill-top"><span class="ch">${esc(b.committee || "소관위 미정")}</span><span class="mono blabel">${esc(b.no)}</span>` +
     (b.ira ? '<span class="ttag ira">한국판 IRA</span>' : "") + b.topics.filter(t => t !== "한국판 IRA·세제").map(t => `<span class="ttag">${esc(t)}</span>`).join("") +
     (eRecent(b.seen) ? '<span class="badge new">NEW</span>' : "") +
-    `<span class="time mono">${kLast(b) === b.date ? `${ymd(b.date)} 발의` : `최근 ${ymd(kLast(b))}`}</span></div>` +
+    `<span class="time mono">${kLast(b) === b.date ? `${ymd(b.date)} 발의` : `업데이트 ${ymd(kLast(b))}`}</span></div>` +
     `<a class="bill-t" href="${esc(b.url)}" target="_blank" rel="noopener">${esc(b.name)}</a>` +
     `<div class="spon"><i class="pdot ${pc}"></i><span>${who}</span></div>` +
     `<div class="steps ksteps${b.stage >= 5 ? " law" : ""}" role="img" aria-label="진행 단계 ${esc(st[b.stage])}">` +
@@ -1350,7 +1381,7 @@ async function loadEu() {
 function eGist(a, short) {
   if (a.change) return `${short} ${a.change}`;
   if (a.deleted) return `${short} 조항 삭제`;
-  const t = (a.ins_ko || "").replace(/\s+/g, " ").trim();
+  const t = eKo(a.ins_ko).replace(/\s+/g, " ").trim();
   if (t) return `${short}${a.new ? " 신설" : ""}: ${t.length > 90 ? t.slice(0, 90) + "…" : t}`;
   return `${short} ${a.new ? "신설" : "문구 수정"}`;
 }
@@ -1358,6 +1389,9 @@ function eGist(a, short) {
 // (정규식 lookbehind 는 iOS 16.4 미만 Safari 에서 문법 오류 → 페이지 전체가 멈추므로 쓰지 않음: 나눈 뒤 숫자 조각만 굵게)
 const eHi = t => String(t ?? "").split(/(\d[\d,.]*\s*(?:%|개|년|개월|억|유로|GW|MWh)?)/)
   .map((p, k) => k % 2 ? `<b>${esc(p)}</b>` : esc(p)).join("");
+// 기계 번역 용어 바로잡기 (battery cell → '세포' 등)
+const eKo = t => String(t || "").replace(/배터리 세포/g, "배터리 셀").replace(/세포/g, "셀").replace(/연합 원산지/g, "EU 원산지")
+  .replace(/연합(에서|내|의) /g, "EU$1 ").replace(/노조 원산지/g, "EU 원산지");
 const eDirCls = d => ({강화: "up", 완화: "dn", 삭제: "del", 신설: "add"})[d] || "mod";
 
 function renderEu() {
@@ -1432,7 +1466,7 @@ function renderEu() {
   $("#eCoreBtn").onclick = () => { eCore = !eCore; render(); };
 
   const shown = all.filter(it => keepAm(it));
-  if (eView === "issue") renderEuIssues(issues, shown, q, qre, issueText);
+  if (eView === "issue") renderEuIssues(issues, shown, q, qre, issueText, all);
   else renderEuArticles(shown, byIssue, q);
 }
 
@@ -1462,14 +1496,38 @@ function eRows(items, byIssue, fallbackShort) {
       `<details class="eraw"><summary>원문 비교 · ${esc(g[0].x.article)}${g.length > 1 ? ` · AM ${nums.join(", ")}` : ""}</summary>` +
       (r.deleted ? `<p class="ediff"><del>${esc((r.diff || []).filter(s => s[0] !== "+").map(s => s[1]).join(""))}</del></p>`
         : `<p class="ediff">${(r.diff || []).map(([op, s]) => op === "+" ? `<ins>${esc(s)}</ins>` : op === "-" ? `<del>${esc(s)}</del>` : esc(s)).join("")}</p>`) +
-      (r.ins_ko && !a0.change ? `<p class="eko">${esc(r.ins_ko)}</p>` : "") +
+      (r.ins_ko && !a0.change ? `<p class="eko">${esc(eKo(r.ins_ko))}</p>` : "") +
       (r.justification ? `<p class="ejust"><b>사유</b> ${esc(r.justification)}</p>` : "") +
       `<p class="emem">${g.map(it => `<span><b>${esc(who(it))} ${it.a.num}</b> ${esc(it.a.members.join(", ") || "보고관(공동 보고서 초안)")}</span>`).join("")}</p>` +
       `</details></li>`;
   }).join("");
 }
 
-function renderEuIssues(issues, shown, q, qre, issueText) {
+// 쟁점 제목 위 창: 바로 전 단계(집행위 원안, 국문) → 의회 초안이 바꾼 내용
+function eDiffShort(diff) {
+  return (diff || []).map(([op, t]) => op === "+" ? `<ins>${esc(t)}</ins>` : op === "-" ? `<del>${esc(t)}</del>`
+    : esc(t.length > 90 ? t.slice(0, 40) + " … " + t.slice(-40) : t)).join("");
+}
+function euPop(i, allItems) {
+  const prs = [], seen = new Set();
+  allItems.forEach(it => {
+    if (!it.a.issues.includes(i.id) || (eDocs[it.a.doc] || {}).kind !== "보고서 초안" || seen.has(it.x.article)) return;
+    seen.add(it.x.article); prs.push(it);
+  });
+  const cut = (t, n) => t.length > n ? t.slice(0, n) + "…" : t;
+  const rows = prs.slice(0, 3).map(it => {
+    const r = it.rep, orig = eKo(it.x.original_ko) || it.x.original || "(새 조항)";
+    const ch = r.deleted ? "조항 삭제" : [r.change, r.ins_ko ? `넣은 말: ${cut(eKo(r.ins_ko), 140)}` : ""].filter(Boolean).join(" · ") || "문구 수정";
+    return `<span class="hp-row"><span class="hp-art">${esc(it.x.article)}</span>` +
+      `<span class="hp-step"><small>집행위 원안</small>${eHi(cut(orig, 220))}</span><span class="hp-arrow">↓</span>` +
+      `<span class="hp-step dr"><small>의회 초안 변경</small>${eHi(ch)}<span class="hp-diff">${eDiffShort(r.diff)}</span></span></span>`;
+  }).join("");
+  return `<span class="hpop">${rows || `<span class="hp-row"><span class="hp-step"><small>집행위 원안</small>${eHi(i.commission)}</span>` +
+    `<span class="hp-arrow">↓</span><span class="hp-step dr"><small>의회 초안</small>${eHi(i.draft || "변경 없음")}</span></span>`}` +
+    (prs.length > 3 ? `<span class="hp-more">의회 초안이 고친 조항 ${prs.length}곳 중 3곳</span>` : "") + `</span>`;
+}
+
+function renderEuIssues(issues, shown, q, qre, issueText, allItems) {
   const byIssue = Object.fromEntries(issues.map(i => [i.id, i]));
   const list = issues.filter(i => (!eTopic || i.topic === eTopic || shown.some(it => it.a.issues.includes(i.id))) && (!eCore || i.core))
     .map(i => ({i, ams: shown.filter(it => it.a.issues.includes(i.id))}))
@@ -1480,7 +1538,7 @@ function renderEuIssues(issues, shown, q, qre, issueText) {
     const fresh = ams.filter(it => eRecent(it.a.seen)).length;
     const c = i.counts || {};
     return `<article class="eiss${i.core ? " core" : ""}" id="ei-${esc(i.id)}">` +
-      `<div class="eiss-h"><span class="erank mono">${i.rank}</span><h4>${esc(i.title)}</h4><span class="ttag">${esc(i.topic)}</span>` +
+      `<div class="eiss-h"><span class="erank mono">${i.rank}</span><h4 class="ehov" tabindex="0" onclick="this.classList.toggle('open')">${esc(i.title)} <span class="ehint">원안 → 변경 ▾</span>${euPop(i, allItems || shown)}</h4><span class="ttag">${esc(i.topic)}</span>` +
       (i.core ? '<span class="ecore">★ 핵심</span>' : "") + (fresh ? `<span class="badge new">NEW ${fresh}</span>` : "") +
       `<span class="ecounts">${E_DIRS.map(d => c[d] ? `<span class="edir ${eDirCls(d)}">${d} ${c[d]}</span>` : "").join("")}</span></div>` +
       `<dl class="eiss-g"><dt>원안</dt><dd>${eHi((i.commission))}</dd><dt class="dr">의회 초안</dt><dd class="dr">${eHi((i.draft))}</dd>` +
@@ -1504,7 +1562,7 @@ function renderEuArticles(shown, byIssue, q) {
     return `<article class="eart"><button class="eart-h" data-a="${esc(x.article)}" aria-expanded="${!!open}">` +
       `<span class="eart-t">${esc(x.article)}</span>${x.topics.map(t => `<span class="ttag">${esc(t)}</span>`).join("")}` +
       (fresh ? `<span class="badge new">NEW ${fresh}</span>` : "") + `<span class="eart-n">수정안 ${items.length}건 ${open ? "▲" : "▼"}</span></button>` +
-      (x.original_ko || x.original ? `<p class="eorig"><b>집행위 원안</b> ${esc(x.original_ko || x.original)}</p>` : "") +
+      (x.original_ko || x.original ? `<p class="eorig"><b>집행위 원안</b> ${esc(eKo(x.original_ko) || x.original)}</p>` : "") +
       (open ? `<ul class="erows">${eRows(items, byIssue)}</ul>` : "") + `</article>`;
   }).join("");
   $("#eList").querySelectorAll(".eart-h").forEach(b => b.onclick = () => {
