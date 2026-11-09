@@ -487,8 +487,52 @@
     .ecounts { margin-left: 0; }
   }
 
+  /* 정책 일정 (달력) */
+  .cleg { display: flex; flex-wrap: wrap; gap: 4px 12px; font-size: 12px; color: var(--muted); margin: -6px 0 10px; }
+  .cleg span::before { content: ""; display: inline-block; width: 8px; height: 8px; border-radius: 2px; margin-right: 4px; background: var(--c); }
+  .cgrid { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); border: 1px solid var(--line); border-radius: 12px; background: var(--line); gap: 1px; }
+  .cgrid > div { background: var(--card); min-height: 92px; padding: 6px 6px 8px; display: flex; flex-direction: column; gap: 3px; min-width: 0; }
+  .cgrid > div:nth-child(-n+7) { min-height: 0; padding: 6px; font-size: 12px; color: var(--muted); text-align: center; background: var(--bg); }
+  .cgrid > div:first-child { border-top-left-radius: 11px; } .cgrid > div:nth-child(7) { border-top-right-radius: 11px; }
+  .cgrid > div.blank { background: var(--bg); }
+  .cgrid .cd { font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; }
+  .cgrid .today .cd { display: inline-block; align-self: flex-start; background: var(--accent); color: var(--card); border-radius: 999px; padding: 0 7px; font-weight: 700; }
+  .cgrid .sun .cd { color: var(--up); }
+  .cev { position: relative; display: flex; align-items: center; gap: 5px; min-width: 0; font-size: 12.5px; line-height: 1.35; padding: 2px 6px;
+         border-radius: 6px; background: var(--chip); background: color-mix(in srgb, var(--c) 12%, var(--card)); cursor: help; outline: none; }
+  .cev > i { flex: none; width: 3px; align-self: stretch; border-radius: 2px; background: var(--c); }
+  .cev-t { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; }
+  .cev.past { opacity: .5; }
+  .cev:focus-visible { box-shadow: 0 0 0 2px var(--accent); }
+  .r-us { --c: var(--us); } .r-cn { --c: var(--cn); } .r-eu { --c: var(--eu); } .r-kr { --c: var(--orange); } .r-etc { --c: var(--soft); }
+  .cpop { display: none; position: absolute; left: 0; top: calc(100% + 4px); z-index: 7; width: min(340px, 86vw); padding: 10px 12px;
+          background: var(--card); border: 1px solid var(--line); border-radius: 10px; box-shadow: 0 10px 28px rgba(0,0,0,.16);
+          font-size: 13px; line-height: 1.55; color: var(--text); white-space: normal; cursor: auto; }
+  .cpop.rt { left: auto; right: 0; }
+  @media (hover: hover) { .cev:hover { z-index: 8; } .cev:hover .cpop { display: block; } }
+  .cev.open { z-index: 8; } .cev.open .cpop, .cev:focus-within .cpop { display: block; }
+  .cp-h { display: block; font-size: 11.5px; color: var(--muted); margin-bottom: 2px; }
+  .cp-t { display: block; font-weight: 700; margin-bottom: 4px; }
+  .cp-n { display: block; color: var(--dim); }
+  .cp-s { display: block; margin-top: 6px; font-size: 11.5px; color: var(--soft); }
+  .cst { font-style: normal; font-size: 11px; font-weight: 700; padding: 0 6px; border-radius: 999px; margin-left: 4px; background: var(--chip); color: var(--dim); }
+  .cst.law { color: var(--up); } .cst.plan { color: var(--accent); } .cst.guess { color: var(--soft); font-weight: 600; }
+  .cspan { margin: 0 0 10px; display: flex; flex-wrap: wrap; gap: 6px; align-items: center; font-size: 12.5px; color: var(--muted); }
+  .cspan .cev { max-width: 100%; }
+  .clist { display: none; list-style: none; margin: 0; padding: 0; }
+  .clist li { display: grid; grid-template-columns: 54px minmax(0, 1fr); gap: 8px; padding: 9px 0; border-bottom: 1px solid var(--line2); }
+  .clist .cl-d { font-size: 15px; font-weight: 700; font-variant-numeric: tabular-nums; line-height: 1.2; }
+  .clist .cl-d small { display: block; font-size: 11.5px; font-weight: 400; color: var(--muted); }
+  .clist .cl-e { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+  .clist .cev-t { white-space: normal; }
+  .clist .cpop { width: 100%; }
+  .cempty { padding: 28px 0; text-align: center; color: var(--muted); font-size: 13.5px; }
+  @media (max-width: 700px) { .cgrid { display: none; } .clist { display: block; }
+    #calMonths { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; } #calMonths .chip { flex: none; } }
+
   @media (max-width: 700px) {
     .wrap { padding: 18px 16px 40px; }
+    .pages { gap: 18px; } .page { font-size: 16px; }
     h1 { font-size: 17px; }
     .headline { font-size: 20px; } .headline small { display: none; }
     .tiles { display: grid; }
@@ -513,6 +557,7 @@
     <button class="page" data-page="news">뉴스</button>
     <button class="page" data-page="disclosure" hidden>공시</button>
     <button class="page" data-page="bills" hidden>법안</button>
+    <button class="page" data-page="calendar" hidden>일정</button>
     <button class="page" data-page="prices" hidden>원재료 가격</button>
   </nav>
   <section class="pick" id="pick" hidden aria-label="오늘의 뉴스픽"></section>
@@ -524,6 +569,7 @@
     <button class="tab" role="tab" data-tab="congress" id="congressTab" hidden title="미 상·하원 의원들이 낸 배터리·전기차 관련 법안 (Congress.gov)">미 의회 법안<span class="n" id="congressN"></span></button>
     <button class="tab" role="tab" data-tab="euiaa" id="euTab" hidden title="EU 산업가속화법 수정안 중 전기차·배터리 관련 (유럽의회)">EU 산업가속화법<span class="n" id="euN"></span></button>
     <button class="tab" role="tab" data-tab="dart" id="dartTab" hidden>공시<span class="n" id="dartN"></span></button>
+    <button class="tab" role="tab" data-tab="calendar" id="calTab" hidden>정책 일정<span class="n" id="calN"></span></button>
   </nav>
   <div class="controls" id="controls">
     <select id="date" aria-label="날짜"></select>
@@ -551,6 +597,19 @@
     <div class="tiles" id="tiles" role="tablist" aria-label="지역"></div>
     <div class="boards" id="boards"></div>
     <p class="foot">▲ 호재 · ▼ 악재 · － 중립은 키워드 자동 추정입니다 · 칸 위 막대는 최근 3일 정책 기사 수 · 정치인·법안·정부 조치가 제목에 나온 기사만 모았습니다</p>
+  </div>
+
+  <div id="calView" hidden>
+    <div class="phead">
+      <div>
+        <div class="kicker mono">POLICY CALENDAR</div>
+        <div class="headline" id="calTitle">배터리·통상 정책 일정</div>
+        <div class="xupd" id="calUpd"></div>
+      </div>
+      <div class="seg" id="calNav" role="group" aria-label="달 이동"></div>
+    </div>
+    <div class="chips last" id="calMonths"></div>
+    <div id="calBody"></div>
   </div>
 
   <div id="pricesView" hidden>
@@ -702,7 +761,7 @@ async function init() {
   $("#eQ").oninput = render;
   $("#collect").addEventListener("click", watchCollect);
   if (COLLECT_URL) $("#collect").title = "매체를 지금 다시 훑습니다 (2~4분 소요)";
-  loadPick(); loadPrices(); loadCongress(); loadAssembly(); loadDart(); loadEu();
+  loadPick(); loadPrices(); loadCongress(); loadAssembly(); loadDart(); loadEu(); loadCal();
   if (meta.dates.length) await load(meta.dates[0]); else $("#list").innerHTML = '<p class="empty">아직 데이터가 없습니다.</p>';
   setInterval(refresh, 5 * 60e3);   // 5분마다 새 데이터 확인
 }
@@ -794,7 +853,7 @@ async function refresh() {
     const wasLatest = current === meta.dates[0];
     meta = m; fillDates();
     for (const k in days) delete days[k];
-    loadPick(); loadPrices(); loadCongress(); loadAssembly(); loadDart(); loadEu();
+    loadPick(); loadPrices(); loadCongress(); loadAssembly(); loadDart(); loadEu(); loadCal();
     if (wasLatest) $("#date").value = meta.dates[0];
     await load($("#date").value);
   } catch (e) {}
@@ -830,13 +889,13 @@ const KEYWORDS = [
   ["전기차", /electric vehicle|\bEVs?\b|전기차|电动/i],
 ];
 // 페이지(상단 바) → 그 안의 탭. 처음 열면 뉴스. 오늘의 뉴스픽은 뉴스 페이지에서만
-const PAGES = {news: ["all", "policy"], disclosure: ["dart"], bills: ["assembly", "congress", "euiaa"], prices: ["prices"]};
+const PAGES = {news: ["all", "policy"], disclosure: ["dart"], bills: ["assembly", "congress", "euiaa"], calendar: ["calendar"], prices: ["prices"]};
 const pageOf = t => Object.keys(PAGES).find(k => PAGES[k].includes(t)) || "news";
-const dataOf = t => t === "assembly" ? asm : t === "congress" ? cong : t === "prices" ? prices : t === "dart" ? dart : t === "euiaa" ? eu : true;
+const dataOf = t => t === "assembly" ? asm : t === "congress" ? cong : t === "prices" ? prices : t === "dart" ? dart : t === "euiaa" ? eu : t === "calendar" ? cal : true;
 const hasData = t => !!dataOf(t), noData = t => dataOf(t) === null;     // undefined = 아직 불러오는 중
-const lastTab = {news: "all", disclosure: "dart", bills: "assembly", prices: "prices"};
+const lastTab = {news: "all", disclosure: "dart", bills: "assembly", calendar: "calendar", prices: "prices"};
 const firstTab = page => [lastTab[page], ...PAGES[page]].find(hasData) || "all";
-let tab = ({"#policy": "policy", "#prices": "prices", "#congress": "congress", "#assembly": "assembly", "#bills": "assembly", "#dart": "dart", "#euiaa": "euiaa"})[location.hash] || "all", activeRegion = "미국";
+let tab = ({"#policy": "policy", "#prices": "prices", "#congress": "congress", "#assembly": "assembly", "#bills": "assembly", "#dart": "dart", "#euiaa": "euiaa", "#calendar": "calendar"})[location.hash] || "all", activeRegion = "미국";
 const expanded = new Set();
 function setTab(t) {
   tab = t; lastTab[pageOf(t)] = t;
@@ -894,9 +953,10 @@ function render() {
   $("#allN").textContent = base.length; $("#policyN").textContent = policyOf(items).length;
   $("#allView").hidden = tab !== "all"; $("#policyView").hidden = tab !== "policy"; $("#pricesView").hidden = tab !== "prices";
   $("#congressView").hidden = tab !== "congress"; $("#assemblyView").hidden = tab !== "assembly";
-  $("#dartView").hidden = tab !== "dart"; $("#euView").hidden = tab !== "euiaa";
+  $("#dartView").hidden = tab !== "dart"; $("#euView").hidden = tab !== "euiaa"; $("#calView").hidden = tab !== "calendar";
   $("#controls").hidden = pageOf(tab) !== "news";
   if (tab === "prices") return renderPrices();
+  if (tab === "calendar") return renderCal();
   if (tab === "congress") return renderCongress();
   if (tab === "assembly") return renderAssembly();
   if (tab === "dart") return renderDart();
@@ -1569,6 +1629,85 @@ function renderEuArticles(shown, byIssue, q) {
     const k = "a:" + b.dataset.a; eOpen.has(k) ? eOpen.delete(k) : eOpen.add(k); render();
   });
 }
+
+// ── 정책 일정: 저장소의 policy_calendar.ics 를 dashboard.py 가 data/calendar.json 으로 바꿔 둔 것을 달력으로 ──
+let cal, calMonth = null;                               // cal: undefined = 불러오는 중, null = 없음
+const CAL_DOW = ["일", "월", "화", "수", "목", "금", "토"];
+const kstToday = () => new Date(Date.now() + 9 * 36e5).toISOString().slice(0, 10);
+const calCls = r => /^미국/.test(r) ? "r-us" : /^중국/.test(r) ? "r-cn" : /^(EU|유럽)/.test(r) ? "r-eu" : /^한국/.test(r) ? "r-kr" : "r-etc";
+const calMD = d => `${+d.slice(5, 7)}/${+d.slice(8, 10)}`;
+const calDow = d => CAL_DOW[new Date(d + "T00:00:00Z").getUTCDay()];
+const calRange = e => e.start === e.end ? `${e.start.slice(0, 4)}.${calMD(e.start)} (${calDow(e.start)})`
+  : `${e.start.slice(0, 4)}.${calMD(e.start)} ~ ${e.end.slice(0, 4) !== e.start.slice(0, 4) ? e.end.slice(0, 4) + "." : ""}${calMD(e.end)}`;
+const calSt = st => /법정/.test(st) ? "law" : /추정/.test(st) ? "guess" : /예정/.test(st) ? "plan" : "";
+
+async function loadCal() {
+  try { cal = await getData("calendar.json", EMBED ? (EMBED.calendar || null) : undefined); } catch (e) { cal = null; }
+  if (cal && !(cal.events || []).length) cal = null;
+  if (cal) {
+    const today = kstToday();
+    $("#calN").textContent = cal.events.filter(e => e.end >= today).length;
+    if (cal.name) $("#calTitle").textContent = cal.name;
+  }
+  dataArrived("calendar");
+}
+function calChip(e, rt, today) {
+  return `<span class="cev ${calCls(e.region)}${e.end < today ? " past" : ""}" tabindex="0" data-cal><i></i>` +
+    `<span class="cev-t">${esc(e.title)}</span>` +
+    `<span class="cpop${rt ? " rt" : ""}"><span class="cp-h">${esc(calRange(e))} · ${esc(e.region)}${e.kind ? " · " + esc(e.kind) : ""}` +
+    `${e.status ? `<em class="cst ${calSt(e.status)}">${esc(e.status)}</em>` : ""}</span>` +
+    `<span class="cp-t">${esc(e.title)}</span>${e.note ? `<span class="cp-n">${eHi(e.note)}</span>` : ""}` +
+    `${e.source ? `<span class="cp-s">출처 ${esc(e.source)}</span>` : ""}</span></span>`;
+}
+function renderCal() {
+  if (!cal) { $("#calBody").innerHTML = cal === null ? '<p class="empty">정책 일정이 없습니다.</p>' : '<p class="empty">불러오는 중…</p>'; return; }
+  const today = kstToday(), ev = cal.events;
+  const months = [...new Set(ev.map(e => e.start.slice(0, 7)))].sort();
+  if (!calMonth) calMonth = today.slice(0, 7) >= months[0] && today.slice(0, 7) <= months[months.length - 1] ? today.slice(0, 7) : months[0];
+  const [y, m] = calMonth.split("-").map(Number);
+  const shift = k => { const d = new Date(Date.UTC(y, m - 1 + k, 1)); return d.toISOString().slice(0, 7); };
+  const upcoming = ev.filter(e => e.end >= today);
+  $("#calUpd").innerHTML = `<span>남은 일정 <b>${upcoming.length}건</b></span>` +
+    (upcoming[0] ? `<span>다음 <b>${esc(calMD(upcoming[0].start))} ${esc(upcoming[0].title)}</b></span>` : "");
+  $("#calNav").innerHTML = `<button data-k="-1" aria-label="이전 달">‹</button><button aria-pressed="true" disabled>${y}년 ${m}월</button>` +
+    `<button data-k="1" aria-label="다음 달">›</button><button data-k="0">오늘</button>`;
+  $("#calNav").querySelectorAll("button[data-k]").forEach(b => b.onclick = () => {
+    calMonth = +b.dataset.k ? shift(+b.dataset.k) : today.slice(0, 7); renderCal();
+  });
+  // 일정이 있는 달 (누르면 그 달로)
+  chipRow($("#calMonths"), months.map(k => [k, `${k.slice(2, 4)}년 ${+k.slice(5)}월`, ev.filter(e => e.start.slice(0, 7) === k).length]),
+          calMonth, v => { if (v) { calMonth = v; renderCal(); } });
+
+  const mStart = `${calMonth}-01`, last = new Date(Date.UTC(y, m, 0)).getUTCDate(), mEnd = `${calMonth}-${String(last).padStart(2, "0")}`;
+  const ongoing = ev.filter(e => e.start < mStart && e.end >= mStart);            // 지난달부터 이어지는 기간 일정
+  const byDay = {};
+  ev.filter(e => e.start >= mStart && e.start <= mEnd).forEach(e => (byDay[e.start] = byDay[e.start] || []).push(e));
+  const legend = `<div class="cleg"><span class="r-us">미국</span><span class="r-cn">중국</span><span class="r-eu">EU</span><span class="r-kr">한국</span><span class="r-etc">기타</span>` +
+    `<span style="--c:transparent">마우스를 올리거나 누르면 시사점</span></div>`;
+  const span = ongoing.length ? `<div class="cspan">이어지는 일정 ${ongoing.map(e => calChip(e, false, today)).join("")}</div>` : "";
+  // 달력 (PC)
+  const dow0 = new Date(Date.UTC(y, m - 1, 1)).getUTCDay();
+  let grid = CAL_DOW.map(d => `<div>${d}</div>`).join("") + "<div class=\"blank\"></div>".repeat(dow0);
+  for (let d = 1; d <= last; d++) {
+    const key = `${calMonth}-${String(d).padStart(2, "0")}`, col = (dow0 + d - 1) % 7;
+    grid += `<div class="${key === today ? "today" : ""}${col === 0 ? " sun" : ""}"><span class="cd">${d}</span>` +
+      (byDay[key] || []).map(e => calChip(e, col >= 4, today)).join("") + `</div>`;
+  }
+  grid += "<div class=\"blank\"></div>".repeat((7 - (dow0 + last) % 7) % 7);
+  // 목록 (휴대폰)
+  const days = Object.keys(byDay).sort();
+  const list = days.map(k => `<li><span class="cl-d">${calMD(k)}<small>${calDow(k)}요일</small></span>` +
+    `<div class="cl-e">${byDay[k].map(e => calChip(e, false, today)).join("")}</div></li>`).join("");
+  $("#calBody").innerHTML = legend + span + `<div class="cgrid">${grid}</div>` +
+    `<ul class="clist">${list || ""}</ul>` + (days.length || ongoing.length ? "" : `<p class="cempty">${y}년 ${m}월 일정 없음</p>`);
+}
+// 휴대폰: 일정을 누르면 시사점 창 열기·닫기 (다른 창은 닫음)
+document.addEventListener("click", ev => {
+  const c = ev.target.closest("[data-cal]");
+  if (c && ev.target.closest(".cpop")) return;
+  document.querySelectorAll(".cev.open").forEach(x => { if (x !== c) x.classList.remove("open"); });
+  if (c) c.classList.toggle("open");
+});
 
 // ── 원재료 가격: 올린 엑셀(prices/*.xlsx)을 dashboard.py 가 data/prices.json 으로 바꿔 둔 것을 그래프로 ──
 let prices, xRange = "all", xGroup = null;           // prices: undefined = 불러오는 중, null = 없음
