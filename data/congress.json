@@ -53,7 +53,15 @@
 "china": false,
 "summary": "",
 "summary_ko": "",
-"updated": "2026-10-26T19:25:19Z"
+"updated": "2026-10-26T19:25:19Z",
+"issues": [
+"emissions",
+"safety"
+],
+"dir": "규제 완화",
+"group": "gas money saved act",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-hr10681",
@@ -91,7 +99,14 @@
 "china": false,
 "summary": "",
 "summary_ko": "",
-"updated": "2026-10-28T19:43:53Z"
+"updated": "2026-10-28T19:43:53Z",
+"issues": [
+"minerals"
+],
+"dir": "지원 확대",
+"group": "national critical minerals council act",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-hr10673",
@@ -127,7 +142,15 @@
 "china": false,
 "summary": "",
 "summary_ko": "",
-"updated": "2026-10-22T13:12:51Z"
+"updated": "2026-10-22T13:12:51Z",
+"issues": [
+"minerals",
+"safety"
+],
+"dir": "규제 강화",
+"group": "battery safety placarding act",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-s5587",
@@ -165,7 +188,14 @@
 "china": false,
 "summary": "",
 "summary_ko": "",
-"updated": "2026-10-20T22:49:19Z"
+"updated": "2026-10-20T22:49:19Z",
+"issues": [
+"minerals"
+],
+"dir": "지원 확대",
+"group": "national critical minerals council act",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-s5551",
@@ -203,7 +233,14 @@
 "china": false,
 "summary": "",
 "summary_ko": "",
-"updated": "2026-10-16T17:40:15Z"
+"updated": "2026-10-16T17:40:15Z",
+"issues": [
+"minerals"
+],
+"dir": "지원 확대",
+"group": "critical mineral executive coordination act",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-hr9617",
@@ -240,7 +277,14 @@
 "china": false,
 "summary": "This bill requires the Environmental Protection Agency (EPA) to establish and carry out a national strategy for recovering critical minerals from discarded materials. Critical minerals are defined as any mineral, element, substance, or material designated as critical by the U.S. Geological Survey because it is essential to U.S. economic or national security, has a vulnerable supply chain, and serves an essential function in manufacturing a product. The EPA must report to Congress every two years on its actions, plans, and recommendations relating to the national strategy.",
 "summary_ko": "이 법안은 환경 보호국(EPA)이 버려진 물질에서 중요한 광물을 회수하기 위한 국가 전략을 수립하고 실행하도록 요구합니다. 중요 광물은 미국 경제 또는 국가 안보에 필수적이고, 취약한 공급망을 갖고, 제품 제조에 필수적인 기능을 수행하기 때문에 미국 지질 조사국(U.S. Geological Survey)에서 중요하다고 지정한 모든 광물, 요소, 물질 또는 재료로 정의됩니다. EPA는 국가 전략과 관련된 조치, 계획 및 권장 사항을 2년마다 의회에 보고해야 합니다.",
-"updated": "2026-10-03T19:06:17Z"
+"updated": "2026-10-03T19:06:17Z",
+"issues": [
+"minerals"
+],
+"dir": "지원 확대",
+"group": "coordinating and harnessing america s recovery of minerals act",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-hr9616",
@@ -277,7 +321,14 @@
 "china": false,
 "summary": "Environmental Monitoring and Remediation Technology Assessment Initiative Authorization Act of 2026 or the EMRTAI Authorization Act of 2026 This provides statutory authority for an initiative within the Environmental Protection Agency (EPA) that recovers critical materials from contaminated sites. A critical material means (1) any non-fuel mineral, element, substance, or material that the Department of Energy determines has a high risk of a supply chain disruption and serves an essential function in energy technologies; and (2) any critical mineral.",
 "summary_ko": "2026년 환경 모니터링 및 복원 기술 평가 이니셔티브 승인법 또는 2026년 EMRTAI 승인법 이는 오염된 현장에서 중요한 물질을 회수하는 환경 보호국(EPA) 내의 이니셔티브에 대한 법적 권한을 제공합니다. 핵심 물질이란 (1) 에너지부가 공급망 중단 위험이 높고 에너지 기술에서 필수적인 기능을 수행한다고 판단하는 비연료 광물, 요소, 물질 또는 물질을 의미합니다. (2) 중요한 광물.",
-"updated": "2026-10-31T02:42:10Z"
+"updated": "2026-10-31T02:42:10Z",
+"issues": [
+"minerals"
+],
+"dir": "지원 확대",
+"group": "environmental monitoring and remediation technology assessment initiative authorization act",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-hr9615",
@@ -316,7 +367,15 @@
 "china": false,
 "summary": "This bill modifies the regulation of lithium-ion batteries under the Resource Conservation and Recovery Act in order to facilitate the recycling of lithium-ion batteries and the recovery of critical minerals. Specifically, the bill directs certain facilities that store lithium-ion batteries prior to recycling them to follow regulations for large quantity handlers of universal waste instead of following the more stringent hazardous waste regulations that currently apply, thereby allowing these facilities to store lithium-ion batteries without needing a special permit.",
 "summary_ko": "이 법안은 리튬이온 배터리의 재활용과 필수 광물의 회수를 촉진하기 위해 자원보존 및 회수에 관한 법률에 따른 리튬이온 배터리 규제를 개정합니다. 특히, 이 법안은 리튬 이온 배터리를 재활용하기 전에 보관하는 특정 시설에 현재 적용되는 보다 엄격한 유해 폐기물 규정을 따르는 대신 일반 폐기물의 대량 처리자에 대한 규정을 따르도록 지시하여 이러한 시설에서 특별 허가 없이 리튬 이온 배터리를 보관할 수 있도록 허용합니다.",
-"updated": "2026-10-01T14:41:17Z"
+"updated": "2026-10-01T14:41:17Z",
+"issues": [
+"minerals",
+"safety"
+],
+"dir": "지원 확대",
+"group": "battery recycling for america s competitive economy act",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-hr10346",
@@ -352,7 +411,15 @@
 "china": true,
 "summary": "This bill requires the Forced Labor Enforcement Task Force to complete and submit to Congress the results of an investigation into the alleged use of forced labor in the cobalt mining industry of the Democratic Republic of the Congo (DRC). Specifically, the task force must (1) submit to Congress strategies for preventing the importation of cobalt mined using forced labor, and (2) provide semiannual briefings to Congress.",
 "summary_ko": "이 법안은 강제 노동 집행 태스크 포스가 콩고 민주 공화국(DRC)의 코발트 광산 산업에서 강제 노동을 실시한 혐의에 대한 조사 결과를 작성하여 의회에 제출하도록 요구합니다. 구체적으로 태스크포스는 (1) 강제 노동을 통해 채굴된 코발트의 수입을 방지하기 위한 전략을 의회에 제출하고 (2) 반기별로 의회에 보고해야 합니다.",
-"updated": "2026-09-28T15:28:32Z"
+"updated": "2026-09-28T15:28:32Z",
+"issues": [
+"china",
+"minerals"
+],
+"dir": "중국 견제",
+"group": "stop china s exploitation of congolese children and adult forced labor through cobalt mining act",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-hres179",
@@ -389,7 +456,14 @@
 "china": false,
 "summary": "",
 "summary_ko": "",
-"updated": "2026-09-22T12:45:33Z"
+"updated": "2026-09-22T12:45:33Z",
+"issues": [
+"minerals"
+],
+"dir": "지원 확대",
+"group": "expressing support for the strengthening of united states africa partnerships in critical minerals development",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-s5330",
@@ -426,7 +500,15 @@
 "china": false,
 "summary": "",
 "summary_ko": "",
-"updated": "2026-08-24T17:39:14Z"
+"updated": "2026-08-24T17:39:14Z",
+"issues": [
+"amp_45x",
+"minerals"
+],
+"dir": "지원 확대",
+"group": "critical mineral and extraction tax parity act",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-sjres207",
@@ -463,7 +545,14 @@
 "china": false,
 "summary": "",
 "summary_ko": "",
-"updated": "2026-09-16T10:56:29Z"
+"updated": "2026-09-16T10:56:29Z",
+"issues": [
+"emissions"
+],
+"dir": "규제 완화",
+"group": "a joint resolution providing for congressional disapproval under chapter 8 of title 5 united states code of the rule submitted by the environmental protection agency relating to california state motor vehicle pollution control standards notice of decision granting a waiver of clean air act preemption for california s advanced clean car program and a within the scope conformation for california s zero emission vehicle amendments for 2017 and earlier model years",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-s4784",
@@ -500,7 +589,14 @@
 "china": false,
 "summary": "This bill sets forth policies and authorities for FY2027 for Department of Defense (DOD) programs, activities, and military construction as well as the national security programs of the Department of Energy (DOE).",
 "summary_ko": "이 법안은 국방부(DOD) 프로그램, 활동, 군사 건설뿐만 아니라 에너지부(DOE)의 국가 안보 프로그램에 대한 FY2027 정책과 권한을 명시합니다.",
-"updated": "2026-11-04T22:36:40Z"
+"updated": "2026-11-04T22:36:40Z",
+"issues": [
+"china"
+],
+"dir": "중국 견제",
+"group": "national defense authorization act for fiscal year 2027",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-hjres205",
@@ -537,7 +633,14 @@
 "china": false,
 "summary": "",
 "summary_ko": "",
-"updated": "2026-09-11T08:05:46Z"
+"updated": "2026-09-11T08:05:46Z",
+"issues": [
+"emissions"
+],
+"dir": "규제 완화",
+"group": "providing for congressional disapproval under chapter 8 of title 5 united states code of the rule submitted by the environmental protection agency relating to california state motor vehicle pollution control standards notice of decision granting a waiver of clean air act preemption for california s advanced clean car program and a within the scope confirmation for california s zero emission vehicle amendments for 2017 and earlier model years",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-hr9646",
@@ -575,7 +678,14 @@
 "china": false,
 "summary": "",
 "summary_ko": "",
-"updated": "2026-08-26T20:56:28Z"
+"updated": "2026-08-26T20:56:28Z",
+"issues": [
+"minerals"
+],
+"dir": "지원 확대",
+"group": "quantum enhanced critical minerals mapping act",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-hr4090",
@@ -612,7 +722,14 @@
 "china": false,
 "summary": "This bill directs the Department of the Interior to address mineral supply chain vulnerabilities, including by accelerating and expanding mineral production on federal land (i.e., National Forest System land, public lands, and any land that may be leased for the exploration, development, or production of hardrock minerals). Interior must (1) identify priority mining projects on federal lands that can be immediately approved, and (2) take all necessary and appropriate steps to expedite those projects.",
 "summary_ko": "이 법안은 내무부가 연방 토지(예: 국유림 시스템 토지, 공공 토지 및 경암 광물의 탐사, 개발 또는 생산을 위해 임대할 수 있는 토지)에서 광물 생산을 가속화 및 확대하는 것을 포함하여 광물 공급망 취약성을 해결하도록 지시합니다. 내무부는 (1) 즉시 승인될 수 있는 연방 토지에 대한 우선순위 광산 프로젝트를 식별하고 (2) 해당 프로젝트를 신속하게 처리하기 위해 모든 필요하고 적절한 조치를 취해야 합니다.",
-"updated": "2026-09-08T18:09:59Z"
+"updated": "2026-09-08T18:09:59Z",
+"issues": [
+"minerals"
+],
+"dir": "지원 확대",
+"group": "critical mineral dominance act",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-s789",
@@ -651,7 +768,14 @@
 "china": false,
 "summary": "This bill establishes requirements for the Department of the Interior related to securing U.S. access to critical minerals and rare earth element (REE) resources. Critical minerals mean any mineral, element, substance, or material designated as critical by the U.S. Geological Survey. REEs mean cerium, dysprosium, erbium, europium, gadolinium, holmium, lanthanum, lutetium, neodymium, praseodymium, promethium, samarium, scandium, terbium, thulium, ytterbium, and yttrium.",
 "summary_ko": "이 법안은 중요한 광물 및 희토류 원소(REE) 자원에 대한 미국의 접근 확보와 관련된 내무부의 요구 사항을 설정합니다. 중요 광물이란 미국 지질 조사국(U.S. Geological Survey)에서 중요하다고 지정한 모든 광물, 원소, 물질 또는 재료를 의미합니다. REE는 세륨, 디스프로슘, 에르븀, 유로뮴, 가돌리늄, 홀뮴, 란타늄, 루테튬, 네오디뮴, 프라세오디뮴, 프로메튬, 사마륨, 스칸듐, 테르븀, 툴륨, 이테르븀, 이트륨을 의미합니다.",
-"updated": "2026-10-19T20:35:21Z"
+"updated": "2026-10-19T20:35:21Z",
+"issues": [
+"minerals"
+],
+"dir": "지원 확대",
+"group": "critical minerals security act",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-hr7037",
@@ -689,7 +813,14 @@
 "china": false,
 "summary": "This bill establishes a Bureau of Energy Security and Diplomacy in the Department of State and authorizes several programs to address access to energy and critical minerals. The bureau must formulate and implement policies related to international energy, energy technology, critical minerals, and related supply chains. An assistant secretary is authorized to lead the bureau. The bill authorizes the State Department to establish multi-year energy security compacts with partner countries.",
 "summary_ko": "이 법안은 국무부 내에 에너지 안보 및 외교국을 설립하고 에너지 및 중요 광물에 대한 접근을 다루기 위한 여러 프로그램을 승인합니다. 사무국은 국제 에너지, 에너지 기술, 중요 광물 및 관련 공급망과 관련된 정책을 수립하고 구현해야 합니다. 차관보가 국을 이끌 권한을 부여받습니다. 이 법안은 국무부가 파트너 국가들과 다년간의 에너지 안보 협약을 체결할 수 있는 권한을 부여합니다.",
-"updated": "2026-09-19T23:35:35Z"
+"updated": "2026-09-19T23:35:35Z",
+"issues": [
+"minerals"
+],
+"dir": "지원 확대",
+"group": "developing overseas mineral investments and new allied networks for critical energies act",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-hr5929",
@@ -727,7 +858,14 @@
 "china": false,
 "summary": "This bill makes certain actions taken by the Department of Defense to secure strategic and critical materials for energy infrastructure (e.g., critical minerals) eligible for an expedited environmental review. Specifically, the bill includes those actions within the scope of covered projects under the Fixing America's Surface Transportation (FAST) Act.",
 "summary_ko": "이 법안은 신속한 환경 검토를 받을 수 있는 에너지 인프라에 대한 전략적이고 중요한 자재(예: 중요 광물)를 확보하기 위해 국방부가 취하는 특정 조치를 규정합니다. 특히 이 법안에는 FAST(Fixing America's Surface Transportation)법에 따라 적용되는 프로젝트 범위 내의 조치가 포함됩니다.",
-"updated": "2026-11-02T19:22:27Z"
+"updated": "2026-11-02T19:22:27Z",
+"issues": [
+"minerals"
+],
+"dir": "지원 확대",
+"group": "critical minerals supply chain resiliency act",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-hr8870",
@@ -765,7 +903,14 @@
 "china": false,
 "summary": "This bill authorizes federal surface transportation (highway, public transportation, and rail) programs and activities through FY2031. The bill also establishes or modifies Department of Transportation (DOT) programs and policies that are a part of the federal-aid highway, transit, highway safety, motor carrier, research, hazardous materials, and rail programs.",
 "summary_ko": "이 법안은 FY2031까지 연방 지상 교통(고속도로, 대중 교통, 철도) 프로그램 및 활동을 승인합니다. 이 법안은 또한 연방 지원 고속도로, 대중교통, 고속도로 안전, 자동차 운송업체, 연구, 위험 물질 및 철도 프로그램의 일부인 교통부(DOT) 프로그램 및 정책을 수립하거나 수정합니다.",
-"updated": "2026-09-30T18:35:20Z"
+"updated": "2026-09-30T18:35:20Z",
+"issues": [
+"safety"
+],
+"dir": "지원 확대",
+"group": "building unrivaled infrastructure and long term development for america s 250th act",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-hr8780",
@@ -802,7 +947,15 @@
 "china": false,
 "summary": "",
 "summary_ko": "",
-"updated": "2026-11-03T09:06:40Z"
+"updated": "2026-11-03T09:06:40Z",
+"issues": [
+"amp_45x",
+"minerals"
+],
+"dir": "지원 확대",
+"group": "critical mineral and extraction tax parity act",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-hr8778",
@@ -840,7 +993,14 @@
 "china": false,
 "summary": "",
 "summary_ko": "",
-"updated": "2026-09-19T23:35:42Z"
+"updated": "2026-09-19T23:35:42Z",
+"issues": [
+"charging"
+],
+"dir": "기타",
+"group": "ev charging accessibility act",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-hr8706",
@@ -877,7 +1037,15 @@
 "china": false,
 "summary": "",
 "summary_ko": "",
-"updated": "2026-09-19T23:32:31Z"
+"updated": "2026-09-19T23:32:31Z",
+"issues": [
+"ess",
+"safety"
+],
+"dir": "지원 확대",
+"group": "better energy storage and safety act",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-hr8307",
@@ -914,7 +1082,14 @@
 "china": false,
 "summary": "",
 "summary_ko": "",
-"updated": "2026-09-19T23:12:08Z"
+"updated": "2026-09-19T23:12:08Z",
+"issues": [
+"safety"
+],
+"dir": "지원 확대",
+"group": "responder and recovery safety in ev fires act",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-hr8277",
@@ -952,7 +1127,15 @@
 "china": false,
 "summary": "",
 "summary_ko": "",
-"updated": "2026-09-19T23:10:58Z"
+"updated": "2026-09-19T23:10:58Z",
+"issues": [
+"amp_45x",
+"minerals"
+],
+"dir": "지원 확대",
+"group": "to amend the internal revenue code of 1986 to designate copper as an applicable critical mineral and to include ore extraction costs for purposes of the advanced manufacturing production credit",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-s4084",
@@ -989,7 +1172,14 @@
 "china": false,
 "summary": "",
 "summary_ko": "",
-"updated": "2026-09-08T18:03:40Z"
+"updated": "2026-09-08T18:03:40Z",
+"issues": [
+"safety"
+],
+"dir": "지원 확대",
+"group": "responder and recovery safety in ev fires act",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-s4033",
@@ -1025,7 +1215,14 @@
 "china": false,
 "summary": "",
 "summary_ko": "",
-"updated": "2026-03-24T01:07:16Z"
+"updated": "2026-03-24T01:07:16Z",
+"issues": [
+"minerals"
+],
+"dir": "지원 확대",
+"group": "critical minerals investment tax modernization act",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-hr755",
@@ -1063,7 +1260,14 @@
 "china": false,
 "summary": "This bill modifies the Energy Act of 2020 to expand the definition of critical minerals to include critical materials designated by the Department of Energy (DOE). Under current law, DOE's critical materials list contains certain materials that are essential for energy, including those on the critical minerals list of the U.S. Geological Survey (USGS). The USGS's list, which contains certain minerals that are essential to the nation's economic or national security, is not required to include the materials on DOE's list.",
 "summary_ko": "이 법안은 2020년 에너지법을 수정하여 에너지부(DOE)가 지정한 중요 물질을 포함하도록 중요 광물의 정의를 확대합니다. 현행법에 따라 DOE의 중요 물질 목록에는 미국 지질조사국(USGS)의 중요 광물 목록에 있는 물질을 포함하여 에너지에 필수적인 특정 물질이 포함되어 있습니다. 국가의 경제 또는 국가 안보에 필수적인 특정 광물을 포함하는 USGS의 목록에는 해당 물질을 DOE 목록에 포함할 필요가 없습니다.",
-"updated": "2026-06-11T23:26:38Z"
+"updated": "2026-06-11T23:26:38Z",
+"issues": [
+"minerals"
+],
+"dir": "지원 확대",
+"group": "critical mineral consistency act",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-s3879",
@@ -1099,7 +1303,15 @@
 "china": false,
 "summary": "",
 "summary_ko": "",
-"updated": "2026-09-08T18:12:22Z"
+"updated": "2026-09-08T18:12:22Z",
+"issues": [
+"minerals",
+"safety"
+],
+"dir": "지원 확대",
+"group": "spent petroleum catalyst recycling and critical minerals and metals recovery exemption act",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-s2860",
@@ -1136,7 +1348,14 @@
 "china": false,
 "summary": "",
 "summary_ko": "",
-"updated": "2026-10-24T11:03:39Z"
+"updated": "2026-10-24T11:03:39Z",
+"issues": [
+"minerals"
+],
+"dir": "지원 확대",
+"group": "revitalizing america s offshore critical minerals dominance act",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-hr7563",
@@ -1173,7 +1392,15 @@
 "china": false,
 "summary": "",
 "summary_ko": "",
-"updated": "2026-03-09T23:23:07Z"
+"updated": "2026-03-09T23:23:07Z",
+"issues": [
+"china",
+"minerals"
+],
+"dir": "중국 견제",
+"group": "rare earth magnet market revitalization act",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-hr7523",
@@ -1209,7 +1436,15 @@
 "china": false,
 "summary": "",
 "summary_ko": "",
-"updated": "2026-04-13T13:11:18Z"
+"updated": "2026-04-13T13:11:18Z",
+"issues": [
+"minerals",
+"safety"
+],
+"dir": "지원 확대",
+"group": "spent petroleum catalyst recycling and critical minerals and metals recovery exemption act",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-hr3617",
@@ -1246,7 +1481,14 @@
 "china": false,
 "summary": "This bill requires the Department of Energy (DOE) to secure the supply of critical energy resources that are essential to the energy security of the United States. A critical energy resource means an energy resource (1) that is essential to the energy sector and energy systems of the United States, and (2) the supply chain of which is vulnerable to disruption. As part of its duties, DOE must conduct ongoing assessments of energy resource criticality, the U.S.",
 "summary_ko": "이 법안은 에너지부(DOE)가 미국의 에너지 안보에 필수적인 중요한 에너지 자원의 공급을 확보하도록 요구합니다. 핵심 에너지 자원이란 (1) 미국의 에너지 부문 및 에너지 시스템에 필수적이며 (2) 공급망이 중단되기 쉬운 에너지 자원을 의미합니다. 임무의 일환으로 DOE는 미국의 에너지 자원 중요성에 대한 지속적인 평가를 수행해야 합니다.",
-"updated": "2026-09-08T18:09:59Z"
+"updated": "2026-09-08T18:09:59Z",
+"issues": [
+"minerals"
+],
+"dir": "지원 확대",
+"group": "securing america s critical minerals supply act",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-s714",
@@ -1284,7 +1526,14 @@
 "china": false,
 "summary": "This bill modifies the Energy Act of 2020 to expand the definition of critical minerals used by the U.S. Geological Survey (USGS) to include critical materials designated by the Department of Energy (DOE). It also directs USGS to update its list within 45 days of DOE adding a mineral, element, substance, or material to its critical materials list. Thus, the bill requires the lists to be treated consistently and makes critical materials eligible for the same benefits (e.g., financing support or clean energy tax credits) provided to critical minerals.",
 "summary_ko": "이 법안은 2020년 에너지법을 수정하여 미국 지질조사국(USGS)에서 사용하는 중요 광물의 정의를 확장하여 에너지부(DOE)가 지정한 중요 물질을 포함시킵니다. 또한 DOE가 중요 물질 목록에 광물, 원소, 물질 또는 물질을 추가한 후 45일 이내에 목록을 업데이트하도록 USGS에 지시합니다. 따라서 이 법안은 목록을 일관되게 처리하도록 요구하고 중요 광물에 제공되는 것과 동일한 혜택(예: 재정 지원 또는 청정 에너지 세금 공제)을 받을 수 있도록 중요 재료를 규정합니다.",
-"updated": "2026-10-16T22:06:15Z"
+"updated": "2026-10-16T22:06:15Z",
+"issues": [
+"minerals"
+],
+"dir": "지원 확대",
+"group": "critical mineral consistency act",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-s3612",
@@ -1322,7 +1571,14 @@
 "china": false,
 "summary": "",
 "summary_ko": "",
-"updated": "2026-02-05T16:29:08Z"
+"updated": "2026-02-05T16:29:08Z",
+"issues": [
+"minerals"
+],
+"dir": "지원 확대",
+"group": "critical mineral mining education act",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-hr7021",
@@ -1360,7 +1616,14 @@
 "china": false,
 "summary": "",
 "summary_ko": "",
-"updated": "2026-02-10T09:05:26Z"
+"updated": "2026-02-10T09:05:26Z",
+"issues": [
+"minerals"
+],
+"dir": "지원 확대",
+"group": "critical mineral mining education act",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-hr6948",
@@ -1398,7 +1661,14 @@
 "china": false,
 "summary": "",
 "summary_ko": "",
-"updated": "2026-01-22T16:04:10Z"
+"updated": "2026-01-22T16:04:10Z",
+"issues": [
+"safety"
+],
+"dir": "규제 강화",
+"group": "to amend title 49 united states code to require each new electric and hybrid vehicle to be equipped with technology that allows the timely extinguishment of an electric vehicle battery fire and for other purposes",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-hr6826",
@@ -1435,7 +1705,15 @@
 "china": false,
 "summary": "",
 "summary_ko": "",
-"updated": "2026-02-24T05:23:23Z"
+"updated": "2026-02-24T05:23:23Z",
+"issues": [
+"amp_45x",
+"minerals"
+],
+"dir": "지원 확대",
+"group": "critical minerals independence act",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-hr6659",
@@ -1472,7 +1750,14 @@
 "china": false,
 "summary": "",
 "summary_ko": "",
-"updated": "2026-01-17T09:05:52Z"
+"updated": "2026-01-17T09:05:52Z",
+"issues": [
+"minerals"
+],
+"dir": "지원 확대",
+"group": "critical minerals trade security act",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-hr6129",
@@ -1509,7 +1794,14 @@
 "china": false,
 "summary": "",
 "summary_ko": "",
-"updated": "2026-01-07T09:05:45Z"
+"updated": "2026-01-07T09:05:45Z",
+"issues": [
+"charging"
+],
+"dir": "지원 확대",
+"group": "bidirectional electric vehicle charging act",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-s2550",
@@ -1546,7 +1838,14 @@
 "china": false,
 "summary": "",
 "summary_ko": "",
-"updated": "2026-02-05T19:35:18Z"
+"updated": "2026-02-05T19:35:18Z",
+"issues": [
+"minerals"
+],
+"dir": "지원 확대",
+"group": "critical minerals partnership act",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-hr5686",
@@ -1582,7 +1881,14 @@
 "china": false,
 "summary": "",
 "summary_ko": "",
-"updated": "2025-11-21T16:31:34Z"
+"updated": "2025-11-21T16:31:34Z",
+"issues": [
+"safety"
+],
+"dir": "지원 확대",
+"group": "battery fire prevention act",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-hr5410",
@@ -1618,7 +1924,14 @@
 "china": false,
 "summary": "",
 "summary_ko": "",
-"updated": "2025-09-29T13:05:33Z"
+"updated": "2025-09-29T13:05:33Z",
+"issues": [
+"minerals"
+],
+"dir": "지원 확대",
+"group": "critical mineral brine extraction research and development act",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-hr4018",
@@ -1655,7 +1968,14 @@
 "china": false,
 "summary": "",
 "summary_ko": "",
-"updated": "2025-09-09T18:22:28Z"
+"updated": "2025-09-09T18:22:28Z",
+"issues": [
+"minerals"
+],
+"dir": "지원 확대",
+"group": "to unleash america s offshore critical minerals and resources",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-s389",
@@ -1694,7 +2014,15 @@
 "china": false,
 "summary": "This bill requires the Consumer Product Safety Commission to issue a final consumer product safety rule for rechargeable lithium-ion batteries used in micromobility devices, such as electric bikes and electric scooters. Specifically, the rule must require manufacturers and distributors of such products to comply with the applicable safety standards jointly established by the American National Standards Institute, the Standards Council of Canada, and UL Solutions Inc.",
 "summary_ko": "이 법안은 소비자 제품 안전 위원회가 전기 자전거 및 전기 스쿠터와 같은 마이크로모빌리티 장치에 사용되는 충전식 리튬 이온 배터리에 대한 최종 소비자 제품 안전 규칙을 발행하도록 요구합니다. 특히, 이 규칙은 해당 제품의 제조업체 및 유통업체가 미국 표준 협회(American National Standards Institute), 캐나다 표준 위원회(Standards Council of Canada) 및 UL Solutions Inc.가 공동으로 제정한 해당 안전 표준을 준수하도록 요구해야 합니다.",
-"updated": "2026-09-08T18:03:40Z"
+"updated": "2026-09-08T18:03:40Z",
+"issues": [
+"minerals",
+"safety"
+],
+"dir": "규제 강화",
+"group": "setting consumer standards for lithium ion batteries act",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-hr4772",
@@ -1732,7 +2060,14 @@
 "china": false,
 "summary": "",
 "summary_ko": "",
-"updated": "2026-03-24T01:04:45Z"
+"updated": "2026-03-24T01:04:45Z",
+"issues": [
+"minerals"
+],
+"dir": "지원 확대",
+"group": "critical minerals investment tax modernization act",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-hr4361",
@@ -1770,7 +2105,14 @@
 "china": true,
 "summary": "This bill prohibits federal transportation funds from being used to purchase rolling stock (e.g., rail cars or buses) or fueling or charging infrastructure from entities with ties to China, North Korea, Russia, or Iran (i.e., a covered nation). In general, this replaces a current prohibition on the use of Federal Transportation Administration (FTA) funds for rolling stock from manufacturers owned or controlled by corporations based in certain countries.",
 "summary_ko": "이 법안은 연방 교통 기금이 철도 차량(예: 철도 차량 또는 버스)을 구매하거나 중국, 북한, 러시아 또는 이란(예: 해당 국가)과 관련된 기관의 인프라에 연료를 공급하거나 충전하는 데 사용되는 것을 금지합니다. 일반적으로 이는 특정 국가에 기반을 둔 기업이 소유하거나 통제하는 제조업체의 철도 차량에 대한 연방 교통청(FTA) 자금의 사용에 대한 현재 금지를 대체합니다.",
-"updated": "2026-09-19T23:37:14Z"
+"updated": "2026-09-19T23:37:14Z",
+"issues": [
+"china"
+],
+"dir": "중국 견제",
+"group": "safeguarding transit operations to prohibit china act",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-hr1",
@@ -1810,7 +2152,14 @@
 "summary": "This bill reduces taxes, reduces or increases spending for various federal programs, increases the statutory debt limit, and otherwise addresses agencies and programs throughout the federal government. It is known as a reconciliation bill and includes legislation submitted by several congressional committees pursuant to provisions in the FY2025 congressional budget resolution (H Con. Res. 14) that directed the committees to submit legislation to the House or Senate Budget Committee that will increase or decrease the deficit and increase the statutory debt limit by specified amounts.",
 "summary_ko": "이 법안은 세금을 줄이고, 다양한 연방 프로그램에 대한 지출을 줄이거나 늘리며, 법정 부채 한도를 늘리고, 기타 연방 정부 전체의 기관 및 프로그램에 대한 문제를 다루고 있습니다. 이는 화해 법안으로 알려져 있으며, 적자를 늘리거나 줄이고 법정 부채 한도를 특정 금액만큼 늘리는 법안을 하원 또는 상원 예산 위원회에 제출하도록 위원회에 지시한 FY2025 의회 예산 결의안(H Con. Res. 14)의 조항에 따라 여러 의회 위원회가 제출한 법안을 포함합니다.",
 "updated": "2026-09-19T23:26:15Z",
-"law": "Public Law 119-21"
+"law": "Public Law 119-21",
+"issues": [
+"ev_credit"
+],
+"dir": "축소·폐지",
+"group": "one big beautiful bill act",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-s1463",
@@ -1848,7 +2197,14 @@
 "china": false,
 "summary": "This bill allows the U.S. Geological Survey (USGS) to enter into a memorandum of understanding (MOU) to partner with a foreign country in mapping the country's reserves of critical minerals and rare earth elements. A critical mineral is any mineral, element, substance, or material designated as critical by USGS because it is essential to U.S. economic and national security, has a vulnerable supply chain, and serves an essential function in manufacturing a product. Rare earth elements have catalytic, magnetic, electrical, and luminescent properties vital for civilian and defense purposes.",
 "summary_ko": "이 법안은 미국 ​​지질조사국(USGS)이 외국과 협력하여 국가의 중요 광물 및 희토류 매장량을 매핑하는 양해각서(MOU)를 체결할 수 있도록 허용합니다. 필수 광물은 미국 경제 및 국가 안보에 필수적이고, 취약한 공급망을 갖고, 제품 제조에 필수적인 기능을 수행하기 때문에 USGS가 중요하다고 지정한 모든 광물, 요소, 물질 또는 재료입니다. 희토류 원소는 민간 및 국방 목적에 필수적인 촉매, 자기, 전기 및 발광 특성을 가지고 있습니다.",
-"updated": "2026-09-15T15:18:12Z"
+"updated": "2026-09-15T15:18:12Z",
+"issues": [
+"minerals"
+],
+"dir": "지원 확대",
+"group": "finding opportunities for resource exploration act",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-hr3972",
@@ -1886,7 +2242,14 @@
 "china": false,
 "summary": "This bill effectively eliminates the National Electric Vehicle Infrastructure (NEVI) Formula Program and the Charging and Fueling Infrastructure (CFI) Discretionary Grant Program. Specifically, this bill requires states to use unobligated funds under these Department of Transportation (DOT) programs only for certain non-electric vehicle related projects.",
 "summary_ko": "이 법안은 NEVI(국가 전기 자동차 인프라) 공식 프로그램과 CFI(충전 및 연료 공급 인프라) 재량 보조금 프로그램을 효과적으로 제거합니다. 특히, 이 법안은 주정부가 특정 비전기 자동차 관련 프로젝트에 대해서만 교통부(DOT) 프로그램에 따른 비의무 자금을 사용하도록 요구합니다.",
-"updated": "2026-06-16T13:18:25Z"
+"updated": "2026-06-16T13:18:25Z",
+"issues": [
+"charging"
+],
+"dir": "축소·폐지",
+"group": "highway funding flexibility act",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-hjres88",
@@ -1924,7 +2287,14 @@
 "summary": "This joint resolution revokes the waiver granted to the California Air Resources Board regarding its Advanced Clean Cars II (ACC II) regulations, which include new requirements for low-emission vehicles and zero-emission vehicles. (Under the Clean Air Act, California may seek waivers of the preemption prohibiting states from enacting certain emission standards.) Specifically, the joint resolution nullifies the Environmental Protection Agency notice titled California State Motor Vehicle and Engine Pollution Control Standards; Advanced Clean Cars II; Waiver of Preemption; Notice of Decision .",
 "summary_ko": "이 공동 결의안은 저공해 차량 및 무공해 차량에 대한 새로운 요구 사항을 포함하는 ACC II(Advanced Clean Cars II) 규정과 관련하여 캘리포니아 대기 자원 위원회에 부여된 면제를 취소합니다. (공기 청정법에 따라 캘리포니아는 주정부가 특정 배출 기준을 제정하는 것을 금지하는 선제권의 포기를 구할 수 있습니다.) 특히 공동 결의안은 캘리포니아 주 자동차 및 엔진 오염 통제 표준이라는 제목의 환경 보호국 통지를 무효화합니다. 고급 청정 자동차 II; 우선권 포기; 결정 통지 .",
 "updated": "2026-07-17T16:35:15Z",
-"law": "Public Law 119-16"
+"law": "Public Law 119-16",
+"issues": [
+"emissions"
+],
+"dir": "규제 완화",
+"group": "providing congressional disapproval under chapter 8 of title 5 united states code of the rule submitted by the environmental protection agency relating to california state motor vehicle and engine pollution control standards advanced clean cars ii waiver of preemption notice of decision",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-hjres87",
@@ -1962,7 +2332,14 @@
 "summary": "This joint resolution revokes waivers granted to the California Air Resources Board regarding several of its regulations, including the Heavy-Duty Vehicle and Engine Emission Warranty Regulations and Maintenance Provisions.",
 "summary_ko": "이 공동 결의안은 대형 차량 및 엔진 배기가스 보증 규정 및 유지 관리 조항을 포함한 여러 규정과 관련하여 캘리포니아 대기 자원 위원회에 부여된 면제를 취소합니다.",
 "updated": "2026-08-11T17:13:45Z",
-"law": "Public Law 119-15"
+"law": "Public Law 119-15",
+"issues": [
+"emissions"
+],
+"dir": "규제 완화",
+"group": "providing congressional disapproval under chapter 8 of title 5 united states code of the rule submitted by the environmental protection agency relating to california state motor vehicle and engine pollution control standards heavy duty vehicle and engine emission warranty and maintenance provisions advanced clean trucks zero emission airport shuttle zero emission power train certification waiver of preemption notice of decision",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-s1979",
@@ -1999,7 +2376,14 @@
 "china": false,
 "summary": "",
 "summary_ko": "",
-"updated": "2026-01-10T07:14:34Z"
+"updated": "2026-01-10T07:14:34Z",
+"issues": [
+"minerals"
+],
+"dir": "지원 확대",
+"group": "rare earth magnet security act",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-hr3729",
@@ -2035,7 +2419,15 @@
 "china": false,
 "summary": "",
 "summary_ko": "",
-"updated": "2025-07-15T08:05:36Z"
+"updated": "2025-07-15T08:05:36Z",
+"issues": [
+"ess",
+"safety"
+],
+"dir": "지원 확대",
+"group": "battery and regenerative braking act",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-s1711",
@@ -2073,7 +2465,14 @@
 "china": true,
 "summary": "This bill prohibits federal transportation funds from being used to purchase rolling stock (e.g., rail cars or buses) or fueling or charging infrastructure from entities with ties to China, North Korea, Russia, or Iran (i.e., a covered nation). In general, this replaces a current prohibition on the use of Federal Transportation Administration (FTA) funds for rolling stock from manufacturers owned or controlled by corporations based in certain countries.",
 "summary_ko": "이 법안은 연방 교통 기금이 철도 차량(예: 철도 차량 또는 버스)을 구매하거나 중국, 북한, 러시아 또는 이란(예: 해당 국가)과 관련된 기관의 인프라에 연료를 공급하거나 충전하는 데 사용되는 것을 금지합니다. 일반적으로 이는 특정 국가에 기반을 둔 기업이 소유하거나 통제하는 제조업체의 철도 차량에 대한 연방 교통청(FTA) 자금의 사용에 대한 현재 금지를 대체합니다.",
-"updated": "2026-05-28T20:20:26Z"
+"updated": "2026-05-28T20:20:26Z",
+"issues": [
+"china"
+],
+"dir": "중국 견제",
+"group": "safeguarding transit operations to prohibit china act",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-hr3200",
@@ -2111,7 +2510,14 @@
 "china": false,
 "summary": "",
 "summary_ko": "",
-"updated": "2026-06-11T05:06:22Z"
+"updated": "2026-06-11T05:06:22Z",
+"issues": [
+"minerals"
+],
+"dir": "지원 확대",
+"group": "critical minerals and manufacturing support act",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-hr3198",
@@ -2148,7 +2554,15 @@
 "china": false,
 "summary": "",
 "summary_ko": "",
-"updated": "2025-12-12T09:07:08Z"
+"updated": "2025-12-12T09:07:08Z",
+"issues": [
+"china",
+"minerals"
+],
+"dir": "중국 견제",
+"group": "intergovernmental critical minerals task force act",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-hr3097",
@@ -2184,7 +2598,14 @@
 "china": false,
 "summary": "This bill requires passenger vehicles that are purchased or leased from a nonfederal entity by a federal agency to be zero-emission vehicles. This requirement does not apply to tactical vehicles or in circumstances where a zero-emission vehicle is not technically feasible.",
 "summary_ko": "이 법안은 연방 기관이 비연방 기관으로부터 구매하거나 임대하는 승용차가 배출가스 제로 차량이 되도록 요구합니다. 이 요구 사항은 전술 차량이나 무공해 차량이 기술적으로 실현 가능하지 않은 상황에는 적용되지 않습니다.",
-"updated": "2025-07-03T19:46:58Z"
+"updated": "2025-07-03T19:46:58Z",
+"issues": [
+"emissions"
+],
+"dir": "규제 강화",
+"group": "green federal fleet act",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-hr973",
@@ -2223,7 +2644,15 @@
 "china": false,
 "summary": "This bill requires the Consumer Product Safety Commission to issue a final consumer product safety rule for rechargeable lithium-ion batteries used in micromobility devices, such as electric bikes and electric scooters. Specifically, the rule must require manufacturers and distributors of such products to comply with the applicable safety standards jointly established by the American National Standards Institute, the Standards Council of Canada, and UL Solutions Inc.",
 "summary_ko": "이 법안은 소비자 제품 안전 위원회가 전기 자전거 및 전기 스쿠터와 같은 마이크로모빌리티 장치에 사용되는 충전식 리튬 이온 배터리에 대한 최종 소비자 제품 안전 규칙을 발행하도록 요구합니다. 특히, 이 규칙은 해당 제품의 제조업체 및 유통업체가 미국 표준 협회(American National Standards Institute), 캐나다 표준 위원회(Standards Council of Canada) 및 UL Solutions Inc.가 공동으로 제정한 해당 안전 표준을 준수하도록 요구해야 합니다.",
-"updated": "2026-07-11T22:08:20Z"
+"updated": "2026-07-11T22:08:20Z",
+"issues": [
+"minerals",
+"safety"
+],
+"dir": "규제 강화",
+"group": "setting consumer standards for lithium ion batteries act",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-hr3059",
@@ -2260,7 +2689,14 @@
 "china": false,
 "summary": "",
 "summary_ko": "",
-"updated": "2026-09-19T23:22:59Z"
+"updated": "2026-09-19T23:22:59Z",
+"issues": [
+"minerals"
+],
+"dir": "지원 확대",
+"group": "streamlining critical mineral permitting act",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-hr2814",
@@ -2299,7 +2735,14 @@
 "china": false,
 "summary": "This bill reduces taxes on auto companies and repeals specified environmental regulations on cars and trucks. The bill establishes a new tax deduction equal to 200% of eligible wages paid or incurred by domestic producers of automobiles or automobile components, subject to limitations. It also allows an entity to reduce (and adjust) its financial statement income (for purposes of calculating liability for the alternative minimum tax) by the amount of eligible wages it elects to deduct.",
 "summary_ko": "이 법안은 자동차 회사에 대한 세금을 줄이고 자동차와 트럭에 대한 특정 환경 규제를 폐지합니다. 이 법안은 제한에 따라 국내 자동차 또는 자동차 부품 생산자가 지불하거나 발생한 적격 임금의 200%에 해당하는 새로운 세금 공제를 설정합니다. 또한 이는 기업이 공제하기로 선택한 적격 임금만큼 재무제표 소득(대체 최저세에 대한 책임을 계산하기 위한 목적)을 줄이거 나 조정할 수 있습니다.",
-"updated": "2026-02-24T23:51:15Z"
+"updated": "2026-02-24T23:51:15Z",
+"issues": [
+"other"
+],
+"dir": "지원 확대",
+"group": "transportation freedom act",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-sjres46",
@@ -2336,7 +2779,14 @@
 "china": false,
 "summary": "This joint resolution nullifies the Environmental Protection Agency notice titled California State Motor Vehicle and Engine Pollution Control Standards; Heavy-Duty Vehicle and Engine Emission Warranty and Maintenance Provisions; Advanced Clean Trucks; Zero Emission Airport Shuttle; Zero-Emission Power Train Certification; Waiver of Preemption; Notice of Decision (88 Fed. Reg. 20688) and published on April 6, 2023.",
 "summary_ko": "이 공동 결의안은 캘리포니아 주 자동차 및 엔진 오염 통제 표준이라는 제목의 환경 보호국 통지를 무효화합니다. 대형 차량 및 엔진 배기가스 보증 및 유지 관리 조항; 고급 클린 트럭; 배출가스 제로 공항 셔틀; 무배출 동력전달장치 인증; 선점 포기; 결정 통지(88 Fed. Reg. 20688) 및 2023년 4월 6일에 게시됨.",
-"updated": "2026-09-08T18:12:22Z"
+"updated": "2026-09-08T18:12:22Z",
+"issues": [
+"emissions"
+],
+"dir": "규제 완화",
+"group": "a joint resolution providing for congressional disapproval under chapter 8 of title 5 united states code of the rule submitted by the environmental protection agency relating to california state motor vehicle and engine pollution control standards heavy duty vehicle and engine emission warranty and maintenance provisions advanced clean trucks zero emission airport shuttle zero emission power train certification waiver of preemption notice of decision",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-sjres45",
@@ -2373,7 +2823,14 @@
 "china": false,
 "summary": "This joint resolution nullifies the Environmental Protection Agency notice titled California State Motor Vehicle and Engine Pollution Control Standards; Advanced Clean Cars II; Waiver of Preemption; Notice of Decision (90 Fed. Reg. 642) and published on January 6, 2025. Among other elements, the notice grants the California Air Resources Board request for a waiver for its Advanced Clean Cars II (ACC II) regulations. (Under the Clean Air Act, California may seek waivers of the preemption prohibiting states from enacting certain emission standards.)",
 "summary_ko": "이 공동 결의안은 캘리포니아 주 자동차 및 엔진 오염 통제 표준이라는 제목의 환경 보호국 통지를 무효화합니다. 고급 청정 자동차 II; 선점 포기; 결정 통지(90 Fed. Reg. 642) 및 2025년 1월 6일에 게시되었습니다. 무엇보다도 이 통지는 California Air Resources Board의 ACC II(Advanced Clean Cars II) 규정에 대한 면제 요청을 승인합니다. (Clean Air Act에 따라 캘리포니아 주는 주정부가 특정 배출 기준을 제정하는 것을 금지하는 선점 면제를 구할 수 있습니다.)",
-"updated": "2026-09-08T18:12:22Z"
+"updated": "2026-09-08T18:12:22Z",
+"issues": [
+"emissions"
+],
+"dir": "규제 완화",
+"group": "a joint resolution providing for congressional disapproval under chapter 8 of title 5 united states code of the rule submitted by the environmental protection agency relating to california state motor vehicle and engine pollution control standards advanced clean cars ii waiver of preemption notice of decision",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-s1229",
@@ -2409,7 +2866,14 @@
 "china": false,
 "summary": "",
 "summary_ko": "",
-"updated": "2025-12-05T21:52:42Z"
+"updated": "2025-12-05T21:52:42Z",
+"issues": [
+"ev_credit"
+],
+"dir": "축소·폐지",
+"group": "end taxpayer subsidies for electric vehicles act",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-hr2566",
@@ -2446,7 +2910,14 @@
 "china": false,
 "summary": "",
 "summary_ko": "",
-"updated": "2025-12-05T21:51:09Z"
+"updated": "2025-12-05T21:51:09Z",
+"issues": [
+"ev_credit"
+],
+"dir": "축소·폐지",
+"group": "end taxpayer subsidies for electric vehicles act",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-hr2310",
@@ -2483,7 +2954,15 @@
 "china": true,
 "summary": "This bill prohibits the importation of covered goods that contain cobalt refined in China under the presumption that the goods are made wholly or in part with forced labor or child labor. It also establishes certain reporting requirements, and requires presidential certification that federal vehicle purchases are free of parts made or mined with child labor or forced labor in the Democratic Republic of the Congo (DRC) or the Xinjiang Uyghur Autonomous Region (XUAR). Specifically, covered goods shall not be entitled to entry into the United States unless U.S.",
 "summary_ko": "이 법안은 제품의 전부 또는 일부가 강제 노동이나 아동 노동으로 만들어졌다는 가정 하에 중국에서 정제된 코발트가 포함된 해당 제품의 수입을 금지합니다. 또한 특정 보고 요건을 설정하고, 연방 차량 구매 시 콩고민주공화국(DRC) 또는 신장 위구르 자치구(XUAR)에서 아동 노동 또는 강제 노동으로 제작되거나 채굴된 부품이 없다는 대통령 인증을 요구합니다. 특히, 해당 상품은 미국이 아닌 이상 미국으로 반입할 자격이 없습니다.",
-"updated": "2026-08-04T13:59:15Z"
+"updated": "2026-08-04T13:59:15Z",
+"issues": [
+"china",
+"minerals"
+],
+"dir": "중국 견제",
+"group": "china s odious and brutally atrocious labor trafficking supply chain act",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-hr2144",
@@ -2520,7 +2999,14 @@
 "china": false,
 "summary": "",
 "summary_ko": "",
-"updated": "2025-04-03T11:42:54Z"
+"updated": "2025-04-03T11:42:54Z",
+"issues": [
+"other"
+],
+"dir": "축소·폐지",
+"group": "no fuel credits for batteries act",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-s1066",
@@ -2557,7 +3043,14 @@
 "china": false,
 "summary": "This bill effectively eliminates the National Electric Vehicle Infrastructure (NEVI) Formula Program and the Charging and Fueling Infrastructure (CFI) Discretionary Grant Program. Specifically, this bill requires states to use unobligated funds under these Department of Transportation (DOT) programs only for certain non-electric vehicle related projects.",
 "summary_ko": "이 법안은 NEVI(국가 전기 자동차 인프라) 공식 프로그램과 CFI(충전 및 연료 공급 인프라) 재량 보조금 프로그램을 효과적으로 제거합니다. 특히, 이 법안은 주정부가 특정 비전기 자동차 관련 프로젝트에 대해서만 교통부(DOT) 프로그램에 따른 비의무 자금을 사용하도록 요구합니다.",
-"updated": "2026-09-08T18:12:22Z"
+"updated": "2026-09-08T18:12:22Z",
+"issues": [
+"charging"
+],
+"dir": "축소·폐지",
+"group": "highway funding flexibility act",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-hr1166",
@@ -2594,7 +3087,14 @@
 "china": true,
 "summary": "This bill prohibits the Department of Homeland Security (DHS) from using appropriated funds to procure a battery produced by certain entities, particularly six specific companies owned and operated in China. This prohibition begins on October 1, 2027. The bill allows DHS to waive the prohibition if DHS assesses in the affirmative that (1) the batteries to be procured do not pose a risk to U.S.",
 "summary_ko": "이 법안은 국토안보부(DHS)가 특정 기관, 특히 중국에서 소유하고 운영하는 6개 특정 기업이 생산한 배터리를 조달하기 위해 전용 자금을 사용하는 것을 금지합니다. 이 금지 사항은 2027년 10월 1일부터 시작됩니다. 이 법안은 DHS가 (1) 조달할 배터리가 미국에 위험을 초래하지 않는다고 긍정적으로 평가하는 경우 DHS가 금지 사항을 면제하도록 허용합니다.",
-"updated": "2026-07-10T16:53:23Z"
+"updated": "2026-07-10T16:53:23Z",
+"issues": [
+"china"
+],
+"dir": "중국 견제",
+"group": "decoupling from foreign adversarial battery dependence act",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-hr1892",
@@ -2632,7 +3132,14 @@
 "china": false,
 "summary": "",
 "summary_ko": "",
-"updated": "2026-02-25T09:06:37Z"
+"updated": "2026-02-25T09:06:37Z",
+"issues": [
+"charging"
+],
+"dir": "지원 확대",
+"group": "wireless electric vehicle charging grant program act",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-s823",
@@ -2669,7 +3176,15 @@
 "china": false,
 "summary": "",
 "summary_ko": "",
-"updated": "2026-05-20T11:03:28Z"
+"updated": "2026-05-20T11:03:28Z",
+"issues": [
+"china",
+"minerals"
+],
+"dir": "중국 견제",
+"group": "intergovernmental critical minerals task force act",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-hr1622",
@@ -2706,7 +3221,14 @@
 "china": false,
 "summary": "This bill includes uranium on the critical minerals list. In 2018, the U.S. Geological Survey (USGS) published a list of critical minerals, including uranium, in response to an executive order that called for a federal strategy to ensure secure and reliable supplies of critical minerals. The USGS updates the list every three years and includes certain minerals that are essential to economic or national security and have a supply chain vulnerable to disruption. In 2022, USGS removed uranium from the list.",
 "summary_ko": "이 법안에는 중요 광물 목록에 우라늄이 포함되어 있습니다. 2018년 미국 지질조사국(USGS)은 중요 광물의 안전하고 안정적인 공급을 보장하기 위한 연방 전략을 요구하는 행정 명령에 따라 우라늄을 포함한 중요 광물 목록을 발표했습니다. USGS는 3년마다 목록을 업데이트하며 경제 또는 국가 안보에 필수적이며 공급망이 중단되기 쉬운 특정 광물을 포함합니다. USGS는 2022년에 우라늄을 목록에서 삭제했습니다.",
-"updated": "2026-01-16T16:05:30Z"
+"updated": "2026-01-16T16:05:30Z",
+"issues": [
+"minerals"
+],
+"dir": "지원 확대",
+"group": "uranium for energy independence act",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-s711",
@@ -2744,7 +3266,14 @@
 "china": false,
 "summary": "This bill reduces taxes on auto companies and repeals specified environmental regulations on cars and trucks. The bill establishes a new tax deduction equal to 200% of eligible wages paid or incurred by domestic producers of automobiles or automobile components, subject to limitations. It also allows an entity to reduce (and adjust) its financial statement income (for purposes of calculating liability for the alternative minimum tax) by the amount of eligible wages it elects to deduct.",
 "summary_ko": "이 법안은 자동차 회사에 대한 세금을 줄이고 자동차와 트럭에 대한 특정 환경 규제를 폐지합니다. 이 법안은 제한에 따라 국내 자동차 또는 자동차 부품 생산자가 지불하거나 발생한 적격 임금의 200%에 해당하는 새로운 세금 공제를 설정합니다. 또한 이는 기업이 공제하기로 선택한 적격 임금만큼 재무제표 소득(대체 최저세에 대한 책임을 계산하기 위한 목적)을 줄이거 나 조정할 수 있습니다.",
-"updated": "2026-01-07T18:32:58Z"
+"updated": "2026-01-07T18:32:58Z",
+"issues": [
+"other"
+],
+"dir": "지원 확대",
+"group": "transportation freedom act",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-hr1513",
@@ -2782,7 +3311,14 @@
 "china": false,
 "summary": "This bill repeals grant programs that provide funding for electric vehicle charging infrastructure and alternative fueling infrastructure. Specifically, the bill repeals the Charging and Fueling Infrastructure Grant Program under which the Department of Transportation provides grants for acquiring and installing publicly accessible electric vehicle charging infrastructure, hydrogen fueling infrastructure, propane fueling infrastructure, or natural gas fueling infrastructure that is directly related to the charging or fueling of a vehicle.",
 "summary_ko": "이 법안은 전기 자동차 충전 인프라와 대체 연료 공급 인프라에 자금을 제공하는 보조금 프로그램을 폐지합니다. 특히, 이 법안은 차량 충전이나 연료 공급과 직접적으로 관련된 공개적으로 접근 가능한 전기 자동차 충전 인프라, 수소 연료 공급 인프라, 프로판 연료 공급 인프라 또는 천연가스 연료 공급 인프라를 획득하고 설치하기 위해 교통부가 보조금을 제공하는 충전 및 연료 공급 인프라 보조금 프로그램을 폐지합니다.",
-"updated": "2026-03-19T10:49:16Z"
+"updated": "2026-03-19T10:49:16Z",
+"issues": [
+"charging"
+],
+"dir": "축소·폐지",
+"group": "unplug the electric vehicle charging stations program act",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-hr1496",
@@ -2820,7 +3356,14 @@
 "china": false,
 "summary": "",
 "summary_ko": "",
-"updated": "2026-09-19T23:19:21Z"
+"updated": "2026-09-19T23:19:21Z",
+"issues": [
+"minerals"
+],
+"dir": "지원 확대",
+"group": "rare earth magnet security act",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-s651",
@@ -2858,7 +3401,14 @@
 "china": false,
 "summary": "This bill repeals grant programs that provide funding for electric vehicle charging infrastructure and alternative fueling infrastructure. Specifically, the bill repeals the Charging and Fueling Infrastructure Grant Program under which the Department of Transportation provides grants for acquiring and installing publicly accessible electric vehicle charging infrastructure, hydrogen fueling infrastructure, propane fueling infrastructure, or natural gas fueling infrastructure that is directly related to the charging or fueling of a vehicle.",
 "summary_ko": "이 법안은 전기 자동차 충전 인프라와 대체 연료 공급 인프라에 자금을 제공하는 보조금 프로그램을 폐지합니다. 특히, 이 법안은 차량 충전이나 연료 공급과 직접적으로 관련된 공개적으로 접근 가능한 전기 자동차 충전 인프라, 수소 연료 공급 인프라, 프로판 연료 공급 인프라 또는 천연가스 연료 공급 인프라를 획득하고 설치하기 위해 교통부가 보조금을 제공하는 충전 및 연료 공급 인프라 보조금 프로그램을 폐지합니다.",
-"updated": "2026-09-08T18:12:22Z"
+"updated": "2026-09-08T18:12:22Z",
+"issues": [
+"charging"
+],
+"dir": "축소·폐지",
+"group": "unplug the electric vehicle charging stations programs act",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-hr1367",
@@ -2897,7 +3447,14 @@
 "china": false,
 "summary": "This bill eliminates federal tax credits for the purchase of certain clean vehicles (generally electric vehicles and plug-in hybrid vehicles) and electric vehicle recharging stations. Specifically, the bill repeals the federal tax credits for the purchase of a qualified used clean vehicle (tax credit of up to $4,000 for the purchase of a previously-owned clean vehicle before 2033), the purchase of a qualified new clean vehicle (tax credit of up to $7,500 for the purchase of a new clean vehicle before 2033), the purchase of a qualified commercial clean vehicle (business tax credit of up to $40,…",
 "summary_ko": "이 법안은 특정 청정 차량(일반적으로 전기 자동차 및 플러그인 하이브리드 차량) 및 전기 자동차 충전소 구매에 대한 연방 세금 공제를 제거합니다. 구체적으로, 이 법안은 적격 중고 청정 차량 구입(2033년 이전에 소유한 청정 차량 구입 시 최대 $4,000의 세금 공제), 적격 새 청정 차량 구입(2033년 이전 새 청정 차량 구입 시 최대 $7,500 세금 공제), 적격 상업용 청정 차량 구입(최대 $40의 사업세 공제,…",
-"updated": "2025-12-05T21:54:36Z"
+"updated": "2025-12-05T21:54:36Z",
+"issues": [
+"ev_credit"
+],
+"dir": "축소·폐지",
+"group": "eliminate lavish incentives to electric vehicles act",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-s541",
@@ -2936,7 +3493,14 @@
 "china": false,
 "summary": "This bill eliminates federal tax credits for the purchase of certain clean vehicles (generally electric vehicles and plug-in hybrid vehicles) and electric vehicle recharging stations. Specifically, the bill repeals the federal tax credits for the purchase of a qualified used clean vehicle (tax credit of up to $4,000 for the purchase of a previously-owned clean vehicle before 2033), the purchase of a qualified new clean vehicle (tax credit of up to $7,500 for the purchase of a new clean vehicle before 2033), the purchase of a qualified commercial clean vehicle (business tax credit of up to $40,…",
 "summary_ko": "이 법안은 특정 청정 차량(일반적으로 전기 자동차 및 플러그인 하이브리드 차량) 및 전기 자동차 충전소 구매에 대한 연방 세금 공제를 제거합니다. 구체적으로, 이 법안은 적격 중고 청정 차량 구입(2033년 이전에 소유한 청정 차량 구입 시 최대 $4,000의 세금 공제), 적격 새 청정 차량 구입(2033년 이전 새 청정 차량 구입 시 최대 $7,500 세금 공제), 적격 상업용 청정 차량 구입(최대 $40의 사업세 공제,…",
-"updated": "2025-12-05T21:54:45Z"
+"updated": "2025-12-05T21:54:45Z",
+"issues": [
+"ev_credit"
+],
+"dir": "축소·폐지",
+"group": "eliminate lavish incentives to electric vehicles act",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-s536",
@@ -2974,7 +3538,14 @@
 "china": false,
 "summary": "This bill imposes a new excise tax in the amount of $1,000 on the sale of an electric vehicle and a new excise tax in the amount of $550 on the sale of a battery module weighing over 1,000 pounds for use in an electric vehicle. The bill also requires the Department of the Treasury to transfer amounts collected from the new excise taxes to the Highway Trust Fund.",
 "summary_ko": "이 법안은 전기 자동차 판매에 대해 1,000달러의 새로운 소비세를 부과하고, 전기 자동차에 사용되는 1,000파운드 이상의 배터리 모듈 판매에 대해 550달러의 새로운 소비세를 부과합니다. 이 법안은 또한 재무부가 새로운 소비세에서 징수한 금액을 고속도로 신탁 기금으로 이체하도록 요구합니다.",
-"updated": "2025-12-05T22:50:23Z"
+"updated": "2025-12-05T22:50:23Z",
+"issues": [
+"ev_tax"
+],
+"dir": "축소·폐지",
+"group": "fair sharing of highways and roads for electric vehicles act",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-hr1264",
@@ -3011,7 +3582,14 @@
 "china": false,
 "summary": "This bill eliminates the Superfund chemical excise tax imposed on lead oxide ($8.28 per ton), antimony ($8.90 per ton), and sulfuric acid ($0.52 per ton). Under current law, an excise tax is imposed through December 31, 2031, on taxable chemicals and taxable chemical substances that are (1) manufactured or produced in the United States, or (2) imported into the United States. The excise tax rate varies between $0.44 per ton to $9.74 per ton, depending on the chemical and certain other variables.",
 "summary_ko": "이 법안은 산화 납(톤당 $8.28), 안티몬(톤당 $8.90) 및 황산(톤당 $0.52)에 부과되는 Superfund 화학 소비세를 제거합니다. 현행법에 따라 소비세는 (1) 미국에서 제조 또는 생산되거나 (2) 미국으로 수입되는 과세 화학물질 및 과세 화학 물질에 대해 2031년 12월 31일까지 부과됩니다. 소비세율은 화학물질 및 기타 특정 변수에 따라 톤당 0.44달러에서 톤당 9.74달러 사이입니다.",
-"updated": "2026-06-09T15:02:58Z"
+"updated": "2026-06-09T15:02:58Z",
+"issues": [
+"ev_tax"
+],
+"dir": "축소·폐지",
+"group": "usa batteries act",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-hr1253",
@@ -3049,7 +3627,14 @@
 "china": false,
 "summary": "This bill imposes a new excise tax in the amount of $1,000 on the sale of an electric vehicle and a new excise tax in the amount of $550 on the sale of a battery module weighing over 1,000 pounds for use in an electric vehicle. The bill also requires the Department of the Treasury to transfer amounts collected from the new excise taxes to the Highway Trust Fund.",
 "summary_ko": "이 법안은 전기 자동차 판매에 대해 1,000달러의 새로운 소비세를 부과하고, 전기 자동차에 사용되는 1,000파운드 이상의 배터리 모듈 판매에 대해 550달러의 새로운 소비세를 부과합니다. 이 법안은 또한 재무부가 새로운 소비세에서 징수한 금액을 고속도로 신탁 기금으로 이체하도록 요구합니다.",
-"updated": "2025-12-05T22:50:19Z"
+"updated": "2025-12-05T22:50:19Z",
+"issues": [
+"ev_tax"
+],
+"dir": "축소·폐지",
+"group": "fair sharing of highways and roads for electric vehicles act",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-s450",
@@ -3086,7 +3671,14 @@
 "china": true,
 "summary": "This bill prohibits the Department of Homeland Security (DHS) from using appropriated funds to procure a battery produced by certain entities, particularly six specific companies owned and operated in China. This prohibition begins on October 1, 2027. The bill allows DHS to waive the prohibition if DHS assesses in the affirmative that (1) the batteries to be procured do not pose a risk to U.S.",
 "summary_ko": "이 법안은 국토안보부(DHS)가 특정 기관, 특히 중국에서 소유하고 운영하는 6개 특정 기업이 생산한 배터리를 조달하기 위해 전용 자금을 사용하는 것을 금지합니다. 이 금지 사항은 2027년 10월 1일부터 시작됩니다. 이 법안은 DHS가 (1) 조달할 배터리가 미국에 위험을 초래하지 않는다고 긍정적으로 평가하는 경우 DHS가 금지 사항을 면제하도록 허용합니다.",
-"updated": "2025-12-06T06:40:15Z"
+"updated": "2025-12-06T06:40:15Z",
+"issues": [
+"china"
+],
+"dir": "중국 견제",
+"group": "decoupling from foreign adversarial battery dependence act",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-s448",
@@ -3124,7 +3716,14 @@
 "china": false,
 "summary": "This bill expands the advanced manufacturing production tax credit to include up to 10% of the cost to produce transformers that have an input voltage of 34.5 kilovolts or less, have an output voltage of 600 volts or less, and are rated for operation at a frequency of 60 hertz (i.e., distribution transformers).",
 "summary_ko": "이 법안은 입력 전압이 34.5킬로볼트 이하, 출력 전압이 600볼트 이하, 주파수 60헤르츠(즉, 배전 변압기)에서 작동하도록 등급이 지정된 변압기 생산 비용의 최대 10%를 포함하도록 첨단 제조 생산세 공제를 확대합니다.",
-"updated": "2026-06-01T18:44:02Z"
+"updated": "2026-06-01T18:44:02Z",
+"issues": [
+"amp_45x"
+],
+"dir": "지원 확대",
+"group": "credit incentives for resilient critical utility infrastructure and transformers act",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-hr1052",
@@ -3161,7 +3760,14 @@
 "china": false,
 "summary": "",
 "summary_ko": "",
-"updated": "2026-11-06T21:17:24Z"
+"updated": "2026-11-06T21:17:24Z",
+"issues": [
+"charging"
+],
+"dir": "축소·폐지",
+"group": "undoing nationwide programs and limiting unnecessary grants for electric vehicles act",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-s429",
@@ -3199,7 +3805,14 @@
 "china": true,
 "summary": "This bill authorizes actions to facilitate trade and increase U.S. access to critical minerals and rare earth elements (REEs). Under the bill, critical minerals are any mineral, element, substance, or material designated as critical by the U.S. Geological Survey (e.g., aluminum and cobalt). Additionally, the bill includes a group of 17 elements within the definition of REEs , including elements used in permanent magnets (e.g., dysprosium and neodymium). Specifically, the bill authorizes the President, acting through the Office of the U.S.",
 "summary_ko": "이 법안은 무역을 촉진하고 중요한 광물 및 희토류 원소(REE)에 대한 미국의 접근성을 높이기 위한 조치를 승인합니다. 법안에 따르면 중요 광물은 미국 지질조사국(U.S. Geological Survey)에서 중요하다고 지정한 모든 광물, 원소, 물질 또는 재료(예: 알루미늄 및 코발트)입니다. 또한 이 법안에는 영구 자석에 사용되는 요소(예: 디스프로슘 및 네오디뮴)를 포함하여 REE 정의에 포함된 17개 요소 그룹이 포함되어 있습니다. 구체적으로, 이 법안은 대통령이 미국 국무부를 통해 행동할 수 있는 권한을 부여합니다.",
-"updated": "2026-04-09T14:58:49Z"
+"updated": "2026-04-09T14:58:49Z",
+"issues": [
+"minerals"
+],
+"dir": "지원 확대",
+"group": "securing trade and resources for advanced technology economic growth and international commerce in minerals act",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-hr969",
@@ -3235,7 +3848,14 @@
 "china": false,
 "summary": "",
 "summary_ko": "",
-"updated": "2025-05-05T14:54:27Z"
+"updated": "2025-05-05T14:54:27Z",
+"issues": [
+"minerals"
+],
+"dir": "기타",
+"group": "taliban rare earth minerals sanctions act",
+"seen": "",
+"changed": ""
 },
 {
 "id": "119-hr312",
@@ -3273,7 +3893,357 @@
 "china": false,
 "summary": "This bill repeals federal tax credits for the purchase of certain clean vehicles (generally electric vehicles, plug-in hybrid vehicles, and fuel cell vehicles) and certain vehicle refueling property. Specifically, the bill repeals the federal tax credits for the purchase of a qualified used clean vehicle (tax credit of up to $4,000 for the purchase of a previously-owned clean vehicle before 2033), the purchase of a qualified new clean vehicle (tax credit of up to $7,500 for the purchase of a new clean vehicle before 2033), the purchase of a qualified commercial clean vehicle (business tax cred…",
 "summary_ko": "이 법안은 특정 청정 차량(일반적으로 전기 자동차, 플러그인 하이브리드 차량, 연료 전지 차량) 및 특정 차량 급유 자산 구입에 대한 연방 세금 공제를 폐지합니다. 구체적으로, 이 법안은 적격 중고 청정 차량 구매(2033년 이전에 소유한 청정 차량 구매 시 최대 $4,000의 세금 공제), 적격 신규 청정 차량 구매(2033년 이전 신규 청정 차량 구매 시 최대 $7,500 세금 공제), 적격 상업용 청정 차량 구매(사업 세금 공제...)에 대한 연방 세금 공제를 폐지합니다.",
-"updated": "2025-03-25T13:59:23Z"
+"updated": "2025-03-25T13:59:23Z",
+"issues": [
+"ev_credit"
+],
+"dir": "축소·폐지",
+"group": "restoring vehicle market freedom act",
+"seen": "",
+"changed": ""
 }
-]
+],
+"_v": 2,
+"baseline": true,
+"draft_note": "초안: 법안 원문(제목·의회조사국 요약)과 법률 공포 기록 기준으로 작성",
+"position": "119대 의회 2회기 · 11/3 중간선거 뒤 레임덕 회기 · 2027.1.3 회기 종료 시 계류 법안 자동 폐기",
+"summary": [
+"OBBBA(2025.7.4 서명, 법률 119-21)로 전기차 세액공제 30D·25E·45W는 2025.9.30 취득분까지로 종료, 45X 생산세액공제는 유지하되 금지 외국기업(PFE) 제한을 붙임",
+"119대 계류 법안의 중심은 핵심광물 공급망·인허가 단축과 중국산 배터리·광물 견제 (대부분 공화당 발의), EV 세액공제 폐지·충전 예산 전용·EV 과세안도 계속 나옴",
+"캘리포니아 무공해차 규정(ACC II 등)은 CRA 결의로 무효화(법률 119-15·16), 회기 종료(2027.1.3)까지 처리 못 한 법안은 폐기"
+],
+"korea": "30D 종료로 미국 EV 수요 둔화는 부담이지만, 45X(셀 $35/kWh·모듈 $10/kWh)가 유지돼 미국 현지 공장 수익성의 버팀목. 중국산 배터리 조달 금지·FEOC 강화는 중국 경쟁사 배제로 국내 3사에 유리하고, 핵심광물 법안은 비중국 원료 조달을 돕는 방향. 다만 45X에도 PFE 지분·물질적 지원 기준이 적용돼 중국 소재·장비 의존도 관리가 필요.",
+"dirs": [
+"축소·폐지",
+"중국 견제",
+"규제 완화",
+"규제 강화",
+"지원 확대",
+"기타"
+],
+"issue_topics": [
+"세액공제",
+"중국 견제",
+"핵심광물",
+"배출·연비 규제",
+"충전",
+"과세",
+"ESS",
+"안전·재활용",
+"기타"
+],
+"cards": [
+{
+"label": "전기차 세액공제 (30D)",
+"issue": "ev_credit",
+"before": "최대 $7,500 (IRA, 2032년까지)",
+"now": "2025.9.30 취득분까지로 종료 (OBBBA)",
+"pending": "계류 5건: 축소·폐지 5"
+},
+{
+"label": "상업용 청정차 (45W)",
+"issue": "ev_credit",
+"before": "경량 $7,500 · 대형 최대 $40,000",
+"now": "2025.9.30 종료 (OBBBA)",
+"pending": ""
+},
+{
+"label": "45X 배터리 셀·모듈",
+"issue": "amp_45x",
+"before": "셀 $35/kWh · 모듈 $10/kWh",
+"now": "유지 + 금지 외국기업(PFE) 제한 (OBBBA)",
+"pending": "계류 5건: 지원 확대 5"
+},
+{
+"label": "캘리포니아 무공해차 규정",
+"issue": "emissions",
+"before": "EPA 면제 승인 (ACC II 등)",
+"now": "CRA로 무효 (2025.6, 법률 119-15·16)",
+"pending": "계류 6건: 규제 완화 5 · 규제 강화 1"
+},
+{
+"label": "NEVI 충전 예산",
+"issue": "charging",
+"before": "$50억 (인프라법, 2022~2026)",
+"now": "집행 중",
+"pending": "계류 8건: 축소·폐지 5 · 지원 확대 2 · 기타 1"
+}
+],
+"issues": [
+{
+"id": "ev_credit",
+"rank": 1,
+"title": "전기차 세액공제 (30D·25E·45W)",
+"short": "EV 세액공제",
+"topic": "세액공제",
+"core": true,
+"now": "OBBBA로 2025.9.30 취득분까지로 종료 (30D 신차 $7,500·25E 중고차·45W 상업용)",
+"bills": "남은 공제마저 폐지하는 법안(ELITE Vehicles Act·End Taxpayer Subsidies 등) 계류, 부활 법안은 없음",
+"korea": "미국 EV 수요 둔화로 북미 셀 가동률 부담. 세액공제 없는 시장에서 가격 경쟁력(LFP 등)이 관건",
+"counts": {
+"축소·폐지": 5
+},
+"pending": 5,
+"laws": [
+"H.R. 1"
+],
+"n": 6
+},
+{
+"id": "amp_45x",
+"rank": 2,
+"title": "45X 첨단제조 생산세액공제",
+"short": "45X",
+"topic": "세액공제",
+"core": true,
+"now": "셀 $35/kWh·모듈 $10/kWh·전극 활물질·핵심광물 10% 유지, OBBBA로 금지 외국기업(PFE) 제한 추가",
+"bills": "구리·배전 변압기·블랙매스 등 대상 확대, 광물 채굴 비용 포함 법안",
+"korea": "미국 공장 이익의 핵심 축. 대상 확대는 소재·재활용 자회사에 긍정적, PFE 기준 충족 위해 중국 소재·장비 비중 관리 필요",
+"counts": {
+"지원 확대": 5
+},
+"pending": 5,
+"laws": [],
+"n": 5
+},
+{
+"id": "china",
+"rank": 3,
+"title": "중국 견제 (FEOC·외국 적대국 배터리·광물)",
+"short": "중국 견제",
+"topic": "중국 견제",
+"core": true,
+"now": "OBBBA로 45X 등에 금지 외국기업(PFE) 제한, FY24 국방수권법으로 2027.10부터 국방부 CATL·BYD 등 배터리 조달 금지",
+"bills": "국토안보부 외국 적대국 배터리 조달 금지(하원 통과), 중국 정제 코발트 수입 금지, 중국산 차량·기술 조달 금지",
+"korea": "중국 배터리 배제가 넓어질수록 3사에 반사이익. 단 3사의 중국산 소재·장비 비중이 문제될 수 있어 공급망 점검 필요",
+"counts": {
+"중국 견제": 10
+},
+"pending": 10,
+"laws": [],
+"n": 10
+},
+{
+"id": "minerals",
+"rank": 4,
+"title": "핵심광물 공급망·인허가",
+"short": "핵심광물",
+"topic": "핵심광물",
+"core": true,
+"now": "핵심광물 목록·DOE 지원 프로그램, 행정명령으로 인허가 단축 추진",
+"bills": "인허가 단축·행정명령 법제화, 국가 핵심광물위원회 신설, 해외 광물 투자·동맹 협력, 재활용·회수 지원 (일부 하원 통과)",
+"korea": "비중국 원료 조달 선택지가 늘어 긍정적. 미국 내 광물·정련 투자 지원이 생기면 소재사 합작 기회",
+"counts": {
+"중국 견제": 5,
+"규제 강화": 3,
+"지원 확대": 37,
+"기타": 1
+},
+"pending": 46,
+"laws": [],
+"n": 46
+},
+{
+"id": "emissions",
+"rank": 5,
+"title": "배출·연비 규제 (캘리포니아·CRA)",
+"short": "배출 규제",
+"topic": "배출·연비 규제",
+"core": true,
+"now": "캘리포니아 ACC II·대형차 규정 면제가 CRA로 무효 (2025.6, 법률 119-15·16)",
+"bills": "남은 캘리포니아 규정 추가 무효화 결의, 연비 규제 완화 법안 / 연방 차량 무공해차 의무 법안(민주)",
+"korea": "규제 완화로 완성차의 EV 전환 압력이 약해져 북미 수요 부담. 주(州)별 규제 소송 결과도 변수",
+"counts": {
+"규제 완화": 5,
+"규제 강화": 1
+},
+"pending": 6,
+"laws": [
+"H.J.Res. 88",
+"H.J.Res. 87"
+],
+"n": 8
+},
+{
+"id": "charging",
+"rank": 6,
+"title": "충전 인프라 (NEVI)",
+"short": "충전",
+"topic": "충전",
+"core": true,
+"now": "인프라법(IIJA) NEVI $50억 집행 중",
+"bills": "충전 예산 폐지·도로 예산 전용(공화) / 무선·양방향 충전 지원, 충전소 접근성(민주)",
+"korea": "충전망 확충이 늦어지면 EV 보급 속도 둔화 → 셀 수요 간접 영향",
+"counts": {
+"축소·폐지": 5,
+"지원 확대": 2,
+"기타": 1
+},
+"pending": 8,
+"laws": [],
+"n": 8
+},
+{
+"id": "ev_tax",
+"rank": 7,
+"title": "전기차·배터리 과세",
+"short": "EV 과세",
+"topic": "과세",
+"core": false,
+"now": "연방 EV 등록·판매세 없음",
+"bills": "EV·배터리 판매에 연방세 부과(도로 재원), 배터리 원료 화학물질 과세",
+"korea": "EV 가격 상승 요인 → 수요 부담",
+"counts": {
+"축소·폐지": 3
+},
+"pending": 3,
+"laws": [],
+"n": 3
+},
+{
+"id": "ess",
+"rank": 8,
+"title": "ESS·에너지저장",
+"short": "ESS",
+"topic": "ESS",
+"core": false,
+"now": "DOE 에너지저장 연구·실증 프로그램 (에너지법 2020)",
+"bills": "에너지저장 안전·프로그램 개편, 철도 회생제동·저장 지원",
+"korea": "미국 ESS 수요는 3사의 북미 LFP 라인 전환 수요처. 지원 확대는 긍정적",
+"counts": {
+"지원 확대": 2
+},
+"pending": 2,
+"laws": [],
+"n": 2
+},
+{
+"id": "safety",
+"rank": 9,
+"title": "배터리 안전·재활용",
+"short": "안전·재활용",
+"topic": "안전·재활용",
+"core": false,
+"now": "리튬이온 배터리 소비자 기준 없음, 재활용은 DOE 프로그램",
+"bills": "리튬이온 배터리 소비자 기준(하원 통과), 운송 표지, EV 화재 대응, 배터리 재활용(BRACE, 하원 통과)",
+"korea": "안전 기준은 인증 비용 요인, 재활용 지원은 재활용 합작사에 기회",
+"counts": {
+"규제 완화": 1,
+"규제 강화": 4,
+"지원 확대": 9
+},
+"pending": 14,
+"laws": [],
+"n": 14
+},
+{
+"id": "other",
+"rank": 10,
+"title": "기타 전기차 관련",
+"short": "기타",
+"topic": "기타",
+"core": false,
+"now": "",
+"bills": "도로 예산·국방 등 큰 법안 안의 전기차 관련 조항",
+"korea": "",
+"counts": {
+"축소·폐지": 1,
+"지원 확대": 2
+},
+"pending": 3,
+"laws": [],
+"n": 3
+}
+],
+"timeline": [
+{
+"date": "2022-08-16",
+"label": "IRA 서명",
+"note": "30D·45W·45X 신설·개편",
+"kind": "일정"
+},
+{
+"date": "2025-06-12",
+"label": "H.J.Res. 88 법률 제정",
+"note": "의회 거부 결의(CRA): 환경보호청(EPA) 규칙 「캘리포니아 주 자동차 및 엔진 오염 통제 표준; 고급 청정 자동차 II; 우선권 포기; 결",
+"kind": "법률",
+"id": "119-hjres88"
+},
+{
+"date": "2025-06-12",
+"label": "H.J.Res. 87 법률 제정",
+"note": "의회 거부 결의(CRA): 환경보호청(EPA) 규칙 「캘리포니아 주 자동차 및 엔진 오염 통제 표준; 대형 차량 및 엔진 배기가스 보증 및 유지",
+"kind": "법률",
+"id": "119-hjres87"
+},
+{
+"date": "2025-07-04",
+"label": "H.R. 1 법률 제정",
+"note": "'하나의 크고 아름다운 법(OBBBA)': 감세·지출을 조정한 예산조정법. 전기차 세액공제(30D·25E·45W)를 2025년 9월 말로 앞당겨",
+"kind": "법률",
+"id": "119-hr1"
+},
+{
+"date": "2025-09-30",
+"label": "30D·25E·45W 종료",
+"note": "이날까지 취득한 차량만 공제",
+"kind": "일정"
+},
+{
+"date": "2026-07-15",
+"label": "H.R. 4090 한 원 통과",
+"note": "청문회 개최",
+"kind": "진행",
+"id": "119-hr4090"
+},
+{
+"date": "2026-07-27",
+"label": "S. 4784 위원회 통과",
+"note": "상원 심의 착수 동의",
+"kind": "진행",
+"id": "119-s4784"
+},
+{
+"date": "2026-09-16",
+"label": "H.R. 9617 한 원 통과",
+"note": "하원 통과 → 상원 환경·공공사업위원회 회부",
+"kind": "진행",
+"id": "119-hr9617"
+},
+{
+"date": "2026-09-16",
+"label": "H.R. 9616 한 원 통과",
+"note": "하원 통과 → 상원 환경·공공사업위원회 회부",
+"kind": "진행",
+"id": "119-hr9616"
+},
+{
+"date": "2026-09-16",
+"label": "H.R. 9615 한 원 통과",
+"note": "하원 통과 → 상원 환경·공공사업위원회 회부",
+"kind": "진행",
+"id": "119-hr9615"
+},
+{
+"date": "2026-09-16",
+"label": "H.R. 10346 위원회 통과",
+"note": "위원회 가결 (찬성 32 · 반대 8)",
+"kind": "진행",
+"id": "119-hr10346"
+},
+{
+"date": "2026-11-03",
+"label": "중간선거",
+"note": "하원 전체·상원 1/3",
+"kind": "일정"
+},
+{
+"date": "2027-01-03",
+"label": "119대 의회 종료",
+"note": "계류 법안 자동 폐기, 120대에서 다시 발의해야",
+"planned": true,
+"kind": "일정"
+}
+],
+"conf_hash": "1d6af53d2ebf"
 }

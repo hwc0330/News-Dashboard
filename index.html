@@ -407,6 +407,9 @@
   .edir.dn { background: color-mix(in srgb, var(--eu) 15%, var(--card)); color: var(--eu); }
   .edir.del { background: var(--chip); color: var(--muted); text-decoration: line-through; }
   .edir.add { background: color-mix(in srgb, var(--orange) 14%, var(--card)); color: var(--orange); }
+  .edir.cn { background: color-mix(in srgb, var(--cn) 14%, var(--card)); color: var(--cn); }
+  .epr.law { color: var(--orange); border-color: var(--orange); }
+  .erow-h .pdot { transform: translateY(-1px); }
   .eiss { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 14px 16px 6px; margin-bottom: 10px; scroll-margin-top: 16px; }
   .eiss.core { border-left: 4px solid var(--accent); }
   .eiss-h { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 8px; }
@@ -532,18 +535,20 @@
     <div class="phead">
       <div>
         <div class="kicker mono" id="cKicker">US CONGRESS</div>
-        <div class="headline" id="cHeadline">미 의회 배터리·전기차 법안</div>
+        <div class="headline" id="cHeadline">미 의회 전기차·배터리 법안</div>
         <div class="xupd" id="cUpd"></div>
       </div>
-      <input type="search" class="csearch" id="cQ" placeholder="법안·의원 검색" aria-label="법안 검색">
+      <input type="search" class="csearch" id="cQ" placeholder="검색 (예: 세액공제, 중국, 리튬)" aria-label="법안 검색">
     </div>
-    <div class="funnel" id="cFunnel" role="group" aria-label="진행 단계"></div>
-    <div class="clabel">대표 발의가 많은 의원</div>
-    <div class="members" id="cMembers"></div>
+    <div class="enow" id="cNow"></div>
+    <div class="esum" id="cSummary"></div>
+    <div class="ecards" id="cCards"></div>
+    <ul class="etl" id="cTimeline"></ul>
+    <div class="seg eviews" id="cViews" role="group" aria-label="보기"></div>
     <div class="chips" id="cTopics"></div>
-    <div class="chips last" id="cFilters"></div>
-    <div class="bills" id="cList"><p class="empty">불러오는 중…</p></div>
-    <p class="foot">제목·의회조사국(CRS) 요약에 배터리·전기차·핵심광물·충전·배출 규제 키워드가 있는 법안 · 국문은 자동 번역 · 제목을 누르면 Congress.gov 원문</p>
+    <div class="chips last" id="cDirs"></div>
+    <div id="cList"><p class="empty">불러오는 중…</p></div>
+    <p class="foot">제목·의회조사국(CRS) 요약에 배터리·전기차·핵심광물·충전·배출 규제 키워드가 있는 법안 · 방향은 제목·요약 문구로 자동 판정 · 같은 이름의 상·하원 법안은 한 줄 · 국문은 자동 번역 · 요약·쟁점 문장은 congress_issues.json</p>
   </div>
 
   <div id="euView" hidden>
@@ -937,17 +942,15 @@ function renderPolicy(q, policyOf) {
 }
 
 // ── 미 의회 법안: congress.py 가 Congress.gov API 로 모아 둔 data/congress.json (6시간마다 확인) ──
-let cong, cTopic = null, cFilter = null, cMember = null, cStage = null;
+// 쟁점별 보기(기본) / 법안별 보기. 요약·카드·쟁점 문장은 congress_issues.json
+let cong, cView = "issue", cTopic = null, cDir = null, cCore = false, cOpen = new Set();
+try { cView = localStorage.getItem("cView") || "issue"; } catch (e) {}
 const PARTY = {R: ["rep", "공화"], D: ["dem", "민주"], I: ["ind", "무소속"]};
 const ymd = d => d ? d.slice(2).replace(/-/g, ".") : "";
-const who = s => (`${s.first} ${s.last}`.trim()) || s.name;
-const role = b => b.sponsor.name.startsWith("Sen.") ? "상원의원" : "하원의원";
-const district = s => (s.name.match(/\[[A-Z]+-([A-Z]{2}(?:-[\w ]+)?)\]/) || [, s.state])[1];
-const partyN = (b, p) => (b.cosponsors[p] || 0) + (b.sponsor.party === p ? 1 : 0);
-const bipartisan = b => partyN(b, "R") > 0 && partyN(b, "D") > 0;
-const C_FILTERS = [["senate", "상원", b => b.chamber === "상원"], ["house", "하원", b => b.chamber === "하원"],
-  ["R", "공화 발의", b => b.sponsor.party === "R"], ["D", "민주 발의", b => b.sponsor.party === "D"],
-  ["bi", "초당적", bipartisan], ["china", "중국 관련", b => b.china]];
+const C_DIRCLS = {"지원 확대": "dn", "축소·폐지": "up", "중국 견제": "cn", "규제 완화": "mod", "규제 강화": "add"};
+const C_SYN = {"세액공제": "credit|30D|45X|45W", "보조금": "credit|grant|incentive", "중국": "china|chinese|adversar|foreign entit",
+  "광물": "mineral|rare earth|lithium|cobalt|graphite", "희토류": "rare earth", "리튬": "lithium", "코발트": "cobalt", "충전": "charging|NEVI",
+  "재활용": "recycl", "배출": "emission|disapproval", "캘리포니아": "california", "과세": "tax|fee", "배터리": "batter", "안전": "safety|fire"};
 
 async function loadCongress() {
   try { cong = await getData("congress.json", EMBED ? (EMBED.congress || null) : undefined); } catch (e) { cong = null; }
@@ -955,66 +958,117 @@ async function loadCongress() {
   dataArrived("congress");
 }
 
+const cRecent = b => eRecent(b.seen) || eRecent(b.changed);
+const cWho = b => { const s = b.sponsor, [, pw] = PARTY[s.party] || ["", s.party]; return `${(`${s.first} ${s.last}`).trim() || s.name} (${pw}·${s.state})`; };
+
 function renderCongress() {
   if (!cong) { $("#cList").innerHTML = '<p class="empty">불러오는 중…</p>'; return; }
-  const all = cong.bills, st = cong.stages, q = $("#cQ").value.trim().toLowerCase();
+  const all = cong.bills, st = cong.stages, issues = cong.issues || [], byIssue = Object.fromEntries(issues.map(i => [i.id, i]));
   const y0 = 1789 + 2 * (cong.congress - 1);
   $("#cKicker").textContent = `US CONGRESS · ${cong.congress}대 의회 (${y0}–${String(y0 + 1).slice(2)})`;
   const law = all.filter(b => b.stage === 4).length, moving = all.filter(b => b.stage >= 1 && b.stage < 4).length;
-  $("#cHeadline").innerHTML = `배터리·전기차 법안 ${all.length}건 <small>· 법률 ${law} · 심사 진행 ${moving}</small>`;
+  $("#cHeadline").innerHTML = `미 의회 전기차·배터리 법안 ${all.length}건 <small>· 법률 ${law} · 심사 진행 ${moving}</small>`;
   $("#cUpd").innerHTML = `<span>출처 <b>Congress.gov</b></span><span>확인 <b>${esc(when(cong.updated))}</b></span>`;
 
-  const text = b => `${b.official_ko} ${b.title} ${b.full || ""} ${b.label} ${b.sponsor.name} ${b.latest_ko} ${b.summary_ko}`.toLowerCase();
-  const byQ = all.filter(b => !q || text(b).includes(q));
-  const f = C_FILTERS.find(x => x[0] === cFilter);
-  const keep = (b, skip) => (skip === "topic" || !cTopic || b.topics.includes(cTopic)) && (skip === "filter" || !f || f[2](b))
-    && (skip === "member" || !cMember || b.sponsor.id === cMember) && (skip === "stage" || cStage == null || b.stage === cStage);
+  // 현재 위치 · 이번 주 변경
+  const tl = (cong.timeline || []).slice();
+  const today = new Date().toISOString().slice(0, 10);
+  const weekB = all.filter(b => [b.seen, b.changed].some(t => t && Date.now() - new Date(t) < E_WEEK)).length;
+  const weekE = tl.filter(t => !t.planned && t.date <= today && Date.now() - new Date(t.date + "T00:00:00+09:00") < E_WEEK).length;
+  $("#cNow").innerHTML = `<span class="enow-k">현재 위치</span><b>${esc(cong.position || "")}</b>` +
+    `<span class="eweek${weekB + weekE ? " on" : ""}">이번 주 변경 ${weekB + weekE}건${weekB ? ` · 법안 ${weekB}` : ""}${weekE ? ` · 일정 ${weekE}` : ""}</span>`;
+  $("#cSummary").innerHTML = `<div class="esum-l"><h3>핵심 요약</h3><ol>${(cong.summary || []).map(s => `<li>${eHi(s)}</li>`).join("")}</ol></div>` +
+    `<div class="esum-r"><h3>국내 셀사 영향</h3><p>${eHi(cong.korea || "")}</p></div>` +
+    (cong.draft_note ? `<p class="esum-note">${esc(cong.draft_note)}</p>` : "");
+  $("#cCards").innerHTML = (cong.cards || []).map(c => `<button class="ecard" data-issue="${esc(c.issue)}"><span class="ecard-l">${esc(c.label)}</span>` +
+    `<span class="ecard-steps"><span><small>이전</small>${esc(c.before)}</span><i>→</i><span class="dr"><small>현행</small>${esc(c.now)}</span>` +
+    `<i>→</i><span><small>계류 법안</small>${esc(c.pending || "—")}</span></span></button>`).join("");
+  $("#cCards").querySelectorAll(".ecard").forEach(b => b.onclick = () => {
+    cView = "issue"; cOpen.add("i:" + b.dataset.issue); render();
+    setTimeout(() => { const el = document.getElementById("ci-" + b.dataset.issue); if (el) el.scrollIntoView({behavior: "smooth", block: "start"}); }, 50);
+  });
+  $("#cTimeline").innerHTML = tl.map(t => `<li class="${t.planned ? "future" : ""} s-${t.kind === "법률" ? "co" : t.kind === "진행" ? "ep" : "ms"}">` +
+    `<span class="mono">${ymd(t.date)}</span><span class="eside">${esc(t.kind || "")}</span><b>${esc(t.label)}</b>` +
+    (t.planned ? "<small>예정</small>" : "") + (t.note ? `<span class="enote">${esc(t.note)}</span>` : "") + `</li>`).join("");
 
-  // 진행 단계: 발의 → 위원회 → 한 원 → 양원 → 법률 (누르면 그 단계만)
-  const inStage = byQ.filter(b => keep(b, "stage"));
-  $("#cFunnel").innerHTML = st.map((s, k) => {
-    const n = inStage.filter(b => b.stage === k).length;
-    return `<button class="fstep${k === 4 ? " law" : ""}" data-k="${k}" aria-pressed="${cStage === k}"><span class="num mono">${n}</span><span>${s}</span></button>`;
-  }).join('<i class="farrow" aria-hidden="true">›</i>');
-  $("#cFunnel").querySelectorAll(".fstep").forEach(b => b.onclick = () => { cStage = cStage === +b.dataset.k ? null : +b.dataset.k; render(); });
-
-  const forTopic = byQ.filter(b => keep(b, "topic"));
-  chipRow($("#cTopics"), [["", "전체 주제", forTopic.length]].concat(cong.topics.map(t => [t, esc(t), forTopic.filter(b => b.topics.includes(t)).length]).filter(x => x[2])),
+  // 보기 · 필터
+  $("#cViews").innerHTML = [["issue", "쟁점별 보기"], ["bill", "법안별 보기"]].map(([k, l]) =>
+    `<button data-v="${k}" aria-pressed="${cView === k}">${l}</button>`).join("");
+  $("#cViews").querySelectorAll("button").forEach(b => b.onclick = () => { cView = b.dataset.v; try { localStorage.setItem("cView", cView); } catch (e) {} render(); });
+  const q = $("#cQ").value.trim().toLowerCase();
+  const qre = q ? new RegExp([q.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"), ...Object.entries(C_SYN).filter(([k]) => q.includes(k)).map(([, v]) => v)].join("|"), "i") : null;
+  const text = b => `${b.official_ko} ${b.title} ${b.full || ""} ${b.label} ${b.sponsor.name} ${b.latest_ko} ${b.summary_ko} ${b.summary}`;
+  const topicsOf = b => b.issues.map(id => (byIssue[id] || {}).topic).filter(Boolean);
+  const keep = (b, skip) => (skip === "topic" || !cTopic || topicsOf(b).includes(cTopic)) && (skip === "dir" || !cDir || b.dir === cDir) &&
+    (!cCore || b.issues.some(id => byIssue[id] && byIssue[id].core)) && (!qre || qre.test(text(b)));
+  const forT = all.filter(b => keep(b, "topic"));
+  chipRow($("#cTopics"), [["", "전체 주제", forT.length]].concat((cong.issue_topics || []).map(t => [t, esc(t), forT.filter(b => topicsOf(b).includes(t)).length]).filter(x => x[2])),
           cTopic, v => { cTopic = v; render(); });
-  const forFilter = byQ.filter(b => keep(b, "filter"));
-  chipRow($("#cFilters"), [["", "모두", forFilter.length]].concat(C_FILTERS.map(([k, label, fn]) => [k, label, forFilter.filter(fn).length])),
-          cFilter, v => { cFilter = v; render(); });
+  const forD = all.filter(b => keep(b, "dir"));
+  chipRow($("#cDirs"), [["", "모든 방향", forD.length]].concat((cong.dirs || []).map(d => [d, `<span class="edir ${C_DIRCLS[d] || "mod"}">${esc(d)}</span>`, forD.filter(b => b.dir === d).length]).filter(x => x[2])),
+          cDir, v => { cDir = v; render(); });
+  $("#cDirs").insertAdjacentHTML("beforeend", `<button class="chip" id="cCoreBtn" aria-pressed="${cCore}">★ 핵심만 보기</button>`);
+  $("#cCoreBtn").onclick = () => { cCore = !cCore; render(); };
 
-  // 대표 발의를 많이 한 의원
-  const counts = {};
-  byQ.filter(b => keep(b, "member")).forEach(b => { const s = b.sponsor; (counts[s.id] = counts[s.id] || {s, b, n: 0}).n++; });
-  const top = Object.values(counts).sort((a, b) => b.n - a.n || a.s.last.localeCompare(b.s.last)).slice(0, 10);
-  $("#cMembers").innerHTML = top.map(({s, b, n}) => {
-    const [pc, pw] = PARTY[s.party] || ["ind", s.party];
-    return `<button class="mem" data-id="${esc(s.id)}" aria-pressed="${cMember === s.id}" title="${esc(s.name)}"><i class="pdot ${pc}"></i>` +
-      `<span class="mem-n">${esc(who(s))}</span><span class="mem-s">${role(b).slice(0, 2)} · ${pw} · ${esc(district(s))}</span><b class="mono">${n}</b></button>`;
-  }).join("");
-  $("#cMembers").querySelectorAll(".mem").forEach(b => b.onclick = () => { cMember = cMember === b.dataset.id ? null : b.dataset.id; render(); });
+  const shown = all.filter(b => keep(b));
+  if (cView === "issue") renderCongressIssues(issues, shown, q, qre, st);
+  else {
+    if (!shown.length) { $("#cList").innerHTML = '<p class="empty">해당하는 법안이 없습니다.</p>'; return; }
+    $("#cList").innerHTML = `<ul class="erows cbill-list">${cRows(shown.slice().sort((a, b) => b.latest_date.localeCompare(a.latest_date)), byIssue, st)}</ul>`;
+  }
+}
 
-  const shown = byQ.filter(b => keep(b)).sort((a, b) => b.latest_date.localeCompare(a.latest_date) || b.stage - a.stage);
-  if (!shown.length) { $("#cList").innerHTML = '<p class="empty">해당하는 법안이 없습니다.</p>'; return; }
-  $("#cList").innerHTML = shown.map(b => {
-    const s = b.sponsor, [pc, pw] = PARTY[s.party] || ["ind", s.party];
-    const cos = b.cosponsors.n ? `공동 발의 ${b.cosponsors.n}명 (${["R", "D", "I"].filter(p => b.cosponsors[p]).map(p => `${PARTY[p][1]} ${b.cosponsors[p]}`).join(" · ")})` : "공동 발의 없음";
-    const en = [b.title, b.full].filter(Boolean).join(" — ");
-    return `<article class="bill">` +
-      `<div class="bill-top"><span class="ch">${esc(b.chamber)}</span><span class="mono blabel">${esc(b.label)}</span>` +
-      b.topics.map(t => `<span class="ttag">${esc(t)}</span>`).join("") + (b.china ? '<span class="ttag cn">중국</span>' : "") +
-      `<span class="time mono">${ymd(b.latest_date)}</span></div>` +
-      `<a class="bill-t" href="${esc(b.url)}" target="_blank" rel="noopener">${esc(b.official_ko || b.title)}</a>` +
-      `<div class="bill-en">${esc(en)}${b.law ? ` · <b>${esc(b.law)}</b>` : ""}</div>` +
-      `<div class="steps${b.stage === 4 ? " law" : ""}" role="img" aria-label="진행 단계 ${esc(st[b.stage])}">${st.map((x, k) => `<i class="${k <= b.stage ? "on" : ""}" title="${esc(x)}"></i>`).join("")}<span>${esc(st[b.stage])}</span></div>` +
-      `<div class="spon"><i class="pdot ${pc}"></i><span><b>${role(b)} ${esc(who(s))}</b> (${pw} · ${esc(district(s))}) · ${cos}` +
-      (bipartisan(b) ? ' <span class="bi">초당적</span>' : "") + `</span></div>` +
-      `<div class="act"><span class="mono">${ymd(b.latest_date)}</span> ${esc(b.latest_ko || b.latest)}</div>` +
-      (b.summary_ko ? `<details class="crs"><summary>의회조사국(CRS) 요약</summary><p>${esc(b.summary_ko)}</p></details>` : "") +
-      `</article>`;
+// 법안 한 줄: [방향] 쟁점: 국문 요지 · 단계 (상·하원 동반 법안은 한 줄)
+function cRows(bills, byIssue, st, fallbackShort) {
+  const groups = new Map();
+  bills.forEach(b => { if (!groups.has(b.group)) groups.set(b.group, []); groups.get(b.group).push(b); });
+  return [...groups.values()].map(g => {
+    g.sort((a, b) => b.stage - a.stage || b.latest_date.localeCompare(a.latest_date));
+    const b = g[0];
+    const short = fallbackShort || (b.issues.map(id => byIssue[id] && byIssue[id].short).find(Boolean)) || "";
+    const ko = (b.official_ko || b.title).replace(/\s+/g, " ");
+    const gist = `${short ? short + ": " : ""}${ko.length > 110 ? ko.slice(0, 110) + "…" : ko}`;
+    const [pc] = PARTY[b.sponsor.party] || ["ind"];
+    const who = g.length > 1 ? `동반 ${g.length}건 – ${g.map(x => `${x.chamber} ${x.label}`).join(", ")}` : `${b.label} · ${cWho(b)}`;
+    const stage = b.stage === 4 ? `<span class="epr law">법률 ${esc(b.law || "")}</span>` : b.stage ? `<span class="epr">${esc(st[b.stage])}</span>` : "";
+    return `<li class="erow">` +
+      `<div class="erow-h"><span class="edir ${C_DIRCLS[b.dir] || "mod"}">${esc(b.dir)}</span>${stage}` +
+      `<span class="egist">${eHi(gist)}</span><span class="ewho"><i class="pdot ${pc}"></i> ${esc(who)}</span>` +
+      (g.some(cRecent) ? '<span class="badge new">NEW</span>' : "") + `</div>` +
+      `<details class="eraw"><summary>자세히 · ${esc(b.full || b.title).slice(0, 80)}</summary>` +
+      g.map(x => `<p class="ediff"><a href="${esc(x.url)}" target="_blank" rel="noopener"><b>${esc(x.label)}</b> ${esc(x.title)}</a>` +
+        `<br><span class="mono">${ymd(x.latest_date)}</span> ${esc(x.latest_ko || x.latest)} · <b>${esc(st[x.stage])}</b>` +
+        `<br>대표 발의 ${esc(cWho(x))} · 공동 발의 ${x.cosponsors.n}명${x.cosponsors.n ? ` (${["R", "D", "I"].filter(p => x.cosponsors[p]).map(p => `${PARTY[p][1]} ${x.cosponsors[p]}`).join(" · ")})` : ""}</p>`).join("") +
+      (b.summary_ko ? `<p class="ejust"><b>의회조사국 요약</b> ${esc(b.summary_ko)}</p>` : "") + `</details></li>`;
   }).join("");
+}
+
+function renderCongressIssues(issues, shown, q, qre, st) {
+  const byIssue = Object.fromEntries(issues.map(i => [i.id, i]));
+  const issueText = i => `${i.title} ${i.now} ${i.bills} ${i.korea}`;
+  const list = issues.filter(i => (!cTopic || i.topic === cTopic) && (!cCore || i.core))
+    .map(i => ({i, bills: shown.filter(b => b.issues.includes(i.id))}))
+    .filter(({i, bills}) => bills.length || (!cDir && (!qre || qre.test(issueText(i)))));
+  if (!list.length) { $("#cList").innerHTML = '<p class="empty">해당하는 쟁점이 없습니다.</p>'; return; }
+  $("#cList").innerHTML = list.map(({i, bills}) => {
+    const open = cOpen.has("i:" + i.id) || !!q;
+    const fresh = bills.filter(cRecent).length;
+    const cnt = Object.entries(i.counts || {});
+    return `<article class="eiss${i.core ? " core" : ""}" id="ci-${esc(i.id)}">` +
+      `<div class="eiss-h"><span class="erank mono">${i.rank}</span><h4>${esc(i.title)}</h4><span class="ttag">${esc(i.topic)}</span>` +
+      (i.core ? '<span class="ecore">★ 핵심</span>' : "") + (fresh ? `<span class="badge new">NEW ${fresh}</span>` : "") +
+      `<span class="ecounts">${cnt.map(([d, n]) => `<span class="edir ${C_DIRCLS[d] || "mod"}">${esc(d)} ${n}</span>`).join("")}</span></div>` +
+      `<dl class="eiss-g">` + (i.now ? `<dt>현행</dt><dd>${eHi(i.now)}</dd>` : "") +
+      (i.laws && i.laws.length ? `<dt class="dr">법률 제정</dt><dd class="dr">${esc(i.laws.join(", "))}</dd>` : "") +
+      (i.bills ? `<dt class="up">계류 법안</dt><dd>${eHi(i.bills)}</dd>` : "") +
+      `<dt class="dn">계류 방향</dt><dd>${i.pending ? `${i.pending}건 · ${cnt.map(([d, n]) => `${d} ${n}`).join(" · ")}` : "계류 법안 없음"}</dd>` +
+      (i.korea ? `<dt class="kr">국내 셀사 영향</dt><dd class="kr">${eHi(i.korea)}</dd>` : "") + `</dl>` +
+      `<button class="eiss-more" data-i="${esc(i.id)}" aria-expanded="${open}">관련 법안 ${bills.length}건 ${open ? "접기 ▲" : "펼치기 ▼"}</button>` +
+      (open && bills.length ? `<ul class="erows">${cRows(bills, byIssue, st, i.short)}</ul>` : "") + `</article>`;
+  }).join("");
+  $("#cList").querySelectorAll(".eiss-more").forEach(b => b.onclick = () => {
+    const k = "i:" + b.dataset.i; cOpen.has(k) ? cOpen.delete(k) : cOpen.add(k); render();
+  });
 }
 
 // ── 국내 법안: assembly.py 가 열린국회정보 API 로 모아 둔 data/assembly.json (6시간마다 확인) ──
