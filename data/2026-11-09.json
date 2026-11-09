@@ -295,13 +295,13 @@
  },
  {
   "section": "EV/ESS",
-  "tag": "산업",
+  "tag": "기업",
   "impact": "0",
   "key": false,
   "region": "",
   "policy": "",
   "title": "1000억 태양광 거인, 집안의 장녀가 무대에 섰다",
-  "original": "1000亿光伏巨头报亏，家族长女走到台前",
+  "original": "1000亿光伏巨头，家族长女走到台前",
   "url": "https://m.21jingji.com/article/20261109/herald/02c8e08326d8f5866047e92a26e558c0.html",
   "source": "21세기경제보도",
   "published": "2026-11-09T01:00+09:00",
@@ -348,5 +348,47 @@
   "source": "더구루",
   "published": "2026-11-09T09:51+09:00",
   "first_seen": "2026-11-09T10:00+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "[영국 350MW/1,243MWh BESS 전력망 연결 및 시운전 완료]",
+  "original": "[UK 350 MW/1,243 MWh BESS completes grid connection and commissioning]",
+  "url": "https://news.metal.com/en/newscontent/4YPTQH2T7GM53RHV7KF235MOA3F4GSQX4ZO66YQ-uk-350-mw1243-mwh-bess-completes-grid-connection-and-commissioning",
+  "source": "SMM",
+  "published": "2026-11-09T10:05+09:00",
+  "first_seen": "2026-11-09T10:06+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "자원",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "콩고, 미국에 광산 투자 실시, 구리-코발트 가공 국산화 촉구 [SMM 구리 아침 회의 요약]",
+  "original": "Congo pushes US to implement mining investment, localize copper-cobalt processing [SMM Copper Morning Meeting Summary]",
+  "url": "https://news.metal.com/en/newscontent/3TED7J3S3PSTBL43C2U3LXG5N3DTDF74NW72LFY-congo-pushes-us-to-implement-mining-investment-localize-copper-cobalt-processing-smm-copper-morning-meeting-summary",
+  "source": "SMM",
+  "published": "2026-11-09T10:00+09:00",
+  "first_seen": "2026-11-09T10:06+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기술",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "세계 최대의 액체 공기 '전력 은행'이 전력망에 연결되어 전기를 생산한다 - Xinhuanet",
+  "original": "全球最大液态空气“充电宝”并网发电-新华网",
+  "url": "https://www.news.cn/tech/20261109/b54e3e50a1af472ab3501ddf7974638a/c.html",
+  "source": "신화통신",
+  "published": "2026-11-09T01:00+09:00",
+  "first_seen": "2026-11-09T10:06+09:00"
  }
 ]
