@@ -768,5 +768,47 @@
   "source": "경제일보",
   "published": "2026-11-09T01:00+09:00",
   "first_seen": "2026-11-09T15:17+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "시장",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "수출 점유율이 기록을 경신하면서 중국 내 Tesla 소매 판매량은 2022년 7월 이후 최저 수준으로 감소했다",
+  "original": "Tesla retail sales in China fall to lowest since July 2022 as export share hits record",
+  "url": "https://cnevpost.com/2026/11/09/tesla-retail-sales-china-oct-2026/",
+  "source": "CnEVPost",
+  "published": "2026-11-09T15:23+09:00",
+  "first_seen": "2026-11-09T15:45+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "자원",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "리튬광석 개념은 계속해서 쇠퇴하고 있다",
+  "original": "锂矿概念持续走低",
+  "url": "https://www.yicai.com/news/103432236.html",
+  "source": "제일재경",
+  "published": "2026-11-09T15:19+09:00",
+  "first_seen": "2026-11-09T15:45+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "중국",
+  "title": "국가 에너지청 총무부에서 \"현대 전력 비즈니스 환경의 \"3개 배치\" 구축의 전형적인 사례 목록\" 출판에 관한 공지 사항을 발표했다",
+  "original": "国家能源局综合司关于公布《现代化用电营商环境“三个一批”建设典型案例清单》的通知",
+  "url": "https://m.21jingji.com/article/20261109/herald/076ec979d8a42b52854a859d1791a04a.html",
+  "source": "21세기경제보도",
+  "published": "2026-11-09T01:00+09:00",
+  "first_seen": "2026-11-09T15:45+09:00"
  }
 ]
