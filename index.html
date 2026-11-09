@@ -1496,7 +1496,7 @@ function eRows(items, byIssue, fallbackShort) {
       `<details class="eraw"><summary>원문 비교 · ${esc(g[0].x.article)}${g.length > 1 ? ` · AM ${nums.join(", ")}` : ""}</summary>` +
       (r.deleted ? `<p class="ediff"><del>${esc((r.diff || []).filter(s => s[0] !== "+").map(s => s[1]).join(""))}</del></p>`
         : `<p class="ediff">${(r.diff || []).map(([op, s]) => op === "+" ? `<ins>${esc(s)}</ins>` : op === "-" ? `<del>${esc(s)}</del>` : esc(s)).join("")}</p>`) +
-      (r.ins_ko && !a0.change ? `<p class="eko">${esc(eKo(r.ins_ko))}</p>` : "") +
+      (r.ins_ko && !a0.change ? `<p class="eko">${r.ko_full ? "<b>수정 문구(국문)</b> " : ""}${esc(eKo(r.ins_ko))}</p>` : "") +
       (r.justification ? `<p class="ejust"><b>사유</b> ${esc(r.justification)}</p>` : "") +
       `<p class="emem">${g.map(it => `<span><b>${esc(who(it))} ${it.a.num}</b> ${esc(it.a.members.join(", ") || "보고관(공동 보고서 초안)")}</span>`).join("")}</p>` +
       `</details></li>`;
@@ -1517,7 +1517,7 @@ function euPop(i, allItems) {
   const cut = (t, n) => t.length > n ? t.slice(0, n) + "…" : t;
   const rows = prs.slice(0, 3).map(it => {
     const r = it.rep, orig = eKo(it.x.original_ko) || it.x.original || "(새 조항)";
-    const ch = r.deleted ? "조항 삭제" : [r.change, r.ins_ko ? `넣은 말: ${cut(eKo(r.ins_ko), 140)}` : ""].filter(Boolean).join(" · ") || "문구 수정";
+    const ch = r.deleted ? "조항 삭제" : [r.change, r.ins_ko ? `${r.ko_full ? "수정 문구" : "넣은 말"}: ${cut(eKo(r.ins_ko), 140)}` : ""].filter(Boolean).join(" · ") || "문구 수정";
     return `<span class="hp-row"><span class="hp-art">${esc(it.x.article)}</span>` +
       `<span class="hp-step"><small>집행위 원안</small>${eHi(cut(orig, 220))}</span><span class="hp-arrow">↓</span>` +
       `<span class="hp-step dr"><small>의회 초안 변경</small>${eHi(ch)}<span class="hp-diff">${eDiffShort(r.diff)}</span></span></span>`;
