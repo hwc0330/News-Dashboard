@@ -1,5 +1,48 @@
 [
  {
+  "id": 11486,
+  "date": "11월 9일 월요일",
+  "posted": "2026-11-09T08:03+09:00",
+  "url": "https://t.me/cjdbj/11486",
+  "items": [
+   {
+    "section": "배터리 셀/소재/광물",
+    "tag": "기업",
+    "title": "현대 아틀라스에 2170 원통형 70개…삼성SDI 초기 공급",
+    "source": "디일렉",
+    "url": "https://han.gl/EfHd3"
+   },
+   {
+    "section": "배터리 셀/소재/광물",
+    "tag": "정책",
+    "title": "중국, 내년 1월 배터리 탄소배출 신고제 확대…한국 소재사도 부담",
+    "source": "더구루",
+    "url": "https://han.gl/XCr36"
+   },
+   {
+    "section": "배터리 셀/소재/광물",
+    "tag": "시장",
+    "title": "나트륨이온 배터리, 셀 원가 LFP와 동등 수준 접근",
+    "source": "ESS News",
+    "url": "https://han.gl/lRzuv"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "정책",
+    "title": "미 상원, 9일 인허가 법안 절차 표결…민주당 승리로 변수",
+    "source": "Political Wire·블룸버그",
+    "url": "https://han.gl/SLp0s"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "정책",
+    "title": "인도, ESS 92GWh에 보조금…배전사 의무 배치 추진, 배터리 40% 현지 조달",
+    "source": "신뤄리튬전지망",
+    "url": "https://han.gl/IduQz"
+   }
+  ]
+ },
+ {
   "id": 11482,
   "date": "11월 6일 금요일",
   "posted": "2026-11-06T07:54+09:00",
@@ -4117,42 +4160,6 @@
     "title": "호주, EV 세제혜택 'ECD' 2027년까지 연장",
     "source": "electrive",
     "url": "https://han.gl/V0kh8"
-   }
-  ]
- },
- {
-  "id": 10858,
-  "date": "4월 30일 목요일",
-  "posted": "2026-04-30T09:10+09:00",
-  "url": "https://t.me/cjdbj/10858",
-  "items": [
-   {
-    "section": "배터리 셀/소재/광물",
-    "tag": "정책",
-    "title": "中, 5월부터 황산 수출 전면 금지…글로벌 공급망 충격",
-    "source": "글로벌이코노믹",
-    "url": "https://han.gl/bX1ZR"
-   },
-   {
-    "section": "배터리 셀/소재/광물",
-    "tag": "정책",
-    "title": "트럼프, 미네소타 광산 개발 금지 해제…핵심 광물 확보 박차",
-    "source": "블로터",
-    "url": "https://han.gl/qs9ic"
-   },
-   {
-    "section": "EV/ESS",
-    "tag": "기업",
-    "title": "테슬라, 네바다 양산 라인서 첫 세미트럭 출고",
-    "source": "electrek",
-    "url": "https://han.gl/moHHI"
-   },
-   {
-    "section": "EV/ESS",
-    "tag": "산업",
-    "title": "칠레, ESS 2030 목표 조기 달성",
-    "source": "ESS-News",
-    "url": "https://han.gl/Z8s3t"
    }
   ]
  }
