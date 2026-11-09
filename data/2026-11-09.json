@@ -278,5 +278,47 @@
   "source": "신화통신",
   "published": "2026-11-09T01:00+09:00",
   "first_seen": "2026-11-09T09:02+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "시장",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "일론 머스크 \"사이버캡, 배터리 용량 줄이고 새로운 색상도 추가\"",
+  "original": "",
+  "url": "https://www.theguru.co.kr/news/article.html?no=109448",
+  "source": "더구루",
+  "published": "2026-11-09T09:12+09:00",
+  "first_seen": "2026-11-09T09:18+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "1000억 태양광 거인, 집안의 장녀가 무대에 섰다",
+  "original": "1000亿光伏巨头，家族长女走到台前",
+  "url": "https://m.21jingji.com/article/20261109/herald/02c8e08326d8f5866047e92a26e558c0.html",
+  "source": "21세기경제보도",
+  "published": "2026-11-09T01:00+09:00",
+  "first_seen": "2026-11-09T09:18+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "산업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "석탄 발전을 능가하는 태양광발전은 우리나라 최대 설치 전력원이 되었다",
+  "original": "超越煤电，光伏成为我国装机第一大电源",
+  "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202611/t20261109_3287889.shtml",
+  "source": "경제일보",
+  "published": "2026-11-09T01:00+09:00",
+  "first_seen": "2026-11-09T09:18+09:00"
  }
 ]

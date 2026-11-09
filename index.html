@@ -368,12 +368,73 @@
     .dday { padding: 6px 14px 4px; }
   }
   /* EU IAA */
-  .etl { list-style: none; margin: 0 0 16px; padding: 0; display: flex; flex-wrap: wrap; gap: 6px; }
-  .etl li { display: flex; align-items: baseline; gap: 6px; padding: 7px 12px; border-radius: 10px; background: var(--card); border: 1px solid var(--line); font-size: 13px; }
+  .enow { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px; margin: 0 0 14px; padding: 10px 14px; border-radius: 12px;
+          background: color-mix(in srgb, var(--accent) 8%, var(--card)); border: 1px solid color-mix(in srgb, var(--accent) 25%, var(--card)); font-size: 13.5px; }
+  .enow-k { font-size: 11.5px; font-weight: 700; color: #fff; background: var(--accent); padding: 2px 8px; border-radius: 6px; }
+  .eweek { margin-left: auto; font-size: 12.5px; color: var(--muted); }
+  .eweek.on { color: var(--orange); font-weight: 700; }
+  .esum { display: grid; grid-template-columns: minmax(0, 3fr) minmax(0, 2fr); gap: 12px; margin-bottom: 12px; }
+  .esum > div { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 14px 16px; }
+  .esum h3 { margin: 0 0 8px; font-size: 14px; font-weight: 700; color: var(--accent); }
+  .esum-r { border-top: 4px solid var(--orange) !important; }
+  .esum-r h3 { color: var(--orange); }
+  .esum ol { margin: 0; padding-left: 18px; font-size: 13.5px; line-height: 1.65; color: var(--text); }
+  .esum ol li + li { margin-top: 4px; }
+  .esum p { margin: 0; font-size: 13.5px; line-height: 1.65; }
+  .esum-note { grid-column: 1 / -1; font-size: 11.5px !important; color: var(--soft); margin-top: -4px !important; }
+  .ecards { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr)); gap: 10px; margin-bottom: 16px; }
+  .ecard { font: inherit; text-align: left; cursor: pointer; background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px;
+           color: var(--text); display: flex; flex-direction: column; gap: 8px; }
+  .ecard:hover { border-color: var(--accent); }
+  .ecard-l { font-size: 13.5px; font-weight: 700; }
+  .ecard-steps { display: grid; grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr) auto minmax(0, 1fr); align-items: start; gap: 4px; font-size: 13px; font-weight: 600; }
+  .ecard-steps span { display: flex; flex-direction: column; gap: 2px; min-width: 0; overflow-wrap: anywhere; }
+  .ecard-steps small { font-size: 10.5px; font-weight: 500; color: var(--muted); }
+  .ecard-steps .dr { color: var(--accent); }
+  .ecard-steps i { font-style: normal; color: var(--soft); padding-top: 14px; }
+  .etl { list-style: none; margin: 0 0 16px; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(260px, 100%), 1fr)); gap: 6px; }
+  .etl li { display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 6px; padding: 8px 12px; border-radius: 10px; background: var(--card);
+            border: 1px solid var(--line); border-left: 4px solid var(--accent); font-size: 13px; }
+  .etl li.s-co { border-left-color: var(--orange); } .etl li.s-ms { border-left-color: var(--eu); }
   .etl li .mono { color: var(--accent); font-weight: 600; }
   .etl li small { color: var(--muted); font-size: 11.5px; }
-  .etl li.future { border-style: dashed; color: var(--muted); }
-  .etl li.future .mono { color: var(--orange); }
+  .eside { font-size: 11px; font-weight: 700; color: var(--muted); }
+  .enote { flex-basis: 100%; font-size: 12px; color: var(--muted); line-height: 1.5; }
+  .etl li.future { border-style: dashed; border-left-style: solid; background: none; }
+  .eviews { margin: 4px 0 12px; }
+  .edir { display: inline-block; font-size: 11px; font-weight: 700; padding: 1px 7px; border-radius: 6px; white-space: nowrap; background: var(--chip); color: var(--dim); }
+  .edir.up { background: color-mix(in srgb, var(--up) 14%, var(--card)); color: var(--up); }
+  .edir.dn { background: color-mix(in srgb, var(--eu) 15%, var(--card)); color: var(--eu); }
+  .edir.del { background: var(--chip); color: var(--muted); text-decoration: line-through; }
+  .edir.add { background: color-mix(in srgb, var(--orange) 14%, var(--card)); color: var(--orange); }
+  .eiss { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 14px 16px 6px; margin-bottom: 10px; scroll-margin-top: 16px; }
+  .eiss.core { border-left: 4px solid var(--accent); }
+  .eiss-h { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 8px; }
+  .eiss-h h4 { margin: 0; font-size: 15.5px; font-weight: 700; }
+  .erank { font-size: 12px; font-weight: 700; color: #fff; background: var(--accent); border-radius: 6px; padding: 1px 7px; }
+  .ecore { font-size: 11.5px; font-weight: 700; color: var(--orange); }
+  .ecounts { margin-left: auto; display: inline-flex; gap: 4px; }
+  .eiss-g { display: grid; grid-template-columns: 92px minmax(0, 1fr); gap: 5px 10px; margin: 10px 0 4px; font-size: 13.5px; line-height: 1.55; }
+  .eiss-g dt { font-size: 12px; font-weight: 700; color: var(--muted); padding-top: 1px; }
+  .eiss-g dd { margin: 0; color: var(--dim); }
+  .eiss-g .dr { color: var(--accent); } .eiss-g dt.up { color: var(--up); } .eiss-g dt.dn { color: var(--eu); }
+  .eiss-g .kr { color: var(--orange); } .eiss-g dd.kr { color: var(--text); }
+  .eiss-g b { color: inherit; }
+  .eiss-more { font: inherit; background: none; border: 0; cursor: pointer; color: var(--accent); font-weight: 600; font-size: 13px; padding: 8px 0; min-height: 40px; }
+  .erows { list-style: none; margin: 0 0 6px; padding: 0; }
+  .erow { padding: 8px 0; border-top: 1px solid var(--line2); }
+  .erow-h { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 8px; font-size: 13.5px; line-height: 1.55; }
+  .egist { flex: 1 1 320px; min-width: 0; color: var(--text); }
+  .ewho { font-size: 12px; color: var(--muted); white-space: nowrap; }
+  .epr { font-size: 11px; font-weight: 700; color: var(--accent); border: 1px solid var(--accent); border-radius: 6px; padding: 0 6px; }
+  details.eraw summary { cursor: pointer; font-size: 12px; color: var(--soft); margin-top: 2px; }
+  .ediff { margin: 6px 0 4px; font-size: 13px; line-height: 1.65; color: var(--dim); white-space: pre-line; }
+  .ediff ins { text-decoration: none; background: color-mix(in srgb, #2F9E44 18%, var(--card)); color: var(--text); border-radius: 3px; }
+  .ediff del { color: var(--up); text-decoration: line-through; }
+  .eko { margin: 2px 0 0; font-size: 13px; line-height: 1.6; color: var(--text); }
+  .ejust { margin: 4px 0 0; font-size: 12.5px; color: var(--muted); line-height: 1.55; }
+  .emem { margin: 6px 0 2px; display: flex; flex-direction: column; gap: 2px; font-size: 12px; color: var(--muted); }
+  .emem b { color: var(--dim); }
   .eart { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 4px 16px 10px; margin-bottom: 10px; }
   .eart-h { font: inherit; width: 100%; display: flex; flex-wrap: wrap; align-items: center; gap: 6px; background: none; border: 0; padding: 10px 0 6px;
             cursor: pointer; color: var(--text); text-align: left; min-height: 44px; }
@@ -381,16 +442,12 @@
   .eart-n { margin-left: auto; font-size: 12.5px; color: var(--accent); font-weight: 600; }
   .eorig { margin: 0 0 6px; font-size: 13px; line-height: 1.6; color: var(--dim); }
   .eorig b { color: var(--muted); font-size: 12px; margin-right: 4px; }
-  .eams { list-style: none; margin: 4px 0 0; padding: 0; }
-  .eams > li { padding: 10px 0; border-top: 1px solid var(--line2); }
-  .eam-h { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 8px; font-size: 13px; }
-  .eam-h .mono { color: var(--accent); font-weight: 600; }
-  .eam-m { font-size: 12px; color: var(--muted); }
-  .eam-d { margin-left: auto; color: var(--soft) !important; font-weight: 400 !important; }
-  .ediff { margin: 6px 0 4px; font-size: 13px; line-height: 1.65; color: var(--dim); white-space: pre-line; }
-  .ediff ins { text-decoration: none; background: color-mix(in srgb, var(--eu) 16%, var(--card)); color: var(--text); border-radius: 3px; }
-  .ediff del { color: var(--up); text-decoration: line-through; }
-  .eko { margin: 2px 0 0; font-size: 13px; line-height: 1.6; color: var(--text); }
+  @media (max-width: 700px) {
+    .esum { grid-template-columns: minmax(0, 1fr); }
+    .eiss-g { grid-template-columns: minmax(0, 1fr); gap: 1px; }
+    .eiss-g dd { margin-bottom: 6px; }
+    .ecounts { margin-left: 0; }
+  }
 
   @media (max-width: 700px) {
     .wrap { padding: 18px 16px 40px; }
@@ -493,17 +550,20 @@
     <div class="phead">
       <div>
         <div class="kicker mono">EU · 2026/0068(COD) · INDUSTRIAL ACCELERATOR ACT</div>
-        <div class="headline" id="eHeadline">EU 산업가속화법 수정안</div>
+        <div class="headline">EU 산업가속화법 <small>· 전기차·배터리</small></div>
         <div class="xupd" id="eUpd"></div>
       </div>
-      <input type="search" class="csearch" id="eQ" placeholder="조항·의원·내용 검색" aria-label="수정안 검색">
+      <input type="search" class="csearch" id="eQ" placeholder="검색 (예: 양극재, 49%, 법인차)" aria-label="수정안 검색">
     </div>
+    <div class="enow" id="eNow"></div>
+    <div class="esum" id="eSummary"></div>
+    <div class="ecards" id="eCards"></div>
     <ul class="etl" id="eTimeline"></ul>
-    <div class="chips" id="eKinds"></div>
+    <div class="seg eviews" id="eViews" role="group" aria-label="보기"></div>
     <div class="chips" id="eTopics"></div>
-    <div class="chips last" id="eGroups"></div>
+    <div class="chips last" id="eDirs"></div>
     <div id="eList"><p class="empty">불러오는 중…</p></div>
-    <p class="foot">유럽의회 위원회(INTA·ITRE·IMCO 공동)에 제출된 보고서 초안·수정안 중 원안·수정안·사유에 배터리·전기차·완성차·충전·핵심광물 단어가 있는 것만 · 파란 바탕 = 넣은 말, 빨간 줄 = 지운 말 (집행위 원안 대비) · 국문은 자동 번역</p>
+    <p class="foot">유럽의회 공동위원회(INTA·ITRE·IMCO) 보고서 초안·의원 수정안 중 전기차·배터리 관련 + 쟁점 조항(FDI·비용 예외 등) · 방향(강화·완화)은 숫자·문구 변화로 자동 판정 · 초록 = 넣은 말, 빨강 = 지운 말 (집행위 원안 대비) · 국문은 자동 번역 · 요약·쟁점 문장은 eu_iaa_issues.json</p>
   </div>
 
   <div id="dartView" hidden>
@@ -1063,7 +1123,7 @@ function billCard(b, byNo, st) {
     `<div class="steps ksteps${b.stage >= 5 ? " law" : ""}" role="img" aria-label="진행 단계 ${esc(st[b.stage])}">` +
     st.map((x, k) => `<i class="${k <= b.stage ? "on" : ""}" title="${esc(x)}"></i>`).join("") + `<span>${status}</span></div>` +
     (b.subcommittee ? `<div class="act"><b>${esc(b.subcommittee)}</b>${b.sub_present ? ` · ${ymd(b.sub_present)} 상정` : ""}${b.sub_proc ? ` · ${ymd(b.sub_proc)} ${esc(b.sub_result || "처리")}` : ""}</div>` : "") +
-    (head ? `<p class="kpoint">${numHi(esc(head.length > 260 ? head.slice(0, 260) + "…" : head))}</p>` : "") +
+    (head ? `<p class="kpoint">${eHi((head.length > 260 ? head.slice(0, 260) + "…" : head))}</p>` : "") +
     (b.meetings.length ? `<details class="crs"><summary>회의 기록 ${b.meetings.length}건${last ? ` · 최근 ${ymd(last.date)} ${esc(kMeetLabel(last))}` : ""}${b.meetings.some(kNew) ? ' <span class="badge new">NEW</span>' : ""}</summary><ol class="tl">` +
       b.meetings.slice().reverse().map(m => `<li class="${/소위/.test(m.name) ? "subm" : ""}"><span class="mono">${ymd(m.date)}</span><div><b>${esc(kMeetLabel(m))}</b>` +
         `${kNew(m) ? ' <span class="badge new">NEW</span>' : ""}<span class="acts">${m.acts.map(a => `<i class="${/의결|가결/.test(a) ? "done" : ""}">${esc(a)}</i>`).join("")}</span>` +
@@ -1071,9 +1131,9 @@ function billCard(b, byNo, st) {
     (cmp ? `<details class="crs cmp"><summary>이전 대비 바뀐 내용 · ${cmp.kind} ${esc(cmp.no)}` +
       ` <span class="cnt">추가 ${cmp.items.filter(x => x.t === "add").length} · 수정 ${cmp.items.filter(x => x.t === "chg").length} · 삭제 ${cmp.items.filter(x => x.t === "del").length}</span></summary>` +
       `<div class="cmp-with">비교 대상: ${esc(cmp.name)} (${esc(cmp.proposer)}, ${ymd(cmp.date)})${cmp.same ? ` · 같은 문장 ${cmp.same}개` : ""}</div><ul class="diff">` +
-      cmp.items.map(x => x.t === "add" ? `<li class="add"><span>추가</span><p>${numHi(esc(x.text))}</p></li>`
+      cmp.items.map(x => x.t === "add" ? `<li class="add"><span>추가</span><p>${eHi((x.text))}</p></li>`
         : x.t === "del" ? `<li class="del"><span>삭제</span><p>${esc(x.text)}</p></li>`
-        : `<li class="chg"><span>수정</span><p>${x.seg.map(([op, s]) => op === "+" ? `<ins>${numHi(esc(s))}</ins>` : op === "-" ? `<del>${esc(s)}</del>` : esc(s)).join("")}</p></li>`).join("") +
+        : `<li class="chg"><span>수정</span><p>${x.seg.map(([op, s]) => op === "+" ? `<ins>${eHi((s))}</ins>` : op === "-" ? `<del>${esc(s)}</del>` : esc(s)).join("")}</p></li>`).join("") +
       `</ul></details>` : "") +
     `<details class="crs"><summary>제안이유 · 주요내용 전체</summary>${b.reason ? `<p><b>제안이유</b> ${esc(b.reason)}</p>` : ""}<p class="pre">${esc(b.summary)}</p></details>` +
     `</article>`;
@@ -1145,83 +1205,188 @@ function renderDart() {
 }
 
 // ── EU 산업가속화법(IAA): eu_iaa.py 가 유럽의회 공개 데이터로 모아 둔 전기차·배터리 수정안 data/eu_iaa.json ──
-let eu, eTopic = null, eGroup = null, eKind = null, eOpen = new Set();
-const E_KINDS = ["본문 조항", "부속서", "전문(Recital)"];
-const E_EVENT = {REFERRAL: "위원회 회부", COMMITTEE_TABLING_REPORT: "보고서 초안 제출", COMMITTEE_TABLING_AMENDMENT: "수정안 제출",
+// 쟁점별 보기(기본) / 조항별 보기. 쟁점·요약·카드 문장은 eu_iaa_issues.json
+let eu, eView = "issue", eTopic = null, eDir = null, eCore = false, eOpen = new Set(), eDocs = {};
+try { eView = localStorage.getItem("eView") || "issue"; } catch (e) {}
+const E_EVENT = {REFERRAL: "위원회 회부", COMMITTEE_TABLING_REPORT: "의회 보고서 초안 제출", COMMITTEE_TABLING_AMENDMENT: "의원 수정안 제출",
   COMMITTEE_ADOPTING_OPINION: "의견 위원회(ENVI) 의견 채택", COMMITTEE_VOTE: "위원회 표결", COMMITTEE_ADOPTING_REPORT: "위원회 보고서 채택",
   TABLING_PLENARY: "본회의 상정", PLENARY_VOTE: "본회의 표결", PLENARY_DEBATE: "본회의 토론", INTERINSTITUTIONAL_NEGOTIATIONS: "3자 협상"};
 const E_GROUPS = [["EPP", /PPE|EPP/], ["S&D", /S&D/], ["Renew", /Renew/], ["Greens/EFA", /Verts|Greens/], ["ECR", /ECR/],
-  ["PfE", /PfE|Patriots/], ["The Left", /Left|GUE/], ["ESN", /ESN/], ["무소속(NI)", /^NI$/]];
-const eGroupOf = a => (E_GROUPS.find(([, re]) => re.test(a.group || "")) || [""])[0];
-const eNew = a => a.seen && new Date(a.seen) > newSince;
+  ["PfE", /PfE|Patriots/], ["The Left", /Left|GUE/], ["ESN", /ESN/], ["NI", /^NI$/]];
+const eGroupOf = a => (E_GROUPS.find(([, re]) => re.test(a.group || "")) || ["무소속"])[0];
+const E_DIRS = ["강화", "완화", "삭제"];
+const E_WEEK = 7 * 864e5;
+const eRecent = iso => iso && (new Date(iso) > newSince || Date.now() - new Date(iso) < E_WEEK);
+// 한글 검색어 → 영어 원문에서도 찾기
+const E_SYN = {"양극재": "cathode", "음극재": "anode", "셀": "cell", "배터리": "batter", "리튬": "lithium", "니켈": "nickel", "흑연": "graphite",
+  "원자재": "raw material", "법인차": "corporate", "보조금": "support scheme", "조달": "procurement", "중국": "china|non-market|chinese",
+  "지분": "share capital|ownership", "합작": "joint venture", "인력": "workforce", "ESS": "energy storage", "충전": "charging",
+  "슈퍼크레딧": "super.credit", "파트너": "partner|free trade", "바인더": "binder", "BMS": "battery management"};
 
 async function loadEu() {
   try { eu = await getData("eu_iaa.json", EMBED ? (EMBED.eu_iaa || null) : undefined); } catch (e) { eu = null; }
-  if (eu) $("#euN").textContent = eu.ev_total;
+  if (eu) {
+    $("#euN").textContent = eu.ev_total;
+    eDocs = Object.fromEntries(eu.docs.map(d => [d.id, d]));
+  }
   dataArrived("euiaa");
 }
 
+// 수정안 한 줄 요지: [방향] 쟁점 변화 (그룹 번호)
+function eGist(a, short) {
+  if (a.change) return `${short} ${a.change}`;
+  if (a.deleted) return `${short} 조항 삭제`;
+  const t = (a.ins_ko || "").replace(/\s+/g, " ").trim();
+  if (t) return `${short}${a.new ? " 신설" : ""}: ${t.length > 90 ? t.slice(0, 90) + "…" : t}`;
+  return `${short} ${a.new ? "신설" : "문구 수정"}`;
+}
+// 숫자 굵게 (HTML 엔티티 &#39; 안의 숫자는 건드리지 않음)
+const eHi = t => esc(t).replace(/(?<!&#\d*)(\d[\d,.]*\s*(?:%|개|년|개월|억|유로|GW|MWh)?)/g, "<b>$1</b>");
+const eDirCls = d => ({강화: "up", 완화: "dn", 삭제: "del", 신설: "add"})[d] || "mod";
+
 function renderEu() {
   if (!eu) { $("#eList").innerHTML = '<p class="empty">불러오는 중…</p>'; return; }
-  const q = $("#eQ").value.trim().toLowerCase();
-  const all = eu.articles.flatMap(x => x.amendments.map(a => ({x, a})));
-  $("#eHeadline").innerHTML = `전기차·배터리 수정안 ${eu.ev_total}건 <small>· 전체 수정안 ${eu.total.toLocaleString("en-US")}건 중 · 조항 ${eu.articles.length}개</small>`;
-  const next = (eu.forecasts || []).find(f => f.date >= new Date().toISOString().slice(0, 10));
-  $("#eUpd").innerHTML = `<span>출처 <b>유럽의회 공개 데이터</b></span><span>확인 <b>${esc(when(eu.checked || eu.updated))}</b></span>` +
-    (eu.pending ? `<span>${eu.pending}건은 다음 수집 때 이어서 정리</span>` : "") +
-    (next ? `<span>다음 <b>${ymd(next.date)} ${esc(next.ko || next.subject)}</b></span>` : "") +
-    `<a href="${esc(eu.oeil)}" target="_blank" rel="noopener">절차 원문</a>`;
+  const issues = eu.issues || [], byIssue = Object.fromEntries(issues.map(i => [i.id, i]));
+  const all = eu.articles.flatMap(x => x.amendments.map(a => ({x, a, rep: a})));
+  const repOf = {};                                                   // 같은 문구 묶음의 대표(비교문 가진 것)
+  all.forEach(it => { if (!it.a.same) repOf[it.x.article + "|" + it.a.num] = it.a; });
+  all.forEach(it => { if (it.a.same) it.rep = repOf[it.x.article + "|" + it.a.same] || it.a; });
 
-  // 진행
-  const evs = [], seenType = {};
+  // ── 머리: 현재 위치 · 이번 주 변경 ──
+  const evs = [];
+  const seenT = {};
   eu.events.forEach(ev => {
     const k = ev.date + ev.type;
-    if (seenType[k]) { seenType[k].n += ev.docs.length || 1; return; }
-    seenType[k] = {...ev, n: ev.docs.length || 1}; evs.push(seenType[k]);
+    if (seenT[k]) { seenT[k].n += ev.docs.length || 1; return; }
+    seenT[k] = {date: ev.date, side: "의회", label: E_EVENT[ev.type] || ev.type, n: ev.docs.length || 1, multi: ev.type === "COMMITTEE_TABLING_AMENDMENT"};
+    evs.push(seenT[k]);
   });
-  (eu.forecasts || []).forEach(f => evs.push({date: f.date, type: "", label: f.ko || f.subject, future: true}));
-  $("#eTimeline").innerHTML = evs.sort((a, b) => a.date.localeCompare(b.date)).map(ev =>
-    `<li class="${ev.future ? "future" : ""}"><span class="mono">${ymd(ev.date)}</span><b>${esc(ev.label || E_EVENT[ev.type] || ev.type)}</b>` +
-    (ev.type === "COMMITTEE_TABLING_AMENDMENT" ? `<small>${ev.n}묶음</small>` : "") + (ev.future ? "<small>예정</small>" : "") + `</li>`).join("");
+  (eu.forecasts || []).forEach(f => evs.push({date: f.date, side: "의회", label: f.ko || f.subject, planned: true}));
+  (eu.council || []).forEach(c => evs.push({...c}));
+  evs.sort((a, b) => a.date.localeCompare(b.date));
+  const today = new Date().toISOString().slice(0, 10);
+  const weekAm = all.filter(it => it.a.seen && Date.now() - new Date(it.a.seen) < E_WEEK).length;
+  const weekEv = evs.filter(e => !e.planned && e.date <= today && Date.now() - new Date(e.date + "T00:00:00+09:00") < E_WEEK).length;
+  $("#eUpd").innerHTML = `<span>출처 <b>유럽의회 공개 데이터</b></span><span>확인 <b>${esc(when(eu.checked || eu.updated))}</b></span>` +
+    (eu.pending ? `<span>${eu.pending}건은 다음 수집 때 이어서 정리</span>` : "") + `<a href="${esc(eu.oeil)}" target="_blank" rel="noopener">절차 원문</a>`;
+  $("#eNow").innerHTML = `<span class="enow-k">현재 위치</span><b>${esc(eu.position || "")}</b>` +
+    `<span class="eweek${weekAm + weekEv ? " on" : ""}">이번 주 변경 ${weekAm + weekEv}건${weekAm ? ` · 수정안 ${weekAm}` : ""}${weekEv ? ` · 일정 ${weekEv}` : ""}</span>`;
 
-  const text = ({x, a}) => `${x.article} ${x.original} ${x.original_ko} ${a.members.join(" ")} ${a.group} ${a.amended_ko} ${a.justification} ${a.diff.map(s => s[1]).join("")}`.toLowerCase();
-  const kindOf = x => x.kind || (x.article.startsWith("Article") ? "본문 조항" : x.article.startsWith("Annex") ? "부속서" : "전문(Recital)");
-  const keep = (it, skip) => (!q || text(it).includes(q)) && (skip === "topic" || !eTopic || it.x.topics.includes(eTopic)) &&
-    (skip === "group" || !eGroup || eGroupOf(it.a) === eGroup) && (skip === "kind" || !eKind || kindOf(it.x) === eKind);
-  const forK = all.filter(it => keep(it, "kind"));
-  chipRow($("#eKinds"), [["", "모든 조항", forK.length]].concat(E_KINDS.map(k => [k, esc(k), forK.filter(it => kindOf(it.x) === k).length]).filter(x => x[2])),
-          eKind, v => { eKind = v; render(); });
-  const forT = all.filter(it => keep(it, "topic"));
-  chipRow($("#eTopics"), [["", "전체 주제", forT.length]].concat(eu.topics.map(t => [t, esc(t), forT.filter(it => it.x.topics.includes(t)).length]).filter(x => x[2])),
+  // ── 핵심 요약 + 숫자 카드 ──
+  $("#eSummary").innerHTML = `<div class="esum-l"><h3>핵심 요약</h3><ol>${(eu.summary || []).map(s => `<li>${eHi((s))}</li>`).join("")}</ol></div>` +
+    `<div class="esum-r"><h3>국내 셀사 영향</h3><p>${eHi((eu.korea || ""))}</p></div>` +
+    (eu.draft_note ? `<p class="esum-note">${esc(eu.draft_note)}</p>` : "");
+  $("#eCards").innerHTML = (eu.cards || []).map(c => `<button class="ecard" data-issue="${esc(c.issue)}"><span class="ecard-l">${esc(c.label)}</span>` +
+    `<span class="ecard-steps"><span><small>원안</small>${esc(c.commission)}</span><i>→</i><span class="dr"><small>의회 초안</small>${esc(c.draft)}</span>` +
+    `<i>→</i><span><small>의원안 범위</small>${esc(c.range)}</span></span></button>`).join("");
+  $("#eCards").querySelectorAll(".ecard").forEach(b => b.onclick = () => {
+    eView = "issue"; eOpen.add("i:" + b.dataset.issue); render();
+    setTimeout(() => { const el = document.getElementById("ei-" + b.dataset.issue); if (el) el.scrollIntoView({behavior: "smooth", block: "start"}); }, 50);
+  });
+
+  // ── 진행 일정 (의회·이사회·회원국) ──
+  $("#eTimeline").innerHTML = evs.map(ev => `<li class="${ev.planned ? "future" : ""} s-${ev.side === "의회" ? "ep" : ev.side === "이사회" ? "co" : "ms"}">` +
+    `<span class="mono">${ymd(ev.date)}</span><span class="eside">${esc(ev.side)}</span><b>${esc(ev.label)}</b>` +
+    (ev.multi ? `<small>${ev.n}묶음</small>` : "") + (ev.planned ? "<small>예정</small>" : "") +
+    (ev.note ? `<span class="enote">${esc(ev.note)}</span>` : "") + `</li>`).join("");
+
+  // ── 보기 전환 · 필터 ──
+  $("#eViews").innerHTML = [["issue", "쟁점별 보기"], ["article", "조항별 보기"]].map(([k, l]) =>
+    `<button data-v="${k}" aria-pressed="${eView === k}">${l}</button>`).join("");
+  $("#eViews").querySelectorAll("button").forEach(b => b.onclick = () => { eView = b.dataset.v; try { localStorage.setItem("eView", eView); } catch (e) {} render(); });
+  const q = $("#eQ").value.trim().toLowerCase();
+  const qre = q ? new RegExp([q.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"), ...Object.entries(E_SYN).filter(([k]) => q.includes(k.toLowerCase())).map(([, v]) => v)].join("|"), "i") : null;
+  const amText = it => `${it.x.article} ${it.x.original_ko} ${it.x.original} ${eGist(it.rep, "")} ${it.a.members.join(" ")} ${it.a.group} ${(it.rep.diff || []).map(s => s[1]).join("")} ${it.a.justification}`;
+  const issueText = i => `${i.title} ${i.commission} ${i.draft} ${i.stronger} ${i.weaker} ${i.korea}`;
+  const keepAm = (it, skip) => (skip === "topic" || !eTopic || it.a.topic === eTopic) && (skip === "dir" || !eDir || it.a.dir === eDir) &&
+    (!eCore || it.a.issues.some(id => byIssue[id] && byIssue[id].core)) && (!qre || qre.test(amText(it)) || it.a.issues.some(id => byIssue[id] && qre.test(issueText(byIssue[id]))));
+  const forT = all.filter(it => keepAm(it, "topic"));
+  chipRow($("#eTopics"), [["", "전체 주제", forT.length]].concat((eu.topics || []).map(t => [t, esc(t), forT.filter(it => it.a.topic === t).length]).filter(x => x[2])),
           eTopic, v => { eTopic = v; render(); });
-  const forG = all.filter(it => keep(it, "group"));
-  chipRow($("#eGroups"), [["", "모든 정치그룹", forG.length]].concat(E_GROUPS.map(([g]) => [g, g, forG.filter(it => eGroupOf(it.a) === g).length]).filter(x => x[2])),
-          eGroup, v => { eGroup = v; render(); });
+  const forD = all.filter(it => keepAm(it, "dir"));
+  chipRow($("#eDirs"), [["", "모든 방향", forD.length]].concat(E_DIRS.map(d => [d, `<span class="edir ${eDirCls(d)}">${d}</span>`, forD.filter(it => it.a.dir === d).length])),
+          eDir, v => { eDir = v; render(); });
+  $("#eDirs").insertAdjacentHTML("beforeend", `<button class="chip" id="eCoreBtn" aria-pressed="${eCore}">★ 핵심만 보기</button>`);
+  $("#eCoreBtn").onclick = () => { eCore = !eCore; render(); };
 
-  const shown = all.filter(it => keep(it));
+  const shown = all.filter(it => keepAm(it));
+  if (eView === "issue") renderEuIssues(issues, shown, q, qre, issueText);
+  else renderEuArticles(shown, byIssue, q);
+}
+
+// 같은 문구 수정안 묶음 → 한 줄
+function eRows(items, byIssue, fallbackShort) {
+  const groups = new Map();
+  items.forEach(it => {
+    const key = it.x.article + "|" + (it.a.same || it.a.num);
+    if (!groups.has(key)) groups.set(key, []);
+    groups.get(key).push(it);
+  });
+  return [...groups.values()].sort((g1, g2) => g2.length - g1.length || g1[0].a.num - g2[0].a.num).map(g => {
+    const r = g[0].rep, a0 = g[0].a;
+    const short = (a0.issues.map(id => byIssue[id] && byIssue[id].short).find(Boolean)) || fallbackShort || g[0].x.article.replace(/ – .*/, "");
+    const who = it => (eDocs[it.a.doc] || {}).kind === "보고서 초안" ? "의회 초안" : eGroupOf(it.a);
+    const byG = {};
+    g.forEach(it => { const k = who(it); byG[k] = (byG[k] || 0) + 1; });
+    const gs = Object.entries(byG).sort((a, b) => b[1] - a[1]).map(([k, n]) => `${k} ${n}`).join(", ");
+    const nums = g.map(it => it.a.num).sort((a, b) => a - b);
+    const fresh = g.some(it => eRecent(it.a.seen));
+    const pr = g.some(it => (eDocs[it.a.doc] || {}).kind === "보고서 초안");
+    return `<li class="erow">` +
+      `<div class="erow-h"><span class="edir ${eDirCls(a0.dir)}">${esc(a0.dir)}</span>${pr ? '<span class="epr">의회 초안</span>' : ""}` +
+      `<span class="egist">${eHi((eGist(r, short)))}</span>` +
+      `<span class="ewho">${g.length > 1 ? `동일안 ${g.length}건 – ${esc(gs)}` : `${esc(who(g[0]))} ${a0.num}`}</span>` +
+      (fresh ? '<span class="badge new">NEW</span>' : "") + `</div>` +
+      `<details class="eraw"><summary>원문 비교 · ${esc(g[0].x.article)}${g.length > 1 ? ` · AM ${nums.join(", ")}` : ""}</summary>` +
+      (r.deleted ? `<p class="ediff"><del>${esc((r.diff || []).filter(s => s[0] !== "+").map(s => s[1]).join(""))}</del></p>`
+        : `<p class="ediff">${(r.diff || []).map(([op, s]) => op === "+" ? `<ins>${esc(s)}</ins>` : op === "-" ? `<del>${esc(s)}</del>` : esc(s)).join("")}</p>`) +
+      (r.ins_ko && !a0.change ? `<p class="eko">${esc(r.ins_ko)}</p>` : "") +
+      (r.justification ? `<p class="ejust"><b>사유</b> ${esc(r.justification)}</p>` : "") +
+      `<p class="emem">${g.map(it => `<span><b>${esc(who(it))} ${it.a.num}</b> ${esc(it.a.members.join(", ") || "보고관(공동 보고서 초안)")}</span>`).join("")}</p>` +
+      `</details></li>`;
+  }).join("");
+}
+
+function renderEuIssues(issues, shown, q, qre, issueText) {
+  const byIssue = Object.fromEntries(issues.map(i => [i.id, i]));
+  const list = issues.filter(i => (!eTopic || i.topic === eTopic || shown.some(it => it.a.issues.includes(i.id))) && (!eCore || i.core))
+    .map(i => ({i, ams: shown.filter(it => it.a.issues.includes(i.id))}))
+    .filter(({i, ams}) => ams.length || (!eDir && !eTopic && (!qre || qre.test(issueText(i)))));
+  if (!list.length) { $("#eList").innerHTML = '<p class="empty">해당하는 쟁점이 없습니다.</p>'; return; }
+  $("#eList").innerHTML = list.map(({i, ams}) => {
+    const open = eOpen.has("i:" + i.id) || !!q;
+    const fresh = ams.filter(it => eRecent(it.a.seen)).length;
+    const c = i.counts || {};
+    return `<article class="eiss${i.core ? " core" : ""}" id="ei-${esc(i.id)}">` +
+      `<div class="eiss-h"><span class="erank mono">${i.rank}</span><h4>${esc(i.title)}</h4><span class="ttag">${esc(i.topic)}</span>` +
+      (i.core ? '<span class="ecore">★ 핵심</span>' : "") + (fresh ? `<span class="badge new">NEW ${fresh}</span>` : "") +
+      `<span class="ecounts">${E_DIRS.map(d => c[d] ? `<span class="edir ${eDirCls(d)}">${d} ${c[d]}</span>` : "").join("")}</span></div>` +
+      `<dl class="eiss-g"><dt>원안</dt><dd>${eHi((i.commission))}</dd><dt class="dr">의회 초안</dt><dd class="dr">${eHi((i.draft))}</dd>` +
+      `<dt class="up">강화안</dt><dd>${eHi((i.stronger))}</dd><dt class="dn">완화안</dt><dd>${eHi((i.weaker))}</dd>` +
+      `<dt class="kr">국내 셀사 영향</dt><dd class="kr">${eHi((i.korea))}</dd></dl>` +
+      `<button class="eiss-more" data-i="${esc(i.id)}" aria-expanded="${open}">관련 수정안 ${ams.length}건 ${open ? "접기 ▲" : "펼치기 ▼"}</button>` +
+      (open && ams.length ? `<ul class="erows">${eRows(ams, byIssue, i.short)}</ul>` : "") + `</article>`;
+  }).join("");
+  $("#eList").querySelectorAll(".eiss-more").forEach(b => b.onclick = () => {
+    const k = "i:" + b.dataset.i; eOpen.has(k) ? eOpen.delete(k) : eOpen.add(k); render();
+  });
+}
+
+function renderEuArticles(shown, byIssue, q) {
   if (!shown.length) { $("#eList").innerHTML = '<p class="empty">해당하는 수정안이 없습니다.</p>'; return; }
   const byArt = new Map();
-  shown.forEach(it => { if (!byArt.has(it.x)) byArt.set(it.x, []); byArt.get(it.x).push(it.a); });
-  $("#eList").innerHTML = [...byArt].map(([x, ams]) => {
-    const open = eOpen.has(x.article) || q || byArt.size <= 3;
-    const fresh = ams.filter(eNew).length;
+  shown.forEach(it => { if (!byArt.has(it.x)) byArt.set(it.x, []); byArt.get(it.x).push(it); });
+  $("#eList").innerHTML = [...byArt].map(([x, items]) => {
+    const open = eOpen.has("a:" + x.article) || !!q || byArt.size <= 3;
+    const fresh = items.filter(it => eRecent(it.a.seen)).length;
     return `<article class="eart"><button class="eart-h" data-a="${esc(x.article)}" aria-expanded="${!!open}">` +
       `<span class="eart-t">${esc(x.article)}</span>${x.topics.map(t => `<span class="ttag">${esc(t)}</span>`).join("")}` +
-      (fresh ? `<span class="badge new">NEW ${fresh}</span>` : "") + `<span class="eart-n">수정안 ${ams.length}건 ${open ? "▲" : "▼"}</span></button>` +
+      (fresh ? `<span class="badge new">NEW ${fresh}</span>` : "") + `<span class="eart-n">수정안 ${items.length}건 ${open ? "▲" : "▼"}</span></button>` +
       (x.original_ko || x.original ? `<p class="eorig"><b>집행위 원안</b> ${esc(x.original_ko || x.original)}</p>` : "") +
-      (open ? `<ol class="eams">${ams.map(a => {
-        const who = a.group ? `${eGroupOf(a) || a.group}` : (a.members[0] || "");
-        return `<li><div class="eam-h"><span class="mono">AM ${a.num}</span><b>${esc(who)}</b>` +
-          `<span class="eam-m">${esc(a.members.join(", "))}${a.more ? ` 외 ${a.more}명` : ""}</span>` +
-          (eNew(a) ? '<span class="badge new">NEW</span>' : "") + `<span class="mono eam-d">${ymd(a.date)}</span></div>` +
-          (a.deleted ? `<p class="ediff"><del>${esc(a.diff.filter(s => s[0] !== "+").map(s => s[1]).join(""))}</del></p><p class="eko">→ 삭제 제안</p>`
-            : `<p class="ediff">${a.diff.map(([op, s]) => op === "+" ? `<ins>${esc(s)}</ins>` : op === "-" ? `<del>${esc(s)}</del>` : esc(s)).join("")}</p>` +
-              (a.amended_ko ? `<p class="eko">${esc(a.amended_ko)}</p>` : "")) +
-          (a.justification ? `<details class="crs"><summary>제안 사유</summary><p>${esc(a.justification)}</p></details>` : "") + `</li>`;
-      }).join("")}</ol>` : "") + `</article>`;
+      (open ? `<ul class="erows">${eRows(items, byIssue)}</ul>` : "") + `</article>`;
   }).join("");
   $("#eList").querySelectorAll(".eart-h").forEach(b => b.onclick = () => {
-    eOpen.has(b.dataset.a) ? eOpen.delete(b.dataset.a) : eOpen.add(b.dataset.a); render();
+    const k = "a:" + b.dataset.a; eOpen.has(k) ? eOpen.delete(k) : eOpen.add(k); render();
   });
 }
 
