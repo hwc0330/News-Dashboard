@@ -306,6 +306,7 @@
   .meet-pdf { margin-left: auto; font-size: 12px; font-weight: 600; color: var(--accent); }
   .meet-c { font-size: 11.5px; color: var(--soft); margin: 2px 0 4px; }
   .meet ul { list-style: none; margin: 0; padding: 0; }
+  .meet li.meet-more { font-size: 12px; color: var(--muted); }
   .meet li { display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 8px; padding: 7px 0; border-top: 1px solid var(--line2); font-size: 13.5px; }
   .meet li a { font-weight: 600; }
   .meet-p { font-size: 12px; color: var(--muted); }
@@ -611,12 +612,16 @@
       </div>
       <input type="search" class="csearch" id="kQ" placeholder="법안·의원·위원회 검색" aria-label="국내 법안 검색">
     </div>
+    <div class="enow" id="kNow"></div>
+    <div class="esum" id="kSummary"></div>
+    <div class="ecards" id="kCards"></div>
+    <ul class="etl" id="kTimeline"></ul>
     <div class="funnel" id="kFunnel" role="group" aria-label="진행 단계"></div>
     <div class="chips" id="kTopics"></div>
     <div class="chips last" id="kFilters"></div>
     <div class="ksec">소위 회의별 상정 기록<span class="n" id="kMeetN"></span></div>
     <div class="meets" id="kMeetings"></div>
-    <div class="ksec">법안</div>
+    <div class="ksec">법안 <span class="n">최근 움직인 순</span></div>
     <div class="bills" id="kList"><p class="empty">불러오는 중…</p></div>
     <p class="foot">법안 이름과 제안이유·주요내용에 전기차·배터리(이차전지)·태양광·생산세액공제(한국판 IRA)가 나오는 22대 국회 법률안 · '이전 대비 바뀐 내용'은 위원회 대안이면 흡수한 원안, 아니면 같은 법을 고치는 직전 유사 법안과 주요내용을 문장 단위로 비교 · 숫자는 굵게</p>
   </div>
@@ -1129,6 +1134,29 @@ function renderAssembly() {
   $("#kUpd").innerHTML = `<span>출처 <b>열린국회정보</b></span><span>확인 <b>${esc(when(asm.updated))}</b></span>` +
     (asm.pending ? `<span>${asm.pending}건은 다음 수집 때 이어서 정리</span>` : "");
 
+  // 현재 위치 · 이번 주 변경 (마우스를 올리거나 누르면 목록)
+  const today = new Date().toISOString().slice(0, 10);
+  const inWeekD = d => d && d <= today && Date.now() - new Date(d + "T00:00:00+09:00") < E_WEEK;
+  const wItems = [];
+  all.forEach(b => { if (eRecent(b.seen) || inWeekD(b.date)) wItems.push({date: b.date, text: `[새 법안] ${b.name} · ${b.rep || b.proposer}`}); });
+  const mg = {};
+  all.forEach(b => b.meetings.forEach(m => { if (inWeekD(m.date)) { const k = m.date + "|" + b.committee + "|" + m.name; (mg[k] = mg[k] || {date: m.date, c: b.committee, m, n: 0}).n++; } }));
+  Object.values(mg).forEach(g => wItems.push({date: g.date, text: `[회의] ${g.c} ${kMeetLabel(g.m)} · 법안 ${g.n}건`}));
+  (asm.timeline || []).filter(t => t.kind === "공포" || t.kind === "일정").filter(t => !t.planned && inWeekD(t.date))
+    .forEach(t => wItems.push({date: t.date, text: `[${t.kind}] ${t.label}`}));
+  const nb = wItems.filter(i => i.text.startsWith("[새")).length, nm = wItems.length - nb;
+  $("#kNow").innerHTML = `<span class="enow-k">현재 위치</span><b>${esc(asm.position || "")}</b>` +
+    weekBox(wItems.length, `${nb ? ` · 법안 ${nb}` : ""}${nm ? ` · 회의·일정 ${nm}` : ""}`, wItems);
+  $("#kSummary").innerHTML = (asm.summary || []).length ? `<div class="esum-l"><h3>핵심 요약</h3><ol>${asm.summary.map(x => `<li>${eHi(x)}</li>`).join("")}</ol></div>` +
+    `<div class="esum-r"><h3>국내 셀사 영향</h3><p>${eHi(asm.korea || "")}</p></div>` +
+    (asm.draft_note ? `<p class="esum-note">${esc(asm.draft_note)}</p>` : "") : "";
+  $("#kCards").innerHTML = (asm.cards || []).map(c => `<div class="ecard"><span class="ecard-l">${esc(c.label)}</span>` +
+    `<span class="ecard-steps"><span><small>이전</small>${esc(c.before)}</span><i>→</i><span class="dr"><small>현행</small>${esc(c.now)}</span>` +
+    `<i>→</i><span><small>계류 법안</small>${esc(c.pending || "—")}</span></span></div>`).join("");
+  $("#kTimeline").innerHTML = (asm.timeline || []).map(t => `<li class="${t.planned ? "future" : ""} s-${t.kind === "공포" ? "co" : t.kind === "회의" ? "ep" : "ms"}">` +
+    `<span class="mono">${ymd(t.date)}</span><span class="eside">${esc(t.kind || "")}</span><b>${esc(t.label)}</b>` +
+    (t.planned ? "<small>예정</small>" : "") + (t.note ? `<span class="enote">${esc(t.note)}</span>` : "") + `</li>`).join("");
+
   const text = b => `${b.name} ${b.proposer} ${b.committee} ${b.subcommittee} ${b.summary} ${b.no}`.toLowerCase();
   const byQ = all.filter(b => !q || text(b).includes(q));
   const f = K_FILTERS.find(x => x[0] === kFilter);
@@ -1149,14 +1177,16 @@ function renderAssembly() {
   chipRow($("#kFilters"), [["", "모두", forFilter.length]].concat(K_FILTERS.map(([k, label, fn]) => [k, label, forFilter.filter(fn).length])),
           kFilter, v => { kFilter = v; render(); });
 
-  const shown = byQ.filter(b => keep(b));
+  const shown = byQ.filter(b => keep(b)).sort((a, b) => kLast(b).localeCompare(kLast(a)) || b.no.localeCompare(a.no));
   renderMeetings(shown);
   if (!shown.length) { $("#kList").innerHTML = '<p class="empty">해당하는 법안이 없습니다.</p>'; return; }
   const byNo = Object.fromEntries(all.map(b => [b.no, b]));
   $("#kList").innerHTML = shown.map(b => billCard(b, byNo, st)).join("");
 }
 
-// 소위 회의별 상정 기록: 같은 날·같은 위원회·같은 회의에 올라간 법안을 묶어 최신 순
+// 법안이 마지막으로 움직인 날 (발의·회의·처리 중 가장 늦은 날)
+const kLast = b => [b.date, ...Object.values(b.dates || {}), ...b.meetings.map(m => m.date)].filter(Boolean).sort().pop() || "";
+// 소위 회의별 상정 기록: 같은 날·같은 위원회·같은 회의에 올라간 법안을 묶어 최신 순 (최근 3회, 회의마다 4건까지)
 function renderMeetings(bills) {
   const groups = {};
   bills.forEach(b => b.meetings.forEach(m => {
@@ -1165,7 +1195,7 @@ function renderMeetings(bills) {
     (groups[key] = groups[key] || {date: m.date, committee: b.committee, sub: b.subcommittee, m, items: []}).items.push({b, m});
   }));
   const list = Object.values(groups).sort((a, b) => b.date.localeCompare(a.date));
-  const show = kMeetAll ? list : list.slice(0, 6);
+  const show = kMeetAll ? list : list.slice(0, 3);
   $("#kMeetN").textContent = list.length ? `${list.length}회` : "";
   $("#kMeetings").innerHTML = !list.length ? '<p class="empty">소위에 오른 법안이 없습니다.</p>' : show.map(g =>
     `<article class="meet${g.items.some(x => kNew(x.m)) ? " fresh" : ""}"><div class="meet-h"><span class="mono">${ymd(g.date)}</span>` +
@@ -1173,11 +1203,12 @@ function renderMeetings(bills) {
     (g.items.some(x => kNew(x.m)) ? '<span class="badge new">NEW</span>' : "") +
     (g.m.pdf ? `<a class="meet-pdf" href="${esc(g.m.pdf)}" target="_blank" rel="noopener">회의록</a>` : "") + `</div>` +
     `<div class="meet-c">${esc(g.committee)}</div><ul>` +
-    g.items.map(({b, m}) => `<li><a href="#k-${b.no}" data-no="${b.no}">${esc(b.name.replace(/ 일부개정법률안| 전부개정법률안/, "").replace(/법률안$/, ""))}</a>` +
+    g.items.slice(0, kMeetAll ? 99 : 4).map(({b, m}) => `<li><a href="#k-${b.no}" data-no="${b.no}">${esc(b.name.replace(/ 일부개정법률안| 전부개정법률안/, "").replace(/법률안$/, ""))}</a>` +
       `<span class="meet-p">${esc(b.alt ? "위원회 대안" : b.rep ? b.rep + " 의원" : b.proposer)}</span>` +
       `<span class="acts">${m.acts.map(a => `<i class="${/의결|가결/.test(a) ? "done" : ""}">${esc(a)}</i>`).join("")}</span></li>`).join("") +
+    (!kMeetAll && g.items.length > 4 ? `<li class="meet-more">외 ${g.items.length - 4}건</li>` : "") +
     `</ul></article>`).join("") +
-    (list.length > 6 ? `<button class="more" id="kMeetMore">${kMeetAll ? "접기" : `지난 회의 ${list.length - 6}회 더 보기`}</button>` : "");
+    (list.length > 3 || list.some(g => g.items.length > 4) ? `<button class="more" id="kMeetMore">${kMeetAll ? "접기" : `전체 보기 (${list.length}회)`}</button>` : "");
   const more = $("#kMeetMore"); if (more) more.onclick = () => { kMeetAll = !kMeetAll; render(); };
   $("#kMeetings").querySelectorAll("a[data-no]").forEach(a => a.onclick = ev => {
     ev.preventDefault();
@@ -1199,7 +1230,8 @@ function billCard(b, byNo, st) {
   return `<article class="kbill" id="k-${b.no}">` +
     `<div class="bill-top"><span class="ch">${esc(b.committee || "소관위 미정")}</span><span class="mono blabel">${esc(b.no)}</span>` +
     (b.ira ? '<span class="ttag ira">한국판 IRA</span>' : "") + b.topics.filter(t => t !== "한국판 IRA·세제").map(t => `<span class="ttag">${esc(t)}</span>`).join("") +
-    `<span class="time mono">${ymd(b.date)} 발의</span></div>` +
+    (eRecent(b.seen) ? '<span class="badge new">NEW</span>' : "") +
+    `<span class="time mono">${kLast(b) === b.date ? `${ymd(b.date)} 발의` : `최근 ${ymd(kLast(b))}`}</span></div>` +
     `<a class="bill-t" href="${esc(b.url)}" target="_blank" rel="noopener">${esc(b.name)}</a>` +
     `<div class="spon"><i class="pdot ${pc}"></i><span>${who}</span></div>` +
     `<div class="steps ksteps${b.stage >= 5 ? " law" : ""}" role="img" aria-label="진행 단계 ${esc(st[b.stage])}">` +

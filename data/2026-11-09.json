@@ -295,13 +295,13 @@
  },
  {
   "section": "EV/ESS",
-  "tag": "기업",
+  "tag": "산업",
   "impact": "0",
   "key": false,
   "region": "",
   "policy": "",
   "title": "1000억 태양광 거인, 집안의 장녀가 무대에 섰다",
-  "original": "1000亿光伏巨头，家族长女走到台前",
+  "original": "1000亿光伏巨头报亏，家族长女走到台前",
   "url": "https://m.21jingji.com/article/20261109/herald/02c8e08326d8f5866047e92a26e558c0.html",
   "source": "21세기경제보도",
   "published": "2026-11-09T01:00+09:00",
@@ -390,5 +390,19 @@
   "source": "신화통신",
   "published": "2026-11-09T01:00+09:00",
   "first_seen": "2026-11-09T10:06+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "[SMM PV Flash] SunVest, 일리노이주와 미네소타주 지역사회 태양광 프로젝트 인수",
+  "original": "[SMM PV Flash] SunVest Acquires Community Solar Projects in Illinois and Minnesota",
+  "url": "https://news.metal.com/en/newscontent/6CAVQCIDEUF2DSZ5GOL33LLQO54TNCVKLKUFMDA-smm-pv-flash-sunvest-acquires-community-solar-projects-in-illinois-and-minnesota",
+  "source": "SMM",
+  "published": "2026-11-09T10:08+09:00",
+  "first_seen": "2026-11-09T10:15+09:00"
  }
 ]
