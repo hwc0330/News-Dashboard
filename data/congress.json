@@ -343,8 +343,8 @@
 ],
 "conf_hash": "1b2174f2414f",
 "congress": 119,
-"checked": "2026-11-09T16:41+00:00",
-"updated": "2026-11-10T01:41+09:00",
+"checked": "2026-11-10T00:27+00:00",
+"updated": "2026-11-10T09:27+09:00",
 "topics": [
 "전기차 세액공제",
 "배터리·제조",
@@ -2487,14 +2487,15 @@
 "policy_area": "Economics and Public Finance",
 "topics": [
 "전기차 세액공제",
+"배터리·제조",
 "핵심광물",
 "배출·연비 규제",
 "전기차 일반"
 ],
 "china": false,
-"summary": "This bill reduces taxes, reduces or increases spending for various federal programs, increases the statutory debt limit, and otherwise addresses agencies and programs throughout the federal government. It is known as a reconciliation bill and includes legislation submitted by several congressional committees pursuant to provisions in the FY2025 congressional budget resolution (H Con. Res. 14) that directed the committees to submit legislation to the House or Senate Budget Committee that will increase or decrease the deficit and increase the statutory debt limit by specified amounts.",
-"summary_ko": "이 법안은 세금을 줄이고, 다양한 연방 프로그램에 대한 지출을 줄이거나 늘리며, 법정 부채 한도를 늘리고, 기타 연방 정부 전체의 기관 및 프로그램에 대한 문제를 다루고 있습니다. 이는 화해 법안으로 알려져 있으며, 적자를 늘리거나 줄이고 법정 부채 한도를 특정 금액만큼 늘리는 법안을 하원 또는 상원 예산 위원회에 제출하도록 위원회에 지시한 FY2025 의회 예산 결의안(H Con. Res. 14)의 조항에 따라 여러 의회 위원회가 제출한 법안을 포함합니다.",
-"updated": "2026-09-19T23:26:15Z",
+"summary": "This act reduces taxes, reduces or increases spending for various federal programs, increases the statutory debt limit, and otherwise addresses agencies and programs throughout the federal government. It is known as a reconciliation bill and includes legislation submitted by several congressional committees pursuant to provisions in the FY2025 congressional budget resolution (H Con. Res. 14) that directed the committees to submit legislation to the House or Senate Budget Committee that will increase or decrease the deficit and increase the statutory debt limit by specified amounts.",
+"summary_ko": "이 법안은 세금을 줄이고, 다양한 연방 프로그램에 대한 지출을 줄이거나 늘리며, 법정 부채 한도를 늘리고, 기타 연방 정부 전체의 기관 및 프로그램에 대해 다루고 있습니다. 이는 화해 법안으로 알려져 있으며, 적자를 늘리거나 줄이고 법정 부채 한도를 특정 금액만큼 늘리는 법안을 하원 또는 상원 예산 위원회에 제출하도록 위원회에 지시한 FY2025 의회 예산 결의안(H Con. Res. 14)의 조항에 따라 여러 의회 위원회가 제출한 법안을 포함합니다.",
+"updated": "2026-11-09T22:41:05Z",
 "law": "Public Law 119-21",
 "issues": [
 "ev_credit"

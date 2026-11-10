@@ -1,5 +1,55 @@
 [
  {
+  "id": 11491,
+  "date": "11월 10일 화요일",
+  "posted": "2026-11-10T08:02+09:00",
+  "url": "https://t.me/cjdbj/11491",
+  "items": [
+   {
+    "section": "배터리 셀/소재/광물",
+    "tag": "기업",
+    "title": "BMW, 6세대 배터리에 LG엔솔·삼성SDI 추가…유럽·미국 분담",
+    "source": "electrive",
+    "url": "https://han.gl/MZ6Hp"
+   },
+   {
+    "section": "배터리 셀/소재/광물",
+    "tag": "정책",
+    "title": "산업부, 헝가리 배터리 기업 지원 요청…EU 배터리법 준비기간 강조",
+    "source": "전기신문",
+    "url": "https://han.gl/DaRdx"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "정책",
+    "title": "정부, 전기차 생산세액공제 검토…중국산 EV 등록 2.2배",
+    "source": "디일렉",
+    "url": "https://han.gl/jQy3v"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "정책",
+    "title": "테슬라·BYD, 11월에도 자체 보조금…국고 소진 지역 겨냥",
+    "source": "전자신문",
+    "url": "https://han.gl/oNGt3"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "기업",
+    "title": "BMW, 노이어 클라세에 LFP 확대…차종·용도 선별 적용",
+    "source": "InsideEVs",
+    "url": "https://han.gl/jA4xh"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "정책",
+    "title": "트럼프, 인허가 법안 공개 지지…상원 60표 문턱 표결",
+    "source": "Rigzone·블룸버그",
+    "url": "https://han.gl/VWidY"
+   }
+  ]
+ },
+ {
   "id": 11486,
   "date": "11월 9일 월요일",
   "posted": "2026-11-09T08:03+09:00",
@@ -4117,49 +4167,6 @@
     "title": "中 지리차, 스페인 포드 공장서 EV 생산 검토",
     "source": "ZDnet",
     "url": "https://han.gl/a2B9l"
-   }
-  ]
- },
- {
-  "id": 10875,
-  "date": "5월 6일 수요일",
-  "posted": "2026-05-06T08:21+09:00",
-  "url": "https://t.me/cjdbj/10875",
-  "items": [
-   {
-    "section": "배터리 셀/소재/광물",
-    "tag": "산업",
-    "title": "中 화유코발트, 짐바브웨산 황산리튬 첫 선적",
-    "source": "더구루",
-    "url": "https://han.gl/1HkEM"
-   },
-   {
-    "section": "배터리 셀/소재/광물",
-    "tag": "산업",
-    "title": "알루미늄 가격 3주만 최대폭 상승…공급차질 지속",
-    "source": "mining .com",
-    "url": "https://han.gl/rPH9S"
-   },
-   {
-    "section": "EV/ESS",
-    "tag": "산업",
-    "title": "노르웨이 4월 신차 BEV 비중 98.6% 사상 최고",
-    "source": "electrive",
-    "url": "https://han.gl/8scy9"
-   },
-   {
-    "section": "EV/ESS",
-    "tag": "정책",
-    "title": "EU, 中 인버터·PCS 사용 ESS·태양광 자금 지원 제한",
-    "source": "ess-news",
-    "url": "https://han.gl/EeX5c"
-   },
-   {
-    "section": "EV/ESS",
-    "tag": "정책",
-    "title": "호주, EV 세제혜택 'ECD' 2027년까지 연장",
-    "source": "electrive",
-    "url": "https://han.gl/V0kh8"
    }
   ]
  }
