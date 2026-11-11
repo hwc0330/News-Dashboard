@@ -343,8 +343,8 @@
 ],
 "conf_hash": "1b2174f2414f",
 "congress": 119,
-"checked": "2026-11-10T15:51+00:00",
-"updated": "2026-11-11T00:55+09:00",
+"checked": "2026-11-11T01:30+00:00",
+"updated": "2026-11-11T10:30+09:00",
 "topics": [
 "전기차 세액공제",
 "배터리·제조",
@@ -3655,7 +3655,7 @@
 "china": false,
 "summary": "This bill repeals grant programs that provide funding for electric vehicle charging infrastructure and alternative fueling infrastructure. Specifically, the bill repeals the Charging and Fueling Infrastructure Grant Program under which the Department of Transportation provides grants for acquiring and installing publicly accessible electric vehicle charging infrastructure, hydrogen fueling infrastructure, propane fueling infrastructure, or natural gas fueling infrastructure that is directly related to the charging or fueling of a vehicle.",
 "summary_ko": "이 법안은 전기차 충전 인프라와 대체 연료 공급 인프라에 자금을 제공하는 보조금 프로그램을 폐지합니다. 특히, 이 법안은 차량 충전이나 연료 공급과 직접적으로 관련된 공개적으로 접근 가능한 전기차 충전 인프라, 수소 연료 공급 인프라, 프로판 연료 공급 인프라 또는 천연가스 연료 공급 인프라를 획득하고 설치하기 위해 교통부가 보조금을 제공하는 충전 및 연료 공급 인프라 보조금 프로그램을 폐지합니다.",
-"updated": "2026-03-19T10:49:16Z",
+"updated": "2026-11-10T19:47:22Z",
 "issues": [
 "charging"
 ],
@@ -4192,7 +4192,7 @@
 "china": false,
 "summary": "",
 "summary_ko": "",
-"updated": "2025-05-05T14:54:27Z",
+"updated": "2026-11-10T21:25:05Z",
 "issues": [
 "minerals"
 ],

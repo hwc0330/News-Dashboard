@@ -1,5 +1,69 @@
 [
  {
+  "id": 11496,
+  "date": "11월 11일 수요일",
+  "posted": "2026-11-11T08:13+09:00",
+  "url": "https://t.me/cjdbj/11496",
+  "items": [
+   {
+    "section": "배터리 셀/소재/광물",
+    "tag": "기업",
+    "title": "대형 전력망 동맹 확산…CATL·EVE·LG엔솔 등 7개사 ESS 메가딜",
+    "source": "글로벌이코노믹",
+    "url": "https://han.gl/UfFeP"
+   },
+   {
+    "section": "배터리 셀/소재/광물",
+    "tag": "기업",
+    "title": "LG엔솔, 중국 ESS에 각형 LFP 첫 납품 추진…난징 400MWh",
+    "source": "더구루",
+    "url": "https://han.gl/qBsjf"
+   },
+   {
+    "section": "배터리 셀/소재/광물",
+    "tag": "기업",
+    "title": "CATL, 교환망으로 나트륨이온 승용차 확산 추진…교환소 3000곳",
+    "source": "CnEVPost",
+    "url": "https://han.gl/UOmoq"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "정책",
+    "title": "美 중간선거 후 K-배터리 ‘웃음’…IRA 리스크 걷혔지만 대중국 견제는 유지",
+    "source": "전기신문",
+    "url": "https://han.gl/rC3CJ"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "시장",
+    "title": "中 10월 NEV 소매 점유율 BYD 22.4%…지리 2위, 테슬라 10위권 밖",
+    "source": "CnEVPost",
+    "url": "https://han.gl/Bq4Gj"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "시장",
+    "title": "BYD, 올해 해외 판매 목표 180만대로 상향…1~10월 150만대",
+    "source": "ChinaEVHome",
+    "url": "https://han.gl/Nkgih"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "정책",
+    "title": "네덜란드, 2040년 배터리 저장 110GWh 목표 첫 설정…2025년 말의 50배 이상",
+    "source": "ESS News",
+    "url": "https://han.gl/un8xX"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "시장",
+    "title": "중국 10월 NEV 점유율 BYD 22.4%…테슬라 톱10 탈락",
+    "source": "CnEVPost",
+    "url": "https://han.gl/P4f1G"
+   }
+  ]
+ },
+ {
   "id": 11491,
   "date": "11월 10일 화요일",
   "posted": "2026-11-10T08:02+09:00",
@@ -4131,42 +4195,6 @@
     "title": "포르쉐, 배터리 자회사 Cellforce 폐쇄…핵심 사업 집중",
     "source": "electrive",
     "url": "https://han.gl/5Gglt"
-   }
-  ]
- },
- {
-  "id": 10898,
-  "date": "5월 8일 금요일",
-  "posted": "2026-05-08T08:57+09:00",
-  "url": "https://t.me/cjdbj/10898",
-  "items": [
-   {
-    "section": "배터리 셀/소재/광물",
-    "tag": "정책",
-    "title": "EU·인도, EV 배터리 재활용 1520만 유로 투자",
-    "source": "electrive",
-    "url": "https://han.gl/itXQj"
-   },
-   {
-    "section": "배터리 셀/소재/광물",
-    "tag": "산업",
-    "title": "CATL, 튀르키예 Togg와 EV 섀시 협력",
-    "source": "Reuters",
-    "url": "https://han.gl/lHBbk"
-   },
-   {
-    "section": "EV/ESS",
-    "tag": "산업",
-    "title": "테슬라, 4월 국내 수입차 판매 1.3만대 돌파",
-    "source": "ZDnet",
-    "url": "https://han.gl/15inQ"
-   },
-   {
-    "section": "EV/ESS",
-    "tag": "산업",
-    "title": "中 지리차, 스페인 포드 공장서 EV 생산 검토",
-    "source": "ZDnet",
-    "url": "https://han.gl/a2B9l"
    }
   ]
  }
