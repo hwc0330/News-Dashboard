@@ -132,12 +132,12 @@
 "counts": {
 "중국 견제": 5,
 "규제 강화": 3,
-"지원 확대": 37,
+"지원 확대": 38,
 "기타": 1
 },
-"pending": 46,
+"pending": 47,
 "laws": [],
-"n": 46
+"n": 47
 },
 {
 "id": "emissions",
@@ -286,13 +286,6 @@
 "kind": "일정"
 },
 {
-"date": "2026-07-15",
-"label": "H.R. 4090 한 원 통과",
-"note": "청문회 개최",
-"kind": "진행",
-"id": "119-hr4090"
-},
-{
 "date": "2026-07-27",
 "label": "S. 4784 위원회 통과",
 "note": "상원 심의 착수 동의",
@@ -328,6 +321,13 @@
 "id": "119-hr10346"
 },
 {
+"date": "2026-10-29",
+"label": "H.R. 9640 위원회 통과",
+"note": "하원 본회의 일정 등록",
+"kind": "진행",
+"id": "119-hr9640"
+},
+{
 "date": "2026-11-03",
 "label": "중간선거",
 "note": "하원 전체·상원 1/3",
@@ -343,8 +343,8 @@
 ],
 "conf_hash": "1b2174f2414f",
 "congress": 119,
-"checked": "2026-11-12T11:56+00:00",
-"updated": "2026-11-12T20:56+09:00",
+"checked": "2026-11-12T19:47+00:00",
+"updated": "2026-11-13T04:47+09:00",
 "topics": [
 "전기차 세액공제",
 "배터리·제조",
@@ -361,6 +361,51 @@
 "법률 제정"
 ],
 "bills": [
+{
+"id": "119-hr9640",
+"type": "HR",
+"number": "9640",
+"label": "H.R. 9640",
+"chamber": "하원",
+"title": "Earth MRI Reauthorization Act of 2026",
+"full": "",
+"official": "To amend the Infrastructure Investment and Jobs Act to reauthorize the Earth Mapping Resources Initiative.",
+"official_ko": "지구 매핑 자원 이니셔티브를 재승인하기 위해 인프라 투자 및 일자리법을 개정합니다.",
+"url": "https://www.congress.gov/bill/119th-congress/house-bill/9640",
+"introduced": "2026-07-09",
+"latest": "Placed on the Union Calendar, Calendar No. 759.",
+"latest_ko": "하원 본회의 일정 등록",
+"latest_date": "2026-10-29",
+"stage": 1,
+"sponsor": {
+"name": "Rep. Wittman, Robert J. [R-VA-1]",
+"first": "Robert",
+"last": "Wittman",
+"party": "R",
+"state": "VA",
+"id": "W000804"
+},
+"cosponsors": {
+"n": 8,
+"D": 4,
+"R": 4
+},
+"policy_area": "Energy",
+"topics": [
+"핵심광물"
+],
+"china": false,
+"summary": "This bill reauthorizes through FY2031 the Earth Mapping Resources Initiative, a U.S. Geological Survey (USGS) program charged with integrating and modernizing the mapping of U.S. natural resources, with a focus on critical mineral resources such as lithium and titanium. The bill also expands the initiative’s data integration functions and requires the USGS to give preference to U.S. contractors under the initiative.",
+"summary_ko": "이 법안은 리튬 및 티타늄과 같은 핵심 광물 자원에 중점을 두고 미국 천연 자원의 매핑을 통합하고 현대화하는 미국 지질 조사국(USGS) 프로그램인 지구 매핑 자원 이니셔티브(Earth Mapping Resources Initiative)를 FY2031까지 재승인합니다. 이 법안은 또한 이니셔티브의 데이터 통합 ​​기능을 확장하고 USGS가 이니셔티브에 따라 미국 계약자에게 우선권을 부여하도록 요구합니다.",
+"updated": "2026-11-04T22:07:12Z",
+"issues": [
+"minerals"
+],
+"dir": "지원 확대",
+"group": "earth mri reauthorization act",
+"seen": "2026-11-13T04:47+09:00",
+"changed": ""
+},
 {
 "id": "119-hr10834",
 "type": "HR",
