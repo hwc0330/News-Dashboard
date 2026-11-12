@@ -1,5 +1,48 @@
 [
  {
+  "id": 11499,
+  "date": "11월 12일 목요일",
+  "posted": "2026-11-12T07:57+09:00",
+  "url": "https://t.me/cjdbj/11499",
+  "items": [
+   {
+    "section": "배터리 셀/소재/광물",
+    "tag": "기업",
+    "title": "현대차그룹·삼성SDI, 각형 셀 배터리팩 공동 특허 공개",
+    "source": "한국경제",
+    "url": "https://han.gl/ZMdMm"
+   },
+   {
+    "section": "배터리 셀/소재/광물",
+    "tag": "정책",
+    "title": "중국, 배터리 소재 수출통제 시행 내년 1월 10일까지 재유예…음극재 의존 여전",
+    "source": "글로벌이코노믹",
+    "url": "https://han.gl/eOZS1"
+   },
+   {
+    "section": "배터리 셀/소재/광물",
+    "tag": "정책",
+    "title": "헝가리 진출 K-배터리 6사, ESG 공동선언문 서명…현지 규제 강화 대응",
+    "source": "더구루",
+    "url": "https://han.gl/hjoET"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "정책",
+    "title": "미 상원 인허가 법안, 데이터센터 비용 전가 금지 강화",
+    "source": "White & Case",
+    "url": "https://han.gl/4Pp0U"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "정책",
+    "title": "국산 전기차에 국내생산세액공제 요구…수입 전기차 점유율 51.3%",
+    "source": "머니투데이",
+    "url": "https://han.gl/YJSA7"
+   }
+  ]
+ },
+ {
   "id": 11496,
   "date": "11월 11일 수요일",
   "posted": "2026-11-11T08:13+09:00",
@@ -4152,49 +4195,6 @@
     "title": "포드, 美 BESS 자회사 'Ford Energy' 출범",
     "source": "electrek",
     "url": "https://han.gl/4hfuC"
-   }
-  ]
- },
- {
-  "id": 10905,
-  "date": "5월 11일 월요일",
-  "posted": "2026-05-11T08:15+09:00",
-  "url": "https://t.me/cjdbj/10905",
-  "items": [
-   {
-    "section": "배터리 셀/소재/광물",
-    "tag": "기업",
-    "title": "CATL, 나트륨이온 배터리 40GWh 증설",
-    "source": "cnevpost",
-    "url": "https://han.gl/Kmcnr"
-   },
-   {
-    "section": "배터리 셀/소재/광물",
-    "tag": "산업",
-    "title": "中 전해액 산업 재편 본격화…한국행 수출 50.9% 급증",
-    "source": "더구루",
-    "url": "https://han.gl/OJx1e"
-   },
-   {
-    "section": "EV/ESS",
-    "tag": "정책",
-    "title": "美 NHTSA, 테슬라 모델 Y가 첫 신ADAS 테스트 통과",
-    "source": "Reuters",
-    "url": "https://han.gl/M5bpI"
-   },
-   {
-    "section": "EV/ESS",
-    "tag": "기업",
-    "title": "스텔란티스·립모터, 스페인서 EV 합작 생산 추진",
-    "source": "Reuters",
-    "url": "https://han.gl/AiWAh"
-   },
-   {
-    "section": "EV/ESS",
-    "tag": "기업",
-    "title": "포르쉐, 배터리 자회사 Cellforce 폐쇄…핵심 사업 집중",
-    "source": "electrive",
-    "url": "https://han.gl/5Gglt"
    }
   ]
  }

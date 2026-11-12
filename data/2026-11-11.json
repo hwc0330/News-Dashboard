@@ -2268,20 +2268,6 @@
   "first_seen": "2026-11-12T01:25+09:00"
  },
  {
-  "section": "기타",
-  "tag": "기타",
-  "impact": "0",
-  "key": false,
-  "region": "US",
-  "policy": "미국",
-  "title": "상원 허가 리드는 문제 해결사 간부회 지원을 모색한다",
-  "original": "Senate Permitting Leads Seek Problem Solvers Caucus Support",
-  "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOUC1IRmhwck5IMWdqNHVWdFhKbVpZbzdZX3djSWZleHRVSkVJWENwbXdYR2gySDNzRGRjNXJodzBzakhHWnB3TkhVTXlEcGd2Y3ZFcEFVb2tDd1paaUZvMTV1NFROYkNTdDBZODI1WmdBekJoSm00dFk4a19VVWx5ZzVMM2w?oc=5",
-  "source": "미 의회",
-  "published": "2026-11-11T23:36+09:00",
-  "first_seen": "2026-11-12T01:25+09:00"
- },
- {
   "section": "EV/ESS",
   "tag": "기업",
   "impact": "0",
@@ -3484,5 +3470,47 @@
   "source": "DIGITIMES",
   "published": "2026-11-11T11:31+09:00",
   "first_seen": "2026-11-12T07:56+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "韓, 2035년 글로벌 전기화율 35% 달성 공약 지지",
+  "original": "",
+  "url": "https://www.electimes.com/news/articleView.html?idxno=374648",
+  "source": "전기신문",
+  "published": "2026-11-11T21:00+09:00",
+  "first_seen": "2026-11-12T12:44+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "전력거래소, 하반기 15명 채용…AI·전력계통 전문인력 확충",
+  "original": "",
+  "url": "https://www.electimes.com/news/articleView.html?idxno=374538",
+  "source": "전기신문",
+  "published": "2026-11-11T18:26+09:00",
+  "first_seen": "2026-11-12T12:44+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "당신은 \"새로운\"丨초원의 \"큰 전력 은행\" 중 하나이다. 풍력 터빈의 전기는 어디로 갑나?",
+  "original": "“新”中有你丨草原上的“大充电宝” 风机传出来的电去哪了？",
+  "url": "http://yun.ce.cn/zjyd/top/left/202611/t20261111_3290928.shtml",
+  "source": "경제일보",
+  "published": "2026-11-11T01:00+09:00",
+  "first_seen": "2026-11-12T12:44+09:00"
  }
 ]
