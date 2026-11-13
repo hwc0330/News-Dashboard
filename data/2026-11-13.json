@@ -3302,5 +3302,61 @@
   "source": "신뤄리튬전지망",
   "published": "2026-11-13T01:00+09:00",
   "first_seen": "2026-11-14T00:38+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "Southern Co., 천연가스, 원자력 및 기타 투자에 1000억 달러 지출 계획 검토",
+  "original": "Southern Co. eyes $100B spending plan on natural gas, nuclear and other investments",
+  "url": "https://www.utilitydive.com/news/southern/874111/",
+  "source": "Utility Dive",
+  "published": "2026-11-13T23:45+09:00",
+  "first_seen": "2026-11-14T06:39+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "정책",
+  "impact": "0",
+  "key": true,
+  "region": "EU",
+  "policy": "",
+  "title": "인도의 그리드 규모 배터리 셀 입찰에서 22건의 입찰이 이루어졌다",
+  "original": "India’s grid-scale battery cell tender draws 22 bids",
+  "url": "https://www.ess-news.com/2026/11/13/indias-grid-scale-battery-cell-tender-draws-22-bids/",
+  "source": "ESS News",
+  "published": "2026-11-13T22:30+09:00",
+  "first_seen": "2026-11-14T00:38+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "EU",
+  "policy": "",
+  "title": "Masdar, 캘리포니아에서 173.7MW 배터리 프로젝트 완료",
+  "original": "Masdar completes 173.7 MW battery project in California",
+  "url": "https://www.ess-news.com/2026/11/13/masdar-completes-173-7-mw-battery-project-in-california/",
+  "source": "ESS News",
+  "published": "2026-11-13T22:15+09:00",
+  "first_seen": "2026-11-14T06:39+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "Jensen Huang의 출발로 AI 붐이 새로운 혼란에 빠졌다",
+  "original": "Jensen Huang’s Departure Throws the AI Boom into Fresh Chaos",
+  "url": "https://heatmap.news/am/nvidia-meta-sublime-stegra",
+  "source": "Heatmap",
+  "published": "2026-11-13T21:49+09:00",
+  "first_seen": "2026-11-14T06:39+09:00"
  }
 ]
