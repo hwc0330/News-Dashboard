@@ -286,13 +286,6 @@
 "kind": "일정"
 },
 {
-"date": "2026-07-27",
-"label": "S. 4784 위원회 통과",
-"note": "상원 심의 착수 동의",
-"kind": "진행",
-"id": "119-s4784"
-},
-{
 "date": "2026-09-16",
 "label": "H.R. 9617 한 원 통과",
 "note": "하원 통과 → 상원 환경·공공사업위원회 회부",
@@ -334,6 +327,13 @@
 "kind": "일정"
 },
 {
+"date": "2026-11-12",
+"label": "S. 789 위원회 통과",
+"note": "상원 본회의 일정 등록",
+"kind": "진행",
+"id": "119-s789"
+},
+{
 "date": "2027-01-03",
 "label": "119대 의회 종료",
 "note": "계류 법안 자동 폐기, 120대에서 다시 발의해야",
@@ -343,8 +343,8 @@
 ],
 "conf_hash": "1b2174f2414f",
 "congress": 119,
-"checked": "2026-11-13T07:26+00:00",
-"updated": "2026-11-13T16:26+09:00",
+"checked": "2026-11-13T15:39+00:00",
+"updated": "2026-11-14T00:39+09:00",
 "topics": [
 "전기차 세액공제",
 "배터리·제조",
@@ -361,6 +361,52 @@
 "법률 제정"
 ],
 "bills": [
+{
+"id": "119-s789",
+"type": "S",
+"number": "789",
+"label": "S. 789",
+"chamber": "상원",
+"title": "Critical Minerals Security Act of 2025",
+"full": "",
+"official": "A bill to require reports on critical mineral and rare earth element resources around the world and a strategy for the development of advanced mining, refining, separation, and processing technologies.",
+"official_ko": "전 세계의 주요 광물 및 희토류 원소 자원에 대한 보고서와 고급 채굴, 정제, 분리 및 처리 기술 개발 전략을 요구하는 법안입니다.",
+"url": "https://www.congress.gov/bill/119th-congress/senate-bill/789",
+"introduced": "2025-02-27",
+"latest": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 699.",
+"latest_ko": "상원 본회의 일정 등록",
+"latest_date": "2026-11-12",
+"stage": 1,
+"sponsor": {
+"name": "Sen. Cornyn, John [R-TX]",
+"first": "John",
+"last": "Cornyn",
+"party": "R",
+"state": "TX",
+"id": "C001056"
+},
+"cosponsors": {
+"n": 6,
+"D": 3,
+"R": 2,
+"I": 1
+},
+"policy_area": "Energy",
+"topics": [
+"핵심광물"
+],
+"china": false,
+"summary": "This bill establishes requirements for the Department of the Interior related to securing U.S. access to critical minerals and rare earth element (REE) resources. Critical minerals mean any mineral, element, substance, or material designated as critical by the U.S. Geological Survey. REEs mean cerium, dysprosium, erbium, europium, gadolinium, holmium, lanthanum, lutetium, neodymium, praseodymium, promethium, samarium, scandium, terbium, thulium, ytterbium, and yttrium.",
+"summary_ko": "이 법안은 핵심 광물 및 희토류 원소(REE) 자원에 대한 미국의 접근 확보와 관련된 내무부의 요구 사항을 설정합니다. 핵심 광물이란 미국 지질 조사국(U.S. Geological Survey)에서 중요하다고 지정한 모든 광물, 원소, 물질 또는 재료를 의미합니다. REE는 세륨, 디스프로슘, 에르븀, 유로뮴, 가돌리늄, 홀뮴, 란타늄, 루테튬, 네오디뮴, 프라세오디뮴, 프로메튬, 사마륨, 스칸듐, 테르븀, 툴륨, 이테르븀, 이트륨을 의미합니다.",
+"updated": "2026-11-13T12:03:36Z",
+"issues": [
+"minerals"
+],
+"dir": "지원 확대",
+"group": "critical minerals security act",
+"seen": "",
+"changed": "2026-11-14T00:39+09:00"
+},
 {
 "id": "119-hr9640",
 "type": "HR",
@@ -977,7 +1023,7 @@
 "china": false,
 "summary": "This bill sets forth policies and authorities for FY2027 for Department of Defense (DOD) programs, activities, and military construction as well as the national security programs of the Department of Energy (DOE).",
 "summary_ko": "이 법안은 국방부(DOD) 프로그램, 활동, 군사 건설뿐만 아니라 에너지부(DOE)의 국가 안보 프로그램에 대한 FY2027 정책과 권한을 명시합니다.",
-"updated": "2026-11-04T22:36:40Z",
+"updated": "2026-11-13T12:08:43Z",
 "issues": [
 "china"
 ],
@@ -1116,52 +1162,6 @@
 ],
 "dir": "지원 확대",
 "group": "critical mineral dominance act",
-"seen": "",
-"changed": ""
-},
-{
-"id": "119-s789",
-"type": "S",
-"number": "789",
-"label": "S. 789",
-"chamber": "상원",
-"title": "Critical Minerals Security Act of 2025",
-"full": "",
-"official": "A bill to require reports on critical mineral and rare earth element resources around the world and a strategy for the development of advanced mining, refining, separation, and processing technologies.",
-"official_ko": "전 세계의 주요 광물 및 희토류 원소 자원에 대한 보고서와 고급 채굴, 정제, 분리 및 처리 기술 개발 전략을 요구하는 법안입니다.",
-"url": "https://www.congress.gov/bill/119th-congress/senate-bill/789",
-"introduced": "2025-02-27",
-"latest": "Committee on Energy and Natural Resources. Ordered to be reported with an amendment in the nature of a substitute favorably.",
-"latest_ko": "위원회 가결",
-"latest_date": "2026-06-10",
-"stage": 1,
-"sponsor": {
-"name": "Sen. Cornyn, John [R-TX]",
-"first": "John",
-"last": "Cornyn",
-"party": "R",
-"state": "TX",
-"id": "C001056"
-},
-"cosponsors": {
-"n": 6,
-"D": 3,
-"R": 2,
-"I": 1
-},
-"policy_area": "Energy",
-"topics": [
-"핵심광물"
-],
-"china": false,
-"summary": "This bill establishes requirements for the Department of the Interior related to securing U.S. access to critical minerals and rare earth element (REE) resources. Critical minerals mean any mineral, element, substance, or material designated as critical by the U.S. Geological Survey. REEs mean cerium, dysprosium, erbium, europium, gadolinium, holmium, lanthanum, lutetium, neodymium, praseodymium, promethium, samarium, scandium, terbium, thulium, ytterbium, and yttrium.",
-"summary_ko": "이 법안은 핵심 광물 및 희토류 원소(REE) 자원에 대한 미국의 접근 확보와 관련된 내무부의 요구 사항을 설정합니다. 핵심 광물이란 미국 지질 조사국(U.S. Geological Survey)에서 중요하다고 지정한 모든 광물, 원소, 물질 또는 재료를 의미합니다. REE는 세륨, 디스프로슘, 에르븀, 유로뮴, 가돌리늄, 홀뮴, 란타늄, 루테튬, 네오디뮴, 프라세오디뮴, 프로메튬, 사마륨, 스칸듐, 테르븀, 툴륨, 이테르븀, 이트륨을 의미합니다.",
-"updated": "2026-10-19T20:35:21Z",
-"issues": [
-"minerals"
-],
-"dir": "지원 확대",
-"group": "critical minerals security act",
 "seen": "",
 "changed": ""
 },
@@ -1325,8 +1325,8 @@
 "id": "M001213"
 },
 "cosponsors": {
-"n": 19,
-"R": 19
+"n": 20,
+"R": 20
 },
 "policy_area": "Taxation",
 "topics": [
@@ -1335,7 +1335,7 @@
 "china": false,
 "summary": "",
 "summary_ko": "",
-"updated": "2026-11-03T09:06:40Z",
+"updated": "2026-11-13T09:07:28Z",
 "issues": [
 "amp_45x",
 "minerals"
