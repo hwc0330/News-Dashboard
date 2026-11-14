@@ -3346,6 +3346,20 @@
   "first_seen": "2026-11-14T06:39+09:00"
  },
  {
+  "section": "EV/ESS",
+  "tag": "정책",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "중국은 2026~2030년에 새로운 유형의 에너지 저장을 강화할 예정이다",
+  "original": "China to boost new types of energy storage during 2026-2030",
+  "url": "https://english.news.cn/20261113/8a5a2194eeaa463591a99d52386c5506/c.html",
+  "source": "신화통신",
+  "published": "2026-11-13T01:00+09:00",
+  "first_seen": "2026-11-14T10:50+09:00"
+ },
+ {
   "section": "배터리 셀/소재/광물",
   "tag": "정책",
   "impact": "0",
@@ -3360,17 +3374,31 @@
   "first_seen": "2026-11-14T00:38+09:00"
  },
  {
-  "section": "EV/ESS",
-  "tag": "정책",
+  "section": "기타",
+  "tag": "기타",
   "impact": "0",
   "key": false,
   "region": "",
   "policy": "",
-  "title": "중국은 2026~2030년에 새로운 유형의 에너지 저장을 강화할 예정이다",
-  "original": "China to boost new types of energy storage during 2026-2030",
-  "url": "https://english.news.cn/20261113/8a5a2194eeaa463591a99d52386c5506/c.html",
-  "source": "신화통신",
-  "published": "2026-11-13T01:00+09:00",
-  "first_seen": "2026-11-14T10:50+09:00"
+  "title": "동서발전, 울산 부유식 해상풍력 기술·금융 해법 찾는다",
+  "original": "",
+  "url": "https://www.electimes.com/news/articleView.html?idxno=374746",
+  "source": "전기신문",
+  "published": "2026-11-13T21:16+09:00",
+  "first_seen": "2026-11-14T17:49+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "한수원·체코 발주사 “두코바니 원전 계획대로 추진 중”",
+  "original": "",
+  "url": "https://www.electimes.com/news/articleView.html?idxno=374745",
+  "source": "전기신문",
+  "published": "2026-11-13T21:07+09:00",
+  "first_seen": "2026-11-14T17:49+09:00"
  }
 ]
