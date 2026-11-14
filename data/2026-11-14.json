@@ -1681,7 +1681,7 @@
  },
  {
   "section": "배터리 셀/소재/광물",
-  "tag": "시장",
+  "tag": "기업",
   "impact": "0",
   "key": false,
   "region": "",
@@ -1692,5 +1692,19 @@
   "source": "21세기경제보도",
   "published": "2026-11-14T01:00+09:00",
   "first_seen": "2026-11-15T05:02+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "산업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "\"日 완성차 북미 하이브리드 증산에 발맞춘다\"… 토프레, 美 공장 신·증설 박차",
+  "original": "",
+  "url": "https://www.g-enews.com/article/Global-Biz/2026/11/2026111423132532980c8c1c064d_1",
+  "source": "글로벌이코노믹",
+  "published": "2026-11-14T23:13+09:00",
+  "first_seen": "2026-11-15T08:53+09:00"
  }
 ]
