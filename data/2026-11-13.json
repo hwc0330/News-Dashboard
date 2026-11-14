@@ -3360,20 +3360,6 @@
   "first_seen": "2026-11-14T10:50+09:00"
  },
  {
-  "section": "배터리 셀/소재/광물",
-  "tag": "정책",
-  "impact": "0",
-  "key": true,
-  "region": "EU",
-  "policy": "",
-  "title": "인도의 그리드 규모 배터리 셀 입찰에서 22건의 입찰이 이루어졌다",
-  "original": "India’s grid-scale battery cell tender draws 22 bids",
-  "url": "https://www.ess-news.com/2026/11/13/indias-grid-scale-battery-cell-tender-draws-22-bids/",
-  "source": "ESS News",
-  "published": "2026-11-13T22:30+09:00",
-  "first_seen": "2026-11-14T00:38+09:00"
- },
- {
   "section": "기타",
   "tag": "기타",
   "impact": "0",
@@ -3400,5 +3386,19 @@
   "source": "전기신문",
   "published": "2026-11-13T21:07+09:00",
   "first_seen": "2026-11-14T17:49+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "정책",
+  "impact": "0",
+  "key": true,
+  "region": "EU",
+  "policy": "",
+  "title": "인도의 그리드 규모 배터리 셀 입찰에서 22건의 입찰이 이루어졌다",
+  "original": "India’s grid-scale battery cell tender draws 22 bids",
+  "url": "https://www.ess-news.com/2026/11/13/indias-grid-scale-battery-cell-tender-draws-22-bids/",
+  "source": "ESS News",
+  "published": "2026-11-13T22:30+09:00",
+  "first_seen": "2026-11-14T00:38+09:00"
  }
 ]
