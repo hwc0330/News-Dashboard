@@ -3319,20 +3319,6 @@
  },
  {
   "section": "배터리 셀/소재/광물",
-  "tag": "정책",
-  "impact": "0",
-  "key": true,
-  "region": "EU",
-  "policy": "",
-  "title": "인도의 그리드 규모 배터리 셀 입찰에서 22건의 입찰이 이루어졌다",
-  "original": "India’s grid-scale battery cell tender draws 22 bids",
-  "url": "https://www.ess-news.com/2026/11/13/indias-grid-scale-battery-cell-tender-draws-22-bids/",
-  "source": "ESS News",
-  "published": "2026-11-13T22:30+09:00",
-  "first_seen": "2026-11-14T00:38+09:00"
- },
- {
-  "section": "배터리 셀/소재/광물",
   "tag": "기업",
   "impact": "0",
   "key": false,
@@ -3358,5 +3344,33 @@
   "source": "Heatmap",
   "published": "2026-11-13T21:49+09:00",
   "first_seen": "2026-11-14T06:39+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "정책",
+  "impact": "0",
+  "key": true,
+  "region": "EU",
+  "policy": "",
+  "title": "인도의 그리드 규모 배터리 셀 입찰에서 22건의 입찰이 이루어졌다",
+  "original": "India’s grid-scale battery cell tender draws 22 bids",
+  "url": "https://www.ess-news.com/2026/11/13/indias-grid-scale-battery-cell-tender-draws-22-bids/",
+  "source": "ESS News",
+  "published": "2026-11-13T22:30+09:00",
+  "first_seen": "2026-11-14T00:38+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "정책",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "중국은 2026~2030년에 새로운 유형의 에너지 저장을 강화할 예정이다",
+  "original": "China to boost new types of energy storage during 2026-2030",
+  "url": "https://english.news.cn/20261113/8a5a2194eeaa463591a99d52386c5506/c.html",
+  "source": "신화통신",
+  "published": "2026-11-13T01:00+09:00",
+  "first_seen": "2026-11-14T10:50+09:00"
  }
 ]
