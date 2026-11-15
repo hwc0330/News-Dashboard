@@ -1,5 +1,48 @@
 [
  {
+  "id": 11506,
+  "date": "11월 16일 월요일",
+  "posted": "2026-11-16T08:16+09:00",
+  "url": "https://t.me/cjdbj/11506",
+  "items": [
+   {
+    "section": "배터리 셀/소재/광물",
+    "tag": "기업",
+    "title": "LG엔솔·삼성SDI, 미 RE+에서 차세대 ESS·BBU 배터리 공개",
+    "source": "한국경제",
+    "url": "https://han.gl/ecFGw"
+   },
+   {
+    "section": "배터리 셀/소재/광물",
+    "tag": "기업",
+    "title": "테슬라, 독일 그륀하이데서 4680 셀 자체 생산 2027년 중반",
+    "source": "더구루",
+    "url": "https://han.gl/6AeV8"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "시장",
+    "title": "10월 글로벌 EV 209만대, 전년比 8%↑…유럽 36%↑·중국 12%↓",
+    "source": "Drive Tesla",
+    "url": "https://han.gl/Xw5Bp"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "기업",
+    "title": "LG엔솔 버테크, ESS 운영 소프트웨어 출시…정비시간 90% 단축",
+    "source": "디일렉",
+    "url": "https://han.gl/fM9fE"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "정책",
+    "title": "수도권 데이터센터 전력계통영향평가 통과 기준 75점으로",
+    "source": "전기신문",
+    "url": "https://han.gl/1MfK4"
+   }
+  ]
+ },
+ {
   "id": 11499,
   "date": "11월 12일 목요일",
   "posted": "2026-11-12T07:57+09:00",
@@ -4152,49 +4195,6 @@
     "title": "웨이모, 침수도로 주행 결함에 로보택시 3,800대 리콜",
     "source": "CNBC",
     "url": "https://han.gl/xtUgz"
-   }
-  ]
- },
- {
-  "id": 10916,
-  "date": "5월 12일 화요일",
-  "posted": "2026-05-12T08:27+09:00",
-  "url": "https://t.me/cjdbj/10916",
-  "items": [
-   {
-    "section": "배터리 셀/소재/광물",
-    "tag": "산업",
-    "title": "구리, 사상 최고치 경신…공급 부족·청정기술 수요 견인",
-    "source": "mining. com",
-    "url": "https://han.gl/GyzJs"
-   },
-   {
-    "section": "배터리 셀/소재/광물",
-    "tag": "정책",
-    "title": "브라질 BESS 경매 지연…28년 전력 부족 대응 차질 우려",
-    "source": "ess-news",
-    "url": "https://han.gl/i6G5Q"
-   },
-   {
-    "section": "EV/ESS",
-    "tag": "산업",
-    "title": "유럽 EV 생태계 투자 2,000억 유로…中 의존 탈피 노력",
-    "source": "Reuters",
-    "url": "https://han.gl/rYdeG"
-   },
-   {
-    "section": "EV/ESS",
-    "tag": "산업",
-    "title": "혼다, 캐나다 EV·배터리 공장 무기한 중단 검토",
-    "source": "electrive",
-    "url": "https://han.gl/9eCFS"
-   },
-   {
-    "section": "EV/ESS",
-    "tag": "기업",
-    "title": "포드, 美 BESS 자회사 'Ford Energy' 출범",
-    "source": "electrek",
-    "url": "https://han.gl/4hfuC"
    }
   ]
  }
