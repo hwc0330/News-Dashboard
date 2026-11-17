@@ -1,5 +1,62 @@
 [
  {
+  "id": 11516,
+  "date": "11월 17일 화요일",
+  "posted": "2026-11-17T07:56+09:00",
+  "url": "https://t.me/cjdbj/11516",
+  "items": [
+   {
+    "section": "배터리 셀/소재/광물",
+    "tag": "기업",
+    "title": "삼성SDI, 美 주피터파워에 ESS용 LFP 16GWh 추가 공급…누적 76GWh",
+    "source": "머니투데이",
+    "url": "https://han.gl/Bh2Td"
+   },
+   {
+    "section": "배터리 셀/소재/광물",
+    "tag": "기업",
+    "title": "SK온·GE버노바·시터얼신에너지, 대만 ESS 3자 협력…탈중국 공급망",
+    "source": "더구루",
+    "url": "https://han.gl/TaL9e"
+   },
+   {
+    "section": "배터리 셀/소재/광물",
+    "tag": "기업",
+    "title": "포드, ESS용 각형 배터리 자체 생산 추진…CATL 기술 의존 탈피 시도",
+    "source": "디일렉",
+    "url": "https://han.gl/uirOj"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "기업",
+    "title": "BMW, 美 사우스캐롤라이나 배터리 공장 가동…LG엔솔 원통형 셀 사용",
+    "source": "InsideEVs",
+    "url": "https://han.gl/MJ92D"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "기업",
+    "title": "테슬라, 그륀하이데 30억유로 증설…독일 최대 완성차 공장 넘본다",
+    "source": "로이터",
+    "url": "https://han.gl/Y1xJk"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "정책",
+    "title": "전기차 생산세액공제에 수출분 포함 쟁점…이달 경쟁력 방안",
+    "source": "글로벌이코노믹",
+    "url": "https://han.gl/4bM0e"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "시장",
+    "title": "지리 ’배터리 수명 위기‘…통째 교체 대신 모듈형 수리 제안",
+    "source": "글로벌이코노믹",
+    "url": "https://han.gl/tXEh3"
+   }
+  ]
+ },
+ {
   "id": 11506,
   "date": "11월 16일 월요일",
   "posted": "2026-11-16T08:16+09:00",
@@ -4152,49 +4209,6 @@
     "title": "혼다, 70년 만에 첫 연간 적자…EV 목표 철회",
     "source": "reuters",
     "url": "https://han.gl/0vG2y"
-   }
-  ]
- },
- {
-  "id": 10928,
-  "date": "5월 13일 수요일",
-  "posted": "2026-05-13T08:38+09:00",
-  "url": "https://t.me/cjdbj/10928",
-  "items": [
-   {
-    "section": "배터리 셀/소재/광물",
-    "tag": "기업",
-    "title": "LG엔솔, 핀란드 양극재 합작공장 지분 인수",
-    "source": "더구루",
-    "url": "https://han.gl/d4EUV"
-   },
-   {
-    "section": "배터리 셀/소재/광물",
-    "tag": "기업",
-    "title": "SK온, 업계 최초 EREV용 배터리 양산",
-    "source": "서울경제",
-    "url": "https://han.gl/CJOdU"
-   },
-   {
-    "section": "배터리 셀/소재/광물",
-    "tag": "기업",
-    "title": "테슬라, 기가베를린 배터리셀 투자 2.5억달러 추가",
-    "source": "electrek",
-    "url": "https://han.gl/WafBC"
-   },
-   {
-    "section": "EV/ESS",
-    "tag": "정책",
-    "title": "中·EU, 전기차 관세 갈등 완화 국면",
-    "source": "Reuters",
-    "url": "https://han.gl/WkUx4"
-   },
-   {
-    "section": "EV/ESS",
-    "tag": "산업",
-    "title": "웨이모, 침수도로 주행 결함에 로보택시 3,800대 리콜",
-    "source": "CNBC",
-    "url": "https://han.gl/xtUgz"
    }
   ]
  }

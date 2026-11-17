@@ -1071,7 +1071,7 @@
   "region": "",
   "policy": "",
   "title": "中 배터리로 돌아섰던 포드, 다시 한번 '맞손'",
-  "original": "",
+  "original": "中 밀월 포드, 다시 한번 K-배터리와 '맞손'",
   "url": "https://www.thelec.kr/news/articleView.html?idxno=65480",
   "source": "디일렉",
   "published": "2026-11-16T18:16+09:00",
@@ -1891,7 +1891,7 @@
  },
  {
   "section": "EV/ESS",
-  "tag": "기업",
+  "tag": "정책",
   "impact": "0",
   "key": false,
   "region": "",
@@ -2476,5 +2476,19 @@
   "source": "신뤄리튬전지망",
   "published": "2026-11-16T01:00+09:00",
   "first_seen": "2026-11-17T06:01+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기술",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "암모니아에서 수소 뽑는 값싼 니켈 촉매 개발",
+  "original": "",
+  "url": "https://www.electimes.com/news/articleView.html?idxno=374859",
+  "source": "전기신문",
+  "published": "2026-11-16T21:56+09:00",
+  "first_seen": "2026-11-17T12:48+09:00"
  }
 ]
