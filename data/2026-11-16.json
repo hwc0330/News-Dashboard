@@ -2490,5 +2490,61 @@
   "source": "전기신문",
   "published": "2026-11-16T21:56+09:00",
   "first_seen": "2026-11-17T12:48+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "Acura의 GM 제작 EV는 작동을 멈출 수 있는 브레이크로 인해 또 다른 리콜에 직면",
+  "original": "Acura’s GM-Built EV Faces Another Recall Over Brakes That Could Stop Working",
+  "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPY2s2M2tnVk1VMzNBOWtFYTVtbjJhcDIyTjRCVFZPZl9oOEdERnJBbnhIMnM1YnNKRWVDV2t1T2o0YVotRDhyekN1S0JobzRaY0g2WVh2MFV0ZlE0Z2JuTXFBT2VFOENCTER6cWZPQlV5RGRBWENaNXR1QWxUa1BMajlydzkxVzZBUl9TeTdoSHlhUDkzMl9zTERMOTQxM3Y2Zmk0ODNOcUU?oc=5",
+  "source": "Autoblog",
+  "published": "2026-11-16T23:45+09:00",
+  "first_seen": "2026-11-17T21:34+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "미국 딜러의 장점 중국 자동차 제조사는 쉽게 따라할 수 없음",
+  "original": "US Dealers Have an Advantage Chinese Automakers Can’t Easily Copy",
+  "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQc0RyVzJwdm02SnBadjZ4Ni15UW92Y3BNQ19ZOWxWMWwzR1JrTWJmWnExSWtkNnV2dWVIWXMtaFhSTnZucmxvTlA4SjZLcW1rRGZUakZxUHo4Yzd3WnBPMGhNRnhVQTZ2cnhTSWwxVlY1aDluZ1ZGVzhoOEl4Tk5vRDBob0hDOE1VUEFOUHo0cEZtaTRraFMwN3dn?oc=5",
+  "source": "Autoblog",
+  "published": "2026-11-16T23:00+09:00",
+  "first_seen": "2026-11-17T21:34+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "DeWalt의 20V 최대 배터리 가격은 40달러에 불과하며 '긴 런타임'을 제공한다",
+  "original": "DeWalt’s 20V Max Battery Is Only $40, and It Offers a ‘Long Runtime’",
+  "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQTWxSTkVDdFNPd0NzbjdTVk9PcTJ2QkMxdGczQ090azV4d2RwLTZzNEtIbDNnbk84WXVwczB3SW1kZlFsVldfZVFvTE9tb1huQWpsZThZOGhVdzU0eUlqNmgwT2NDaEJjNFBjQVNMQk9DNUVoeVRrVVhydW1aVFBzLTFaSmd5UQ?oc=5",
+  "source": "Autoblog",
+  "published": "2026-11-16T22:44+09:00",
+  "first_seen": "2026-11-17T21:34+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "",
+  "title": "도요타, 알려진 결함으로 판매된 캠리 하이브리드에 대해 고소",
+  "original": "Toyota Sued Over Camry Hybrid It Allegedly Sold With a Known Defect",
+  "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQN2tmdEgybHlONURxTjlCN19SN0hUOUZ3ZFlJcF9DMnFZVDR1cm1SLTVYbVJBTklrZ3hZUmFKLWJRZmhfQXhTaE9ZWDRDX2xydDdVYWNMS29aaFZLM2tPZXBLQ1hLMEhwOVRObFVYZ2RXSDJ3ckRBdlIwVFZ2U3RWZjA1WmRMbkRUOFhvRVF3VHFybnlIVGNXX0IteXBadw?oc=5",
+  "source": "Autoblog",
+  "published": "2026-11-16T21:15+09:00",
+  "first_seen": "2026-11-17T21:34+09:00"
  }
 ]
