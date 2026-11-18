@@ -1,5 +1,48 @@
 [
  {
+  "id": 11526,
+  "date": "11월 18일 수요일",
+  "posted": "2026-11-18T07:55+09:00",
+  "url": "https://t.me/cjdbj/11526",
+  "items": [
+   {
+    "section": "배터리 셀/소재/광물",
+    "tag": "기업",
+    "title": "포스코, 탄자니아 흑연 광산 의결권 한도 49.99%로…음극재 원료 확보",
+    "source": "더구루",
+    "url": "https://han.gl/Njcrj"
+   },
+   {
+    "section": "배터리 셀/소재/광물",
+    "tag": "기업",
+    "title": "BMW, 미국 첫 배터리 팩 공장 가동…LG에너지솔루션 셀 사용",
+    "source": "InsideEVs",
+    "url": "https://han.gl/zo4VB"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "정책",
+    "title": "미 상원, 인허가법 토론종결 70-27 가결…주내 최종 표결",
+    "source": "Inside Climate News",
+    "url": "https://han.gl/tj2Zy"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "정책",
+    "title": "캐나다, 두 번째 중국 완성차 전기차 수입 개시…대당 3만5000캐나다달러 미만",
+    "source": "Drive Tesla Canada",
+    "url": "https://han.gl/T23OL"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "정책",
+    "title": "덴마크, 2028년부터 저소득층 전기차 보조…기후 패키지에 39억크로네",
+    "source": "electrive",
+    "url": "https://han.gl/WtFhb"
+   }
+  ]
+ },
+ {
   "id": 11516,
   "date": "11월 17일 화요일",
   "posted": "2026-11-17T07:56+09:00",
@@ -4166,49 +4209,6 @@
     "title": "테슬라, 美 모델Y 가격 1,000달러 인상",
     "source": "reuters",
     "url": "https://han.gl/aoNWO"
-   }
-  ]
- },
- {
-  "id": 10937,
-  "date": "5월 15일 금요일",
-  "posted": "2026-05-15T08:55+09:00",
-  "url": "https://t.me/cjdbj/10937",
-  "items": [
-   {
-    "section": "배터리 셀/소재/광물",
-    "tag": "산업",
-    "title": "1분기 배터리 음극재 적재량 증가…비중국 시장 20%대 성장",
-    "source": "글로벌이코노믹",
-    "url": "https://han.gl/0JBWi"
-   },
-   {
-    "section": "배터리 셀/소재/광물",
-    "tag": "기업",
-    "title": "LG화학, LMR 양극재 상업화 공정 진입",
-    "source": "press9",
-    "url": "https://han.gl/xFUBc"
-   },
-   {
-    "section": "EV/ESS",
-    "tag": "산업",
-    "title": "中 5월 초 NEV 판매 22.6만대…전월비 27%↑",
-    "source": "cnevpost",
-    "url": "https://han.gl/aitZK"
-   },
-   {
-    "section": "EV/ESS",
-    "tag": "기업",
-    "title": "포드, 데이터센터용 ESS 사업 진출",
-    "source": "reuters",
-    "url": "https://han.gl/7NAfT"
-   },
-   {
-    "section": "EV/ESS",
-    "tag": "기업",
-    "title": "혼다, 70년 만에 첫 연간 적자…EV 목표 철회",
-    "source": "reuters",
-    "url": "https://han.gl/0vG2y"
    }
   ]
  }
