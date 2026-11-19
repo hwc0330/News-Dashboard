@@ -1,5 +1,55 @@
 [
  {
+  "id": 11528,
+  "date": "11월 19일 목요일",
+  "posted": "2026-11-19T08:57+09:00",
+  "url": "https://t.me/cjdbj/11528",
+  "items": [
+   {
+    "section": "배터리 셀/소재/광물",
+    "tag": "기업",
+    "title": "포스코그룹, CATL과 리튬 3년 장기공급 계약…2026~2028년",
+    "source": "디일렉",
+    "url": "https://han.gl/z82FI"
+   },
+   {
+    "section": "배터리 셀/소재/광물",
+    "tag": "시장",
+    "title": "중국 전지박 가격 연초 대비 20% 상승…K동박 판가 인상 협의",
+    "source": "머니투데이",
+    "url": "https://han.gl/pfJGb"
+   },
+   {
+    "section": "배터리 셀/소재/광물",
+    "tag": "기업",
+    "title": "천보, 탈중국 전해질 첨가제 공정으로 정부 지원금 150억 확보",
+    "source": "한국경제",
+    "url": "https://han.gl/zvN26"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "기업",
+    "title": "SK온, 대만전력공사 1.2GWh ESS 입찰 참여…12월 입찰, 내년 3월 결과",
+    "source": "머니투데이",
+    "url": "https://han.gl/8ugEa"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "정책",
+    "title": "캐나다 총리, 미국과 협상 결렬 시 중국 완성차 협력 가능성 시사",
+    "source": "ChinaEVHome",
+    "url": "https://han.gl/7eoyz"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "기업",
+    "title": "삼성SDI, RE+서 25년 보증 ESS 전면 배치…AI 데이터센터 겨냥",
+    "source": "전기신문",
+    "url": "https://han.gl/NlaMS"
+   }
+  ]
+ },
+ {
   "id": 11526,
   "date": "11월 18일 수요일",
   "posted": "2026-11-18T07:55+09:00",
@@ -4173,42 +4223,6 @@
     "title": "루마니아, 가정용 태양광 보조금 중단…ESS로 전환",
     "source": "ess news",
     "url": "https://han.gl/Ebx6D"
-   }
-  ]
- },
- {
-  "id": 10939,
-  "date": "5월 18일 월요일",
-  "posted": "2026-05-18T08:26+09:00",
-  "url": "https://t.me/cjdbj/10939",
-  "items": [
-   {
-    "section": "배터리 셀/소재/광물",
-    "tag": "산업",
-    "title": "삼성SDI, 캐나다니켈 크로포드, 환경허가 임박",
-    "source": "더구루",
-    "url": "https://han.gl/ICb3U"
-   },
-   {
-    "section": "배터리 셀/소재/광물",
-    "tag": "기업",
-    "title": "에코프로, 지주사 지위 반납",
-    "source": "딜사이트",
-    "url": "https://han.gl/55gcf"
-   },
-   {
-    "section": "EV/ESS",
-    "tag": "산업",
-    "title": "인도 BESS, 입찰서 실행 단계로 전환",
-    "source": "ess news",
-    "url": "https://han.gl/BYMbA"
-   },
-   {
-    "section": "EV/ESS",
-    "tag": "기업",
-    "title": "테슬라, 美 모델Y 가격 1,000달러 인상",
-    "source": "reuters",
-    "url": "https://han.gl/aoNWO"
    }
   ]
  }
