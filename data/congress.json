@@ -327,9 +327,9 @@
 "id": "119-s789"
 },
 {
-"date": "2026-11-17",
-"label": "H.R. 9640 위원회 통과",
-"note": "토론이 끝나면 찬성과 반대가 요구되고 명령되었습니다. 8항, 규칙 XX의 조항에 따라 의장은 해당 동의에 대한 추가 절차가 연기될 것이라고 발표했습니다.",
+"date": "2026-11-18",
+"label": "H.R. 9640 한 원 통과",
+"note": "재심의 동의안이 테이블 위에 올려졌고 이의 없이 동의되었습니다.",
 "kind": "진행",
 "id": "119-hr9640"
 },
@@ -343,8 +343,8 @@
 ],
 "conf_hash": "1b2174f2414f",
 "congress": 119,
-"checked": "2026-11-19T09:29+00:00",
-"updated": "2026-11-19T18:29+09:00",
+"checked": "2026-11-19T18:36+00:00",
+"updated": "2026-11-20T03:36+09:00",
 "topics": [
 "전기차 세액공제",
 "배터리·제조",
@@ -373,10 +373,10 @@
 "official_ko": "지구 매핑 자원 이니셔티브를 재승인하기 위해 인프라 투자 및 일자리법을 개정합니다.",
 "url": "https://www.congress.gov/bill/119th-congress/house-bill/9640",
 "introduced": "2026-07-09",
-"latest": "At the conclusion of debate, the Yeas and Nays were demanded and ordered. Pursuant to the provisions of clause 8, rule XX, the Chair announced that further proceedings on the motion would be postponed.",
-"latest_ko": "토론이 끝나면 찬성과 반대가 요구되고 명령되었습니다. 8항, 규칙 XX의 조항에 따라 의장은 해당 동의에 대한 추가 절차가 연기될 것이라고 발표했습니다.",
-"latest_date": "2026-11-17",
-"stage": 1,
+"latest": "Motion to reconsider laid on the table Agreed to without objection.",
+"latest_ko": "재심의 동의안이 테이블 위에 올려졌고 이의 없이 동의되었습니다.",
+"latest_date": "2026-11-18",
+"stage": 2,
 "sponsor": {
 "name": "Rep. Wittman, Robert J. [R-VA-1]",
 "first": "Robert",
@@ -397,14 +397,14 @@
 "china": false,
 "summary": "This bill reauthorizes through FY2031 the Earth Mapping Resources Initiative, a U.S. Geological Survey (USGS) program charged with integrating and modernizing the mapping of U.S. natural resources, with a focus on critical mineral resources such as lithium and titanium. The bill also expands the initiative’s data integration functions and requires the USGS to give preference to U.S. contractors under the initiative.",
 "summary_ko": "이 법안은 리튬 및 티타늄과 같은 핵심 광물 자원에 중점을 두고 미국 천연 자원의 매핑을 통합하고 현대화하는 미국 지질 조사국(USGS) 프로그램인 지구 매핑 자원 이니셔티브(Earth Mapping Resources Initiative)를 FY2031까지 재승인합니다. 이 법안은 또한 이니셔티브의 데이터 통합 ​​기능을 확장하고 USGS가 이니셔티브에 따라 미국 계약자에게 우선권을 부여하도록 요구합니다.",
-"updated": "2026-11-18T15:30:48Z",
+"updated": "2026-11-19T17:03:29Z",
 "issues": [
 "minerals"
 ],
 "dir": "지원 확대",
 "group": "earth mri reauthorization act",
 "seen": "2026-11-13T04:47+09:00",
-"changed": "2026-11-19T04:34+09:00"
+"changed": "2026-11-20T03:36+09:00"
 },
 {
 "id": "119-s789",
@@ -801,7 +801,7 @@
 "china": false,
 "summary": "This bill modifies the regulation of lithium-ion batteries under the Resource Conservation and Recovery Act in order to facilitate the recycling of lithium-ion batteries and the recovery of critical minerals. Specifically, the bill directs certain facilities that store lithium-ion batteries prior to recycling them to follow regulations for large quantity handlers of universal waste instead of following the more stringent hazardous waste regulations that currently apply, thereby allowing these facilities to store lithium-ion batteries without needing a special permit.",
 "summary_ko": "이 법안은 리튬이온 배터리의 재활용과 필수 광물의 회수를 촉진하기 위해 자원보존 및 회수에 관한 법률에 따른 리튬이온 배터리 규제를 개정합니다. 특히, 이 법안은 리튬 이온 배터리를 재활용하기 전에 보관하는 특정 시설에 현재 적용되는 보다 엄격한 유해 폐기물 규정을 따르는 대신 일반 폐기물의 대량 처리자에 대한 규정을 따르도록 지시하여 이러한 시설에서 특별 허가 없이 리튬 이온 배터리를 보관할 수 있도록 허용합니다.",
-"updated": "2026-10-01T14:41:17Z",
+"updated": "2026-11-19T09:07:35Z",
 "issues": [
 "minerals",
 "safety"
