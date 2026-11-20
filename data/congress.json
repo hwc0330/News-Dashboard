@@ -343,8 +343,8 @@
 ],
 "conf_hash": "1b2174f2414f",
 "congress": 119,
-"checked": "2026-11-20T17:04+00:00",
-"updated": "2026-11-21T02:04+09:00",
+"checked": "2026-11-20T23:04+00:00",
+"updated": "2026-11-21T08:04+09:00",
 "topics": [
 "전기차 세액공제",
 "배터리·제조",
@@ -373,7 +373,7 @@
 "official_ko": "리튬이온 배터리에 대한 소비자 표준을 확립합니다.",
 "url": "https://www.congress.gov/bill/119th-congress/house-bill/973",
 "introduced": "2025-02-04",
-"latest": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S5793-5794)",
+"latest": "Passed Senate without amendment by Unanimous Consent.",
 "latest_ko": "상원 만장일치 통과",
 "latest_date": "2026-11-19",
 "stage": 3,
@@ -398,7 +398,7 @@
 "china": false,
 "summary": "This bill requires the Consumer Product Safety Commission to issue a final consumer product safety rule for rechargeable lithium-ion batteries used in micromobility devices, such as electric bikes and electric scooters. Specifically, the rule must require manufacturers and distributors of such products to comply with the applicable safety standards jointly established by the American National Standards Institute, the Standards Council of Canada, and UL Solutions Inc.",
 "summary_ko": "이 법안은 소비자 제품 안전 위원회가 전기 자전거 및 전기 스쿠터와 같은 마이크로모빌리티 장치에 사용되는 충전식 리튬 이온 배터리에 대한 최종 소비자 제품 안전 규칙을 발행하도록 요구합니다. 특히, 이 규칙은 해당 제품의 제조업체 및 유통업체가 미국 표준 협회(American National Standards Institute), 캐나다 표준 위원회(Standards Council of Canada) 및 UL Solutions Inc.가 공동으로 제정한 해당 안전 표준을 준수하도록 요구해야 합니다.",
-"updated": "2026-11-20T16:05:11Z",
+"updated": "2026-11-20T21:43:16Z",
 "issues": [
 "minerals",
 "safety"
@@ -444,7 +444,7 @@
 "china": false,
 "summary": "This bill reauthorizes through FY2031 the Earth Mapping Resources Initiative, a U.S. Geological Survey (USGS) program charged with integrating and modernizing the mapping of U.S. natural resources, with a focus on critical mineral resources such as lithium and titanium. The bill also expands the initiative’s data integration functions and requires the USGS to give preference to U.S. contractors under the initiative.",
 "summary_ko": "이 법안은 리튬 및 티타늄과 같은 핵심 광물 자원에 중점을 두고 미국 천연 자원의 매핑을 통합하고 현대화하는 미국 지질 조사국(USGS) 프로그램인 지구 매핑 자원 이니셔티브(Earth Mapping Resources Initiative)를 FY2031까지 재승인합니다. 이 법안은 또한 이니셔티브의 데이터 통합 ​​기능을 확장하고 USGS가 이니셔티브에 따라 미국 계약자에게 우선권을 부여하도록 요구합니다.",
-"updated": "2026-11-20T13:56:57Z",
+"updated": "2026-11-20T21:43:01Z",
 "issues": [
 "minerals"
 ],
@@ -844,7 +844,7 @@
 "china": false,
 "summary": "This bill requires the Environmental Protection Agency (EPA) to establish and carry out a national strategy for recovering critical minerals from discarded materials. Critical minerals are defined as any mineral, element, substance, or material designated as critical by the U.S. Geological Survey because it is essential to U.S. economic or national security, has a vulnerable supply chain, and serves an essential function in manufacturing a product. The EPA must report to Congress every two years on its actions, plans, and recommendations relating to the national strategy.",
 "summary_ko": "이 법안은 환경보호청(EPA)이 버려진 물질에서 핵심 광물을 회수하기 위한 국가 전략을 수립하고 실행하도록 요구합니다. 핵심 광물은 미국 경제 또는 국가 안보에 필수적이고, 취약한 공급망을 갖고, 제품 제조에 필수적인 기능을 수행하기 때문에 미국 지질 조사국(U.S. Geological Survey)에서 중요하다고 지정한 모든 광물, 요소, 물질 또는 재료로 정의됩니다. EPA는 국가 전략과 관련된 조치, 계획 및 권장 사항을 2년마다 의회에 보고해야 합니다.",
-"updated": "2026-11-20T16:51:40Z",
+"updated": "2026-11-20T22:51:41Z",
 "issues": [
 "minerals"
 ],
@@ -934,7 +934,7 @@
 "china": false,
 "summary": "This bill modifies the regulation of lithium-ion batteries under the Resource Conservation and Recovery Act in order to facilitate the recycling of lithium-ion batteries and the recovery of critical minerals. Specifically, the bill directs certain facilities that store lithium-ion batteries prior to recycling them to follow regulations for large quantity handlers of universal waste instead of following the more stringent hazardous waste regulations that currently apply, thereby allowing these facilities to store lithium-ion batteries without needing a special permit.",
 "summary_ko": "이 법안은 리튬이온 배터리의 재활용과 필수 광물의 회수를 촉진하기 위해 자원보존 및 회수에 관한 법률에 따른 리튬이온 배터리 규제를 개정합니다. 특히, 이 법안은 리튬 이온 배터리를 재활용하기 전에 보관하는 특정 시설에 현재 적용되는 보다 엄격한 유해 폐기물 규정을 따르는 대신 일반 폐기물의 대량 처리자에 대한 규정을 따르도록 지시하여 이러한 시설에서 특별 허가 없이 리튬 이온 배터리를 보관할 수 있도록 허용합니다.",
-"updated": "2026-11-19T09:07:35Z",
+"updated": "2026-11-20T22:21:35Z",
 "issues": [
 "minerals",
 "safety"
