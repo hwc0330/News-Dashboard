@@ -132,12 +132,12 @@
 "counts": {
 "중국 견제": 5,
 "규제 강화": 3,
-"지원 확대": 38,
+"지원 확대": 40,
 "기타": 1
 },
-"pending": 47,
+"pending": 49,
 "laws": [],
-"n": 47
+"n": 49
 },
 {
 "id": "emissions",
@@ -307,13 +307,6 @@
 "id": "119-hr9615"
 },
 {
-"date": "2026-09-16",
-"label": "H.R. 10346 위원회 통과",
-"note": "위원회 가결 (찬성 32 · 반대 8)",
-"kind": "진행",
-"id": "119-hr10346"
-},
-{
 "date": "2026-11-03",
 "label": "중간선거",
 "note": "하원 전체·상원 1/3",
@@ -327,9 +320,16 @@
 "id": "119-s789"
 },
 {
-"date": "2026-11-18",
+"date": "2026-11-19",
+"label": "H.R. 973 양원 통과",
+"note": "상원 만장일치 통과",
+"kind": "진행",
+"id": "119-hr973"
+},
+{
+"date": "2026-11-19",
 "label": "H.R. 9640 한 원 통과",
-"note": "재심의 동의안이 테이블 위에 올려졌고 이의 없이 동의되었습니다.",
+"note": "하원 통과 → 상원 본회의 일정 등록",
 "kind": "진행",
 "id": "119-hr9640"
 },
@@ -343,8 +343,8 @@
 ],
 "conf_hash": "1b2174f2414f",
 "congress": 119,
-"checked": "2026-11-20T08:17+00:00",
-"updated": "2026-11-20T17:17+09:00",
+"checked": "2026-11-20T17:04+00:00",
+"updated": "2026-11-21T02:04+09:00",
 "topics": [
 "전기차 세액공제",
 "배터리·제조",
@@ -362,6 +362,53 @@
 ],
 "bills": [
 {
+"id": "119-hr973",
+"type": "HR",
+"number": "973",
+"label": "H.R. 973",
+"chamber": "하원",
+"title": "Setting Consumer Standards for Lithium-Ion Batteries Act",
+"full": "",
+"official": "To establish consumer standards for lithium-ion batteries.",
+"official_ko": "리튬이온 배터리에 대한 소비자 표준을 확립합니다.",
+"url": "https://www.congress.gov/bill/119th-congress/house-bill/973",
+"introduced": "2025-02-04",
+"latest": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S5793-5794)",
+"latest_ko": "상원 만장일치 통과",
+"latest_date": "2026-11-19",
+"stage": 3,
+"sponsor": {
+"name": "Rep. Torres, Ritchie [D-NY-15]",
+"first": "Ritchie",
+"last": "Torres",
+"party": "D",
+"state": "NY",
+"id": "T000486"
+},
+"cosponsors": {
+"n": 23,
+"R": 6,
+"D": 17
+},
+"policy_area": "Commerce",
+"topics": [
+"배터리·제조",
+"핵심광물"
+],
+"china": false,
+"summary": "This bill requires the Consumer Product Safety Commission to issue a final consumer product safety rule for rechargeable lithium-ion batteries used in micromobility devices, such as electric bikes and electric scooters. Specifically, the rule must require manufacturers and distributors of such products to comply with the applicable safety standards jointly established by the American National Standards Institute, the Standards Council of Canada, and UL Solutions Inc.",
+"summary_ko": "이 법안은 소비자 제품 안전 위원회가 전기 자전거 및 전기 스쿠터와 같은 마이크로모빌리티 장치에 사용되는 충전식 리튬 이온 배터리에 대한 최종 소비자 제품 안전 규칙을 발행하도록 요구합니다. 특히, 이 규칙은 해당 제품의 제조업체 및 유통업체가 미국 표준 협회(American National Standards Institute), 캐나다 표준 위원회(Standards Council of Canada) 및 UL Solutions Inc.가 공동으로 제정한 해당 안전 표준을 준수하도록 요구해야 합니다.",
+"updated": "2026-11-20T16:05:11Z",
+"issues": [
+"minerals",
+"safety"
+],
+"dir": "규제 강화",
+"group": "setting consumer standards for lithium ion batteries act",
+"seen": "",
+"changed": "2026-11-21T02:04+09:00"
+},
+{
 "id": "119-hr9640",
 "type": "HR",
 "number": "9640",
@@ -373,9 +420,9 @@
 "official_ko": "지구 매핑 자원 이니셔티브를 재승인하기 위해 인프라 투자 및 일자리법을 개정합니다.",
 "url": "https://www.congress.gov/bill/119th-congress/house-bill/9640",
 "introduced": "2026-07-09",
-"latest": "Motion to reconsider laid on the table Agreed to without objection.",
-"latest_ko": "재심의 동의안이 테이블 위에 올려졌고 이의 없이 동의되었습니다.",
-"latest_date": "2026-11-18",
+"latest": "Received in the Senate. Read twice. Placed on Senate Legislative Calendar under General Orders. Calendar No. 721.",
+"latest_ko": "하원 통과 → 상원 본회의 일정 등록",
+"latest_date": "2026-11-19",
 "stage": 2,
 "sponsor": {
 "name": "Rep. Wittman, Robert J. [R-VA-1]",
@@ -397,14 +444,100 @@
 "china": false,
 "summary": "This bill reauthorizes through FY2031 the Earth Mapping Resources Initiative, a U.S. Geological Survey (USGS) program charged with integrating and modernizing the mapping of U.S. natural resources, with a focus on critical mineral resources such as lithium and titanium. The bill also expands the initiative’s data integration functions and requires the USGS to give preference to U.S. contractors under the initiative.",
 "summary_ko": "이 법안은 리튬 및 티타늄과 같은 핵심 광물 자원에 중점을 두고 미국 천연 자원의 매핑을 통합하고 현대화하는 미국 지질 조사국(USGS) 프로그램인 지구 매핑 자원 이니셔티브(Earth Mapping Resources Initiative)를 FY2031까지 재승인합니다. 이 법안은 또한 이니셔티브의 데이터 통합 ​​기능을 확장하고 USGS가 이니셔티브에 따라 미국 계약자에게 우선권을 부여하도록 요구합니다.",
-"updated": "2026-11-19T17:03:29Z",
+"updated": "2026-11-20T13:56:57Z",
 "issues": [
 "minerals"
 ],
 "dir": "지원 확대",
 "group": "earth mri reauthorization act",
 "seen": "2026-11-13T04:47+09:00",
-"changed": "2026-11-20T03:36+09:00"
+"changed": "2026-11-21T02:04+09:00"
+},
+{
+"id": "119-hr11085",
+"type": "HR",
+"number": "11085",
+"label": "H.R. 11085",
+"chamber": "하원",
+"title": "To provide for the establishment of a U.S.-Eritrea Agricultural and Critical Minerals Trade Partnership.",
+"full": "",
+"official": "",
+"official_ko": "미국-에리트레아 농업 및 핵심 광물 무역 파트너십 구축을 제공합니다.",
+"url": "https://www.congress.gov/bill/119th-congress/house-bill/11085",
+"introduced": "2026-11-19",
+"latest": "Referred to the House Committee on Ways and Means.",
+"latest_ko": "하원 세입위원회 회부",
+"latest_date": "2026-11-19",
+"stage": 0,
+"sponsor": {
+"name": "Rep. Baird, James R. [R-IN-4]",
+"first": "James",
+"last": "Baird",
+"party": "R",
+"state": "IN",
+"id": "B001307"
+},
+"cosponsors": {
+"n": 0
+},
+"policy_area": "",
+"topics": [
+"핵심광물"
+],
+"china": false,
+"summary": "",
+"summary_ko": "",
+"updated": "2026-11-20T09:08:15Z",
+"issues": [
+"minerals"
+],
+"dir": "지원 확대",
+"group": "to provide for the establishment of a u s eritrea agricultural and critical minerals trade partnership",
+"seen": "2026-11-21T02:04+09:00",
+"changed": ""
+},
+{
+"id": "119-hr11084",
+"type": "HR",
+"number": "11084",
+"label": "H.R. 11084",
+"chamber": "하원",
+"title": "To provide for the establishment of a U.S.-Ethiopia Agricultural and Critical Minerals Trade Partnership.",
+"full": "",
+"official": "",
+"official_ko": "미국-에티오피아 농업 및 핵심 광물 무역 파트너십 구축을 제공합니다.",
+"url": "https://www.congress.gov/bill/119th-congress/house-bill/11084",
+"introduced": "2026-11-19",
+"latest": "Referred to the House Committee on Ways and Means.",
+"latest_ko": "하원 세입위원회 회부",
+"latest_date": "2026-11-19",
+"stage": 0,
+"sponsor": {
+"name": "Rep. Baird, James R. [R-IN-4]",
+"first": "James",
+"last": "Baird",
+"party": "R",
+"state": "IN",
+"id": "B001307"
+},
+"cosponsors": {
+"n": 0
+},
+"policy_area": "",
+"topics": [
+"핵심광물"
+],
+"china": false,
+"summary": "",
+"summary_ko": "",
+"updated": "2026-11-20T09:07:44Z",
+"issues": [
+"minerals"
+],
+"dir": "지원 확대",
+"group": "to provide for the establishment of a u s ethiopia agricultural and critical minerals trade partnership",
+"seen": "2026-11-21T02:04+09:00",
+"changed": ""
 },
 {
 "id": "119-s789",
@@ -711,7 +844,7 @@
 "china": false,
 "summary": "This bill requires the Environmental Protection Agency (EPA) to establish and carry out a national strategy for recovering critical minerals from discarded materials. Critical minerals are defined as any mineral, element, substance, or material designated as critical by the U.S. Geological Survey because it is essential to U.S. economic or national security, has a vulnerable supply chain, and serves an essential function in manufacturing a product. The EPA must report to Congress every two years on its actions, plans, and recommendations relating to the national strategy.",
 "summary_ko": "이 법안은 환경보호청(EPA)이 버려진 물질에서 핵심 광물을 회수하기 위한 국가 전략을 수립하고 실행하도록 요구합니다. 핵심 광물은 미국 경제 또는 국가 안보에 필수적이고, 취약한 공급망을 갖고, 제품 제조에 필수적인 기능을 수행하기 때문에 미국 지질 조사국(U.S. Geological Survey)에서 중요하다고 지정한 모든 광물, 요소, 물질 또는 재료로 정의됩니다. EPA는 국가 전략과 관련된 조치, 계획 및 권장 사항을 2년마다 의회에 보고해야 합니다.",
-"updated": "2026-10-03T19:06:17Z",
+"updated": "2026-11-20T16:51:40Z",
 "issues": [
 "minerals"
 ],
@@ -2994,53 +3127,6 @@
 ],
 "dir": "규제 강화",
 "group": "green federal fleet act",
-"seen": "",
-"changed": ""
-},
-{
-"id": "119-hr973",
-"type": "HR",
-"number": "973",
-"label": "H.R. 973",
-"chamber": "하원",
-"title": "Setting Consumer Standards for Lithium-Ion Batteries Act",
-"full": "",
-"official": "To establish consumer standards for lithium-ion batteries.",
-"official_ko": "리튬이온 배터리에 대한 소비자 표준을 확립합니다.",
-"url": "https://www.congress.gov/bill/119th-congress/house-bill/973",
-"introduced": "2025-02-04",
-"latest": "Received in the Senate.",
-"latest_ko": "하원 통과 → 상원 접수",
-"latest_date": "2025-04-29",
-"stage": 2,
-"sponsor": {
-"name": "Rep. Torres, Ritchie [D-NY-15]",
-"first": "Ritchie",
-"last": "Torres",
-"party": "D",
-"state": "NY",
-"id": "T000486"
-},
-"cosponsors": {
-"n": 23,
-"R": 6,
-"D": 17
-},
-"policy_area": "Commerce",
-"topics": [
-"배터리·제조",
-"핵심광물"
-],
-"china": false,
-"summary": "This bill requires the Consumer Product Safety Commission to issue a final consumer product safety rule for rechargeable lithium-ion batteries used in micromobility devices, such as electric bikes and electric scooters. Specifically, the rule must require manufacturers and distributors of such products to comply with the applicable safety standards jointly established by the American National Standards Institute, the Standards Council of Canada, and UL Solutions Inc.",
-"summary_ko": "이 법안은 소비자 제품 안전 위원회가 전기 자전거 및 전기 스쿠터와 같은 마이크로모빌리티 장치에 사용되는 충전식 리튬 이온 배터리에 대한 최종 소비자 제품 안전 규칙을 발행하도록 요구합니다. 특히, 이 규칙은 해당 제품의 제조업체 및 유통업체가 미국 표준 협회(American National Standards Institute), 캐나다 표준 위원회(Standards Council of Canada) 및 UL Solutions Inc.가 공동으로 제정한 해당 안전 표준을 준수하도록 요구해야 합니다.",
-"updated": "2026-07-11T22:08:20Z",
-"issues": [
-"minerals",
-"safety"
-],
-"dir": "규제 강화",
-"group": "setting consumer standards for lithium ion batteries act",
 "seen": "",
 "changed": ""
 },
