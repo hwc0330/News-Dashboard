@@ -1,5 +1,55 @@
 [
  {
+  "id": 11534,
+  "date": "11월 20일 금요일",
+  "posted": "2026-11-20T08:19+09:00",
+  "url": "https://t.me/cjdbj/11534",
+  "items": [
+   {
+    "section": "배터리 셀/소재/광물",
+    "tag": "기업",
+    "title": "엘앤에프, 1515억원 CB 발행…LFP 연산 6만톤으로 확대",
+    "source": "블로터",
+    "url": "https://han.gl/j0U5M"
+   },
+   {
+    "section": "배터리 셀/소재/광물",
+    "tag": "시장",
+    "title": "중국 10월 배터리 장착량 99.4GWh 사상 최대…LFP 비중 86.9%",
+    "source": "CnEVPost",
+    "url": "https://han.gl/QItKo"
+   },
+   {
+    "section": "배터리 셀/소재/광물",
+    "tag": "기술",
+    "title": "현대차·기아, 전고체 건식 양극 美 특허…용량 2.3배",
+    "source": "더구루",
+    "url": "https://han.gl/1ewEG"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "정책",
+    "title": "중국, 2030년 신형 저장 300GW 목표…시장 중심 전환",
+    "source": "ESS News",
+    "url": "https://han.gl/ir63A"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "시장",
+    "title": "미국 배터리 저장 누적 200GWh 돌파…올 9월까지 48.3GWh 설치",
+    "source": "Electrek",
+    "url": "https://han.gl/GHWyC"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "정책",
+    "title": "미 상원 BAAJA 최종 표결 지연…부족 사회, 역사보존 조항 반대",
+    "source": "ICT",
+    "url": "https://han.gl/fb1dE"
+   }
+  ]
+ },
+ {
   "id": 11528,
   "date": "11월 19일 목요일",
   "posted": "2026-11-19T08:57+09:00",
@@ -4180,49 +4230,6 @@
     "title": "테슬라 FSD, 리투아니아 출시…유럽 두 번째",
     "source": "reuters",
     "url": "https://han.gl/O9S9l"
-   }
-  ]
- },
- {
-  "id": 10944,
-  "date": "5월 19일 화요일",
-  "posted": "2026-05-19T09:10+09:00",
-  "url": "https://t.me/cjdbj/10944",
-  "items": [
-   {
-    "section": "배터리 셀/소재/광물",
-    "tag": "정책",
-    "title": "EU, 핵심부품 공급망 다변화 의무화 추진",
-    "source": "SBS Biz",
-    "url": "https://han.gl/j9RSC"
-   },
-   {
-    "section": "배터리 셀/소재/광물",
-    "tag": "산업",
-    "title": "엘앤에프, LFP 양극재 공장 준공…3Q 양산",
-    "source": "ZDnet",
-    "url": "https://han.gl/PIXIq"
-   },
-   {
-    "section": "배터리 셀/소재/광물",
-    "tag": "산업",
-    "title": "샤오미, 모터·배터리 자회사 설립…연 15GWh 합작 공장 가동",
-    "source": "electrive",
-    "url": "https://han.gl/3wRSB"
-   },
-   {
-    "section": "EV/ESS",
-    "tag": "산업",
-    "title": "포드 에너지, EDF에 20GWh BESS 공급 계약 체결",
-    "source": "reuters",
-    "url": "https://han.gl/SsNrE"
-   },
-   {
-    "section": "EV/ESS",
-    "tag": "정책",
-    "title": "루마니아, 가정용 태양광 보조금 중단…ESS로 전환",
-    "source": "ess news",
-    "url": "https://han.gl/Ebx6D"
    }
   ]
  }
