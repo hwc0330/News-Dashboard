@@ -3361,7 +3361,7 @@
  },
  {
   "section": "배터리 셀/소재/광물",
-  "tag": "자원",
+  "tag": "기업",
   "impact": "0",
   "key": false,
   "region": "",
@@ -3389,7 +3389,7 @@
  },
  {
   "section": "EV/ESS",
-  "tag": "기술",
+  "tag": "기업",
   "impact": "0",
   "key": false,
   "region": "",
@@ -3568,5 +3568,19 @@
   "source": "글로벌이코노믹",
   "published": "2026-11-20T17:35+09:00",
   "first_seen": "2026-11-21T12:57+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "산업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "레고 베트남 공장, 배터리 가동해 재생전력 75% 충당",
+  "original": "",
+  "url": "https://www.g-enews.com/article/Global-Biz/2026/11/2026112023112515168c1ed9d56c_1",
+  "source": "글로벌이코노믹",
+  "published": "2026-11-20T23:11+09:00",
+  "first_seen": "2026-11-22T08:58+09:00"
  }
 ]
