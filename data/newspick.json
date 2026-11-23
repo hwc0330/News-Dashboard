@@ -1,5 +1,62 @@
 [
  {
+  "id": 11536,
+  "date": "11월 23일 월요일",
+  "posted": "2026-11-23T08:03+09:00",
+  "url": "https://t.me/cjdbj/11536",
+  "items": [
+   {
+    "section": "배터리 셀/소재/광물",
+    "tag": "정책",
+    "title": "미 상무장관, 퓨어 리튬에 지분 51% 요구…일본 대미투자금 10억달러 활용 제안",
+    "source": "글로벌이코노믹",
+    "url": "https://han.gl/X4Zks"
+   },
+   {
+    "section": "배터리 셀/소재/광물",
+    "tag": "자원",
+    "title": "중국 10월 수산화리튬 수출 6348톤…한국 4412톤으로 최대 목적지",
+    "source": "SMM",
+    "url": "https://han.gl/EHckG"
+   },
+   {
+    "section": "배터리 셀/소재/광물",
+    "tag": "기술",
+    "title": "전고체 특허 출원 2230건 역대 최대…삼성SDI 325건",
+    "source": "ESS뉴스",
+    "url": "https://han.gl/klW5K"
+   },
+   {
+    "section": "배터리 셀/소재/광물",
+    "tag": "기업",
+    "title": "LG에너지솔루션, 폴란드 브로츠와프 EV 라인 일부 ESS용 전환",
+    "source": "글로벌이코노믹",
+    "url": "https://han.gl/D9Y5l"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "정책",
+    "title": "전기차 국내생산세액공제 포함 유력…23일 조세소위 심사 재개",
+    "source": "머니투데이",
+    "url": "https://han.gl/6h713"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "정책",
+    "title": "정부, 전기차 국내생산세액공제 대당 250만원 추진…업계 요구는 400만원",
+    "source": "한국경제",
+    "url": "https://han.gl/mD9sf"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "정책",
+    "title": "기아 스페인법인장, 4억유로 전기차 보조금 내년 연장·소급 적용 촉구",
+    "source": "글로벌이코노믹",
+    "url": "https://han.gl/LnJyZ"
+   }
+  ]
+ },
+ {
   "id": 11534,
   "date": "11월 20일 금요일",
   "posted": "2026-11-20T08:19+09:00",
@@ -4180,56 +4237,6 @@
     "title": "스텔란티스 'FaSTLAne 2030' 발표",
     "source": "electrive",
     "url": "https://han.gl/NEJNZ"
-   }
-  ]
- },
- {
-  "id": 10953,
-  "date": "5월 21일 목요일",
-  "posted": "2026-05-21T08:44+09:00",
-  "url": "https://t.me/cjdbj/10953",
-  "items": [
-   {
-    "section": "배터리 셀/소재/광물",
-    "tag": "기술",
-    "title": "포스코퓨처엠, 실리콘 음극재 양산 기술 확보",
-    "source": "연합뉴스",
-    "url": "https://han.gl/pnH7M"
-   },
-   {
-    "section": "배터리 셀/소재/광물",
-    "tag": "정책",
-    "title": "EU, 핵심광물 공동 비축 추진…텅스텐·희토류 우선",
-    "source": "mining. com",
-    "url": "https://han.gl/jwD21"
-   },
-   {
-    "section": "배터리 셀/소재/광물",
-    "tag": "정책",
-    "title": "사용후배터리법 의결…전주기 관리체계 구축",
-    "source": "ZDnet",
-    "url": "https://han.gl/wSp1o"
-   },
-   {
-    "section": "EV/ESS",
-    "tag": "산업",
-    "title": "IEA, 26년 전기차 2,300만대…신차 30% 비중",
-    "source": "electrek",
-    "url": "https://han.gl/kmOuy"
-   },
-   {
-    "section": "EV/ESS",
-    "tag": "산업",
-    "title": "스텔란티스-둥펑, 유럽 NEV 합작 추진",
-    "source": "Gasgoo",
-    "url": "https://han.gl/iM1t1"
-   },
-   {
-    "section": "EV/ESS",
-    "tag": "산업",
-    "title": "테슬라 FSD, 리투아니아 출시…유럽 두 번째",
-    "source": "reuters",
-    "url": "https://han.gl/O9S9l"
    }
   ]
  }
