@@ -2406,5 +2406,61 @@
   "source": "경제일보",
   "published": "2026-11-23T01:00+09:00",
   "first_seen": "2026-11-24T06:44+09:00"
+ },
+ {
+  "section": "배터리 셀/소재/광물",
+  "tag": "시장",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "인도 사라오기 이벤처스, 12월 나트륨이온 배터리 시험 착수",
+  "original": "",
+  "url": "https://www.g-enews.com/article/Global-Biz/2026/11/2026112323292544228c1ed9d56c_1",
+  "source": "글로벌이코노믹",
+  "published": "2026-11-23T23:29+09:00",
+  "first_seen": "2026-11-24T14:36+09:00"
+ },
+ {
+  "section": "기타",
+  "tag": "기타",
+  "impact": "0",
+  "key": false,
+  "region": "US",
+  "policy": "미국",
+  "title": "미국에서 두 번째로 부유한 핵융합 회사의 CEO가 다음 의회에서 원하는 것",
+  "original": "What the CEO of America’s Second-Richest Fusion Company Wants from the Next Congress",
+  "url": "https://heatmap.news/climate-tech/helion-congress-timeline",
+  "source": "Heatmap",
+  "published": "2026-11-23T23:02+09:00",
+  "first_seen": "2026-11-24T14:36+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "Sungrow는 안전성, 유연성, 스마트한 운영 및 유지 관리를 통해 고품질 에너지 저장 경험을 창출한다",
+  "original": "阳光电源以安全、灵活与智慧运维打造高品质储能体验",
+  "url": "http://www.icbattery.com/news/show-htm-itemid-66022.html",
+  "source": "신뤄리튬전지망",
+  "published": "2026-11-23T01:00+09:00",
+  "first_seen": "2026-11-24T14:36+09:00"
+ },
+ {
+  "section": "EV/ESS",
+  "tag": "기업",
+  "impact": "0",
+  "key": false,
+  "region": "",
+  "policy": "",
+  "title": "광둥성 둥관에 위치한 Sanlian Zhiguang 100MW/200MWh 독립 에너지 저장 발전소 프로젝트 공식 착공",
+  "original": "广东东莞三联智光100MW/200MWh独立储能电站项目正式开工",
+  "url": "http://www.icbattery.com/news/show-htm-itemid-66021.html",
+  "source": "신뤄리튬전지망",
+  "published": "2026-11-23T01:00+09:00",
+  "first_seen": "2026-11-24T14:36+09:00"
  }
 ]

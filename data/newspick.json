@@ -1,5 +1,62 @@
 [
  {
+  "id": 11537,
+  "date": "11월 24일 화요일",
+  "posted": "2026-11-24T07:52+09:00",
+  "url": "https://t.me/cjdbj/11537",
+  "items": [
+   {
+    "section": "배터리 셀/소재/광물",
+    "tag": "정책",
+    "title": "中, 배터리 핵심장비 수출 허가제 내년 1월 10일 유예 종료…국내 3사 라인 영향",
+    "source": "디일렉",
+    "url": "https://han.gl/uazyQ"
+   },
+   {
+    "section": "배터리 셀/소재/광물",
+    "tag": "정책",
+    "title": "美 상무장관, 퓨어리튬에 지분 51% 요구했다 무산…핵심광물 지분투자 확대",
+    "source": "더구루",
+    "url": "https://han.gl/p36BV"
+   },
+   {
+    "section": "배터리 셀/소재/광물",
+    "tag": "시장",
+    "title": "EVE에너지 회장 ”中 리튬배터리 소비세로 3년 내 상당수 업체 퇴출“",
+    "source": "더구루",
+    "url": "https://han.gl/gxjgD"
+   },
+   {
+    "section": "배터리 셀/소재/광물",
+    "tag": "기업",
+    "title": "피지티, SK온과 LiPF6 5년 공급계약…내년 생산량 3배↑",
+    "source": "디일렉",
+    "url": "https://han.gl/vtLx0"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "정책",
+    "title": "美 ”캐나다와 무역합의 근접“…중국 EV 연 4만9000대 허용엔 우려",
+    "source": "드라이브테슬라캐나다",
+    "url": "https://han.gl/YQl5X"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "정책",
+    "title": "EU 이사회, 기업 보유 전기차 의무 쿼터 대신 권고 목표로…12월 CO2 규제 표결",
+    "source": "일렉트리브",
+    "url": "https://han.gl/CbbTA"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "정책",
+    "title": "국회예산정책처 ”전기차 일률 보조금 한계…예고 후 선별 지원 전환해야“",
+    "source": "전기신문",
+    "url": "https://han.gl/wVolx"
+   }
+  ]
+ },
+ {
   "id": 11536,
   "date": "11월 23일 월요일",
   "posted": "2026-11-23T08:03+09:00",
@@ -4194,49 +4251,6 @@
     "title": "中 5월 NEV 소매판매 95만대, 침투율 62.5%",
     "source": "cnevpost",
     "url": "https://han.gl/M2lmr"
-   }
-  ]
- },
- {
-  "id": 10957,
-  "date": "5월 22일 금요일",
-  "posted": "2026-05-22T08:57+09:00",
-  "url": "https://t.me/cjdbj/10957",
-  "items": [
-   {
-    "section": "배터리 셀/소재/광물",
-    "tag": "산업",
-    "title": "SK온, 美 테네시 공장 단독화…수주 다변화·재무 개선",
-    "source": "ZDnet",
-    "url": "https://han.gl/JcPSU"
-   },
-   {
-    "section": "배터리 셀/소재/광물",
-    "tag": "기술",
-    "title": "中 간펑리튬, 500Wh/kg 전고체 배터리 양산 진입",
-    "source": "electrive",
-    "url": "https://han.gl/u2wst"
-   },
-   {
-    "section": "EV/ESS",
-    "tag": "산업",
-    "title": "北유럽 EV 점유율 급등…노르웨이 98.6%·덴마크 81.9%",
-    "source": "electrek",
-    "url": "https://han.gl/nY3YP"
-   },
-   {
-    "section": "EV/ESS",
-    "tag": "산업",
-    "title": "테슬라, 中서 FSD 감독형 서비스 개시",
-    "source": "더구루",
-    "url": "https://han.gl/7Ixkq"
-   },
-   {
-    "section": "EV/ESS",
-    "tag": "산업",
-    "title": "스텔란티스 'FaSTLAne 2030' 발표",
-    "source": "electrive",
-    "url": "https://han.gl/NEJNZ"
    }
   ]
  }
