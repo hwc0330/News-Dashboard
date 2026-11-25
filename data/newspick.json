@@ -1,5 +1,62 @@
 [
  {
+  "id": 11540,
+  "date": "11월 25일 수요일",
+  "posted": "2026-11-25T08:15+09:00",
+  "url": "https://t.me/cjdbj/11540",
+  "items": [
+   {
+    "section": "배터리 셀/소재/광물",
+    "tag": "정책",
+    "title": "중국, 갈륨·안티몬·흑연 대미 수출통제 2개월 추가 유예",
+    "source": "머니투데이",
+    "url": "https://han.gl/i4go1"
+   },
+   {
+    "section": "배터리 셀/소재/광물",
+    "tag": "기업",
+    "title": "LG에너지솔루션·하이퍼스트롱, ESS 글로벌 전략 협력 협약",
+    "source": "더구루",
+    "url": "https://han.gl/K8bo5"
+   },
+   {
+    "section": "배터리 셀/소재/광물",
+    "tag": "기업",
+    "title": "CATL, 해상풍력 전문 법인 설립…AI 데이터센터 전력 공략",
+    "source": "더구루",
+    "url": "https://han.gl/isasw"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "정책",
+    "title": "국회 조세소위, 전기차 생산세액공제 심사…이언주 안 대당 400만원",
+    "source": "아시아경제",
+    "url": "https://han.gl/jYxQA"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "정책",
+    "title": "미 의회, 중국산 차량 금지법 추진…하원 이르면 다음주 표결",
+    "source": "드라이브 테슬라 캐나다",
+    "url": "https://han.gl/3Gyqb"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "정책",
+    "title": "미 USTR, 이르면 이번주 과잉생산 301조 조사 결과·관세 발표",
+    "source": "머니투데이",
+    "url": "https://han.gl/amXZt"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "기업",
+    "title": "플루언스, 수주잔고 89억달러…출하 지연에 매출 정체",
+    "source": "ESS 뉴스",
+    "url": "https://han.gl/wemj8"
+   }
+  ]
+ },
+ {
   "id": 11537,
   "date": "11월 24일 화요일",
   "posted": "2026-11-24T07:52+09:00",
@@ -4208,49 +4265,6 @@
     "title": "스텔란티스, 佛 뮬루즈 공장에 10억 유로 EV 투자",
     "source": "reuters",
     "url": "https://han.gl/JGrCl"
-   }
-  ]
- },
- {
-  "id": 10960,
-  "date": "5월 26일 화요일",
-  "posted": "2026-05-26T08:57+09:00",
-  "url": "https://t.me/cjdbj/10960",
-  "items": [
-   {
-    "section": "배터리 셀/소재/광물",
-    "tag": "산업",
-    "title": "인니 보크사이트 수출금지 2년, 공급망 재편",
-    "source": "더구루",
-    "url": "https://han.gl/luFGk"
-   },
-   {
-    "section": "배터리 셀/소재/광물",
-    "tag": "산업",
-    "title": "CATL 인니 합작공장, 7월 LFP 상업운전",
-    "source": "더구루",
-    "url": "https://han.gl/cxGrC"
-   },
-   {
-    "section": "EV/ESS",
-    "tag": "산업",
-    "title": "美 1Q26 BESS 9.7GWh 가동, 32% 증가",
-    "source": "energy storage news",
-    "url": "https://han.gl/A9gv9"
-   },
-   {
-    "section": "EV/ESS",
-    "tag": "산업",
-    "title": "선그로우, 아부다비에 7.5GWh BESS 공급",
-    "source": "ess news",
-    "url": "https://han.gl/P5B8z"
-   },
-   {
-    "section": "EV/ESS",
-    "tag": "산업",
-    "title": "中 5월 NEV 소매판매 95만대, 침투율 62.5%",
-    "source": "cnevpost",
-    "url": "https://han.gl/M2lmr"
    }
   ]
  }
