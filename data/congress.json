@@ -132,12 +132,12 @@
 "counts": {
 "중국 견제": 5,
 "규제 강화": 3,
-"지원 확대": 40,
+"지원 확대": 41,
 "기타": 1
 },
-"pending": 49,
+"pending": 50,
 "laws": [],
-"n": 49
+"n": 50
 },
 {
 "id": "emissions",
@@ -343,8 +343,8 @@
 ],
 "conf_hash": "1b2174f2414f",
 "congress": 119,
-"checked": "2026-11-25T01:01+00:00",
-"updated": "2026-11-25T10:01+09:00",
+"checked": "2026-11-25T09:47+00:00",
+"updated": "2026-11-25T18:47+09:00",
 "topics": [
 "전기차 세액공제",
 "배터리·제조",
@@ -361,6 +361,49 @@
 "법률 제정"
 ],
 "bills": [
+{
+"id": "119-hr11145",
+"type": "HR",
+"number": "11145",
+"label": "H.R. 11145",
+"chamber": "하원",
+"title": "To provide for the establishment of a U.S.-Kenya Agricultural and Critical Minerals Trade Partnership.",
+"full": "",
+"official": "",
+"official_ko": "미국-케냐 농업 및 핵심 광물 무역 파트너십 구축을 제공합니다.",
+"url": "https://www.congress.gov/bill/119th-congress/house-bill/11145",
+"introduced": "2026-11-24",
+"latest": "Referred to the House Committee on Ways and Means.",
+"latest_ko": "하원 세입위원회 회부",
+"latest_date": "2026-11-24",
+"stage": 0,
+"sponsor": {
+"name": "Rep. Baird, James R. [R-IN-4]",
+"first": "James",
+"last": "Baird",
+"party": "R",
+"state": "IN",
+"id": "B001307"
+},
+"cosponsors": {
+"n": 0
+},
+"policy_area": "",
+"topics": [
+"핵심광물"
+],
+"china": false,
+"summary": "",
+"summary_ko": "",
+"updated": "2026-11-25T09:05:43Z",
+"issues": [
+"minerals"
+],
+"dir": "지원 확대",
+"group": "to provide for the establishment of a u s kenya agricultural and critical minerals trade partnership",
+"seen": "2026-11-25T18:47+09:00",
+"changed": ""
+},
 {
 "id": "119-hr973",
 "type": "HR",
