@@ -1,5 +1,62 @@
 [
  {
+  "id": 11547,
+  "date": "11월 26일 목요일",
+  "posted": "2026-11-26T08:10+09:00",
+  "url": "https://t.me/cjdbj/11547",
+  "items": [
+   {
+    "section": "배터리 셀/소재/광물",
+    "tag": "기업",
+    "title": "LG엔솔, 차세대 LMR 배터리 양산라인 준비…GM 요청에 각형",
+    "source": "디일렉",
+    "url": "https://han.gl/nxm94"
+   },
+   {
+    "section": "배터리 셀/소재/광물",
+    "tag": "정책",
+    "title": "美 배터리업계, 백악관서 나트륨이온 지원 요청…45X 포함 추진",
+    "source": "더구루",
+    "url": "https://han.gl/w7SYb"
+   },
+   {
+    "section": "배터리 셀/소재/광물",
+    "tag": "기술",
+    "title": "전고체 특허 출원 첫 리튬이온 추월…삼성SDI 325건, 도요타의 2배",
+    "source": "더구루",
+    "url": "https://han.gl/kCnSr"
+   },
+   {
+    "section": "배터리 셀/소재/광물",
+    "tag": "기업",
+    "title": "샤오펑 휴머노이드 아이언, 300Wh/kg 전고체 팩 탑재…내년 1월 양산",
+    "source": "CnEVPost",
+    "url": "https://han.gl/NHMaf"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "정책",
+    "title": "민주당, 동결 에너지 보조금 20억달러 집행 압박 전망…EV 공제도 거론",
+    "source": "The Information",
+    "url": "https://han.gl/YNoaa"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "정책",
+    "title": "EU 산업가속화법 절충안, 한·일 부품 유럽산 인정 후보국 포함",
+    "source": "더구루",
+    "url": "https://han.gl/JjhQE"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "정책",
+    "title": "EU ’메이드 인 유럽‘ 절충안…한·일 자동차 부품 적격 원산지 후보에",
+    "source": "더구루",
+    "url": "https://han.gl/WbGHh"
+   }
+  ]
+ },
+ {
   "id": 11540,
   "date": "11월 25일 수요일",
   "posted": "2026-11-25T08:15+09:00",
@@ -4229,42 +4286,6 @@
     "title": "EU 4월 BEV 등록 37.7%↑…독·프·이 강세",
     "source": "electrive",
     "url": "https://han.gl/ezOMM"
-   }
-  ]
- },
- {
-  "id": 10964,
-  "date": "5월 27일 수요일",
-  "posted": "2026-05-27T08:33+09:00",
-  "url": "https://t.me/cjdbj/10964",
-  "items": [
-   {
-    "section": "배터리 셀/소재/광물",
-    "tag": "기업",
-    "title": "LG엔솔, 혼다 JV 건물자산 3.7조원 매각",
-    "source": "연합뉴스",
-    "url": "https://han.gl/fE3hr"
-   },
-   {
-    "section": "배터리 셀/소재/광물",
-    "tag": "산업",
-    "title": "고려아연, 호주 핵심광물 통합처리시설 추진",
-    "source": "더구루",
-    "url": "https://han.gl/qg8Nf"
-   },
-   {
-    "section": "EV/ESS",
-    "tag": "기업",
-    "title": "페라리 첫 전기차 '루체'에 SK온 배터리 탑재",
-    "source": "더구루",
-    "url": "https://han.gl/pBsNn"
-   },
-   {
-    "section": "EV/ESS",
-    "tag": "기업",
-    "title": "스텔란티스, 佛 뮬루즈 공장에 10억 유로 EV 투자",
-    "source": "reuters",
-    "url": "https://han.gl/JGrCl"
    }
   ]
  }
