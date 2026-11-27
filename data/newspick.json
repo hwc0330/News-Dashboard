@@ -1,5 +1,62 @@
 [
  {
+  "id": 11553,
+  "date": "11월 27일 금요일",
+  "posted": "2026-11-27T08:08+09:00",
+  "url": "https://t.me/cjdbj/11553",
+  "items": [
+   {
+    "section": "배터리 셀/소재/광물",
+    "tag": "기업",
+    "title": "삼성SDI, 자사주 350만주 소각 결정…시가 1조4234억원",
+    "source": "머니투데이",
+    "url": "https://han.gl/MLUeO"
+   },
+   {
+    "section": "배터리 셀/소재/광물",
+    "tag": "시장",
+    "title": "10월 글로벌 리튬전지 생산 311.7GWh…ESS용 86% 급증",
+    "source": "신뤄리튬전지망",
+    "url": "https://han.gl/9te9D"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "정책",
+    "title": "EU 고위험 인버터 제한, 유럽 ESS 13GW 노출",
+    "source": "ESS뉴스",
+    "url": "https://han.gl/qpi9H"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "정책",
+    "title": "스페인, 전기차 구매보조금 예산 소진…보충 계획 없어",
+    "source": "electrive",
+    "url": "https://han.gl/5kL3G"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "정책",
+    "title": "미 행정부, 중국산 일부 20% 신규 관세 제안…최대 40% 상향 가능",
+    "source": "폴리티컬와이어·뉴욕타임스",
+    "url": "https://han.gl/qTmka"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "정책",
+    "title": "ESS 중앙계약 3차 입찰 14개소 1194MW 선정…호남 85%",
+    "source": "머니투데이",
+    "url": "https://han.gl/6Su4p"
+   },
+   {
+    "section": "EV/ESS",
+    "tag": "시장",
+    "title": "이탈리아 2차 MACSE 경매 ESS 16GWh 낙찰…1차보다 12% 낮은 가격",
+    "source": "energy storage news",
+    "url": "https://han.gl/J4Tty"
+   }
+  ]
+ },
+ {
   "id": 11547,
   "date": "11월 26일 목요일",
   "posted": "2026-11-26T08:10+09:00",
@@ -4250,42 +4307,6 @@
     "title": "아르헨티나 ESS 입찰에 8.3GW 몰려",
     "source": "cnevpost",
     "url": "https://han.gl/TVo4e"
-   }
-  ]
- },
- {
-  "id": 10973,
-  "date": "5월 28일 목요일",
-  "posted": "2026-05-28T09:06+09:00",
-  "url": "https://t.me/cjdbj/10973",
-  "items": [
-   {
-    "section": "배터리 셀/소재/광물",
-    "tag": "산업",
-    "title": "SKIET, 中 공장 매각·증평 가동 중단…폴란드 집중",
-    "source": "글로벌이코노믹",
-    "url": "https://han.gl/ujc4A"
-   },
-   {
-    "section": "배터리 셀/소재/광물",
-    "tag": "산업",
-    "title": "대만 프로로지움, SPAC 합병으로 나스닥 상장 추진",
-    "source": "mining. com",
-    "url": "https://han.gl/7WNKb"
-   },
-   {
-    "section": "EV/ESS",
-    "tag": "산업",
-    "title": "中 전기차, 4월 수출 40% 급증…브라질·EU 공략 가속",
-    "source": "더구루",
-    "url": "https://han.gl/Fqvx5"
-   },
-   {
-    "section": "EV/ESS",
-    "tag": "산업",
-    "title": "EU 4월 BEV 등록 37.7%↑…독·프·이 강세",
-    "source": "electrive",
-    "url": "https://han.gl/ezOMM"
    }
   ]
  }
